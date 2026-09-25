@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr61-rfr-actual-merge-e35c01d0",
-    "acquired_at": "2026-09-25T13:49:59.293Z",
-    "expires_at": "2026-09-25T14:19:59.293Z",
-    "delivery_ids": [
-      "e35c01d0-b8e7-11f1-96d7-4d8b3b56da1a"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -217,6 +210,16 @@
       "checked_on": "2026-09-25T13:43:46.155Z",
       "outcome": "duplicate_same_head_no_new_actionable_handoff",
       "note": "Second synchronization delivery resolves to the same reviewed head; no additional evidence or routing change."
+    },
+    {
+      "delivery_id": "e35c01d0-b8e7-11f1-96d7-4d8b3b56da1a",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 61,
+      "head_sha": "3ecfbec3a1c32b0aab27bdcd8d9918720afb131e",
+      "checked_on": "2026-09-25T13:50:40.333Z",
+      "outcome": "actual_state_merged_metadata_followup",
+      "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
+      "note": "Actual GitHub state is merged with no open PRs. Evidence and all three page records are present; only the shared event status and enforcement disposition remain stale as proposed."
     }
   ],
   "suggestions": [
@@ -258,6 +261,16 @@
       "updated_on": "2026-09-25T13:41:56.234Z",
       "progress": "Resolved by merged PR #60; main now contains the corrected routing metadata and merged-status normalization.",
       "resolved_on": "2026-09-25T13:41:56.234Z"
+    },
+    {
+      "id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
+      "country": "Sweden",
+      "target": ".github/agents/evidence-routing/events.json",
+      "created_on": "2026-09-25T13:50:40.333Z",
+      "status": "open",
+      "proposed_change": "Create a metadata-only follow-up PR: set event se-pts-supervision-2025-report to already_present; replace the PR-review next action with no further action for the delivered change; set the enforcement destination to already_present and note that it was delivered in merged PR #61. Preserve the monitoring destination as already_present and sanctions as research_only.",
+      "evidence": "PR #61 is merged into main. Main now contains the qualified Sweden enforcement paragraph, enforcement claim se-pts-2025-report-totals, monitoring supporting research, and sanctions research-only assessment.",
+      "limitations": "No public factual page or country research change is needed. The report supplies historical 2025 activity, not confirmed violations, penalties, or later case outcomes."
     }
   ]
 }
