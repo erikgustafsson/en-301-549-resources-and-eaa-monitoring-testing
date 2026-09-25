@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr63-open-9e0e2af0",
-    "acquired_at": "2026-09-25T14:16:47.601Z",
-    "expires_at": "2026-09-25T14:46:47.601Z",
-    "delivery_ids": [
-      "9e0e2af0-b8eb-11f1-995f-452c93a683a6"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -255,6 +248,16 @@
       "checked_on": "2026-09-25T13:59:47.826Z",
       "outcome": "ignored_documentation_only",
       "note": "Synchronization adds independent review documentation, corrects an instruction-only ledger path, and refreshes the base to preserve merged PR #61. It changes no evidence event, research record, public page or factual claim and does not cover the open Sweden post-merge status normalization."
+    },
+    {
+      "delivery_id": "9e0e2af0-b8eb-11f1-995f-452c93a683a6",
+      "event": "pull_request.opened",
+      "pull_request": 63,
+      "head_sha": "67ce4b6273a45355ba7ee9841943bd0bef42f405",
+      "checked_on": "2026-09-25T14:17:46.442Z",
+      "outcome": "existing_suggestion_requires_update_in_pr63",
+      "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
+      "note": "Lossless migration preserves all Sweden cross-page evidence, but it copies the stale post-PR61 proposed status into the canonical Sweden delivery and generated events index. No other cross-page evidence loss found in the scoped Sweden check."
     }
   ],
   "suggestions": [
@@ -300,12 +303,15 @@
     {
       "id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
       "country": "Sweden",
-      "target": ".github/agents/evidence-routing/events.json",
+      "target": "PR #63 canonical Sweden delivery and generated routing index",
       "created_on": "2026-09-25T13:50:40.333Z",
-      "status": "open",
-      "proposed_change": "Create a metadata-only follow-up PR: set event se-pts-supervision-2025-report to already_present; replace the PR-review next action with no further action for the delivered change; set the enforcement destination to already_present and note that it was delivered in merged PR #61. Preserve the monitoring destination as already_present and sanctions as research_only.",
+      "status": "actionable_in_pr63",
+      "proposed_change": "Update .github/agents/research/countries/sweden.json delivery se-pts-supervision-2025-report: set the event and enforcement destination to already_present, replace PR-review next actions with no further action for the delivered change, and retain PR #61 as the delivery reference. Preserve monitoring as already_present and sanctions as research_only; regenerate .github/agents/evidence-routing/events.json from the canonical delivery.",
       "evidence": "PR #61 is merged into main. Main now contains the qualified Sweden enforcement paragraph, enforcement claim se-pts-2025-report-totals, monitoring supporting research, and sanctions research-only assessment.",
-      "limitations": "No public factual page or country research change is needed. The report supplies historical 2025 activity, not confirmed violations, penalties, or later case outcomes."
+      "limitations": "No public factual page or country research change is needed. The report supplies historical 2025 activity, not confirmed violations, penalties, or later case outcomes.",
+      "covering_pr": 63,
+      "updated_on": "2026-09-25T14:17:46.442Z",
+      "progress": "PR #63 migrates the stale proposed status unchanged and touches both the canonical Sweden record and generated events.json, so the correction belongs in this open PR before its migration is merged."
     }
   ]
 }
