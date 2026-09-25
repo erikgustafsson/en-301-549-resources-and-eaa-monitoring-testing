@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr64-merge-combined-17791d10-1c518020",
-    "acquired_at": "2026-09-25T18:23:14.548Z",
-    "expires_at": "2026-09-25T18:53:14.548Z",
-    "delivery_ids": [
-      "17791d10-b90e-11f1-8012-0f2b0fe2cb6a",
-      "1c518020-b90e-11f1-81a6-2f0a080f0707"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -323,6 +315,24 @@
       "checked_on": "2026-09-25T18:21:57.185Z",
       "outcome": "ignored_documentation_only",
       "note": "PR #64 adds only a shared Markdown/HTML table-spacing instruction. It changes no evidence event, canonical research record, public page or factual claim and does not cover the open Sweden normalization suggestion."
+    },
+    {
+      "delivery_id": "17791d10-b90e-11f1-8012-0f2b0fe2cb6a",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 64,
+      "head_sha": "1e1f5023bdcb9d6f59ca2e196e45dd8da352e67e",
+      "checked_on": "2026-09-25T18:23:36.372Z",
+      "outcome": "superseded_by_merge_documentation_only",
+      "note": "Later merge is authoritative; PR #64 changes only shared presentation instructions."
+    },
+    {
+      "delivery_id": "1c518020-b90e-11f1-81a6-2f0a080f0707",
+      "event": "pull_request.merged",
+      "pull_request": 64,
+      "head_sha": "1e1f5023bdcb9d6f59ca2e196e45dd8da352e67e",
+      "checked_on": "2026-09-25T18:23:36.372Z",
+      "outcome": "ignored_documentation_only",
+      "note": "Merged Markdown/HTML table-spacing guidance only. No evidence event, canonical research record, public page or factual claim changed."
     }
   ],
   "suggestions": [
@@ -374,8 +384,8 @@
       "proposed_change": "Create a small migration-aware follow-up PR: in .github/agents/research/countries/sweden.json set delivery se-pts-supervision-2025-report and its enforcement destination to already_present; replace PR-review next actions with no further action for the delivered change; retain PR #61 as the enforcement delivery reference; preserve monitoring already_present and sanctions research_only. Then regenerate .github/agents/evidence-routing/events.json with the repository generator.",
       "evidence": "PR #61 is merged into main. Main now contains the qualified Sweden enforcement paragraph, enforcement claim se-pts-2025-report-totals, monitoring supporting research, and sanctions research-only assessment.",
       "limitations": "No public factual page or country research change is needed. The report supplies historical 2025 activity, not confirmed violations, penalties, or later case outcomes.",
-      "updated_on": "2026-09-25T18:21:57.185Z",
-      "progress": "PR #64 is documentation-only and does not cover this correction. No open PR currently updates the canonical Sweden delivery and generated routing index."
+      "updated_on": "2026-09-25T18:23:36.372Z",
+      "progress": "PR #64 merged as documentation-only and did not cover this correction. No open PR currently updates the canonical Sweden delivery and generated routing index."
     }
   ]
 }
