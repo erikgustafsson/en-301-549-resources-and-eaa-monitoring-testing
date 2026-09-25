@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr61-merge-eb3548d0",
-    "acquired_at": "2026-09-25T13:51:47.048Z",
-    "expires_at": "2026-09-25T14:21:47.048Z",
-    "delivery_ids": [
-      "eb3548d0-b8e7-11f1-827b-547222011a5b"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -227,6 +220,16 @@
       "outcome": "actual_state_merged_metadata_followup",
       "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
       "note": "Actual GitHub state is merged with no open PRs. Evidence and all three page records are present; only the shared event status and enforcement disposition remain stale as proposed."
+    },
+    {
+      "delivery_id": "eb3548d0-b8e7-11f1-827b-547222011a5b",
+      "event": "pull_request.merged",
+      "pull_request": 61,
+      "head_sha": "3ecfbec3a1c32b0aab27bdcd8d9918720afb131e",
+      "checked_on": "2026-09-25T13:52:06.972Z",
+      "outcome": "duplicate_existing_suggestion",
+      "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
+      "note": "Explicit merge delivery confirms the already-evaluated main state. No open PR covers the existing metadata-only normalization suggestion; no additional evidence handoff was found."
     }
   ],
   "suggestions": [
