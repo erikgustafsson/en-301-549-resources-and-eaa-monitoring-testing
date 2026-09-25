@@ -1,6 +1,11 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr59-open-b7c07550-b8de-11f1-90d5-cb10d06fe9bd",
+    "acquired_at": "2026-09-25T12:43:42Z",
+    "expires_at": "2026-09-25T13:13:42Z",
+    "delivery_id": "b7c07550-b8de-11f1-90d5-cb10d06fe9bd"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
