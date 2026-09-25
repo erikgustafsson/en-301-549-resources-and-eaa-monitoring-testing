@@ -1,11 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr57-ready-0f62cde0-b8de-11f1-9af7-6ac752360a6e",
-    "acquired_at": "2026-09-25T12:38:59Z",
-    "expires_at": "2026-09-25T13:08:59Z",
-    "delivery_id": "0f62cde0-b8de-11f1-9af7-6ac752360a6e"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -77,6 +72,35 @@
       "checked_on": "2026-09-25T12:36:53Z",
       "outcome": "ignored_process_only",
       "note": "Actual PR is now merged. Changes only enforcement validator, record format and regression tests for EU territory classification; no correspondence, evidence, research record or public page handoff."
+    },
+    {
+      "delivery_id": "c8015610-b8dd-11f1-857e-85a469b334e1",
+      "event": "pull_request.merged",
+      "pull_request": 58,
+      "outcome": "ignored_process_only",
+      "checked_on": "2026-09-25T12:38:59Z"
+    },
+    {
+      "delivery_id": "e7f4f670-b8dd-11f1-9961-830ff9c56e58",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 56,
+      "outcome": "superseded_by_merge",
+      "checked_on": "2026-09-25T12:38:59Z"
+    },
+    {
+      "delivery_id": "ec7156d0-b8dd-11f1-8456-4f09b5725a33",
+      "event": "pull_request.merged",
+      "pull_request": 56,
+      "outcome": "policy_now_on_main",
+      "checked_on": "2026-09-25T12:38:59Z"
+    },
+    {
+      "delivery_id": "0f62cde0-b8de-11f1-9af7-6ac752360a6e",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 57,
+      "outcome": "actual_state_merged_metadata_followup",
+      "suggestion_id": "cross-page-ledger|post-pr55-pr57-merges|status-normalization",
+      "checked_on": "2026-09-25T12:38:59Z"
     }
   ],
   "suggestions": [
@@ -85,10 +109,21 @@
       "country": "Estonia",
       "target": "PR #57 evidence-routing metadata",
       "created_on": "2026-09-25T12:07:42Z",
-      "status": "open",
+      "status": "superseded_by_pr57_merge",
       "proposed_change": "Change the monitoring destination in events.json from proposed/PR #55 review to already_present/merged PR #55; update PR #57 enforcement record and audit wording that still says PR #55 is pending.",
       "evidence": "PR #55 merged into main; main .github/agents/research/estonia.json contains the 25 September TTJA reply.",
-      "limitations": "No sanctions update is supported; enforcement content remains covered by PR #57."
+      "limitations": "No sanctions update is supported; enforcement content remains covered by PR #57.",
+      "resolved_on": "2026-09-25T12:38:59Z"
+    },
+    {
+      "id": "cross-page-ledger|post-pr55-pr57-merges|status-normalization",
+      "country": "Estonia and France",
+      "target": "Evidence-routing metadata on main",
+      "created_on": "2026-09-25T12:38:59Z",
+      "status": "open",
+      "proposed_change": "Create a small follow-up PR: mark Estonia monitoring/enforcement and France enforcement destinations already_present after merged PRs #55/#57; change top-level proposed statuses accordingly; remove 'open PR #55'/'until merged' wording from audit and Estonia enforcement research. Keep Estonia sanctions not_applicable and unresolved Luxembourg/Belgium/Sweden/Italy dispositions unchanged.",
+      "evidence": "PRs #55, #56, #57 and #58 are merged; main contains the evidence, public enforcement update, shared routing policy and process-only territory support.",
+      "limitations": "Metadata correction only; no new factual assertion, sanctions finding or country research."
     }
   ]
 }
