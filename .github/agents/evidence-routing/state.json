@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr61-sync-combined-a43c9a60-e267d340",
-    "acquired_at": "2026-09-25T13:42:36.573Z",
-    "expires_at": "2026-09-25T14:12:36.573Z",
-    "delivery_ids": [
-      "a43c9a60-b8e6-11f1-896e-2924ba5c7e8c",
-      "e267d340-b8e6-11f1-8172-4c842a885416"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -200,6 +192,24 @@
       "checked_on": "2026-09-25T13:41:56.234Z",
       "outcome": "no_new_actionable_handoff",
       "note": "Sweden PTS 2025 report is routed to enforcement, monitoring and sanctions research. Enforcement has the qualified public proposal; monitoring is already present and sanctions is research_only. No additional cross-page change is supported."
+    },
+    {
+      "delivery_id": "a43c9a60-b8e6-11f1-896e-2924ba5c7e8c",
+      "event": "pull_request.synchronize",
+      "pull_request": 61,
+      "head_sha": "3ecfbec3a1c32b0aab27bdcd8d9918720afb131e",
+      "checked_on": "2026-09-25T13:43:46.155Z",
+      "outcome": "no_new_actionable_handoff",
+      "note": "Synchronization adds independent review documentation and PR-description validation detail only. The Sweden PTS evidence remains correctly routed to monitoring, enforcement and sanctions; official report lines 537-598 support the scoped claims."
+    },
+    {
+      "delivery_id": "e267d340-b8e6-11f1-8172-4c842a885416",
+      "event": "pull_request.synchronize",
+      "pull_request": 61,
+      "head_sha": "3ecfbec3a1c32b0aab27bdcd8d9918720afb131e",
+      "checked_on": "2026-09-25T13:43:46.155Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "note": "Second synchronization delivery resolves to the same reviewed head; no additional evidence or routing change."
     }
   ],
   "suggestions": [
