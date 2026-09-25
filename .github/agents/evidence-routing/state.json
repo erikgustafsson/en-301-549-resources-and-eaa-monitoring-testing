@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr64-merge-combined-17791d10-1c518020",
+    "acquired_at": "2026-09-25T18:23:14.548Z",
+    "expires_at": "2026-09-25T18:53:14.548Z",
+    "delivery_ids": [
+      "17791d10-b90e-11f1-8012-0f2b0fe2cb6a",
+      "1c518020-b90e-11f1-81a6-2f0a080f0707"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
