@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr62-merge-combined-34241a90-3c7ccac0",
+    "acquired_at": "2026-09-25T14:21:00.770Z",
+    "expires_at": "2026-09-25T14:51:00.770Z",
+    "delivery_ids": [
+      "34241a90-b8ec-11f1-8afd-3e732d205e3c",
+      "3c7ccac0-b8ec-11f1-9c04-d0a59c2bb55f"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
