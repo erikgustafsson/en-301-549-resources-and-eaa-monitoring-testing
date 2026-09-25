@@ -1,11 +1,60 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr57-sync-444fa3c0-b8d9-11f1-90b0-f181c60ade89",
-    "acquired_at": "2026-09-25T12:05:01Z",
-    "expires_at": "2026-09-25T12:35:01Z",
-    "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89"
-  },
-  "processed_events": [],
+  "lease": null,
+  "processed_events": [
+    {
+      "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
+      "event": "pull_request.synchronize",
+      "pull_request": 57,
+      "head_sha": "31e6a32fa94388f0a500e35bf9f124ace747da06",
+      "checked_on": "2026-09-25T12:05:01Z",
+      "outcome": "no_new_actionable_handoff",
+      "covered_by": [
+        {
+          "evidence": "estonia-ttja-20260925",
+          "targets": [
+            "PR #55 monitoring research",
+            "PR #57 enforcement research/page"
+          ],
+          "sanctions": "not_applicable"
+        },
+        {
+          "evidence": "france-dgccrf-20260925",
+          "targets": [
+            "merged monitoring record",
+            "PR #57 enforcement URL/record"
+          ],
+          "sanctions": "not_applicable"
+        },
+        {
+          "evidence": "luxembourg-osaps-20251117",
+          "targets": [
+            "monitoring record",
+            "PR #57 enforcement research-only follow-up"
+          ]
+        },
+        {
+          "evidence": "belgium-inter-context",
+          "targets": [
+            "monitoring record",
+            "PR #57 enforcement research-only lead"
+          ]
+        },
+        {
+          "evidence": "seed-discovery-2-2026-09-25",
+          "targets": [
+            "PR #57 Sweden monitoring research task"
+          ]
+        },
+        {
+          "evidence": "seed-discovery-3-2026-09-25",
+          "targets": [
+            "PR #57 Italy monitoring research task"
+          ]
+        }
+      ],
+      "note": "PR #57 synchronization adds per-page dispositions and review reports. Open PRs #55, #56 and #57 cover all reviewed handoffs; no additional PR suggestion."
+    }
+  ],
   "suggestions": []
 }
