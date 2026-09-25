@@ -1,11 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr60-open-4d70dda0-b8e5-11f1-8bf0-d2bcd913fc86",
-    "acquired_at": "2026-09-25T13:30:50Z",
-    "expires_at": "2026-09-25T14:00:50Z",
-    "delivery_id": "4d70dda0-b8e5-11f1-8bf0-d2bcd913fc86"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -152,6 +147,15 @@
       "outcome": "duplicate_existing_followup",
       "suggestion_id": "pr59|seven-events|cross-page-paths-and-merged-statuses",
       "note": "Explicit merge event confirms already-reviewed main state; no additional handoff beyond the recorded metadata-only follow-up."
+    },
+    {
+      "delivery_id": "4d70dda0-b8e5-11f1-8bf0-d2bcd913fc86",
+      "event": "pull_request.opened",
+      "pull_request": 60,
+      "head_sha": "4ce9345c86b943d71b5d6a7c008a552f41253d8a",
+      "checked_on": "2026-09-25T13:30:50Z",
+      "outcome": "existing_suggestions_fully_covered",
+      "note": "Metadata-only PR correctly normalizes merged statuses, destination paths and stale PR wording. No public facts or pages changed."
     }
   ],
   "suggestions": [
@@ -171,25 +175,26 @@
       "country": "Estonia and France",
       "target": "Evidence-routing metadata on main",
       "created_on": "2026-09-25T12:38:59Z",
-      "status": "covered_if_pr59_updated",
+      "status": "covered_by_pr60",
       "proposed_change": "Create a small follow-up PR: mark Estonia monitoring/enforcement and France enforcement destinations already_present after merged PRs #55/#57; change top-level proposed statuses accordingly; remove 'open PR #55'/'until merged' wording from audit and Estonia enforcement research. Keep Estonia sanctions not_applicable and unresolved Luxembourg/Belgium/Sweden/Italy dispositions unchanged.",
       "evidence": "PRs #55, #56, #57 and #58 are merged; main contains the evidence, public enforcement update, shared routing policy and process-only territory support.",
       "limitations": "Metadata correction only; no new factual assertion, sanctions finding or country research.",
-      "updated_on": "2026-09-25T12:43:42Z",
-      "covering_pr": 59
+      "updated_on": "2026-09-25T13:30:50Z",
+      "covering_pr": 60,
+      "progress": "PR #60 fully addresses the recorded metadata issues; completion awaits merge."
     },
     {
       "id": "pr59|seven-events|cross-page-paths-and-merged-statuses",
       "country": "Finland, France, Germany, Ireland, Slovenia, Canada and United Kingdom",
       "target": "PR #59 evidence-routing ledger",
       "created_on": "2026-09-25T12:43:42Z",
-      "status": "requires_followup_pr",
-      "covering_pr": 59,
+      "status": "covered_by_pr60",
+      "covering_pr": 60,
       "proposed_change": "Before merge, fix all seven new events so monitoring destinations reference .github/agents/research/<country>.json and sanctions destinations reference .github/agents/research/sanctions/<country>.json, or null with an explicit no-applicable-record reason where a non-EU record does not exist. Set enforcement proposal PR references to #59. Also fold in post-merge normalization for Estonia/France and remove stale PR #55/#57 pending wording.",
       "evidence": "PR #59 introduces seven enforcement findings and events. The events currently point monitoring and sanctions destinations to enforcement records. Main still marks merged Estonia/France destinations proposed and contains pending-PR wording.",
       "limitations": "No monitoring/sanctions public change is supported by these activity claims; retain not_applicable where appropriate. This is routing metadata/research provenance, not a new country research pass.",
-      "updated_on": "2026-09-25T13:04:09Z",
-      "progress": "PR #59 merged without correcting monitoring/sanctions destination paths or merged Estonia/France statuses and stale PR #55 wording. No open PR remains; metadata-only follow-up required."
+      "updated_on": "2026-09-25T13:30:50Z",
+      "progress": "PR #60 fully addresses the recorded metadata issues; completion awaits merge."
     }
   ]
 }
