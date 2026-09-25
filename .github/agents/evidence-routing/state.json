@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr63-merge-4bf132c0",
-    "acquired_at": "2026-09-25T15:34:36.917Z",
-    "expires_at": "2026-09-25T16:04:36.917Z",
-    "delivery_ids": [
-      "4bf132c0-b8f6-11f1-9661-5950d785864e"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -303,6 +296,16 @@
       "outcome": "actual_state_merged_existing_suggestion_unresolved",
       "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
       "note": "Actual GitHub state is merged with no open PRs. The canonical Sweden delivery and generated index on main still retain the stale proposed/Review PR #61 state; evidence and public content remain intact."
+    },
+    {
+      "delivery_id": "4bf132c0-b8f6-11f1-9661-5950d785864e",
+      "event": "pull_request.merged",
+      "pull_request": 63,
+      "head_sha": "b537c424797977d878fce9638dd253e8bea8a822",
+      "checked_on": "2026-09-25T15:34:53.973Z",
+      "outcome": "duplicate_existing_suggestion",
+      "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
+      "note": "Explicit merge event confirms the already-reviewed main state. No open PR covers the recorded Sweden canonical-delivery normalization; no additional cross-page handoff was found."
     }
   ],
   "suggestions": [
