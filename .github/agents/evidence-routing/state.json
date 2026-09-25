@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr61-merge-eb3548d0",
+    "acquired_at": "2026-09-25T13:51:47.048Z",
+    "expires_at": "2026-09-25T14:21:47.048Z",
+    "delivery_ids": [
+      "eb3548d0-b8e7-11f1-827b-547222011a5b"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
