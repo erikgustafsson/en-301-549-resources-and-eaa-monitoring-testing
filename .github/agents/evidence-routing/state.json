@@ -1,11 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr58-ready-c4e71dc0-b8dd-11f1-94b3-c6a5a7832140",
-    "acquired_at": "2026-09-25T12:36:53Z",
-    "expires_at": "2026-09-25T13:06:53Z",
-    "delivery_id": "c4e71dc0-b8dd-11f1-94b3-c6a5a7832140"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -68,6 +63,15 @@
       "outcome": "new_metadata_followup",
       "suggestion_id": "estonia-ttja-20260925|monitoring|pr55-merged-status-in-pr57",
       "note": "Estonia monitoring evidence is now on main. PR #57 covers enforcement; sanctions remains not_applicable. PR #58 is process-only and unrelated."
+    },
+    {
+      "delivery_id": "c4e71dc0-b8dd-11f1-94b3-c6a5a7832140",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 58,
+      "head_sha": "7d65eb77a376431ce1da7e6e55c7b29370ac4cd0",
+      "checked_on": "2026-09-25T12:36:53Z",
+      "outcome": "ignored_process_only",
+      "note": "Actual PR is now merged. Changes only enforcement validator, record format and regression tests for EU territory classification; no correspondence, evidence, research record or public page handoff."
     }
   ],
   "suggestions": [
