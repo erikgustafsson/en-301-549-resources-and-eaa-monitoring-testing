@@ -1,11 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr59-sync-11056f70-b8e0-11f1-9823-197c3f6254dc",
-    "acquired_at": "2026-09-25T12:53:19Z",
-    "expires_at": "2026-09-25T13:23:19Z",
-    "delivery_id": "11056f70-b8e0-11f1-9823-197c3f6254dc"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -124,6 +119,15 @@
       "checked_on": "2026-09-25T12:43:42Z",
       "outcome": "new_actionable_cross_page_metadata",
       "suggestion_id": "pr59|seven-events|cross-page-paths-and-merged-statuses"
+    },
+    {
+      "delivery_id": "11056f70-b8e0-11f1-9823-197c3f6254dc",
+      "event": "pull_request.synchronize",
+      "pull_request": 59,
+      "head_sha": "dc4e93c8da9500bd94bb3a32055210679c936413",
+      "checked_on": "2026-09-25T12:53:19Z",
+      "outcome": "partial_fix_remaining_actionable",
+      "suggestion_id": "pr59|seven-events|cross-page-paths-and-merged-statuses"
     }
   ],
   "suggestions": [
@@ -155,11 +159,13 @@
       "country": "Finland, France, Germany, Ireland, Slovenia, Canada and United Kingdom",
       "target": "PR #59 evidence-routing ledger",
       "created_on": "2026-09-25T12:43:42Z",
-      "status": "open",
+      "status": "open_partial",
       "covering_pr": 59,
       "proposed_change": "Before merge, fix all seven new events so monitoring destinations reference .github/agents/research/<country>.json and sanctions destinations reference .github/agents/research/sanctions/<country>.json, or null with an explicit no-applicable-record reason where a non-EU record does not exist. Set enforcement proposal PR references to #59. Also fold in post-merge normalization for Estonia/France and remove stale PR #55/#57 pending wording.",
       "evidence": "PR #59 introduces seven enforcement findings and events. The events currently point monitoring and sanctions destinations to enforcement records. Main still marks merged Estonia/France destinations proposed and contains pending-PR wording.",
-      "limitations": "No monitoring/sanctions public change is supported by these activity claims; retain not_applicable where appropriate. This is routing metadata/research provenance, not a new country research pass."
+      "limitations": "No monitoring/sanctions public change is supported by these activity claims; retain not_applicable where appropriate. This is routing metadata/research provenance, not a new country research pass.",
+      "updated_on": "2026-09-25T12:53:19Z",
+      "progress": "PR #59 now links the seven enforcement proposals to #59. Monitoring/sanctions paths still incorrectly point to enforcement records; Estonia/France status normalization and stale PR #55 wording remain unresolved."
     }
   ]
 }
