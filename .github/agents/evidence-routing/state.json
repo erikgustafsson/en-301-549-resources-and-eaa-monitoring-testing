@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr62-merge-combined-34241a90-3c7ccac0",
-    "acquired_at": "2026-09-25T14:21:00.770Z",
-    "expires_at": "2026-09-25T14:51:00.770Z",
-    "delivery_ids": [
-      "34241a90-b8ec-11f1-8afd-3e732d205e3c",
-      "3c7ccac0-b8ec-11f1-9c04-d0a59c2bb55f"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -276,6 +268,24 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
       "note": "New head adds independent migration review and repository smoke-check documentation. The canonical Sweden delivery and generated routing index remain unchanged with the stale proposed status; no additional missed handoff was found."
+    },
+    {
+      "delivery_id": "34241a90-b8ec-11f1-8afd-3e732d205e3c",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 62,
+      "head_sha": "bc821854dbdb8923abc7212f392c2394946de738",
+      "checked_on": "2026-09-25T14:21:20.340Z",
+      "outcome": "superseded_by_merge_documentation_only",
+      "note": "PR #62 is now merged; instruction consolidation contains no evidence or public-page handoff."
+    },
+    {
+      "delivery_id": "3c7ccac0-b8ec-11f1-9c04-d0a59c2bb55f",
+      "event": "pull_request.merged",
+      "pull_request": 62,
+      "head_sha": "bc821854dbdb8923abc7212f392c2394946de738",
+      "checked_on": "2026-09-25T14:21:20.340Z",
+      "outcome": "ignored_documentation_only",
+      "note": "Merged shared workflow/evidence/review instructions only. PR #63 remains open on the merged base branch and still carries the separately recorded Sweden status correction."
     }
   ],
   "suggestions": [
@@ -328,8 +338,8 @@
       "evidence": "PR #61 is merged into main. Main now contains the qualified Sweden enforcement paragraph, enforcement claim se-pts-2025-report-totals, monitoring supporting research, and sanctions research-only assessment.",
       "limitations": "No public factual page or country research change is needed. The report supplies historical 2025 activity, not confirmed violations, penalties, or later case outcomes.",
       "covering_pr": 63,
-      "updated_on": "2026-09-25T14:19:19.811Z",
-      "progress": "PR #63 head b537c424 adds independent review and smoke-check documentation, but the canonical Sweden delivery and generated events index still retain the stale proposed/Review PR #61 state. The previously reported correction remains open in PR #63."
+      "updated_on": "2026-09-25T14:21:20.340Z",
+      "progress": "PR #62 is merged. PR #63 remains open on the former stacked base and still needs the canonical Sweden delivery correction plus regenerated events index before its migration is merged."
     }
   ]
 }
