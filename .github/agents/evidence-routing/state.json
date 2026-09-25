@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr62-open-d7358b50",
-    "acquired_at": "2026-09-25T13:56:39.488Z",
-    "expires_at": "2026-09-25T14:26:39.488Z",
-    "delivery_ids": [
-      "d7358b50-b8e8-11f1-8f88-e67233f39b82"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -237,6 +230,15 @@
       "outcome": "duplicate_existing_suggestion",
       "suggestion_id": "se-pts-supervision-2025-report|events-ledger|post-pr61-merge-status",
       "note": "Explicit merge delivery confirms the already-evaluated main state. No open PR covers the existing metadata-only normalization suggestion; no additional evidence handoff was found."
+    },
+    {
+      "delivery_id": "d7358b50-b8e8-11f1-8f88-e67233f39b82",
+      "event": "pull_request.opened",
+      "pull_request": 62,
+      "head_sha": "56f0a09da5e582e922ce5e5cf9dcb59401819aab",
+      "checked_on": "2026-09-25T13:56:55.648Z",
+      "outcome": "ignored_documentation_only",
+      "note": "PR #62 consolidates workflow/evidence/review instructions and compatibility links. It changes no research record, evidence event, public page or factual claim and does not cover the open Sweden PR #61 post-merge event-status normalization."
     }
   ],
   "suggestions": [
