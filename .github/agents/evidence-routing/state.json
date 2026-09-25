@@ -1,11 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr57-merge-128f2ea0-b8de-11f1-96e4-f6ad666caf70",
-    "acquired_at": "2026-09-25T12:41:00Z",
-    "expires_at": "2026-09-25T13:11:00Z",
-    "delivery_id": "128f2ea0-b8de-11f1-96e4-f6ad666caf70"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -106,6 +101,15 @@
       "outcome": "actual_state_merged_metadata_followup",
       "suggestion_id": "cross-page-ledger|post-pr55-pr57-merges|status-normalization",
       "checked_on": "2026-09-25T12:38:59Z"
+    },
+    {
+      "delivery_id": "128f2ea0-b8de-11f1-96e4-f6ad666caf70",
+      "event": "pull_request.merged",
+      "pull_request": 57,
+      "checked_on": "2026-09-25T12:41:00Z",
+      "outcome": "duplicate_existing_suggestion",
+      "suggestion_id": "cross-page-ledger|post-pr55-pr57-merges|status-normalization",
+      "note": "Explicit merge event confirms already-evaluated state. No open PRs and no additional evidence handoff."
     }
   ],
   "suggestions": [
