@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr70-sync-abc9d460",
-    "acquired_at": "2026-09-27T14:28:54.859Z",
-    "expires_at": "2026-09-27T14:58:54.859Z",
-    "delivery_ids": [
-      "abc9d460-ba7f-11f1-9ed2-7ef34c6a4c16"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -653,8 +646,8 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in all 23 PR #69 deliveries (14 adoption-round-2-*, 4 adoption-deeper-* and 5 adoption-version-labels-*), change only the adoption page from EN 301 549 adoptation.md to EN 301 549 adoption.md. For the 16 PR #69 destinations whose public changes are now merged, set disposition to already_present, retain numeric PR 69 and replace review actions with no further action; preserve the seven research_only dispositions. In the same PR, normalize the seven older PR #67 deliveries (EU, Brazil baseline, Brazil ABNT, Canada, India, Mexico and New Zealand) to already_present, numeric PR 67 and no further action. Regenerate events.json from canonical records.",
       "evidence": "PR #69 merged into main at merge commit 6e18211 on 2026-09-27. Main contains the 11 supported public-row updates and 23 new canonical deliveries; all 23 still name adoptation.md. Sixteen delivered destinations remain proposed. The seven earlier PR #67 destinations also remain proposed/pending, and no open PR covers these corrections.",
       "limitations": "Metadata only; do not change public factual wording. Preserve seven PR69 research_only adoption dispositions and all monitoring, enforcement and sanctions dispositions. Version-label evidence supports only the scoped V3.2.1:2021 mapping, not legal use or regulatory activity.",
-      "updated_on": "2026-09-27T14:25:13.999Z",
-      "progress": "PR #70 remains unrelated process/data/validator scaffolding and does not cover the required post-PR69 metadata follow-up."
+      "updated_on": "2026-09-27T14:29:20.565Z",
+      "progress": "PR #70 remains unrelated process/data/validator scaffolding at 677cf32 and does not cover the required post-PR69 metadata follow-up."
     }
   ],
   "processed_deliveries": [
@@ -762,7 +755,16 @@
       "checked_on": "2026-09-27T14:25:13.999Z",
       "outcome": "ignored_process_data_scaffolding_unrelated",
       "note": "PR #70 now adds validator/docs support for unpublished evidence-backed adoption research records. It changes no canonical country record, source-backed finding, generated routing event or public page. The 237 index entries remain pending/not researched, and the PR remains unrelated to outstanding post-PR69 and Sweden metadata corrections."
+    },
+    {
+      "delivery_id": "abc9d460-ba7f-11f1-9ed2-7ef34c6a4c16",
+      "event": "pull_request.synchronize",
+      "pull_request": 70,
+      "head_sha": "677cf326f96552e5884fb19a6a5c3219154a901a",
+      "checked_on": "2026-09-27T14:29:20.565Z",
+      "outcome": "ignored_process_data_scaffolding_unrelated",
+      "note": "PR #70 adds a no-history validator infrastructure review and corrects its own description. No canonical country finding, source-backed claim, generated routing event or public page changes. The PR explicitly defers country findings to a separate dependent PR and remains unrelated to existing metadata suggestions."
     }
   ],
-  "updated_at": "2026-09-27T14:28:54.859Z"
+  "updated_at": "2026-09-27T14:29:20.565Z"
 }
