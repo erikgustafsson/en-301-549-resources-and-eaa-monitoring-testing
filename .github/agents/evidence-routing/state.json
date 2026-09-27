@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr70-sync-abc9d460",
+    "acquired_at": "2026-09-27T14:28:54.859Z",
+    "expires_at": "2026-09-27T14:58:54.859Z",
+    "delivery_ids": [
+      "abc9d460-ba7f-11f1-9ed2-7ef34c6a4c16"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -757,5 +764,5 @@
       "note": "PR #70 now adds validator/docs support for unpublished evidence-backed adoption research records. It changes no canonical country record, source-backed finding, generated routing event or public page. The 237 index entries remain pending/not researched, and the PR remains unrelated to outstanding post-PR69 and Sweden metadata corrections."
     }
   ],
-  "updated_at": "2026-09-27T14:25:13.999Z"
+  "updated_at": "2026-09-27T14:28:54.859Z"
 }
