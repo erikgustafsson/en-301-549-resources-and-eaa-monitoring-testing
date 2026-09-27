@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr71-sync-4ae85150",
-    "acquired_at": "2026-09-27T14:47:12Z",
-    "expires_at": "2026-09-27T15:17:12Z",
-    "delivery_ids": [
-      "4ae85150-ba82-11f1-949c-233b2f2e1b38"
-    ],
-    "pull_requests": [
-      71
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -668,9 +658,9 @@
       "proposed_change": "Before merging PR #71, change the United States adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md, set its research_only adoption destination to numeric pr 71, keep monitoring/enforcement/sanctions pr null and not_applicable, then regenerate events.json.",
       "evidence": "The US Access Board 2017 final-rule preamble explicitly compares EN 301 549 V1.1.2, then declines incorporation by reference or equivalence with Section 508 compliance. PR #71 stores this correctly as research_only, but routes it to the retired page path.",
       "limitations": "Metadata only. Do not add a public US adoption row. South Africa and Israel remain bounded law/standard research with no verified EN connection; their future legal-page notes are retained and no legal destination is registered yet.",
-      "progress": "Head a009066 still has the retired path and null adoption PR link; the second research batch adds a separate Malaysia routing correction.",
+      "progress": "Head 41ff0b4 adds shared batch-3 research only; the existing US/Malaysia routing correction remains unchanged.",
       "created_on": "2026-09-27T14:34:45.381Z",
-      "updated_on": "2026-09-27T14:42:36.102Z"
+      "updated_on": "2026-09-27T14:48:21.140Z"
     },
     {
       "id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
@@ -695,8 +685,8 @@
       "evidence": "KO-NELAYAN's accessibility statement, updated 23 August 2026, targets WCAG 2.1 AA, describes partial conformance, and mentions EN 301 549 only in its explanation of publishing remaining gaps. PR #71 correctly records this as an institutional reference rather than national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Malaysia adoption row or infer an EN edition, national obligation or conformance. The Persons with Disabilities Act PDF remains an unreadable legal lead. Monitoring, enforcement and sanctions remain not_applicable.",
       "created_on": "2026-09-27T14:42:36.102Z",
-      "updated_on": "2026-09-27T14:42:36.102Z",
-      "progress": "Open draft PR #71 at a009066 already touches Malaysia's canonical record and generated index."
+      "updated_on": "2026-09-27T14:48:21.140Z",
+      "progress": "Head 41ff0b4 adds shared batch-3 research only; the existing US/Malaysia routing correction remains unchanged."
     }
   ],
   "processed_deliveries": [
@@ -866,7 +856,20 @@
         "world-discovery-2-2026-09-27-malaysia|adoption|current-page-path-and-pr"
       ],
       "note": "PR #71 expands to a second bounded batch. The existing US adoption destination still uses retired adoptation.md. New Malaysia evidence is correctly limited to an institutional reference, but its delivery also uses retired adoptation.md and stores full PR URLs on all four destinations. Use numeric PR 71 on the US and Malaysia adoption research_only destinations, null PR on not_applicable destinations, current adoption.md paths, then regenerate events.json. Singapore/Philippines law findings remain scoped shared research for a future unregistered legal page."
+    },
+    {
+      "delivery_id": "4ae85150-ba82-11f1-949c-233b2f2e1b38",
+      "event": "pull_request.synchronize",
+      "pull_request": 71,
+      "head_sha": "41ff0b484fdbf1b262a8c12d96cfff2e90c41200",
+      "checked_on": "2026-09-27T14:48:21.140Z",
+      "outcome": "duplicate_existing_suggestions_no_new_actionable_handoff",
+      "suggestion_ids": [
+        "world-discovery-1-2026-09-27-united-states|adoption|current-page-path",
+        "world-discovery-2-2026-09-27-malaysia|adoption|current-page-path-and-pr"
+      ],
+      "note": "Third bounded batch adds Indonesia, Thailand and Viet Nam law findings and unverified Viet Nam EN leads to the shared inventory only. Limitations prevent publication and no registered destination change is supported. US and Malaysia canonical deliveries/events are unchanged, so their already-notified path/PR metadata corrections remain outstanding."
     }
   ],
-  "updated_at": "2026-09-27T14:42:36.102Z"
+  "updated_at": "2026-09-27T14:48:21.140Z"
 }
