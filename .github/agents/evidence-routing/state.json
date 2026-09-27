@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr69-open-23aeedd0",
-    "acquired_at": "2026-09-27T13:20:51.229Z",
-    "expires_at": "2026-09-27T13:50:51.229Z",
-    "delivery_ids": [
-      "23aeedd0-ba76-11f1-9d91-bbc5ca335c0c"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -593,13 +586,13 @@
       "country": "Brazil, Canada, India, Mexico, New Zealand and European Union",
       "target": "Canonical adoption deliveries on main plus generated .github/agents/evidence-routing/events.json",
       "created_on": "2026-09-27T11:45:21.355Z",
-      "status": "post_pr67_followup_required",
-      "covering_pr": null,
+      "status": "covered_by_open_pr69",
+      "covering_pr": 69,
       "proposed_change": "Create a small post-merge metadata PR: set the adoption destinations for adoption-baseline-europe-2026-09-27, adoption-baseline-brazil-2026-09-27, adoption-brazil-abnt-reference-2026-09-27, adoption-baseline-canada-2026-09-27, adoption-baseline-india-2026-09-27, adoption-baseline-mexico-2026-09-27 and adoption-baseline-new-zealand-2026-09-27 to already_present; set pr to numeric 67 because PR #67 delivered the combined content to main; replace pending-review next actions with no further action. Edit canonical country/global records and regenerate events.json; do not edit the generated index alone.",
       "evidence": "Merged PR #67 at merge commit da5a9e6 contains the Updated date adoption page, the six baseline public changes and the Brazil ABNT update. PR #66 was merged only into PR #67's branch; PR #67 is the final main delivery.",
       "limitations": "Metadata only. Preserve monitoring, enforcement and sanctions dispositions. Brazil establishes ABNT publication details and specific EN references, not general EN adoption or legal obligations. The EU-wide delivery remains outside the country-only events projection.",
-      "updated_on": "2026-09-27T13:13:29.511Z",
-      "progress": "PR #68 is process-only page-rename compatibility and does not update the seven canonical adoption destinations or generated index."
+      "updated_on": "2026-09-27T13:24:31.962Z",
+      "progress": "Open PR #69 touches the EU and all affected country adoption records. It should absorb the post-PR67 normalization before merge: already_present, numeric PR 67 and no further action for the seven merged deliveries, followed by generated-index regeneration."
     },
     {
       "id": "pr65-merged|pr66|retarget-main",
@@ -642,6 +635,42 @@
       "updated_on": "2026-09-27T12:41:07.799Z",
       "progress": "Resolved by merged PR #67: final title/body describe Updated date, the combined content uses row-updates.json and date-only editorial cells, and review/validation records are included.",
       "resolved_on": "2026-09-27T12:41:07.799Z"
+    },
+    {
+      "id": "pr69|adoption-round2|current-page-path-and-post-pr67-statuses",
+      "country": "Australia, Brazil, Canada, European Union, Iceland, India, Japan, Kenya, Mexico, New Zealand, Norway, Switzerland, Turkey and United Kingdom",
+      "target": "Open PR #69 canonical adoption deliveries plus generated .github/agents/evidence-routing/events.json",
+      "created_on": "2026-09-27T13:24:31.962Z",
+      "status": "covered_by_open_pr69",
+      "covering_pr": 69,
+      "proposed_change": "Before PR #69 merges, change the adoption page only in all 14 new adoption-round-2-2026-09-27-* deliveries from EN 301 549 adoptation.md to the current EN 301 549 adoption.md; retain historical delivery identifiers unchanged. Also absorb the existing post-PR67 normalization for the EU, Brazil baseline, Brazil ABNT, Canada, India, Mexico and New Zealand: mark those adoption destinations already_present, set numeric PR 67, and replace pending review actions with no further action. Regenerate events.json from canonical records.",
+      "evidence": "PR #69 head 777d0cd edits EN 301 549 adoption.md and all 14 round-two canonical records. Every new round-two adoption destination still names the retired adoptation.md path. Merged PR #67 delivered the earlier EU/Brazil/Canada/India/Mexico/New Zealand content to main, but those canonical destinations remain proposed.",
+      "limitations": "Routing and provenance correction only. The synchronized head already uses numeric PR 69 for round-two destinations. Preserve research_only/not_applicable dispositions and do not promote Norway or New Zealand monitoring leads to public claims. Sweden's separate post-PR61 normalization is not covered by PR #69.",
+      "updated_on": "2026-09-27T13:24:31.962Z",
+      "progress": "PR #69 is open and draft. Numeric PR #69 links are fixed at head 777d0cd; current-page routing and post-PR67 merged-status normalization remain."
     }
-  ]
+  ],
+  "processed_deliveries": [
+    {
+      "delivery_id": "23aeedd0-ba76-11f1-9d91-bbc5ca335c0c",
+      "event": "pull_request.opened",
+      "pull_request": 69,
+      "head_sha": "b5839bec01d1c2ce2cf2704bbcee53d5982fc731",
+      "checked_on": "2026-09-27T13:24:31.962Z",
+      "outcome": "new_actionable_routing_correction",
+      "suggestion_id": "pr69|adoption-round2|current-page-path-and-post-pr67-statuses",
+      "note": "PR #69 adds qualified round-two adoption research and seven supported public-row updates. Its 14 new round-two deliveries route the adoption destination to the retired adoptation.md path; seven proposed destinations initially also lacked the covering PR link. PR #69 already touches the canonical records needed to absorb the outstanding post-PR67 adoption status normalization."
+    },
+    {
+      "delivery_id": "5a8d8f50-ba76-11f1-8167-2240b3ba6b09",
+      "event": "pull_request.synchronize",
+      "pull_request": 69,
+      "head_sha": "777d0cdee30567343e2b2108610c3ef1586538d0",
+      "checked_on": "2026-09-27T13:24:31.962Z",
+      "outcome": "existing_suggestion_partially_resolved",
+      "suggestion_id": "pr69|adoption-round2|current-page-path-and-post-pr67-statuses",
+      "note": "The synchronized head now uses numeric PR #69 on every round-two adoption destination. All 14 new deliveries still name EN 301 549 adoptation.md instead of the current EN 301 549 adoption.md, and the seven destinations delivered by merged PR #67 remain proposed/pending. Regenerate events.json after canonical fixes."
+    }
+  ],
+  "updated_at": "2026-09-27T13:24:31.962Z"
 }
