@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr68-merged-fa1cba50",
-    "acquired_at": "2026-09-27T13:26:37.903Z",
-    "expires_at": "2026-09-27T13:56:37.903Z",
-    "delivery_ids": [
-      "fa1cba50-ba76-11f1-895d-a11a9c3c1a22"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -653,8 +646,8 @@
       "proposed_change": "Before PR #69 merges, change the adoption page only in all 14 new adoption-round-2-2026-09-27-* deliveries from EN 301 549 adoptation.md to the current EN 301 549 adoption.md; retain historical delivery identifiers unchanged. Also absorb the existing post-PR67 normalization for the EU, Brazil baseline, Brazil ABNT, Canada, India, Mexico and New Zealand: mark those adoption destinations already_present, set numeric PR 67, and replace pending review actions with no further action. Regenerate events.json from canonical records.",
       "evidence": "PR #69 head 777d0cd edits EN 301 549 adoption.md and all 14 round-two canonical records. Every new round-two adoption destination still names the retired adoptation.md path. Merged PR #67 delivered the earlier EU/Brazil/Canada/India/Mexico/New Zealand content to main, but those canonical destinations remain proposed.",
       "limitations": "Routing and provenance correction only. The synchronized head already uses numeric PR 69 for round-two destinations. Preserve research_only/not_applicable dispositions and do not promote Norway or New Zealand monitoring leads to public claims. Sweden's separate post-PR61 normalization is not covered by PR #69.",
-      "updated_on": "2026-09-27T13:24:31.962Z",
-      "progress": "PR #69 is open and draft. Numeric PR #69 links are fixed at head 777d0cd; current-page routing and post-PR67 merged-status normalization remain."
+      "updated_on": "2026-09-27T13:27:08.697Z",
+      "progress": "PR #68 is merged. PR #69 remains open and draft on the prerequisite branch and already documents the required refresh/retarget to main. Its current-page routing and post-PR67 status normalization remain pending; PR #68 introduced no evidence handoff."
     }
   ],
   "processed_deliveries": [
@@ -677,7 +670,16 @@
       "outcome": "existing_suggestion_partially_resolved",
       "suggestion_id": "pr69|adoption-round2|current-page-path-and-post-pr67-statuses",
       "note": "The synchronized head now uses numeric PR #69 on every round-two adoption destination. All 14 new deliveries still name EN 301 549 adoptation.md instead of the current EN 301 549 adoption.md, and the seven destinations delivered by merged PR #67 remain proposed/pending. Regenerate events.json after canonical fixes."
+    },
+    {
+      "delivery_id": "fa1cba50-ba76-11f1-895d-a11a9c3c1a22",
+      "event": "pull_request.merged",
+      "pull_request": 68,
+      "head_sha": "ef7dd3e36a158f1d49aafa8a7cbacc674cfc56ca",
+      "checked_on": "2026-09-27T13:27:08.697Z",
+      "outcome": "ignored_process_only_merge_no_new_handoff",
+      "note": "PR #68 merged adoption-check documentation, validator compatibility and tests only. It adds no evidence, canonical delivery or public factual content. Open PR #69 still targets the prerequisite branch, but its own documented manual check already requires refresh/retarget to main after #68; existing PR #69 routing corrections remain unchanged."
     }
   ],
-  "updated_at": "2026-09-27T13:26:37.903Z"
+  "updated_at": "2026-09-27T13:27:08.697Z"
 }
