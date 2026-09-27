@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr72-sync-bf2f62d0",
+    "acquired_at": "2026-09-27T14:37:15Z",
+    "expires_at": "2026-09-27T15:07:15Z",
+    "delivery_ids": [
+      "bf2f62d0-ba80-11f1-806b-82093760da2e"
+    ],
+    "pull_requests": [
+      72
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
