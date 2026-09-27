@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr69-sync-db09d5a0",
-    "acquired_at": "2026-09-27T13:47:14.073Z",
-    "expires_at": "2026-09-27T14:17:14.073Z",
-    "delivery_ids": [
-      "db09d5a0-ba79-11f1-8d64-3c6350d7bd34"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -598,8 +591,8 @@
       "proposed_change": "Create a small post-merge metadata PR: set the adoption destinations for adoption-baseline-europe-2026-09-27, adoption-baseline-brazil-2026-09-27, adoption-brazil-abnt-reference-2026-09-27, adoption-baseline-canada-2026-09-27, adoption-baseline-india-2026-09-27, adoption-baseline-mexico-2026-09-27 and adoption-baseline-new-zealand-2026-09-27 to already_present; set pr to numeric 67 because PR #67 delivered the combined content to main; replace pending-review next actions with no further action. Edit canonical country/global records and regenerate events.json; do not edit the generated index alone.",
       "evidence": "Merged PR #67 at merge commit da5a9e6 contains the Updated date adoption page, the six baseline public changes and the Brazil ABNT update. PR #66 was merged only into PR #67's branch; PR #67 is the final main delivery.",
       "limitations": "Metadata only. Preserve monitoring, enforcement and sanctions dispositions. Brazil establishes ABNT publication details and specific EN references, not general EN adoption or legal obligations. The EU-wide delivery remains outside the country-only events projection.",
-      "updated_on": "2026-09-27T13:24:31.962Z",
-      "progress": "Open PR #69 touches the EU and all affected country adoption records. It should absorb the post-PR67 normalization before merge: already_present, numeric PR 67 and no further action for the seven merged deliveries, followed by generated-index regeneration."
+      "updated_on": "2026-09-27T13:48:37.287Z",
+      "progress": "Open PR #69 is now retargeted to main and touches every affected canonical adoption record, so it remains the covering PR for post-PR67 normalization."
     },
     {
       "id": "pr65-merged|pr66|retarget-main",
@@ -650,11 +643,11 @@
       "created_on": "2026-09-27T13:24:31.962Z",
       "status": "covered_by_open_pr69",
       "covering_pr": 69,
-      "proposed_change": "Before PR #69 merges, change the adoption page only in all 14 new adoption-round-2-2026-09-27-* deliveries from EN 301 549 adoptation.md to the current EN 301 549 adoption.md; retain historical delivery identifiers unchanged. Also absorb the existing post-PR67 normalization for the EU, Brazil baseline, Brazil ABNT, Canada, India, Mexico and New Zealand: mark those adoption destinations already_present, set numeric PR 67, and replace pending review actions with no further action. Regenerate events.json from canonical records.",
-      "evidence": "PR #69 head 777d0cd edits EN 301 549 adoption.md and all 14 round-two canonical records. Every new round-two adoption destination still names the retired adoptation.md path. Merged PR #67 delivered the earlier EU/Brazil/Canada/India/Mexico/New Zealand content to main, but those canonical destinations remain proposed.",
-      "limitations": "Routing and provenance correction only. The synchronized head already uses numeric PR 69 for round-two destinations. Preserve research_only/not_applicable dispositions and do not promote Norway or New Zealand monitoring leads to public claims. Sweden's separate post-PR61 normalization is not covered by PR #69.",
-      "updated_on": "2026-09-27T13:27:08.697Z",
-      "progress": "PR #68 is merged. PR #69 remains open and draft on the prerequisite branch and already documents the required refresh/retarget to main. Its current-page routing and post-PR67 status normalization remain pending; PR #68 introduced no evidence handoff."
+      "proposed_change": "Before PR #69 merges, change the adoption page only in all 18 new deliveries (14 adoption-round-2-* plus 4 adoption-deeper-* for Iceland, Kenya, Switzerland and Turkey) from EN 301 549 adoptation.md to the current EN 301 549 adoption.md; retain historical delivery identifiers unchanged. Absorb the existing post-PR67 normalization for the EU, Brazil baseline, Brazil ABNT, Canada, India, Mexico and New Zealand: mark those adoption destinations already_present, set numeric PR 67, and replace pending-review actions with no further action. Regenerate events.json from canonical records. Update the PR description from seven public-row updates/19 files to eleven updates/21 files so review scope matches the current head.",
+      "evidence": "PR #69 head 35e86ff is retargeted to main and edits EN 301 549 adoption.md, all 14 round-two canonical records, and deeper supported records for Iceland, Kenya, Switzerland and Turkey. Every new adoption destination still names the retired adoptation.md path. Merged PR #67 delivered the earlier EU/Brazil/Canada/India/Mexico/New Zealand content to main, but those canonical destinations remain proposed.",
+      "limitations": "Routing, provenance and PR-review scope correction. Numeric PR 69 links are present. The deeper sources support national adoption/reference wording only, not mandatory legal use, monitoring duties, sanctions or enforcement activity. Preserve research_only/not_applicable dispositions and do not promote Norway or New Zealand monitoring leads.",
+      "updated_on": "2026-09-27T13:48:37.287Z",
+      "progress": "PR #69 is open and draft on main at 35e86ff. Four deeper supported rows and deliveries expanded the correction to 18 canonical events. Current-page routing, post-PR67 status normalization and an accurate PR description remain pending."
     }
   ],
   "processed_deliveries": [
@@ -695,7 +688,17 @@
       "checked_on": "2026-09-27T13:28:44.307Z",
       "outcome": "ignored_out_of_order_process_only_event",
       "note": "Webhook delivery predates the already processed merge but arrived later. Current GitHub state is closed and merged. PR #68 changed only adoption-check documentation, validator compatibility and tests, so it introduces no evidence handoff or new suggestion."
+    },
+    {
+      "delivery_id": "db09d5a0-ba79-11f1-8d64-3c6350d7bd34",
+      "event": "pull_request.synchronize",
+      "pull_request": 69,
+      "head_sha": "35e86ffa43fac604db1ee0d5d965f062c1329ccd",
+      "checked_on": "2026-09-27T13:48:37.287Z",
+      "outcome": "existing_suggestion_scope_expanded",
+      "suggestion_id": "pr69|adoption-round2|current-page-path-and-post-pr67-statuses",
+      "note": "PR #69 is now retargeted to main and adds deeper supported adoption/reference updates for Iceland, Kenya, Switzerland and Turkey with four new canonical deliveries. The 14 round-two plus four deeper deliveries all still route to retired EN 301 549 adoptation.md. Post-PR67 statuses remain pending. PR body still describes seven public rows/19 files although current head changes eleven rows/21 files."
     }
   ],
-  "updated_at": "2026-09-27T13:47:14.073Z"
+  "updated_at": "2026-09-27T13:48:37.287Z"
 }
