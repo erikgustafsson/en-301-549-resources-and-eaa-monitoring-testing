@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr68-open-f54812b0",
-    "acquired_at": "2026-09-27T13:12:47.724Z",
-    "expires_at": "2026-09-27T13:42:47.724Z",
-    "delivery_ids": [
-      "f54812b0-ba74-11f1-9cda-b84007d108b8"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -525,6 +518,15 @@
       "outcome": "new_actionable_post_merge_normalization",
       "suggestion_id": "pr66|adoption-proposals|covering-pr-links",
       "note": "PR #67 merged the combined process and adoption content to main. Seven adoption destinations remain proposed despite their public changes now being present; normalize them to already_present, no further action, with final main delivery PR #67."
+    },
+    {
+      "delivery_id": "f54812b0-ba74-11f1-9cda-b84007d108b8",
+      "event": "pull_request.opened",
+      "pull_request": 68,
+      "head_sha": "ef7dd3e36a158f1d49aafa8a7cbacc674cfc56ca",
+      "checked_on": "2026-09-27T13:13:29.511Z",
+      "outcome": "ignored_process_only",
+      "note": "PR #68 updates validator and instruction compatibility for the public page rename from adoptation.md to adoption.md. It changes no evidence, canonical delivery, factual claim or public content and intentionally preserves historical routing identifiers. It does not cover the adoption post-PR67 status normalization or Sweden post-PR61 normalization."
     }
   ],
   "suggestions": [
@@ -576,8 +578,8 @@
       "proposed_change": "Create a small migration-aware follow-up PR: in .github/agents/research/countries/sweden.json set delivery se-pts-supervision-2025-report and its enforcement destination to already_present; replace PR-review next actions with no further action for the delivered change; retain PR #61 as the enforcement delivery reference; preserve monitoring already_present and sanctions research_only. Then regenerate .github/agents/evidence-routing/events.json with the repository generator.",
       "evidence": "PR #61 is merged into main. Main now contains the qualified Sweden enforcement paragraph, enforcement claim se-pts-2025-report-totals, monitoring supporting research, and sanctions research-only assessment.",
       "limitations": "No public factual page or country research change is needed. The report supplies historical 2025 activity, not confirmed violations, penalties, or later case outcomes.",
-      "updated_on": "2026-09-27T11:41:17.996Z",
-      "progress": "PR #65 remains adoption process-only and does not cover this correction. No open PR currently updates the canonical Sweden delivery and generated routing index."
+      "updated_on": "2026-09-27T13:13:29.511Z",
+      "progress": "PR #68 is process-only and does not update the canonical Sweden delivery or generated index. No open PR covers this correction."
     },
     {
       "id": "pr66|adoption-proposals|covering-pr-links",
@@ -589,8 +591,8 @@
       "proposed_change": "Create a small post-merge metadata PR: set the adoption destinations for adoption-baseline-europe-2026-09-27, adoption-baseline-brazil-2026-09-27, adoption-brazil-abnt-reference-2026-09-27, adoption-baseline-canada-2026-09-27, adoption-baseline-india-2026-09-27, adoption-baseline-mexico-2026-09-27 and adoption-baseline-new-zealand-2026-09-27 to already_present; set pr to numeric 67 because PR #67 delivered the combined content to main; replace pending-review next actions with no further action. Edit canonical country/global records and regenerate events.json; do not edit the generated index alone.",
       "evidence": "Merged PR #67 at merge commit da5a9e6 contains the Updated date adoption page, the six baseline public changes and the Brazil ABNT update. PR #66 was merged only into PR #67's branch; PR #67 is the final main delivery.",
       "limitations": "Metadata only. Preserve monitoring, enforcement and sanctions dispositions. Brazil establishes ABNT publication details and specific EN references, not general EN adoption or legal obligations. The EU-wide delivery remains outside the country-only events projection.",
-      "updated_on": "2026-09-27T12:41:07.799Z",
-      "progress": "Public content and research records reached main through PR #67; seven adoption destinations still require post-merge status/PR/next-action normalization."
+      "updated_on": "2026-09-27T13:13:29.511Z",
+      "progress": "PR #68 is process-only page-rename compatibility and does not update the seven canonical adoption destinations or generated index."
     },
     {
       "id": "pr65-merged|pr66|retarget-main",
