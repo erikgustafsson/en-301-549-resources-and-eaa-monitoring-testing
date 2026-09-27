@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr71-sync-f7850fc0",
-    "acquired_at": "2026-09-27T15:28:18.601Z",
-    "expires_at": "2026-09-27T15:58:18.601Z",
-    "delivery_ids": [
-      "f7850fc0-ba87-11f1-9521-6e93664dbb34"
-    ],
-    "pull_requests": [
-      71
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -668,9 +658,9 @@
       "proposed_change": "Before merging PR #71, change the United States adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md, set its research_only adoption destination to numeric pr 71, keep monitoring/enforcement/sanctions pr null and not_applicable, then regenerate events.json.",
       "evidence": "The US Access Board 2017 final-rule preamble explicitly compares EN 301 549 V1.1.2, then declines incorporation by reference or equivalence with Section 508 compliance. PR #71 stores this correctly as research_only, but routes it to the retired page path.",
       "limitations": "Metadata only. Do not add a public US adoption row. South Africa and Israel remain bounded law/standard research with no verified EN connection; their future legal-page notes are retained and no legal destination is registered yet.",
-      "progress": "Head dca05a27 leaves the existing United States/Malaysia correction unresolved and expands the same correction pattern to Costa Rica, Peru and Uruguay.",
+      "progress": "Head 134e054b leaves this correction unresolved and expands the same pattern to Angola, Cameroon, Egypt, Ghana and Zimbabwe.",
       "created_on": "2026-09-27T14:34:45.381Z",
-      "updated_on": "2026-09-27T15:03:54.343Z"
+      "updated_on": "2026-09-27T15:30:06.119Z"
     },
     {
       "id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
@@ -695,8 +685,8 @@
       "evidence": "KO-NELAYAN's accessibility statement, updated 23 August 2026, targets WCAG 2.1 AA, describes partial conformance, and mentions EN 301 549 only in its explanation of publishing remaining gaps. PR #71 correctly records this as an institutional reference rather than national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Malaysia adoption row or infer an EN edition, national obligation or conformance. The Persons with Disabilities Act PDF remains an unreadable legal lead. Monitoring, enforcement and sanctions remain not_applicable.",
       "created_on": "2026-09-27T14:42:36.102Z",
-      "updated_on": "2026-09-27T15:03:54.343Z",
-      "progress": "Head dca05a27 leaves the existing United States/Malaysia correction unresolved and expands the same correction pattern to Costa Rica, Peru and Uruguay."
+      "updated_on": "2026-09-27T15:30:06.119Z",
+      "progress": "Head 134e054b leaves this correction unresolved and expands the same pattern to Angola, Cameroon, Egypt, Ghana and Zimbabwe."
     },
     {
       "id": "world-discovery-4-2026-09-27-costa-rica|adoption|current-page-path-and-pr",
@@ -707,9 +697,9 @@
       "proposed_change": "Before merging PR #71, change Costa Rica's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
       "evidence": "A 2024 University of Costa Rica academic freedom-of-expression report references EN 301 549 V1.1.2:2015 in a comparison with European policy. The repository correctly treats the source as an academic reference and unverified for national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Costa Rica adoption row or infer national adoption, legal force, a national accessibility obligation or implementation. Retain related law material only as research for a future registered legal destination.",
-      "progress": "New on PR #71 head dca05a27.",
+      "progress": "Head 134e054b leaves this correction unresolved and expands the same pattern to Angola, Cameroon, Egypt, Ghana and Zimbabwe.",
       "created_on": "2026-09-27T15:03:54.343Z",
-      "updated_on": "2026-09-27T15:03:54.343Z"
+      "updated_on": "2026-09-27T15:30:06.119Z"
     },
     {
       "id": "world-discovery-4-2026-09-27-peru|adoption|current-page-path-and-pr",
@@ -720,9 +710,9 @@
       "proposed_change": "Before merging PR #71, change Peru's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
       "evidence": "Official Peruvian government digital-accessibility guidance recommends using EN 301 549 when developing or acquiring digital services, but does not establish an edition, legal force or national standards adoption.",
       "limitations": "Metadata/routing only. Do not add a public Peru adoption row or infer national adoption, binding procurement law, an edition or implementation. The Law 29973 material remains a limited legal lead for a future registered legal destination.",
-      "progress": "New on PR #71 head dca05a27.",
+      "progress": "Head 134e054b leaves this correction unresolved and expands the same pattern to Angola, Cameroon, Egypt, Ghana and Zimbabwe.",
       "created_on": "2026-09-27T15:03:54.343Z",
-      "updated_on": "2026-09-27T15:03:54.343Z"
+      "updated_on": "2026-09-27T15:30:06.119Z"
     },
     {
       "id": "world-discovery-4-2026-09-27-uruguay|adoption|current-page-path-and-pr",
@@ -733,9 +723,74 @@
       "proposed_change": "Before merging PR #71, change Uruguay's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
       "evidence": "A Montevideo municipal technical specification says the Florencio Sanchez interactive module should conform to EN 301 549. This is project-specific procurement evidence, not evidence of national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Uruguay adoption row or infer a national standard, edition, award, implementation or completed conformance. Retain the law definition only as research for a future registered legal destination.",
-      "progress": "New on PR #71 head dca05a27.",
+      "progress": "Head 134e054b leaves this correction unresolved and expands the same pattern to Angola, Cameroon, Egypt, Ghana and Zimbabwe.",
       "created_on": "2026-09-27T15:03:54.343Z",
-      "updated_on": "2026-09-27T15:03:54.343Z"
+      "updated_on": "2026-09-27T15:30:06.119Z"
+    },
+    {
+      "id": "world-discovery-5-2026-09-27-angola|adoption|current-page-path-and-pr",
+      "country": "Angola",
+      "target": "PR #71 canonical Angola delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 71,
+      "proposed_change": "Before merging PR #71, change Angola's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
+      "evidence": "Microsoft's Angola-labelled Portuguese purchase-order terms, updated August 2026, require user-interface purchases to address EN 301 549. This is a private contractual reference, not national adoption.",
+      "limitations": "Metadata/routing only. Do not add a public Angola adoption row or infer an Angolan legal requirement, national standard, EN edition or completed conformance. Retain the law source only as a future legal-mapping lead.",
+      "progress": "New on PR #71 head 134e054b.",
+      "created_on": "2026-09-27T15:30:06.119Z",
+      "updated_on": "2026-09-27T15:30:06.119Z"
+    },
+    {
+      "id": "world-discovery-5-2026-09-27-cameroon|adoption|current-page-path-and-pr",
+      "country": "Cameroon",
+      "target": "PR #71 canonical Cameroon delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 71,
+      "proposed_change": "Before merging PR #71, change Cameroon's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
+      "evidence": "DAAD's Cameroon website declaration references EN 301 549 under Germany's BGG/BITV framework. It is a German institution's regional-site statement, not Cameroonian adoption evidence.",
+      "limitations": "Metadata/routing only. Do not add a public Cameroon adoption row or infer Cameroonian legal force, national adoption, an EN edition or site-wide conformance. Retain the domestic-law material only as a future legal-mapping lead.",
+      "progress": "New on PR #71 head 134e054b.",
+      "created_on": "2026-09-27T15:30:06.119Z",
+      "updated_on": "2026-09-27T15:30:06.119Z"
+    },
+    {
+      "id": "world-discovery-5-2026-09-27-egypt|adoption|current-page-path-and-pr",
+      "country": "Egypt",
+      "target": "PR #71 canonical Egypt delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 71,
+      "proposed_change": "Before merging PR #71, change Egypt's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
+      "evidence": "CeraVe Egypt publishes L'Oreal's corporate accessibility commitment referencing EN 301 549; the page text names no edition, while its link points to V2.1.2:2018 (source notation V2.1.2 (2018-08)). This is not Egyptian adoption evidence.",
+      "limitations": "Metadata/routing only. Do not add a public Egypt adoption row or infer Egyptian legal force, national adoption or verified site conformance. Keep the inaccessible Egyptian-law page as a research lead only.",
+      "progress": "New on PR #71 head 134e054b.",
+      "created_on": "2026-09-27T15:30:06.119Z",
+      "updated_on": "2026-09-27T15:30:06.119Z"
+    },
+    {
+      "id": "world-discovery-5-2026-09-27-ghana|adoption|current-page-path-and-pr",
+      "country": "Ghana",
+      "target": "PR #71 canonical Ghana delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 71,
+      "proposed_change": "Before merging PR #71, change Ghana's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
+      "evidence": "DAAD's Ghana website declaration references EN 301 549 under Germany's BGG/BITV framework. It is a German institution's regional-site statement, not Ghanaian adoption evidence.",
+      "limitations": "Metadata/routing only. Do not add a public Ghana adoption row or infer Ghanaian legal force, national adoption, an EN edition or site-wide conformance. Retain the domestic-law material only as a future legal-mapping lead.",
+      "progress": "New on PR #71 head 134e054b.",
+      "created_on": "2026-09-27T15:30:06.119Z",
+      "updated_on": "2026-09-27T15:30:06.119Z"
+    },
+    {
+      "id": "world-discovery-5-2026-09-27-zimbabwe|adoption|current-page-path-and-pr",
+      "country": "Zimbabwe",
+      "target": "PR #71 canonical Zimbabwe delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 71,
+      "proposed_change": "Before merging PR #71, change Zimbabwe's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; retain disposition research_only and numeric pr 71 for adoption; set pr null on monitoring, enforcement and sanctions not_applicable destinations; then regenerate events.json from canonical deliveries.",
+      "evidence": "TotalEnergies' Zimbabwe site hosts a website-factory/demonstration-site statement mentioning EN 301 549 in its WCAG criterion 4.1.1 discussion. This does not establish Zimbabwean adoption or conformance of the Zimbabwe site.",
+      "limitations": "Metadata/routing only. Do not add a public Zimbabwe adoption row or infer national adoption, an EN edition, site conformance or current legal status. The 2025 Act lead remains inaccessible and requires commencement/repeal verification.",
+      "progress": "New on PR #71 head 134e054b.",
+      "created_on": "2026-09-27T15:30:06.119Z",
+      "updated_on": "2026-09-27T15:30:06.119Z"
     }
   ],
   "processed_deliveries": [
@@ -947,7 +1002,28 @@
         "world-discovery-4-2026-09-27-uruguay|adoption|current-page-path-and-pr"
       ],
       "note": "Fourth bounded batch adds qualified Costa Rica, Peru and Uruguay EN 301 549 references. Their canonical deliveries correctly remain research_only for adoption and not_applicable for monitoring, enforcement and sanctions, but all three use the retired adoptation.md path and attach PR 71 to not_applicable destinations. Update the five PR71 country records (including previously notified United States and Malaysia), keep numeric PR 71 only on research_only adoption, set PR null on not_applicable destinations, and regenerate events.json. No public adoption row is supported."
+    },
+    {
+      "delivery_id": "f7850fc0-ba87-11f1-9521-6e93664dbb34",
+      "event": "pull_request.synchronize",
+      "pull_request": 71,
+      "head_sha": "134e054b94a7062686779c0bc19868a08867436a",
+      "checked_on": "2026-09-27T15:30:06.119Z",
+      "outcome": "existing_suggestions_unresolved_and_scope_expanded_five_countries",
+      "suggestion_ids": [
+        "world-discovery-1-2026-09-27-united-states|adoption|current-page-path",
+        "world-discovery-2-2026-09-27-malaysia|adoption|current-page-path-and-pr",
+        "world-discovery-4-2026-09-27-costa-rica|adoption|current-page-path-and-pr",
+        "world-discovery-4-2026-09-27-peru|adoption|current-page-path-and-pr",
+        "world-discovery-4-2026-09-27-uruguay|adoption|current-page-path-and-pr",
+        "world-discovery-5-2026-09-27-angola|adoption|current-page-path-and-pr",
+        "world-discovery-5-2026-09-27-cameroon|adoption|current-page-path-and-pr",
+        "world-discovery-5-2026-09-27-egypt|adoption|current-page-path-and-pr",
+        "world-discovery-5-2026-09-27-ghana|adoption|current-page-path-and-pr",
+        "world-discovery-5-2026-09-27-zimbabwe|adoption|current-page-path-and-pr"
+      ],
+      "note": "Fifth bounded batch adds research-only Angola, Cameroon, Egypt, Ghana and Zimbabwe EN references. All five new canonical deliveries use retired adoptation.md and attach PR 71 to not_applicable monitoring, enforcement and sanctions destinations. The previously notified United States, Malaysia, Costa Rica, Peru and Uruguay metadata remains unchanged. Correct all ten records, regenerate events.json, and preserve PR72's concurrent event. Corporate, contractual and foreign-institution references do not support public adoption rows."
     }
   ],
-  "updated_at": "2026-09-27T15:28:18.601Z"
+  "updated_at": "2026-09-27T15:30:06.119Z"
 }
