@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr68-open-f54812b0",
+    "acquired_at": "2026-09-27T13:12:47.724Z",
+    "expires_at": "2026-09-27T13:42:47.724Z",
+    "delivery_ids": [
+      "f54812b0-ba74-11f1-9cda-b84007d108b8"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
