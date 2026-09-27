@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr73-open-63e9b7e0",
+    "acquired_at": "2026-09-27T17:33:17.269Z",
+    "expires_at": "2026-09-27T18:03:17.269Z",
+    "delivery_ids": [
+      "63e9b7e0-ba99-11f1-921d-3e197d3010fa"
+    ],
+    "pull_requests": [
+      73
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1628,5 +1638,5 @@
       "note": "Batch eight adds 27 research-only EN reference deliveries. Each uses the retired adoptation.md path and attaches PR 71 to destinations where this discovery adds no monitoring, sanctions or enforcement evidence. Correct all 48 PR71 country deliveries, regenerate events.json, and preserve PR72's concurrent event. The 27 source statements remain scoped research; no public row is proposed from this routing pass."
     }
   ],
-  "updated_at": "2026-09-27T17:16:21.515Z"
+  "updated_at": "2026-09-27T17:33:17.269Z"
 }
