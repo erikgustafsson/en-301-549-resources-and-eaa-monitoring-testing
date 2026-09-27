@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr71-sync-f7850fc0",
+    "acquired_at": "2026-09-27T15:28:18.601Z",
+    "expires_at": "2026-09-27T15:58:18.601Z",
+    "delivery_ids": [
+      "f7850fc0-ba87-11f1-9521-6e93664dbb34"
+    ],
+    "pull_requests": [
+      71
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -939,5 +949,5 @@
       "note": "Fourth bounded batch adds qualified Costa Rica, Peru and Uruguay EN 301 549 references. Their canonical deliveries correctly remain research_only for adoption and not_applicable for monitoring, enforcement and sanctions, but all three use the retired adoptation.md path and attach PR 71 to not_applicable destinations. Update the five PR71 country records (including previously notified United States and Malaysia), keep numeric PR 71 only on research_only adoption, set PR null on not_applicable destinations, and regenerate events.json. No public adoption row is supported."
     }
   ],
-  "updated_at": "2026-09-27T15:03:54.343Z"
+  "updated_at": "2026-09-27T15:28:18.601Z"
 }
