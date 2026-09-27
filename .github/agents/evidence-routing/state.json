@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr71-sync-b4343900",
+    "acquired_at": "2026-09-27T17:35:13.632Z",
+    "expires_at": "2026-09-27T18:05:13.632Z",
+    "delivery_ids": [
+      "b4343900-ba99-11f1-998c-bcee221fa3b3"
+    ],
+    "pull_requests": [
+      71
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1637,5 +1647,5 @@
       "note": "PR #73 adds supported destination-language metadata, shared presentation/checking infrastructure, reviewed-row presentation hashes, and three HTML-rendering boundary fixes while preserving visible factual wording, URLs, evidence claims and verification dates. It changes no canonical delivery or generated routing index. Its documented refresh requirement already covers overlaps with PRs #70, #71 and #72; existing routing suggestions remain unchanged."
     }
   ],
-  "updated_at": "2026-09-27T17:33:58.402Z"
+  "updated_at": "2026-09-27T17:35:13.632Z"
 }
