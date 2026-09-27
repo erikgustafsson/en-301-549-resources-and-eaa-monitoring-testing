@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr71-open-cb584a50",
-    "acquired_at": "2026-09-27T14:30:24Z",
-    "expires_at": "2026-09-27T15:00:24Z",
-    "delivery_ids": [
-      "cb584a50-ba7f-11f1-8620-67767c0b47a7"
-    ],
-    "pull_requests": [
-      71
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -658,6 +648,31 @@
       "limitations": "Metadata only; do not change public factual wording. Preserve seven PR69 research_only adoption dispositions and all monitoring, enforcement and sanctions dispositions. Version-label evidence supports only the scoped V3.2.1:2021 mapping, not legal use or regulatory activity.",
       "updated_on": "2026-09-27T14:29:20.565Z",
       "progress": "PR #70 remains unrelated process/data/validator scaffolding at 677cf32 and does not cover the required post-PR69 metadata follow-up."
+    },
+    {
+      "id": "world-discovery-1-2026-09-27-united-states|adoption|current-page-path",
+      "country": "United States",
+      "target": "PR #71 canonical United States delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 71,
+      "proposed_change": "Before merging PR #71, change the adoption destination page in .github/agents/research/countries/united states.json from EN 301 549 adoptation.md to the current EN 301 549 adoption.md, then regenerate events.json from canonical deliveries. Preserve research_only, the non-adoption limitation, null PR, and all monitoring/enforcement/sanctions not_applicable dispositions.",
+      "evidence": "The US Access Board 2017 final-rule preamble explicitly compares EN 301 549 V1.1.2, then declines incorporation by reference or equivalence with Section 508 compliance. PR #71 stores this correctly as research_only, but routes it to the retired page path.",
+      "limitations": "Metadata only. Do not add a public US adoption row. South Africa and Israel remain bounded law/standard research with no verified EN connection; their future legal-page notes are retained and no legal destination is registered yet.",
+      "progress": "Open draft PR #71 at c4b1994 covers the canonical record and generated index.",
+      "created_on": "2026-09-27T14:34:45.381Z",
+      "updated_on": "2026-09-27T14:34:45.381Z"
+    },
+    {
+      "id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
+      "country": "Germany",
+      "target": "PR #72 canonical Germany delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 72,
+      "proposed_change": "Before merging PR #72, set the enforcement destination pr to numeric 72; add an adoption destination for EN 301 549 adoption.md with domain adoption, record null, disposition not_applicable, and a reason that the MLBF strategies concern BFSG market-surveillance methods and establish no EN 301 549 national adoption/reference, edition, legal scope or milestone. Regenerate events.json from the canonical Germany record after refreshing against whichever of PR #71/#72 lands first, preserving both events.",
+      "evidence": "Official MLBF announcement dated 19 February 2026 states that its board adopted product and service surveillance strategies on 29 January 2026. PR #72's reviewed PDFs support risk-based/reactive checks and initial automated checks for web services. The open PR itself is the covering enforcement delivery.",
+      "limitations": "Metadata/routing only. Keep monitoring research_only and sanctions needs_evidence; the strategies describe surveillance methods and possible measures, not individual penalties, completed remediation, inspection totals or EN 301 549 adoption.",
+      "created_on": "2026-09-27T14:34:45.381Z",
+      "updated_on": "2026-09-27T14:34:45.381Z"
     }
   ],
   "processed_deliveries": [
@@ -774,7 +789,27 @@
       "checked_on": "2026-09-27T14:29:20.565Z",
       "outcome": "ignored_process_data_scaffolding_unrelated",
       "note": "PR #70 adds a no-history validator infrastructure review and corrects its own description. No canonical country finding, source-backed claim, generated routing event or public page changes. The PR explicitly defers country findings to a separate dependent PR and remains unrelated to existing metadata suggestions."
+    },
+    {
+      "delivery_id": "cb584a50-ba7f-11f1-8620-67767c0b47a7",
+      "event": "pull_request.opened",
+      "pull_request": 71,
+      "head_sha": "c4b199495d86000e1637a67cbb91ddc6b93fae1d",
+      "checked_on": "2026-09-27T14:34:45.381Z",
+      "outcome": "new_actionable_routing_correction",
+      "suggestion_id": "world-discovery-1-2026-09-27-united-states|adoption|current-page-path",
+      "note": "PR #71 correctly retains the US comparison/rejection as research_only and records South Africa/Israel law findings with limitations. The new US adoption destination nevertheless names retired EN 301 549 adoptation.md instead of current EN 301 549 adoption.md. Monitoring, sanctions and enforcement are explicitly not_applicable; future legal-page notes remain retained research because no legal page/domain is registered."
+    },
+    {
+      "delivery_id": "517c0ae0-ba80-11f1-8677-f6c535873485",
+      "event": "pull_request.opened",
+      "pull_request": 72,
+      "head_sha": "b31e09bd19a0b4664507f0c87230787ffe1ee70c",
+      "checked_on": "2026-09-27T14:34:45.381Z",
+      "outcome": "new_actionable_cross_page_metadata",
+      "suggestion_id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
+      "note": "PR #72 adds supported qualified Germany MLBF strategy wording and preserves monitoring research_only plus sanctions needs_evidence. Its proposed enforcement destination omits the covering PR number, and the new delivery does not assess the registered adoption destination. Add numeric pr 72, add an explicit adoption not_applicable disposition, and regenerate events.json while preserving concurrent PR #71's event."
     }
   ],
-  "updated_at": "2026-09-27T14:29:20.565Z"
+  "updated_at": "2026-09-27T14:34:45.381Z"
 }
