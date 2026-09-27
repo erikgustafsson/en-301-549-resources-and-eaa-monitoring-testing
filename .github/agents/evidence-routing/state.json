@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr73-open-63e9b7e0",
-    "acquired_at": "2026-09-27T17:33:17.269Z",
-    "expires_at": "2026-09-27T18:03:17.269Z",
-    "delivery_ids": [
-      "63e9b7e0-ba99-11f1-921d-3e197d3010fa"
-    ],
-    "pull_requests": [
-      73
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1636,7 +1626,16 @@
         "world-discovery-8-2026-09-27-804|adoption|current-page-path-and-pr"
       ],
       "note": "Batch eight adds 27 research-only EN reference deliveries. Each uses the retired adoptation.md path and attaches PR 71 to destinations where this discovery adds no monitoring, sanctions or enforcement evidence. Correct all 48 PR71 country deliveries, regenerate events.json, and preserve PR72's concurrent event. The 27 source statements remain scoped research; no public row is proposed from this routing pass."
+    },
+    {
+      "delivery_id": "63e9b7e0-ba99-11f1-921d-3e197d3010fa",
+      "event": "pull_request.opened",
+      "pull_request": 73,
+      "head_sha": "f9c64b5c47427a29a4d3fb49606ba234099b2bda",
+      "checked_on": "2026-09-27T17:33:58.402Z",
+      "outcome": "ignored_presentation_only_no_evidence_handoff",
+      "note": "PR #73 adds supported destination-language metadata, shared presentation/checking infrastructure, reviewed-row presentation hashes, and three HTML-rendering boundary fixes while preserving visible factual wording, URLs, evidence claims and verification dates. It changes no canonical delivery or generated routing index. Its documented refresh requirement already covers overlaps with PRs #70, #71 and #72; existing routing suggestions remain unchanged."
     }
   ],
-  "updated_at": "2026-09-27T17:33:17.269Z"
+  "updated_at": "2026-09-27T17:33:58.402Z"
 }
