@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr71-sync-c94d3a40",
+    "acquired_at": "2026-09-27T16:16:58.692Z",
+    "expires_at": "2026-09-27T16:46:58.692Z",
+    "delivery_ids": [
+      "c94d3a40-ba8e-11f1-8a94-ab1648041e3d"
+    ],
+    "pull_requests": [
+      71
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1172,5 +1182,5 @@
       "note": "Sixth bounded batch adds research-only Kuwait, Saudi Arabia, Azerbaijan, Kazakhstan, Taiwan, Qatar, Bangladesh, Republic of Korea, and Trinidad and Tobago EN references. Each new delivery uses retired adoptation.md and attaches PR 71 to not_applicable monitoring, enforcement and sanctions destinations. The prior ten corrections remain unresolved. Correct all 19 records, regenerate events.json, and preserve PR72's event. None of the new scoped references supports a public adoption row."
     }
   ],
-  "updated_at": "2026-09-27T15:59:29.447Z"
+  "updated_at": "2026-09-27T16:16:58.692Z"
 }
