@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr69-sync-db09d5a0",
+    "acquired_at": "2026-09-27T13:47:14.073Z",
+    "expires_at": "2026-09-27T14:17:14.073Z",
+    "delivery_ids": [
+      "db09d5a0-ba79-11f1-8d64-3c6350d7bd34"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -690,5 +697,5 @@
       "note": "Webhook delivery predates the already processed merge but arrived later. Current GitHub state is closed and merged. PR #68 changed only adoption-check documentation, validator compatibility and tests, so it introduces no evidence handoff or new suggestion."
     }
   ],
-  "updated_at": "2026-09-27T13:28:44.307Z"
+  "updated_at": "2026-09-27T13:47:14.073Z"
 }
