@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr68-merged-fa1cba50",
+    "acquired_at": "2026-09-27T13:26:37.903Z",
+    "expires_at": "2026-09-27T13:56:37.903Z",
+    "delivery_ids": [
+      "fa1cba50-ba76-11f1-895d-a11a9c3c1a22"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -672,5 +679,5 @@
       "note": "The synchronized head now uses numeric PR #69 on every round-two adoption destination. All 14 new deliveries still name EN 301 549 adoptation.md instead of the current EN 301 549 adoption.md, and the seven destinations delivered by merged PR #67 remain proposed/pending. Regenerate events.json after canonical fixes."
     }
   ],
-  "updated_at": "2026-09-27T13:24:31.962Z"
+  "updated_at": "2026-09-27T13:26:37.903Z"
 }
