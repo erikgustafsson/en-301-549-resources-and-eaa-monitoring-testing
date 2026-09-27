@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr70-open-2bff8e10",
+    "acquired_at": "2026-09-27T14:18:17.787Z",
+    "expires_at": "2026-09-27T14:48:17.787Z",
+    "delivery_ids": [
+      "2bff8e10-ba7e-11f1-905e-2c442f634fe9"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -730,5 +737,5 @@
       "note": "Authoritative merge event confirms the state already assessed on the immediately preceding delivery: PR #69 merged at 6e18211, leaving the recorded 23-path, 16 PR69 status and seven PR67 status metadata follow-up. No new evidence or handoff beyond the existing suggestion."
     }
   ],
-  "updated_at": "2026-09-27T13:59:30.668Z"
+  "updated_at": "2026-09-27T14:18:17.787Z"
 }
