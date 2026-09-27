@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr71-sync-2170bba0",
+    "acquired_at": "2026-09-27T15:57:58.996Z",
+    "expires_at": "2026-09-27T16:27:58.996Z",
+    "delivery_ids": [
+      "2170bba0-ba8c-11f1-8509-7a30af08bca2"
+    ],
+    "pull_requests": [
+      71
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1025,5 +1035,5 @@
       "note": "Fifth bounded batch adds research-only Angola, Cameroon, Egypt, Ghana and Zimbabwe EN references. All five new canonical deliveries use retired adoptation.md and attach PR 71 to not_applicable monitoring, enforcement and sanctions destinations. The previously notified United States, Malaysia, Costa Rica, Peru and Uruguay metadata remains unchanged. Correct all ten records, regenerate events.json, and preserve PR72's concurrent event. Corporate, contractual and foreign-institution references do not support public adoption rows."
     }
   ],
-  "updated_at": "2026-09-27T15:30:06.119Z"
+  "updated_at": "2026-09-27T15:57:58.996Z"
 }
