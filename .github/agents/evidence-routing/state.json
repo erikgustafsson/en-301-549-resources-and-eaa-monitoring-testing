@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr71-sync-59719700",
-    "acquired_at": "2026-09-27T14:40:37Z",
-    "expires_at": "2026-09-27T15:10:37Z",
-    "delivery_ids": [
-      "59719700-ba81-11f1-9c29-6bdc1d18fcd1"
-    ],
-    "pull_requests": [
-      71
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -665,12 +655,12 @@
       "target": "PR #71 canonical United States delivery and generated .github/agents/evidence-routing/events.json",
       "status": "covering_pr_update_required",
       "covering_pr": 71,
-      "proposed_change": "Before merging PR #71, change the adoption destination page in .github/agents/research/countries/united states.json from EN 301 549 adoptation.md to the current EN 301 549 adoption.md, then regenerate events.json from canonical deliveries. Preserve research_only, the non-adoption limitation, null PR, and all monitoring/enforcement/sanctions not_applicable dispositions.",
+      "proposed_change": "Before merging PR #71, change the United States adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md, set its research_only adoption destination to numeric pr 71, keep monitoring/enforcement/sanctions pr null and not_applicable, then regenerate events.json.",
       "evidence": "The US Access Board 2017 final-rule preamble explicitly compares EN 301 549 V1.1.2, then declines incorporation by reference or equivalence with Section 508 compliance. PR #71 stores this correctly as research_only, but routes it to the retired page path.",
       "limitations": "Metadata only. Do not add a public US adoption row. South Africa and Israel remain bounded law/standard research with no verified EN connection; their future legal-page notes are retained and no legal destination is registered yet.",
-      "progress": "Open draft PR #71 at c4b1994 covers the canonical record and generated index.",
+      "progress": "Head a009066 still has the retired path and null adoption PR link; the second research batch adds a separate Malaysia routing correction.",
       "created_on": "2026-09-27T14:34:45.381Z",
-      "updated_on": "2026-09-27T14:34:45.381Z"
+      "updated_on": "2026-09-27T14:42:36.102Z"
     },
     {
       "id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
@@ -684,6 +674,19 @@
       "created_on": "2026-09-27T14:34:45.381Z",
       "updated_on": "2026-09-27T14:38:09.816Z",
       "progress": "Head 54efec6 adds only review documentation. Numeric PR 72 remains fixed; the explicit adoption not_applicable disposition is still absent."
+    },
+    {
+      "id": "world-discovery-2-2026-09-27-malaysia|adoption|current-page-path-and-pr",
+      "country": "Malaysia",
+      "target": "PR #71 canonical Malaysia delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 71,
+      "proposed_change": "Before merging PR #71, change Malaysia's adoption destination page from EN 301 549 adoptation.md to EN 301 549 adoption.md; replace the full pull-request URL on the research_only adoption destination with numeric pr 71; set pr null on monitoring, sanctions and enforcement not_applicable destinations; then regenerate events.json from canonical deliveries.",
+      "evidence": "KO-NELAYAN's accessibility statement, updated 23 August 2026, targets WCAG 2.1 AA, describes partial conformance, and mentions EN 301 549 only in its explanation of publishing remaining gaps. PR #71 correctly records this as an institutional reference rather than national adoption.",
+      "limitations": "Metadata/routing only. Do not add a public Malaysia adoption row or infer an EN edition, national obligation or conformance. The Persons with Disabilities Act PDF remains an unreadable legal lead. Monitoring, enforcement and sanctions remain not_applicable.",
+      "created_on": "2026-09-27T14:42:36.102Z",
+      "updated_on": "2026-09-27T14:42:36.102Z",
+      "progress": "Open draft PR #71 at a009066 already touches Malaysia's canonical record and generated index."
     }
   ],
   "processed_deliveries": [
@@ -840,7 +843,20 @@
       "outcome": "duplicate_existing_suggestion_unresolved",
       "suggestion_id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
       "note": "This synchronization changes only the independent enforcement review report. The numeric PR 72 link remains fixed, while the existing missing adoption not_applicable disposition remains unchanged. No new evidence or cross-page scope was added."
+    },
+    {
+      "delivery_id": "59719700-ba81-11f1-9c29-6bdc1d18fcd1",
+      "event": "pull_request.synchronize",
+      "pull_request": 71,
+      "head_sha": "a009066ff2dfba68febbcc1dcef6a285d1224a4c",
+      "checked_on": "2026-09-27T14:42:36.102Z",
+      "outcome": "existing_suggestion_unresolved_and_new_actionable_routing_correction",
+      "suggestion_ids": [
+        "world-discovery-1-2026-09-27-united-states|adoption|current-page-path",
+        "world-discovery-2-2026-09-27-malaysia|adoption|current-page-path-and-pr"
+      ],
+      "note": "PR #71 expands to a second bounded batch. The existing US adoption destination still uses retired adoptation.md. New Malaysia evidence is correctly limited to an institutional reference, but its delivery also uses retired adoptation.md and stores full PR URLs on all four destinations. Use numeric PR 71 on the US and Malaysia adoption research_only destinations, null PR on not_applicable destinations, current adoption.md paths, then regenerate events.json. Singapore/Philippines law findings remain scoped shared research for a future unregistered legal page."
     }
   ],
-  "updated_at": "2026-09-27T14:38:09.816Z"
+  "updated_at": "2026-09-27T14:42:36.102Z"
 }
