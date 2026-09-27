@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr72-sync-bf2f62d0",
-    "acquired_at": "2026-09-27T14:37:15Z",
-    "expires_at": "2026-09-27T15:07:15Z",
-    "delivery_ids": [
-      "bf2f62d0-ba80-11f1-806b-82093760da2e"
-    ],
-    "pull_requests": [
-      72
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -682,8 +672,8 @@
       "evidence": "Official MLBF announcement dated 19 February 2026 states that its board adopted product and service surveillance strategies on 29 January 2026. PR #72's reviewed PDFs support risk-based/reactive checks and initial automated checks for web services. The open PR itself is the covering enforcement delivery.",
       "limitations": "Metadata/routing only. Keep monitoring research_only and sanctions needs_evidence; the strategies describe surveillance methods and possible measures, not individual penalties, completed remediation, inspection totals or EN 301 549 adoption.",
       "created_on": "2026-09-27T14:34:45.381Z",
-      "updated_on": "2026-09-27T14:36:15.489Z",
-      "progress": "Head 8907729 resolves the numeric PR 72 link. The explicit adoption not_applicable disposition remains absent."
+      "updated_on": "2026-09-27T14:38:09.816Z",
+      "progress": "Head 54efec6 adds only review documentation. Numeric PR 72 remains fixed; the explicit adoption not_applicable disposition is still absent."
     }
   ],
   "processed_deliveries": [
@@ -830,7 +820,17 @@
       "outcome": "existing_suggestion_partially_resolved",
       "suggestion_id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
       "note": "The synchronized head now correctly links the proposed enforcement destination to numeric PR 72 and regenerates events.json. It still omits the registered EN 301 549 adoption destination from the new Germany delivery; add an explicit not_applicable adoption disposition and regenerate the index, preserving concurrent PR #71's event."
+    },
+    {
+      "delivery_id": "bf2f62d0-ba80-11f1-806b-82093760da2e",
+      "event": "pull_request.synchronize",
+      "pull_request": 72,
+      "head_sha": "54efec62d3ab3a76c4deadf74c865a2e13e630b4",
+      "checked_on": "2026-09-27T14:38:09.816Z",
+      "outcome": "duplicate_existing_suggestion_unresolved",
+      "suggestion_id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
+      "note": "This synchronization changes only the independent enforcement review report. The numeric PR 72 link remains fixed, while the existing missing adoption not_applicable disposition remains unchanged. No new evidence or cross-page scope was added."
     }
   ],
-  "updated_at": "2026-09-27T14:36:15.489Z"
+  "updated_at": "2026-09-27T14:38:09.816Z"
 }
