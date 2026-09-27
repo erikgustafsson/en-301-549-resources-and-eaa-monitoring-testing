@@ -1,6 +1,13 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "github-pr70-sync-1d766f70",
+    "acquired_at": "2026-09-27T14:24:49.091Z",
+    "expires_at": "2026-09-27T14:54:49.091Z",
+    "delivery_ids": [
+      "1d766f70-ba7f-11f1-8f42-4c0d285bbc56"
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -748,5 +755,5 @@
       "note": "PR #70 synchronization adds an isolated setup review and corrects Antarctica's index region. All 237 new entries remain pending/not researched; no source-backed finding, public-page change or cross-page handoff was added. PR #70 remains unrelated to the outstanding PR #67/#69 metadata and Sweden corrections."
     }
   ],
-  "updated_at": "2026-09-27T14:20:54.935Z"
+  "updated_at": "2026-09-27T14:24:49.091Z"
 }
