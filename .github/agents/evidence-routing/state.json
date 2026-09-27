@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr71-sync-6c8803f0",
+    "acquired_at": "2026-09-27T17:11:39.310Z",
+    "expires_at": "2026-09-27T17:41:39.310Z",
+    "delivery_ids": [
+      "6c8803f0-ba96-11f1-8c9b-adc5e6d76293"
+    ],
+    "pull_requests": [
+      71
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1230,5 +1240,5 @@
       "note": "Seventh bounded batch adds research-only Chad and Honduras EN references. Both new deliveries use retired adoptation.md and attach PR 71 to not_applicable monitoring, enforcement and sanctions destinations. The prior 19 corrections remain unresolved. Correct all 21 records, regenerate events.json, and preserve PR72's event. Neither document supports a public adoption row."
     }
   ],
-  "updated_at": "2026-09-27T16:17:56.045Z"
+  "updated_at": "2026-09-27T17:11:39.310Z"
 }
