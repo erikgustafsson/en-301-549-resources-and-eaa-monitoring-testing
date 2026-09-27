@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr73-sync-338b4090",
-    "acquired_at": "2026-09-27T17:38:43.456Z",
-    "expires_at": "2026-09-27T18:08:43.456Z",
-    "delivery_ids": [
-      "338b4090-ba9a-11f1-8818-3b590223e1f6"
-    ],
-    "pull_requests": [
-      73
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1754,7 +1744,16 @@
         "world-discovery-9-2026-09-27-248|adoption|current-page-path-and-pr"
       ],
       "note": "Final batch adds seven research-only territorial or institutional EN references. All seven adoption destinations use retired adoptation.md and attach PR 71 to non-adoption destinations despite adding no monitoring, sanctions or enforcement evidence. Correct all 55 discovery deliveries, regenerate events.json, and preserve PR72's concurrent event. No new public claim is supported."
+    },
+    {
+      "delivery_id": "338b4090-ba9a-11f1-8818-3b590223e1f6",
+      "event": "pull_request.synchronize",
+      "pull_request": 73,
+      "head_sha": "8827713084599356ef0e2c4d8c1f048f3a6a0397",
+      "checked_on": "2026-09-27T17:39:30.001Z",
+      "outcome": "duplicate_presentation_only_no_evidence_handoff",
+      "note": "The synchronization is one commit ahead and changes only the existing link-language audit review report (8 additions, 2 deletions). It records the independent head review, zero CI runs and parser limitations; it adds no factual claim, source evidence, canonical delivery, public wording or routing index change. Existing PR71/PR72 routing suggestions remain unchanged."
     }
   ],
-  "updated_at": "2026-09-27T17:38:43.456Z"
+  "updated_at": "2026-09-27T17:39:30.001Z"
 }
