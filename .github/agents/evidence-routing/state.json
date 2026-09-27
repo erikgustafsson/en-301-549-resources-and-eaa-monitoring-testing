@@ -1,13 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "github-pr68-ready-f735c700",
-    "acquired_at": "2026-09-27T13:28:24.115Z",
-    "expires_at": "2026-09-27T13:58:24.115Z",
-    "delivery_ids": [
-      "f735c700-ba76-11f1-8148-31e6db88ca34"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -686,7 +679,16 @@
       "checked_on": "2026-09-27T13:27:08.697Z",
       "outcome": "ignored_process_only_merge_no_new_handoff",
       "note": "PR #68 merged adoption-check documentation, validator compatibility and tests only. It adds no evidence, canonical delivery or public factual content. Open PR #69 still targets the prerequisite branch, but its own documented manual check already requires refresh/retarget to main after #68; existing PR #69 routing corrections remain unchanged."
+    },
+    {
+      "delivery_id": "f735c700-ba76-11f1-8148-31e6db88ca34",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 68,
+      "head_sha": "ef7dd3e36a158f1d49aafa8a7cbacc674cfc56ca",
+      "checked_on": "2026-09-27T13:28:44.307Z",
+      "outcome": "ignored_out_of_order_process_only_event",
+      "note": "Webhook delivery predates the already processed merge but arrived later. Current GitHub state is closed and merged. PR #68 changed only adoption-check documentation, validator compatibility and tests, so it introduces no evidence handoff or new suggestion."
     }
   ],
-  "updated_at": "2026-09-27T13:28:24.115Z"
+  "updated_at": "2026-09-27T13:28:44.307Z"
 }
