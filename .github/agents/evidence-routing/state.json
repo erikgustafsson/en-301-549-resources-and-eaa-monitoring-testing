@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr74-open-2314e8f0",
+    "acquired_at": "2026-09-28T13:31:53.041Z",
+    "expires_at": "2026-09-28T14:01:53.041Z",
+    "delivery_ids": [
+      "2314e8f0-bb40-11f1-8725-1d7f9966d7ee"
+    ],
+    "pull_requests": [
+      74
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1755,5 +1765,5 @@
       "note": "The synchronization is one commit ahead and changes only the existing link-language audit review report (8 additions, 2 deletions). It records the independent head review, zero CI runs and parser limitations; it adds no factual claim, source evidence, canonical delivery, public wording or routing index change. Existing PR71/PR72 routing suggestions remain unchanged."
     }
   ],
-  "updated_at": "2026-09-27T17:39:30.001Z"
+  "updated_at": "2026-09-28T13:31:53.041Z"
 }
