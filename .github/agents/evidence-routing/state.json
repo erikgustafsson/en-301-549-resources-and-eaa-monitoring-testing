@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr74-sync-325c3200",
+    "acquired_at": "2026-09-28T13:33:37.032Z",
+    "expires_at": "2026-09-28T14:03:37.032Z",
+    "delivery_ids": [
+      "325c3200-bb40-11f1-8701-30c98f47b17e"
+    ],
+    "pull_requests": [
+      74
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1778,5 +1788,5 @@
       "note": "PR #74 correctly stores the technical comparison in the canonical European-standard record and marks monitoring, sanctions and enforcement not_applicable. Its new research_only adoption destination uses retired adoptation.md, and events.json remains byte-identical to main without the new event. Use current adoption.md and regenerate the index; no public page or future unregistered page change is supported."
     }
   ],
-  "updated_at": "2026-09-28T13:33:01.374Z"
+  "updated_at": "2026-09-28T13:33:37.032Z"
 }
