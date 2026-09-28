@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr74-open-2314e8f0",
-    "acquired_at": "2026-09-28T13:31:53.041Z",
-    "expires_at": "2026-09-28T14:01:53.041Z",
-    "delivery_ids": [
-      "2314e8f0-bb40-11f1-8725-1d7f9966d7ee"
-    ],
-    "pull_requests": [
-      74
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1386,6 +1376,19 @@
       "created_on": "2026-09-27T17:36:10.787Z",
       "updated_on": "2026-09-27T17:36:10.787Z",
       "progress": "New on PR #71 head feb2425."
+    },
+    {
+      "id": "public-sector-version-comparison-2026-09-28|adoption|current-page-and-generated-index",
+      "country": "European Union",
+      "target": "PR #74 canonical European-standard delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "covering_pr_update_required",
+      "covering_pr": 74,
+      "proposed_change": "Before merging PR #74, change the new public-sector-version-comparison-2026-09-28 adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md, retain research_only with numeric pr 74, and regenerate events.json from canonical deliveries while preserving concurrent PR #71 and PR #72 events. Leave the monitoring, sanctions and enforcement not_applicable destinations with pr null.",
+      "evidence": "The canonical European-standard record adds a scoped comparison using the final ETSI V3.2.1 and V4.1.1 PDFs, ETSI WKI 64282, Decision (EU) 2021/1339 and Commission guidance. It verifies V4.1.1 publication on 2 September 2026, the WCAG 2.2 web mapping and selected structural changes; the OJ citation date remains only a 16 December 2026 target with no achieved date.",
+      "limitations": "Routing metadata only. No public wording is supported: this was not a full normative redline, current exhaustive OJ status and transition rules remain unresolved, secondary auditor-practice and national-law examples remain unverified, and the proposed future public-sector page is not registered.",
+      "created_on": "2026-09-28T13:33:01.374Z",
+      "updated_on": "2026-09-28T13:33:01.374Z",
+      "progress": "New on PR #74 head 1479681."
     }
   ],
   "processed_deliveries": [
@@ -1763,7 +1766,17 @@
       "checked_on": "2026-09-27T17:39:30.001Z",
       "outcome": "duplicate_presentation_only_no_evidence_handoff",
       "note": "The synchronization is one commit ahead and changes only the existing link-language audit review report (8 additions, 2 deletions). It records the independent head review, zero CI runs and parser limitations; it adds no factual claim, source evidence, canonical delivery, public wording or routing index change. Existing PR71/PR72 routing suggestions remain unchanged."
+    },
+    {
+      "delivery_id": "2314e8f0-bb40-11f1-8725-1d7f9966d7ee",
+      "event": "pull_request.opened",
+      "pull_request": 74,
+      "head_sha": "1479681bf7196d08b9185d89c7c3764a9376c3b0",
+      "checked_on": "2026-09-28T13:33:01.374Z",
+      "outcome": "new_actionable_generated_handoff_and_current_page_identifier",
+      "suggestion_id": "public-sector-version-comparison-2026-09-28|adoption|current-page-and-generated-index",
+      "note": "PR #74 correctly stores the technical comparison in the canonical European-standard record and marks monitoring, sanctions and enforcement not_applicable. Its new research_only adoption destination uses retired adoptation.md, and events.json remains byte-identical to main without the new event. Use current adoption.md and regenerate the index; no public page or future unregistered page change is supported."
     }
   ],
-  "updated_at": "2026-09-28T13:31:53.041Z"
+  "updated_at": "2026-09-28T13:33:01.374Z"
 }
