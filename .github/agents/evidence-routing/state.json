@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr73-sync-2d3981a0-20260929143724",
-    "acquired_at": "2026-09-29T14:37:24.284Z",
-    "expires_at": "2026-09-29T15:07:24.284Z",
-    "delivery_ids": [
-      "2d3981a0-bc13-11f1-9a02-60a5ab6b5aad"
-    ],
-    "pull_requests": [
-      73
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1983,7 +1973,16 @@
       "outcome": "new_actionable_post_merge_routing_normalization",
       "suggestion_id": "de-mlbf-strategy-intake-20260927|cross-page|pr72-link-and-adoption-disposition",
       "note": "PR #72 merged the supported Germany enforcement paragraph and research. Main still marks the delivery and enforcement destination proposed with a maintainer-review next action and omits the adoption not_applicable destination. A metadata-only follow-up is required; it can be combined with the existing post-PR71 routing correction."
+    },
+    {
+      "delivery_id": "2d3981a0-bc13-11f1-9a02-60a5ab6b5aad",
+      "event": "pull_request.synchronize",
+      "pull_request": 73,
+      "head_sha": "bba8cc232b20ca11a60f94314f8219eb73d18985",
+      "checked_on": "2026-09-29T14:37:52.969Z",
+      "outcome": "ignored_presentation_only_refresh_no_new_handoff",
+      "note": "PR #73 was refreshed onto merged PR #72. The head adds link-language presentation metadata, audit tooling, public-row fingerprints and review documentation while preserving visible wording, destination URLs, evidence, claims, verification dates, delivery histories and the 108-event routing index. It does not change events.json or cover the recorded post-PR71/PR72 routing follow-up."
     }
   ],
-  "updated_at": "2026-09-29T14:34:30.899Z"
+  "updated_at": "2026-09-29T14:37:52.969Z"
 }
