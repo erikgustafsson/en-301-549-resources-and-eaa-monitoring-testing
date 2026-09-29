@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr73-ready-00f06b80-20260929144309",
+    "acquired_at": "2026-09-29T14:43:09.250Z",
+    "expires_at": "2026-09-29T15:13:09.250Z",
+    "delivery_ids": [
+      "00f06b80-bc14-11f1-9bac-2d576e7c3173"
+    ],
+    "pull_requests": [
+      73
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
