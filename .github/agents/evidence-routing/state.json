@@ -1,6 +1,19 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr74-merge-414c8e20-20260929144533",
+    "acquired_at": "2026-09-29T14:45:33.856Z",
+    "expires_at": "2026-09-29T15:15:33.856Z",
+    "delivery_ids": [
+      "04746220-bc14-11f1-9d99-38440a2c39d0",
+      "3a3e8660-bc14-11f1-9799-ff9b0dfe57a9",
+      "414c8e20-bc14-11f1-8578-46ebdd1cea82"
+    ],
+    "pull_requests": [
+      73,
+      74
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
