@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr73-ready-00f06b80-20260929144309",
-    "acquired_at": "2026-09-29T14:43:09.250Z",
-    "expires_at": "2026-09-29T15:13:09.250Z",
-    "delivery_ids": [
-      "00f06b80-bc14-11f1-9bac-2d576e7c3173"
-    ],
-    "pull_requests": [
-      73
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2001,7 +1991,16 @@
       "checked_on": "2026-09-29T14:40:12.682Z",
       "outcome": "duplicate_report_only_presentation_audit_no_new_handoff",
       "note": "This synchronization adds only .github/agents/enforcement/reviews/2026-09-29-pr73-refresh.json, an independent report on prior head bba8cc2. It explicitly confirms country evidence, claims, verification dates, worldwide inventory and 108 routing events are preserved. No public wording, destination URL, canonical delivery or routing event changed, and existing post-PR71/PR72 suggestions remain unresolved."
+    },
+    {
+      "delivery_id": "00f06b80-bc14-11f1-9bac-2d576e7c3173",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 73,
+      "head_sha": "1f8fbd5e34a16835564420c3208e0a511bc8e3f2",
+      "checked_on": "2026-09-29T14:43:53.876Z",
+      "outcome": "actual_state_merged_presentation_only_no_new_handoff",
+      "note": "At assessment PR #73 is already merged to main at c7e73c58. It adds supported link-language attributes, presentation fingerprints, audit tooling and review documentation while preserving visible wording, URLs, evidence, claims, verification dates, delivery histories and the 108-event routing index. It does not resolve or change the existing post-PR71/PR72 metadata suggestions."
     }
   ],
-  "updated_at": "2026-09-29T14:40:12.682Z"
+  "updated_at": "2026-09-29T14:43:53.876Z"
 }
