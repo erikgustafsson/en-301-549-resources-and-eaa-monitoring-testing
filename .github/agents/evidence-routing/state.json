@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr70-merge-8f908db0",
-    "acquired_at": "2026-09-29T14:20:28.071Z",
-    "expires_at": "2026-09-29T14:50:28.071Z",
-    "delivery_ids": [
-      "8f908db0-bc10-11f1-9e4f-efbe7857bb0c"
-    ],
-    "pull_requests": [
-      70
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1805,7 +1795,16 @@
       "checked_on": "2026-09-29T14:19:19.618Z",
       "outcome": "actual_state_merged_process_only_no_new_handoff",
       "note": "At assessment PR #70 is already merged to main. It contains worldwide-inventory and adoption-validator scaffolding only, with no new canonical evidence, delivery, public claim or routing event. Its merge removes PR #71's stated prerequisite; PR #71 remains based on codex/worldwide-adoption-inventory and already documents the required refresh/retarget plus overlap preservation. Existing PR #71 routing suggestions remain unresolved; no new suggestion is needed."
+    },
+    {
+      "delivery_id": "8f908db0-bc10-11f1-9e4f-efbe7857bb0c",
+      "event": "pull_request.merged",
+      "pull_request": 70,
+      "head_sha": "677cf326f96552e5884fb19a6a5c3219154a901a",
+      "checked_on": "2026-09-29T14:20:47.371Z",
+      "outcome": "duplicate_merged_process_only_no_new_handoff",
+      "note": "The explicit merge event confirms the process/data-scaffolding state already assessed from the preceding ready_for_review wake-up. PR #70 adds no new evidence, canonical delivery or public claim. PR #71 remains open at feb2425 on base codex/worldwide-adoption-inventory; its documented refresh/retarget step and existing routing suggestions remain unchanged."
     }
   ],
-  "updated_at": "2026-09-29T14:20:28.071Z"
+  "updated_at": "2026-09-29T14:20:47.371Z"
 }
