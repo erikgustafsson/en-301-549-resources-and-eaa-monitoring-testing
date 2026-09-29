@@ -1,6 +1,16 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr71-ready-84a09b60-20260929142656",
+    "acquired_at": "2026-09-29T14:26:56.426Z",
+    "expires_at": "2026-09-29T14:56:56.426Z",
+    "delivery_ids": [
+      "84a09b60-bc11-11f1-9fd5-eab7c8c10ba6"
+    ],
+    "pull_requests": [
+      71
+    ]
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
