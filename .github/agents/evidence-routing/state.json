@@ -1,19 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr74-merge-414c8e20-20260929144533",
-    "acquired_at": "2026-09-29T14:45:33.856Z",
-    "expires_at": "2026-09-29T15:15:33.856Z",
-    "delivery_ids": [
-      "04746220-bc14-11f1-9d99-38440a2c39d0",
-      "3a3e8660-bc14-11f1-9799-ff9b0dfe57a9",
-      "414c8e20-bc14-11f1-8578-46ebdd1cea82"
-    ],
-    "pull_requests": [
-      73,
-      74
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -671,9 +658,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the United States canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "The US Access Board 2017 final-rule preamble explicitly compares EN 301 549 V1.1.2, then declines incorporation by reference or equivalence with Section 508 compliance. PR #71 stores this correctly as research_only, but routes it to the retired page path.",
       "limitations": "Metadata only. Do not add a public US adoption row. South Africa and Israel remain bounded law/standard research with no verified EN connection; their future legal-page notes are retained and no legal destination is registered yet.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T14:34:45.381Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -686,8 +673,8 @@
       "evidence": "Official MLBF announcement dated 19 February 2026 states that its board adopted product and service surveillance strategies on 29 January 2026. PR #72's reviewed PDFs support risk-based/reactive checks and initial automated checks for web services. The open PR itself is the covering enforcement delivery.",
       "limitations": "Metadata/routing only. Do not change the merged public wording. The strategies describe surveillance plans and possible measures, not individual penalties, completed remediation, inspection totals or EN 301 549 adoption. Keep the sanctions statutory-conditions lead as needs_evidence.",
       "created_on": "2026-09-27T14:34:45.381Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #72 merged to main at merge commit ae577037b86eb95ed093c8495ce4fdded2039712. Main contains the Germany enforcement paragraph and evidence, but the canonical delivery and generated event remain proposed with a maintainer-review next action, and the adoption not_applicable destination remains absent. Open PRs #73 and #74 are based before PR #71/#72 and do not cover this correction.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PR #72 merged its Germany enforcement content, but the canonical delivery remains proposed and lacks adoption not_applicable. PR #74 also merged a separate missing/retired-path research-only event. No PR is open; combine both with the 55 post-PR71 corrections in one metadata-only follow-up.",
       "source_pr": 72
     },
     {
@@ -700,8 +687,8 @@
       "evidence": "KO-NELAYAN's accessibility statement, updated 23 August 2026, targets WCAG 2.1 AA, describes partial conformance, and mentions EN 301 549 only in its explanation of publishing remaining gaps. PR #71 correctly records this as an institutional reference rather than national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Malaysia adoption row or infer an EN edition, national obligation or conformance. The Persons with Disabilities Act PDF remains an unreadable legal lead. Monitoring, enforcement and sanctions remain not_applicable.",
       "created_on": "2026-09-27T14:42:36.102Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -713,9 +700,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Costa Rica canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "A 2024 University of Costa Rica academic freedom-of-expression report references EN 301 549 V1.1.2:2015 in a comparison with European policy. The repository correctly treats the source as an academic reference and unverified for national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Costa Rica adoption row or infer national adoption, legal force, a national accessibility obligation or implementation. Retain related law material only as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:03:54.343Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -727,9 +714,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Peru canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "Official Peruvian government digital-accessibility guidance recommends using EN 301 549 when developing or acquiring digital services, but does not establish an edition, legal force or national standards adoption.",
       "limitations": "Metadata/routing only. Do not add a public Peru adoption row or infer national adoption, binding procurement law, an edition or implementation. The Law 29973 material remains a limited legal lead for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:03:54.343Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -741,9 +728,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Uruguay canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "A Montevideo municipal technical specification says the Florencio Sanchez interactive module should conform to EN 301 549. This is project-specific procurement evidence, not evidence of national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Uruguay adoption row or infer a national standard, edition, award, implementation or completed conformance. Retain the law definition only as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:03:54.343Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -755,9 +742,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Angola canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "Microsoft's Angola-labelled Portuguese purchase-order terms, updated August 2026, require user-interface purchases to address EN 301 549. This is a private contractual reference, not national adoption.",
       "limitations": "Metadata/routing only. Do not add a public Angola adoption row or infer an Angolan legal requirement, national standard, EN edition or completed conformance. Retain the law source only as a future legal-mapping lead.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:30:06.119Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -769,9 +756,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Cameroon canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "DAAD's Cameroon website declaration references EN 301 549 under Germany's BGG/BITV framework. It is a German institution's regional-site statement, not Cameroonian adoption evidence.",
       "limitations": "Metadata/routing only. Do not add a public Cameroon adoption row or infer Cameroonian legal force, national adoption, an EN edition or site-wide conformance. Retain the domestic-law material only as a future legal-mapping lead.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:30:06.119Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -783,9 +770,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Egypt canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "CeraVe Egypt publishes L'Oreal's corporate accessibility commitment referencing EN 301 549; the page text names no edition, while its link points to V2.1.2:2018 (source notation V2.1.2 (2018-08)). This is not Egyptian adoption evidence.",
       "limitations": "Metadata/routing only. Do not add a public Egypt adoption row or infer Egyptian legal force, national adoption or verified site conformance. Keep the inaccessible Egyptian-law page as a research lead only.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:30:06.119Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -797,9 +784,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Ghana canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "DAAD's Ghana website declaration references EN 301 549 under Germany's BGG/BITV framework. It is a German institution's regional-site statement, not Ghanaian adoption evidence.",
       "limitations": "Metadata/routing only. Do not add a public Ghana adoption row or infer Ghanaian legal force, national adoption, an EN edition or site-wide conformance. Retain the domestic-law material only as a future legal-mapping lead.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:30:06.119Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -811,9 +798,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Zimbabwe canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "TotalEnergies' Zimbabwe site hosts a website-factory/demonstration-site statement mentioning EN 301 549 in its WCAG criterion 4.1.1 discussion. This does not establish Zimbabwean adoption or conformance of the Zimbabwe site.",
       "limitations": "Metadata/routing only. Do not add a public Zimbabwe adoption row or infer national adoption, an EN edition, site conformance or current legal status. The 2025 Act lead remains inaccessible and requires commencement/repeal verification.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:30:06.119Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -825,9 +812,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Kuwait canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "PADA's national digital-accessibility framework calls for EN 301 549 in ICT procurement, but its effective-date clause retains a signing/bylaws placeholder.",
       "limitations": "Metadata/routing only. Do not infer that the framework is in force, national standards adoption, current legal effect or completed procurement compliance. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -839,9 +826,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Saudi Arabia canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "The Saudi Food and Drug Authority's policy commits that agency to EN 301 549 compliance alongside other standards.",
       "limitations": "Metadata/routing only. Do not infer nationwide Saudi adoption, a binding national procurement rule, an EN edition or completed conformance. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -853,9 +840,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Azerbaijan canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "An AZSTAND-hosted cloud-SLA document cites EN 301 549 in European context and its bibliography; approval particulars are blank.",
       "limitations": "Metadata/routing only. Do not infer Azerbaijani adoption, approval, legal force or current national use from this contextual citation. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -867,9 +854,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Kazakhstan canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "A Kazakhstan government-hosted financial-regulation document discusses EN 301 549 only in an EU comparison.",
       "limitations": "Metadata/routing only. Do not infer Kazakhstan adoption, domestic legal force, an EN edition or implementation. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -881,9 +868,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Taiwan canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "NICS training material references EN 301 549 in a translation of Dutch Logius accessibility and procurement guidance.",
       "limitations": "Metadata/routing only. Do not infer a Taiwanese legal requirement, national adoption or a numbered EN edition from translated foreign guidance. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -895,9 +882,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Qatar canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "Mada procurement guidance references EN 301 549 and reproduces V1.1.1:2014 material; Mada is a private institution for public benefit.",
       "limitations": "Metadata/routing only. Do not infer Qatari national adoption, binding procurement law or public-authority status for the guidance. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -909,9 +896,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Bangladesh canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "DAAD's Bangladesh declaration references EN 301 549 under Germany's BGG/BITV framework.",
       "limitations": "Metadata/routing only. Do not infer Bangladeshi adoption, legal force, an EN edition or national compliance from a foreign institution's regional site. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -923,9 +910,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Republic of Korea canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "A Korean academic article cites EN 301 549 in comparisons and proposed e-book procurement guidance; its bibliography year conflicts with the linked V3.1.1:2019 document.",
       "limitations": "Metadata/routing only. Do not infer national adoption, an adopted procurement rule or resolve the edition conflict by assumption. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -937,9 +924,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Trinidad and Tobago canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "Microsoft's Trinidad and Tobago purchase-order terms reference EN 301 549 for user-interface purchases.",
       "limitations": "Metadata/routing only. Do not infer national adoption, domestic legal force, an EN edition or completed conformance from private contract terms. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T15:59:29.447Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -951,9 +938,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Chad canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "The World Bank's 2023 Chad Digital Economy Diagnostic lists EN 301 549 V2.1.2 among global accessibility references.",
       "limitations": "Metadata/routing only. This is an international diagnostic reference, not evidence of Chadian adoption, legal force or implementation. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T16:17:56.045Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -965,9 +952,9 @@
       "proposed_change": "Create a metadata-only follow-up PR on main: in the Honduras canonical delivery, change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain research_only with numeric pr 71. Set monitoring, enforcement and sanctions destinations to not_applicable with pr null wherever PR #71 added no evidence, without altering any pre-existing domain records, then regenerate events.json from the canonical deliveries and preserve the concurrent PR #72 Germany event.",
       "evidence": "A third-party-hosted technical-bid document for kiosks intended for Honduras specifies EN 301 549 for touchscreen and camera accessibility.",
       "limitations": "Metadata/routing only. The issuing authority and final tender status are unverified. Do not infer national adoption, award, completed delivery or implementation. Keep related legal material as research for a future registered legal destination.",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "created_on": "2026-09-27T16:17:56.045Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
+      "updated_on": "2026-09-29T14:46:08.960Z",
       "source_pr": 71
     },
     {
@@ -980,8 +967,8 @@
       "evidence": "Austrian Standards lists ÖVE/ÖNORM EN 301549 V3.2.1, issued on 1 May 2021, referring to EN 301 549 V3.2.1:2021 (source notation 2021-03). Source: Austrian Standards (https://www.austrian-standards.at/de/shop/ove-onorm-en-301549-v3-2-1-2021-05-01~p2575676).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -994,8 +981,8 @@
       "evidence": "The NSSO accessibility statement for Working in Belgium refers to EN 301 549 when reporting partial website compliance. This is a website-specific reference, not a national standards-adoption finding. Source: NSSO (https://www.workinginbelgium.fgov.be/en/accessibility-statement.html).",
       "limitations": "Routing metadata only. The evidence verifies only the cited website reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1008,8 +995,8 @@
       "evidence": "ISBIH’s 2022 bulletin lists BAS EN 301 549 V3.2.1:2022 and identifies EN 301 549 V3.2.1:2021 as identical (IDT). Source: ISBIH (https://isbih.gov.ba/uploads/dokumenti/Glasnik/sluzbene-objave-2-2022.pdf).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1022,8 +1009,8 @@
       "evidence": "The Bulgarian State Reserve’s accessibility declaration identifies BDS EN 301549:2021 and EN 301 549 V3.2.1:2021 as applicable standards for its website assessment. This is an agency website reference. Source: State Reserve (https://www.statereserve.bg/bg/speczialni/deklaracziya-za-dostpnost.html).",
       "limitations": "Routing metadata only. The evidence verifies only the cited website reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1036,8 +1023,8 @@
       "evidence": "HZN’s repository lists HRN EN 301 549 V3.2.1:2021 for ICT accessibility requirements. Source: HZN (https://repozitorij.hzn.hr/norm/HRN%2BEN%2B301%2B549%2BV3.2.1%3A2021).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1050,8 +1037,8 @@
       "evidence": "The Czech Standardization Agency lists ČSN EN 301549 among standards supporting accessibility of products and services. That row gives no edition; adjacent rows separately list ČSN ETSI EN 301 549 V3.1.1 and V3.2.1. Source: Czech Standardization Agency (https://agenturacas.gov.cz/produkty-a-sluzby/reprodukce-csn/normy-spotrebitele/podpora-a-integrace-osob-se-zdravotnim-postizenim/).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1064,8 +1051,8 @@
       "evidence": "Danish Standards makes DS/ETSI EN 301 549 V3.2.1:2021 available in Danish and English for public bodies under its agreement with the Agency for Digital Government. Source: Danish Standards (https://www.ds.dk/da/tilgaengelighed).",
       "limitations": "Routing metadata only. The evidence verifies only the cited standards access guidance; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1078,8 +1065,8 @@
       "evidence": "EVS lists EVS-EN 301 549 V4.1.1:2026 as valid from 16 September 2026, based on EN 301 549 V4.1.1. This catalogue date is not a legal commencement finding. Source: EVS (https://www.evs.ee/en/evs-en-301-549-v4-1-1-2026).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1092,8 +1079,8 @@
       "evidence": "Traficom’s guidance on the Act on the Provision of Digital Services identifies EN 301 549 as the standard defining its technical accessibility requirements and links an SFS edition. Source: Traficom (https://saavutettavuusvaatimukset.fi/en/requirements-act-provision-digital-services-0).",
       "limitations": "Routing metadata only. The evidence verifies only the cited government guidance reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1106,8 +1093,8 @@
       "evidence": "The French government’s RGAA reference page links EN 301 549 V2.1.2:2018 in French and English. This establishes a reference in that guidance, not the latest applicable national edition. Source: French government RGAA (https://accessibilite.numerique.gouv.fr/ressources/references/).",
       "limitations": "Routing metadata only. The evidence verifies only the cited guidance reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1120,8 +1107,8 @@
       "evidence": "DIN Media lists DIN EN 301549:2022-06 with EN 301 549 V3.2.1:2021 (source notation 2021-03) as its English version. Source: DIN Media (https://www.dinmedia.de/en/standard/din-en-301549/353869627?indexName=prod_dinmedia_products).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1134,8 +1121,8 @@
       "evidence": "An ELOT telecommunications-standardization presentation lists ELOT EN 301 549 among example ETSI standards. The cited slide does not specify an edition. Source: ELOT (https://elot.gr/wp-content/uploads/2025/11/2.-%CE%95%CE%9B%CE%9F%CE%A4_%CE%A4%CE%97%CE%9B%CE%95%CE%A0%CE%99%CE%9A%CE%9F%CE%99%CE%9D%CE%A9%CE%9D%CE%99%CE%95%CE%A3_%CE%A8%CE%A5%CE%A1%CE%A1%CE%97%CE%A3.pdf).",
       "limitations": "Routing metadata only. The evidence verifies only the cited standards-body presentation reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1148,8 +1135,8 @@
       "evidence": "MSZT states that it published the Hungarian-language version of MSZ EN 301 549:2020 on 1 December 2020. The underlying EN version and subsequent national editions require separate checking. Source: MSZT (https://www.mszt.hu/hu-hu/szabvanyositas/hirek/2020/12/ikt-termekek-es-szolgaltatasok-akadalymentessegi-kovetelmenyei).",
       "limitations": "Routing metadata only. The evidence verifies only the cited translation publication reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1162,8 +1149,8 @@
       "evidence": "Ireland’s National Disability Authority refers to EN 301 549 V3.2.1 in its guidance on public-body websites and mobile applications under the Web Accessibility Directive. Source: National Disability Authority (https://nda.ie/monitoring/eu-web-accessibility-directive/what-are-the-eu-web-accessibility-requirements).",
       "limitations": "Routing metadata only. The evidence verifies only the cited guidance reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1176,8 +1163,8 @@
       "evidence": "UNI’s catalogue lists UNI CEI EN 301549:2021 for ICT accessibility requirements. The underlying EN version is not identified in the retrieved catalogue text. Source: UNI (https://store.uni.com/uni-cei-en-301549-2021).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1190,8 +1177,8 @@
       "evidence": "LVS lists LVS EN 301549:2022 L in Latvian and identifies ETSI EN 301 549 V3.2.1:2021 (source notation 2021-03) among its source documents. Source: LVS (https://www.lvs.lv/lv/products/154379).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1204,8 +1191,8 @@
       "evidence": "The Liechtenstein administration’s accessibility statement refers to EN 301 549 V3.2.1:2021 (source notation 2021-03) when reporting partial website compliance. This is a website-specific reference. Source: Liechtenstein administration (https://www.llv.li/de/navigation/footer-nav/barrierefreiheitserklaerung).",
       "limitations": "Routing metadata only. The evidence verifies only the cited website reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1218,8 +1205,8 @@
       "evidence": "ILNAS’s website accessibility statement reports partial compliance with EN 301 549 and RGAA v4. This is a website-specific reference without an edition in the cited passage. Source: ILNAS (https://portail-qualite.public.lu/fr/support/accessibilite.html).",
       "limitations": "Routing metadata only. The evidence verifies only the cited website reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1232,8 +1219,8 @@
       "evidence": "ISME’s bulletin lists MEST EN 301549:2022 for ICT accessibility requirements. The underlying EN version is not identified in the cited entry. Source: ISME (https://isme.me/en/download/file/page-section/304).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1246,8 +1233,8 @@
       "evidence": "NEN’s catalogue lists NEN-EN 301549:2021, published on 1 June 2021. The retrieved metadata does not identify the underlying EN version. Source: NEN (https://www.nen.nl/en/nen-en-301549-2021-en-292903).",
       "limitations": "Routing metadata only. The evidence verifies only the cited catalogue reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1260,8 +1247,8 @@
       "evidence": "UKE’s standards page refers to EN 301 549 V3.2.1:2021 and links its Polish translation in PKN’s catalogue. This records the page’s reference, not a finding about the latest edition. Source: UKE (https://bip.uke.gov.pl/normy/normy%2C1%2C1%2Cwersja.html).",
       "limitations": "Routing metadata only. The evidence verifies only the cited guidance reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1274,8 +1261,8 @@
       "evidence": "ISM’s catalogue lists SM CEN/CLC/ETSI TR 101550:2022, whose title refers to EN 301 549 V1.1.1. This is a related technical report, not adoption of EN 301 549 itself. Source: ISM (https://shop.standard.md/ro/standart_print/648264).",
       "limitations": "Routing metadata only. The evidence verifies only the cited related technical report; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1288,8 +1275,8 @@
       "evidence": "The Slovak standards office hosts a preview of STN EN 301 549 V1.1.2:2015. Its cover states that it includes the English version of the European Standard; latest national status requires separate checking. Source: Slovak standards office (https://normy.normoff.gov.sk/norma/121650/nahlad/).",
       "limitations": "Routing metadata only. The evidence verifies only the cited historical standard preview; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1302,8 +1289,8 @@
       "evidence": "Slovenia’s Information Society Inspectorate refers to SIST EN 301 549 V3.2.1 in its January 2025 notice on free access to standards. Source: Information Society Inspectorate (https://www.gov.si/novice/2025-01-13-brezplacno-do-standarda-sist-en-301-549-v3-2-1/).",
       "limitations": "Routing metadata only. The evidence verifies only the cited standards access guidance; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1316,8 +1303,8 @@
       "evidence": "UNE’s February 2022 magazine lists UNE-EN 301549 among new standards for ICT accessibility requirements. The cited article does not identify the underlying EN version. Source: UNE (https://revista.une.org/44/requisitos-de-accesibilidad-para-productos-y-servicios-tic.html).",
       "limitations": "Routing metadata only. The evidence verifies only the cited standards-body publication; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1330,8 +1317,8 @@
       "evidence": "Sweden’s National Procurement Services lists EN 301 549 among its guidance documents for accessibility in public procurement. The cited passage does not specify an edition. Source: National Procurement Services (https://www.avropa.se/upphandlingar/vara-fokusomraden/tillganglighet/).",
       "limitations": "Routing metadata only. The evidence verifies only the cited procurement guidance reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1344,8 +1331,8 @@
       "evidence": "UNDP’s Ukraine article identifies DSTU EN 301 549:2022 as a Ukrainian standard duplicating the European standard. The underlying EN version and current legal requirements require separate checking. Source: UNDP (https://www.undp.org/ukraine/blog/new-standard-change-government-websites-and-applications).",
       "limitations": "Routing metadata only. The source is retained as unverified and does not support a public adoption row, national legal effect, current edition, monitoring activity, sanctions or enforcement.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1358,8 +1345,8 @@
       "evidence": "The Governor of Aruba’s registered website accessibility statement refers to EN 301 549 in describing the coverage of its accessibility research. This is an institutional website reference, not a territory-wide adoption finding. Source: Governor of Aruba / Dutch accessibility statement register (https://www.toegankelijkheidsverklaring.nl/register/17794).",
       "limitations": "Routing metadata only. The source verifies the cited scoped reference, not territorial adoption or current legal applicability. Keep it research-only; do not infer commencement, exceptions, deadlines or enforcement.",
       "created_on": "2026-09-27T17:36:10.787Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1372,8 +1359,8 @@
       "evidence": "The explanatory notes to the 2025 decree on BSN and digital-government facilities in Bonaire, Sint Eustatius and Saba explicitly discuss EN 301 549 when describing changes to the digital-accessibility framework for Caribbean Netherlands. This records the legislative reference; commencement, exceptions and compliance deadlines require separate verification. Source: Dutch official gazette (https://zoek.officielebekendmakingen.nl/stb-2025-406.html).",
       "limitations": "Routing metadata only. The source verifies the cited scoped reference, not territorial adoption or current legal applicability. Keep it research-only; do not infer commencement, exceptions, deadlines or enforcement.",
       "created_on": "2026-09-27T17:36:10.787Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1386,8 +1373,8 @@
       "evidence": "The Governor of Curaçao’s website accessibility page explicitly refers to EN 301 549/WCAG 2.1. This is an institutional website reference; territorial legal applicability requires separate checking. Source: Governor of Curaçao (https://www.gouverneurcuracao.com/service/toegankelijkheid).",
       "limitations": "Routing metadata only. The source verifies the cited scoped reference, not territorial adoption or current legal applicability. Keep it research-only; do not infer commencement, exceptions, deadlines or enforcement.",
       "created_on": "2026-09-27T17:36:10.787Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1400,8 +1387,8 @@
       "evidence": "DS Automobiles–Auto Guadeloupe’s accessibility declaration for dsautomobiles.gp refers to EN 301 549 V3.2.1 and states that the site is considered non-conformant pending a complete audit. This is a corporate website reference, not a territorial adoption finding. Source: DS Automobiles–Auto Guadeloupe (https://www.dsautomobiles.gp/outils/declaration-accessibilite.html).",
       "limitations": "Routing metadata only. The source is unverified and supports no public adoption row, territorial legal effect, monitoring activity, sanctions or enforcement.",
       "created_on": "2026-09-27T17:36:10.787Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1414,8 +1401,8 @@
       "evidence": "Switch Digital’s accessibility statement says that its website is published from Jersey and discusses EN 301 549 when comparing its voluntary WCAG 2.2 target with the earlier WCAG version referenced by that standard. This is a corporate comparison, not adoption of EN 301 549 by Jersey. Source: Switch Digital / VisualEye Limited (https://switch.je/accessibility-statement).",
       "limitations": "Routing metadata only. The source is unverified and supports no public adoption row, territorial legal effect, monitoring activity, sanctions or enforcement.",
       "created_on": "2026-09-27T17:36:10.787Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1428,8 +1415,8 @@
       "evidence": "The Dutch Representation in Aruba, Curaçao and Sint Maarten refers to EN 301 549 in its Papiamentu website accessibility page. This is a reference by the Netherlands’ representation, not evidence of adoption by Sint Maarten’s government. Source: Dutch Representation in Aruba, Curaçao and Sint Maarten (https://papiamentu.vnacs.nl/servisio/aksesibilidat).",
       "limitations": "Routing metadata only. The source verifies the cited scoped reference, not territorial adoption or current legal applicability. Keep it research-only; do not infer commencement, exceptions, deadlines or enforcement.",
       "created_on": "2026-09-27T17:36:10.787Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
@@ -1442,22 +1429,23 @@
       "evidence": "The Åland place-brand website’s accessibility statement refers to EN 301 549/WCAG 2.1 when identifying downloads and documents whose accessibility has not been fully verified. This establishes a website-specific reference, not a finding about territorial legal requirements. Source: Åland place-brand website (https://varumarke.ax/en/accessibility/).",
       "limitations": "Routing metadata only. The source is unverified and supports no public adoption row, territorial legal effect, monitoring activity, sanctions or enforcement.",
       "created_on": "2026-09-27T17:36:10.787Z",
-      "updated_on": "2026-09-29T14:34:30.899Z",
-      "progress": "PR #71 and PR #72 are now merged to main. The 55 PR #71 canonical defects remain in the 108-event index. PR #72 added the Germany event but did not cover those corrections; its own merged event now also needs status/adoption normalization. One metadata-only follow-up can handle both sets. Open PRs #73 and #74 do not cover them.",
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PRs #71–#74 are now merged. The 55 PR #71 canonical defects remain, PR #72's Germany event still needs merged-status/adoption normalization, and PR #74 adds one omitted research-only event with a retired page path. No PR is open; one metadata-only follow-up can handle all three sets.",
       "source_pr": 71
     },
     {
       "id": "public-sector-version-comparison-2026-09-28|adoption|current-page-and-generated-index",
       "country": "European Union",
-      "target": "PR #74 canonical European-standard delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "covering_pr_update_required",
-      "covering_pr": 74,
-      "proposed_change": "Before merging PR #74, change the new public-sector-version-comparison-2026-09-28 adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md, retain research_only with numeric pr 74, and regenerate events.json from canonical deliveries while preserving concurrent PR #71 and PR #72 events. Leave the monitoring, sanctions and enforcement not_applicable destinations with pr null.",
+      "target": "Main canonical European-standard delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "post_pr74_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Extend the existing metadata-only follow-up PR on main: in public-sector-version-comparison-2026-09-28 change the adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md, retain disposition research_only with numeric pr 74, leave monitoring, sanctions and enforcement not_applicable with pr null, and regenerate events.json from canonical deliveries so the currently missing event is included alongside the post-PR71 and post-PR72 corrections.",
       "evidence": "The canonical European-standard record adds a scoped comparison using the final ETSI V3.2.1 and V4.1.1 PDFs, ETSI WKI 64282, Decision (EU) 2021/1339 and Commission guidance. It verifies V4.1.1 publication on 2 September 2026, the WCAG 2.2 web mapping and selected structural changes; the OJ citation date remains only a 16 December 2026 target with no achieved date.",
-      "limitations": "Routing metadata only. No public wording is supported: this was not a full normative redline, current exhaustive OJ status and transition rules remain unresolved, secondary auditor-practice and national-law examples remain unverified, and the proposed future public-sector page is not registered.",
+      "limitations": "Metadata/routing only. Do not add public wording or infer current OJ citation, legal effect, national use, enforcement activity or a complete normative redline. V4.1.1 publication on 2 September 2026 and selected structural changes are verified; 16 December remains only a target.",
       "created_on": "2026-09-28T13:33:01.374Z",
-      "updated_on": "2026-09-28T13:34:04.175Z",
-      "progress": "Still unresolved on PR #74 head 1479681; synchronization did not change the head."
+      "updated_on": "2026-09-29T14:46:08.960Z",
+      "progress": "PR #74 merged to main at merge commit 90f3cb621b8f719c053fa363ce90bdfb7befad94 without the routing correction. Main contains the canonical technical-comparison delivery with the retired page path, while the 108-event generated index omits it. No open PR covers the correction.",
+      "source_pr": 74
     }
   ],
   "processed_deliveries": [
@@ -2013,7 +2001,35 @@
       "checked_on": "2026-09-29T14:43:53.876Z",
       "outcome": "actual_state_merged_presentation_only_no_new_handoff",
       "note": "At assessment PR #73 is already merged to main at c7e73c58. It adds supported link-language attributes, presentation fingerprints, audit tooling and review documentation while preserving visible wording, URLs, evidence, claims, verification dates, delivery histories and the 108-event routing index. It does not resolve or change the existing post-PR71/PR72 metadata suggestions."
+    },
+    {
+      "delivery_id": "04746220-bc14-11f1-9d99-38440a2c39d0",
+      "event": "pull_request.merged",
+      "pull_request": 73,
+      "head_sha": "1f8fbd5e34a16835564420c3208e0a511bc8e3f2",
+      "checked_on": "2026-09-29T14:46:08.960Z",
+      "outcome": "duplicate_merged_presentation_only_no_new_handoff",
+      "note": "The explicit merge confirms the already-assessed presentation-only PR #73. It changes link-language attributes, fingerprints and audit tooling but no evidence, factual wording, delivery history or routing event."
+    },
+    {
+      "delivery_id": "3a3e8660-bc14-11f1-9799-ff9b0dfe57a9",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 74,
+      "head_sha": "1479681bf7196d08b9185d89c7c3764a9376c3b0",
+      "checked_on": "2026-09-29T14:46:08.960Z",
+      "outcome": "superseded_by_merged_event",
+      "note": "PR #74 merged before assessment completed; the later merge event is authoritative."
+    },
+    {
+      "delivery_id": "414c8e20-bc14-11f1-8578-46ebdd1cea82",
+      "event": "pull_request.merged",
+      "pull_request": 74,
+      "head_sha": "1479681bf7196d08b9185d89c7c3764a9376c3b0",
+      "checked_on": "2026-09-29T14:46:08.960Z",
+      "outcome": "new_actionable_post_merge_generated_handoff_and_current_page_identifier",
+      "suggestion_id": "public-sector-version-comparison-2026-09-28|adoption|current-page-and-generated-index",
+      "note": "PR #74 merged its technical-comparison research record without changing the retired adoption-page identifier or regenerating events.json. Main now contains the canonical delivery but the 108-event index omits it. Existing research-only limitations remain; no public page change is supported."
     }
   ],
-  "updated_at": "2026-09-29T14:43:53.876Z"
+  "updated_at": "2026-09-29T14:46:08.960Z"
 }
