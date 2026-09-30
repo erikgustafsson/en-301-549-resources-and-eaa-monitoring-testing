@@ -695,6 +695,15 @@
         "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
       ],
       "note": "PR #77 merged at head 362cef3 with four missing adoption dispositions and stale proposed/pr-null states for Germany, Romania and Sweden. Slovakia now publishes and classifies an RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. No open PR covers these post-merge corrections; earlier post-PR71/72/74/75 metadata follow-ups remain uncovered."
+    },
+    {
+      "delivery_id": "3b2f1090-bcc7-11f1-92d2-8543ab28c02e",
+      "event": "pull_request.opened",
+      "pull_request": 78,
+      "head_sha": "1338ccda63bd225cf35a85cf80071fe07e89f33d",
+      "checked_on": "2026-09-30T12:07:30.000Z",
+      "outcome": "ignored_process_only",
+      "note": "PR #78 changes only the rendered-HTML validation path and regression tests to exempt exact align=left/valign=top attributes in temporary validation copies. It changes no public content, research record, canonical delivery, evidence-routing index or factual claim and does not cover the outstanding post-PR71/72/74/75/77 suggestions. No Actions file or check-verification-dates.py is changed."
     }
   ],
   "suggestions": [
@@ -2507,7 +2516,16 @@
         "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
       ],
       "note": "PR #77 merged at head 362cef3 with four missing adoption dispositions and stale proposed/pr-null states for Germany, Romania and Sweden. Slovakia now publishes and classifies an RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. No open PR covers these post-merge corrections; earlier post-PR71/72/74/75 metadata follow-ups remain uncovered."
+    },
+    {
+      "delivery_id": "3b2f1090-bcc7-11f1-92d2-8543ab28c02e",
+      "event": "pull_request.opened",
+      "pull_request": 78,
+      "head_sha": "1338ccda63bd225cf35a85cf80071fe07e89f33d",
+      "checked_on": "2026-09-30T12:07:30.000Z",
+      "outcome": "ignored_process_only",
+      "note": "PR #78 changes only the rendered-HTML validation path and regression tests to exempt exact align=left/valign=top attributes in temporary validation copies. It changes no public content, research record, canonical delivery, evidence-routing index or factual claim and does not cover the outstanding post-PR71/72/74/75/77 suggestions. No Actions file or check-verification-dates.py is changed."
     }
   ],
-  "updated_at": "2026-09-30T12:06:00.000Z"
+  "updated_at": "2026-09-30T12:07:30.000Z"
 }
