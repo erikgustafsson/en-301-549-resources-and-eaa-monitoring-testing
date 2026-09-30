@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr75-ready-7f8ea2c0-20260930T100600Z",
-    "acquired_at": "2026-09-30T10:06:00.000Z",
-    "expires_at": "2026-09-30T10:36:00.000Z",
-    "delivery_id": "7f8ea2c0-bcb6-11f1-87b6-761238bd77c9",
-    "pull_request": 75
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -569,6 +563,31 @@
       "checked_on": "2026-09-30T09:12:50.000Z",
       "outcome": "ignored_unrelated_design_only",
       "note": "PR #76 adds only a standalone table-readability design note, illustrative preview and reusable CSS. It changes no research record, evidence delivery, generated routing index, public factual page or claim, and does not cover the outstanding PR #71/#72/#74/#75 routing suggestions."
+    },
+    {
+      "delivery_id": "7f8ea2c0-bcb6-11f1-87b6-761238bd77c9",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 75,
+      "head_sha": "1f528f67236296fa728d81d0af09712a565860af",
+      "checked_on": "2026-09-30T10:07:52.000Z",
+      "outcome": "superseded_by_merged_event",
+      "note": "PR #75 merged before assessment completed; the explicit merge event is authoritative."
+    },
+    {
+      "delivery_id": "8357b8b0-bcb6-11f1-989d-11216dc0cb31",
+      "event": "pull_request.merged",
+      "pull_request": 75,
+      "head_sha": "1f528f67236296fa728d81d0af09712a565860af",
+      "checked_on": "2026-09-30T10:07:52.000Z",
+      "outcome": "new_actionable_post_merge_five_routing_corrections",
+      "suggestion_ids": [
+        "deque-webinar-2026-09-17-france|cross-page|current-adoption-and-eaa-dispositions",
+        "deque-webinar-2026-09-17-netherlands|cross-page|current-adoption-path",
+        "deque-webinar-2026-09-17-sweden|cross-page|research-only-not-already-present",
+        "deque-webinar-2026-09-17-eu|cross-page|current-adoption-and-generated-index",
+        "digg-public-sector-intake-2026-09-30|cross-page|wad-eaa-separation-and-current-adoption"
+      ],
+      "note": "PR #75 merged all five previously notified routing defects. Main retains retired adoption-page paths for France, Netherlands, Sweden and EU, over-routes France planning/history into three EAA domains, marks the Sweden webinar cross-check already_present, omits both EU-wide events from events.json, and routes Digg WAD/DOS evidence into current EAA monitoring/enforcement/sanctions. Open PR #76 is design-only and does not cover them. One metadata-only follow-up on main is required; no public wording change is supported."
     }
   ],
   "suggestions": [
@@ -1492,67 +1511,72 @@
     {
       "id": "deque-webinar-2026-09-17-france|cross-page|current-adoption-and-eaa-dispositions",
       "country": "France",
-      "target": "PR #75 canonical France delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "covering_pr_update_required",
-      "covering_pr": 75,
-      "proposed_change": "Before merging PR #75, change the France adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain adoption research_only with numeric pr 75. Change monitoring, sanctions and enforcement to not_applicable with pr null: the new material concerns planned RGAA 5 guidance and historical public-sector Arcom context, and explicitly establishes no new EAA authority, investigation, decision or imposed penalty. Preserve the research notes, then regenerate events.json.",
+      "target": "Main canonical France delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "post_pr75_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a metadata-only follow-up PR on main. change the France adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain adoption research_only with numeric pr 75. Change monitoring, sanctions and enforcement to not_applicable with pr null: the new material concerns planned RGAA 5 guidance and historical public-sector Arcom context, and explicitly establishes no new EAA authority, investigation, decision or imposed penalty. Preserve the research notes, then regenerate events.json.",
       "evidence": "DINUM's 2 March 2026 announcement and current RGAA homepage verify that RGAA 5 is being drafted for late 2026, with WCAG 2.2, mobile/office-document tests, clearer criteria, Arcom references and a planned declaration service. A 2023 government release supplies historical public-sector powers context.",
       "limitations": "Research only. RGAA 5 is not final; late 2026 is a target. Do not infer an EN edition adoption, new legal duty, final transition terms, declaration-service launch, EAA enforcement action or sanctions.",
       "created_on": "2026-09-30T08:04:05.424Z",
-      "updated_on": "2026-09-30T08:12:37.000Z",
-      "progress": "Open PR #75 head 1f528f6 adds the Digg intake review report only; the previously recorded routing correction remains unresolved."
+      "updated_on": "2026-09-30T10:07:52.000Z",
+      "progress": "PR #75 merged at head 1f528f6 without the recorded correction. The defective canonical delivery and generated event are now on main. Open PR #76 changes only table-design proposal files and does not cover this follow-up.",
+      "source_pr": 75
     },
     {
       "id": "deque-webinar-2026-09-17-netherlands|cross-page|current-adoption-path",
       "country": "Netherlands",
-      "target": "PR #75 canonical Netherlands delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "covering_pr_update_required",
-      "covering_pr": 75,
-      "proposed_change": "Before merging PR #75, change the Netherlands adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md. Keep adoption, monitoring and sanctions not_applicable with pr null; keep enforcement research_only with numeric pr 75; regenerate events.json.",
+      "target": "Main canonical Netherlands delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "post_pr75_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a metadata-only follow-up PR on main. change the Netherlands adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md. Keep adoption, monitoring and sanctions not_applicable with pr null; keep enforcement research_only with numeric pr 75; regenerate events.json.",
       "evidence": "The official ACM 24 March 2026 publication confirms testing and follow-up risk already recorded. The NOS report adds only a secondary June statement that a retest was planned three months later.",
       "limitations": "No completed retest, individual outcome, remediation or imposed fine is established. Do not update a public page until a dated authority outcome is found.",
       "created_on": "2026-09-30T08:04:05.424Z",
-      "updated_on": "2026-09-30T08:12:37.000Z",
-      "progress": "Open PR #75 head 1f528f6 adds the Digg intake review report only; the previously recorded routing correction remains unresolved."
+      "updated_on": "2026-09-30T10:07:52.000Z",
+      "progress": "PR #75 merged at head 1f528f6 without the recorded correction. The defective canonical delivery and generated event are now on main. Open PR #76 changes only table-design proposal files and does not cover this follow-up.",
+      "source_pr": 75
     },
     {
       "id": "deque-webinar-2026-09-17-sweden|cross-page|research-only-not-already-present",
       "country": "Sweden",
-      "target": "PR #75 canonical Sweden delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "covering_pr_update_required",
-      "covering_pr": 75,
-      "proposed_change": "Before merging PR #75, change the Sweden adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md. Keep adoption, monitoring and sanctions not_applicable with pr null. Change enforcement from already_present to research_only with numeric pr 75 because this delivery only rechecks the existing PTS banking announcement and retains possible later checks plus an unnamed-country lead; it delivers no new public result. Regenerate events.json.",
+      "target": "Main canonical Sweden delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "post_pr75_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a metadata-only follow-up PR on main. change the Sweden adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md. Keep adoption, monitoring and sanctions not_applicable with pr null. Change enforcement from already_present to research_only with numeric pr 75 because this delivery only rechecks the existing PTS banking announcement and retains possible later checks plus an unnamed-country lead; it delivers no new public result. Regenerate events.json.",
       "evidence": "The linked PTS banking announcement supports the already-recorded launch claim. PR #75 adds no completed website/app check; the webinar's other-country statement is unidentified and lacks primary evidence.",
       "limitations": "Do not treat possible later checks as completed action or attribute the existing public enforcement wording to PR #75. The unnamed-country lead remains unverified.",
       "created_on": "2026-09-30T08:04:05.424Z",
-      "updated_on": "2026-09-30T08:12:37.000Z",
-      "progress": "Open PR #75 head 1f528f6 adds the Digg intake review report only; the previously recorded routing correction remains unresolved."
+      "updated_on": "2026-09-30T10:07:52.000Z",
+      "progress": "PR #75 merged at head 1f528f6 without the recorded correction. The defective canonical delivery and generated event are now on main. Open PR #76 changes only table-design proposal files and does not cover this follow-up.",
+      "source_pr": 75
     },
     {
       "id": "deque-webinar-2026-09-17-eu|cross-page|current-adoption-and-generated-index",
       "country": "European Union",
-      "target": "PR #75 canonical European-standard delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "covering_pr_update_required",
-      "covering_pr": 75,
-      "proposed_change": "Before merging PR #75, change the EU adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md, retain research_only with numeric pr 75, keep monitoring, sanctions and enforcement not_applicable with pr null, and regenerate events.json so this delivery and the earlier merged PR #74 public-sector comparison delivery are both represented.",
+      "target": "Main canonical European-standard delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "post_pr75_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a metadata-only follow-up PR on main. change the EU adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md, retain research_only with numeric pr 75, keep monitoring, sanctions and enforcement not_applicable with pr null, and regenerate events.json so this delivery and the earlier merged PR #74 public-sector comparison delivery are both represented.",
       "evidence": "Deque's 8 September 2026 secondary article forecast OJ citation around 30 November. ETSI's display still shows V4.1.1 publication achieved 2 September and an OJ target of 16 December with no achieved date, while the contributor says that planning date is obsolete.",
       "limitations": "Neither date is a current deadline or achieved legal citation. Do not infer OJ publication, legal effect, automatic national application or enforcement activity; require directive-specific OJ evidence and dated authoritative clarification.",
       "created_on": "2026-09-30T08:04:05.424Z",
-      "updated_on": "2026-09-30T08:12:37.000Z",
-      "progress": "Open PR #75 head 1f528f6 adds the Digg intake review report only; the previously recorded routing correction remains unresolved."
+      "updated_on": "2026-09-30T10:07:52.000Z",
+      "progress": "PR #75 merged at head 1f528f6 without the recorded correction. The defective canonical delivery and generated event are now on main. Open PR #76 changes only table-design proposal files and does not cover this follow-up.",
+      "source_pr": 75
     },
     {
       "id": "digg-public-sector-intake-2026-09-30|cross-page|wad-eaa-separation-and-current-adoption",
       "country": "Sweden",
-      "target": "PR #75 canonical Sweden delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "covering_pr_update_required",
-      "covering_pr": 75,
-      "proposed_change": "Before merging PR #75, change digg-public-sector-intake-2026-09-30's adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain adoption research_only with numeric pr 75 because the Digg methodology expressly references EN 301 549 V3.2.1. Change monitoring, enforcement and sanctions to not_applicable with record preserved but pr null: this intake is WAD/DOS public-sector evidence and does not add EAA/LPTT authorities, enforcement activity or sanctions. Regenerate events.json. Retain the research as a lead for a separately registered public-sector presentation.",
+      "target": "Main canonical Sweden delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "post_pr75_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a metadata-only follow-up PR on main. change digg-public-sector-intake-2026-09-30's adoption destination from EN 301 549 adoptation.md to EN 301 549 adoption.md and retain adoption research_only with numeric pr 75 because the Digg methodology expressly references EN 301 549 V3.2.1. Change monitoring, enforcement and sanctions to not_applicable with record preserved but pr null: this intake is WAD/DOS public-sector evidence and does not add EAA/LPTT authorities, enforcement activity or sanctions. Regenerate events.json. Retain the research as a lead for a separately registered public-sector presentation.",
       "evidence": "Contributor-supplied Digg materials preserve 66 website result rows for 2020–2025, nine separately listed 2025 apps and 85 workbook listings for 2022–2026. Official Digg methodology describes selected-page/app-view review against EN 301 549 V3.2.1 followed by operator response and a decision. Government, Digg and PTS announcements describe a planned transfer of Digg tasks into PTS on 1 January 2027 under the intended name Digitaliseringsmyndigheten.",
       "limitations": "Research only. The datasets overlap and must not be added together; workbook publication URL and 2026 cutoff remain unverified. Review completion is not a compliance outcome, remediation finding or imposed penalty. The 1 January 2027 change is planned, not completed, and does not merge WAD/DOS duties with EAA/LPTT duties. No current public-page wording change is supported.",
       "created_on": "2026-09-30T08:12:37.000Z",
-      "updated_on": "2026-09-30T08:12:37.000Z",
-      "progress": "Open PR #75 head 1f528f6 adds only the version-bound review report after ea5ff64; the Digg delivery still routes WAD/DOS evidence as research_only to all three EAA/LPTT pages and still uses the retired adoption-page path."
+      "updated_on": "2026-09-30T10:07:52.000Z",
+      "progress": "PR #75 merged at head 1f528f6 without the recorded correction. The defective canonical delivery and generated event are now on main. Open PR #76 changes only table-design proposal files and does not cover this follow-up.",
+      "source_pr": 75
     }
   ],
   "processed_deliveries": [
@@ -2196,7 +2220,32 @@
       "checked_on": "2026-09-30T09:12:50.000Z",
       "outcome": "ignored_unrelated_design_only",
       "note": "PR #76 adds only a standalone table-readability design note, illustrative preview and reusable CSS. It changes no research record, evidence delivery, generated routing index, public factual page or claim, and does not cover the outstanding PR #71/#72/#74/#75 routing suggestions."
+    },
+    {
+      "delivery_id": "7f8ea2c0-bcb6-11f1-87b6-761238bd77c9",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 75,
+      "head_sha": "1f528f67236296fa728d81d0af09712a565860af",
+      "checked_on": "2026-09-30T10:07:52.000Z",
+      "outcome": "superseded_by_merged_event",
+      "note": "PR #75 merged before assessment completed; the explicit merge event is authoritative."
+    },
+    {
+      "delivery_id": "8357b8b0-bcb6-11f1-989d-11216dc0cb31",
+      "event": "pull_request.merged",
+      "pull_request": 75,
+      "head_sha": "1f528f67236296fa728d81d0af09712a565860af",
+      "checked_on": "2026-09-30T10:07:52.000Z",
+      "outcome": "new_actionable_post_merge_five_routing_corrections",
+      "suggestion_ids": [
+        "deque-webinar-2026-09-17-france|cross-page|current-adoption-and-eaa-dispositions",
+        "deque-webinar-2026-09-17-netherlands|cross-page|current-adoption-path",
+        "deque-webinar-2026-09-17-sweden|cross-page|research-only-not-already-present",
+        "deque-webinar-2026-09-17-eu|cross-page|current-adoption-and-generated-index",
+        "digg-public-sector-intake-2026-09-30|cross-page|wad-eaa-separation-and-current-adoption"
+      ],
+      "note": "PR #75 merged all five previously notified routing defects. Main retains retired adoption-page paths for France, Netherlands, Sweden and EU, over-routes France planning/history into three EAA domains, marks the Sweden webinar cross-check already_present, omits both EU-wide events from events.json, and routes Digg WAD/DOS evidence into current EAA monitoring/enforcement/sanctions. Open PR #76 is design-only and does not cover them. One metadata-only follow-up on main is required; no public wording change is supported."
     }
   ],
-  "updated_at": "2026-09-30T10:06:00.000Z"
+  "updated_at": "2026-09-30T10:07:52.000Z"
 }
