@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr76-merge-d942ee90-20260930T102954Z",
-    "acquired_at": "2026-09-30T10:29:54.000Z",
-    "expires_at": "2026-09-30T10:59:54.000Z",
-    "delivery_id": "d942ee90-bcb9-11f1-9ef2-8acf8b4edcd5",
-    "pull_request": 76
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -621,6 +615,15 @@
       "checked_on": "2026-09-30T10:23:51.000Z",
       "outcome": "ignored_presentation_only_public_table_alignment",
       "note": "PR #76 now touches the four public resource pages only to add align=left and valign=top to table cells/headers; normalized content is identical to main apart from removal of one trailing-space sequence in the Belgium monitoring row. It changes no factual wording, links, dates, evidence records, canonical deliveries or events.json and does not cover post-PR71/72/74/75 routing corrections."
+    },
+    {
+      "delivery_id": "d942ee90-bcb9-11f1-9ef2-8acf8b4edcd5",
+      "event": "pull_request.merged",
+      "pull_request": 76,
+      "head_sha": "2352e6859075f25b2f146c7c6684720ab286fd14",
+      "checked_on": "2026-09-30T10:29:54.000Z",
+      "outcome": "ignored_merged_presentation_only",
+      "note": "PR #76 merged table alignment attributes, a reusable stylesheet, and illustrative design documentation. Comparison shows the four public resource tables preserve factual text, links, IDs, dates and header associations, apart from one removed trailing-space sequence. It changes no evidence record, canonical delivery or events.json and resolves none of the outstanding post-PR71/72/74/75 routing suggestions. No open PR remains."
     }
   ],
   "suggestions": [
@@ -2305,6 +2308,15 @@
       "checked_on": "2026-09-30T10:23:51.000Z",
       "outcome": "ignored_presentation_only_public_table_alignment",
       "note": "PR #76 now touches the four public resource pages only to add align=left and valign=top to table cells/headers; normalized content is identical to main apart from removal of one trailing-space sequence in the Belgium monitoring row. It changes no factual wording, links, dates, evidence records, canonical deliveries or events.json and does not cover post-PR71/72/74/75 routing corrections."
+    },
+    {
+      "delivery_id": "d942ee90-bcb9-11f1-9ef2-8acf8b4edcd5",
+      "event": "pull_request.merged",
+      "pull_request": 76,
+      "head_sha": "2352e6859075f25b2f146c7c6684720ab286fd14",
+      "checked_on": "2026-09-30T10:29:54.000Z",
+      "outcome": "ignored_merged_presentation_only",
+      "note": "PR #76 merged table alignment attributes, a reusable stylesheet, and illustrative design documentation. Comparison shows the four public resource tables preserve factual text, links, IDs, dates and header associations, apart from one removed trailing-space sequence. It changes no evidence record, canonical delivery or events.json and resolves none of the outstanding post-PR71/72/74/75 routing suggestions. No open PR remains."
     }
   ],
   "updated_at": "2026-09-30T10:29:54.000Z"
