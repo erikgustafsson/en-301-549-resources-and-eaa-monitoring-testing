@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr78-open-3b2f1090-20260930T120600Z",
-    "acquired_at": "2026-09-30T12:06:00.000Z",
-    "expires_at": "2026-09-30T12:38:00.000Z",
-    "delivery_id": "8a8b8830-bcc7-11f1-85a5-63506ec82ec3",
-    "pull_request": 78,
-    "event": "pull_request.synchronize",
-    "head_sha": "df343e573807033d53332fffbdfb8c26f4ab1c45"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -704,6 +696,24 @@
       "checked_on": "2026-09-30T12:07:30.000Z",
       "outcome": "ignored_process_only",
       "note": "PR #78 changes only the rendered-HTML validation path and regression tests to exempt exact align=left/valign=top attributes in temporary validation copies. It changes no public content, research record, canonical delivery, evidence-routing index or factual claim and does not cover the outstanding post-PR71/72/74/75/77 suggestions. No Actions file or check-verification-dates.py is changed."
+    },
+    {
+      "delivery_id": "6a49a0c0-bcc7-11f1-86fb-8d8a556677a6",
+      "event": "pull_request.synchronize",
+      "pull_request": 78,
+      "head_sha": "df343e573807033d53332fffbdfb8c26f4ab1c45",
+      "checked_on": "2026-09-30T12:09:00.000Z",
+      "outcome": "superseded_by_later_duplicate_same_head",
+      "note": "A later synchronize delivery for the same reviewed head is authoritative."
+    },
+    {
+      "delivery_id": "8a8b8830-bcc7-11f1-85a5-63506ec82ec3",
+      "event": "pull_request.synchronize",
+      "pull_request": 78,
+      "head_sha": "df343e573807033d53332fffbdfb8c26f4ab1c45",
+      "checked_on": "2026-09-30T12:09:00.000Z",
+      "outcome": "ignored_process_only_sync_no_new_handoff",
+      "note": "PR #78 remains confined to three rendered-HTML validation/test scripts. The synchronized commits fix LF-only diagnostic offsets around Unicode separators and add independent review/regressions; they change no public content, research record, canonical delivery, events.json or factual claim. The PR does not cover the outstanding post-PR71/72/74/75/77 suggestions, and no Actions file or check-verification-dates.py is changed."
     }
   ],
   "suggestions": [
@@ -2525,7 +2535,25 @@
       "checked_on": "2026-09-30T12:07:30.000Z",
       "outcome": "ignored_process_only",
       "note": "PR #78 changes only the rendered-HTML validation path and regression tests to exempt exact align=left/valign=top attributes in temporary validation copies. It changes no public content, research record, canonical delivery, evidence-routing index or factual claim and does not cover the outstanding post-PR71/72/74/75/77 suggestions. No Actions file or check-verification-dates.py is changed."
+    },
+    {
+      "delivery_id": "6a49a0c0-bcc7-11f1-86fb-8d8a556677a6",
+      "event": "pull_request.synchronize",
+      "pull_request": 78,
+      "head_sha": "df343e573807033d53332fffbdfb8c26f4ab1c45",
+      "checked_on": "2026-09-30T12:09:00.000Z",
+      "outcome": "superseded_by_later_duplicate_same_head",
+      "note": "A later synchronize delivery for the same reviewed head is authoritative."
+    },
+    {
+      "delivery_id": "8a8b8830-bcc7-11f1-85a5-63506ec82ec3",
+      "event": "pull_request.synchronize",
+      "pull_request": 78,
+      "head_sha": "df343e573807033d53332fffbdfb8c26f4ab1c45",
+      "checked_on": "2026-09-30T12:09:00.000Z",
+      "outcome": "ignored_process_only_sync_no_new_handoff",
+      "note": "PR #78 remains confined to three rendered-HTML validation/test scripts. The synchronized commits fix LF-only diagnostic offsets around Unicode separators and add independent review/regressions; they change no public content, research record, canonical delivery, events.json or factual claim. The PR does not cover the outstanding post-PR71/72/74/75/77 suggestions, and no Actions file or check-verification-dates.py is changed."
     }
   ],
-  "updated_at": "2026-09-30T12:08:00.000Z"
+  "updated_at": "2026-09-30T12:09:00.000Z"
 }
