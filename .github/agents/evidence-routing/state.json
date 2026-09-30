@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr75-duplicate-4492b600-20260930T082247Z",
-    "acquired_at": "2026-09-30T08:22:47.000Z",
-    "expires_at": "2026-09-30T08:52:47.000Z",
-    "delivery_id": "4492b600-bca4-11f1-8723-f7f6a75c517a",
-    "pull_request": 75
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
