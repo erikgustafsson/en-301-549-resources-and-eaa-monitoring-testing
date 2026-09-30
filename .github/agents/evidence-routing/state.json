@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr76-merge-d942ee90-20260930T102954Z",
+    "acquired_at": "2026-09-30T10:29:54.000Z",
+    "expires_at": "2026-09-30T10:59:54.000Z",
+    "delivery_id": "d942ee90-bcb9-11f1-9ef2-8acf8b4edcd5",
+    "pull_request": 76
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2301,5 +2307,5 @@
       "note": "PR #76 now touches the four public resource pages only to add align=left and valign=top to table cells/headers; normalized content is identical to main apart from removal of one trailing-space sequence in the Belgium monitoring row. It changes no factual wording, links, dates, evidence records, canonical deliveries or events.json and does not cover post-PR71/72/74/75 routing corrections."
     }
   ],
-  "updated_at": "2026-09-30T10:23:51.000Z"
+  "updated_at": "2026-09-30T10:29:54.000Z"
 }
