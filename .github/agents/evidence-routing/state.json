@@ -3,9 +3,11 @@
   "lease": {
     "owner": "github-pr77-open-06caa590-20260930T112130Z",
     "acquired_at": "2026-09-30T11:21:30.000Z",
-    "expires_at": "2026-09-30T11:51:30.000Z",
-    "delivery_id": "06caa590-bcc1-11f1-8b20-45f972afd5da",
-    "pull_request": 77
+    "expires_at": "2026-09-30T11:59:30.000Z",
+    "delivery_id": "23260e90-bcc2-11f1-8e8d-ca6f54002ae8",
+    "pull_request": 77,
+    "event": "pull_request.synchronize",
+    "head_sha": "3c11fea21dcfcd6357762e63baae1ac31297e60e"
   },
   "processed_events": [
     {
@@ -2325,5 +2327,5 @@
       "note": "PR #76 merged table alignment attributes, a reusable stylesheet, and illustrative design documentation. Comparison shows the four public resource tables preserve factual text, links, IDs, dates and header associations, apart from one removed trailing-space sequence. It changes no evidence record, canonical delivery or events.json and resolves none of the outstanding post-PR71/72/74/75 routing suggestions. No open PR remains."
     }
   ],
-  "updated_at": "2026-09-30T11:21:30.000Z"
+  "updated_at": "2026-09-30T11:29:30.000Z"
 }
