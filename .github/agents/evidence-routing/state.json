@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr75-duplicate-4492b600-20260930T082247Z",
+    "acquired_at": "2026-09-30T08:22:47.000Z",
+    "expires_at": "2026-09-30T08:52:47.000Z",
+    "delivery_id": "4492b600-bca4-11f1-8723-f7f6a75c517a",
+    "pull_request": 75
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2174,5 +2180,5 @@
       "note": "PR #75 adds a well-qualified Digg WAD/DOS public-sector evidence pool but routes it research_only to current EAA monitoring, enforcement and sanctions pages. Those destinations should be not_applicable with pr null; the EN 301 549 methodology reference belongs only in adoption research on the current adoption-page path. The four earlier PR #75 routing corrections also remain unresolved. No public wording change is supported."
     }
   ],
-  "updated_at": "2026-09-30T08:21:47.000Z"
+  "updated_at": "2026-09-30T08:22:47.000Z"
 }
