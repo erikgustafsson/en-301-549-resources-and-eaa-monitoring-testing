@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr78-merge-934563d0-20260930T123135Z",
+    "acquired_at": "2026-09-30T12:31:35.000Z",
+    "expires_at": "2026-09-30T13:01:35.000Z",
+    "delivery_id": "934563d0-bcca-11f1-84df-46aa7f7e00f3",
+    "pull_request": 78,
+    "event": "pull_request.merged",
+    "head_sha": "df343e573807033d53332fffbdfb8c26f4ab1c45"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2573,5 +2581,5 @@
       "note": "At assessment PR #78 was already merged at 35d099d2. The reviewed head is identical to the previously recorded process-only synchronization and changes only three rendered-HTML validation/test scripts. It changes no public content, research record, canonical delivery, events.json or factual claim, and does not resolve the outstanding post-PR71/72/74/75/77 suggestions."
     }
   ],
-  "updated_at": "2026-09-30T12:30:00.000Z"
+  "updated_at": "2026-09-30T12:31:35.000Z"
 }
