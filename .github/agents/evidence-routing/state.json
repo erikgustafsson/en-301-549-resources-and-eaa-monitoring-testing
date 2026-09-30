@@ -677,15 +677,24 @@
       "event": "pull_request.ready_for_review",
       "pull_request": 77,
       "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698",
-      "checked_on": "2026-09-30T11:49:00.000Z",
-      "outcome": "actual_state_merged_post_pr77_followups_required",
+      "checked_on": "2026-09-30T11:50:00.000Z",
+      "outcome": "superseded_by_merged_event",
+      "note": "The explicit merge event arrived during assessment and is authoritative."
+    },
+    {
+      "delivery_id": "9ffe2180-bcc4-11f1-905f-982217ad268c",
+      "event": "pull_request.merged",
+      "pull_request": 77,
+      "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698",
+      "checked_on": "2026-09-30T11:50:00.000Z",
+      "outcome": "new_actionable_post_pr77_cross_law_and_routing_followups",
       "suggestion_ids": [
         "de-scope-correction-20260930|cross-page|adoption-and-pr77-attribution",
         "ro-sanctions-citation-20260930|cross-page|adoption-and-pr77-attribution",
         "sk-multimodal-link-repair-20260930|cross-page|media-services-not-eaa-and-adoption",
         "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
       ],
-      "note": "At assessment PR #77 is already merged and no PR is open. Main retains all four missing adoption dispositions and stale proposed/pr-null delivery states. More materially, Slovakia now publishes and classifies the RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. The previously recorded corrections therefore require post-merge follow-up; earlier post-PR71/72/74/75 metadata suggestions also remain uncovered."
+      "note": "PR #77 merged at head 362cef3 with four missing adoption dispositions and stale proposed/pr-null states for Germany, Romania and Sweden. Slovakia now publishes and classifies an RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. No open PR covers these post-merge corrections; earlier post-PR71/72/74/75 metadata follow-ups remain uncovered."
     }
   ],
   "suggestions": [
@@ -2480,16 +2489,25 @@
       "event": "pull_request.ready_for_review",
       "pull_request": 77,
       "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698",
-      "checked_on": "2026-09-30T11:49:00.000Z",
-      "outcome": "actual_state_merged_post_pr77_followups_required",
+      "checked_on": "2026-09-30T11:50:00.000Z",
+      "outcome": "superseded_by_merged_event",
+      "note": "The explicit merge event arrived during assessment and is authoritative."
+    },
+    {
+      "delivery_id": "9ffe2180-bcc4-11f1-905f-982217ad268c",
+      "event": "pull_request.merged",
+      "pull_request": 77,
+      "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698",
+      "checked_on": "2026-09-30T11:50:00.000Z",
+      "outcome": "new_actionable_post_pr77_cross_law_and_routing_followups",
       "suggestion_ids": [
         "de-scope-correction-20260930|cross-page|adoption-and-pr77-attribution",
         "ro-sanctions-citation-20260930|cross-page|adoption-and-pr77-attribution",
         "sk-multimodal-link-repair-20260930|cross-page|media-services-not-eaa-and-adoption",
         "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
       ],
-      "note": "At assessment PR #77 is already merged and no PR is open. Main retains all four missing adoption dispositions and stale proposed/pr-null delivery states. More materially, Slovakia now publishes and classifies the RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. The previously recorded corrections therefore require post-merge follow-up; earlier post-PR71/72/74/75 metadata suggestions also remain uncovered."
+      "note": "PR #77 merged at head 362cef3 with four missing adoption dispositions and stale proposed/pr-null states for Germany, Romania and Sweden. Slovakia now publishes and classifies an RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. No open PR covers these post-merge corrections; earlier post-PR71/72/74/75 metadata follow-ups remain uncovered."
     }
   ],
-  "updated_at": "2026-09-30T11:49:30.000Z"
+  "updated_at": "2026-09-30T11:50:00.000Z"
 }
