@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr77-ready-9cfe00e0-20260930T114700Z",
-    "acquired_at": "2026-09-30T11:47:00.000Z",
-    "expires_at": "2026-09-30T12:19:30.000Z",
-    "delivery_id": "9ffe2180-bcc4-11f1-905f-982217ad268c",
-    "pull_request": 77,
-    "event": "pull_request.merged",
-    "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2509,5 +2501,5 @@
       "note": "PR #77 merged at head 362cef3 with four missing adoption dispositions and stale proposed/pr-null states for Germany, Romania and Sweden. Slovakia now publishes and classifies an RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. No open PR covers these post-merge corrections; earlier post-PR71/72/74/75 metadata follow-ups remain uncovered."
     }
   ],
-  "updated_at": "2026-09-30T11:50:00.000Z"
+  "updated_at": "2026-09-30T11:51:00.000Z"
 }
