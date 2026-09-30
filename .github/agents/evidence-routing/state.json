@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr77-sync-f5b21790-20260930T114230Z",
+    "acquired_at": "2026-09-30T11:42:30.000Z",
+    "expires_at": "2026-09-30T12:12:30.000Z",
+    "delivery_id": "f5b21790-bcc3-11f1-8964-356c1217fcd7",
+    "pull_request": 77,
+    "event": "pull_request.synchronize",
+    "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2419,5 +2427,5 @@
       "note": "PR #77 adds supported Germany scope, Romania citation, Sweden timing and Slovakia URL evidence, but all four canonical deliveries omit the registered adoption destination; Germany/Romania/Sweden proposed destinations also omit pr 77. More materially, the repaired Slovakia RPMS page is a Media Services Act multimodal-content complaint route, not evidence of an EAA audiovisual-access reporting route, so the public EAA mapping and eaa_specific research classification require correction. PR #77 does not cover the previously recorded post-PR71/72/74/75 metadata follow-ups."
     }
   ],
-  "updated_at": "2026-09-30T11:32:30.000Z"
+  "updated_at": "2026-09-30T11:42:30.000Z"
 }
