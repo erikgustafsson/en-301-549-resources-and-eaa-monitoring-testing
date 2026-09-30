@@ -671,6 +671,21 @@
         "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
       ],
       "note": "The new head changes only Germany presentation by separating audiovisual-access services and answering 112 into distinct Unknown headings, plus corresponding review documentation. It does not change canonical deliveries or events.json, add adoption dispositions/PR attributions, or correct Slovakia's Media Services Act route being presented as EAA. All four previously recorded PR #77 suggestions remain open. No new suggestion."
+    },
+    {
+      "delivery_id": "9cfe00e0-bcc4-11f1-8dd5-b8eb29113c5e",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 77,
+      "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698",
+      "checked_on": "2026-09-30T11:49:00.000Z",
+      "outcome": "actual_state_merged_post_pr77_followups_required",
+      "suggestion_ids": [
+        "de-scope-correction-20260930|cross-page|adoption-and-pr77-attribution",
+        "ro-sanctions-citation-20260930|cross-page|adoption-and-pr77-attribution",
+        "sk-multimodal-link-repair-20260930|cross-page|media-services-not-eaa-and-adoption",
+        "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
+      ],
+      "note": "At assessment PR #77 is already merged and no PR is open. Main retains all four missing adoption dispositions and stale proposed/pr-null delivery states. More materially, Slovakia now publishes and classifies the RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. The previously recorded corrections therefore require post-merge follow-up; earlier post-PR71/72/74/75 metadata suggestions also remain uncovered."
     }
   ],
   "suggestions": [
@@ -1665,57 +1680,57 @@
       "id": "de-scope-correction-20260930|cross-page|adoption-and-pr77-attribution",
       "country": "Germany",
       "target": "PR #77 Germany canonical delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "open_pr_update_required",
-      "covering_pr": 77,
-      "proposed_change": "Update PR #77 before merge: add an EN 301 549 adoption.md destination with domain adoption, disposition not_applicable, record null and pr null because the BFSG scope correction and BIK testing standpoint establish no national EN 301 549 adoption/reference/edition/milestone. Set the monitoring and enforcement proposed destinations to numeric pr 77; retain sanctions already_present with pr null. Regenerate events.json from canonical deliveries.",
+      "status": "post_pr77_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Extend the pending metadata-only follow-up on main: set de-scope-correction-20260930 and its monitoring and enforcement destinations to already_present with numeric pr 77 and no-further-action next steps; retain sanctions already_present with pr null. Add EN 301 549 adoption.md as not_applicable with record/pr null, then regenerate events.json.",
       "evidence": "BFSG §1(2)–(3) supports the narrower product/service scope and does not establish audiovisual-access-service or 112-answering authority/routes. BIK methodology §4.1.1 supports only the testing-organisation standpoint about overlay-tool conformity statements.",
       "limitations": "No new-country research. Unknown authority/reporting does not mean no authority or route exists. BIK is not a legal case or enforcement action, and neither source supports EN adoption.",
       "created_on": "2026-09-30T11:31:00.000Z",
-      "updated_on": "2026-09-30T11:44:00.000Z",
+      "updated_on": "2026-09-30T11:49:00.000Z",
       "source_pr": 77,
-      "progress": "PR #77 head 362cef3 separates Germany's two unknown headings and updates its review report only. The previously recorded adoption/PR-attribution corrections remain absent; Slovakia still publishes and classifies the Media Services Act multimodal-content route as EAA evidence."
+      "progress": "PR #77 merged at head 362cef3 without the recorded routing normalization. Main contains the supported Germany public changes, while the canonical delivery and generated event remain proposed, omit pr 77 and omit adoption. No open PR covers the correction."
     },
     {
       "id": "ro-sanctions-citation-20260930|cross-page|adoption-and-pr77-attribution",
       "country": "Romania",
       "target": "PR #77 Romania canonical delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "open_pr_update_required",
-      "covering_pr": 77,
-      "proposed_change": "Update PR #77 before merge: add an EN 301 549 adoption.md destination with domain adoption, disposition not_applicable, record null and pr null. Set the sanctions proposed destination to numeric pr 77; retain monitoring and enforcement not_applicable with pr null. Regenerate events.json.",
+      "status": "post_pr77_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Extend the pending metadata-only follow-up on main: set ro-sanctions-citation-20260930 and its sanctions destination to already_present with numeric pr 77 and no-further-action next steps; retain monitoring and enforcement not_applicable with pr null. Add EN 301 549 adoption.md as not_applicable with record/pr null, then regenerate events.json.",
       "evidence": "Romanian Law 232/2022 Article 27 contains the cited offence/fine ranges; Article 29 concerns transitional arrangements. The focused correction changes the sanctions citation only.",
       "limitations": "The focused Article 27 check does not verify every amount, sector mapping or condition in the inherited sanctions row and establishes no EN 301 549 adoption fact.",
       "created_on": "2026-09-30T11:31:00.000Z",
-      "updated_on": "2026-09-30T11:44:00.000Z",
+      "updated_on": "2026-09-30T11:49:00.000Z",
       "source_pr": 77,
-      "progress": "PR #77 head 362cef3 separates Germany's two unknown headings and updates its review report only. The previously recorded adoption/PR-attribution corrections remain absent; Slovakia still publishes and classifies the Media Services Act multimodal-content route as EAA evidence."
+      "progress": "PR #77 merged at head 362cef3 with the Article 27 public correction present, but the canonical delivery and generated event remain proposed, omit pr 77 and omit adoption. No open PR covers the correction."
     },
     {
       "id": "sk-multimodal-link-repair-20260930|cross-page|media-services-not-eaa-and-adoption",
       "country": "Slovakia",
       "target": "PR #77 Slovakia monitoring page, canonical research delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "open_pr_update_required",
-      "covering_pr": 77,
-      "proposed_change": "Update PR #77 before merge: do not present the repaired RPMS URL as an EAA audiovisual-access reporting route. In monitoring-agencies-information.md replace the Slovakia EAA audiovisual-access public-report link with Unknown unless existing EAA-specific evidence supplies a route. In slovakia.json classify the repaired source/claim as Media Services Act/other-law evidence and set eaa_specific false, preserving it as research only rather than an EAA public fact. Keep the monitoring correction proposed with numeric pr 77, sanctions and enforcement not_applicable with pr null, add EN 301 549 adoption.md as not_applicable with record/pr null, then regenerate events.json.",
+      "status": "post_pr77_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a focused follow-up PR on main: remove the RPMS multimodal-content link from the Slovakia EAA monitoring route and show that EAA audiovisual-access public reporting remains Unknown unless separate EAA-specific evidence exists. In slovakia.json classify the repaired source/claim under the Media Services Act/other law with eaa_specific false, preserve it as research only, and change the existing delivery's monitoring destination to not_applicable with pr null. Add EN 301 549 adoption.md as not_applicable with record/pr null; retain sanctions and enforcement not_applicable; regenerate events.json. Record the public correction as a new scoped delivery if publication provenance requires it.",
       "evidence": "The official RPMS page says the complaint concerns breaches of the Media Services Act involving subtitles, Slovak sign language and audio description and points to section 150; it does not identify an EAA/LPTT authority or route.",
       "limitations": "The replacement page and purpose are reachable, but end-to-end form operation, languages and authentication were not tested. This does not establish that Slovakia lacks an EAA audiovisual-access authority or route.",
       "created_on": "2026-09-30T11:31:00.000Z",
-      "updated_on": "2026-09-30T11:44:00.000Z",
+      "updated_on": "2026-09-30T11:49:00.000Z",
       "source_pr": 77,
-      "progress": "PR #77 head 362cef3 separates Germany's two unknown headings and updates its review report only. The previously recorded adoption/PR-attribution corrections remain absent; Slovakia still publishes and classifies the Media Services Act multimodal-content route as EAA evidence."
+      "progress": "PR #77 merged at head 362cef3 and main now publishes the working RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access route. The canonical claim still says directive_context EAA/eaa_specific true, and the delivery omits adoption. No open PR covers the correction."
     },
     {
       "id": "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution",
       "country": "Sweden",
       "target": "PR #77 Sweden canonical delivery and generated .github/agents/evidence-routing/events.json",
-      "status": "open_pr_update_required",
-      "covering_pr": 77,
-      "proposed_change": "Update PR #77 before merge: add an EN 301 549 adoption.md destination with domain adoption, disposition not_applicable, record null and pr null because PTS reporting-timing guidance establishes no EN adoption/reference/edition/milestone. Set the monitoring proposed destination to numeric pr 77; retain enforcement and sanctions not_applicable with pr null. Regenerate events.json.",
+      "status": "post_pr77_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Extend the pending metadata-only follow-up on main: set se-reporting-timing-20260930 and its monitoring destination to already_present with numeric pr 77 and no-further-action next steps; retain enforcement and sanctions not_applicable with pr null. Add EN 301 549 adoption.md as not_applicable with record/pr null, then regenerate events.json. Keep the record limitation that the e-commerce/banking scope is not exclusive of other services.",
       "evidence": "PTS states that service-defect reporting is legally immediate and that PTS considers reporting within 14 days after noticing a defect sufficient. The source is monitoring guidance, not adoption evidence.",
       "limitations": "The source concerns service reporting, not products, enforcement outcomes, sanctions or EN 301 549 adoption; the wording must not imply the e-commerce/banking subset is exclusive of other services.",
       "created_on": "2026-09-30T11:31:00.000Z",
-      "updated_on": "2026-09-30T11:44:00.000Z",
+      "updated_on": "2026-09-30T11:49:00.000Z",
       "source_pr": 77,
-      "progress": "PR #77 head 362cef3 separates Germany's two unknown headings and updates its review report only. The previously recorded adoption/PR-attribution corrections remain absent; Slovakia still publishes and classifies the Media Services Act multimodal-content route as EAA evidence."
+      "progress": "PR #77 merged at head 362cef3 with the PTS immediate/14-day public wording present, but the canonical delivery and generated event remain proposed, omit pr 77 and omit adoption. No open PR covers the correction."
     }
   ],
   "processed_deliveries": [
@@ -2459,7 +2474,22 @@
         "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
       ],
       "note": "The new head changes only Germany presentation by separating audiovisual-access services and answering 112 into distinct Unknown headings, plus corresponding review documentation. It does not change canonical deliveries or events.json, add adoption dispositions/PR attributions, or correct Slovakia's Media Services Act route being presented as EAA. All four previously recorded PR #77 suggestions remain open. No new suggestion."
+    },
+    {
+      "delivery_id": "9cfe00e0-bcc4-11f1-8dd5-b8eb29113c5e",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 77,
+      "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698",
+      "checked_on": "2026-09-30T11:49:00.000Z",
+      "outcome": "actual_state_merged_post_pr77_followups_required",
+      "suggestion_ids": [
+        "de-scope-correction-20260930|cross-page|adoption-and-pr77-attribution",
+        "ro-sanctions-citation-20260930|cross-page|adoption-and-pr77-attribution",
+        "sk-multimodal-link-repair-20260930|cross-page|media-services-not-eaa-and-adoption",
+        "se-reporting-timing-20260930|cross-page|adoption-and-pr77-attribution"
+      ],
+      "note": "At assessment PR #77 is already merged and no PR is open. Main retains all four missing adoption dispositions and stale proposed/pr-null delivery states. More materially, Slovakia now publishes and classifies the RPMS Media Services Act multimodal-content complaint form as an EAA audiovisual-access reporting route. The previously recorded corrections therefore require post-merge follow-up; earlier post-PR71/72/74/75 metadata suggestions also remain uncovered."
     }
   ],
-  "updated_at": "2026-09-30T11:47:00.000Z"
+  "updated_at": "2026-09-30T11:49:00.000Z"
 }
