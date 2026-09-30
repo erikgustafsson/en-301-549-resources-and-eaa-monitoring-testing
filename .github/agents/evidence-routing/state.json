@@ -3,11 +3,11 @@
   "lease": {
     "owner": "github-pr78-open-3b2f1090-20260930T120600Z",
     "acquired_at": "2026-09-30T12:06:00.000Z",
-    "expires_at": "2026-09-30T12:36:00.000Z",
-    "delivery_id": "3b2f1090-bcc7-11f1-92d2-8543ab28c02e",
+    "expires_at": "2026-09-30T12:38:00.000Z",
+    "delivery_id": "8a8b8830-bcc7-11f1-85a5-63506ec82ec3",
     "pull_request": 78,
-    "event": "pull_request.opened",
-    "head_sha": "1338ccda63bd225cf35a85cf80071fe07e89f33d"
+    "event": "pull_request.synchronize",
+    "head_sha": "df343e573807033d53332fffbdfb8c26f4ab1c45"
   },
   "processed_events": [
     {
@@ -2527,5 +2527,5 @@
       "note": "PR #78 changes only the rendered-HTML validation path and regression tests to exempt exact align=left/valign=top attributes in temporary validation copies. It changes no public content, research record, canonical delivery, evidence-routing index or factual claim and does not cover the outstanding post-PR71/72/74/75/77 suggestions. No Actions file or check-verification-dates.py is changed."
     }
   ],
-  "updated_at": "2026-09-30T12:07:30.000Z"
+  "updated_at": "2026-09-30T12:08:00.000Z"
 }
