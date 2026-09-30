@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr77-ready-9cfe00e0-20260930T114700Z",
+    "acquired_at": "2026-09-30T11:47:00.000Z",
+    "expires_at": "2026-09-30T12:17:00.000Z",
+    "delivery_id": "9cfe00e0-bcc4-11f1-8dd5-b8eb29113c5e",
+    "pull_request": 77,
+    "event": "pull_request.ready_for_review",
+    "head_sha": "362cef3273e62bf027fc445b0dd8e6ded5827698"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2453,5 +2461,5 @@
       "note": "The new head changes only Germany presentation by separating audiovisual-access services and answering 112 into distinct Unknown headings, plus corresponding review documentation. It does not change canonical deliveries or events.json, add adoption dispositions/PR attributions, or correct Slovakia's Media Services Act route being presented as EAA. All four previously recorded PR #77 suggestions remain open. No new suggestion."
     }
   ],
-  "updated_at": "2026-09-30T11:45:00.000Z"
+  "updated_at": "2026-09-30T11:47:00.000Z"
 }
