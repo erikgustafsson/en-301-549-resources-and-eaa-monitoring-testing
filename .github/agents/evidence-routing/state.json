@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr76-sync-8a6698e0-20260930T102030Z",
-    "acquired_at": "2026-09-30T10:20:30.000Z",
-    "expires_at": "2026-09-30T10:50:30.000Z",
-    "delivery_id": "8a6698e0-bcb8-11f1-8fed-aa21577dca28",
-    "pull_request": 76
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -603,6 +597,15 @@
       "checked_on": "2026-09-30T10:13:29.000Z",
       "outcome": "ignored_unrelated_design_only_sync",
       "note": "The second PR #76 commit modifies only the existing table-design README and illustrative preview (responsive/accessibility preview refinements). Changed files remain confined to design/table-readability; no research record, evidence delivery, routing index, public factual page or claim changed. It does not cover the outstanding post-PR71/72/74/75 metadata corrections."
+    },
+    {
+      "delivery_id": "8a6698e0-bcb8-11f1-8fed-aa21577dca28",
+      "event": "pull_request.synchronize",
+      "pull_request": 76,
+      "head_sha": "b03de956a9ed895acceffda10458e3c436663fca",
+      "checked_on": "2026-09-30T10:20:30.000Z",
+      "outcome": "ignored_unrelated_design_only_sync",
+      "note": "PR #76 moves the same reusable table stylesheet to assets/css, broadens selectors for future renderer integration, and updates only its design note/illustrative preview. GitHub Pages integration remains deferred. No research record, evidence delivery, routing index, public factual page or claim changed, and it does not cover post-PR71/72/74/75 metadata corrections."
     }
   ],
   "suggestions": [
@@ -2269,6 +2272,15 @@
       "checked_on": "2026-09-30T10:13:29.000Z",
       "outcome": "ignored_unrelated_design_only_sync",
       "note": "The second PR #76 commit modifies only the existing table-design README and illustrative preview (responsive/accessibility preview refinements). Changed files remain confined to design/table-readability; no research record, evidence delivery, routing index, public factual page or claim changed. It does not cover the outstanding post-PR71/72/74/75 metadata corrections."
+    },
+    {
+      "delivery_id": "8a6698e0-bcb8-11f1-8fed-aa21577dca28",
+      "event": "pull_request.synchronize",
+      "pull_request": 76,
+      "head_sha": "b03de956a9ed895acceffda10458e3c436663fca",
+      "checked_on": "2026-09-30T10:20:30.000Z",
+      "outcome": "ignored_unrelated_design_only_sync",
+      "note": "PR #76 moves the same reusable table stylesheet to assets/css, broadens selectors for future renderer integration, and updates only its design note/illustrative preview. GitHub Pages integration remains deferred. No research record, evidence delivery, routing index, public factual page or claim changed, and it does not cover post-PR71/72/74/75 metadata corrections."
     }
   ],
   "updated_at": "2026-09-30T10:20:30.000Z"
