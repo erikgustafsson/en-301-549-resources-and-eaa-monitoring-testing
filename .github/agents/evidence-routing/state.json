@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr76-sync-0159ccb0-20260930T102351Z",
-    "acquired_at": "2026-09-30T10:23:51.000Z",
-    "expires_at": "2026-09-30T10:53:51.000Z",
-    "delivery_id": "0159ccb0-bcb9-11f1-8aab-2612d7ac6803",
-    "pull_request": 76
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -612,6 +606,15 @@
       "checked_on": "2026-09-30T10:20:30.000Z",
       "outcome": "ignored_unrelated_design_only_sync",
       "note": "PR #76 moves the same reusable table stylesheet to assets/css, broadens selectors for future renderer integration, and updates only its design note/illustrative preview. GitHub Pages integration remains deferred. No research record, evidence delivery, routing index, public factual page or claim changed, and it does not cover post-PR71/72/74/75 metadata corrections."
+    },
+    {
+      "delivery_id": "0159ccb0-bcb9-11f1-8aab-2612d7ac6803",
+      "event": "pull_request.synchronize",
+      "pull_request": 76,
+      "head_sha": "2352e6859075f25b2f146c7c6684720ab286fd14",
+      "checked_on": "2026-09-30T10:23:51.000Z",
+      "outcome": "ignored_presentation_only_public_table_alignment",
+      "note": "PR #76 now touches the four public resource pages only to add align=left and valign=top to table cells/headers; normalized content is identical to main apart from removal of one trailing-space sequence in the Belgium monitoring row. It changes no factual wording, links, dates, evidence records, canonical deliveries or events.json and does not cover post-PR71/72/74/75 routing corrections."
     }
   ],
   "suggestions": [
@@ -2287,6 +2290,15 @@
       "checked_on": "2026-09-30T10:20:30.000Z",
       "outcome": "ignored_unrelated_design_only_sync",
       "note": "PR #76 moves the same reusable table stylesheet to assets/css, broadens selectors for future renderer integration, and updates only its design note/illustrative preview. GitHub Pages integration remains deferred. No research record, evidence delivery, routing index, public factual page or claim changed, and it does not cover post-PR71/72/74/75 metadata corrections."
+    },
+    {
+      "delivery_id": "0159ccb0-bcb9-11f1-8aab-2612d7ac6803",
+      "event": "pull_request.synchronize",
+      "pull_request": 76,
+      "head_sha": "2352e6859075f25b2f146c7c6684720ab286fd14",
+      "checked_on": "2026-09-30T10:23:51.000Z",
+      "outcome": "ignored_presentation_only_public_table_alignment",
+      "note": "PR #76 now touches the four public resource pages only to add align=left and valign=top to table cells/headers; normalized content is identical to main apart from removal of one trailing-space sequence in the Belgium monitoring row. It changes no factual wording, links, dates, evidence records, canonical deliveries or events.json and does not cover post-PR71/72/74/75 routing corrections."
     }
   ],
   "updated_at": "2026-09-30T10:23:51.000Z"
