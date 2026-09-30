@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr79-open-caffa600-20260930T130700Z",
+    "acquired_at": "2026-09-30T13:07:00.000Z",
+    "expires_at": "2026-09-30T13:37:00.000Z",
+    "delivery_id": "caffa600-bccf-11f1-93db-bb7a0f82b49b",
+    "pull_request": 79,
+    "event": "pull_request.opened",
+    "head_sha": "11f45e327e458f674cb16726ed41f33dfc3f7278"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2591,5 +2599,5 @@
       "note": "The explicit merge confirms the already-reviewed process-only PR #78 at merge commit 35d099d2. It changes only three rendered-HTML validation/test scripts, with no evidence, research, public factual content, canonical delivery or events.json change. No open PR covers the outstanding post-PR71/72/74/75/77 suggestions; this merge does not resolve or alter them."
     }
   ],
-  "updated_at": "2026-09-30T12:32:00.000Z"
+  "updated_at": "2026-09-30T13:07:00.000Z"
 }
