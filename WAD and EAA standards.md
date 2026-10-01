@@ -32,7 +32,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
-      <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/pren-18339" hreflang="en">prEN 18339:2026 — Accessibility of non-digital information related to products and services</a> (draft catalogue)</th>
+      <th scope="row" align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026 — Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)</th>
       <td align="left" valign="top">Requirements for accessible visual, tactile and auditory non-digital information about products and services.</td>
       <td align="left" valign="top">No WAD or EAA OJ citation identified; listed as a draft in the checked standards-body catalogues.</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
@@ -62,7 +62,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17161-2019" hreflang="en">EN 17161:2019 — Design for All — Accessibility following a Design for All approach in products, goods and services — Extending the range of users</a> (standard catalogue)</th>
       <td align="left" valign="top">An organisational approach to embedding accessibility and diverse user needs in product and service development.</td>
       <td align="left" valign="top">No WAD or EAA OJ citation identified.</td>
-      <td align="left" valign="top">Revision in progress: <a href="https://www.evs.ee/en/pren-17161" hreflang="en">prEN 17161 — Design for All approach — Managing accessibility of products and services</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-03131" hreflang="en">BSI development schedule</a>.</td>
+      <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17161/394454915" hreflang="en">prEN 17161 — Design for All approach — Managing accessibility of products and services</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-03131" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>EAA development:</strong> revision requested under M/587. Useful to private and public organisations; it does not replace product-specific requirements or WAD technical conformance checks.</td>
     </tr>
@@ -71,7 +71,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17210-2021" hreflang="en">EN 17210:2021 — Accessibility and usability of the built environment — Functional requirements</a> (standard catalogue)</th>
       <td align="left" valign="top">Functional accessibility requirements for buildings and outdoor environments, including construction and adaptation.</td>
       <td align="left" valign="top">No WAD or EAA OJ citation identified.</td>
-      <td align="left" valign="top">Revision in progress: <a href="https://www.evs.ee/en/pren-17210" hreflang="en">prEN 17210 — Requirements and recommendations</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-01619" hreflang="en">BSI development schedule</a>. <a href="https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-02-26-en-17210-2021/" hreflang="en">CEN-CENELEC’s revision update</a> forecasts publication in autumn 2027; forecasts may change.</td>
+      <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17210/395206900" hreflang="en">prEN 17210 — Requirements and recommendations</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-01619" hreflang="en">BSI development schedule</a>. <a href="https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-02-26-en-17210-2021/" hreflang="en">CEN-CENELEC’s revision update</a> forecasts publication in autumn 2027; forecasts may change.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>EAA development:</strong> built environments used for covered services, in either sector. Article 4(4) leaves application of Annex III built-environment requirements to Member States; check national law. Outside WAD’s website/mobile-app scope.</td>
     </tr>
@@ -81,9 +81,9 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
 ## Reading the status and schedule columns
 
 - **“No citation identified”** means no OJ reference was found for the named legislation in the sources checked on the entry date. It is not a statement that accessibility obligations are postponed.
-- **“prEN”** indicates a draft European Standard. National prefixes such as BS or EVS identify national publications or projects; their publication and consultation dates can differ from European milestones.
+- **“prEN”** indicates a draft European Standard. National prefixes such as BS, DIN or EVS identify national publications or projects; their publication and consultation dates can differ from European milestones.
 - **Schedule links** lead to ETSI work-item schedules or BSI’s public project timelines. Future dates are plans, not completed publication or OJ citation events. BSI dates describe its national development timeline.
-- **Source-status note for prEN 18339 and prEN 18340:** <a href="https://anec.eu/news-events/highlights-from-anecs-general-assembly-2026/" hreflang="en">ANEC’s 2026 General Assembly report</a> describes both as adopted, while the linked EVS catalogues and BSI projects still present drafts/development. This table retains the draft designations until final publication can be verified from the standards bodies. Adoption alone would not establish OJ citation.
+- **Source-status note for prEN 18339 and prEN 18340:** <a href="https://anec.eu/news-events/highlights-from-anecs-general-assembly-2026/" hreflang="en">ANEC’s 2026 General Assembly report</a> describes both as adopted, while the linked DIN Media and EVS catalogues and BSI projects still present drafts/development. This table retains the draft designations until final publication can be verified from the standards bodies. Adoption alone would not establish OJ citation.
 - **Last entry update** records the latest check and update to that row, not the publication date of the standard.
 
 ## Why include EN 17161 and EN 17210?
