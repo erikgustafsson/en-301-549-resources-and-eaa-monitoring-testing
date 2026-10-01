@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-d97e8100-20261001T164056Z",
-    "delivery_id": "d97e8100-bdb6-11f1-9b5c-911c7a3e55c2",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "492cb601886828b69c2fdce882868d3f21e195d8",
-    "acquired_at": "2026-10-01T16:40:56.000Z",
-    "expires_at": "2026-10-01T17:10:56.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -922,6 +914,49 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The later synchronized commit expands the applicability explanation with advisory beneficial-use/preparation wording while retaining that drafts may change and uncited standards do not confer presumption of conformity. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition is added. The existing suggestion remains unresolved; no new suggestion."
+    },
+    {
+      "delivery_id": "d97e8100-bdb6-11f1-9b5c-911c7a3e55c2",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "492cb601886828b69c2fdce882868d3f21e195d8",
+      "assessed_current_head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "new_cross_page_evidence_requires_additional_suggestion",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "Commit 492cb601 adds an official PTS EAA introduction as standards guidance. The linked page also contains material, qualified sanctions evidence absent from the Sweden research record and current public sanctions row: possible product-sale prohibition after failure to correct and possible multiple sanction fees for multiple deficiencies. Later commits only reorder/rename the standards page and navigation link."
+    },
+    {
+      "delivery_id": "222f5c30-bdb7-11f1-89f3-7b7b94b741aa",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "275c9b8c9451279bfc2c4406ef5ffb15570affd1",
+      "assessed_current_head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "batched_title_only_followup_new_suggestion_already_recorded",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "Batched synchronization resolved during review to the title/link-label sequence ending at 275c9b8. It adds no further evidence beyond the PTS source already routed from commit 492cb601 and does not resolve the existing registry or new Sweden sanctions handoff."
+    },
+    {
+      "delivery_id": "236a4d30-bdb7-11f1-87ca-0c87b190cc66",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "275c9b8c9451279bfc2c4406ef5ffb15570affd1",
+      "assessed_current_head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "duplicate_same_head_batched",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "The second batched synchronization resolved to head 275c9b8, which only aligns the README label with the reordered page title. No new evidence or handoff change."
+    },
+    {
+      "delivery_id": "5df83b10-bdb7-11f1-8f28-0cc45ee971a2",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "rename_only_existing_suggestions_still_open",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "Current head 24549374 renames the page to EAA and WAD standards.md and updates README navigation. The existing EU-wide registry/canonical-record handoff and the new PTS-to-Sweden sanctions handoff remain unresolved."
     }
   ],
   "suggestions": [
@@ -1971,16 +2006,31 @@
     {
       "id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "country": "European Union",
-      "target": "PR #80 WAD and EAA standards.md, page registry and canonical EU-wide standards research/routing",
+      "target": "PR #80 EAA and WAD standards.md, page registry and canonical EU-wide standards research/routing",
       "status": "open_pr80_followup_required",
       "covering_pr": 80,
-      "proposed_change": "Before merge, register WAD and EAA standards.md in .github/agents/evidence.md with a canonical record format and validation command. Add a canonical EU-wide standards record for EN 303 919, prEN 18339, prEN 18340, EN 17161 and EN 17210 rather than leaving public claims only in the new page; retain exact issuer, final/draft stage, target-versus-achieved dates, checked sources and the ANEC/catalogue conflict. Link the overlapping EN 301 549/WAD-citation facts to .github/agents/adoption/european-standard.json and add the new page as a destination to the relevant EU-wide delivery, while recording monitoring, enforcement and sanctions as not_applicable. Define whether this global future-page delivery is projected into events.json, then regenerate the index if the registry contract requires it. Do not infer OJ citation from publication or a schedule target.",
+      "proposed_change": "Before merge, register EAA and WAD standards.md in .github/agents/evidence.md with a canonical record format and validation command. Add a canonical EU-wide standards record for EN 303 919, prEN 18339, prEN 18340, EN 17161 and EN 17210 rather than leaving public claims only in the new page; retain exact issuer, final/draft stage, target-versus-achieved dates, checked sources and the ANEC/catalogue conflict. Include the official PTS standards-guidance source added at commit 492cb601 as supporting explanatory evidence, bounded to what it states. Link the overlapping EN 301 549/WAD-citation facts to .github/agents/adoption/european-standard.json and add the new page as a destination to the relevant EU-wide delivery, while recording monitoring, enforcement and sanctions as not_applicable for the standards claims. Define whether this global future-page delivery is projected into events.json, then regenerate the index if the registry contract requires it. Do not infer OJ citation from publication, authority guidance or a schedule target.",
       "evidence": "PR #80 adds substantive public standards claims and a README link but changes no research record, page registry or routing ledger. ETSI's M/587 work programme shows EN 303 919 V1.1.1 and EN 301 549 V4.1.1 as published/delivered; BSI project records supply draft/public-comment/planned-publication milestones for EN 18339 and EN 18340; Decision (EU) 2021/1339 supports only the WAD citation of EN 301 549 V3.2.1. Existing adoption/european-standard.json already stores the EN 301 549 evidence and warns that the 16 December 2026 ETSI date is a target, not achieved citation.",
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T16:35:00.000Z",
-      "progress": "PR #80 head bd4971f expands the applicability explanation with advisory beneficial-use/preparation wording while preserving draft/no-presumption caveats. The preceding delivery maps to already-reviewed head 29625a2. Changed files remain .github/agents/presentation.md, README.md and WAD and EAA standards.md; registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
+      "updated_on": "2026-10-01T16:45:30.000Z",
+      "progress": "PR #80 advanced through commit 492cb601, which adds official PTS explanatory standards guidance, and later title/link-only commits; current head 24549374 renames the page to EAA and WAD standards.md. The PTS source is absent from Sweden's canonical research record. Changed files remain presentation guidance, README.md and the standards page; page-registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
+    },
+    {
+      "id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "country": "Sweden",
+      "target": "EAA sanctions.md#sweden and .github/agents/research/countries/sweden.json",
+      "status": "open_pr80_cross_page_followup_required",
+      "covering_pr": 80,
+      "proposed_change": "Capture the PTS introduction source in Sweden's research record with separate dispositions for its standards, supervision and sanctions sections. In EAA sanctions.md#sweden, add the qualified product remedy that, if an actor does not correct accessibility deficiencies, PTS may prohibit sale of products on the market; PTS also states that multiple deficiencies can lead to multiple sanction fees. Keep these as conditional powers and PTS guidance, not imposed sanctions or completed enforcement. Route the standards section to the new EU-wide standards record; mark monitoring/enforcement already present where the existing pages already document PTS remit and active checks.",
+      "evidence": "The official PTS introduction, updated 2025-11-04 and linked by PR #80 at commit 492cb601, says PTS conducts regular supervision, seeks dialogue so actors can correct, may issue sanction fees or prohibit product sales if the actor does not correct, and that multiple deficiencies can produce multiple sanction fees. The current Sweden sanctions row records penalty-fee ranges, conditional fines and compliance/correction orders, but not the product-sale prohibition or multiple-fee qualification. The exact PTS URL is absent from the Sweden research record.",
+      "limitations": "The page states possible powers, not that PTS imposed a fee, prohibited a sale or completed remediation in any case. The product-sale statement is product-specific and must not be generalized to services or other Swedish authorities. Its standards guidance does not establish current OJ citation or legal effect, and its regular-supervision statement adds no new case-level enforcement action.",
+      "source_pr": 80,
+      "created_on": "2026-10-01T16:45:30.000Z",
+      "updated_on": "2026-10-01T16:45:30.000Z",
+      "source_url": "https://pts.se/digital-inkludering/lagkrav/introduktion-till-tillganglighetsdirektivet/",
+      "source_updated_on": "2025-11-04"
     }
   ],
   "processed_deliveries": [
@@ -2975,7 +3025,50 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The later synchronized commit expands the applicability explanation with advisory beneficial-use/preparation wording while retaining that drafts may change and uncited standards do not confer presumption of conformity. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition is added. The existing suggestion remains unresolved; no new suggestion."
+    },
+    {
+      "delivery_id": "d97e8100-bdb6-11f1-9b5c-911c7a3e55c2",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "492cb601886828b69c2fdce882868d3f21e195d8",
+      "assessed_current_head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "new_cross_page_evidence_requires_additional_suggestion",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "Commit 492cb601 adds an official PTS EAA introduction as standards guidance. The linked page also contains material, qualified sanctions evidence absent from the Sweden research record and current public sanctions row: possible product-sale prohibition after failure to correct and possible multiple sanction fees for multiple deficiencies. Later commits only reorder/rename the standards page and navigation link."
+    },
+    {
+      "delivery_id": "222f5c30-bdb7-11f1-89f3-7b7b94b741aa",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "275c9b8c9451279bfc2c4406ef5ffb15570affd1",
+      "assessed_current_head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "batched_title_only_followup_new_suggestion_already_recorded",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "Batched synchronization resolved during review to the title/link-label sequence ending at 275c9b8. It adds no further evidence beyond the PTS source already routed from commit 492cb601 and does not resolve the existing registry or new Sweden sanctions handoff."
+    },
+    {
+      "delivery_id": "236a4d30-bdb7-11f1-87ca-0c87b190cc66",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "275c9b8c9451279bfc2c4406ef5ffb15570affd1",
+      "assessed_current_head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "duplicate_same_head_batched",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "The second batched synchronization resolved to head 275c9b8, which only aligns the README label with the reordered page title. No new evidence or handoff change."
+    },
+    {
+      "delivery_id": "5df83b10-bdb7-11f1-8f28-0cc45ee971a2",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "24549374ee12c4a2e88333eaa415af4df8cf80ba",
+      "checked_on": "2026-10-01T16:45:30.000Z",
+      "outcome": "rename_only_existing_suggestions_still_open",
+      "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
+      "note": "Current head 24549374 renames the page to EAA and WAD standards.md and updates README navigation. The existing EU-wide registry/canonical-record handoff and the new PTS-to-Sweden sanctions handoff remain unresolved."
     }
   ],
-  "updated_at": "2026-10-01T16:40:56.000Z"
+  "updated_at": "2026-10-01T16:45:30.000Z"
 }
