@@ -17,7 +17,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <th scope="col" align="left" valign="top">Current drafts and development schedule</th>
       <th scope="col" align="left" valign="top">WAD applicability</th>
       <th scope="col" align="left" valign="top">EAA applicability</th>
-      <th scope="col" align="left" valign="top">Update</th>
+      <th scope="col" align="left" valign="top">Updated</th>
     </tr>
   </thead>
   <tbody>
@@ -84,7 +84,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
 - **“prEN”** indicates a draft European Standard. National prefixes such as BS, DIN or EVS identify national publications or projects; their publication and consultation dates can differ from European milestones.
 - **Schedule links** lead to ETSI work-item schedules or BSI’s public project timelines. Future dates are plans, not completed publication or OJ citation events. BSI dates describe its national development timeline.
 - **Source-status note for prEN 18339 and prEN 18340:** <a href="https://anec.eu/news-events/highlights-from-anecs-general-assembly-2026/" hreflang="en">ANEC’s 2026 General Assembly report</a> describes both as adopted, while the linked DIN Media and EVS catalogues and BSI projects still present drafts/development. This table retains the draft designations until final publication can be verified from the standards bodies. Adoption alone would not establish OJ citation.
-- **Update** records the latest check and update to that row, not the publication date of the standard.
+- **Updated** records the latest check and update to that row, not the publication date of the standard.
 
 ## Why include EN 17161 and EN 17210?
 
