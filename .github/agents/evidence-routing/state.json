@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-82f0b870-20261001T104800Z",
+    "acquired_at": "2026-10-01T10:48:00.000Z",
+    "expires_at": "2026-10-01T11:18:00.000Z",
+    "delivery_id": "82f0b870-bd85-11f1-9373-3950a802a56d",
+    "pull_request": 80,
+    "event": "pull_request.synchronize",
+    "head_sha": "aaf9f22b114ab2f8a586605279ad6e7fb1c5d080"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2625,5 +2633,5 @@
       "note": "PR #80 adds a substantive EU-wide public standards page and README link but no page-registry entry, canonical record, public-claim mapping or delivery. Existing EN 301 549 evidence can be linked from adoption/european-standard.json; the other five standards need a canonical global record and explicit page destinations. Monitoring, enforcement and sanctions remain not_applicable. PR #79 is unrelated."
     }
   ],
-  "updated_at": "2026-10-01T10:41:00.000Z"
+  "updated_at": "2026-10-01T10:48:00.000Z"
 }
