@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-aa535990-20261001T164643Z",
+    "delivery_id": "aa535990-bdb7-11f1-9912-187f4d938934",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "169d8b43e2a3e37d58c6aff139916c3b104a4e55",
+    "acquired_at": "2026-10-01T16:46:43.000Z",
+    "expires_at": "2026-10-01T17:16:43.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3070,5 +3078,5 @@
       "note": "Current head 24549374 renames the page to EAA and WAD standards.md and updates README navigation. The existing EU-wide registry/canonical-record handoff and the new PTS-to-Sweden sanctions handoff remain unresolved."
     }
   ],
-  "updated_at": "2026-10-01T16:45:30.000Z"
+  "updated_at": "2026-10-01T16:46:43.000Z"
 }
