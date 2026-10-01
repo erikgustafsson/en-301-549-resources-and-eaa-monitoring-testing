@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-d97e8100-20261001T164056Z",
+    "delivery_id": "d97e8100-bdb6-11f1-9b5c-911c7a3e55c2",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "492cb601886828b69c2fdce882868d3f21e195d8",
+    "acquired_at": "2026-10-01T16:40:56.000Z",
+    "expires_at": "2026-10-01T17:10:56.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2969,5 +2977,5 @@
       "note": "The later synchronized commit expands the applicability explanation with advisory beneficial-use/preparation wording while retaining that drafts may change and uncited standards do not confer presumption of conformity. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition is added. The existing suggestion remains unresolved; no new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T16:35:00.000Z"
+  "updated_at": "2026-10-01T16:40:56.000Z"
 }
