@@ -38,7 +38,7 @@ Applicability includes the beneficial use of a standard to improve accessibility
     <tr>
       <td align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026: Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)<br><br>Requirements for accessible visual, tactile and auditory non-digital information about products and services.</td>
       <td align="left" valign="top">No</td>
-      <td align="left" valign="top">Draft in progress. BSI public comments closed 2026-06-02. Publication expected 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>.</td>
+      <td align="left" valign="top">Draft in progress. Publication expected 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">Draft supporting EAA requirements for non-digital information about covered products and services.</td>
       <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -47,7 +47,7 @@ Applicability includes the beneficial use of a standard to improve accessibility
     <tr>
       <td align="left" valign="top"><a href="https://www.evs.ee/en/pren-18340" hreflang="en">prEN 18340:2026: Accessibility of support services for products and services</a> (draft catalogue)<br><br>Requirements for accessible support, including help desks, call centres, technical support and training, online or face to face.</td>
       <td align="left" valign="top">No</td>
-      <td align="left" valign="top">Draft in progress. BSI public comments closed 2026-06-02. Publication expected 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>.</td>
+      <td align="left" valign="top">Draft in progress. Publication expected 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">Draft supporting EAA requirements for accessible support services for covered products and services.</td>
       <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">2026-10-01</td>
