@@ -12,8 +12,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
   <caption>Publication, harmonisation and development status checked on 2026-10-01</caption>
   <thead>
     <tr>
-      <th scope="col" align="left" valign="top">Standard name and number</th>
-      <th scope="col" align="left" valign="top">Description</th>
+      <th scope="col" align="left" valign="top">Standard</th>
       <th scope="col" align="left" valign="top">Official journal citation</th>
       <th scope="col" align="left" valign="top">Current drafts and development schedule</th>
       <th scope="col" align="left" valign="top">Last entry update</th>
@@ -24,8 +23,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
   <tbody>
     <!-- last_verified: 2026-10-01 -->
     <tr>
-      <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/303900_303999/303919/01.01.01_60/en_303919v010101p.pdf" hreflang="en">ETSI EN 303 919 V1.1.1 (2026-09) — Emergency Communications (EMTEL); Accessibility and Interoperability of Emergency Communications</a> (PDF)</th>
-      <td align="left" valign="top">Requirements for accessible, interoperable emergency communications across terminals, communications services and public safety answering points.</td>
+      <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/303900_303999/303919/01.01.01_60/en_303919v010101p.pdf" hreflang="en">ETSI EN 303 919 V1.1.1 (2026-09) — Emergency Communications (EMTEL); Accessibility and Interoperability of Emergency Communications</a> (PDF)<br><br>Requirements for accessible, interoperable emergency communications across terminals, communications services and public safety answering points.</th>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">V1.1.1 published on 2026-09-02; this work item is no longer a draft. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -34,8 +32,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
-      <th scope="row" align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026 — Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)</th>
-      <td align="left" valign="top">Requirements for accessible visual, tactile and auditory non-digital information about products and services.</td>
+      <th scope="row" align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026 — Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)<br><br>Requirements for accessible visual, tactile and auditory non-digital information about products and services.</th>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -44,8 +41,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
-      <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/pren-18340" hreflang="en">prEN 18340:2026 — Accessibility of support services for products and services</a> (draft catalogue)</th>
-      <td align="left" valign="top">Requirements for accessible support, including help desks, call centres, technical support and training, online or face to face.</td>
+      <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/pren-18340" hreflang="en">prEN 18340:2026 — Accessibility of support services for products and services</a> (draft catalogue)<br><br>Requirements for accessible support, including help desks, call centres, technical support and training, online or face to face.</th>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -54,8 +50,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
-      <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf" hreflang="en">EN 301 549 V4.1.1 (2026-09) — Accessibility requirements for ICT products and services</a> (PDF)</th>
-      <td align="left" valign="top">Accessibility requirements for ICT, including websites, mobile apps, software, hardware and digital documents.</td>
+      <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf" hreflang="en">EN 301 549 V4.1.1 (2026-09) — Accessibility requirements for ICT products and services</a> (PDF)<br><br>Accessibility requirements for ICT, including websites, mobile apps, software, hardware and digital documents.</th>
       <td align="left" valign="top"><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng" hreflang="en">Yes</a></td>
       <td align="left" valign="top">V4.1.1 published on 2026-09-02; the V4.1.0 draft process is complete. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -64,8 +59,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
-      <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17161-2019" hreflang="en">EN 17161:2019 — Design for All — Accessibility following a Design for All approach in products, goods and services — Extending the range of users</a> (standard catalogue)</th>
-      <td align="left" valign="top">An organisational approach to embedding accessibility and diverse user needs in product and service development.</td>
+      <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17161-2019" hreflang="en">EN 17161:2019 — Design for All — Accessibility following a Design for All approach in products, goods and services — Extending the range of users</a> (standard catalogue)<br><br>An organisational approach to embedding accessibility and diverse user needs in product and service development.</th>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17161/394454915" hreflang="en">prEN 17161 — Design for All approach — Managing accessibility of products and services</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-03131" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -74,8 +68,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
-      <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17210-2021" hreflang="en">EN 17210:2021 — Accessibility and usability of the built environment — Functional requirements</a> (standard catalogue)</th>
-      <td align="left" valign="top">Functional accessibility requirements for buildings and outdoor environments, including construction and adaptation.</td>
+      <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17210-2021" hreflang="en">EN 17210:2021 — Accessibility and usability of the built environment — Functional requirements</a> (standard catalogue)<br><br>Functional accessibility requirements for buildings and outdoor environments, including construction and adaptation.</th>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17210/395206900" hreflang="en">prEN 17210 — Requirements and recommendations</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-01619" hreflang="en">BSI development schedule</a>. <a href="https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-02-26-en-17210-2021/" hreflang="en">CEN-CENELEC’s revision update</a> forecasts publication in autumn 2027; forecasts may change.</td>
       <td align="left" valign="top">2026-10-01</td>
