@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-b7c107d0-20261001T120155Z",
-    "delivery_id": "b7c107d0-bd8f-11f1-9790-813611643c75",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "1a20787ddb69e50adddc4520c844eb90cb21707b",
-    "acquired_at": "2026-10-01T12:01:55.000Z",
-    "expires_at": "2026-10-01T12:31:55.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -881,6 +873,16 @@
       "outcome": "superseded_by_later_head_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Delivery head efd0c0f removed the ANEC/catalogue conflict note from the page, despite that preservation already being part of the recorded PR #80 handoff. During assessment the PR advanced to 1a20787, which additionally changes four WAD cells to Not applicable. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition is added. The existing suggestion remains unresolved; no new suggestion."
+    },
+    {
+      "delivery_id": "b7c107d0-bd8f-11f1-9790-813611643c75",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "1a20787ddb69e50adddc4520c844eb90cb21707b",
+      "checked_on": "2026-10-01T12:03:00.000Z",
+      "outcome": "duplicate_same_head_already_reviewed",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This delivery resolves to head 1a20787, already assessed as the current head under the immediately preceding synchronization. It only simplifies four WAD cells to Not applicable after the prior head removed the ANEC/catalogue conflict note. Both matters remain within the existing PR #80 suggestion, and no registry, canonical record, public-claim mapping, delivery or events disposition was added. No new suggestion."
     }
   ],
   "suggestions": [
@@ -2893,7 +2895,17 @@
       "outcome": "superseded_by_later_head_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Delivery head efd0c0f removed the ANEC/catalogue conflict note from the page, despite that preservation already being part of the recorded PR #80 handoff. During assessment the PR advanced to 1a20787, which additionally changes four WAD cells to Not applicable. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition is added. The existing suggestion remains unresolved; no new suggestion."
+    },
+    {
+      "delivery_id": "b7c107d0-bd8f-11f1-9790-813611643c75",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "1a20787ddb69e50adddc4520c844eb90cb21707b",
+      "checked_on": "2026-10-01T12:03:00.000Z",
+      "outcome": "duplicate_same_head_already_reviewed",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This delivery resolves to head 1a20787, already assessed as the current head under the immediately preceding synchronization. It only simplifies four WAD cells to Not applicable after the prior head removed the ANEC/catalogue conflict note. Both matters remain within the existing PR #80 suggestion, and no registry, canonical record, public-claim mapping, delivery or events disposition was added. No new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T12:01:55.000Z"
+  "updated_at": "2026-10-01T12:03:00.000Z"
 }
