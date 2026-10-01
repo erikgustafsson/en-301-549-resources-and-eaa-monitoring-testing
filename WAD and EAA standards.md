@@ -82,6 +82,11 @@ Applicability includes the beneficial use of a standard to improve accessibility
   </tbody>
 </table>
 
+## Guidance from a monitoring authority
+
+<!-- last_verified: 2026-10-01 -->
+Swedish supervisory authority PTS describes standards as voluntary guidance that can improve quality and accessibility. Its <a href="https://pts.se/digital-inkludering/lagkrav/introduktion-till-tillganglighetsdirektivet/#lite-om-standarder" hreflang="sv">introduction to the EAA, section on standards (Swedish)</a> highlights EN 301 549, EN 17161 and EN 17210, alongside work on standards for support services, non-digital information and emergency communications. This is explanatory guidance from a supervisory authority; the table above records publication and OJ citation status separately. Source page updated 2025-11-04.
+
 ## Reading the status and schedule columns
 
 - **Official journal citation:** **Yes** means an edition of the standard has been cited in the OJ; **No** means no citation was identified in the sources checked on the entry date. For EN 301 549, the cited edition is <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">V3.2.1 (2021-03) (PDF)</a>, not the latest published V4.1.1 shown in the table. A **No** does not postpone accessibility obligations.
