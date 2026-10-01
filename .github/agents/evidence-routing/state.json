@@ -1,6 +1,18 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-batch-68d98e90-20261001T115157Z",
+    "delivery_id": "68d98e90-bd8e-11f1-96d2-4566e93a4c11",
+    "delivery_ids": [
+      "3f555a40-bd8e-11f1-99ff-16cfdb9dd3a9",
+      "68d98e90-bd8e-11f1-96d2-4566e93a4c11"
+    ],
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "5273b719a1d8924100e8992fa71a54a9d49d8b98",
+    "acquired_at": "2026-10-01T11:51:57.000Z",
+    "expires_at": "2026-10-01T12:21:57.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2765,5 +2777,5 @@
       "note": "The synchronized head adds two presentation-only commits: it renames Last entry update to Updated and moves the date column after the WAD/EAA applicability columns. Changed files remain README.md and WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. PR #79 remains unrelated; no new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T11:51:00.000Z"
+  "updated_at": "2026-10-01T11:51:57.000Z"
 }
