@@ -25,8 +25,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/303900_303999/303919/01.01.01_60/en_303919v010101p.pdf" hreflang="en">ETSI EN 303 919 V1.1.1 (2026-09) — Emergency Communications (EMTEL); Accessibility and Interoperability of Emergency Communications</a> (PDF)</th>
       <td align="left" valign="top">Requirements for accessible, interoperable emergency communications across terminals, communications services and public safety answering points.</td>
-      <td align="left" valign="top">No WAD or EAA OJ citation identified. ETSI’s schedule has a citation target of 2026-12-16, with no achieved date recorded.</td>
-      <td align="left" valign="top">V1.1.1 published on 2026-09-02; this work item is no longer a draft. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">V1.1.1 published on 2026-09-02; this work item is no longer a draft. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>EAA:</strong> emergency communications, including answering 112 calls; relevant to private communications providers and public emergency services. Not a WAD harmonised reference.</td>
     </tr>
@@ -34,7 +34,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026 — Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)</th>
       <td align="left" valign="top">Requirements for accessible visual, tactile and auditory non-digital information about products and services.</td>
-      <td align="left" valign="top">No WAD or EAA OJ citation identified; listed as a draft in the checked standards-body catalogues.</td>
+      <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>EAA development:</strong> information for covered products and services supplied by private or public organisations. Not a WAD harmonised reference.</td>
@@ -43,7 +43,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/pren-18340" hreflang="en">prEN 18340:2026 — Accessibility of support services for products and services</a> (draft catalogue)</th>
       <td align="left" valign="top">Requirements for accessible support, including help desks, call centres, technical support and training, online or face to face.</td>
-      <td align="left" valign="top">No WAD or EAA OJ citation identified; listed as a draft in the checked standards-body catalogues.</td>
+      <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>EAA development:</strong> support for covered products and services supplied by private or public organisations. Not a WAD harmonised reference.</td>
@@ -52,7 +52,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf" hreflang="en">EN 301 549 V4.1.1 (2026-09) — Accessibility requirements for ICT products and services</a> (PDF)</th>
       <td align="left" valign="top">Accessibility requirements for ICT, including websites, mobile apps, software, hardware and digital documents.</td>
-      <td align="left" valign="top"><strong>WAD: V3.2.1 (2021-03)</strong>, cited by <a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng" hreflang="en">Decision (EU) 2021/1339</a>, OJ L 289, 2021-08-12.<br><br><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">Cited V3.2.1 standard (PDF)</a>.<br><br><strong>EAA:</strong> no citation identified. V4.1.1 is published but no WAD or EAA citation was identified.</td>
+      <td align="left" valign="top"><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng" hreflang="en">Yes</a></td>
       <td align="left" valign="top">V4.1.1 published on 2026-09-02; the V4.1.0 draft process is complete. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>WAD:</strong> public-sector websites and mobile apps, using the cited version and covered requirements.<br><br><strong>EAA:</strong> relevant ICT products and services, whether supplied privately or publicly; V4.1.1 was developed to support the EAA as well as WAD.</td>
@@ -61,7 +61,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17161-2019" hreflang="en">EN 17161:2019 — Design for All — Accessibility following a Design for All approach in products, goods and services — Extending the range of users</a> (standard catalogue)</th>
       <td align="left" valign="top">An organisational approach to embedding accessibility and diverse user needs in product and service development.</td>
-      <td align="left" valign="top">No WAD or EAA OJ citation identified.</td>
+      <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17161/394454915" hreflang="en">prEN 17161 — Design for All approach — Managing accessibility of products and services</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-03131" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>EAA development:</strong> revision requested under M/587. Useful to private and public organisations; it does not replace product-specific requirements or WAD technical conformance checks.</td>
@@ -70,7 +70,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17210-2021" hreflang="en">EN 17210:2021 — Accessibility and usability of the built environment — Functional requirements</a> (standard catalogue)</th>
       <td align="left" valign="top">Functional accessibility requirements for buildings and outdoor environments, including construction and adaptation.</td>
-      <td align="left" valign="top">No WAD or EAA OJ citation identified.</td>
+      <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17210/395206900" hreflang="en">prEN 17210 — Requirements and recommendations</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-01619" hreflang="en">BSI development schedule</a>. <a href="https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-02-26-en-17210-2021/" hreflang="en">CEN-CENELEC’s revision update</a> forecasts publication in autumn 2027; forecasts may change.</td>
       <td align="left" valign="top">2026-10-01</td>
       <td align="left" valign="top"><strong>EAA development:</strong> built environments used for covered services, in either sector. Article 4(4) leaves application of Annex III built-environment requirements to Member States; check national law. Outside WAD’s website/mobile-app scope.</td>
@@ -80,7 +80,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
 
 ## Reading the status and schedule columns
 
-- **“No citation identified”** means no OJ reference was found for the named legislation in the sources checked on the entry date. It is not a statement that accessibility obligations are postponed.
+- **Official journal citation:** **Yes** means an edition of the standard has been cited in the OJ; **No** means no citation was identified in the sources checked on the entry date. For EN 301 549, the cited edition is <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">V3.2.1 (2021-03) (PDF)</a>, not the latest published V4.1.1 shown in the table. A **No** does not postpone accessibility obligations.
 - **“prEN”** indicates a draft European Standard. National prefixes such as BS, DIN or EVS identify national publications or projects; their publication and consultation dates can differ from European milestones.
 - **Schedule links** lead to ETSI work-item schedules or BSI’s public project timelines. Future dates are plans, not completed publication or OJ citation events. BSI dates describe its national development timeline.
 - **Source-status note for prEN 18339 and prEN 18340:** <a href="https://anec.eu/news-events/highlights-from-anecs-general-assembly-2026/" hreflang="en">ANEC’s 2026 General Assembly report</a> describes both as adopted, while the linked DIN Media and EVS catalogues and BSI projects still present drafts/development. This table retains the draft designations until final publication can be verified from the standards bodies. Adoption alone would not establish OJ citation.
