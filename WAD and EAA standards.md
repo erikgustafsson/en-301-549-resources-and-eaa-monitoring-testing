@@ -2,7 +2,9 @@
 
 This table tracks six European accessibility standards, their development and their citation in the Official Journal of the European Union (OJ). Each row links to the standard or official catalogue entry and a development schedule. Last checked: **2026-10-01**.
 
-**WAD** means the <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng" hreflang="en">Web Accessibility Directive, (EU) 2016/2102</a>, covering public-sector bodies’ websites and mobile applications, subject to its scope and exclusions. **EAA** means the <a href="https://eur-lex.europa.eu/eli/dir/2019/882/oj/eng" hreflang="en">European Accessibility Act, (EU) 2019/882</a>, covering specified products and consumer services. EAA coverage depends on the product or service and the provider’s role. Public-sector organisations can also be covered when they provide services within its scope, such as certain passenger transport or e-commerce services. It also covers answering emergency communications to 112.
+**WAD** means the <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng" hreflang="en">Web Accessibility Directive, (EU) 2016/2102</a>, covering public-sector bodies’ websites and mobile applications, subject to its scope and exclusions.
+
+**EAA** means the <a href="https://eur-lex.europa.eu/eli/dir/2019/882/oj/eng" hreflang="en">European Accessibility Act, (EU) 2019/882</a>, covering specified products and consumer services. EAA coverage depends on the product or service and the provider’s role. Public-sector organisations can also be covered when they provide services within its scope, such as certain passenger transport or e-commerce services. It also covers answering emergency communications to 112.
 
 Publication of an EN does not by itself establish an OJ citation. Presumption of conformity depends on the version cited under the relevant legislation and the requirements covered. A WAD citation does not establish an EAA citation. Standards remain voluntary tools for meeting the applicable legal requirements; a draft or a forecast citation date does not confer presumption of conformity.
 
