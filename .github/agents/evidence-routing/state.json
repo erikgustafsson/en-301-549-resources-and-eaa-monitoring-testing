@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-6b6d4710-20261001T163041Z",
-    "delivery_id": "6b6d4710-bdb5-11f1-9977-71433b8e2d2a",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "a283bb3c5a4dbdb99c75603cca86813bd5c8dd49",
-    "acquired_at": "2026-10-01T16:30:41.000Z",
-    "expires_at": "2026-10-01T17:00:41.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -891,6 +883,17 @@
       "outcome": "duplicate_same_head_already_reviewed",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "This delivery resolves to head 1a20787, already assessed as the current head under the immediately preceding synchronization. It only simplifies four WAD cells to Not applicable after the prior head removed the ANEC/catalogue conflict note. Both matters remain within the existing PR #80 suggestion, and no registry, canonical record, public-claim mapping, delivery or events disposition was added. No new suggestion."
+    },
+    {
+      "delivery_id": "6b6d4710-bdb5-11f1-9977-71433b8e2d2a",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "a283bb3c5a4dbdb99c75603cca86813bd5c8dd49",
+      "assessed_current_head_sha": "29625a2ed7ba8971ecb6c9d1df73bdaece6704ec",
+      "checked_on": "2026-10-01T16:33:00.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head a283bb3 narrows the EAA public-provider scope wording. During assessment PR #80 advanced to 29625a2, which only splits the WAD and EAA definitions into separate paragraphs. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition was added; the existing suggestion remains unresolved. PR #79 remains unrelated; no new suggestion."
     }
   ],
   "suggestions": [
@@ -1948,8 +1951,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T12:02:00.000Z",
-      "progress": "Delivery head efd0c0f removes the ANEC/catalogue conflict note; actual current PR #80 head 1a20787 also simplifies four WAD cells to Not applicable. Preserving that conflict is already explicit in this suggestion. Changed files remain .github/agents/presentation.md, README.md and WAD and EAA standards.md; registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
+      "updated_on": "2026-10-01T16:33:00.000Z",
+      "progress": "Delivery head a283bb3 narrows the EAA public-provider scope wording; actual current PR #80 head 29625a2 only splits WAD and EAA definitions into separate paragraphs. Changed files remain .github/agents/presentation.md, README.md and WAD and EAA standards.md; registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
     }
   ],
   "processed_deliveries": [
@@ -2913,7 +2916,18 @@
       "outcome": "duplicate_same_head_already_reviewed",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "This delivery resolves to head 1a20787, already assessed as the current head under the immediately preceding synchronization. It only simplifies four WAD cells to Not applicable after the prior head removed the ANEC/catalogue conflict note. Both matters remain within the existing PR #80 suggestion, and no registry, canonical record, public-claim mapping, delivery or events disposition was added. No new suggestion."
+    },
+    {
+      "delivery_id": "6b6d4710-bdb5-11f1-9977-71433b8e2d2a",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "a283bb3c5a4dbdb99c75603cca86813bd5c8dd49",
+      "assessed_current_head_sha": "29625a2ed7ba8971ecb6c9d1df73bdaece6704ec",
+      "checked_on": "2026-10-01T16:33:00.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head a283bb3 narrows the EAA public-provider scope wording. During assessment PR #80 advanced to 29625a2, which only splits the WAD and EAA definitions into separate paragraphs. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition was added; the existing suggestion remains unresolved. PR #79 remains unrelated; no new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T16:30:41.000Z"
+  "updated_at": "2026-10-01T16:33:00.000Z"
 }
