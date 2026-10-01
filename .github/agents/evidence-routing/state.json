@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-96338d90-20261001T115951Z",
-    "delivery_id": "96338d90-bd8f-11f1-8b01-7d57064f4736",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "efd0c0f38eba51a52aed97e5968bf04d6dbc141b",
-    "acquired_at": "2026-10-01T11:59:51.000Z",
-    "expires_at": "2026-10-01T12:29:51.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -870,6 +862,17 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronized commit adds an applicability-column explanation and refines each row's WAD/EAA support wording. It changes no source links, OJ-citation status, stage/date evidence, page registry, canonical record, public-claim mapping, delivery or events disposition. The previously notified PR #80 handoff therefore remains unresolved. PR #79 remains unrelated; no new suggestion."
+    },
+    {
+      "delivery_id": "96338d90-bd8f-11f1-8b01-7d57064f4736",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "efd0c0f38eba51a52aed97e5968bf04d6dbc141b",
+      "assessed_current_head_sha": "1a20787ddb69e50adddc4520c844eb90cb21707b",
+      "checked_on": "2026-10-01T12:02:00.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head efd0c0f removed the ANEC/catalogue conflict note from the page, despite that preservation already being part of the recorded PR #80 handoff. During assessment the PR advanced to 1a20787, which additionally changes four WAD cells to Not applicable. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition is added. The existing suggestion remains unresolved; no new suggestion."
     }
   ],
   "suggestions": [
@@ -1927,8 +1930,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T11:59:00.000Z",
-      "progress": "PR #80 head 76212bf adds an applicability-column explanation and refines each row's WAD/EAA support wording. Changed files remain .github/agents/presentation.md, README.md and WAD and EAA standards.md; registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
+      "updated_on": "2026-10-01T12:02:00.000Z",
+      "progress": "Delivery head efd0c0f removes the ANEC/catalogue conflict note; actual current PR #80 head 1a20787 also simplifies four WAD cells to Not applicable. Preserving that conflict is already explicit in this suggestion. Changed files remain .github/agents/presentation.md, README.md and WAD and EAA standards.md; registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
     }
   ],
   "processed_deliveries": [
@@ -2871,7 +2874,18 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronized commit adds an applicability-column explanation and refines each row's WAD/EAA support wording. It changes no source links, OJ-citation status, stage/date evidence, page registry, canonical record, public-claim mapping, delivery or events disposition. The previously notified PR #80 handoff therefore remains unresolved. PR #79 remains unrelated; no new suggestion."
+    },
+    {
+      "delivery_id": "96338d90-bd8f-11f1-8b01-7d57064f4736",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "efd0c0f38eba51a52aed97e5968bf04d6dbc141b",
+      "assessed_current_head_sha": "1a20787ddb69e50adddc4520c844eb90cb21707b",
+      "checked_on": "2026-10-01T12:02:00.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head efd0c0f removed the ANEC/catalogue conflict note from the page, despite that preservation already being part of the recorded PR #80 handoff. During assessment the PR advanced to 1a20787, which additionally changes four WAD cells to Not applicable. Changed files remain presentation guidance, README.md and WAD and EAA standards.md. No page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition is added. The existing suggestion remains unresolved; no new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T11:59:51.000Z"
+  "updated_at": "2026-10-01T12:02:00.000Z"
 }
