@@ -8,7 +8,7 @@ This table tracks six European accessibility standards, their development and th
 
 Publication of an EN does not by itself establish an OJ citation. Presumption of conformity depends on the version cited under the relevant legislation and the requirements covered. A WAD citation does not establish an EAA citation. Standards remain voluntary tools for meeting the applicable legal requirements; a draft or a forecast citation date does not confer presumption of conformity.
 
-The applicability columns describe how each standard supports each directive. A standard can fall outside WAD’s scope and still be relevant to a public organisation providing an EAA-covered product or service.
+Applicability includes the beneficial use of a standard to improve accessibility. Standards developed after the WAD can still inform WAD-related accessibility work, and upcoming standards can help organisations prepare for EAA requirements before they are cited in the Official Journal. Drafts may change, and using an uncited standard does not by itself confer presumption of conformity. A standard can also fall outside WAD’s scope and still be relevant to a public organisation providing an EAA-covered product or service.
 
 ## Standards table
 
