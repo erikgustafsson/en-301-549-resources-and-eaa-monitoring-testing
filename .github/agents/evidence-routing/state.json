@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-6070f550-20261001T114405Z",
+    "delivery_id": "6070f550-bd8d-11f1-8bb5-dd4fdd923f8f",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "5330bf01a8ce8ae4fcf74b7e9cdf429f517e7ba5",
+    "acquired_at": "2026-10-01T11:44:05.000Z",
+    "expires_at": "2026-10-01T12:14:05.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2685,5 +2693,5 @@
       "note": "The synchronized commit only renames the new table's OJ-citation column. It adds no registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition; the previously notified PR #80 handoff remains unresolved. No new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T11:43:00.000Z"
+  "updated_at": "2026-10-01T11:44:05.000Z"
 }
