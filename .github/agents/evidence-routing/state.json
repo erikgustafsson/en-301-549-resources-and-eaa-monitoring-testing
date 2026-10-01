@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-c01e7650-20261001T165431Z",
-    "delivery_id": "c01e7650-bdb8-11f1-97ec-8a717f24e3e1",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "f669ff1185ce424b652fe8cfebf645415812b678",
-    "acquired_at": "2026-10-01T16:54:31.000Z",
-    "expires_at": "2026-10-01T17:24:31.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -996,6 +988,28 @@
       "outcome": "superseded_by_later_head_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Delivery head 0ab2600 simplifies draft/publication wording. During assessment the PR advanced to e339c53, which changes ETSI's 2026-12-16 OJ entries from an explicit target with no achieved date to 'expected'. The page still labels future dates as plans, but the existing canonical-record handoff already requires preserving target-versus-achieved status. No new evidence or distinct suggestion."
+    },
+    {
+      "delivery_id": "86e6a290-bdb8-11f1-8a77-9c63920fff6c",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "e339c537c324a9aa12d09716d1ad6c315f2b7581",
+      "assessed_current_head_sha": "4ac619fa9f9cde47bdd0e7a66b358e13c425bc74",
+      "checked_on": "2026-10-01T16:55:40.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This synchronization changes ETSI OJ dates from explicit targets with no achieved dates to 'expected'. Later wording-only commits simplify draft/status cells. These changes remain covered by the existing requirement to preserve target-versus-achieved status and do not add new evidence or resolve routing."
+    },
+    {
+      "delivery_id": "c01e7650-bdb8-11f1-97ec-8a717f24e3e1",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "f669ff1185ce424b652fe8cfebf645415812b678",
+      "assessed_current_head_sha": "4ac619fa9f9cde47bdd0e7a66b358e13c425bc74",
+      "checked_on": "2026-10-01T16:55:40.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head f669ff1 simplifies EN 303 919 and BSI draft status wording. During assessment head 4ac619f additionally removes closed public-comment dates. No new source or destination appears; the existing canonical-record requirement already covers preserving exact stage and dates."
     }
   ],
   "suggestions": [
@@ -2053,8 +2067,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T16:53:20.000Z",
-      "progress": "PR #80 advanced from delivery head 0ab2600 to current head e339c53. The current page says ETSI OJ citation is expected on 2026-12-16 instead of recording the schedule target with no achieved date. This remains covered by the existing requirement to preserve target-versus-achieved status. Registry entry, canonical record, public-claim mappings, delivery and events disposition remain absent; the separate Sweden PTS sanctions handoff also remains open."
+      "updated_on": "2026-10-01T16:55:40.000Z",
+      "progress": "PR #80 current head 4ac619f progressively simplifies status text: ETSI OJ targets are labelled expected, and BSI public-comment closure dates were removed. This adds no new evidence and remains covered by the existing canonical-record requirement to preserve exact final/draft stage, source dates and target-versus-achieved status. Registry entry, canonical record, mappings, delivery and events disposition remain absent; the Sweden PTS sanctions handoff remains open."
     },
     {
       "id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
@@ -3139,7 +3153,29 @@
       "outcome": "superseded_by_later_head_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Delivery head 0ab2600 simplifies draft/publication wording. During assessment the PR advanced to e339c53, which changes ETSI's 2026-12-16 OJ entries from an explicit target with no achieved date to 'expected'. The page still labels future dates as plans, but the existing canonical-record handoff already requires preserving target-versus-achieved status. No new evidence or distinct suggestion."
+    },
+    {
+      "delivery_id": "86e6a290-bdb8-11f1-8a77-9c63920fff6c",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "e339c537c324a9aa12d09716d1ad6c315f2b7581",
+      "assessed_current_head_sha": "4ac619fa9f9cde47bdd0e7a66b358e13c425bc74",
+      "checked_on": "2026-10-01T16:55:40.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This synchronization changes ETSI OJ dates from explicit targets with no achieved dates to 'expected'. Later wording-only commits simplify draft/status cells. These changes remain covered by the existing requirement to preserve target-versus-achieved status and do not add new evidence or resolve routing."
+    },
+    {
+      "delivery_id": "c01e7650-bdb8-11f1-97ec-8a717f24e3e1",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "f669ff1185ce424b652fe8cfebf645415812b678",
+      "assessed_current_head_sha": "4ac619fa9f9cde47bdd0e7a66b358e13c425bc74",
+      "checked_on": "2026-10-01T16:55:40.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head f669ff1 simplifies EN 303 919 and BSI draft status wording. During assessment head 4ac619f additionally removes closed public-comment dates. No new source or destination appears; the existing canonical-record requirement already covers preserving exact stage and dates."
     }
   ],
-  "updated_at": "2026-10-01T16:54:31.000Z"
+  "updated_at": "2026-10-01T16:55:40.000Z"
 }
