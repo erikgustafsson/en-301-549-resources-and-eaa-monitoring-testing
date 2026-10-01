@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-030b07d0-20261001T165615Z",
+    "delivery_id": "030b07d0-bdb9-11f1-9bc6-b6193aef8c0b",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "5a8343be07942043faad6aa60859bf85747ee6cb",
+    "acquired_at": "2026-10-01T16:56:15.000Z",
+    "expires_at": "2026-10-01T17:26:15.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3177,5 +3185,5 @@
       "note": "Delivery head f669ff1 simplifies EN 303 919 and BSI draft status wording. During assessment head 4ac619f additionally removes closed public-comment dates. No new source or destination appears; the existing canonical-record requirement already covers preserving exact stage and dates."
     }
   ],
-  "updated_at": "2026-10-01T16:55:40.000Z"
+  "updated_at": "2026-10-01T16:56:15.000Z"
 }
