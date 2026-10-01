@@ -17,7 +17,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <th scope="col" align="left" valign="top">Official journal citation</th>
       <th scope="col" align="left" valign="top">Current drafts and development schedule</th>
       <th scope="col" align="left" valign="top">Last entry update</th>
-      <th scope="col" align="left" valign="top">WAD / EAA and sector</th>
+      <th scope="col" align="left" valign="top">WAD applicability</th>
+      <th scope="col" align="left" valign="top">EAA applicability</th>
     </tr>
   </thead>
   <tbody>
@@ -28,7 +29,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">V1.1.1 published on 2026-09-02; this work item is no longer a draft. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
       <td align="left" valign="top">2026-10-01</td>
-      <td align="left" valign="top"><strong>EAA:</strong> emergency communications, including answering 112 calls; relevant to private communications providers and public emergency services. Not a WAD harmonised reference.</td>
+      <td align="left" valign="top">No direct applicability.</td>
+      <td align="left" valign="top">Emergency communications, including answering 112 calls; relevant to private communications providers and public emergency services.</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
@@ -37,7 +39,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
       <td align="left" valign="top">2026-10-01</td>
-      <td align="left" valign="top"><strong>EAA development:</strong> information for covered products and services supplied by private or public organisations. Not a WAD harmonised reference.</td>
+      <td align="left" valign="top">No direct applicability.</td>
+      <td align="left" valign="top">Draft for information about covered products and services supplied by private or public organisations.</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
@@ -46,7 +49,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
       <td align="left" valign="top">2026-10-01</td>
-      <td align="left" valign="top"><strong>EAA development:</strong> support for covered products and services supplied by private or public organisations. Not a WAD harmonised reference.</td>
+      <td align="left" valign="top">No direct applicability.</td>
+      <td align="left" valign="top">Draft for support services for covered products and services supplied by private or public organisations.</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
@@ -55,7 +59,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <td align="left" valign="top"><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng" hreflang="en">Yes</a></td>
       <td align="left" valign="top">V4.1.1 published on 2026-09-02; the V4.1.0 draft process is complete. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
       <td align="left" valign="top">2026-10-01</td>
-      <td align="left" valign="top"><strong>WAD:</strong> public-sector websites and mobile apps, using the cited version and covered requirements.<br><br><strong>EAA:</strong> relevant ICT products and services, whether supplied privately or publicly; V4.1.1 was developed to support the EAA as well as WAD.</td>
+      <td align="left" valign="top">Public-sector websites and mobile apps, using the cited version and covered requirements.</td>
+      <td align="left" valign="top">Relevant ICT products and services, whether supplied privately or publicly; V4.1.1 was developed to support the EAA.</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
@@ -64,7 +69,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17161/394454915" hreflang="en">prEN 17161 — Design for All approach — Managing accessibility of products and services</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-03131" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">2026-10-01</td>
-      <td align="left" valign="top"><strong>EAA development:</strong> revision requested under M/587. Useful to private and public organisations; it does not replace product-specific requirements or WAD technical conformance checks.</td>
+      <td align="left" valign="top">Supporting organisational guidance; does not replace WAD technical conformance checks.</td>
+      <td align="left" valign="top">Revision requested under M/587. Useful to private and public organisations; does not replace product-specific requirements.</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
     <tr>
@@ -73,7 +79,8 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17210/395206900" hreflang="en">prEN 17210 — Requirements and recommendations</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-01619" hreflang="en">BSI development schedule</a>. <a href="https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-02-26-en-17210-2021/" hreflang="en">CEN-CENELEC’s revision update</a> forecasts publication in autumn 2027; forecasts may change.</td>
       <td align="left" valign="top">2026-10-01</td>
-      <td align="left" valign="top"><strong>EAA development:</strong> built environments used for covered services, in either sector. Article 4(4) leaves application of Annex III built-environment requirements to Member States; check national law. Outside WAD’s website/mobile-app scope.</td>
+      <td align="left" valign="top">Outside WAD’s website/mobile-app scope.</td>
+      <td align="left" valign="top">Built environments used for covered services, in either sector. Article 4(4) leaves application of Annex III built-environment requirements to Member States; check national law.</td>
     </tr>
   </tbody>
 </table>
