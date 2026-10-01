@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-6b6d4710-20261001T163041Z",
+    "delivery_id": "6b6d4710-bdb5-11f1-9977-71433b8e2d2a",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "a283bb3c5a4dbdb99c75603cca86813bd5c8dd49",
+    "acquired_at": "2026-10-01T16:30:41.000Z",
+    "expires_at": "2026-10-01T17:00:41.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2907,5 +2915,5 @@
       "note": "This delivery resolves to head 1a20787, already assessed as the current head under the immediately preceding synchronization. It only simplifies four WAD cells to Not applicable after the prior head removed the ANEC/catalogue conflict note. Both matters remain within the existing PR #80 suggestion, and no registry, canonical record, public-claim mapping, delivery or events disposition was added. No new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T12:03:00.000Z"
+  "updated_at": "2026-10-01T16:30:41.000Z"
 }
