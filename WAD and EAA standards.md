@@ -28,7 +28,7 @@ The applicability columns describe how each standard supports each directive. A 
       <td align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/303900_303999/303919/01.01.01_60/en_303919v010101p.pdf" hreflang="en">ETSI EN 303 919 V1.1.1 (2026-09): Emergency Communications (EMTEL); Accessibility and Interoperability of Emergency Communications</a> (PDF)<br><br>Requirements for accessible, interoperable emergency communications across terminals, communications services and public safety answering points.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">V1.1.1 published on 2026-09-02; this work item is no longer a draft. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
-      <td align="left" valign="top">Not a WAD conformance standard; covers emergency communications.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Supports EAA requirements for accessible emergency communications, including answering 112 calls.</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
@@ -37,7 +37,7 @@ The applicability columns describe how each standard supports each directive. A 
       <td align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026: Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)<br><br>Requirements for accessible visual, tactile and auditory non-digital information about products and services.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>.</td>
-      <td align="left" valign="top">Not a WAD conformance standard; covers non-digital information.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Draft supporting EAA requirements for non-digital information about covered products and services.</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
@@ -46,7 +46,7 @@ The applicability columns describe how each standard supports each directive. A 
       <td align="left" valign="top"><a href="https://www.evs.ee/en/pren-18340" hreflang="en">prEN 18340:2026: Accessibility of support services for products and services</a> (draft catalogue)<br><br>Requirements for accessible support, including help desks, call centres, technical support and training, online or face to face.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>.</td>
-      <td align="left" valign="top">Not a WAD conformance standard; covers support services.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Draft supporting EAA requirements for accessible support services for covered products and services.</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
@@ -73,7 +73,7 @@ The applicability columns describe how each standard supports each directive. A 
       <td align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17210-2021" hreflang="en">EN 17210:2021: Accessibility and usability of the built environment: Functional requirements</a> (standard catalogue)<br><br>Functional accessibility requirements for buildings and outdoor environments, including construction and adaptation.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17210/395206900" hreflang="en">prEN 17210: Requirements and recommendations</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-01619" hreflang="en">BSI development schedule</a>. <a href="https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-02-26-en-17210-2021/" hreflang="en">CEN-CENELEC’s revision update</a> forecasts publication in autumn 2027; forecasts may change.</td>
-      <td align="left" valign="top">Outside WAD’s website/mobile-app scope.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Revision supports accessibility of built environments used for covered services. Article 4(4) leaves application of Annex III requirements to Member States; check national law.</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
