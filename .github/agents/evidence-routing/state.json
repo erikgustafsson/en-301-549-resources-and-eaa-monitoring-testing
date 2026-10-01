@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-bc1fe000-20261001T114637Z",
-    "delivery_id": "bc1fe000-bd8d-11f1-871c-84f036624e15",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "d9c520fbcf38f1801a9019798426e7307d558483",
-    "acquired_at": "2026-10-01T11:46:37.000Z",
-    "expires_at": "2026-10-01T12:16:37.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -790,6 +782,16 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronized commit replaces row-level OJ-citation prose with Yes/No values and moves the EN 301 549 cited-version caveat into the explanatory note. Changed files remain README.md and WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. PR #79 remains unrelated; no new suggestion."
+    },
+    {
+      "delivery_id": "bc1fe000-bd8d-11f1-871c-84f036624e15",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "d9c520fbcf38f1801a9019798426e7307d558483",
+      "checked_on": "2026-10-01T11:48:00.000Z",
+      "outcome": "duplicate_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "The synchronized commit splits the combined WAD / EAA and sector column into separate WAD applicability and EAA applicability columns, redistributing the same scope qualifications. Changed files remain README.md and WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. PR #79 remains unrelated; no new suggestion."
     }
   ],
   "suggestions": [
@@ -1847,8 +1849,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T11:45:00.000Z",
-      "progress": "PR #80 head 5330bf0 replaces per-row OJ-citation prose with Yes/No values and moves the EN 301 549 V3.2.1-versus-V4.1.1 caveat into the explanatory note. Changed files remain README.md and WAD and EAA standards.md; registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
+      "updated_on": "2026-10-01T11:48:00.000Z",
+      "progress": "PR #80 head d9c520f splits the combined WAD/EAA applicability-and-sector column into separate WAD applicability and EAA applicability columns, redistributing existing scope qualifications. Changed files remain README.md and WAD and EAA standards.md; registry entry, canonical standards record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
     }
   ],
   "processed_deliveries": [
@@ -2711,7 +2713,17 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronized commit replaces row-level OJ-citation prose with Yes/No values and moves the EN 301 549 cited-version caveat into the explanatory note. Changed files remain README.md and WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. PR #79 remains unrelated; no new suggestion."
+    },
+    {
+      "delivery_id": "bc1fe000-bd8d-11f1-871c-84f036624e15",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "d9c520fbcf38f1801a9019798426e7307d558483",
+      "checked_on": "2026-10-01T11:48:00.000Z",
+      "outcome": "duplicate_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "The synchronized commit splits the combined WAD / EAA and sector column into separate WAD applicability and EAA applicability columns, redistributing the same scope qualifications. Changed files remain README.md and WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. PR #79 remains unrelated; no new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T11:46:37.000Z"
+  "updated_at": "2026-10-01T11:48:00.000Z"
 }
