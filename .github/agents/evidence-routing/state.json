@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-77edeeb0-20261001T165229Z",
+    "delivery_id": "77edeeb0-bdb8-11f1-8c46-07ddd22829a2",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "0ab26009eea4167eaea8b6e81967ff2415a37abb",
+    "acquired_at": "2026-10-01T16:52:29.000Z",
+    "expires_at": "2026-10-01T17:22:29.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3111,5 +3119,5 @@
       "note": "Commit 157a779 explicitly separates the current WAD OJ-cited EN 301 549 V3.2.1 from the latest published but uncited V4.1.1 and renames the status column. This improves public wording but adds no new evidence and does not provide the missing canonical record, registry, mapping, delivery or events disposition. The existing EU-wide and Sweden PTS handoffs remain open."
     }
   ],
-  "updated_at": "2026-10-01T16:51:30.000Z"
+  "updated_at": "2026-10-01T16:52:29.000Z"
 }
