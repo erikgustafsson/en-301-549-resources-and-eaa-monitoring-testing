@@ -36,7 +36,7 @@ The applicability columns describe how each standard supports each directive. A 
     <tr>
       <td align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026: Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)<br><br>Requirements for accessible visual, tactile and auditory non-digital information about products and services.</td>
       <td align="left" valign="top">No</td>
-      <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
+      <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">Not a WAD conformance standard; covers non-digital information.</td>
       <td align="left" valign="top">Draft supporting EAA requirements for non-digital information about covered products and services.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -45,7 +45,7 @@ The applicability columns describe how each standard supports each directive. A 
     <tr>
       <td align="left" valign="top"><a href="https://www.evs.ee/en/pren-18340" hreflang="en">prEN 18340:2026: Accessibility of support services for products and services</a> (draft catalogue)<br><br>Requirements for accessible support, including help desks, call centres, technical support and training, online or face to face.</td>
       <td align="left" valign="top">No</td>
-      <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>. See the source-status note below.</td>
+      <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>.</td>
       <td align="left" valign="top">Not a WAD conformance standard; covers support services.</td>
       <td align="left" valign="top">Draft supporting EAA requirements for accessible support services for covered products and services.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -85,7 +85,6 @@ The applicability columns describe how each standard supports each directive. A 
 - **Official journal citation:** **Yes** means an edition of the standard has been cited in the OJ; **No** means no citation was identified in the sources checked on the entry date. For EN 301 549, the cited edition is <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">V3.2.1 (2021-03) (PDF)</a>, not the latest published V4.1.1 shown in the table. A **No** does not postpone accessibility obligations.
 - **“prEN”** indicates a draft European Standard. National prefixes such as BS, DIN or EVS identify national publications or projects; their publication and consultation dates can differ from European milestones.
 - **Schedule links** lead to ETSI work-item schedules or BSI’s public project timelines. Future dates are plans, not completed publication or OJ citation events. BSI dates describe its national development timeline.
-- **Source-status note for prEN 18339 and prEN 18340:** <a href="https://anec.eu/news-events/highlights-from-anecs-general-assembly-2026/" hreflang="en">ANEC’s 2026 General Assembly report</a> describes both as adopted, while the linked DIN Media and EVS catalogues and BSI projects still present drafts/development. This table retains the draft designations until final publication can be verified from the standards bodies. Adoption alone would not establish OJ citation.
 - **Updated** records the latest check and update to that row, not the publication date of the standard.
 
 ## Why include EN 17161 and EN 17210?
