@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr79-merge-673fbb40-20261001T171526Z",
-    "delivery_id": "673fbb40-bdbb-11f1-8d74-31cdbeec0583",
-    "event": "pull_request.merged",
-    "pull_request": 79,
-    "head_sha": "11f45e327e458f674cb16726ed41f33dfc3f7278",
-    "acquired_at": "2026-10-01T17:15:26.000Z",
-    "expires_at": "2026-10-01T17:45:26.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1050,6 +1042,17 @@
       "outcome": "merged_before_event_processed_new_followup_required",
       "suggestion_id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
       "note": "Although the webhook action was ready_for_review, actual GitHub state was already merged. Main now contains the OSAPS EML-derived research claim and delivery. Enforcement tracking still lacks Luxembourg; the delivery also uses the retired adoption page path and leaves the research-only enforcement handoff unattributed. Open PR #80 is standards-only and does not cover this follow-up."
+    },
+    {
+      "delivery_id": "673fbb40-bdbb-11f1-8d74-31cdbeec0583",
+      "event": "pull_request.merged",
+      "pull_request": 79,
+      "head_sha": "11f45e327e458f674cb16726ed41f33dfc3f7278",
+      "merge_commit_sha": "99eb63fb4632154b91dd42cbcadabd6f9b7be475",
+      "checked_on": "2026-10-01T17:15:26.000Z",
+      "outcome": "duplicate_existing_suggestion_already_recorded",
+      "suggestion_id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
+      "note": "Explicit merge delivery confirms the main state already assessed under the immediately preceding ready_for_review event. The Luxembourg enforcement-page and routing-metadata follow-up remains unchanged; open PR #80 is unrelated. No new suggestion."
     }
   ],
   "suggestions": [
