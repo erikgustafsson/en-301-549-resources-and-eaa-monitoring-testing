@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-fc88d3e0-20261001T114838Z",
+    "delivery_id": "fc88d3e0-bd8d-11f1-9c87-03ff5b6ec31b",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "2effe15d9f5709d466d297d35e3a6c3773871fcf",
+    "acquired_at": "2026-10-01T11:48:38.000Z",
+    "expires_at": "2026-10-01T12:18:38.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2725,5 +2733,5 @@
       "note": "The synchronized commit splits the combined WAD / EAA and sector column into separate WAD applicability and EAA applicability columns, redistributing the same scope qualifications. Changed files remain README.md and WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. PR #79 remains unrelated; no new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T11:48:00.000Z"
+  "updated_at": "2026-10-01T11:48:38.000Z"
 }
