@@ -1,10 +1,10 @@
-# Standards supporting the WAD and EAA
+# Standards supporting the EAA and WAD
 
 This table tracks six European accessibility standards, their development and their citation in the Official Journal of the European Union (OJ). Each row links to the standard or official catalogue entry and a development schedule. Last checked: **2026-10-01**.
 
-**WAD** means the <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng" hreflang="en">Web Accessibility Directive, (EU) 2016/2102</a>, covering public-sector bodies’ websites and mobile applications, subject to its scope and exclusions.
-
 **EAA** means the <a href="https://eur-lex.europa.eu/eli/dir/2019/882/oj/eng" hreflang="en">European Accessibility Act, (EU) 2019/882</a>, covering specified products and consumer services. EAA coverage depends on the product or service and the provider’s role. Public-sector organisations can also be covered when they provide services within its scope, such as certain passenger transport or e-commerce services. It also covers answering emergency communications to 112.
+
+**WAD** means the <a href="https://eur-lex.europa.eu/eli/dir/2016/2102/oj/eng" hreflang="en">Web Accessibility Directive, (EU) 2016/2102</a>, covering public-sector bodies’ websites and mobile applications, subject to its scope and exclusions.
 
 Publication of an EN does not by itself establish an OJ citation. Presumption of conformity depends on the version cited under the relevant legislation and the requirements covered. A WAD citation does not establish an EAA citation. Standards remain voluntary tools for meeting the applicable legal requirements; a draft or a forecast citation date does not confer presumption of conformity.
 
@@ -19,8 +19,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <th scope="col" align="left" valign="top">Standard</th>
       <th scope="col" align="left" valign="top">Official journal citation</th>
       <th scope="col" align="left" valign="top">Current drafts and development schedule</th>
-      <th scope="col" align="left" valign="top">WAD applicability</th>
       <th scope="col" align="left" valign="top">EAA applicability</th>
+      <th scope="col" align="left" valign="top">WAD applicability</th>
       <th scope="col" align="left" valign="top">Updated</th>
     </tr>
   </thead>
@@ -30,8 +30,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/303900_303999/303919/01.01.01_60/en_303919v010101p.pdf" hreflang="en">ETSI EN 303 919 V1.1.1 (2026-09): Emergency Communications (EMTEL); Accessibility and Interoperability of Emergency Communications</a> (PDF)<br><br>Requirements for accessible, interoperable emergency communications across terminals, communications services and public safety answering points.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">V1.1.1 published on 2026-09-02; this work item is no longer a draft. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
-      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Supports EAA requirements for accessible emergency communications, including answering 112 calls.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
@@ -39,8 +39,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top"><a href="https://www.dinmedia.de/en/draft-standard/din-en-18339/401146761" hreflang="en">prEN 18339:2026: Accessibility of non-digital information related to products and services</a> (DIN draft catalogue; full text requires purchase)<br><br>Requirements for accessible visual, tactile and auditory non-digital information about products and services.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-23.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00344" hreflang="en">BSI development schedule</a>.</td>
-      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Draft supporting EAA requirements for non-digital information about covered products and services.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
@@ -48,8 +48,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top"><a href="https://www.evs.ee/en/pren-18340" hreflang="en">prEN 18340:2026: Accessibility of support services for products and services</a> (draft catalogue)<br><br>Requirements for accessible support, including help desks, call centres, technical support and training, online or face to face.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Draft in progress. BSI’s public-comment period ended on 2026-06-02; its timeline lists planned publication on 2027-08-20.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2026-00428" hreflang="en">BSI development schedule</a>.</td>
-      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Draft supporting EAA requirements for accessible support services for covered products and services.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
@@ -57,8 +57,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf" hreflang="en">EN 301 549 V4.1.1 (2026-09): Accessibility requirements for ICT products and services</a> (PDF)<br><br>Accessibility requirements for ICT, including websites, mobile apps, software, hardware and digital documents.</td>
       <td align="left" valign="top"><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng" hreflang="en">Yes</a></td>
       <td align="left" valign="top">V4.1.1 published on 2026-09-02; the V4.1.0 draft process is complete. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
-      <td align="left" valign="top">Supports WAD requirements for websites and mobile apps, using the cited version and covered requirements.</td>
       <td align="left" valign="top">V4.1.1 supports EAA requirements for covered ICT products and services.</td>
+      <td align="left" valign="top">Supports WAD requirements for websites and mobile apps, using the cited version and covered requirements.</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
@@ -66,8 +66,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17161-2019" hreflang="en">EN 17161:2019: Design for All: Accessibility following a Design for All approach in products, goods and services: Extending the range of users</a> (standard catalogue)<br><br>An organisational approach to embedding accessibility and diverse user needs in product and service development.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17161/394454915" hreflang="en">prEN 17161: Design for All approach: Managing accessibility of products and services</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-03131" hreflang="en">BSI development schedule</a>.</td>
-      <td align="left" valign="top">Supporting organisational guidance; does not replace WAD technical conformance checks.</td>
       <td align="left" valign="top">Revision under M/587 supports accessibility management for covered products and services; does not replace product-specific requirements.</td>
+      <td align="left" valign="top">Supporting organisational guidance; does not replace WAD technical conformance checks.</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
     <!-- last_verified: 2026-10-01 -->
@@ -75,8 +75,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top"><a href="https://www.evs.ee/en/evs-en-17210-2021" hreflang="en">EN 17210:2021: Accessibility and usability of the built environment: Functional requirements</a> (standard catalogue)<br><br>Functional accessibility requirements for buildings and outdoor environments, including construction and adaptation.</td>
       <td align="left" valign="top">No</td>
       <td align="left" valign="top">Revision in progress: <a href="https://www.dinmedia.de/en/draft-standard/din-en-17210/395206900" hreflang="en">prEN 17210: Requirements and recommendations</a>.<br><br><a href="https://standardsdevelopment.bsigroup.com/projects/2025-01619" hreflang="en">BSI development schedule</a>. <a href="https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-02-26-en-17210-2021/" hreflang="en">CEN-CENELEC’s revision update</a> forecasts publication in autumn 2027; forecasts may change.</td>
-      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">Revision supports accessibility of built environments used for covered services. Article 4(4) leaves application of Annex III requirements to Member States; check national law.</td>
+      <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">2026-10-01</td>
     </tr>
   </tbody>
