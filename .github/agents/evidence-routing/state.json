@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-a835fbd0-20261001T113200Z",
-    "acquired_at": "2026-10-01T11:32:00.000Z",
-    "expires_at": "2026-10-01T12:02:00.000Z",
-    "delivery_id": "a835fbd0-bd8b-11f1-8340-a5b75886a3f0",
-    "pull_request": 80,
-    "event": "pull_request.synchronize",
-    "head_sha": "8aa94a5691d7eedc1d80b53f5b2938aeb626225f"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -760,6 +752,16 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronized head changes only three draft-catalogue links and the explanatory source-status wording in WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. No new suggestion."
+    },
+    {
+      "delivery_id": "a835fbd0-bd8b-11f1-8340-a5b75886a3f0",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "8aa94a5691d7eedc1d80b53f5b2938aeb626225f",
+      "checked_on": "2026-10-01T11:33:00.000Z",
+      "outcome": "duplicate_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "The synchronized commit only renames the new table's One-line summary column to Description. It adds no registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition; the previously notified PR #80 handoff remains unresolved. No new suggestion."
     }
   ],
   "suggestions": [
@@ -1817,8 +1819,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T10:49:00.000Z",
-      "progress": "PR #80 head aaf9f22 replaces three EVS draft links with DIN Media draft links and updates the source-status note. Changed files remain only README.md and WAD and EAA standards.md. The page still has no registry entry, canonical standards record, claim mapping or delivery; PR #79 remains unrelated."
+      "updated_on": "2026-10-01T11:33:00.000Z",
+      "progress": "PR #80 head 8aa94a5 changes only the new page's column label from One-line summary to Description. Changed files remain README.md and WAD and EAA standards.md; registry, canonical standards record, claim mappings and delivery remain absent. PR #79 remains unrelated."
     }
   ],
   "processed_deliveries": [
@@ -2651,7 +2653,17 @@
       "outcome": "duplicate_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronized head changes only three draft-catalogue links and the explanatory source-status wording in WAD and EAA standards.md. It adds no page-registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition, so the previously notified PR #80 handoff remains unresolved. No new suggestion."
+    },
+    {
+      "delivery_id": "a835fbd0-bd8b-11f1-8340-a5b75886a3f0",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "8aa94a5691d7eedc1d80b53f5b2938aeb626225f",
+      "checked_on": "2026-10-01T11:33:00.000Z",
+      "outcome": "duplicate_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "The synchronized commit only renames the new table's One-line summary column to Description. It adds no registry entry, canonical EU-wide standards record, public-claim mapping, delivery or events disposition; the previously notified PR #80 handoff remains unresolved. No new suggestion."
     }
   ],
-  "updated_at": "2026-10-01T11:32:00.000Z"
+  "updated_at": "2026-10-01T11:33:00.000Z"
 }
