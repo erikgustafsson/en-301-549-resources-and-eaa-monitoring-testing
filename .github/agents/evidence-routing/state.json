@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-77edeeb0-20261001T165229Z",
-    "delivery_id": "77edeeb0-bdb8-11f1-8c46-07ddd22829a2",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "0ab26009eea4167eaea8b6e81967ff2415a37abb",
-    "acquired_at": "2026-10-01T16:52:29.000Z",
-    "expires_at": "2026-10-01T17:22:29.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -985,6 +977,17 @@
       "outcome": "clarification_only_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Commit 157a779 explicitly separates the current WAD OJ-cited EN 301 549 V3.2.1 from the latest published but uncited V4.1.1 and renames the status column. This improves public wording but adds no new evidence and does not provide the missing canonical record, registry, mapping, delivery or events disposition. The existing EU-wide and Sweden PTS handoffs remain open."
+    },
+    {
+      "delivery_id": "77edeeb0-bdb8-11f1-8c46-07ddd22829a2",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "0ab26009eea4167eaea8b6e81967ff2415a37abb",
+      "assessed_current_head_sha": "e339c537c324a9aa12d09716d1ad6c315f2b7581",
+      "checked_on": "2026-10-01T16:53:20.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head 0ab2600 simplifies draft/publication wording. During assessment the PR advanced to e339c53, which changes ETSI's 2026-12-16 OJ entries from an explicit target with no achieved date to 'expected'. The page still labels future dates as plans, but the existing canonical-record handoff already requires preserving target-versus-achieved status. No new evidence or distinct suggestion."
     }
   ],
   "suggestions": [
@@ -2042,8 +2045,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T16:51:30.000Z",
-      "progress": "PR #80 current head 157a779 correctly separates WAD OJ-cited EN 301 549 V3.2.1 from published-but-uncited V4.1.1 in the public page. The renamed EAA and WAD standards.md still lacks registry entry, canonical EU-wide record, public-claim mappings, delivery and events disposition. The separate Sweden PTS sanctions handoff remains open."
+      "updated_on": "2026-10-01T16:53:20.000Z",
+      "progress": "PR #80 advanced from delivery head 0ab2600 to current head e339c53. The current page says ETSI OJ citation is expected on 2026-12-16 instead of recording the schedule target with no achieved date. This remains covered by the existing requirement to preserve target-versus-achieved status. Registry entry, canonical record, public-claim mappings, delivery and events disposition remain absent; the separate Sweden PTS sanctions handoff also remains open."
     },
     {
       "id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
@@ -3117,7 +3120,18 @@
       "outcome": "clarification_only_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Commit 157a779 explicitly separates the current WAD OJ-cited EN 301 549 V3.2.1 from the latest published but uncited V4.1.1 and renames the status column. This improves public wording but adds no new evidence and does not provide the missing canonical record, registry, mapping, delivery or events disposition. The existing EU-wide and Sweden PTS handoffs remain open."
+    },
+    {
+      "delivery_id": "77edeeb0-bdb8-11f1-8c46-07ddd22829a2",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "0ab26009eea4167eaea8b6e81967ff2415a37abb",
+      "assessed_current_head_sha": "e339c537c324a9aa12d09716d1ad6c315f2b7581",
+      "checked_on": "2026-10-01T16:53:20.000Z",
+      "outcome": "superseded_by_later_head_existing_suggestion_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Delivery head 0ab2600 simplifies draft/publication wording. During assessment the PR advanced to e339c53, which changes ETSI's 2026-12-16 OJ entries from an explicit target with no achieved date to 'expected'. The page still labels future dates as plans, but the existing canonical-record handoff already requires preserving target-versus-achieved status. No new evidence or distinct suggestion."
     }
   ],
-  "updated_at": "2026-10-01T16:52:29.000Z"
+  "updated_at": "2026-10-01T16:53:20.000Z"
 }
