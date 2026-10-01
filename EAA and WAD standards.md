@@ -18,7 +18,7 @@ Applicability includes the beneficial use of a standard to improve accessibility
     <tr>
       <th scope="col" align="left" valign="top">Standard</th>
       <th scope="col" align="left" valign="top">Official journal citation</th>
-      <th scope="col" align="left" valign="top">Current drafts and development schedule</th>
+      <th scope="col" align="left" valign="top">Status and draft schedule</th>
       <th scope="col" align="left" valign="top">EAA applicability</th>
       <th scope="col" align="left" valign="top">WAD applicability</th>
       <th scope="col" align="left" valign="top">Updated</th>
@@ -56,7 +56,7 @@ Applicability includes the beneficial use of a standard to improve accessibility
     <tr>
       <td align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf" hreflang="en">EN 301 549 V4.1.1 (2026-09): Accessibility requirements for ICT products and services</a> (PDF)<br><br>Accessibility requirements for ICT, including websites, mobile apps, software, hardware and digital documents.</td>
       <td align="left" valign="top"><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng" hreflang="en">Yes</a></td>
-      <td align="left" valign="top">V4.1.1 published on 2026-09-02; the V4.1.0 draft process is complete. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
+      <td align="left" valign="top">Current OJ-cited version: <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">EN 301 549 V3.2.1 (2021-03) (PDF)</a>.<br><br>Latest published version: V4.1.1, published on 2026-09-02 and not yet cited in the OJ. The V4.1.0 draft process is complete. No subsequent draft identified in the checked sources.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation target 2026-12-16, with no achieved date recorded.</td>
       <td align="left" valign="top">V4.1.1 supports EAA requirements for covered ICT products and services.</td>
       <td align="left" valign="top">Supports WAD requirements for websites and mobile apps, using the cited version and covered requirements.</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -84,7 +84,7 @@ Applicability includes the beneficial use of a standard to improve accessibility
 
 ## Reading the status and schedule columns
 
-- **Official journal citation:** **Yes** means an edition of the standard has been cited in the OJ; **No** means no citation was identified in the sources checked on the entry date. For EN 301 549, the cited edition is <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">V3.2.1 (2021-03) (PDF)</a>, not the latest published V4.1.1 shown in the table. A **No** does not postpone accessibility obligations.
+- **Official journal citation:** **Yes** means an edition of the standard has been cited in the OJ; **No** means no citation was identified in the sources checked on the entry date. The cited edition can differ from the latest published version; see Status and draft schedule. A **No** does not postpone accessibility obligations.
 - **“prEN”** indicates a draft European Standard. National prefixes such as BS, DIN or EVS identify national publications or projects; their publication and consultation dates can differ from European milestones.
 - **Schedule links** lead to ETSI work-item schedules or BSI’s public project timelines. Future dates are plans, not completed publication or OJ citation events. BSI dates describe its national development timeline.
 - **Updated** records the latest check and update to that row, not the publication date of the standard.
