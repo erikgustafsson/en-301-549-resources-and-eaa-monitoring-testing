@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr80-sync-24dd48b0-20261001T165011Z",
-    "delivery_id": "24dd48b0-bdb8-11f1-83ba-cc5099972e07",
-    "event": "pull_request.synchronize",
-    "pull_request": 80,
-    "head_sha": "157a779b696ef5c32b44407d2eb42fea7a786c23",
-    "acquired_at": "2026-10-01T16:50:11.000Z",
-    "expires_at": "2026-10-01T17:20:11.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -975,6 +967,16 @@
       "outcome": "presentation_move_only_existing_suggestions_still_open",
       "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
       "note": "Commit 169d8b4 only moves the unchanged PTS guidance paragraph into the Why include section. It neither resolves nor expands the EU-wide registry/canonical-record handoff or the PTS-to-Sweden sanctions handoff."
+    },
+    {
+      "delivery_id": "24dd48b0-bdb8-11f1-83ba-cc5099972e07",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "157a779b696ef5c32b44407d2eb42fea7a786c23",
+      "checked_on": "2026-10-01T16:51:30.000Z",
+      "outcome": "clarification_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Commit 157a779 explicitly separates the current WAD OJ-cited EN 301 549 V3.2.1 from the latest published but uncited V4.1.1 and renames the status column. This improves public wording but adds no new evidence and does not provide the missing canonical record, registry, mapping, delivery or events disposition. The existing EU-wide and Sweden PTS handoffs remain open."
     }
   ],
   "suggestions": [
@@ -2032,8 +2034,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-01T16:47:10.000Z",
-      "progress": "PR #80 current head 169d8b4 renames the page to EAA and WAD standards.md and relocates the PTS paragraph. The PTS source should be retained in the canonical standards record, but page-registry entry, canonical record, public-claim mappings, delivery and events disposition remain absent. PR #79 remains unrelated."
+      "updated_on": "2026-10-01T16:51:30.000Z",
+      "progress": "PR #80 current head 157a779 correctly separates WAD OJ-cited EN 301 549 V3.2.1 from published-but-uncited V4.1.1 in the public page. The renamed EAA and WAD standards.md still lacks registry entry, canonical EU-wide record, public-claim mappings, delivery and events disposition. The separate Sweden PTS sanctions handoff remains open."
     },
     {
       "id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
@@ -3097,7 +3099,17 @@
       "outcome": "presentation_move_only_existing_suggestions_still_open",
       "suggestion_id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
       "note": "Commit 169d8b4 only moves the unchanged PTS guidance paragraph into the Why include section. It neither resolves nor expands the EU-wide registry/canonical-record handoff or the PTS-to-Sweden sanctions handoff."
+    },
+    {
+      "delivery_id": "24dd48b0-bdb8-11f1-83ba-cc5099972e07",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "157a779b696ef5c32b44407d2eb42fea7a786c23",
+      "checked_on": "2026-10-01T16:51:30.000Z",
+      "outcome": "clarification_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Commit 157a779 explicitly separates the current WAD OJ-cited EN 301 549 V3.2.1 from the latest published but uncited V4.1.1 and renames the status column. This improves public wording but adds no new evidence and does not provide the missing canonical record, registry, mapping, delivery or events disposition. The existing EU-wide and Sweden PTS handoffs remain open."
     }
   ],
-  "updated_at": "2026-10-01T16:50:11.000Z"
+  "updated_at": "2026-10-01T16:51:30.000Z"
 }
