@@ -1,6 +1,14 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "github-pr80-sync-c01e7650-20261001T165431Z",
+    "delivery_id": "c01e7650-bdb8-11f1-97ec-8a717f24e3e1",
+    "event": "pull_request.synchronize",
+    "pull_request": 80,
+    "head_sha": "f669ff1185ce424b652fe8cfebf645415812b678",
+    "acquired_at": "2026-10-01T16:54:31.000Z",
+    "expires_at": "2026-10-01T17:24:31.000Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3133,5 +3141,5 @@
       "note": "Delivery head 0ab2600 simplifies draft/publication wording. During assessment the PR advanced to e339c53, which changes ETSI's 2026-12-16 OJ entries from an explicit target with no achieved date to 'expected'. The page still labels future dates as plans, but the existing canonical-record handoff already requires preserving target-versus-achieved status. No new evidence or distinct suggestion."
     }
   ],
-  "updated_at": "2026-10-01T16:53:20.000Z"
+  "updated_at": "2026-10-01T16:54:31.000Z"
 }
