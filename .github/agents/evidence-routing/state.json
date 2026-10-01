@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "github-pr79-ready-62b4dbf0-20261001T171324Z",
-    "delivery_id": "62b4dbf0-bdbb-11f1-821b-cd0098ad8884",
-    "event": "pull_request.ready_for_review",
-    "pull_request": 79,
-    "head_sha": "11f45e327e458f674cb16726ed41f33dfc3f7278",
-    "acquired_at": "2026-10-01T17:13:24.000Z",
-    "expires_at": "2026-10-01T17:43:24.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1039,6 +1031,17 @@
       "outcome": "wording_simplification_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Current head 5a8343b removes the explicit 'not yet cited in the OJ' phrase for EN 301 549 V4.1.1 while retaining the separate V3.2.1 current-citation line and expected schedule date. The previously notified directive-specific citation limitation and canonical-record handoff remain unresolved; no new source or distinct suggestion."
+    },
+    {
+      "delivery_id": "62b4dbf0-bdbb-11f1-821b-cd0098ad8884",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 79,
+      "head_sha": "11f45e327e458f674cb16726ed41f33dfc3f7278",
+      "merge_commit_sha": "99eb63fb4632154b91dd42cbcadabd6f9b7be475",
+      "checked_on": "2026-10-01T17:14:30.000Z",
+      "outcome": "merged_before_event_processed_new_followup_required",
+      "suggestion_id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
+      "note": "Although the webhook action was ready_for_review, actual GitHub state was already merged. Main now contains the OSAPS EML-derived research claim and delivery. Enforcement tracking still lacks Luxembourg; the delivery also uses the retired adoption page path and leaves the research-only enforcement handoff unattributed. Open PR #80 is standards-only and does not cover this follow-up."
     }
   ],
   "suggestions": [
@@ -1717,8 +1720,8 @@
       "evidence": "ILNAS’s website accessibility statement reports partial compliance with EN 301 549 and RGAA v4. This is a website-specific reference without an edition in the cited passage. Source: ILNAS (https://portail-qualite.public.lu/fr/support/accessibilite.html).",
       "limitations": "Routing metadata only. The evidence verifies only the cited website reference; stage, current national edition and legal effect remain unresolved. Keep it research-only and do not add a public row without completed public mappings and exact public-wording review.",
       "created_on": "2026-09-27T17:16:21.515Z",
-      "updated_on": "2026-09-30T08:04:05.424Z",
-      "progress": "PR #75 is open at b0b3516 but changes only the Deque intake, France, Netherlands, Sweden, the European-standard record and events.json. It does not correct the 55 PR #71 records or Germany's post-PR72 normalization. A separate metadata follow-up remains required.",
+      "updated_on": "2026-10-01T17:14:30.000Z",
+      "progress": "PR #79 has merged and does not correct the existing PR #71 Luxembourg adoption-path metadata. Its new luxembourg-osaps-20260925 delivery also uses retired EN 301 549 adoptation.md. The same metadata follow-up can correct both, while the separate PR #79 follow-up adds the dated OSAPS enforcement entry.",
       "source_pr": 71
     },
     {
@@ -2114,6 +2117,20 @@
       "source_url": "https://pts.se/digital-inkludering/lagkrav/introduktion-till-tillganglighetsdirektivet/",
       "source_updated_on": "2025-11-04",
       "progress": "PR #80 current head 169d8b4 only relocates the unchanged PTS standards-guidance paragraph after the page rename to EAA and WAD standards.md. The linked official source remains absent from Sweden research, and the qualified product-sale prohibition/multiple-fee evidence remains absent from the Sweden sanctions row."
+    },
+    {
+      "id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
+      "country": "Luxembourg",
+      "target": "EAA enforcement tracking.md and PR #79 routing metadata on main",
+      "status": "post_pr79_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Create a follow-up PR on main. Add a dated Luxembourg row to EAA enforcement tracking.md: type Monitoring agency; status Testing phase; state that in its 25 September 2026 reply OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet. Attribute the statement to OSAPS official correspondence and link the canonical Luxembourg research record. In the luxembourg-osaps-20260925 delivery, retain enforcement as research_only with numeric pr 79 until the public follow-up lands; change monitoring to not_applicable with pr null because the reply establishes no new remit, route or statement duty; retain sanctions not_applicable; replace retired EN 301 549 adoptation.md with EN 301 549 adoption.md and keep adoption not_applicable with pr null. Regenerate events.json. Do not claim named cases, counts, nationwide compliance, absence of penalties, completed formal remediation or publication of decisions.",
+      "evidence": "Merged PR #79 added the contributor-supplied original OSAPS EML, fingerprint 4c9ad0d4701ca7d6e9a25ed6382e39cfda24aff0f59e8e31e80affa414cb5d88, and a verified dated enforcement claim to .github/agents/research/countries/luxembourg.json. Main EAA enforcement tracking.md has no Luxembourg entry. The generated PR #79 delivery records the public proposal but points adoption to the retired adoptation path and leaves the research-only enforcement destination unattributed with pr null.",
+      "limitations": "Documentary inspection confirms the supplied EML and headers but does not independently authenticate the sender. The statement is an attributed position as of 25 September 2026 and describes testing activity, not a specified legal procedural stage. 'Resolved all issues' must not be promoted to a nationwide compliance or completed-remediation finding. The reply does not answer whether OSAPS decisions have been published and establishes no sanction amount or standards-adoption fact.",
+      "source_pr": 79,
+      "created_on": "2026-10-01T17:14:30.000Z",
+      "updated_on": "2026-10-01T17:14:30.000Z",
+      "source_record": ".github/agents/research/countries/luxembourg.json#source-3cc093ad7e6114680d1233c1"
     }
   ],
   "processed_deliveries": [
@@ -3225,7 +3242,18 @@
       "outcome": "wording_simplification_existing_suggestion_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Current head 5a8343b removes the explicit 'not yet cited in the OJ' phrase for EN 301 549 V4.1.1 while retaining the separate V3.2.1 current-citation line and expected schedule date. The previously notified directive-specific citation limitation and canonical-record handoff remain unresolved; no new source or distinct suggestion."
+    },
+    {
+      "delivery_id": "62b4dbf0-bdbb-11f1-821b-cd0098ad8884",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 79,
+      "head_sha": "11f45e327e458f674cb16726ed41f33dfc3f7278",
+      "merge_commit_sha": "99eb63fb4632154b91dd42cbcadabd6f9b7be475",
+      "checked_on": "2026-10-01T17:14:30.000Z",
+      "outcome": "merged_before_event_processed_new_followup_required",
+      "suggestion_id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
+      "note": "Although the webhook action was ready_for_review, actual GitHub state was already merged. Main now contains the OSAPS EML-derived research claim and delivery. Enforcement tracking still lacks Luxembourg; the delivery also uses the retired adoption page path and leaves the research-only enforcement handoff unattributed. Open PR #80 is standards-only and does not cover this follow-up."
     }
   ],
-  "updated_at": "2026-10-01T17:13:24.000Z"
+  "updated_at": "2026-10-01T17:14:30.000Z"
 }
