@@ -14,7 +14,7 @@ Publication of an EN does not by itself establish an OJ citation. Presumption of
     <tr>
       <th scope="col" align="left" valign="top">Standard name and number</th>
       <th scope="col" align="left" valign="top">Description</th>
-      <th scope="col" align="left" valign="top">Harmonised version cited in the Official Journal</th>
+      <th scope="col" align="left" valign="top">Official journal citation</th>
       <th scope="col" align="left" valign="top">Current drafts and development schedule</th>
       <th scope="col" align="left" valign="top">Last entry update</th>
       <th scope="col" align="left" valign="top">WAD / EAA and sector</th>
