@@ -29,7 +29,7 @@ Applicability includes the beneficial use of a standard to improve accessibility
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/303900_303999/303919/01.01.01_60/en_303919v010101p.pdf" hreflang="en">ETSI EN 303 919 V1.1.1 (2026-09): Emergency Communications (EMTEL); Accessibility and Interoperability of Emergency Communications</a> (PDF)<br><br>Requirements for accessible, interoperable emergency communications across terminals, communications services and public safety answering points.</th>
       <td align="left" valign="top">No</td>
-      <td align="left" valign="top">V1.1.1 published on 2026-09-02.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>: OJ citation expected 2026-12-16.</td>
+      <td align="left" valign="top">V1.1.1 published on 2026-09-02.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=67004" hreflang="en">ETSI development schedule (67004)</a>: OJ citation for V1.1.1 expected 2026-12-16.</td>
       <td align="left" valign="top">Supports EAA requirements for accessible emergency communications, including answering 112 calls.</td>
       <td align="left" valign="top">Not applicable</td>
       <td align="left" valign="top">2026-10-01</td>
@@ -56,7 +56,7 @@ Applicability includes the beneficial use of a standard to improve accessibility
     <tr>
       <th scope="row" align="left" valign="top"><a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf" hreflang="en">EN 301 549 V4.1.1 (2026-09): Accessibility requirements for ICT products and services</a> (PDF)<br><br>Accessibility requirements for ICT, including websites, mobile apps, software, hardware and digital documents.</th>
       <td align="left" valign="top"><a href="https://eur-lex.europa.eu/eli/dec_impl/2021/1339/oj/eng" hreflang="en">V3.2.1, for WAD.</a></td>
-      <td align="left" valign="top">Current WAD OJ-cited version: <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">EN 301 549 V3.2.1 (2021-03) (PDF)</a>.<br><br>Latest published version: V4.1.1, published on 2026-09-02.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation expected 2026-12-16.</td>
+      <td align="left" valign="top">Current WAD OJ-cited version: <a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf" hreflang="en">EN 301 549 V3.2.1 (2021-03) (PDF)</a>.<br><br>Latest published version: V4.1.1, published on 2026-09-02.<br><br><a href="https://portal.etsi.org/eWPM/index.html#/schedule?WKI_ID=64282" hreflang="en">ETSI development schedule (64282)</a>: OJ citation for V4.1.1 expected 2026-12-16.</td>
       <td align="left" valign="top">V4.1.1 supports EAA requirements for covered ICT products and services.</td>
       <td align="left" valign="top">V3.2.1 supports WAD requirements for websites and mobile apps, within the requirements covered by its OJ citation. It is expected to be replaced by V4.1.1 for this purpose once that version is cited under the WAD in the Official Journal.</td>
       <td align="left" valign="top">2026-10-01</td>
