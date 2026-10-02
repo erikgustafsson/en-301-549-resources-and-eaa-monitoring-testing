@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "evidence-routing-20261002T074000Z-14689c075a99",
-    "expires_at": "2026-10-02T08:10:00Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1086,6 +1083,27 @@
       "outcome": "public_wording_correction_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The new commit correctly distinguishes WAD-cited EN 301 549 V3.2.1 from uncited V4.1.1 and adds row headers. No canonical record, registry entry, routing delivery or events disposition was added, and the previously recorded Sweden sanctions handoff remains absent. No new distinct suggestion."
+    },
+    {
+      "delivery_id": "62a2f6a0-be34-11f1-93cf-9d33c59a4059",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "68f8fb49eaedf4d081308e6ff56077547d108936",
+      "assessed_current_head_sha": "a4d237e5f39ea23558f3f9412f7a5627a1a44b2d",
+      "checked_on": "2026-10-02T07:40:30.000Z",
+      "outcome": "citation_wording_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This commit removes the explicit V4.1.1 no-citation sentence while retaining the affirmative V3.2.1 WAD citation and future citation schedule. A later commit only simplifies the link text. No registry, canonical record, routing delivery, events disposition or Sweden sanctions handoff was added."
+    },
+    {
+      "delivery_id": "85c14a10-be34-11f1-9c82-564dfead65e6",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "a4d237e5f39ea23558f3f9412f7a5627a1a44b2d",
+      "checked_on": "2026-10-02T07:40:30.000Z",
+      "outcome": "citation_link_text_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Current head changes only the citation link text to `V3.2.1, for WAD`. The previously recorded registry/canonical-record handoff and Sweden sanctions handoff remain unresolved; no new distinct suggestion."
     }
   ],
   "suggestions": [
@@ -2143,8 +2161,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-02T07:38:34.000Z",
-      "progress": "PR #80 head 2eff431 now expressly limits the WAD citation to EN 301 549 V3.2.1 and states that no WAD or EAA citation was identified for V4.1.1 as of 2026-10-01. This resolves the earlier public-wording ambiguity, but the PR still changes only presentation guidance, README and EAA and WAD standards.md; it still lacks the registered page entry, canonical EU-wide standards record/mapping, delivery and generated events disposition."
+      "updated_on": "2026-10-02T07:40:30.000Z",
+      "progress": "PR #80 head a4d237e now labels the OJ citation as `V3.2.1, for WAD` and keeps V4.1.1 as the latest published version with an expected future citation date. The last two commits only remove/simplify citation-cell wording. The PR still changes only presentation guidance, README and EAA and WAD standards.md; the registered-page entry, canonical EU-wide standards record/mapping, delivery and generated events disposition remain absent."
     },
     {
       "id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
@@ -2157,10 +2175,10 @@
       "limitations": "The page states possible powers, not that PTS imposed a fee, prohibited a sale or completed remediation in any case. The product-sale statement is product-specific and must not be generalized to services or other Swedish authorities. Its standards guidance does not establish current OJ citation or legal effect, and its regular-supervision statement adds no new case-level enforcement action.",
       "source_pr": 80,
       "created_on": "2026-10-01T16:45:30.000Z",
-      "updated_on": "2026-10-02T07:38:34.000Z",
+      "updated_on": "2026-10-02T07:40:30.000Z",
       "source_url": "https://pts.se/digital-inkludering/lagkrav/introduktion-till-tillganglighetsdirektivet/",
       "source_updated_on": "2025-11-04",
-      "progress": "PR #80 head 2eff431 changes only EAA and WAD standards.md, adding accessible row headers and clearer EN 301 549 version/citation wording. It still does not add the official PTS source to Sweden's research record or update EAA sanctions.md with the qualified product-sale prohibition and multiple-fee powers."
+      "progress": "PR #80 head a4d237e only simplifies EN 301 549 citation wording in the standards page. It still does not add the official PTS source to Sweden's research record or update EAA sanctions.md with the qualified product-sale prohibition and multiple-fee powers."
     },
     {
       "id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
@@ -3340,7 +3358,28 @@
       "outcome": "public_wording_correction_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The new commit correctly distinguishes WAD-cited EN 301 549 V3.2.1 from uncited V4.1.1 and adds row headers. No canonical record, registry entry, routing delivery or events disposition was added, and the previously recorded Sweden sanctions handoff remains absent. No new distinct suggestion."
+    },
+    {
+      "delivery_id": "62a2f6a0-be34-11f1-93cf-9d33c59a4059",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "68f8fb49eaedf4d081308e6ff56077547d108936",
+      "assessed_current_head_sha": "a4d237e5f39ea23558f3f9412f7a5627a1a44b2d",
+      "checked_on": "2026-10-02T07:40:30.000Z",
+      "outcome": "citation_wording_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This commit removes the explicit V4.1.1 no-citation sentence while retaining the affirmative V3.2.1 WAD citation and future citation schedule. A later commit only simplifies the link text. No registry, canonical record, routing delivery, events disposition or Sweden sanctions handoff was added."
+    },
+    {
+      "delivery_id": "85c14a10-be34-11f1-9c82-564dfead65e6",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "a4d237e5f39ea23558f3f9412f7a5627a1a44b2d",
+      "checked_on": "2026-10-02T07:40:30.000Z",
+      "outcome": "citation_link_text_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Current head changes only the citation link text to `V3.2.1, for WAD`. The previously recorded registry/canonical-record handoff and Sweden sanctions handoff remain unresolved; no new distinct suggestion."
     }
   ],
-  "updated_at": "2026-10-02T07:38:34.000Z"
+  "updated_at": "2026-10-02T07:40:30.000Z"
 }
