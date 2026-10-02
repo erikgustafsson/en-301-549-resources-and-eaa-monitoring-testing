@@ -1015,5 +1015,8 @@
     "pending": 58,
     "attempted_this_run": 13
   },
-  "lease": null
+  "lease": {
+    "owner": "monitoring-watcher-20261002T070533Z-14689c075a99",
+    "expires_at": "2026-10-02T07:50:33Z"
+  }
 }
