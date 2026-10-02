@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "evidence-routing-20261002T072055Z-14689c075a99",
-    "expires_at": "2026-10-02T07:50:55Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1056,6 +1053,26 @@
       "outcome": "duplicate_existing_suggestion_already_recorded",
       "suggestion_id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
       "note": "Explicit merge delivery confirms the main state already assessed under the immediately preceding ready_for_review event. The Luxembourg enforcement-page and routing-metadata follow-up remains unchanged; open PR #80 is unrelated. No new suggestion."
+    },
+    {
+      "event": "pull_request.synchronize",
+      "pull_request": 81,
+      "head_sha": "5413ba80c280e2969c6a2b15e67c1672b2c210b8",
+      "checked_on": "2026-10-02T07:23:23.000Z",
+      "suggestion_id": "seed-discovery-3-2026-09-25|italy|EN 301 549 adoption.md|correct-retired-page-path",
+      "delivery_id": "8f324f70-be31-11f1-980e-a3ae1412adc7",
+      "outcome": "new_actionable_routing_path_correction",
+      "note": "PR #81 correctly routes the AgID evidence to monitoring and records enforcement/sanctions/adoption as not_applicable, but the new adoption disposition uses the retired misspelled page path. The second synchronization reaches the same current head."
+    },
+    {
+      "event": "pull_request.synchronize",
+      "pull_request": 81,
+      "head_sha": "5413ba80c280e2969c6a2b15e67c1672b2c210b8",
+      "checked_on": "2026-10-02T07:23:23.000Z",
+      "suggestion_id": "seed-discovery-3-2026-09-25|italy|EN 301 549 adoption.md|correct-retired-page-path",
+      "delivery_id": "acb3b750-be31-11f1-8a93-81b7e62e0473",
+      "outcome": "duplicate_same_head_new_suggestion_already_recorded",
+      "note": "Second synchronization is the delivery-link commit on the same reviewed PR head. No additional evidence or page gap beyond the adoption-path correction."
     }
   ],
   "suggestions": [
@@ -2145,6 +2162,19 @@
       "created_on": "2026-10-01T17:14:30.000Z",
       "updated_on": "2026-10-01T17:14:30.000Z",
       "source_record": ".github/agents/research/countries/luxembourg.json#source-3cc093ad7e6114680d1233c1"
+    },
+    {
+      "id": "seed-discovery-3-2026-09-25|italy|EN 301 549 adoption.md|correct-retired-page-path",
+      "country": "Italy",
+      "target": "PR #81 canonical Italy delivery and generated .github/agents/evidence-routing/events.json",
+      "status": "open_pr81_followup_required",
+      "covering_pr": 81,
+      "proposed_change": "Before merge, change the adoption destination in seed-discovery-3-2026-09-25 from the retired `EN 301 549 adoptation.md` path to the registered `EN 301 549 adoption.md` page. Keep the disposition `not_applicable` and `pr: null`; use `record: null` because this AgID reporting evidence establishes no adoption fact. Regenerate events.json from the canonical country deliveries.",
+      "evidence": "PR #81 correctly records AgID's public EAA reporting platform and explicitly classifies enforcement and sanctions as not_applicable. Main .github/agents/evidence.md registers the adoption page as `EN 301 549 adoption.md`, while the new Italy delivery and generated event use the retired misspelled path.",
+      "limitations": "Routing metadata only. The AgID evidence concerns monitoring/reporting, not standards adoption. No public-page wording change beyond PR #81 is supported, and company reporting, products, interactive transport terminals and 112 remain explicitly unresolved.",
+      "created_on": "2026-10-02T07:23:23.000Z",
+      "updated_on": "2026-10-02T07:23:23.000Z",
+      "source_pr": 81
     }
   ],
   "processed_deliveries": [
@@ -3267,7 +3297,27 @@
       "outcome": "merged_before_event_processed_new_followup_required",
       "suggestion_id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
       "note": "Although the webhook action was ready_for_review, actual GitHub state was already merged. Main now contains the OSAPS EML-derived research claim and delivery. Enforcement tracking still lacks Luxembourg; the delivery also uses the retired adoption page path and leaves the research-only enforcement handoff unattributed. Open PR #80 is standards-only and does not cover this follow-up."
+    },
+    {
+      "event": "pull_request.synchronize",
+      "pull_request": 81,
+      "head_sha": "5413ba80c280e2969c6a2b15e67c1672b2c210b8",
+      "checked_on": "2026-10-02T07:23:23.000Z",
+      "suggestion_id": "seed-discovery-3-2026-09-25|italy|EN 301 549 adoption.md|correct-retired-page-path",
+      "delivery_id": "8f324f70-be31-11f1-980e-a3ae1412adc7",
+      "outcome": "new_actionable_routing_path_correction",
+      "note": "PR #81 correctly routes the AgID evidence to monitoring and records enforcement/sanctions/adoption as not_applicable, but the new adoption disposition uses the retired misspelled page path. The second synchronization reaches the same current head."
+    },
+    {
+      "event": "pull_request.synchronize",
+      "pull_request": 81,
+      "head_sha": "5413ba80c280e2969c6a2b15e67c1672b2c210b8",
+      "checked_on": "2026-10-02T07:23:23.000Z",
+      "suggestion_id": "seed-discovery-3-2026-09-25|italy|EN 301 549 adoption.md|correct-retired-page-path",
+      "delivery_id": "acb3b750-be31-11f1-8a93-81b7e62e0473",
+      "outcome": "duplicate_same_head_new_suggestion_already_recorded",
+      "note": "Second synchronization is the delivery-link commit on the same reviewed PR head. No additional evidence or page gap beyond the adoption-path correction."
     }
   ],
-  "updated_at": "2026-10-01T17:15:26.000Z"
+  "updated_at": "2026-10-02T07:23:23.000Z"
 }
