@@ -1,7 +1,7 @@
 {
   "Canada": {
     "updated_on": "2026-10-02",
-    "reason": "Added selected accessibility laws and related standards; UK revision schedule. Existing national edition retained; unknown V4.1.1 national timetable recorded separately."
+    "reason": "Kept only direct EN 301 549 references and revision work; removed broader accessibility context from the public row and retained it in research."
   },
   "Brazil": {
     "updated_on": "2026-09-27",
@@ -25,7 +25,7 @@
   },
   "Australia": {
     "updated_on": "2026-10-02",
-    "reason": "Added selected accessibility laws and related standards; UK revision schedule. Existing national edition retained; unknown V4.1.1 national timetable recorded separately."
+    "reason": "Kept only direct EN 301 549 references and revision work; removed broader accessibility context from the public row and retained it in research."
   },
   "Japan": {
     "updated_on": "2026-09-27",
@@ -33,7 +33,7 @@
   },
   "United Kingdom": {
     "updated_on": "2026-10-02",
-    "reason": "Added selected accessibility laws and related standards; UK revision schedule. Existing national edition retained; unknown V4.1.1 national timetable recorded separately."
+    "reason": "Kept only direct EN 301 549 references and revision work; removed broader accessibility context from the public row and retained it in research."
   },
   "Norway": {
     "updated_on": "2026-09-27",

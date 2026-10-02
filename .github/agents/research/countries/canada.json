@@ -381,7 +381,8 @@
         "Follow-up: check current ASC catalogue, amendments and any specific later legal/procurement use; the 2024 announcement supports historical adoption only.",
         "Round 2 (2026-09-27): Official standard identity and publication month rechecked; announcement date/voluntary use remain supported by the earlier record, not a fresh full review. Follow-up: assess amendments or legal use separately.",
         "2026-10-02: No announced national V4.1.1 adoption timetable was found in ASC ICT listing and targeted searches. National revision plan remains unknown. The enacted s19.9 alternative route is distinct from Canadian adoption; do not change national edition to V4.1.1 based on that permission.",
-        "2026-10-02: Selected federal/Ontario/Manitoba digital provisions checked, not every province, territory or accessibility subject. A government transition-direction search result reports rescission of the federal Standard on Web Accessibility; retain as a lead for a separately bounded full policy check, not a verified public assertion."
+        "2026-10-02: Selected federal/Ontario/Manitoba digital provisions checked, not every province, territory or accessibility subject. A government transition-direction search result reports rescission of the federal Standard on Web Accessibility; retain as a lead for a separately bounded full policy check, not a verified public assertion.",
+        "2026-10-02 scope correction: the Adoption page is limited to EN 301 549 adoption, references and revision work. Broader accessibility laws, WCAG and unrelated standards remain research-only; removed public claim IDs: adoption-canada-provincial-20261002. All evidence, claims and prior reviews retained."
       ],
       "attempts": [
         {
@@ -522,12 +523,11 @@
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "73dcd548e13978ac6ae2a0a3eb8ec067b811c75db38faf015cebf93a569a50ac",
+      "public_row_sha256": "fe33703a2fa30e970a774e61a6c21b634102502496fbf1efb2835a676f6444e7",
       "public_claim_ids": [
         "adoption-canada-canada-adoption",
         "adoption-canada-inherited-3",
         "adoption-canada-regulations-20261002",
-        "adoption-canada-provincial-20261002",
         "adoption-canada-services-20261002"
       ],
       "public_cells": {
@@ -544,12 +544,11 @@
         "4": [
           "adoption-canada-canada-adoption",
           "adoption-canada-regulations-20261002",
-          "adoption-canada-provincial-20261002",
           "adoption-canada-services-20261002"
         ],
         "5": []
       },
-      "review_report": ".github/agents/adoption/reviews/accessibility-laws-2026-10-02.json"
+      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json"
     }
   },
   "deliveries": [
@@ -683,7 +682,7 @@
           "domain": "adoption",
           "record": ".github/agents/research/countries/canada.json",
           "disposition": "proposed",
-          "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
           "pr": 82
         },

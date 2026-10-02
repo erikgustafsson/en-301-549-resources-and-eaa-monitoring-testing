@@ -393,7 +393,8 @@
         "Follow-up: verify the BSI edition and current statutory reference independently of procurement guidance. Search results include differing government summaries; do not infer current law from a guidance title.",
         "Round 2 (2026-09-27): Resolved publication and supersession using BSI. Exact EN 301 549:2021 designation used instead of inferring a version string from an internal identifier. Follow-up: catalogue amendments and legal use remain separate checks.",
         "2026-10-02: Confirm the ETSI edition associated with BSI project2026-00429 and eventual BS publication. Active revision work and planned publication-stage start are established; explicit V4.1.1 national designation remains unconfirmed. National publication does not automatically change UK legal requirements.",
-        "2026-10-02: GOV.UK scope/guidance used for legal overview. Direct legislation.gov.uk retrieval failed (reg6 rate limit, reg7/EqualityAct s20 unsupported reader type; reg7 browser blocked). Do not claim a full consolidated statutory audit or a new legal EN designation."
+        "2026-10-02: GOV.UK scope/guidance used for legal overview. Direct legislation.gov.uk retrieval failed (reg6 rate limit, reg7/EqualityAct s20 unsupported reader type; reg7 browser blocked). Do not claim a full consolidated statutory audit or a new legal EN designation.",
+        "2026-10-02 scope correction: the Adoption page is limited to EN 301 549 adoption, references and revision work. Broader accessibility laws, WCAG and unrelated standards remain research-only; removed public claim IDs: adoption-united-kingdom-laws-20261002, adoption-united-kingdom-iso-20261002. All evidence, claims and prior reviews retained."
       ],
       "attempts": [
         {
@@ -573,14 +574,12 @@
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "df94499c30a88c3eaee27303e75d1e3bbcb9fb0b77bb6d66675d303959612070",
+      "public_row_sha256": "855ddb528201547b9e81cb8603be3babca53bca95d21f4257288567aec441057",
       "public_claim_ids": [
         "adoption-united-kingdom-round2-cell-1",
         "adoption-united-kingdom-round2-cell-2",
         "adoption-united-kingdom-version-label",
         "adoption-united-kingdom-round2-cell-4",
-        "adoption-united-kingdom-laws-20261002",
-        "adoption-united-kingdom-iso-20261002",
         "adoption-united-kingdom-revision-20261002"
       ],
       "public_cells": {
@@ -597,12 +596,10 @@
         ],
         "4": [
           "adoption-united-kingdom-round2-cell-4",
-          "adoption-united-kingdom-laws-20261002",
-          "adoption-united-kingdom-iso-20261002",
           "adoption-united-kingdom-revision-20261002"
         ]
       },
-      "review_report": ".github/agents/adoption/reviews/accessibility-laws-2026-10-02.json"
+      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json"
     }
   },
   "deliveries": [
@@ -778,7 +775,7 @@
           "domain": "adoption",
           "record": ".github/agents/research/countries/united kingdom.json",
           "disposition": "proposed",
-          "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
           "pr": 82
         },

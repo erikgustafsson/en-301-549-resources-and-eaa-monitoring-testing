@@ -300,7 +300,8 @@
         "Follow-up: establish the current Standards Australia catalogue edition and supersession of AS EN 301 549:2020; searches yielded no inspectable primary catalogue result. Existing sample and edition retained.",
         "Round 2 (2026-09-27): Resolved the prior current-catalogue question: AS EN 301 549:2024 supersedes the 2020 edition. Preserve the 2020 sample and version as history. Follow-up: inspect future catalogue amendments; establish legal/procurement obligations separately if needed.",
         "2026-10-02: No public national timetable for adopting EN 301 549 V4.1.1 was identified in the checked Standards Australia catalogue and targeted official-source searches. This is unknown, not evidence of no work. Next: inspect an IT-040 project announcement or national draft when available; do not infer Australian adoption from ETSI publication.",
-        "2026-10-02: Transport amendment commencement calendar date remains unconfirmed. Check the register commencement and parliamentary disallowance record before describing these amended requirements as currently in force. Scope here is selected digital/ICT law and standards, not an exhaustive state/territory or built-environment survey."
+        "2026-10-02: Transport amendment commencement calendar date remains unconfirmed. Check the register commencement and parliamentary disallowance record before describing these amended requirements as currently in force. Scope here is selected digital/ICT law and standards, not an exhaustive state/territory or built-environment survey.",
+        "2026-10-02 scope correction: the Adoption page is limited to EN 301 549 adoption, references and revision work. Broader accessibility laws, WCAG and unrelated standards remain research-only; removed public claim IDs: adoption-australia-guidance-20261002. All evidence, claims and prior reviews retained."
       ],
       "attempts": [
         {
@@ -447,13 +448,12 @@
       ],
       "last_monthly_review": null,
       "last_full_review": null,
-      "public_row_sha256": "ac771c5e98b2d6ad4e78fcff0be71d4d58d772c59656cf6261d6a7a0e6e4a8f0",
+      "public_row_sha256": "67311139fd6047eb981f5caaed5f1cbcf8971ed0d00652b26bc303b6f8503f95",
       "public_claim_ids": [
         "adoption-australia-round2-cell-1",
         "adoption-australia-round2-cell-2",
         "adoption-australia-version-label",
         "adoption-australia-round2-cell-4",
-        "adoption-australia-guidance-20261002",
         "adoption-australia-transport-20261002"
       ],
       "public_cells": {
@@ -470,11 +470,10 @@
         ],
         "4": [
           "adoption-australia-round2-cell-4",
-          "adoption-australia-guidance-20261002",
           "adoption-australia-transport-20261002"
         ]
       },
-      "review_report": ".github/agents/adoption/reviews/accessibility-laws-2026-10-02.json"
+      "review_report": ".github/agents/adoption/reviews/en-only-scope-2026-10-02.json"
     }
   },
   "deliveries": [
@@ -613,7 +612,7 @@
           "domain": "adoption",
           "record": ".github/agents/research/countries/australia.json",
           "disposition": "proposed",
-          "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
           "pr": 82
         },

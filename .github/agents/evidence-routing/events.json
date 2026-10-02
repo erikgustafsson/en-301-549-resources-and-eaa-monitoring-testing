@@ -220,7 +220,7 @@
           "domain": "adoption",
           "record": ".github/agents/research/countries/australia.json",
           "disposition": "proposed",
-          "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
           "pr": 82
         },
@@ -882,7 +882,7 @@
           "domain": "adoption",
           "record": ".github/agents/research/countries/canada.json",
           "disposition": "proposed",
-          "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
           "pr": 82
         },
@@ -4742,7 +4742,7 @@
           "domain": "adoption",
           "record": ".github/agents/research/countries/united kingdom.json",
           "disposition": "proposed",
-          "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
+          "reason": "Only direct EN 301 549 references and revision work proposed publicly; broader accessibility laws and standards retained in research only following user scope correction.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
           "pr": 82
         },
