@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "evidence-routing-20261002T080915Z-14689c075a99",
-    "expires_at": "2026-10-02T08:39:15Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1117,6 +1114,16 @@
       "outcome": "version_forecast_clarification_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronization identifies the exact standard versions attached to expected OJ citation dates. It adds no registry entry, canonical record, delivery, events disposition or Sweden sanctions handoff. No new distinct suggestion."
+    },
+    {
+      "delivery_id": "7a397d30-be38-11f1-89d5-bf32afdb2115",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "95216ca50e00b20f7bf4499d10d235a15c0ffab0",
+      "checked_on": "2026-10-02T08:09:15.000Z",
+      "outcome": "table_header_semantics_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Three commits add scoped headers to monitoring, enforcement and adoption tables; PR description and diff state factual cells/counts are unchanged. No research record, page registry entry, routing delivery, events disposition or Sweden sanctions content was added. No new distinct suggestion."
     }
   ],
   "suggestions": [
@@ -2174,8 +2181,8 @@
       "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-02T07:54:00.000Z",
-      "progress": "PR #80 head 4c00909 identifies the exact editions attached to the two expected OJ citation dates. This is a useful public-page clarification but changes only EAA and WAD standards.md. The registered-page entry, canonical EU-wide standards record/mapping, delivery and generated events disposition remain absent."
+      "updated_on": "2026-10-02T08:09:15.000Z",
+      "progress": "PR #80 head 95216ca adds scoped column and row headers to monitoring, enforcement and adoption tables without changing their factual cell content. Changed files still contain no .github/agents/evidence.md registry entry, canonical standards or Sweden research record, delivery, or generated events update. The EU-wide standards registry/record handoff remains open."
     },
     {
       "id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
@@ -2188,10 +2195,10 @@
       "limitations": "The page states possible powers, not that PTS imposed a fee, prohibited a sale or completed remediation in any case. The product-sale statement is product-specific and must not be generalized to services or other Swedish authorities. Its standards guidance does not establish current OJ citation or legal effect, and its regular-supervision statement adds no new case-level enforcement action.",
       "source_pr": 80,
       "created_on": "2026-10-01T16:45:30.000Z",
-      "updated_on": "2026-10-02T07:54:00.000Z",
+      "updated_on": "2026-10-02T08:09:15.000Z",
       "source_url": "https://pts.se/digital-inkludering/lagkrav/introduktion-till-tillganglighetsdirektivet/",
       "source_updated_on": "2025-11-04",
-      "progress": "PR #80 head 4c00909 only qualifies standards-page citation forecasts by version. The official PTS source is still absent from Sweden's research record and EAA sanctions.md still lacks the qualified product-sale prohibition and multiple-fee powers."
+      "progress": "PR #80 head 95216ca changes only table header semantics on existing public pages and standards presentation. Sweden's research record and EAA sanctions.md content remain unchanged, so the qualified PTS powers handoff is still open."
     },
     {
       "id": "luxembourg-osaps-20260925|luxembourg|EAA-enforcement-tracking.md|dated-testing-phase-entry",
@@ -3402,7 +3409,17 @@
       "outcome": "version_forecast_clarification_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The synchronization identifies the exact standard versions attached to expected OJ citation dates. It adds no registry entry, canonical record, delivery, events disposition or Sweden sanctions handoff. No new distinct suggestion."
+    },
+    {
+      "delivery_id": "7a397d30-be38-11f1-89d5-bf32afdb2115",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "head_sha": "95216ca50e00b20f7bf4499d10d235a15c0ffab0",
+      "checked_on": "2026-10-02T08:09:15.000Z",
+      "outcome": "table_header_semantics_only_existing_suggestions_still_open",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Three commits add scoped headers to monitoring, enforcement and adoption tables; PR description and diff state factual cells/counts are unchanged. No research record, page registry entry, routing delivery, events disposition or Sweden sanctions content was added. No new distinct suggestion."
     }
   ],
-  "updated_at": "2026-10-02T07:54:00.000Z"
+  "updated_at": "2026-10-02T08:09:15.000Z"
 }
