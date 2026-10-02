@@ -2183,7 +2183,7 @@
           "disposition": "proposed",
           "reason": "The current page still labels all Italy EAA public-reporting routes Unknown and points to a legacy portal.",
           "next_action": "Review the focused draft adding the verified AgID public route while preserving product, terminal, company and 112 unknowns.",
-          "pr": null,
+          "pr": 81,
           "domain": "monitoring"
         },
         {
