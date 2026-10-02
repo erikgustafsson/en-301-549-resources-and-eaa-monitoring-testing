@@ -222,7 +222,7 @@
           "disposition": "proposed",
           "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
-          "pr": null
+          "pr": 82
         },
         {
           "page": "monitoring-agencies-information.md",
@@ -884,7 +884,7 @@
           "disposition": "proposed",
           "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
-          "pr": null
+          "pr": 82
         },
         {
           "page": "monitoring-agencies-information.md",
@@ -4744,7 +4744,7 @@
           "disposition": "proposed",
           "reason": "Selected national laws, related standards and BSI revision work added to adoption context.",
           "next_action": "Maintainer review; resolve national V4.1.1 questions when primary announcements appear.",
-          "pr": null
+          "pr": 82
         },
         {
           "page": "monitoring-agencies-information.md",

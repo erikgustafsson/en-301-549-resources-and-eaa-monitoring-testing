@@ -282,7 +282,9 @@
     "link_languages": "Adoption-page link audit passes. Full check retains pre-existing Italy monitoring links and renamed README page-link audit gaps.",
     "diff_check": "PASS",
     "markdown_lint": "PASS: markdownlint-cli2 0.23.2, 44 files, zero issues.",
-    "rendered_preview": "pending"
+    "rendered_preview": "GitHub browser preview returned its Unicorn server error. Connector verified published page bytes match reviewed local page. HTMLParser checks pass: 14 data rows plus header, six cells each. No visual GitHub-render claim.",
+    "changed_country_schema": "PASS: all three complete canonical country records satisfy country.schema.json; all their evidence fingerprints match; generated routing index matches canonical deliveries.",
+    "ci": "No workflow runs returned for initial published head a60df218c6ac376f8b5ce0d012541b38f167e1da. No CI pass claimed."
   },
   "review_comparison": {
     "source_language": "English; English Manitoba statutory provisions used, no translation of French text.",
@@ -298,5 +300,10 @@
       "United Kingdom": "Supported after using publication start date wording."
     },
     "recheck": "Final review returned after correction. Reviewer used only supplied passages and exact proposed wording; no prior conversation or research conclusions."
+  },
+  "delivery": {
+    "pr": 82,
+    "public_page_verified_at_head": "a60df218c6ac376f8b5ce0d012541b38f167e1da",
+    "followup_scope": "Delivery/report metadata only; public wording and review hashes unchanged."
   }
 }
