@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "evidence-routing-20261002T081103Z-14689c075a99",
-    "expires_at": "2026-10-02T08:41:03Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1127,6 +1124,26 @@
       "outcome": "table_header_semantics_only_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Three commits add scoped headers to monitoring, enforcement and adoption tables; PR description and diff state factual cells/counts are unchanged. No research record, page registry entry, routing delivery, events disposition or Sweden sanctions content was added. No new distinct suggestion."
+    },
+    {
+      "delivery_id": "7ad87c50-be38-11f1-8e40-f14d495dc1a8",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "assessed_current_head_sha": "95216ca50e00b20f7bf4499d10d235a15c0ffab0",
+      "checked_on": "2026-10-02T08:11:03.000Z",
+      "outcome": "superseded_by_reviewed_header_batch",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This delivery is part of the scoped-table-header batch already reviewed at current head 95216ca under delivery 7a397d30. The batch changes header semantics only and leaves both existing handoff suggestions open."
+    },
+    {
+      "delivery_id": "7bdb6d60-be38-11f1-9199-d33bcf1029eb",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "assessed_current_head_sha": "95216ca50e00b20f7bf4499d10d235a15c0ffab0",
+      "checked_on": "2026-10-02T08:11:03.000Z",
+      "outcome": "duplicate_same_reviewed_header_batch",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Second near-simultaneous delivery belongs to the same reviewed header-only batch; no new evidence, destination or distinct suggestion."
     }
   ],
   "suggestions": [
@@ -3422,7 +3439,27 @@
       "outcome": "table_header_semantics_only_existing_suggestions_still_open",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Three commits add scoped headers to monitoring, enforcement and adoption tables; PR description and diff state factual cells/counts are unchanged. No research record, page registry entry, routing delivery, events disposition or Sweden sanctions content was added. No new distinct suggestion."
+    },
+    {
+      "delivery_id": "7ad87c50-be38-11f1-8e40-f14d495dc1a8",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "assessed_current_head_sha": "95216ca50e00b20f7bf4499d10d235a15c0ffab0",
+      "checked_on": "2026-10-02T08:11:03.000Z",
+      "outcome": "superseded_by_reviewed_header_batch",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "This delivery is part of the scoped-table-header batch already reviewed at current head 95216ca under delivery 7a397d30. The batch changes header semantics only and leaves both existing handoff suggestions open."
+    },
+    {
+      "delivery_id": "7bdb6d60-be38-11f1-9199-d33bcf1029eb",
+      "event": "pull_request.synchronize",
+      "pull_request": 80,
+      "assessed_current_head_sha": "95216ca50e00b20f7bf4499d10d235a15c0ffab0",
+      "checked_on": "2026-10-02T08:11:03.000Z",
+      "outcome": "duplicate_same_reviewed_header_batch",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Second near-simultaneous delivery belongs to the same reviewed header-only batch; no new evidence, destination or distinct suggestion."
     }
   ],
-  "updated_at": "2026-10-02T08:09:15.000Z"
+  "updated_at": "2026-10-02T08:11:03.000Z"
 }
