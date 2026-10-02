@@ -1,6 +1,9 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "owner": "evidence-routing-20261002T074000Z-14689c075a99",
+    "expires_at": "2026-10-02T08:10:00Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
