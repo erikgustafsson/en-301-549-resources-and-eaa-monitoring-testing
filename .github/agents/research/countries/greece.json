@@ -444,7 +444,7 @@
           "disposition": "needs_evidence",
           "reason": "Read the official amendment and reconcile service-authority allocations before changing public wording.",
           "next_action": "Read the official amendment and reconcile service-authority allocations before changing public wording.",
-          "pr": null
+          "pr": 83
         },
         {
           "page": "EAA sanctions.md",
@@ -453,7 +453,7 @@
           "disposition": "research_only",
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
-          "pr": null
+          "pr": 83
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -462,7 +462,7 @@
           "disposition": "research_only",
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
-          "pr": null
+          "pr": 83
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -471,7 +471,7 @@
           "disposition": "research_only",
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
-          "pr": null
+          "pr": 83
         }
       ]
     }

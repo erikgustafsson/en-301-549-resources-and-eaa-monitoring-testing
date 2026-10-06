@@ -50,5 +50,12 @@
     "link_language_check": "New links recorded/tagged; full audit flags inherited AgID login/news URLs and renamed README standards link.",
     "html": "Rendered with bundled marked; system Tidy reports legacy HTML5 meta/table-summary warnings. No changed-row structural issue detected.",
     "not_run": "No CI or human approval claimed."
+  },
+  "published_review": {
+    "pr": 83,
+    "reviewed_head": "1d3a7af6ff8def6f19b94b00256dfe5b1b4acae2",
+    "exact_remote_files": "All 13 files re-fetched and match prepared contents.",
+    "github_preview": "Rendered Preview inspected: Germany, Ireland and Latvia additions appear in table cells, not escaped/code blocks.",
+    "post_draft_route_check": "No unresolved browser blocker remains for the newly published Irish route; controls verified during this publication pass. No form submitted. Remaining company/112 routes stay Unknown and are not promoted."
   }
 }

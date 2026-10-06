@@ -743,7 +743,7 @@
           "disposition": "proposed",
           "reason": "Requested public change prepared with official evidence; other sectors and routes preserved.",
           "next_action": "Review the requested multi-country draft PR; maintain explicit sector and timing limits.",
-          "pr": null
+          "pr": 83
         },
         {
           "page": "EAA sanctions.md",
@@ -752,7 +752,7 @@
           "disposition": "research_only",
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
-          "pr": null
+          "pr": 83
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -761,7 +761,7 @@
           "disposition": "research_only",
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
-          "pr": null
+          "pr": 83
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -770,7 +770,7 @@
           "disposition": "research_only",
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
-          "pr": null
+          "pr": 83
         }
       ]
     }
