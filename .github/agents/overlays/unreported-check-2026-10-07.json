@@ -4,13 +4,15 @@
   "base_pr_head": "0a4f86f51a2fdd11d3733f35b418f446c531d539",
   "summary": {
     "attempted": 25,
-    "identified": 24,
-    "unable_to_verify": 1,
+    "identified": 25,
+    "automated_identified": 24,
+    "user_confirmed": 1,
+    "automated_unverified": 1,
     "provider_counts": {
       "Readabler": 1,
       "Selma (accessiBe)": 6,
       "AccessiWay (accessiBe)": 2,
-      "UserWay": 11,
+      "UserWay": 12,
       "accessiBe": 4
     }
   },
@@ -81,13 +83,19 @@
       "url": "https://delete-it.no/",
       "checked_on": "2026-10-07",
       "previous_value": "Not reported",
-      "status": "Unable to verify",
-      "provider": null,
+      "status": "User-confirmed",
+      "provider": "UserWay",
       "evidence_url": null,
       "evidence": "Both ordinary browser navigation and certificate-validating HTTP retrieval failed because the certificate is expired. No security warning was bypassed; this is not a negative overlay detection.",
       "http_status_and_final_url": "000 https://delete-it.no/",
       "http_error": "curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n",
-      "http_marker_excerpts": []
+      "http_marker_excerpts": [],
+      "confirmation": {
+        "source": "User",
+        "date": "2026-10-07",
+        "statement": "Delete-it is using Userway"
+      },
+      "automated_status": "Unable to verify"
     },
     {
       "country": "Denmark",

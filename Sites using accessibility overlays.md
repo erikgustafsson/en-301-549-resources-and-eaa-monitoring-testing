@@ -50,7 +50,7 @@
 | --- | --- | --- |
 | <a href="https://arendalsfysikalske.no/" hreflang="nb-NO">arendalsfysikalske.no</a> | Readabler | 2026-10-07 |
 | <a href="https://www.bestdrive.no/" hreflang="no-NO">bestdrive.no</a> | AccessiWay (accessiBe) | 2026-10-07 |
-| <a href="https://delete-it.no/">delete-it.no</a> | Not reported | 2026-10-07 |
+| <a href="https://delete-it.no/">delete-it.no</a> | UserWay | 2026-10-07 |
 | <a href="https://www.fjallraven.com/se/sv-se/">Fjällräven</a> | UserWay | 2025-10-12 |
 | <a href="https://www.foie.no/" hreflang="no">foie.no</a> | UserWay | 2026-10-07 |
 | <a href="https://getonnet.no/" hreflang="nb-NO">getonnet.no</a> | UserWay | 2026-10-07 |
