@@ -41,7 +41,7 @@
 
 | Sitename / company name | Reported overlay | Date added |
 | --- | --- | --- |
-| <a href="https://www.wuerzburg.de" hreflang="de">wuerzburg.de</a> | Eye-Able | 2026-05-08 |
+| <a href="https://www.wuerzburg.de" hreflang="de">wuerzburg.de</a> | Regiogate (Eye-able) | 2026-05-08 |
 | <a href="https://www.wvv.de" hreflang="de">wvv.de</a> | Eye-Able | 2026-05-09 |
 
 ### Norway
