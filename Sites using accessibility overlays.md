@@ -18,24 +18,24 @@
 
 | Sitename / company name | Reported overlay | Date added |
 | --- | --- | --- |
-| <a href="https://www.ballingslov.dk/">ballingslov.dk</a> | Not reported | 2026-10-07 |
-| <a href="https://www.ergo.dk/" hreflang="da">ergo.dk</a> | Not reported | 2026-10-07 |
-| <a href="https://freequent.dk/" hreflang="da">freequent.dk</a> | Not reported | 2026-10-07 |
-| <a href="http://hia.dk/" hreflang="en-US">hia.dk</a> | Not reported | 2026-10-07 |
-| <a href="https://hydroscand.dk/" hreflang="da">hydroscand.dk</a> | Not reported | 2026-10-07 |
-| <a href="https://www.kinnarps.dk/" hreflang="da">kinnarps.dk</a> | Not reported | 2026-10-07 |
-| <a href="https://www.mazda.dk/" hreflang="da-DK">mazda.dk</a> | Not reported | 2026-10-07 |
-| <a href="https://www.vfo.dk/" hreflang="da">vfo.dk</a> | Not reported | 2026-10-07 |
+| <a href="https://www.ballingslov.dk/">ballingslov.dk</a> | Selma (accessiBe) | 2026-10-07 |
+| <a href="https://www.ergo.dk/" hreflang="da">ergo.dk</a> | UserWay | 2026-10-07 |
+| <a href="https://freequent.dk/" hreflang="da">freequent.dk</a> | UserWay | 2026-10-07 |
+| <a href="http://hia.dk/" hreflang="en-US">hia.dk</a> | UserWay | 2026-10-07 |
+| <a href="https://hydroscand.dk/" hreflang="da">hydroscand.dk</a> | Selma (accessiBe) | 2026-10-07 |
+| <a href="https://www.kinnarps.dk/" hreflang="da">kinnarps.dk</a> | Selma (accessiBe) | 2026-10-07 |
+| <a href="https://www.mazda.dk/" hreflang="da-DK">mazda.dk</a> | accessiBe | 2026-10-07 |
+| <a href="https://www.vfo.dk/" hreflang="da">vfo.dk</a> | Selma (accessiBe) | 2026-10-07 |
 
 ### Finland
 
 | Sitename / company name | Reported overlay | Date added |
 | --- | --- | --- |
 | <a href="https://www.fjallraven.com/fi/fi-fi/">Fjällräven</a> | UserWay | 2025-10-12 |
-| <a href="https://www.helsinkimint.fi/">helsinkimint.fi</a> | Not reported | 2026-10-07 |
+| <a href="https://www.helsinkimint.fi/">helsinkimint.fi</a> | accessiBe | 2026-10-07 |
 | <a href="https://ivakonferens.se/fi/saavutettavuus/" hreflang="fi">IVA Konferenscenter</a> | Selma (accessiBe) | 2025-07-03 |
-| <a href="https://lappica.fi/en/accessibility-statement/" hreflang="en-GB">lappica.fi</a> | Not reported | 2026-10-07 |
-| <a href="https://superpark.fi/en/" hreflang="en-US">superpark.fi</a> | Not reported | 2026-10-07 |
+| <a href="https://lappica.fi/en/accessibility-statement/" hreflang="en-GB">lappica.fi</a> | UserWay | 2026-10-07 |
+| <a href="https://superpark.fi/en/" hreflang="en-US">superpark.fi</a> | UserWay | 2026-10-07 |
 
 ### Germany
 
@@ -48,21 +48,21 @@
 
 | Sitename / company name | Reported overlay | Date added |
 | --- | --- | --- |
-| <a href="https://arendalsfysikalske.no/" hreflang="nb-NO">arendalsfysikalske.no</a> | Not reported | 2026-10-07 |
-| <a href="https://www.bestdrive.no/" hreflang="no-NO">bestdrive.no</a> | Not reported | 2026-10-07 |
+| <a href="https://arendalsfysikalske.no/" hreflang="nb-NO">arendalsfysikalske.no</a> | Readabler | 2026-10-07 |
+| <a href="https://www.bestdrive.no/" hreflang="no-NO">bestdrive.no</a> | AccessiWay (accessiBe) | 2026-10-07 |
 | <a href="https://delete-it.no/">delete-it.no</a> | Not reported | 2026-10-07 |
 | <a href="https://www.fjallraven.com/se/sv-se/">Fjällräven</a> | UserWay | 2025-10-12 |
-| <a href="https://www.foie.no/" hreflang="no">foie.no</a> | Not reported | 2026-10-07 |
-| <a href="https://getonnet.no/" hreflang="nb-NO">getonnet.no</a> | Not reported | 2026-10-07 |
-| <a href="https://hedemarken.steinerskolen.no/" hreflang="nb-NO">hedemarken.steinerskolen.no</a> | Not reported | 2026-10-07 |
-| <a href="https://www.italfarmaco.no/" hreflang="nb">italfarmaco.no</a> | Not reported | 2026-10-07 |
-| <a href="https://www.kinnarps.no/" hreflang="no">kinnarps.no</a> | Not reported | 2026-10-07 |
-| <a href="https://www.mazda.no/" hreflang="nb-NO">mazda.no</a> | Not reported | 2026-10-07 |
-| <a href="https://nomestiftelsen.no/" hreflang="nb-NO">nomestiftelsen.no</a> | Not reported | 2026-10-07 |
-| <a href="https://personalpartner.no/">personalpartner.no</a> | Not reported | 2026-10-07 |
-| <a href="https://www.superlaering.no/" hreflang="nb">superlaering.no</a> | Not reported | 2026-10-07 |
-| <a href="https://www.tressutemiljo.no/" hreflang="nb">tressutemiljo.no</a> | Not reported | 2026-10-07 |
-| <a href="https://wallmans.no/" hreflang="nb-NO">wallmans.no</a> | Not reported | 2026-10-07 |
+| <a href="https://www.foie.no/" hreflang="no">foie.no</a> | UserWay | 2026-10-07 |
+| <a href="https://getonnet.no/" hreflang="nb-NO">getonnet.no</a> | UserWay | 2026-10-07 |
+| <a href="https://hedemarken.steinerskolen.no/" hreflang="nb-NO">hedemarken.steinerskolen.no</a> | UserWay | 2026-10-07 |
+| <a href="https://www.italfarmaco.no/" hreflang="nb">italfarmaco.no</a> | AccessiWay (accessiBe) | 2026-10-07 |
+| <a href="https://www.kinnarps.no/" hreflang="no">kinnarps.no</a> | Selma (accessiBe) | 2026-10-07 |
+| <a href="https://www.mazda.no/" hreflang="nb-NO">mazda.no</a> | accessiBe | 2026-10-07 |
+| <a href="https://nomestiftelsen.no/" hreflang="nb-NO">nomestiftelsen.no</a> | UserWay | 2026-10-07 |
+| <a href="https://personalpartner.no/">personalpartner.no</a> | UserWay | 2026-10-07 |
+| <a href="https://www.superlaering.no/" hreflang="nb">superlaering.no</a> | UserWay | 2026-10-07 |
+| <a href="https://www.tressutemiljo.no/" hreflang="nb">tressutemiljo.no</a> | Selma (accessiBe) | 2026-10-07 |
+| <a href="https://wallmans.no/" hreflang="nb-NO">wallmans.no</a> | accessiBe | 2026-10-07 |
 
 ### Sweden
 
@@ -273,4 +273,3 @@
 | Sitename / company name | Reported overlay | Date added |
 | --- | --- | --- |
 | <a href="https://event.virtualdays.com/swedishinstitutedemo" hreflang="en">event.virtualdays.com</a> | UserWay | 2026-03-03 |
-
