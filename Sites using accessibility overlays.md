@@ -12,18 +12,6 @@
 - <a href="https://overlays.dnikub.dev/" hreflang="en">The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments</a>, master's thesis by Daniela Kubesch, MSc MSc.
 - [We intercepted every request from five accessibility tools. Here’s what they actually do to your site.](https://aiopsgroup.com/we-intercepted-every-request-from-five-accessibility-tools-heres-what-they-actually-do-to-your-site/)
 
-## About this list
-
-Entries are reported overlay installations, not a statement that every site still uses an overlay. Source country is the country or market recorded in the source, not necessarily the company’s country of incorporation. Selma is listed as **Selma (accessiBe)**.
-
-Date added is the date the site first appeared under that country in this repository, recovered from the page history. New entries in this update use **2026-10-07**. It is not an installation date or a last-verified date.
-
-This update combines the existing list with 215 entries supplied in *Overlays i Sverige.xlsx*. It contains 227 distinct sites in 230 country entries; 187 newly supplied sites have not yet been checked for current overlay use. Hudikhem and Glada Hudikhem are consolidated because the former redirects to the latter. Missing supplier names are shown as “Not reported”.
-
-In the 2026-10-07 check of the original list, no overlay was detected on the inspected Arvidsjaur, Floattech, Carson or Zara pages. Safira and Golden Hits had supplier statements without confirmed loader evidence. Fjällräven, HAGS and Travsport could not be reliably verified. The Virtual Days event link was unavailable. These entries are retained as reports; a failed or negative check does not establish site-wide removal.
-
-The inherited Norway entry for Fjällräven links to its Swedish page. Its original source country is retained pending correction.
-
 ## Countries
 
 ### Denmark
