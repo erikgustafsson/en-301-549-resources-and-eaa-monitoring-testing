@@ -751,10 +751,10 @@
       "extraction": "All pages text-extracted and visually inspected. PDF has duplicated text layer; deduplicated glyphs before table extraction, retained one logical row per subject/period. Names preserved except wrapped line breaks replaced by spaces.",
       "score_definition": "Digg result score; higher means worse accessibility. Not a percentage, raw failure count or sanction.",
       "table_updated_on": {
-        "2020-2021": "2022-07-05",
         "2022": "2023-02-02",
         "2023": "2024-05-10",
-        "2024": "2025-10-23"
+        "2024": "2025-10-23",
+        "2020-2021": "2022-07-05"
       },
       "null_recheck_meaning": "For 2020–2021, a blank means no recheck according to the source. For later tables no recheck column is supplied; null does not establish no recheck.",
       "coverage_limit": "Selected in-depth monitoring results, not a national compliance rate or all Digg supervision. No current remediation outcome inferred."
@@ -1702,24 +1702,24 @@
         }
       ],
       "counts_by_sheet_year": {
-        "2026": {
-          "app": 4,
-          "website": 10
-        },
-        "2025": {
-          "website": 17,
-          "app": 9
-        },
-        "2024": {
-          "app": 6,
+        "2022": {
+          "app": 2,
           "website": 10
         },
         "2023": {
           "app": 7,
           "website": 10
         },
-        "2022": {
-          "app": 2,
+        "2024": {
+          "app": 6,
+          "website": 10
+        },
+        "2025": {
+          "website": 17,
+          "app": 9
+        },
+        "2026": {
+          "app": 4,
           "website": 10
         }
       },
@@ -1820,6 +1820,13 @@
       "evidence": "Nina Gerling additionally links implementing Ordinance 2023:676. The repo names the same sector authorities but does not separately cite this ordinance in the reviewed country record.",
       "section": "Sweden law row; https://svenskforfattningssamling.se/sites/default/files/sfs/2023-11/SFS2023-676.pdf",
       "source_type": "other_unverified"
+    },
+    "source-ptsfs-2026-6": {
+      "url": "https://www.pts.se/contentassets/1537cfeb7c0940b2aebe438ef16f81b7/ptsfs-2026-6.pdf",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-10-09",
+      "section": "8 §; 15 §; entry-into-force clause",
+      "evidence": "PTSFS 2026:6 was decided 16 September 2026 and published 24 September 2026. It permits the EU declaration of conformity and information supplied to PTS under section 22 LPTT to be in Swedish or English, effective 1 November 2026."
     }
   },
   "domains": {
@@ -2338,6 +2345,18 @@
             "source-713a4adbf42eead5ab023f30"
           ],
           "id": "monitoring-ca55ebbcb9c62d4e571a7855"
+        },
+        {
+          "id": "monitoring-ptsfs-2026-6-product-languages",
+          "field": "additional_information",
+          "assertion": "PTSFS 2026:6 permits the EU declaration of conformity and information supplied to PTS under section 22 LPTT to be in Swedish or English from 1 November 2026.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "Product market surveillance only",
+          "review_note": "Adopted amendment, not a proposal. It changes sections 8 and 15 of PTSFS 2024:5. It does not establish accepted languages for service-defect reports, public complaints, or other authorities.",
+          "source_refs": [
+            "source-ptsfs-2026-6"
+          ]
         }
       ],
       "questions": [
@@ -2350,7 +2369,6 @@
         "Follow-up: If revising the existing two-week/fixed-defect sentence, use the 21/25 August 2025 PTS exchange to distinguish initial reporting from later corrective-measure updates. The contributor's existing sentence is unchanged.",
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
         "Follow-up: Before revising the existing two-week/fixed-defect sentence, compare the original 21/25 August PTS email with the service-only immediate-reporting guidance. Language agent did not receive that original email; clause not newly verified or disproven.",
-        "Cross-page handoff 2026-09-25 / seed-discovery-2-2026-09-25: PTS proposed allowing Swedish or English information in product market-surveillance cases, with entry into force planned for October 2026; this announcement does not establish final adoption. Find final adopted PTSFS text and effective date. Do not revise historical service-reporting language evidence based on a product proposal. Source lead: https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/. Origin: .github/agents/watcher/baseline-state.json; not a new source check and not a verified table assertion.",
         "digg-public-sector-intake-2026-09-30: preserve WAD/DOS and EAA/LPTT as separate legal regimes before and after the announced merger. Confirm final instructions, authority remits and contact routes before any 2027 public-page update. Announcement is not proof the transition has occurred.",
         "2026-10-06 source comparison: Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified."
       ]
@@ -2964,16 +2982,16 @@
       "id": "seed-discovery-2-2026-09-25",
       "country": "Sweden",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-      "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
+      "status": "proposed",
+      "reason": "PTSFS 2026:6 verifies adoption of the product-language amendment, effective 1 November 2026.",
+      "next_action": "Review the focused Sweden draft; preserve product-only scope and the distinction from service/public reporting languages.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "needs_evidence",
-          "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-          "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
+          "disposition": "proposed",
+          "reason": "Add the adopted Swedish-or-English rule for specified product market-surveillance documents, with the 1 November 2026 effective date and explicit product-only limitation.",
+          "next_action": "Review the focused Sweden draft.",
           "pr": null,
           "domain": "monitoring"
         },
