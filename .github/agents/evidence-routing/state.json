@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261009T065230Z-pr85-ce8187f0",
-    "acquired_at": "2026-10-09T06:52:30.000Z",
-    "expires_at": "2026-10-09T07:22:30.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1159,6 +1155,42 @@
       "outcome": "merged_existing_suggestions_require_post_merge_followup",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Main confirms both previously notified handoffs remain unresolved: the published standards page lacks registry/canonical record/routing, and the PTS qualified sanctions evidence remains absent from Sweden research and EAA sanctions.md. PR #81 is unrelated."
+    },
+    {
+      "delivery_id": "74d63570-c3ad-11f1-9f36-02c6aaaf1eab",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "no_new_actionable_handoff",
+      "note": "PR #85 already carries the adopted PTSFS 2026:6 product-document language rule to Sweden monitoring research, the monitoring page and the generated routing event. Enforcement and sanctions are explicitly not_applicable. Post-draft portal observations remain research-only and do not establish accepted submission languages. No other open PR overlaps."
+    },
+    {
+      "delivery_id": "789f2450-c3ad-11f1-8419-785ca3e2e74a",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
+    },
+    {
+      "delivery_id": "ce8187f0-c3ad-11f1-9fc7-af993320fae0",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
+    },
+    {
+      "delivery_id": "ec2c70d0-c3ad-11f1-9fa2-ccec669ab392",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
     }
   ],
   "suggestions": [
@@ -3485,7 +3517,43 @@
       "outcome": "merged_existing_suggestions_require_post_merge_followup",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Main confirms both previously notified handoffs remain unresolved: the published standards page lacks registry/canonical record/routing, and the PTS qualified sanctions evidence remains absent from Sweden research and EAA sanctions.md. PR #81 is unrelated."
+    },
+    {
+      "delivery_id": "74d63570-c3ad-11f1-9f36-02c6aaaf1eab",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "no_new_actionable_handoff",
+      "note": "PR #85 already carries the adopted PTSFS 2026:6 product-document language rule to Sweden monitoring research, the monitoring page and the generated routing event. Enforcement and sanctions are explicitly not_applicable. Post-draft portal observations remain research-only and do not establish accepted submission languages. No other open PR overlaps."
+    },
+    {
+      "delivery_id": "789f2450-c3ad-11f1-8419-785ca3e2e74a",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
+    },
+    {
+      "delivery_id": "ce8187f0-c3ad-11f1-9fc7-af993320fae0",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
+    },
+    {
+      "delivery_id": "ec2c70d0-c3ad-11f1-9fa2-ccec669ab392",
+      "event": "pull_request.synchronize",
+      "pull_request": 85,
+      "head_sha": "9d02f977d0851975f849ebfd393a29d8508e7884",
+      "checked_on": "2026-10-09T06:54:30.000Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
     }
   ],
-  "updated_at": "2026-10-09T06:52:30.000Z"
+  "updated_at": "2026-10-09T06:54:30.000Z"
 }
