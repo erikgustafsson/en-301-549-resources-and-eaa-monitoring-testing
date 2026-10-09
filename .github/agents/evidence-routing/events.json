@@ -4163,17 +4163,17 @@
       "id": "seed-discovery-2-2026-09-25",
       "country": "Sweden",
       "recorded_on": "2026-09-25",
-      "status": "needs_evidence",
-      "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-      "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
+      "status": "draft_pr",
+      "reason": "PTSFS 2026:6 verifies adoption of the product-language amendment, effective 1 November 2026.",
+      "next_action": "Review draft PR #85; preserve product-only scope and the distinction from service/public reporting languages.",
       "destinations": [
         {
           "page": "monitoring-agencies-information.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "needs_evidence",
-          "reason": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-          "next_action": "PTS product-language proposal recorded; verify adoption/scope before monitoring PR; enforcement/sanctions not_applicable.",
-          "pr": null,
+          "disposition": "draft_pr",
+          "reason": "Add the adopted Swedish-or-English rule for specified product market-surveillance documents, with the 1 November 2026 effective date and explicit product-only limitation.",
+          "next_action": "Review draft PR #85.",
+          "pr": 85,
           "domain": "monitoring"
         },
         {
