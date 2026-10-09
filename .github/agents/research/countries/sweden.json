@@ -901,9 +901,7 @@
       "export_date_note": "Browser PDF creation/print date, not the monitoring period or original publication date.",
       "extraction": "All pages text-extracted and visually inspected. PDF has duplicated text layer; deduplicated glyphs before table extraction, retained one logical row per subject/period. Names preserved except wrapped line breaks replaced by spaces.",
       "score_definition": "Digg result score; higher means worse accessibility. Not a percentage, raw failure count or sanction.",
-      "table_updated_on": {
-        "2025": "2026-01-10"
-      },
+      "table_updated_on": {},
       "null_recheck_meaning": "For 2020–2021, a blank means no recheck according to the source. For later tables no recheck column is supplied; null does not establish no recheck.",
       "coverage_limit": "Selected in-depth monitoring results, not a national compliance rate or all Digg supervision. No current remediation outcome inferred.",
       "reviewed_apps_2025": [
@@ -1797,7 +1795,7 @@
         }
       ],
       "page_updated_on": "2026-03-16",
-      "table_updated_on": "2026-01-10",
+      "table_updated_on": {},
       "note": "Expanded live FAQ adds detail not present in the supplied collapsed-page printout. No formula coefficients or individual case decisions inspected."
     },
     "source-edc97e749f61e68539716f2d": {
@@ -1827,6 +1825,20 @@
       "accessed_on": "2026-10-09",
       "section": "8 §; 15 §; entry-into-force clause",
       "evidence": "PTSFS 2026:6 was decided 16 September 2026 and published 24 September 2026. It permits the EU declaration of conformity and information supplied to PTS under section 22 LPTT to be in Swedish or English, effective 1 November 2026."
+    },
+    "source-pts-public-form-20261009": {
+      "url": "https://lptt.pts.se/",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-10-09",
+      "section": "Landing page and step 1 of 4",
+      "evidence": "Ordinary-browser check: the public EAA complaint portal rendered, stated that complaints may be anonymous, and exposed the first form step without sign-in. The interface was Swedish and no language selector was observed. No form was submitted."
+    },
+    "source-pts-company-form-20261009": {
+      "url": "https://lptt-rapportering.pts.se/",
+      "source_type": "monitoring_body",
+      "accessed_on": "2026-10-09",
+      "section": "Landing page; product route; steps 1–2 of 4",
+      "evidence": "Ordinary-browser check: the company portal rendered without sign-in through step 2 for a product defect report under sections 21 or 24 LPTT. The interface was Swedish, no language selector was observed, and a required file-upload control was displayed. No data or file was supplied and no form was submitted."
     }
   },
   "domains": {
@@ -2357,12 +2369,25 @@
           "source_refs": [
             "source-ptsfs-2026-6"
           ]
+        },
+        {
+          "id": "monitoring-pts-forms-browser-check-20261009",
+          "field": "additional_information",
+          "assertion": "On 9 October 2026 both PTS EAA portals rendered in an ordinary browser through their initial actionable steps.",
+          "status": "verified",
+          "directive_context": "EAA",
+          "scope": "Portal visibility and observed interface only",
+          "review_note": "Public complaints reached step 1 and the landing page stated anonymous complaints are possible. Company product-defect reporting reached step 2 without sign-in. Both interfaces were Swedish and no language selector was observed. This does not establish accepted submission languages, successful end-to-end submission, or the scope of PTSFS 2026:6 beyond product information under sections 8 and 15 of PTSFS 2024:5. No form was submitted and no file or personal data was supplied.",
+          "source_refs": [
+            "source-pts-public-form-20261009",
+            "source-pts-company-form-20261009"
+          ]
         }
       ],
       "questions": [
         "Before PR: Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment.",
         "Before PR: Resolved: rechecked Konsumentverket's company-notification email/postal route and passenger-transport scope. Unsupported new MTM/Mediemyndigheten form claims and a final 2027 media-law claim remain omitted, not verified.",
-        "Follow-up: Inspect existing PTS forms and proposed MTM/Mediemyndigheten destinations without submitting; record actual login and language requirements before adding new form claims.",
+        "Follow-up after ordinary-browser check on 2026-10-09: both PTS portals rendered through initial actionable steps without sign-in; the interfaces were Swedish and no language selector was observed. Accepted submission languages and end-to-end operation remain unknown because no data, file or form was submitted. MTM/Mediemyndigheten destination checks remain separate.",
         "Follow-up: Find Transportstyrelsen routes and Konsumentverket public/exemption routes before publishing them.",
         "Follow-up: Track current English/API policy and the requested updated PTS process file; historical correspondence is retained as dated evidence.",
         "Follow-up: Establish any all-sector dedicated-page mandate and final enactment of proposed 2027 media changes before making new claims.",
