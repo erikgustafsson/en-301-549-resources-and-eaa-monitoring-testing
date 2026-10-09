@@ -751,10 +751,10 @@
       "extraction": "All pages text-extracted and visually inspected. PDF has duplicated text layer; deduplicated glyphs before table extraction, retained one logical row per subject/period. Names preserved except wrapped line breaks replaced by spaces.",
       "score_definition": "Digg result score; higher means worse accessibility. Not a percentage, raw failure count or sanction.",
       "table_updated_on": {
+        "2020-2021": "2022-07-05",
         "2022": "2023-02-02",
         "2023": "2024-05-10",
-        "2024": "2025-10-23",
-        "2020-2021": "2022-07-05"
+        "2024": "2025-10-23"
       },
       "null_recheck_meaning": "For 2020–2021, a blank means no recheck according to the source. For later tables no recheck column is supplied; null does not establish no recheck.",
       "coverage_limit": "Selected in-depth monitoring results, not a national compliance rate or all Digg supervision. No current remediation outcome inferred."
@@ -901,7 +901,9 @@
       "export_date_note": "Browser PDF creation/print date, not the monitoring period or original publication date.",
       "extraction": "All pages text-extracted and visually inspected. PDF has duplicated text layer; deduplicated glyphs before table extraction, retained one logical row per subject/period. Names preserved except wrapped line breaks replaced by spaces.",
       "score_definition": "Digg result score; higher means worse accessibility. Not a percentage, raw failure count or sanction.",
-      "table_updated_on": {},
+      "table_updated_on": {
+        "2025": "2026-01-10"
+      },
       "null_recheck_meaning": "For 2020–2021, a blank means no recheck according to the source. For later tables no recheck column is supplied; null does not establish no recheck.",
       "coverage_limit": "Selected in-depth monitoring results, not a national compliance rate or all Digg supervision. No current remediation outcome inferred.",
       "reviewed_apps_2025": [
@@ -1700,24 +1702,24 @@
         }
       ],
       "counts_by_sheet_year": {
-        "2022": {
-          "app": 2,
-          "website": 10
-        },
-        "2023": {
-          "app": 7,
-          "website": 10
-        },
-        "2024": {
-          "app": 6,
+        "2026": {
+          "app": 4,
           "website": 10
         },
         "2025": {
           "website": 17,
           "app": 9
         },
-        "2026": {
-          "app": 4,
+        "2024": {
+          "app": 6,
+          "website": 10
+        },
+        "2023": {
+          "app": 7,
+          "website": 10
+        },
+        "2022": {
+          "app": 2,
           "website": 10
         }
       },
@@ -1795,7 +1797,7 @@
         }
       ],
       "page_updated_on": "2026-03-16",
-      "table_updated_on": {},
+      "table_updated_on": "2026-01-10",
       "note": "Expanded live FAQ adds detail not present in the supplied collapsed-page printout. No formula coefficients or individual case decisions inspected."
     },
     "source-edc97e749f61e68539716f2d": {
