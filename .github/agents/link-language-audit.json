@@ -6301,6 +6301,18 @@
       "language": "en",
       "reason": "Official English publisher PDF or standard catalogue read on 2026-10-16.",
       "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice",
+      "language": "en",
+      "checked_on": "2026-10-16",
+      "reason": "BSI English catalogue scope and current publication status retrieved and read."
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice",
+      "language": "en",
+      "checked_on": "2026-10-16",
+      "reason": "BSI English catalogue scope and current publication status retrieved and read."
     }
   ]
 }
