@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-20261016-pr87-ready-fb7c9f00-finalize",
+    "acquired_at": "2026-10-16T10:13:05.876Z",
+    "expires_at": "2026-10-16T10:43:05.876Z",
+    "pull_request": 87,
+    "delivery_id": "fb7c9f00-c949-11f1-9381-95152742dfe9"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3647,5 +3653,5 @@
       "note": "Actual GitHub state is merged. Main contains the four ISO/IEC rows from PRs #86 and #87, but the standards page remains unregistered and the canonical record/delivery/mapping/events handoff remains absent. The existing post-PR80 suggestion is now a post-PR87 follow-up; no duplicate suggestion was created."
     }
   ],
-  "updated_at": "2026-10-16T10:12:44.348Z"
+  "updated_at": "2026-10-16T10:13:05.876Z"
 }
