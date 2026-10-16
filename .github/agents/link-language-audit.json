@@ -6289,6 +6289,18 @@
       "language": "sv",
       "reason": "SIS Swedish seminar agenda retrieved and read.",
       "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.csagroup.org/wp-content/uploads/2431490.pdf",
+      "language": "en",
+      "reason": "Official English publisher PDF or standard catalogue read on 2026-10-16.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/csa-asc-b6512-accessible-design-self-service-interactive-devices-including-automated-banking-machines",
+      "language": "en",
+      "reason": "Official English publisher PDF or standard catalogue read on 2026-10-16.",
+      "checked_on": "2026-10-16"
     }
   ]
 }
