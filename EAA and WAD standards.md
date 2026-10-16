@@ -84,8 +84,6 @@ Applicability includes the beneficial use of a standard to improve accessibility
 
 ## Related standards
 
-The agenda for the <a href="https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/" hreflang="sv">SIS accessibility seminar on 12 October 2026</a> lists ISO 21801-1, ISO 24495-1 and ISO/IEC 23859 alongside the European standards listed above.
-
 <table>
   <caption>Related accessibility standards</caption>
   <thead>
