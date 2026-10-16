@@ -133,6 +133,33 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top">Supporting guidance for understandable written text on websites and mobile apps.</td>
       <td align="left" valign="top">2026-10-16</td>
     </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.csagroup.org/wp-content/uploads/2431490.pdf" hreflang="en">CSA/ASC B651.2:25: Accessible design for self-service interactive devices including automated banking machines</a> (Free PDF)<br><br>Accessibility requirements for the design and installation of self-service devices, including banking machines, retail self-checkouts, check-in devices and ticket kiosks.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published January 2025.<br><br><a href="https://accessible.canada.ca/standards-and-technical-guides/standards-and-technical-guides-database/csa-asc-b6512-accessible-design-self-service-interactive-devices-including-automated-banking-machines" hreflang="en">Accessibility Standards Canada publication record</a>.</td>
+      <td align="left" valign="top">Comparative technical reference for self-service terminals. Does not establish EAA conformity.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice" hreflang="en">BS 8300-1:2018: Design of an accessible and inclusive built environment: External environment. Code of practice</a><br><br>Guidance on accessible outdoor environments, including routes, parking and approaches to buildings.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Current. Published January 2018.<br><br><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-external-environment-code-of-practice" hreflang="en">BSI publication and history</a>.</td>
+      <td align="left" valign="top">Supporting design guidance for outdoor access to covered services and terminals; national built-environment rules apply.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice" hreflang="en">BS 8300-2:2018: Design of an accessible and inclusive built environment: Buildings. Code of practice</a><br><br>Guidance on accessible buildings, including entrances, reception areas, circulation and facilities.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Current. Published January 2018.<br><br><a href="https://knowledge.bsigroup.com/products/design-of-an-accessible-and-inclusive-built-environment-buildings-code-of-practice" hreflang="en">BSI publication and history</a>.</td>
+      <td align="left" valign="top">Supporting design guidance for buildings housing covered services and terminals; national built-environment rules apply.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
   </tbody>
 </table>
 
