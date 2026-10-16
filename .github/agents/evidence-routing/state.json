@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "evidence-routing-20261016T092230Z-pr86-5c8f2a",
-    "acquired_at": "2026-10-16T09:22:30.000Z",
-    "expires_at": "2026-10-16T09:52:30.000Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1195,6 +1191,16 @@
       "checked_on": "2026-10-09T06:54:30.000Z",
       "outcome": "duplicate_same_head_no_new_actionable_handoff",
       "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
+    },
+    {
+      "delivery_id": "0a624440-c943-11f1-88d2-76309912ca62",
+      "event": "pull_request.opened",
+      "pull_request": 86,
+      "head_sha": "dbaf02dc3a7f89179a8ddce18a7b1286f7b80161",
+      "checked_on": "2026-10-16T09:29:00.000Z",
+      "outcome": "existing_standards_registry_handoff_extended_for_new_iso_standard",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "PR #86 adds a supported ISO/IEC 20071-31:2026 kiosk-guidance row and a source-fidelity intake, but no page-registry entry, canonical standards record/delivery, mapping or events disposition. The pre-existing post-PR80 standards-page suggestion is extended to cover this ISO evidence; no duplicate suggestion was created. Monitoring, enforcement and sanctions are not_applicable, and no new-country research was started."
     }
   ],
   "suggestions": [
@@ -2247,13 +2253,20 @@
       "target": "PR #80 EAA and WAD standards.md, page registry and canonical EU-wide standards research/routing",
       "status": "post_pr80_followup_required",
       "covering_pr": null,
-      "proposed_change": "Before merge, register EAA and WAD standards.md in .github/agents/evidence.md with a canonical record format and validation command. Add a canonical EU-wide standards record for EN 303 919, prEN 18339, prEN 18340, EN 17161 and EN 17210 rather than leaving public claims only in the new page; retain exact issuer, final/draft stage, target-versus-achieved dates, checked sources and the ANEC/catalogue conflict. Include the official PTS standards-guidance source added at commit 492cb601 as supporting explanatory evidence, bounded to what it states. Link the overlapping EN 301 549/WAD-citation facts to .github/agents/adoption/european-standard.json and add the new page as a destination to the relevant EU-wide delivery, while recording monitoring, enforcement and sanctions as not_applicable for the standards claims. Define whether this global future-page delivery is projected into events.json, then regenerate the index if the registry contract requires it. Do not infer OJ citation from publication, authority guidance or a schedule target.",
-      "evidence": "PR #80 adds substantive public standards claims and a README link but changes no research record, page registry or routing ledger. ETSI's M/587 work programme shows EN 303 919 V1.1.1 and EN 301 549 V4.1.1 as published/delivered; BSI project records supply draft/public-comment/planned-publication milestones for EN 18339 and EN 18340; Decision (EU) 2021/1339 supports only the WAD citation of EN 301 549 V3.2.1. Existing adoption/european-standard.json already stores the EN 301 549 evidence and warns that the 16 December 2026 ETSI date is a target, not achieved citation.",
-      "limitations": "No country rollout and no monitoring, enforcement or sanctions public change is supported. 'No citation identified' must remain bounded to the checked directive-specific OJ sources. Standards-body catalogues can establish publication or draft status, not legal effect; BSI future dates are national development plans, and the ANEC statement conflicts with current catalogue status. A new checker validates structure/provenance, not legal accuracy.",
+      "proposed_change": "Use open draft PR #86, or one combined metadata follow-up if its scope must remain isolated, to register EAA and WAD standards.md in .github/agents/evidence.md with a canonical record format and validation command. Preserve the existing post-PR80 requirements for the six European standards and the EN 301 549/WAD-citation cross-link. Add ISO/IEC 20071-31:2026 to that canonical standards record with ISO as issuer, Edition 1, publication on 2026-08-18, the kiosk hardware/software/content/installation scope, and the limitation that it is supporting guidance for EAA-covered self-service terminals rather than an OJ citation, harmonized standard or presumption of conformity. Add one stable delivery with standards proposed and adoption/monitoring/enforcement/sanctions not_applicable, then generate events.json only if the registered global-page contract projects it. Do not leave the new intake JSON as the sole research/routing record.",
+      "evidence": "PR #86 adds ISO/IEC 20071-31:2026 to EAA and WAD standards.md and stores a source-fidelity intake. ISO confirms Edition 1, publication stage 60.60 on 2026-08-18, and requirements/guidance covering kiosk hardware, software, content and installation environments. The PR does not change .github/agents/evidence.md, .github/agents/adoption/european-standard.json, any canonical delivery, or events.json; those files still do not mention ISO/IEC 20071-31. This extends the unresolved registry/canonical-record handoff from merged PR #80.",
+      "limitations": "Full paid standard not reviewed. The public ISO abstract supports only the summarized scope; no clause-by-clause EAA mapping is claimed. Publication is not OJ citation, EN adoption, harmonization or legal effect. EAA relevance is limited to specified self-service terminals; WAD, national monitoring, enforcement and sanctions remain not_applicable. No new-country research is authorized.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-02T11:52:00.000Z",
-      "progress": "PR #80 merged as commit 842df773 without the page-registry entry, canonical EU-wide standards record/mapping, routing delivery or generated events disposition. Main now publishes EAA and WAD standards.md, but .github/agents/evidence.md and .github/agents/adoption/european-standard.json do not register it, and events.json contains no corresponding delivery. Open PR #81 is Italy-only and does not cover this follow-up."
+      "updated_on": "2026-10-16T09:29:00.000Z",
+      "progress": "Open draft PR #86 at head dbaf02d adds the ISO row and a noncanonical intake but does not resolve the standards-page registry, canonical research/delivery, mapping or generated-index contract. Open PR #85 is Sweden monitoring-only and does not overlap.",
+      "related_prs": [
+        80,
+        86
+      ],
+      "evidence_fingerprints": [
+        "iso-20071-31:2026|iso|2026-08-18|kiosk-scope|pr86-dbaf02d"
+      ]
     },
     {
       "id": "pts-eaa-introduction-2025-11-04|sweden|EAA-sanctions.md|qualified-product-sale-prohibition",
@@ -3557,7 +3570,17 @@
       "checked_on": "2026-10-09T06:54:30.000Z",
       "outcome": "duplicate_same_head_no_new_actionable_handoff",
       "note": "Synchronization resolves to the same reviewed PR #85 head. The monitoring handoff remains fully covered by the draft; enforcement and sanctions remain not_applicable, with no distinct evidence or suggestion."
+    },
+    {
+      "delivery_id": "0a624440-c943-11f1-88d2-76309912ca62",
+      "event": "pull_request.opened",
+      "pull_request": 86,
+      "head_sha": "dbaf02dc3a7f89179a8ddce18a7b1286f7b80161",
+      "checked_on": "2026-10-16T09:29:00.000Z",
+      "outcome": "existing_standards_registry_handoff_extended_for_new_iso_standard",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "PR #86 adds a supported ISO/IEC 20071-31:2026 kiosk-guidance row and a source-fidelity intake, but no page-registry entry, canonical standards record/delivery, mapping or events disposition. The pre-existing post-PR80 standards-page suggestion is extended to cover this ISO evidence; no duplicate suggestion was created. Monitoring, enforcement and sanctions are not_applicable, and no new-country research was started."
     }
   ],
-  "updated_at": "2026-10-16T09:22:30.000Z"
+  "updated_at": "2026-10-16T09:29:00.000Z"
 }
