@@ -82,6 +82,33 @@ Applicability includes the beneficial use of a standard to improve accessibility
   </tbody>
 </table>
 
+## Related standards
+
+<table>
+  <caption>Related accessibility standards</caption>
+  <thead>
+    <tr>
+      <th scope="col" align="left" valign="top">Standard</th>
+      <th scope="col" align="left" valign="top">Official journal citation</th>
+      <th scope="col" align="left" valign="top">Status and draft schedule</th>
+      <th scope="col" align="left" valign="top">EAA applicability</th>
+      <th scope="col" align="left" valign="top">WAD applicability</th>
+      <th scope="col" align="left" valign="top">Updated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/86525.html" hreflang="en">ISO/IEC 20071-31:2026: Information technology: User interface component accessibility: Part 31: Accessibility of kiosks</a><br><br>Requirements and guidance for accessible kiosk hardware, software, content and installation environments.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Edition 1 published on 2026-08-18.<br><br><a href="https://www.iso.org/standard/86525.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for covered self-service terminals.</td>
+      <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Reading the status and schedule columns
 
 - **Official journal citation:** **Yes** applies only to the edition and directive named in the cell; **No** means no citation was identified in the sources checked on the entry date. The cited edition can differ from the latest published version; see Status and draft schedule. A **No** does not postpone accessibility obligations.

@@ -6259,6 +6259,12 @@
       "final_url": "https://wallmans.se/",
       "outcome": "html_retrieved",
       "title": "Wallmans Stockholm - Dinnershow & Fest"
+    },
+    {
+      "url": "https://www.iso.org/standard/86525.html",
+      "language": "en",
+      "reason": "Official English ISO catalogue and lifecycle read on 2026-10-16.",
+      "checked_on": "2026-10-16"
     }
   ]
 }
