@@ -1,16 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261016-pr88-sync-batch-6cf180e0",
-    "acquired_at": "2026-10-16T10:31:37.728Z",
-    "expires_at": "2026-10-16T11:01:37.728Z",
-    "pull_request": 88,
-    "delivery_ids": [
-      "6cf180e0-c94c-11f1-890c-983e129c7f62",
-      "6e098090-c94c-11f1-8d5e-4b176aecf2f6",
-      "6effee80-c94c-11f1-9409-44545c729049"
-    ]
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1271,6 +1261,36 @@
       "outcome": "existing_standards_page_registry_handoff_extended_for_uk_guidance_no_new_content_suggestion",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The new head adds supported BS 8300 Parts 1 and 2 rows, UK canonical research/delivery and correct cross-page dispositions. Canada routing remains supported. The only unresolved overlap is the already-notified global standards-page registry/mapping contract; no duplicate suggestion was created and no new-country research was started."
+    },
+    {
+      "delivery_id": "6cf180e0-c94c-11f1-890c-983e129c7f62",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:31:57.385Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Synchronization resolves to the same PR #88 head already reviewed. Canada and United Kingdom standards evidence remains fully routed in canonical country records, deliveries and page dispositions; the only outstanding overlap is the previously notified global standards-page registry/mapping contract."
+    },
+    {
+      "delivery_id": "6e098090-c94c-11f1-8d5e-4b176aecf2f6",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:31:57.385Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Synchronization resolves to the same PR #88 head already reviewed. Canada and United Kingdom standards evidence remains fully routed in canonical country records, deliveries and page dispositions; the only outstanding overlap is the previously notified global standards-page registry/mapping contract."
+    },
+    {
+      "delivery_id": "6effee80-c94c-11f1-9409-44545c729049",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:31:57.385Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Synchronization resolves to the same PR #88 head already reviewed. Canada and United Kingdom standards evidence remains fully routed in canonical country records, deliveries and page dispositions; the only outstanding overlap is the previously notified global standards-page registry/mapping contract."
     }
   ],
   "suggestions": [
@@ -3720,7 +3740,37 @@
       "outcome": "existing_standards_page_registry_handoff_extended_for_uk_guidance_no_new_content_suggestion",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "The new head adds supported BS 8300 Parts 1 and 2 rows, UK canonical research/delivery and correct cross-page dispositions. Canada routing remains supported. The only unresolved overlap is the already-notified global standards-page registry/mapping contract; no duplicate suggestion was created and no new-country research was started."
+    },
+    {
+      "delivery_id": "6cf180e0-c94c-11f1-890c-983e129c7f62",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:31:57.385Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Synchronization resolves to the same PR #88 head already reviewed. Canada and United Kingdom standards evidence remains fully routed in canonical country records, deliveries and page dispositions; the only outstanding overlap is the previously notified global standards-page registry/mapping contract."
+    },
+    {
+      "delivery_id": "6e098090-c94c-11f1-8d5e-4b176aecf2f6",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:31:57.385Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Synchronization resolves to the same PR #88 head already reviewed. Canada and United Kingdom standards evidence remains fully routed in canonical country records, deliveries and page dispositions; the only outstanding overlap is the previously notified global standards-page registry/mapping contract."
+    },
+    {
+      "delivery_id": "6effee80-c94c-11f1-9409-44545c729049",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:31:57.385Z",
+      "outcome": "duplicate_same_head_no_new_actionable_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Synchronization resolves to the same PR #88 head already reviewed. Canada and United Kingdom standards evidence remains fully routed in canonical country records, deliveries and page dispositions; the only outstanding overlap is the previously notified global standards-page registry/mapping contract."
     }
   ],
-  "updated_at": "2026-10-16T10:31:37.728Z"
+  "updated_at": "2026-10-16T10:31:57.385Z"
 }
