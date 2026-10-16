@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261016-pr87-7e6bb6e0",
-    "acquired_at": "2026-10-16T10:09:50.322Z",
-    "expires_at": "2026-10-16T10:39:50.322Z",
-    "pull_request": 87,
-    "delivery_id": "7e6bb6e0-c949-11f1-9d5d-db6ca6bbc55f"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1207,6 +1201,16 @@
       "outcome": "existing_standards_registry_handoff_extended_for_new_iso_standard",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "PR #86 adds a supported ISO/IEC 20071-31:2026 kiosk-guidance row and a source-fidelity intake, but no page-registry entry, canonical standards record/delivery, mapping or events disposition. The pre-existing post-PR80 standards-page suggestion is extended to cover this ISO evidence; no duplicate suggestion was created. Monitoring, enforcement and sanctions are not_applicable, and no new-country research was started."
+    },
+    {
+      "delivery_id": "7e6bb6e0-c949-11f1-9d5d-db6ca6bbc55f",
+      "event": "pull_request.opened",
+      "pull_request": 87,
+      "head_sha": "ab9112c16393a5cd45e3d3646d4e365950faaf05",
+      "checked_on": "2026-10-16T10:10:55.987Z",
+      "outcome": "existing_standards_registry_handoff_extended_for_three_iso_standards",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "PR #87 adds three supported ISO/IEC related-standards rows and a source-fidelity intake, but no page-registry entry, canonical standards record/delivery, mapping or events disposition. The pre-existing post-PR80 standards-page suggestion is extended to cover this evidence; no duplicate suggestion was created. Adoption, monitoring, enforcement and sanctions are not_applicable, and no new-country research was started."
     }
   ],
   "suggestions": [
@@ -2259,19 +2263,24 @@
       "target": "PR #80 EAA and WAD standards.md, page registry and canonical EU-wide standards research/routing",
       "status": "post_pr80_followup_required",
       "covering_pr": null,
-      "proposed_change": "Use open draft PR #86, or one combined metadata follow-up if its scope must remain isolated, to register EAA and WAD standards.md in .github/agents/evidence.md with a canonical record format and validation command. Preserve the existing post-PR80 requirements for the six European standards and the EN 301 549/WAD-citation cross-link. Add ISO/IEC 20071-31:2026 to that canonical standards record with ISO as issuer, Edition 1, publication on 2026-08-18, the kiosk hardware/software/content/installation scope, and the limitation that it is supporting guidance for EAA-covered self-service terminals rather than an OJ citation, harmonized standard or presumption of conformity. Add one stable delivery with standards proposed and adoption/monitoring/enforcement/sanctions not_applicable, then generate events.json only if the registered global-page contract projects it. Do not leave the new intake JSON as the sole research/routing record.",
-      "evidence": "PR #86 adds ISO/IEC 20071-31:2026 to EAA and WAD standards.md and stores a source-fidelity intake. ISO confirms Edition 1, publication stage 60.60 on 2026-08-18, and requirements/guidance covering kiosk hardware, software, content and installation environments. The PR does not change .github/agents/evidence.md, .github/agents/adoption/european-standard.json, any canonical delivery, or events.json; those files still do not mention ISO/IEC 20071-31. This extends the unresolved registry/canonical-record handoff from merged PR #80.",
-      "limitations": "Full paid standard not reviewed. The public ISO abstract supports only the summarized scope; no clause-by-clause EAA mapping is claimed. Publication is not OJ citation, EN adoption, harmonization or legal effect. EAA relevance is limited to specified self-service terminals; WAD, national monitoring, enforcement and sanctions remain not_applicable. No new-country research is authorized.",
+      "proposed_change": "Use one combined standards-metadata follow-up to register EAA and WAD standards.md in .github/agents/evidence.md, define a canonical global standards record plus source-to-claim mapping, and migrate the four ISO/IEC entries currently represented only by PR intake files: ISO/IEC 20071-31:2026, ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023. Add stable evidence deliveries with the standards page proposed and adoption, monitoring, enforcement and sanctions not_applicable; generate events.json only through the registered global-page contract. Preserve the rows as supporting guidance, and do not label them OJ-cited, harmonized, adopted as EN standards, legally required, or sources of presumption of conformity without separate official evidence.",
+      "evidence": "Merged PR #86 placed ISO/IEC 20071-31:2026 on EAA and WAD standards.md. Open draft PR #87 at head ab9112c16393a5cd45e3d3646d4e365950faaf05 adds ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023 plus a source-fidelity intake. ISO's public catalog confirms the three titles, editions, publication status and summarized scopes; SIS's 12 October 2026 seminar agenda groups the three as accessibility-related guidance. Main still has no page registration in .github/agents/evidence.md and no mention of these standards in a canonical global record, adoption/european-standard.json or events.json. PR #87 therefore expands, but does not resolve, the existing post-PR80 registry/canonical-record handoff.",
+      "limitations": "The paid full standards were not reviewed. ISO public abstracts support only titles, status and high-level scope. The SIS agenda is contextual evidence that the standards were presented as accessibility guidance; it does not establish EAA or WAD legal applicability, OJ citation, harmonization, national adoption, presumption of conformity, monitoring practice, enforcement action or sanctions. ISO 21801-1 was confirmed in 2025; that confirmation does not add legal effect. No new-country research is authorized.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-16T09:29:00.000Z",
-      "progress": "Open draft PR #86 at head dbaf02d adds the ISO row and a noncanonical intake but does not resolve the standards-page registry, canonical research/delivery, mapping or generated-index contract. Open PR #85 is Sweden monitoring-only and does not overlap.",
+      "updated_on": "2026-10-16T10:10:55.987Z",
+      "progress": "Open draft PR #87 at head ab9112c16393a5cd45e3d3646d4e365950faaf05 adds the three ISO rows and a noncanonical intake but does not resolve the standards-page registry, canonical research/delivery, mapping or generated-index contract. PR #86 has merged and likewise left the infrastructure gap unresolved. No other open PR covers the canonical handoff.",
       "related_prs": [
         80,
-        86
+        86,
+        87
       ],
       "evidence_fingerprints": [
-        "iso-20071-31:2026|iso|2026-08-18|kiosk-scope|pr86-dbaf02d"
+        "iso-20071-31:2026|iso|2026-08-18|kiosk-scope|pr86-dbaf02d",
+        "iso-21801-1:2020|iso|published-2020-01-13|confirmed-2025-10-02|cognitive-accessibility",
+        "iso-24495-1:2023|iso|published-2023-06-20|plain-language",
+        "iso-iec-23859:2023|iso-iec|published-2023-07-04|written-text-user-interfaces",
+        "sis-accessibility-standards-seminar|2026-10-12|iso-21801-1+iso-24495-1+iso-iec-23859"
       ]
     },
     {
@@ -3586,7 +3595,17 @@
       "outcome": "existing_standards_registry_handoff_extended_for_new_iso_standard",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "PR #86 adds a supported ISO/IEC 20071-31:2026 kiosk-guidance row and a source-fidelity intake, but no page-registry entry, canonical standards record/delivery, mapping or events disposition. The pre-existing post-PR80 standards-page suggestion is extended to cover this ISO evidence; no duplicate suggestion was created. Monitoring, enforcement and sanctions are not_applicable, and no new-country research was started."
+    },
+    {
+      "delivery_id": "7e6bb6e0-c949-11f1-9d5d-db6ca6bbc55f",
+      "event": "pull_request.opened",
+      "pull_request": 87,
+      "head_sha": "ab9112c16393a5cd45e3d3646d4e365950faaf05",
+      "checked_on": "2026-10-16T10:10:55.987Z",
+      "outcome": "existing_standards_registry_handoff_extended_for_three_iso_standards",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "PR #87 adds three supported ISO/IEC related-standards rows and a source-fidelity intake, but no page-registry entry, canonical standards record/delivery, mapping or events disposition. The pre-existing post-PR80 standards-page suggestion is extended to cover this evidence; no duplicate suggestion was created. Adoption, monitoring, enforcement and sanctions are not_applicable, and no new-country research was started."
     }
   ],
-  "updated_at": "2026-10-16T10:09:50.322Z"
+  "updated_at": "2026-10-16T10:10:55.987Z"
 }
