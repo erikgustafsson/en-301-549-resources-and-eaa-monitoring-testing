@@ -84,6 +84,8 @@ Applicability includes the beneficial use of a standard to improve accessibility
 
 ## Related standards
 
+The agenda for the <a href="https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/" hreflang="sv">SIS accessibility seminar on 12 October 2026</a> lists ISO 21801-1, ISO 24495-1 and ISO/IEC 23859 alongside the European standards listed above.
+
 <table>
   <caption>Related accessibility standards</caption>
   <thead>
@@ -104,6 +106,33 @@ Applicability includes the beneficial use of a standard to improve accessibility
       <td align="left" valign="top">Edition 1 published on 2026-08-18.<br><br><a href="https://www.iso.org/standard/86525.html" hreflang="en">ISO publication and development history</a>.</td>
       <td align="left" valign="top">Supporting guidance for covered self-service terminals.</td>
       <td align="left" valign="top">Not applicable</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/71711.html" hreflang="en">ISO 21801-1:2020: Cognitive accessibility: Part 1: General guidelines</a><br><br>Guidelines for designing and developing cognitively accessible products, services and built environments.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published January 2020; confirmed in 2025.<br><br><a href="https://www.iso.org/standard/71711.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for cognitive accessibility of covered products and services.</td>
+      <td align="left" valign="top">Supporting guidance for cognitive accessibility of websites and mobile apps.</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/78907.html" hreflang="en">ISO 24495-1:2023: Plain language: Part 1: Governing principles and guidelines</a><br><br>Principles and guidelines for creating primarily text-based plain language documents in print and digital formats.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published June 2023.<br><br><a href="https://www.iso.org/standard/78907.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for understandable written information about covered products and services.</td>
+      <td align="left" valign="top">Supporting guidance for understandable text on websites and mobile apps.</td>
+      <td align="left" valign="top">2026-10-16</td>
+    </tr>
+    <!-- last_verified: 2026-10-16 -->
+    <tr>
+      <td align="left" valign="top"><a href="https://www.iso.org/standard/77178.html" hreflang="en">ISO/IEC 23859:2023: Information technology: User interfaces: Requirements and recommendations on making written text easy to read and understand</a><br><br>Requirements and recommendations for creating, adapting and evaluating written text that is easy to read and understand in user interfaces.</td>
+      <td align="left" valign="top">No</td>
+      <td align="left" valign="top">Published July 2023.<br><br><a href="https://www.iso.org/standard/77178.html" hreflang="en">ISO publication and development history</a>.</td>
+      <td align="left" valign="top">Supporting guidance for understandable written text in covered user interfaces.</td>
+      <td align="left" valign="top">Supporting guidance for understandable written text on websites and mobile apps.</td>
       <td align="left" valign="top">2026-10-16</td>
     </tr>
   </tbody>
