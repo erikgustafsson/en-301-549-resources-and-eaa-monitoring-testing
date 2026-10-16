@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261016-pr88-sync-6c0c02e0",
-    "acquired_at": "2026-10-16T10:29:33.971Z",
-    "expires_at": "2026-10-16T10:59:33.971Z",
-    "pull_request": 88,
-    "delivery_id": "6c0c02e0-c94c-11f1-8c6e-e88fea398eab"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1257,6 +1251,16 @@
       "outcome": "existing_standards_page_registry_handoff_extended_no_new_content_suggestion",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "PR #88 contains supported Canada research, a canonical country delivery, a scoped public standards row and correct per-page dispositions. The only unresolved overlap is the already-notified global standards-page registry/mapping contract, now extended to preserve/project the Canada delivery; no duplicate suggestion was created and no new-country research was started."
+    },
+    {
+      "delivery_id": "6c0c02e0-c94c-11f1-8c6e-e88fea398eab",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:30:28.427Z",
+      "outcome": "existing_standards_page_registry_handoff_extended_for_uk_guidance_no_new_content_suggestion",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "The new head adds supported BS 8300 Parts 1 and 2 rows, UK canonical research/delivery and correct cross-page dispositions. Canada routing remains supported. The only unresolved overlap is the already-notified global standards-page registry/mapping contract; no duplicate suggestion was created and no new-country research was started."
     }
   ],
   "suggestions": [
@@ -2309,13 +2313,13 @@
       "target": "EAA and WAD standards.md page registry, canonical standards research/routing and source-to-claim mapping",
       "status": "post_pr87_followup_required",
       "covering_pr": null,
-      "proposed_change": "Use one combined standards-metadata follow-up to register EAA and WAD standards.md in .github/agents/evidence.md and define its global source-to-claim mapping. Migrate the four ISO/IEC entries represented only by PR intake files (ISO/IEC 20071-31:2026, ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023) into canonical records with stable deliveries. Preserve PR #88's Canada country record and canada-b651-2-2025-2026-10-16 delivery as the canonical location for CSA/ASC B651.2:25, then project it through the registered global-page contract rather than duplicating it. Generate events.json only through that contract. Keep all rows as supporting or comparative guidance; do not label them OJ-cited, harmonized, adopted as EN standards, legally required for EAA/WAD, or sources of presumption of conformity without separate official evidence.",
-      "evidence": "Merged PRs #86 and #87 placed four ISO/IEC rows on EAA and WAD standards.md but left their evidence in noncanonical intake files. Open draft PR #88 at head a750fd39c1134dfbacfcf4eb81ac2053f5b3ad04 proposes CSA/ASC B651.2:25 and correctly stores its primary sources, related-standards research and delivery in Canada's canonical country record, plus explicit cross-page dispositions. CSA/ASC confirms the January 2025 standard covers design, manufacture, site preparation and installation of self-service interactive devices. Canadian regulations and CTA guidance still name CAN/CSA-B651.2-07 (R2017) for covered transportation kiosks, so PR #88 correctly avoids claiming that the 2025 edition automatically replaced the legal reference. Neither PR #88 nor main registers EAA and WAD standards.md in .github/agents/evidence.md; the existing page-contract handoff therefore remains, but no separate Canada content handoff is missing.",
-      "limitations": "CSA/ASC B651.2:25 was inspected only for selected scope and input clauses, not for full conformance. The standard is voluntary absent a separate legal incorporation. ATPDR section 11 expressly names the 2007 edition reaffirmed 2017, as amended from time to time; the public sources do not establish that B651.2:25 is the controlling edition for any particular deployment. The Canada row is a comparative technical reference, not evidence of EAA conformity, EN adoption, monitoring activity, enforcement action or sanctions. No new-country research was started by this routing pass.",
+      "proposed_change": "Use one combined standards-metadata follow-up to register EAA and WAD standards.md in .github/agents/evidence.md and define its global source-to-claim mapping. Migrate the four ISO/IEC entries represented only by PR intake files (ISO/IEC 20071-31:2026, ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023) into canonical records with stable deliveries. Preserve PR #88's Canada and United Kingdom country records and their canada-b651-2-2025-2026-10-16 and uk-bs8300-guidance-2026-10-16 deliveries as canonical, then project them through the registered global-page contract rather than duplicating them. Generate events.json only through that contract. Keep all rows as supporting or comparative guidance; do not label them OJ-cited, harmonized, adopted as EN standards, legally required for EAA/WAD, or sources of presumption of conformity without separate official evidence.",
+      "evidence": "Merged PRs #86 and #87 placed four ISO/IEC rows on EAA and WAD standards.md but left their evidence in noncanonical intake files. Open draft PR #88 at head b86d056a6e93c188611fd771baa1175fa75e8e26 proposes CSA/ASC B651.2:25 and BS 8300-1:2018/BS 8300-2:2018, and correctly stores their primary sources, related-standards research and deliveries in the Canada and United Kingdom canonical country records with explicit cross-page dispositions. CSA/ASC confirms the January 2025 self-service-device scope; Canadian regulations and CTA guidance still name CAN/CSA-B651.2-07 (R2017) for covered transportation kiosks. BSI lists both BS 8300 parts as current, published 31 January 2018, with Part 1 covering external environments and Part 2 covering buildings. Neither PR #88 nor main registers EAA and WAD standards.md in .github/agents/evidence.md, so the existing page-contract handoff remains; no separate Canada or UK content handoff is missing.",
+      "limitations": "CSA/ASC B651.2:25 was inspected only for selected scope and input clauses, not full conformance. The Canadian sources do not establish that B651.2:25 is the controlling legal edition for any particular deployment. The paid BS 8300 texts were not inspected; only BSI catalogue status and high-level scope were verified. The Canada and UK rows are comparative/supporting guidance, not evidence of EAA conformity, EN adoption, OJ citation, monitoring activity, enforcement action or sanctions. No new-country research was started by this routing pass.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-16T10:28:53.427Z",
-      "progress": "Open draft PR #88 at head a750fd39c1134dfbacfcf4eb81ac2053f5b3ad04 fully covers its Canada research/public-row routing but does not resolve the pre-existing standards-page registration and global mapping contract. Main still lacks the registry entry. No other open PR covers that metadata layer.",
+      "updated_on": "2026-10-16T10:30:28.427Z",
+      "progress": "Open draft PR #88 at head b86d056a6e93c188611fd771baa1175fa75e8e26 fully covers its Canada and United Kingdom research/public-row routing but does not resolve the pre-existing standards-page registration and global mapping contract. Main still lacks the registry entry. The synchronized PR description still describes BS 8300 as future-only even though the head adds the rows, but this is PR metadata rather than a missing destination record.",
       "related_prs": [
         80,
         86,
@@ -2329,7 +2333,9 @@
         "iso-iec-23859:2023|iso-iec|published-2023-07-04|written-text-user-interfaces",
         "sis-accessibility-standards-seminar|2026-10-12|iso-21801-1+iso-24495-1+iso-iec-23859",
         "canada|csa-asc-b651.2:25|published-2025-01|self-service-interactive-devices",
-        "canada|atpdr-s11|can-csa-b651.2-07-r2017|covered-transport-kiosks"
+        "canada|atpdr-s11|can-csa-b651.2-07-r2017|covered-transport-kiosks",
+        "united-kingdom|bs-8300-1:2018|bsi|published-2018-01-31|external-environment",
+        "united-kingdom|bs-8300-2:2018|bsi|published-2018-01-31|buildings"
       ]
     },
     {
@@ -3694,7 +3700,17 @@
       "outcome": "existing_standards_page_registry_handoff_extended_no_new_content_suggestion",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "PR #88 contains supported Canada research, a canonical country delivery, a scoped public standards row and correct per-page dispositions. The only unresolved overlap is the already-notified global standards-page registry/mapping contract, now extended to preserve/project the Canada delivery; no duplicate suggestion was created and no new-country research was started."
+    },
+    {
+      "delivery_id": "6c0c02e0-c94c-11f1-8c6e-e88fea398eab",
+      "event": "pull_request.synchronize",
+      "pull_request": 88,
+      "head_sha": "b86d056a6e93c188611fd771baa1175fa75e8e26",
+      "checked_on": "2026-10-16T10:30:28.427Z",
+      "outcome": "existing_standards_page_registry_handoff_extended_for_uk_guidance_no_new_content_suggestion",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "The new head adds supported BS 8300 Parts 1 and 2 rows, UK canonical research/delivery and correct cross-page dispositions. Canada routing remains supported. The only unresolved overlap is the already-notified global standards-page registry/mapping contract; no duplicate suggestion was created and no new-country research was started."
     }
   ],
-  "updated_at": "2026-10-16T10:29:33.971Z"
+  "updated_at": "2026-10-16T10:30:28.427Z"
 }
