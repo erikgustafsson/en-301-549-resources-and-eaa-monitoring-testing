@@ -6265,6 +6265,30 @@
       "language": "en",
       "reason": "Official English ISO catalogue and lifecycle read on 2026-10-16.",
       "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.iso.org/standard/71711.html",
+      "language": "en",
+      "reason": "ISO English catalogue abstract and publication history retrieved and read.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.iso.org/standard/78907.html",
+      "language": "en",
+      "reason": "ISO English catalogue abstract and publication history retrieved and read.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.iso.org/standard/77178.html",
+      "language": "en",
+      "reason": "ISO English catalogue abstract and publication history retrieved and read.",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "url": "https://www.sis.se/delta-och-paverka/intressentmoten-och-seminarium/2026/standarder-for-tillganglighet/",
+      "language": "sv",
+      "reason": "SIS Swedish seminar agenda retrieved and read.",
+      "checked_on": "2026-10-16"
     }
   ]
 }
