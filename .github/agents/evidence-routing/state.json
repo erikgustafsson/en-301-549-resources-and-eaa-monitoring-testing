@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261016-pr88-open-1fef4cf0",
-    "acquired_at": "2026-10-16T10:27:59.603Z",
-    "expires_at": "2026-10-16T10:57:59.603Z",
-    "pull_request": 88,
-    "delivery_id": "1fef4cf0-c94c-11f1-9d23-eec7435e49bd"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1247,6 +1241,16 @@
       "outcome": "duplicate_existing_post_pr87_standards_handoff",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Explicit merge delivery confirms the post-merge main state already evaluated under the ready_for_review delivery. The standards-page registry/canonical-record follow-up remains recorded and already notified; no new evidence, open covering PR or additional suggestion was found."
+    },
+    {
+      "delivery_id": "1fef4cf0-c94c-11f1-9d23-eec7435e49bd",
+      "event": "pull_request.opened",
+      "pull_request": 88,
+      "head_sha": "a750fd39c1134dfbacfcf4eb81ac2053f5b3ad04",
+      "checked_on": "2026-10-16T10:28:53.427Z",
+      "outcome": "existing_standards_page_registry_handoff_extended_no_new_content_suggestion",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "PR #88 contains supported Canada research, a canonical country delivery, a scoped public standards row and correct per-page dispositions. The only unresolved overlap is the already-notified global standards-page registry/mapping contract, now extended to preserve/project the Canada delivery; no duplicate suggestion was created and no new-country research was started."
     }
   ],
   "suggestions": [
@@ -2295,28 +2299,31 @@
     },
     {
       "id": "pr80-eu-standards-page|future-page|registry-record-routing",
-      "country": "European Union",
-      "target": "PR #80 EAA and WAD standards.md, page registry and canonical EU-wide standards research/routing",
+      "country": "Global",
+      "target": "EAA and WAD standards.md page registry, canonical standards research/routing and source-to-claim mapping",
       "status": "post_pr87_followup_required",
       "covering_pr": null,
-      "proposed_change": "Use one combined standards-metadata follow-up to register EAA and WAD standards.md in .github/agents/evidence.md, define a canonical global standards record plus source-to-claim mapping, and migrate the four ISO/IEC entries currently represented only by PR intake files: ISO/IEC 20071-31:2026, ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023. Add stable evidence deliveries with the standards page proposed and adoption, monitoring, enforcement and sanctions not_applicable; generate events.json only through the registered global-page contract. Preserve the rows as supporting guidance, and do not label them OJ-cited, harmonized, adopted as EN standards, legally required, or sources of presumption of conformity without separate official evidence.",
-      "evidence": "Merged PR #86 placed ISO/IEC 20071-31:2026 on EAA and WAD standards.md. Merged PR #87 at head ab9112c16393a5cd45e3d3646d4e365950faaf05 added ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023 plus a source-fidelity intake. ISO's public catalog confirms the three titles, editions, publication status and summarized scopes; SIS's 12 October 2026 seminar agenda groups the three as accessibility-related guidance. Main still has no page registration in .github/agents/evidence.md and no mention of these standards in a canonical global record, adoption/european-standard.json or events.json. PR #87 therefore expands, but does not resolve, the existing post-PR80 registry/canonical-record handoff.",
-      "limitations": "The paid full standards were not reviewed. ISO public abstracts support only titles, status and high-level scope. The SIS agenda is contextual evidence that the standards were presented as accessibility guidance; it does not establish EAA or WAD legal applicability, OJ citation, harmonization, national adoption, presumption of conformity, monitoring practice, enforcement action or sanctions. ISO 21801-1 was confirmed in 2025; that confirmation does not add legal effect. No new-country research is authorized.",
+      "proposed_change": "Use one combined standards-metadata follow-up to register EAA and WAD standards.md in .github/agents/evidence.md and define its global source-to-claim mapping. Migrate the four ISO/IEC entries represented only by PR intake files (ISO/IEC 20071-31:2026, ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023) into canonical records with stable deliveries. Preserve PR #88's Canada country record and canada-b651-2-2025-2026-10-16 delivery as the canonical location for CSA/ASC B651.2:25, then project it through the registered global-page contract rather than duplicating it. Generate events.json only through that contract. Keep all rows as supporting or comparative guidance; do not label them OJ-cited, harmonized, adopted as EN standards, legally required for EAA/WAD, or sources of presumption of conformity without separate official evidence.",
+      "evidence": "Merged PRs #86 and #87 placed four ISO/IEC rows on EAA and WAD standards.md but left their evidence in noncanonical intake files. Open draft PR #88 at head a750fd39c1134dfbacfcf4eb81ac2053f5b3ad04 proposes CSA/ASC B651.2:25 and correctly stores its primary sources, related-standards research and delivery in Canada's canonical country record, plus explicit cross-page dispositions. CSA/ASC confirms the January 2025 standard covers design, manufacture, site preparation and installation of self-service interactive devices. Canadian regulations and CTA guidance still name CAN/CSA-B651.2-07 (R2017) for covered transportation kiosks, so PR #88 correctly avoids claiming that the 2025 edition automatically replaced the legal reference. Neither PR #88 nor main registers EAA and WAD standards.md in .github/agents/evidence.md; the existing page-contract handoff therefore remains, but no separate Canada content handoff is missing.",
+      "limitations": "CSA/ASC B651.2:25 was inspected only for selected scope and input clauses, not for full conformance. The standard is voluntary absent a separate legal incorporation. ATPDR section 11 expressly names the 2007 edition reaffirmed 2017, as amended from time to time; the public sources do not establish that B651.2:25 is the controlling edition for any particular deployment. The Canada row is a comparative technical reference, not evidence of EAA conformity, EN adoption, monitoring activity, enforcement action or sanctions. No new-country research was started by this routing pass.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-16T10:13:20.859Z",
-      "progress": "PR #87 merged at 2026-10-16T10:11:46Z with head ab9112c16393a5cd45e3d3646d4e365950faaf05. Main now contains the three ISO/IEC rows and their intake, but .github/agents/evidence.md still does not register EAA and WAD standards.md; no canonical global standards record/delivery or source-to-claim mapping exists; and events.json has no standards disposition. PR #86's ISO/IEC 20071-31 row is likewise present only on the page plus intake. No open PR covers the remaining canonical handoff.",
+      "updated_on": "2026-10-16T10:28:53.427Z",
+      "progress": "Open draft PR #88 at head a750fd39c1134dfbacfcf4eb81ac2053f5b3ad04 fully covers its Canada research/public-row routing but does not resolve the pre-existing standards-page registration and global mapping contract. Main still lacks the registry entry. No other open PR covers that metadata layer.",
       "related_prs": [
         80,
         86,
-        87
+        87,
+        88
       ],
       "evidence_fingerprints": [
         "iso-20071-31:2026|iso|2026-08-18|kiosk-scope|pr86-dbaf02d",
         "iso-21801-1:2020|iso|published-2020-01-13|confirmed-2025-10-02|cognitive-accessibility",
         "iso-24495-1:2023|iso|published-2023-06-20|plain-language",
         "iso-iec-23859:2023|iso-iec|published-2023-07-04|written-text-user-interfaces",
-        "sis-accessibility-standards-seminar|2026-10-12|iso-21801-1+iso-24495-1+iso-iec-23859"
+        "sis-accessibility-standards-seminar|2026-10-12|iso-21801-1+iso-24495-1+iso-iec-23859",
+        "canada|csa-asc-b651.2:25|published-2025-01|self-service-interactive-devices",
+        "canada|atpdr-s11|can-csa-b651.2-07-r2017|covered-transport-kiosks"
       ]
     },
     {
@@ -3671,7 +3678,17 @@
       "outcome": "duplicate_existing_post_pr87_standards_handoff",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Explicit merge delivery confirms the post-merge main state already evaluated under the ready_for_review delivery. The standards-page registry/canonical-record follow-up remains recorded and already notified; no new evidence, open covering PR or additional suggestion was found."
+    },
+    {
+      "delivery_id": "1fef4cf0-c94c-11f1-9d23-eec7435e49bd",
+      "event": "pull_request.opened",
+      "pull_request": 88,
+      "head_sha": "a750fd39c1134dfbacfcf4eb81ac2053f5b3ad04",
+      "checked_on": "2026-10-16T10:28:53.427Z",
+      "outcome": "existing_standards_page_registry_handoff_extended_no_new_content_suggestion",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "PR #88 contains supported Canada research, a canonical country delivery, a scoped public standards row and correct per-page dispositions. The only unresolved overlap is the already-notified global standards-page registry/mapping contract, now extended to preserve/project the Canada delivery; no duplicate suggestion was created and no new-country research was started."
     }
   ],
-  "updated_at": "2026-10-16T10:27:59.603Z"
+  "updated_at": "2026-10-16T10:28:53.427Z"
 }
