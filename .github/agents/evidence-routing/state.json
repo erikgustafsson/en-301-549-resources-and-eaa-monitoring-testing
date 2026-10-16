@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-20261016-pr88-open-1fef4cf0",
+    "acquired_at": "2026-10-16T10:27:59.603Z",
+    "expires_at": "2026-10-16T10:57:59.603Z",
+    "pull_request": 88,
+    "delivery_id": "1fef4cf0-c94c-11f1-9d23-eec7435e49bd"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3667,5 +3673,5 @@
       "note": "Explicit merge delivery confirms the post-merge main state already evaluated under the ready_for_review delivery. The standards-page registry/canonical-record follow-up remains recorded and already notified; no new evidence, open covering PR or additional suggestion was found."
     }
   ],
-  "updated_at": "2026-10-16T10:14:24.839Z"
+  "updated_at": "2026-10-16T10:27:59.603Z"
 }
