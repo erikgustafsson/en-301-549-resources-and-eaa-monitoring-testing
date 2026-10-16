@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261016-pr87-ready-fb7c9f00",
-    "acquired_at": "2026-10-16T10:12:14.733Z",
-    "expires_at": "2026-10-16T10:42:14.733Z",
-    "pull_request": 87,
-    "delivery_id": "fb7c9f00-c949-11f1-9381-95152742dfe9"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1227,6 +1221,16 @@
       "outcome": "duplicate_same_head_no_new_actionable_handoff",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Synchronization resolves to the same PR #87 head already reviewed under the opened delivery. The three ISO/IEC standards remain covered by the extended post-PR80 registry/canonical-record suggestion; no new evidence, destination-page change or separate suggestion was found."
+    },
+    {
+      "delivery_id": "fb7c9f00-c949-11f1-9381-95152742dfe9",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 87,
+      "head_sha": "ab9112c16393a5cd45e3d3646d4e365950faaf05",
+      "checked_on": "2026-10-16T10:12:44.348Z",
+      "outcome": "actual_state_merged_existing_standards_registry_handoff_unresolved",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Actual GitHub state is merged. Main contains the four ISO/IEC rows from PRs #86 and #87, but the standards page remains unregistered and the canonical record/delivery/mapping/events handoff remains absent. The existing post-PR80 suggestion is now a post-PR87 follow-up; no duplicate suggestion was created."
     }
   ],
   "suggestions": [
@@ -2277,15 +2281,15 @@
       "id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "country": "European Union",
       "target": "PR #80 EAA and WAD standards.md, page registry and canonical EU-wide standards research/routing",
-      "status": "post_pr80_followup_required",
+      "status": "post_pr87_followup_required",
       "covering_pr": null,
       "proposed_change": "Use one combined standards-metadata follow-up to register EAA and WAD standards.md in .github/agents/evidence.md, define a canonical global standards record plus source-to-claim mapping, and migrate the four ISO/IEC entries currently represented only by PR intake files: ISO/IEC 20071-31:2026, ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023. Add stable evidence deliveries with the standards page proposed and adoption, monitoring, enforcement and sanctions not_applicable; generate events.json only through the registered global-page contract. Preserve the rows as supporting guidance, and do not label them OJ-cited, harmonized, adopted as EN standards, legally required, or sources of presumption of conformity without separate official evidence.",
       "evidence": "Merged PR #86 placed ISO/IEC 20071-31:2026 on EAA and WAD standards.md. Open draft PR #87 at head ab9112c16393a5cd45e3d3646d4e365950faaf05 adds ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023 plus a source-fidelity intake. ISO's public catalog confirms the three titles, editions, publication status and summarized scopes; SIS's 12 October 2026 seminar agenda groups the three as accessibility-related guidance. Main still has no page registration in .github/agents/evidence.md and no mention of these standards in a canonical global record, adoption/european-standard.json or events.json. PR #87 therefore expands, but does not resolve, the existing post-PR80 registry/canonical-record handoff.",
       "limitations": "The paid full standards were not reviewed. ISO public abstracts support only titles, status and high-level scope. The SIS agenda is contextual evidence that the standards were presented as accessibility guidance; it does not establish EAA or WAD legal applicability, OJ citation, harmonization, national adoption, presumption of conformity, monitoring practice, enforcement action or sanctions. ISO 21801-1 was confirmed in 2025; that confirmation does not add legal effect. No new-country research is authorized.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-16T10:10:55.987Z",
-      "progress": "Open draft PR #87 at head ab9112c16393a5cd45e3d3646d4e365950faaf05 adds the three ISO rows and a noncanonical intake but does not resolve the standards-page registry, canonical research/delivery, mapping or generated-index contract. PR #86 has merged and likewise left the infrastructure gap unresolved. No other open PR covers the canonical handoff.",
+      "updated_on": "2026-10-16T10:12:44.348Z",
+      "progress": "PR #87 merged at 2026-10-16T10:11:46Z with head ab9112c16393a5cd45e3d3646d4e365950faaf05. Main now contains the three ISO/IEC rows and their intake, but .github/agents/evidence.md still does not register EAA and WAD standards.md; no canonical global standards record/delivery or source-to-claim mapping exists; and events.json has no standards disposition. PR #86's ISO/IEC 20071-31 row is likewise present only on the page plus intake. No open PR covers the remaining canonical handoff.",
       "related_prs": [
         80,
         86,
@@ -3631,7 +3635,17 @@
       "outcome": "duplicate_same_head_no_new_actionable_handoff",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Synchronization resolves to the same PR #87 head already reviewed under the opened delivery. The three ISO/IEC standards remain covered by the extended post-PR80 registry/canonical-record suggestion; no new evidence, destination-page change or separate suggestion was found."
+    },
+    {
+      "delivery_id": "fb7c9f00-c949-11f1-9381-95152742dfe9",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 87,
+      "head_sha": "ab9112c16393a5cd45e3d3646d4e365950faaf05",
+      "checked_on": "2026-10-16T10:12:44.348Z",
+      "outcome": "actual_state_merged_existing_standards_registry_handoff_unresolved",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Actual GitHub state is merged. Main contains the four ISO/IEC rows from PRs #86 and #87, but the standards page remains unregistered and the canonical record/delivery/mapping/events handoff remains absent. The existing post-PR80 suggestion is now a post-PR87 follow-up; no duplicate suggestion was created."
     }
   ],
-  "updated_at": "2026-10-16T10:12:14.733Z"
+  "updated_at": "2026-10-16T10:12:44.348Z"
 }
