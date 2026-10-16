@@ -5189,6 +5189,52 @@
       ]
     },
     {
+      "id": "uk-bs8300-guidance-2026-10-16",
+      "country": "United Kingdom",
+      "recorded_on": "2026-10-16",
+      "public_target": "EAA and WAD standards.md",
+      "public_disposition": "proposed",
+      "pr": 88,
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "research_only",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": 88
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/united kingdom.json",
+          "disposition": "not_applicable",
+          "reason": "British built-environment guidance; no new EN adoption, authority, sanction or enforcement outcome.",
+          "next_action": "Retain related-standards research; no public change to this destination.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-1-2026-09-27-united-states",
       "country": "United States",
       "destinations": [
