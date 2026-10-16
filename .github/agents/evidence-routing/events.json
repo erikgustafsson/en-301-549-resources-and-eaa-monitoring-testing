@@ -1008,6 +1008,51 @@
       ]
     },
     {
+      "id": "canada-b651-2-2025-2026-10-16",
+      "country": "Canada",
+      "recorded_on": "2026-10-16",
+      "public_target": "EAA and WAD standards.md",
+      "public_disposition": "proposed",
+      "destinations": [
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "research_only",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "monitoring-agencies-information.md",
+          "domain": "monitoring",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/canada.json",
+          "disposition": "not_applicable",
+          "reason": "Terminal standard and legal-edition context retained in Canada research; no new EN adoption, EAA authority, sanction or enforcement event.",
+          "next_action": "No public change to this destination. Related-standard row proposed separately.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-7-2026-09-27-148",
       "country": "Chad",
       "destinations": [
