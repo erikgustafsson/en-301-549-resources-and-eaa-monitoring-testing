@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-20261016-pr87-ready-fb7c9f00",
+    "acquired_at": "2026-10-16T10:12:14.733Z",
+    "expires_at": "2026-10-16T10:42:14.733Z",
+    "pull_request": 87,
+    "delivery_id": "fb7c9f00-c949-11f1-9381-95152742dfe9"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3627,5 +3633,5 @@
       "note": "Synchronization resolves to the same PR #87 head already reviewed under the opened delivery. The three ISO/IEC standards remain covered by the extended post-PR80 registry/canonical-record suggestion; no new evidence, destination-page change or separate suggestion was found."
     }
   ],
-  "updated_at": "2026-10-16T10:11:37.974Z"
+  "updated_at": "2026-10-16T10:12:14.733Z"
 }
