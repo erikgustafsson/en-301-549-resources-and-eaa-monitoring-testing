@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-20261016-pr87-7e6bb6e0",
+    "acquired_at": "2026-10-16T10:09:50.322Z",
+    "expires_at": "2026-10-16T10:39:50.322Z",
+    "pull_request": 87,
+    "delivery_id": "7e6bb6e0-c949-11f1-9d5d-db6ca6bbc55f"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3582,5 +3588,5 @@
       "note": "PR #86 adds a supported ISO/IEC 20071-31:2026 kiosk-guidance row and a source-fidelity intake, but no page-registry entry, canonical standards record/delivery, mapping or events disposition. The pre-existing post-PR80 standards-page suggestion is extended to cover this ISO evidence; no duplicate suggestion was created. Monitoring, enforcement and sanctions are not_applicable, and no new-country research was started."
     }
   ],
-  "updated_at": "2026-10-16T09:29:00.000Z"
+  "updated_at": "2026-10-16T10:09:50.322Z"
 }
