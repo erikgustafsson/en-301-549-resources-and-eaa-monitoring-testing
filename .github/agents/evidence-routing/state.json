@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-20261016-pr88-ready-ee8f6b30",
+    "acquired_at": "2026-10-16T10:33:17.973Z",
+    "expires_at": "2026-10-16T11:03:17.973Z",
+    "pull_request": 88,
+    "delivery_id": "ee8f6b30-c94c-11f1-91bf-9736a042e842"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3772,5 +3778,5 @@
       "note": "Synchronization resolves to the same PR #88 head already reviewed. Canada and United Kingdom standards evidence remains fully routed in canonical country records, deliveries and page dispositions; the only outstanding overlap is the previously notified global standards-page registry/mapping contract."
     }
   ],
-  "updated_at": "2026-10-16T10:31:57.385Z"
+  "updated_at": "2026-10-16T10:33:17.973Z"
 }
