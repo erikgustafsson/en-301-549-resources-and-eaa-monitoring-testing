@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261016-pr87-merge-ff255bb0",
-    "acquired_at": "2026-10-16T10:14:06.611Z",
-    "expires_at": "2026-10-16T10:44:06.611Z",
-    "pull_request": 87,
-    "delivery_id": "ff255bb0-c949-11f1-9b4d-75fc73c0af38"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1237,6 +1231,16 @@
       "outcome": "actual_state_merged_existing_standards_registry_handoff_unresolved",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Actual GitHub state is merged. Main contains the four ISO/IEC rows from PRs #86 and #87, but the standards page remains unregistered and the canonical record/delivery/mapping/events handoff remains absent. The existing post-PR80 suggestion is now a post-PR87 follow-up; no duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "ff255bb0-c949-11f1-9b4d-75fc73c0af38",
+      "event": "pull_request.merged",
+      "pull_request": 87,
+      "head_sha": "ab9112c16393a5cd45e3d3646d4e365950faaf05",
+      "checked_on": "2026-10-16T10:14:24.839Z",
+      "outcome": "duplicate_existing_post_pr87_standards_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Explicit merge delivery confirms the post-merge main state already evaluated under the ready_for_review delivery. The standards-page registry/canonical-record follow-up remains recorded and already notified; no new evidence, open covering PR or additional suggestion was found."
     }
   ],
   "suggestions": [
@@ -3651,7 +3655,17 @@
       "outcome": "actual_state_merged_existing_standards_registry_handoff_unresolved",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Actual GitHub state is merged. Main contains the four ISO/IEC rows from PRs #86 and #87, but the standards page remains unregistered and the canonical record/delivery/mapping/events handoff remains absent. The existing post-PR80 suggestion is now a post-PR87 follow-up; no duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "ff255bb0-c949-11f1-9b4d-75fc73c0af38",
+      "event": "pull_request.merged",
+      "pull_request": 87,
+      "head_sha": "ab9112c16393a5cd45e3d3646d4e365950faaf05",
+      "checked_on": "2026-10-16T10:14:24.839Z",
+      "outcome": "duplicate_existing_post_pr87_standards_handoff",
+      "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
+      "note": "Explicit merge delivery confirms the post-merge main state already evaluated under the ready_for_review delivery. The standards-page registry/canonical-record follow-up remains recorded and already notified; no new evidence, open covering PR or additional suggestion was found."
     }
   ],
-  "updated_at": "2026-10-16T10:14:06.611Z"
+  "updated_at": "2026-10-16T10:14:24.839Z"
 }
