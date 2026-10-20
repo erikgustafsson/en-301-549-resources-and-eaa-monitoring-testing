@@ -1585,6 +1585,52 @@
       ]
     },
     {
+      "id": "ebook-metadata-2026-10-20-finland",
+      "country": "Finland",
+      "recorded_on": "2026-10-20",
+      "status": "research_only",
+      "reason": "Scoped Finland example for the e-book metadata page; see .github/agents/research/intakes/ebook-metadata-2026-10-20.json",
+      "next_action": "Review the e-book draft; no public country-table change proposed.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "research_only",
+          "reason": "Finland statement detail retained for the e-book page; existing public monitoring entry requires no change.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new evidence in this domain from the e-book metadata research.",
+          "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "france-dgccrf-20260925",
       "country": "France",
       "recorded_on": "2026-09-25",
