@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261020-pr89-ready-4eb4aa40",
-    "acquired_at": "2026-10-20T07:25:03.075Z",
-    "expires_at": "2026-10-20T07:55:03.075Z",
-    "pull_request": 89,
-    "delivery_id": "4eb4aa40-cc57-11f1-9814-d541ceaee5c3"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1326,6 +1320,15 @@
       "checked_on": "2026-10-20T07:22:30.561Z",
       "outcome": "ignored_editorial_path_migration_no_new_actionable_handoff",
       "note": "PR #89 renames the monitoring and e-book pages, adds introductory copy, and mechanically migrates internal references. The generated routing ledger is byte-equivalent after substituting the monitoring filename (130 destinations), the monitoring body is unchanged, and the e-book patch changes only its heading/introduction. Country evidence, dispositions, authority/sector/audience/purpose claims, and enforcement/sanctions facts are unchanged. PR #89 is the only open PR; the previously notified standards-page registry/global mapping follow-up is unaffected and was not duplicated."
+    },
+    {
+      "delivery_id": "4eb4aa40-cc57-11f1-9814-d541ceaee5c3",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 89,
+      "head_sha": "00db404c05b4163fdb6c7f4a67d10c9fbd7a4204",
+      "checked_on": "2026-10-20T07:25:35.317Z",
+      "outcome": "actual_state_merged_editorial_path_migration_no_new_actionable_handoff",
+      "note": "Actual GitHub state is merged. The merged commit only renames the monitoring and e-book pages, adds introductory copy, and mechanically migrates internal references. Main now contains the 130 migrated routing destinations; prior verification found the routing ledger byte-equivalent after filename substitution, the monitoring body unchanged, and the e-book patch limited to its heading/introduction. No authority, reporting-route, enforcement, sanctions, or evidence disposition changed. PR #89 was the sole open PR before merge; the previously notified standards-page registry/global mapping follow-up remains unaffected and was not duplicated."
     }
   ],
   "suggestions": [
@@ -3834,7 +3837,16 @@
       "checked_on": "2026-10-20T07:22:30.561Z",
       "outcome": "ignored_editorial_path_migration_no_new_actionable_handoff",
       "note": "PR #89 renames the monitoring and e-book pages, adds introductory copy, and mechanically migrates internal references. The generated routing ledger is byte-equivalent after substituting the monitoring filename (130 destinations), the monitoring body is unchanged, and the e-book patch changes only its heading/introduction. Country evidence, dispositions, authority/sector/audience/purpose claims, and enforcement/sanctions facts are unchanged. PR #89 is the only open PR; the previously notified standards-page registry/global mapping follow-up is unaffected and was not duplicated."
+    },
+    {
+      "delivery_id": "4eb4aa40-cc57-11f1-9814-d541ceaee5c3",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 89,
+      "head_sha": "00db404c05b4163fdb6c7f4a67d10c9fbd7a4204",
+      "checked_on": "2026-10-20T07:25:35.317Z",
+      "outcome": "actual_state_merged_editorial_path_migration_no_new_actionable_handoff",
+      "note": "Actual GitHub state is merged. The merged commit only renames the monitoring and e-book pages, adds introductory copy, and mechanically migrates internal references. Main now contains the 130 migrated routing destinations; prior verification found the routing ledger byte-equivalent after filename substitution, the monitoring body unchanged, and the e-book patch limited to its heading/introduction. No authority, reporting-route, enforcement, sanctions, or evidence disposition changed. PR #89 was the sole open PR before merge; the previously notified standards-page registry/global mapping follow-up remains unaffected and was not duplicated."
     }
   ],
-  "updated_at": "2026-10-20T07:25:03.075Z"
+  "updated_at": "2026-10-20T07:25:35.317Z"
 }
