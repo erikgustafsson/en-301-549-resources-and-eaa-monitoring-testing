@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261020-pr90-open-cb407520",
-    "acquired_at": "2026-10-20T08:11:46.679Z",
-    "expires_at": "2026-10-20T08:41:46.680Z",
-    "pull_request": 90,
-    "delivery_id": "cb407520-cc5d-11f1-9fff-9b854577f050"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1344,6 +1338,16 @@
       "checked_on": "2026-10-20T07:29:25.605Z",
       "outcome": "duplicate_merged_editorial_path_migration_no_new_actionable_handoff",
       "note": "Explicit merge delivery confirms the same PR #89 head already evaluated under opened and ready_for_review deliveries. Main contains the renamed monitoring and e-book pages and all 130 routing destinations use the new monitoring filename; no country evidence, disposition, authority, reporting route, enforcement fact, or sanctions fact changed. No open PR remains. The previously notified standards-page registry/global mapping follow-up is unaffected and was not duplicated."
+    },
+    {
+      "delivery_id": "cb407520-cc5d-11f1-9fff-9b854577f050",
+      "event": "pull_request.opened",
+      "pull_request": 90,
+      "head_sha": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+      "checked_on": "2026-10-20T08:14:06.161Z",
+      "outcome": "new_actionable_ebook_page_registry_and_existing_standards_handoff_extended",
+      "suggestion_id": "pr90-ebook-page|future-page|registry-record-routing",
+      "note": "PR #90's factual claims are appropriately scoped and supported by the cited primary sources; Finland monitoring, enforcement, sanctions and adoption dispositions are explicit. The missed handoff is persistent routing: the public e-book page is not registered, its reusable global evidence exists only in an intake, and the generated event cannot name the e-book or standards destinations. Added a PR #90 registry/delivery suggestion and extended the existing standards-page metadata suggestion rather than duplicating it."
     }
   ],
   "suggestions": [
@@ -2397,17 +2401,18 @@
       "status": "post_pr88_followup_required",
       "covering_pr": null,
       "proposed_change": "Use one combined standards-metadata follow-up to register EAA and WAD standards.md in .github/agents/evidence.md and define its global source-to-claim mapping. Migrate the four ISO/IEC entries represented only by PR intake files (ISO/IEC 20071-31:2026, ISO 21801-1:2020, ISO 24495-1:2023 and ISO/IEC 23859:2023) into canonical records with stable deliveries. Preserve PR #88's Canada and United Kingdom country records and their canada-b651-2-2025-2026-10-16 and uk-bs8300-guidance-2026-10-16 deliveries as canonical, then project them through the registered global-page contract rather than duplicating them. Generate events.json only through that contract. Keep all rows as supporting or comparative guidance; do not label them OJ-cited, harmonized, adopted as EN standards, legally required for EAA/WAD, or sources of presumption of conformity without separate official evidence.",
-      "evidence": "Merged PRs #86 and #87 placed four ISO/IEC rows on EAA and WAD standards.md but left their evidence in noncanonical intake files. Merged PR #88 at head b86d056a6e93c188611fd771baa1175fa75e8e26 added CSA/ASC B651.2:25 and BS 8300-1:2018/BS 8300-2:2018, with primary sources, related-standards research and deliveries in the Canada and United Kingdom canonical country records and explicit cross-page dispositions. CSA/ASC confirms the January 2025 self-service-device scope; Canadian regulations and CTA guidance still name CAN/CSA-B651.2-07 (R2017) for covered transportation kiosks. BSI lists both BS 8300 parts as current, published 31 January 2018, with Part 1 covering external environments and Part 2 covering buildings. Main now contains the Canada/UK page rows and routing events, but .github/agents/evidence.md still does not register EAA and WAD standards.md. The existing page-contract handoff remains; no separate Canada or UK content handoff is missing.",
-      "limitations": "CSA/ASC B651.2:25 was inspected only for selected scope and input clauses, not full conformance. The Canadian sources do not establish that B651.2:25 is the controlling legal edition for any particular deployment. The paid BS 8300 texts were not inspected; only BSI catalogue status and high-level scope were verified. The Canada and UK rows are comparative/supporting guidance, not evidence of EAA conformity, EN adoption, OJ citation, monitoring activity, enforcement action or sanctions. No new-country research was started by this routing pass.",
+      "evidence": "Merged PRs #86 and #87 placed four ISO/IEC rows on EAA and WAD standards.md but left their evidence in noncanonical intake files. Merged PR #88 at head b86d056a6e93c188611fd771baa1175fa75e8e26 added CSA/ASC B651.2:25 and BS 8300-1:2018/BS 8300-2:2018, with primary sources, related-standards research and deliveries in the Canada and United Kingdom canonical country records and explicit cross-page dispositions. CSA/ASC confirms the January 2025 self-service-device scope; Canadian regulations and CTA guidance still name CAN/CSA-B651.2-07 (R2017) for covered transportation kiosks. BSI lists both BS 8300 parts as current, published 31 January 2018, with Part 1 covering external environments and Part 2 covering buildings. Main now contains the Canada/UK page rows and routing events, but .github/agents/evidence.md still does not register EAA and WAD standards.md. The existing page-contract handoff remains; no separate Canada or UK content handoff is missing. PR #90 adds EPUB Accessibility 1.1 (W3C Recommendation, 17 October 2024), EPUB Accessibility 1.2 (Candidate Recommendation Draft, 12 September 2026) and Publishing Community Group guidance, explicitly without claiming harmonisation or legal presumption; these are currently retained only in the PR intake/e-book page rather than the registered global standards contract.",
+      "limitations": "CSA/ASC B651.2:25 was inspected only for selected scope and input clauses, not full conformance. The Canadian sources do not establish that B651.2:25 is the controlling legal edition for any particular deployment. The paid BS 8300 texts were not inspected; only BSI catalogue status and high-level scope were verified. The Canada and UK rows are comparative/supporting guidance, not evidence of EAA conformity, EN adoption, OJ citation, monitoring activity, enforcement action or sanctions. No new-country research was started by this routing pass. EPUB Accessibility 1.2 is a draft and the cited display/ONIX/crosswalk/authoring guides are Community Group reports, not W3C Recommendations; retain them as versioned supporting guidance rather than EAA/WAD legal standards.",
       "source_pr": 80,
       "created_on": "2026-10-01T10:41:00.000Z",
-      "updated_on": "2026-10-16T10:33:48.770Z",
-      "progress": "PR #88 merged at 2026-10-16T10:32:54Z with head b86d056a6e93c188611fd771baa1175fa75e8e26. Main contains the Canada and United Kingdom research records, deliveries, events and public rows. The standards page remains absent from .github/agents/evidence.md, and the four earlier ISO/IEC intake-only records still need canonical migration. No open PR covers that metadata layer.",
+      "updated_on": "2026-10-20T08:14:06.161Z",
+      "progress": "PR #90 is open at d0f2a400675a79324ec3447b4fb687e00b85ece9. Its intake correctly marks EPUB specification status and Community Group guidance as `research_only` for `EAA and WAD standards.md`, but that page remains absent from `.github/agents/evidence.md` and the standards handoff is not projected through a stable canonical global delivery. PR #90 can add the e-book page registry/delivery while the existing combined standards-metadata follow-up remains required.",
       "related_prs": [
         80,
         86,
         87,
-        88
+        88,
+        90
       ],
       "evidence_fingerprints": [
         "iso-20071-31:2026|iso|2026-08-18|kiosk-scope|pr86-dbaf02d",
@@ -2418,7 +2423,10 @@
         "canada|csa-asc-b651.2:25|published-2025-01|self-service-interactive-devices",
         "canada|atpdr-s11|can-csa-b651.2-07-r2017|covered-transport-kiosks",
         "united-kingdom|bs-8300-1:2018|bsi|published-2018-01-31|external-environment",
-        "united-kingdom|bs-8300-2:2018|bsi|published-2018-01-31|buildings"
+        "united-kingdom|bs-8300-2:2018|bsi|published-2018-01-31|buildings",
+        "epub-accessibility-1.1|w3c|recommendation|2024-10-17|metadata-discoverability",
+        "epub-accessibility-1.2|w3c|candidate-recommendation-draft|2026-09-12|metadata-rule-change",
+        "w3c-publishingcg-a11y-display-guide-2.1|community-final|2025-12-22|not-w3c-standard"
       ]
     },
     {
@@ -2463,6 +2471,33 @@
       "created_on": "2026-10-02T07:23:23.000Z",
       "updated_on": "2026-10-02T07:23:23.000Z",
       "source_pr": 81
+    },
+    {
+      "id": "pr90-ebook-page|future-page|registry-record-routing",
+      "country": "Global",
+      "target": "E-book accessibility metadata.md page registry and canonical reusable evidence/routing record",
+      "status": "open_pr90_followup_required",
+      "covering_pr": 90,
+      "proposed_change": "Extend PR #90 before merge, or use an immediate metadata-only follow-up, to register `E-book accessibility metadata.md` in `.github/agents/evidence.md` with its canonical global research record format and validation command. Move or map the reusable source-to-claim material now held only in `.github/agents/research/intakes/ebook-metadata-2026-10-20.json` into that canonical record and add one stable delivery: e-book page `proposed` in PR #90; Finland monitoring `research_only` in `.github/agents/research/countries/finland.json`; `EAA and WAD standards.md` `research_only` under the existing unregistered-standards-page handoff; adoption, enforcement and sanctions `not_applicable`. Regenerate `events.json` from the canonical delivery.",
+      "evidence": "PR #90 adds verified, reusable EAA/Finland/EPUB/ONIX/display-guidance claims to the public e-book page and preserves the Finland-specific statement duty in its country record, but the registered-page ledger still has only monitoring, enforcement, sanctions and adoption. The generated event records only the four registered country destinations, while the public e-book destination and the standards-page research-only handoff exist only in the intake. W3C identifies EPUB Accessibility 1.1 as a Recommendation dated 17 October 2024 and EPUB Accessibility 1.2 as a Candidate Recommendation Draft dated 12 September 2026; Traficom's page, updated 14 August 2025, expressly covers e-books and the additional accessibility-statement content.",
+      "limitations": "Do not turn the Finland example into a cross-country rule, treat EPUB 1.2 as adopted, label Community Group reports as W3C standards, infer OJ citation/harmonisation/presumption of conformity, or endorse any retailer/book as verified accessible. No form was submitted and no exact e-book edition was audited. Public wording is already in PR #90; this suggestion is primarily the missing persistent routing/record handoff.",
+      "source_pr": 90,
+      "created_on": "2026-10-20T08:14:06.161Z",
+      "updated_on": "2026-10-20T08:14:06.161Z",
+      "progress": "PR #90 is open at d0f2a400675a79324ec3447b4fb687e00b85ece9 and is the only open PR. It can cover the e-book registry/delivery gap before merge; it does not currently edit `.github/agents/evidence.md` or create a stable global e-book delivery.",
+      "source_urls": [
+        "https://www.w3.org/TR/epub-a11y-11/",
+        "https://www.w3.org/TR/epub-a11y-12/",
+        "https://www.w3.org/community/reports/publishingcg/CG-FINAL-a11y-display-guidelines-20251222/",
+        "https://saavutettavuusvaatimukset.fi/en/service-specific-requirements-and-obligations",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32019L0882"
+      ],
+      "evidence_fingerprints": [
+        "epub-accessibility-1.1|w3c|recommendation|2024-10-17|metadata-discoverability",
+        "epub-accessibility-1.2|w3c|candidate-recommendation-draft|2026-09-12|metadata-rule-change",
+        "w3c-publishingcg-a11y-display-guide-2.1|community-final|2025-12-22|not-w3c-standard",
+        "finland|traficom|service-specific-requirements|updated-2025-08-14|ebook-statement-content"
+      ]
     }
   ],
   "processed_deliveries": [
@@ -3870,7 +3905,17 @@
       "checked_on": "2026-10-20T07:29:25.605Z",
       "outcome": "duplicate_merged_editorial_path_migration_no_new_actionable_handoff",
       "note": "Explicit merge delivery confirms the same PR #89 head already evaluated under opened and ready_for_review deliveries. Main contains the renamed monitoring and e-book pages and all 130 routing destinations use the new monitoring filename; no country evidence, disposition, authority, reporting route, enforcement fact, or sanctions fact changed. No open PR remains. The previously notified standards-page registry/global mapping follow-up is unaffected and was not duplicated."
+    },
+    {
+      "delivery_id": "cb407520-cc5d-11f1-9fff-9b854577f050",
+      "event": "pull_request.opened",
+      "pull_request": 90,
+      "head_sha": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+      "checked_on": "2026-10-20T08:14:06.161Z",
+      "outcome": "new_actionable_ebook_page_registry_and_existing_standards_handoff_extended",
+      "suggestion_id": "pr90-ebook-page|future-page|registry-record-routing",
+      "note": "PR #90's factual claims are appropriately scoped and supported by the cited primary sources; Finland monitoring, enforcement, sanctions and adoption dispositions are explicit. The missed handoff is persistent routing: the public e-book page is not registered, its reusable global evidence exists only in an intake, and the generated event cannot name the e-book or standards destinations. Added a PR #90 registry/delivery suggestion and extended the existing standards-page metadata suggestion rather than duplicating it."
     }
   ],
-  "updated_at": "2026-10-20T08:11:46.679Z"
+  "updated_at": "2026-10-20T08:14:06.161Z"
 }
