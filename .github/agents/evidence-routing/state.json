@@ -1,6 +1,12 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-20261020-pr90-open-cb407520",
+    "acquired_at": "2026-10-20T08:11:46.679Z",
+    "expires_at": "2026-10-20T08:41:46.680Z",
+    "pull_request": 90,
+    "delivery_id": "cb407520-cc5d-11f1-9fff-9b854577f050"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3866,5 +3872,5 @@
       "note": "Explicit merge delivery confirms the same PR #89 head already evaluated under opened and ready_for_review deliveries. Main contains the renamed monitoring and e-book pages and all 130 routing destinations use the new monitoring filename; no country evidence, disposition, authority, reporting route, enforcement fact, or sanctions fact changed. No open PR remains. The previously notified standards-page registry/global mapping follow-up is unaffected and was not duplicated."
     }
   ],
-  "updated_at": "2026-10-20T07:29:25.605Z"
+  "updated_at": "2026-10-20T08:11:46.679Z"
 }
