@@ -761,7 +761,7 @@
       "next_action": "Maintainer review of the focused Italy draft; independently confirm the Italian-to-English scope wording before merge.",
       "destinations": [
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "proposed",
           "reason": "The current page still labels all Italy EAA public-reporting routes Unknown and points to a legacy portal.",
@@ -812,7 +812,7 @@
           "pr": 71
         },
         {
-          "page": "monitoring-agencies-information.md",
+          "page": "EAA authorities and reporting by country.md",
           "domain": "monitoring",
           "record": ".github/agents/research/countries/italy.json",
           "disposition": "research_only",
