@@ -1,12 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-20261020-pr89-open-b27c9980",
-    "acquired_at": "2026-10-20T07:21:03.819Z",
-    "expires_at": "2026-10-20T07:51:03.819Z",
-    "pull_request": 89,
-    "delivery_id": "b27c9980-cc56-11f1-815d-c7bdd1af2d0e"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1317,6 +1311,15 @@
       "outcome": "duplicate_existing_post_pr88_standards_page_handoff",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Explicit merge delivery confirms the post-merge main state already evaluated under the ready_for_review delivery. Canada and UK evidence is complete; the previously notified standards-page registry/global mapping follow-up remains recorded, with no new suggestion."
+    },
+    {
+      "delivery_id": "b27c9980-cc56-11f1-815d-c7bdd1af2d0e",
+      "event": "pull_request.opened",
+      "pull_request": 89,
+      "head_sha": "00db404c05b4163fdb6c7f4a67d10c9fbd7a4204",
+      "checked_on": "2026-10-20T07:22:30.561Z",
+      "outcome": "ignored_editorial_path_migration_no_new_actionable_handoff",
+      "note": "PR #89 renames the monitoring and e-book pages, adds introductory copy, and mechanically migrates internal references. The generated routing ledger is byte-equivalent after substituting the monitoring filename (130 destinations), the monitoring body is unchanged, and the e-book patch changes only its heading/introduction. Country evidence, dispositions, authority/sector/audience/purpose claims, and enforcement/sanctions facts are unchanged. PR #89 is the only open PR; the previously notified standards-page registry/global mapping follow-up is unaffected and was not duplicated."
     }
   ],
   "suggestions": [
@@ -3816,7 +3819,16 @@
       "outcome": "duplicate_existing_post_pr88_standards_page_handoff",
       "suggestion_id": "pr80-eu-standards-page|future-page|registry-record-routing",
       "note": "Explicit merge delivery confirms the post-merge main state already evaluated under the ready_for_review delivery. Canada and UK evidence is complete; the previously notified standards-page registry/global mapping follow-up remains recorded, with no new suggestion."
+    },
+    {
+      "delivery_id": "b27c9980-cc56-11f1-815d-c7bdd1af2d0e",
+      "event": "pull_request.opened",
+      "pull_request": 89,
+      "head_sha": "00db404c05b4163fdb6c7f4a67d10c9fbd7a4204",
+      "checked_on": "2026-10-20T07:22:30.561Z",
+      "outcome": "ignored_editorial_path_migration_no_new_actionable_handoff",
+      "note": "PR #89 renames the monitoring and e-book pages, adds introductory copy, and mechanically migrates internal references. The generated routing ledger is byte-equivalent after substituting the monitoring filename (130 destinations), the monitoring body is unchanged, and the e-book patch changes only its heading/introduction. Country evidence, dispositions, authority/sector/audience/purpose claims, and enforcement/sanctions facts are unchanged. PR #89 is the only open PR; the previously notified standards-page registry/global mapping follow-up is unaffected and was not duplicated."
     }
   ],
-  "updated_at": "2026-10-20T07:21:03.819Z"
+  "updated_at": "2026-10-20T07:22:30.561Z"
 }
