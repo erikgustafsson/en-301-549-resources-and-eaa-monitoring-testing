@@ -5408,7 +5408,7 @@
       "recorded_on": "2026-10-23",
       "status": "draft_pr",
       "reason": "MTM publishes separate live forms for e-book service defect reports, section 7 exemption claims and consumer accessibility complaints.",
-      "next_action": "Review the draft wording and direct form destinations; preserve the distinction between a Swedish interface and accepted submission languages.",
+      "next_action": "Review draft PR #91; preserve the distinction between a Swedish interface and accepted submission languages.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
@@ -5416,7 +5416,7 @@
           "disposition": "draft_pr",
           "reason": "Replace the MTM Unknown entry with the three verified purpose-specific routes.",
           "next_action": "Review the draft; do not infer accepted languages or successful submission.",
-          "pr": null,
+          "pr": 91,
           "domain": "monitoring"
         },
         {
