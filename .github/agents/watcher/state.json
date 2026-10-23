@@ -1647,6 +1647,9 @@
       }
     }
   },
-  "lease": null,
-  "updated_at": "2026-10-16T07:48:00Z"
+  "lease": {
+    "owner": "monitoring-watcher-20261023T070800Z-14689c075a99",
+    "expires_at": "2026-10-23T07:53:58.500Z"
+  },
+  "updated_at": "2026-10-23T07:08:58.500Z"
 }
