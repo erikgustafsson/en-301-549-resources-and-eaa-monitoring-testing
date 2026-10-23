@@ -5401,6 +5401,52 @@
           "pr": 71
         }
       ]
+    },
+    {
+      "id": "sweden-mtm-reporting-routes-2026-10-16",
+      "country": "Sweden",
+      "recorded_on": "2026-10-23",
+      "status": "draft_pr",
+      "reason": "MTM publishes separate live forms for e-book service defect reports, section 7 exemption claims and consumer accessibility complaints.",
+      "next_action": "Review draft PR #91; preserve the distinction between a Swedish interface and accepted submission languages.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "draft_pr",
+          "reason": "Replace the MTM Unknown entry with the three verified purpose-specific routes.",
+          "next_action": "Review the draft; do not infer accepted languages or successful submission.",
+          "pr": 91,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "These are reporting routes, not an enforcement action or outcome.",
+          "next_action": "No public enforcement change from this evidence.",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No sanction maximum, condition or imposed fine is established by these routes.",
+          "next_action": "No public sanctions change from this evidence.",
+          "pr": null,
+          "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Reporting routes do not establish a standards-adoption change.",
+          "next_action": "No public adoption change from this evidence.",
+          "pr": null,
+          "domain": "adoption"
+        }
+      ]
     }
   ]
 }
