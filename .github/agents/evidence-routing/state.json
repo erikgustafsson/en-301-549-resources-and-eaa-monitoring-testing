@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-pr93-sync-20261030163819324",
-    "acquired_at": "2026-10-30T16:38:19.324Z",
-    "expires_at": "2026-10-30T17:08:19.324Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1457,6 +1453,16 @@
       "outcome": "new_actionable_pr93_canonical_delivery_metadata_correction",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "PR #93 correctly preserves the three official replies, source dates, authority/sector/audience limits and distinctions between investigations versus outcomes, outreach versus enforcement, and possible versus issued measures. Monitoring/enforcement public changes are supported by the private-safe records; sanctions and adoption dispositions appropriately avoid public changes. The missed handoff is metadata: all three new deliveries use the retired adoption filename; proposed destinations omit covering PR #93; and Poland's delivery omits top-level recorded_on/status/reason/next_action. PR #93 is the covering open draft; PR #92 is non-overlapping research-only intake. No new-country research was performed."
+    },
+    {
+      "delivery_id": "3847fba0-d480-11f1-8586-7b922efd83c6",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "d130b408df2ef0da2212b9af6d0d82645b7b4005",
+      "checked_on": "2026-10-30T16:38:53.569Z",
+      "outcome": "existing_pr93_suggestion_partially_resolved",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "The synchronized head resolves the newly reviewed privacy/snapshot issues and adds numeric PR #93 references to every new destination. It does not change the scoped public facts or cross-page dispositions. The same existing suggestion remains actionable because all three deliveries still name retired `EN 301 549 adoptation.md`, and Poland's delivery still lacks top-level recorded_on/status/reason/next_action. No duplicate suggestion was created."
     }
   ],
   "suggestions": [
@@ -2656,13 +2662,13 @@
       "target": "PR #93 canonical deliveries and generated `.github/agents/evidence-routing/events.json`",
       "status": "open_pr93_followup_required",
       "covering_pr": 93,
-      "proposed_change": "Update PR #93 before merge. In `be-official-reply-20261006`, `cy-official-reply-20261016` and `poland-pfron-official-reply-2026-10-26`, replace the retired destination `EN 301 549 adoptation.md` with current registered page `EN 301 549 adoption.md`. Set `pr: 93` on the destinations actually proposed for publication: Belgium monitoring and enforcement, Cyprus monitoring, and Poland monitoring and enforcement. Complete Poland's top-level delivery with `recorded_on: 2026-10-30`, `status: proposed`, a reason summarising the PFRON reply, and a review next action comparable to the Belgium/Cyprus deliveries. Regenerate `events.json` from the canonical country records. Preserve research_only/not_applicable dispositions and do not edit the generated index independently.",
-      "evidence": "PR #93 adds complete private-safe correspondence records and appropriately scoped public monitoring/enforcement wording, but all three new deliveries use the retired adoption filename. Their proposed destinations have null PR references even though draft PR #93 is the covering change. Unlike Belgium and Cyprus, Poland's new stable delivery has only id/country/destinations, so the generated event omits recorded date, status, reason and next action. Current main's page registry uses `EN 301 549 adoption.md`.",
+      "proposed_change": "Update PR #93 before merge. In `be-official-reply-20261006`, `cy-official-reply-20261016` and `poland-pfron-official-reply-2026-10-26`, replace the retired destination `EN 301 549 adoptation.md` with the current registered page `EN 301 549 adoption.md`. Complete Poland's top-level delivery with `recorded_on: 2026-10-30`, `status: proposed`, a reason summarising the PFRON reply, and a review next action comparable to the Belgium/Cyprus deliveries. Regenerate `events.json` from the canonical country records. Preserve all current research_only/not_applicable dispositions and the newly added PR #93 references; do not edit the generated index independently.",
+      "evidence": "The synchronized PR #93 head now gives all destinations numeric `pr: 93` references and removes private Cyprus names, resolving that part of the review. The three new canonical deliveries still use the retired adoption filename. Poland's stable delivery still has only id/country/destinations, so its generated event still omits recorded date, status, reason and next action. Current main's registered page is `EN 301 549 adoption.md`.",
       "limitations": "This is a routing-metadata correction, not a request to broaden the factual claims. Belgium establishes complaints/investigations but no counts, warnings, penalties or outcomes. Cyprus establishes a general institutional mailbox and dated English-document acceptance, not a purpose-specific statutory filing procedure. Poland establishes ongoing monitoring and conditional possible next steps, not completed inspections, issued decisions, mandatory dark mode, guaranteed disclosure or WCAG 2.2 testing. The supplied emails are documentary evidence with private-safe fingerprints, not independent sender authentication or public publications. Sanctions and adoption public pages remain unchanged.",
       "source_pr": 93,
       "created_on": "2026-10-30T16:38:00.013Z",
-      "updated_on": "2026-10-30T16:38:00.013Z",
-      "progress": "PR #93 is open and draft at 6d748987dac2a59a76f71c304c024cfb09513718 and is the existing covering PR. PR #92 changes only the research-only A11y Hub intake and does not overlap. The older post-PR71 adoption-path cleanup remains separate; this suggestion concerns the three new PR #93 deliveries.",
+      "updated_on": "2026-10-30T16:38:53.569Z",
+      "progress": "PR #93 remains open and draft at d130b408df2ef0da2212b9af6d0d82645b7b4005. The synchronization resolved the missing PR references and privacy/snapshot review findings. The current adoption-page path and Poland top-level delivery metadata remain unresolved in the same covering PR. PR #92 remains non-overlapping.",
       "source_urls": [
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/6d748987dac2a59a76f71c304c024cfb09513718/.github/agents/research/countries/belgium.json",
@@ -4176,7 +4182,17 @@
       "outcome": "new_actionable_pr93_canonical_delivery_metadata_correction",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "PR #93 correctly preserves the three official replies, source dates, authority/sector/audience limits and distinctions between investigations versus outcomes, outreach versus enforcement, and possible versus issued measures. Monitoring/enforcement public changes are supported by the private-safe records; sanctions and adoption dispositions appropriately avoid public changes. The missed handoff is metadata: all three new deliveries use the retired adoption filename; proposed destinations omit covering PR #93; and Poland's delivery omits top-level recorded_on/status/reason/next_action. PR #93 is the covering open draft; PR #92 is non-overlapping research-only intake. No new-country research was performed."
+    },
+    {
+      "delivery_id": "3847fba0-d480-11f1-8586-7b922efd83c6",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "d130b408df2ef0da2212b9af6d0d82645b7b4005",
+      "checked_on": "2026-10-30T16:38:53.569Z",
+      "outcome": "existing_pr93_suggestion_partially_resolved",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "The synchronized head resolves the newly reviewed privacy/snapshot issues and adds numeric PR #93 references to every new destination. It does not change the scoped public facts or cross-page dispositions. The same existing suggestion remains actionable because all three deliveries still name retired `EN 301 549 adoptation.md`, and Poland's delivery still lacks top-level recorded_on/status/reason/next_action. No duplicate suggestion was created."
     }
   ],
-  "updated_at": "2026-10-30T16:38:19.324Z"
+  "updated_at": "2026-10-30T16:38:53.569Z"
 }
