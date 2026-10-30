@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-pr93-ready-merge-20261030164903570",
+    "acquired_at": "2026-10-30T16:49:03.570Z",
+    "expires_at": "2026-10-30T17:19:03.570Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -4334,5 +4338,5 @@
       "note": "The latest synchronized head does not change the canonical delivery fields or cross-page dispositions. The previously notified adoption-path and Poland top-level metadata corrections remain unresolved. No new evidence or blocker; no duplicate suggestion."
     }
   ],
-  "updated_at": "2026-10-30T16:48:43.795Z"
+  "updated_at": "2026-10-30T16:49:03.570Z"
 }
