@@ -551,6 +551,52 @@
       ]
     },
     {
+      "id": "be-official-reply-20261006",
+      "country": "Belgium",
+      "recorded_on": "2026-10-06",
+      "status": "proposed",
+      "reason": "Official reply resolves public information duty; quoted earlier reply supports historical investigations.",
+      "next_action": "Review the focused three-authority draft; isolated source-fidelity and enforcement readability reviews completed on 30 October 2026.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Current Statement source: Unverified note is stale for the public-information duty; dedicated-page requirement remains unestablished.",
+          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "enforcement",
+          "disposition": "proposed",
+          "reason": "No Belgium entry; official reply confirms historical consumer complaints and investigations.",
+          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "No new statutory amount or imposed penalty; conditional warning/report powers do not establish action.",
+          "next_action": "Retain current public entry.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/belgium.json",
+          "domain": "adoption",
+          "disposition": "research_only",
+          "reason": "Testing overlap does not establish a national EN edition adoption or requirement.",
+          "next_action": "Retain current public entry; preserve January reply as research context.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-9-2026-09-27-535",
       "country": "Bonaire, Sint Eustatius and Saba",
       "destinations": [
@@ -1217,6 +1263,52 @@
           "reason": "No supported EAA change from discovery.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "cy-official-reply-20261016",
+      "country": "Cyprus",
+      "recorded_on": "2026-10-30",
+      "status": "proposed",
+      "reason": "Official reply supplies general reporting contact, English acceptance, contact succession and outreach evidence.",
+      "next_action": "Review the focused three-authority draft; isolated source-fidelity and enforcement readability reviews completed on 30 October 2026.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "General reporting mailbox and dated English acceptance missing from the Cyprus public row.",
+          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "Completed training/briefings are outreach, not evidence of actual enforcement cases.",
+          "next_action": "Retain outreach in knowledge notes; no public enforcement row added.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No statutory sanctions, powers or imposed penalties supplied.",
+          "next_action": "No public or legal-claim change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": null,
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No national standard adoption, edition or reference supplied.",
+          "next_action": "No adoption domain or public change; historical routing key retained.",
+          "pr": null
         }
       ]
     },
@@ -3804,6 +3896,48 @@
       ]
     },
     {
+      "id": "poland-pfron-official-reply-2026-10-26",
+      "country": "Poland",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "proposed",
+          "reason": "Replace general-statement Unknown with qualified attributed wording and add separate reporting timing; service-information duty already supported in research but missing from the public row.",
+          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "proposed",
+          "reason": "Add dated PFRON monitoring activity, conditional dark-mode assessment and qualified information-access guidance; do not imply issued measures.",
+          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "Reply provides no new penalty amounts, sanction powers or issued sanctions; existing legal record and verification dates unchanged.",
+          "next_action": "No public change supported by this reply.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "WCAG 2.2 question is not answered; no EN edition or adoption evidence.",
+          "next_action": "No public change supported by this reply.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-6-2026-09-27-634",
       "country": "Qatar",
       "destinations": [
@@ -4564,6 +4698,98 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "sweden-mtm-reporting-routes-2026-10-16",
+      "country": "Sweden",
+      "recorded_on": "2026-10-23",
+      "status": "draft_pr",
+      "reason": "MTM publishes separate live forms for e-book service defect reports, section 7 exemption claims and consumer accessibility complaints.",
+      "next_action": "Review draft PR #91; preserve the distinction between a Swedish interface and accepted submission languages.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "draft_pr",
+          "reason": "Replace the MTM Unknown entry with the three verified purpose-specific routes.",
+          "next_action": "Review the draft; do not infer accepted languages or successful submission.",
+          "pr": 91,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "These are reporting routes, not an enforcement action or outcome.",
+          "next_action": "No public enforcement change from this evidence.",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No sanction maximum, condition or imposed fine is established by these routes.",
+          "next_action": "No public sanctions change from this evidence.",
+          "pr": null,
+          "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Reporting routes do not establish a standards-adoption change.",
+          "next_action": "No public adoption change from this evidence.",
+          "pr": null,
+          "domain": "adoption"
+        }
+      ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-reporting-routes-2026-10-30",
+      "country": "Sweden",
+      "recorded_on": "2026-10-30",
+      "status": "proposed",
+      "reason": "Mediemyndigheten's official e-service introductions verify separate consumer and company routes for audiovisual-access services.",
+      "next_action": "Review the extension to draft PR #91; preserve the distinction between interface language and accepted submission language.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "proposed",
+          "reason": "Replace Mediemyndigheten's Unknown entry with the verified consumer and company e-service introductions.",
+          "next_action": "Review draft PR #91; do not imply a successful submission or accepted language.",
+          "pr": 91,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence establishes reporting routes, not an enforcement action or outcome.",
+          "next_action": "No public enforcement change.",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a sanction or imposed fine.",
+          "next_action": "No public sanctions change.",
+          "pr": null,
+          "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a standards-adoption change.",
+          "next_action": "No public adoption change.",
+          "pr": null,
+          "domain": "adoption"
         }
       ]
     },
@@ -5445,98 +5671,6 @@
           "reason": "No supported EAA change from discovery.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
-        }
-      ]
-    },
-    {
-      "id": "sweden-mtm-reporting-routes-2026-10-16",
-      "country": "Sweden",
-      "recorded_on": "2026-10-23",
-      "status": "draft_pr",
-      "reason": "MTM publishes separate live forms for e-book service defect reports, section 7 exemption claims and consumer accessibility complaints.",
-      "next_action": "Review draft PR #91; preserve the distinction between a Swedish interface and accepted submission languages.",
-      "destinations": [
-        {
-          "page": "EAA authorities and reporting by country.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "draft_pr",
-          "reason": "Replace the MTM Unknown entry with the three verified purpose-specific routes.",
-          "next_action": "Review the draft; do not infer accepted languages or successful submission.",
-          "pr": 91,
-          "domain": "monitoring"
-        },
-        {
-          "page": "EAA enforcement tracking.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "not_applicable",
-          "reason": "These are reporting routes, not an enforcement action or outcome.",
-          "next_action": "No public enforcement change from this evidence.",
-          "pr": null,
-          "domain": "enforcement"
-        },
-        {
-          "page": "EAA sanctions.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "not_applicable",
-          "reason": "No sanction maximum, condition or imposed fine is established by these routes.",
-          "next_action": "No public sanctions change from this evidence.",
-          "pr": null,
-          "domain": "sanctions"
-        },
-        {
-          "page": "EN 301 549 adoptation.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "not_applicable",
-          "reason": "Reporting routes do not establish a standards-adoption change.",
-          "next_action": "No public adoption change from this evidence.",
-          "pr": null,
-          "domain": "adoption"
-        }
-      ]
-    },
-    {
-      "id": "sweden-mediemyndigheten-reporting-routes-2026-10-30",
-      "country": "Sweden",
-      "recorded_on": "2026-10-30",
-      "status": "proposed",
-      "reason": "Mediemyndigheten's official e-service introductions verify separate consumer and company routes for audiovisual-access services.",
-      "next_action": "Review the extension to draft PR #91; preserve the distinction between interface language and accepted submission language.",
-      "destinations": [
-        {
-          "page": "EAA authorities and reporting by country.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "proposed",
-          "reason": "Replace Mediemyndigheten's Unknown entry with the verified consumer and company e-service introductions.",
-          "next_action": "Review draft PR #91; do not imply a successful submission or accepted language.",
-          "pr": 91,
-          "domain": "monitoring"
-        },
-        {
-          "page": "EAA enforcement tracking.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "not_applicable",
-          "reason": "The evidence establishes reporting routes, not an enforcement action or outcome.",
-          "next_action": "No public enforcement change.",
-          "pr": null,
-          "domain": "enforcement"
-        },
-        {
-          "page": "EAA sanctions.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "not_applicable",
-          "reason": "The evidence does not establish a sanction or imposed fine.",
-          "next_action": "No public sanctions change.",
-          "pr": null,
-          "domain": "sanctions"
-        },
-        {
-          "page": "EN 301 549 adoptation.md",
-          "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "not_applicable",
-          "reason": "The evidence does not establish a standards-adoption change.",
-          "next_action": "No public adoption change.",
-          "pr": null,
-          "domain": "adoption"
         }
       ]
     }

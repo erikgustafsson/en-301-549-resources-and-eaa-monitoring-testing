@@ -42,6 +42,18 @@ Type can be:
     <td align="left" valign="top"></td>
   </tr>
   <tr>
+    <th scope="row" align="left" valign="top">Belgium</th>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Investigation reported, December 2025</td>
+    <td align="left" valign="top">
+      <p>Economic Inspection’s reply of 19 December 2025 covered only its responsibilities for consumer banking and e-commerce. It reported that it had received consumer complaints and launched investigations since 28 June 2025.</p>
+      <p>The supplied replies did not confirm the number of complaints or investigations, whether any warnings or penalties had been issued, or any outcomes.</p>
+      <p>Official authority correspondence, 19 December 2025 and 5 January 2026 (<a href=".github/agents/research/countries/belgium.json" hreflang="en">research record</a>).</p>
+    </td>
+    <td align="left" valign="top">2026-10-30</td>
+    <td align="left" valign="top">2026-10-30</td>
+  </tr>
+  <tr>
     <th scope="row" align="left" valign="top">Czech Republic</th>
     <td align="left" valign="top">Monitoring agency</td>
     <td align="left" valign="top">List publication</td>
@@ -182,6 +194,18 @@ Type can be:
     </td>
     <td align="left" valign="top">2025-11-20</td>
     <td align="left" valign="top">2026-09-25</td>
+  </tr>
+  <tr>
+    <th scope="row" align="left" valign="top">Poland</th>
+    <td align="left" valign="top">Monitoring agency</td>
+    <td align="left" valign="top">Ongoing monitoring reported, October 2026</td>
+    <td align="left" valign="top">
+      <p>In its reply of 26 October 2026, PFRON confirmed that it had begun monitoring accessibility compliance. Depending on the findings, inspections and administrative decisions may follow. The reply did not confirm whether any measures had been taken or any outcomes reached.</p>
+      <p>Optional dark mode can be assessed. Information about operators being monitored may be disclosed under the Access to Public Information Act. Each disclosure must be assessed individually and is subject to legal restrictions, including protection of business secrets.</p>
+      <p>Official authority correspondence, 26 October 2026 (<a href=".github/agents/research/countries/poland.json" hreflang="en">research record</a>).</p>
+    </td>
+    <td align="left" valign="top">2026-10-30</td>
+    <td align="left" valign="top">2026-10-30</td>
   </tr>
   <tr>
     <th scope="row" align="left" valign="top">Slovenia</th>

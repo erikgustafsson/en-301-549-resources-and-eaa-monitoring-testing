@@ -233,6 +233,32 @@
         "ee-ttja-corrective-plans-20260925"
       ],
       "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/estonia-enforcement-handoff/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "belgium-official-reply-20261030",
+      "countries": [
+        "Belgium"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "6a6bacb4be033b06345d4aecaa49e6a14554322f463cf07ca3d41120b5c6020a",
+      "state": "reviewed",
+      "claim_ids": [
+        "be-economic-inspection-investigations-20251219"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/b7f9124333d73be37e8120cc367aa5a68deb29ad/EAA%20enforcement%20tracking.md"
+    },
+    {
+      "id": "poland-official-reply-20261030",
+      "countries": [
+        "Poland"
+      ],
+      "section": "Table of legal enforcement status in the EU",
+      "row_sha256": "82d5872b7aa88addba6da0703ed2155b9f5fe5f70bfa99f72b34e82e5fa42a60",
+      "state": "reviewed",
+      "claim_ids": [
+        "pl-pfron-monitoring-20261026"
+      ],
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/b7f9124333d73be37e8120cc367aa5a68deb29ad/EAA%20enforcement%20tracking.md"
     }
   ]
 }
