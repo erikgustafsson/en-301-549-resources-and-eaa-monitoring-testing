@@ -94,10 +94,29 @@
     "dates": "14 markers checked.",
     "global_baseline_failures": "Untouched testing main has Sweden evidence fingerprint mismatch, enforcement public-map mismatch and 10 missing link-language entries. New changes introduce none of these; scoped enforcement structural diagnostic passed with only the proven-unchanged global row-map assertion bypassed in memory. No repository checker or frozen baseline modified.",
     "other": "Whitespace passed. Full Markdown lint/rendered HTML unavailable locally: npx absent.",
-    "routing": "Regenerated from canonical country deliveries; existing Sweden events move into country order and use canonical historical routing keys. No Sweden research/public text changed."
+    "routing": "Regenerated canonical projection changes no existing event values; only existing Sweden event order changes. Three authority delivery events added."
   },
   "pr_review": {
-    "status": "pending actual draft PR/head review"
+    "reviewer": "/root/authority_pr_review",
+    "isolation": "fork_turns=none; actual GitHub PR #93/head/diff, evidence records, specifications and completed language/readability report.",
+    "reviewed_content_head": "6d748987dac2a59a76f71c304c024cfb09513718",
+    "status": "Corrections applied; final privacy/metadata recheck pending.",
+    "findings": [
+      {
+        "finding": "New Cyprus research notes retained individual names from private correspondence.",
+        "resolution": "Replaced with role descriptions; regenerated new source fingerprints/references. Existing baseline evidence preserved."
+      },
+      {
+        "finding": "New enforcement snapshot URLs pointed to base before those rows existed.",
+        "resolution": "Pinned to 6d748987dac2a59a76f71c304c024cfb09513718 containing both new rows."
+      },
+      {
+        "finding": "Mixed monitoring rows need explicit inherited-material scope.",
+        "resolution": "See inherited_unreviewed_scope below."
+      }
+    ],
+    "limits": "No human approval, merge or new legal research."
   },
-  "base_commit": "b7f9124333d73be37e8120cc367aa5a68deb29ad"
+  "base_commit": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+  "inherited_unreviewed_scope": "Only new statement/service-information wording, reporting timing/contact/language additions and their source labels in Belgium/Cyprus/Poland monitoring rows were reviewed. All unchanged authority rosters, existing sector routes, legal links, prior source labels and Cyprus statutory-information paragraph are inherited and not freshly verified. Full-row hashes bind the version but do not imply review of that retained material. All other public rows remain byte-identical to base."
 }

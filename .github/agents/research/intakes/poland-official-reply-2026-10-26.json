@@ -65,11 +65,14 @@
   ],
   "validation": "PASS unified country schema, all country evidence fingerprints/monitoring contracts/routing via full validator before its known enforcement public-map failure; targeted new enforcement claim/source structure and date checks; preservation of prior evidence, attempts, questions, frozen language claim and sanctions; whitespace check. Full validator remains blocked by pre-existing enforcement public-map mismatch. Isolated publication wording review remains pending.",
   "publication_preparation_2026_10_30": {
-    "status": "Prepared for focused draft PR with reviewed public wording. Earlier local-only status/review notes retained as history.",
+    "status": "Prepared and published as draft testing PR #93; not merged. Historical local-only entries retained as history.",
     "review_record": ".github/agents/enforcement/reviews/authority-replies-2026-10-30.json",
     "baseline": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
     "scope": "Only Belgium, Cyprus and Poland. Public PR #86 has separate Sweden/e-book changes; leave unchanged. Research-only Hub intake is draft #92.",
     "validation": "Targeted checks and 28 enforcement tests pass; documented global failures reproduced on untouched baseline.",
-    "public_page": "EAA authorities and reporting by country.md"
+    "public_page": "EAA authorities and reporting by country.md",
+    "pr": 93,
+    "pr_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
+    "reviewed_content_head": "6d748987dac2a59a76f71c304c024cfb09513718"
   }
 }

@@ -9,8 +9,8 @@
   "contact_change_effective_on": "2026-05-01",
   "authority": "Deputy Ministry of Social Welfare, Cyprus",
   "source_refs": [
-    "source-6c4ed09b41ddbaec1c1b5f9f",
-    "source-c46c26d7a13f779bd790f2a2"
+    "source-facf110034d8db72c44214ae",
+    "source-21ce6703c840f1933b483728"
   ],
   "source_language": "English",
   "verification": "Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
@@ -93,11 +93,15 @@
     "publication": "Local changes only; isolated source-fidelity review and current main/open-PR comparison remain before publication."
   },
   "publication_preparation_2026_10_30": {
-    "status": "Prepared for focused draft PR with reviewed public wording. Earlier local-only status/review notes retained as history.",
+    "status": "Prepared and published as draft testing PR #93; not merged. Historical local-only entries retained as history.",
     "review_record": ".github/agents/enforcement/reviews/authority-replies-2026-10-30.json",
     "baseline": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
     "scope": "Only Belgium, Cyprus and Poland. Public PR #86 has separate Sweden/e-book changes; leave unchanged. Research-only Hub intake is draft #92.",
     "validation": "Targeted checks and 28 enforcement tests pass; documented global failures reproduced on untouched baseline.",
-    "public_page": "EAA authorities and reporting by country.md"
+    "public_page": "EAA authorities and reporting by country.md",
+    "pr": 93,
+    "pr_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
+    "reviewed_content_head": "6d748987dac2a59a76f71c304c024cfb09513718",
+    "privacy_revision": "Independent PR review prompted replacement of individual names with role descriptions in new correspondence evidence and succession claim; source fingerprints and references regenerated. Existing main evidence preserved."
   }
 }

@@ -896,8 +896,8 @@
           "record": ".github/agents/research/countries/poland.json",
           "disposition": "proposed",
           "reason": "Replace general-statement Unknown with qualified attributed wording and add separate reporting timing; service-information duty already supported in research but missing from the public row.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -905,8 +905,8 @@
           "record": ".github/agents/research/countries/poland.json",
           "disposition": "proposed",
           "reason": "Add dated PFRON monitoring activity, conditional dark-mode assessment and qualified information-access guidance; do not imply issued measures.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA sanctions.md",
@@ -915,7 +915,7 @@
           "disposition": "not_applicable",
           "reason": "Reply provides no new penalty amounts, sanction powers or issued sanctions; existing legal record and verification dates unchanged.",
           "next_action": "No public change supported by this reply.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -924,7 +924,7 @@
           "disposition": "research_only",
           "reason": "WCAG 2.2 question is not answered; no EN edition or adoption evidence.",
           "next_action": "No public change supported by this reply.",
-          "pr": null
+          "pr": 93
         }
       ]
     }

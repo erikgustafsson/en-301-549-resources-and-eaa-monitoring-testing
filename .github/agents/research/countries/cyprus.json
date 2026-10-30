@@ -58,11 +58,11 @@
       "source_type": "📘 External — legal database",
       "review_note": "📘 External — legal database: CyLaw: Law 57(I)/2024, Articles 35–38 — reproduced legislation; not a government website."
     },
-    "source-6c4ed09b41ddbaec1c1b5f9f": {
+    "source-facf110034d8db72c44214ae": {
       "url": null,
       "source_type": "official_authority_correspondence",
       "reference": "User-supplied Cyprus EAA email thread, reply 2026-10-16; private attachment SHA-256 33e61c72b62a2dd49a0d19342d62a6fd15cf34e6d5dab124cca7bc9a1ddb46a3",
-      "passage": "Demetris Charistos, Administrative Officer, Deputy Ministry of Social Welfare, says matters may be sent directly to him or to deputyministry@dmsw.gov.cy, the mailbox established for public communication with the Deputy Ministry. He also reports completed training sessions and information briefings for interested parties, stakeholders and major companies in the EAA products field; event dates and counts are not supplied.",
+      "passage": "The Administrative Officer, Deputy Ministry of Social Welfare, says matters may be sent directly to him or to deputyministry@dmsw.gov.cy, the mailbox established for public communication with the Deputy Ministry. He also reports completed training sessions and information briefings for interested parties, stakeholders and major companies in the EAA products field; event dates and counts are not supplied.",
       "attempted_on": "2026-10-30",
       "retrieved_on": "2026-10-30",
       "access_result": "reachable",
@@ -76,11 +76,11 @@
         "scope_limit": "Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions."
       }
     },
-    "source-c46c26d7a13f779bd790f2a2": {
+    "source-21ce6703c840f1933b483728": {
       "url": null,
       "source_type": "official_authority_correspondence",
       "reference": "User-supplied Cyprus EAA email thread, reply 2026-05-14; private attachment SHA-256 33e61c72b62a2dd49a0d19342d62a6fd15cf34e6d5dab124cca7bc9a1ddb46a3",
-      "passage": "George Georgiou says email is accepted for exchanging reports and information with rare exceptions, and English documents are accepted. A dedicated reporting website/back office might be considered in the future after estimating report volume. He identifies Demetris Charistos as the new EAA contact from 1 May 2026.",
+      "passage": "The former EAA contact says email is accepted for exchanging reports and information with rare exceptions, and English documents are accepted. A dedicated reporting website/back office might be considered in the future after estimating report volume. The reply identifies a successor as the new EAA contact from 1 May 2026.",
       "attempted_on": "2026-10-30",
       "retrieved_on": "2026-10-30",
       "access_result": "reachable",
@@ -205,7 +205,7 @@
           "field": "company_reporting",
           "assertion": "In its reply of 16 October 2026 to the company-reporting enquiry, the Deputy Ministry confirmed that matters can be sent to deputyministry@dmsw.gov.cy or directly to the EAA contact. This is a general issue-reporting route, not confirmation of a dedicated statutory filing procedure.",
           "status": "verified",
-          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-6c4ed09b41ddbaec1c1b5f9f, source-c46c26d7a13f779bd790f2a2; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
+          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-facf110034d8db72c44214ae, source-21ce6703c840f1933b483728; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
           "directive_context": "EAA",
           "scope": "General communication with the Deputy Ministry; sector-specific filing arrangements not established",
           "source_refs": [],
@@ -222,7 +222,7 @@
           "field": "public_reporting",
           "assertion": "The Deputy Ministry identified deputyministry@dmsw.gov.cy as its public communication mailbox on 16 October 2026 and invited matters to be brought to its attention there.",
           "status": "verified",
-          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-6c4ed09b41ddbaec1c1b5f9f, source-c46c26d7a13f779bd790f2a2; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
+          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-facf110034d8db72c44214ae, source-21ce6703c840f1933b483728; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
           "directive_context": "EAA",
           "scope": "General communication with the Deputy Ministry; sector-specific filing arrangements not established",
           "source_refs": [],
@@ -239,7 +239,7 @@
           "field": "additional_information",
           "assertion": "In the reply of 14 May 2026, the then contact confirmed acceptance of English documents and email exchange of reports and information, with rare exceptions for email. No exceptions were specified.",
           "status": "verified",
-          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-6c4ed09b41ddbaec1c1b5f9f, source-c46c26d7a13f779bd790f2a2; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
+          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-facf110034d8db72c44214ae, source-21ce6703c840f1933b483728; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
           "directive_context": "EAA",
           "scope": "General communication with the Deputy Ministry; sector-specific filing arrangements not established",
           "source_refs": [],
@@ -247,9 +247,9 @@
         },
         {
           "field": "authority",
-          "assertion": "Demetris Charistos replaced George Georgiou as the Cyprus EAA contact from 1 May 2026, according to the 14 May reply; he responded as Administrative Officer of the Deputy Ministry on 16 October 2026.",
+          "assertion": "The Cyprus EAA contact changed from 1 May 2026, according to the 14 May reply; the successor responded as Administrative Officer of the Deputy Ministry on 16 October 2026.",
           "status": "verified",
-          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-6c4ed09b41ddbaec1c1b5f9f, source-c46c26d7a13f779bd790f2a2; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
+          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-facf110034d8db72c44214ae, source-21ce6703c840f1933b483728; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
           "directive_context": "EAA",
           "scope": "General communication with the Deputy Ministry; sector-specific filing arrangements not established",
           "source_refs": [],
@@ -259,7 +259,7 @@
           "field": "additional_information",
           "assertion": "On 16 October 2026 the Deputy Ministry reported that training sessions and information briefings had been held for stakeholders and major companies in the EAA products field. Dates and counts of those events were not supplied.",
           "status": "verified",
-          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-6c4ed09b41ddbaec1c1b5f9f, source-c46c26d7a13f779bd790f2a2; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
+          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-facf110034d8db72c44214ae, source-21ce6703c840f1933b483728; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
           "directive_context": "EAA",
           "scope": "General communication with the Deputy Ministry; sector-specific filing arrangements not established",
           "source_refs": [],
@@ -269,7 +269,7 @@
           "field": "additional_information",
           "assertion": "In May 2026 a dedicated reporting website/back office was only described as a possible future consideration after estimating report volume. The October reply did not confirm a portal or a committed plan.",
           "status": "verified",
-          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-6c4ed09b41ddbaec1c1b5f9f, source-c46c26d7a13f779bd790f2a2; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
+          "review_note": "Official English correspondence inspected 2026-10-30; evidence source-facf110034d8db72c44214ae, source-21ce6703c840f1933b483728; intake .github/agents/research/intakes/cyprus-official-reply-2026-10-16.json. The legacy monitoring source schema cannot represent correspondence objects, so source_refs is empty and the canonical evidence IDs are recorded here, following existing correspondence practice. Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions.",
           "directive_context": "EAA",
           "scope": "General communication with the Deputy Ministry; sector-specific filing arrangements not established",
           "source_refs": [],
@@ -330,7 +330,7 @@
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
         "All Monitoring agencies research, 25 September 2026: Read Law 57(I)/2024 context through CyLaw. Powers and cost recovery do not establish actual inspections. No reportable activity identified in this limited search; no comprehensive regulator-register check.",
-        "Correspondence intake 2026-10-30: source-6c4ed09b41ddbaec1c1b5f9f (.github/agents/research/intakes/cyprus-official-reply-2026-10-16.json) records completed training and information briefings reported on 16 October 2026 for the EAA products field. Preserve as implementation/outreach research only. It does not establish inspections, investigations, warnings, sanctions, event dates/counts or absence of enforcement. Earlier bounded public-source search dates and conclusions remain historical."
+        "Correspondence intake 2026-10-30: source-facf110034d8db72c44214ae (.github/agents/research/intakes/cyprus-official-reply-2026-10-16.json) records completed training and information briefings reported on 16 October 2026 for the EAA products field. Preserve as implementation/outreach research only. It does not establish inspections, investigations, warnings, sanctions, event dates/counts or absence of enforcement. Earlier bounded public-source search dates and conclusions remain historical."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -362,7 +362,7 @@
       "recorded_on": "2026-10-30",
       "status": "proposed",
       "reason": "Official reply supplies general reporting contact, English acceptance, contact succession and outreach evidence.",
-      "next_action": "Review the focused three-authority draft; isolated source-fidelity and enforcement readability reviews completed on 30 October 2026.",
+      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
@@ -370,8 +370,8 @@
           "domain": "monitoring",
           "disposition": "proposed",
           "reason": "General reporting mailbox and dated English acceptance missing from the Cyprus public row.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -380,7 +380,7 @@
           "disposition": "research_only",
           "reason": "Completed training/briefings are outreach, not evidence of actual enforcement cases.",
           "next_action": "Retain outreach in knowledge notes; no public enforcement row added.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EAA sanctions.md",
@@ -389,7 +389,7 @@
           "disposition": "not_applicable",
           "reason": "No statutory sanctions, powers or imposed penalties supplied.",
           "next_action": "No public or legal-claim change.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -398,7 +398,7 @@
           "disposition": "not_applicable",
           "reason": "No national standard adoption, edition or reference supplied.",
           "next_action": "No adoption domain or public change; historical routing key retained.",
-          "pr": null
+          "pr": 93
         }
       ]
     }

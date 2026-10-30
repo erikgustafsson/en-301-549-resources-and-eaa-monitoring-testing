@@ -556,7 +556,7 @@
       "recorded_on": "2026-10-06",
       "status": "proposed",
       "reason": "Official reply resolves public information duty; quoted earlier reply supports historical investigations.",
-      "next_action": "Review the focused three-authority draft; isolated source-fidelity and enforcement readability reviews completed on 30 October 2026.",
+      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
@@ -564,8 +564,8 @@
           "domain": "monitoring",
           "disposition": "proposed",
           "reason": "Current Statement source: Unverified note is stale for the public-information duty; dedicated-page requirement remains unestablished.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -573,8 +573,8 @@
           "domain": "enforcement",
           "disposition": "proposed",
           "reason": "No Belgium entry; official reply confirms historical consumer complaints and investigations.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA sanctions.md",
@@ -583,7 +583,7 @@
           "disposition": "research_only",
           "reason": "No new statutory amount or imposed penalty; conditional warning/report powers do not establish action.",
           "next_action": "Retain current public entry.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -592,7 +592,7 @@
           "disposition": "research_only",
           "reason": "Testing overlap does not establish a national EN edition adoption or requirement.",
           "next_action": "Retain current public entry; preserve January reply as research context.",
-          "pr": null
+          "pr": 93
         }
       ]
     },
@@ -1272,7 +1272,7 @@
       "recorded_on": "2026-10-30",
       "status": "proposed",
       "reason": "Official reply supplies general reporting contact, English acceptance, contact succession and outreach evidence.",
-      "next_action": "Review the focused three-authority draft; isolated source-fidelity and enforcement readability reviews completed on 30 October 2026.",
+      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
@@ -1280,8 +1280,8 @@
           "domain": "monitoring",
           "disposition": "proposed",
           "reason": "General reporting mailbox and dated English acceptance missing from the Cyprus public row.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -1290,7 +1290,7 @@
           "disposition": "research_only",
           "reason": "Completed training/briefings are outreach, not evidence of actual enforcement cases.",
           "next_action": "Retain outreach in knowledge notes; no public enforcement row added.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EAA sanctions.md",
@@ -1299,7 +1299,7 @@
           "disposition": "not_applicable",
           "reason": "No statutory sanctions, powers or imposed penalties supplied.",
           "next_action": "No public or legal-claim change.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -1308,7 +1308,7 @@
           "disposition": "not_applicable",
           "reason": "No national standard adoption, edition or reference supplied.",
           "next_action": "No adoption domain or public change; historical routing key retained.",
-          "pr": null
+          "pr": 93
         }
       ]
     },
@@ -3905,8 +3905,8 @@
           "record": ".github/agents/research/countries/poland.json",
           "disposition": "proposed",
           "reason": "Replace general-statement Unknown with qualified attributed wording and add separate reporting timing; service-information duty already supported in research but missing from the public row.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -3914,8 +3914,8 @@
           "record": ".github/agents/research/countries/poland.json",
           "disposition": "proposed",
           "reason": "Add dated PFRON monitoring activity, conditional dark-mode assessment and qualified information-access guidance; do not imply issued measures.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA sanctions.md",
@@ -3924,7 +3924,7 @@
           "disposition": "not_applicable",
           "reason": "Reply provides no new penalty amounts, sanction powers or issued sanctions; existing legal record and verification dates unchanged.",
           "next_action": "No public change supported by this reply.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -3933,7 +3933,7 @@
           "disposition": "research_only",
           "reason": "WCAG 2.2 question is not answered; no EN edition or adoption evidence.",
           "next_action": "No public change supported by this reply.",
-          "pr": null
+          "pr": 93
         }
       ]
     },

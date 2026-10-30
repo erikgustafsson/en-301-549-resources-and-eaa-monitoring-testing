@@ -922,7 +922,7 @@
       "recorded_on": "2026-10-06",
       "status": "proposed",
       "reason": "Official reply resolves public information duty; quoted earlier reply supports historical investigations.",
-      "next_action": "Review the focused three-authority draft; isolated source-fidelity and enforcement readability reviews completed on 30 October 2026.",
+      "next_action": "Review draft testing PR #93; public wording independently reviewed. No merge or live transfer performed.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
@@ -930,8 +930,8 @@
           "domain": "monitoring",
           "disposition": "proposed",
           "reason": "Current Statement source: Unverified note is stale for the public-information duty; dedicated-page requirement remains unestablished.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA enforcement tracking.md",
@@ -939,8 +939,8 @@
           "domain": "enforcement",
           "disposition": "proposed",
           "reason": "No Belgium entry; official reply confirms historical consumer complaints and investigations.",
-          "next_action": "Prepared in three-authority draft; complete independent PR review and maintainer review before merge.",
-          "pr": null
+          "next_action": "Public wording prepared in draft testing PR #93; maintainer review and documented baseline-check disposition remain before merge.",
+          "pr": 93
         },
         {
           "page": "EAA sanctions.md",
@@ -949,7 +949,7 @@
           "disposition": "research_only",
           "reason": "No new statutory amount or imposed penalty; conditional warning/report powers do not establish action.",
           "next_action": "Retain current public entry.",
-          "pr": null
+          "pr": 93
         },
         {
           "page": "EN 301 549 adoptation.md",
@@ -958,7 +958,7 @@
           "disposition": "research_only",
           "reason": "Testing overlap does not establish a national EN edition adoption or requirement.",
           "next_action": "Retain current public entry; preserve January reply as research context.",
-          "pr": null
+          "pr": 93
         }
       ]
     }
