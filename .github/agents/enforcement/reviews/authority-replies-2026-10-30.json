@@ -100,7 +100,7 @@
     "reviewer": "/root/authority_pr_review",
     "isolation": "fork_turns=none; actual GitHub PR #93/head/diff, evidence records, specifications and completed language/readability report.",
     "reviewed_content_head": "6d748987dac2a59a76f71c304c024cfb09513718",
-    "status": "Corrections applied; final privacy/metadata recheck pending.",
+    "status": "All three findings resolved; final actual-head recheck complete. No additional findings.",
     "findings": [
       {
         "finding": "New Cyprus research notes retained individual names from private correspondence.",
@@ -115,7 +115,9 @@
         "resolution": "See inherited_unreviewed_scope below."
       }
     ],
-    "limits": "No human approval, merge or new legal research."
+    "limits": "No human approval, merge or new legal research.",
+    "correction_head": "d130b408df2ef0da2212b9af6d0d82645b7b4005",
+    "correction_verdict": "Role-based Cyprus redactions and regenerated references verified; snapshots pinned to content commit; inherited/unreviewed scope explicit. Public wording unchanged and hashes match. Targeted validation passes. Existing global failures and human maintainer review remain outstanding."
   },
   "base_commit": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
   "inherited_unreviewed_scope": "Only new statement/service-information wording, reporting timing/contact/language additions and their source labels in Belgium/Cyprus/Poland monitoring rows were reviewed. All unchanged authority rosters, existing sector routes, legal links, prior source labels and Cyprus statutory-information paragraph are inherited and not freshly verified. Full-row hashes bind the version but do not imply review of that retained material. All other public rows remain byte-identical to base."
