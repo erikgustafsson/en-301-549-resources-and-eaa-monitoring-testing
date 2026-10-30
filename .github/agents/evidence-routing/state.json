@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-batch-948d6b80-97ab9b70",
+    "acquired_at": "2026-10-30T07:39:33.193Z",
+    "expires_at": "2026-10-30T08:09:33.193Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3978,5 +3982,5 @@
       "note": "The synchronized head adds Mediemyndigheten consumer and company routes. The company route is live and states its audience/purpose, but the public complaint destination now states that the e-service is not active or unavailable. Do not publish it as a verified active complaint form. Keep the company route proposed; return the consumer route to Unknown/needs_evidence. The previously notified MTM delivery normalization from draft_pr to proposed also remains unresolved in PR #91."
     }
   ],
-  "updated_at": "2026-10-30T07:38:51.199Z"
+  "updated_at": "2026-10-30T07:39:33.193Z"
 }
