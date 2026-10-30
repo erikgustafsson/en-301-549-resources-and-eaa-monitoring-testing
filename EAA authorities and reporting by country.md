@@ -48,7 +48,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
   </tr>
   <tr>
     <th scope="row" align="left" valign="top">Belgium</th>
-    <td align="left" valign="top">✔️ Yes, public service information for consumer banking and e-commerce.</td>
+    <td align="left" valign="top">✔️ Yes</td>
     <td align="left" valign="top">
       <p><strong>Banking and E-commerce:</strong></p>
       <ul>
