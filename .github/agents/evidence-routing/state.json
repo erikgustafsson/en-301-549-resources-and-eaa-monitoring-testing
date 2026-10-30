@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-pr93-ready-merge-20261030164903570",
-    "acquired_at": "2026-10-30T16:49:03.570Z",
-    "expires_at": "2026-10-30T17:19:03.570Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1537,6 +1533,17 @@
       "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The latest synchronized head does not change the canonical delivery fields or cross-page dispositions. The previously notified adoption-path and Poland top-level metadata corrections remain unresolved. No new evidence or blocker; no duplicate suggestion."
+    },
+    {
+      "delivery_id": "b802b190-d481-11f1-9d02-134321db93bc",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 93,
+      "head_sha": "8c8c44d7ea85573ed541d162fa577762814138a4",
+      "merge_commit_sha": "5474816cd8798f647c147e7cf8b8fa494e66e560",
+      "checked_on": "2026-10-30T16:49:30.344Z",
+      "outcome": "actual_state_merged_existing_pr93_routing_followup_unresolved",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "Although the webhook action is ready_for_review, actual GitHub state is merged. Main now contains the supported monitoring/enforcement content and private-safe research, with no open PR. The already-notified routing defect remains: all three deliveries use the retired adoption filename, Poland lacks top-level delivery metadata, and Belgium/Cyprus statuses/next actions remain pre-merge proposed text. The existing suggestion was converted to a post-merge metadata follow-up; no duplicate suggestion created."
     }
   ],
   "suggestions": [
@@ -2734,15 +2741,15 @@
       "id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "country": "Belgium, Cyprus and Poland",
       "target": "PR #93 canonical deliveries and generated `.github/agents/evidence-routing/events.json`",
-      "status": "open_pr93_followup_required",
-      "covering_pr": 93,
-      "proposed_change": "Update PR #93 before merge. In `be-official-reply-20261006`, `cy-official-reply-20261016` and `poland-pfron-official-reply-2026-10-26`, replace the retired destination `EN 301 549 adoptation.md` with the current registered page `EN 301 549 adoption.md`. Complete Poland's top-level delivery with `recorded_on: 2026-10-30`, `status: proposed`, a reason summarising the PFRON reply, and a review next action comparable to the Belgium/Cyprus deliveries. Regenerate `events.json` from the canonical country records. Preserve all current research_only/not_applicable dispositions and the newly added PR #93 references; do not edit the generated index independently.",
-      "evidence": "The synchronized PR #93 head now gives all destinations numeric `pr: 93` references and removes private Cyprus names, resolving that part of the review. The three new canonical deliveries still use the retired adoption filename. Poland's stable delivery still has only id/country/destinations, so its generated event still omits recorded date, status, reason and next action. Current main's registered page is `EN 301 549 adoption.md`.",
+      "status": "post_pr93_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Prepare one focused metadata follow-up on current main. In `be-official-reply-20261006`, `cy-official-reply-20261016` and `poland-pfron-official-reply-2026-10-26`, replace retired destination `EN 301 549 adoptation.md` with current registered page `EN 301 549 adoption.md`. Complete Poland's top-level delivery with `recorded_on: 2026-10-30`, `status: already_present` (the monitoring/enforcement public changes are now merged), a reason summarising the PFRON reply, and a no-further-public-action next action. Normalize the Belgium/Cyprus top-level statuses and their monitoring/enforcement destinations from `proposed` to `already_present`, retain numeric PR 93 as the delivery reference, and replace draft-review next actions with post-merge completion text. Preserve research_only/not_applicable destinations. Regenerate `events.json` from canonical country records; do not edit the generated index independently.",
+      "evidence": "PR #93 merged at 5474816cd8798f647c147e7cf8b8fa494e66e560. Current main contains the supported Belgium, Cyprus and Poland public changes, but all three canonical deliveries still point to retired `EN 301 549 adoptation.md`. Belgium and Cyprus still say proposed/review draft; Poland's stable event still omits recorded date, status, reason and next action. Current registered page is `EN 301 549 adoption.md`.",
       "limitations": "This is a routing-metadata correction, not a request to broaden the factual claims. Belgium establishes complaints/investigations but no counts, warnings, penalties or outcomes. Cyprus establishes a general institutional mailbox and dated English-document acceptance, not a purpose-specific statutory filing procedure. Poland establishes ongoing monitoring and conditional possible next steps, not completed inspections, issued decisions, mandatory dark mode, guaranteed disclosure or WCAG 2.2 testing. The supplied emails are documentary evidence with private-safe fingerprints, not independent sender authentication or public publications. Sanctions and adoption public pages remain unchanged.",
       "source_pr": 93,
       "created_on": "2026-10-30T16:38:00.013Z",
-      "updated_on": "2026-10-30T16:48:43.795Z",
-      "progress": "PR #93 remains open and draft at 8c8c44d7ea85573ed541d162fa577762814138a4. The latest synchronization again leaves the three canonical deliveries unchanged: all still name retired `EN 301 549 adoptation.md`, and Poland still lacks top-level recorded_on/status/reason/next_action. The existing covering suggestion remains unchanged.",
+      "updated_on": "2026-10-30T16:49:30.344Z",
+      "progress": "PR #93 merged from head 8c8c44d7ea85573ed541d162fa577762814138a4 without the routing correction. Main contains the public/research evidence, so a separate metadata follow-up is now required. No open PR covers it.",
       "source_urls": [
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/6d748987dac2a59a76f71c304c024cfb09513718/.github/agents/research/countries/belgium.json",
@@ -4336,7 +4343,18 @@
       "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The latest synchronized head does not change the canonical delivery fields or cross-page dispositions. The previously notified adoption-path and Poland top-level metadata corrections remain unresolved. No new evidence or blocker; no duplicate suggestion."
+    },
+    {
+      "delivery_id": "b802b190-d481-11f1-9d02-134321db93bc",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 93,
+      "head_sha": "8c8c44d7ea85573ed541d162fa577762814138a4",
+      "merge_commit_sha": "5474816cd8798f647c147e7cf8b8fa494e66e560",
+      "checked_on": "2026-10-30T16:49:30.344Z",
+      "outcome": "actual_state_merged_existing_pr93_routing_followup_unresolved",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "Although the webhook action is ready_for_review, actual GitHub state is merged. Main now contains the supported monitoring/enforcement content and private-safe research, with no open PR. The already-notified routing defect remains: all three deliveries use the retired adoption filename, Poland lacks top-level delivery metadata, and Belgium/Cyprus statuses/next actions remain pre-merge proposed text. The existing suggestion was converted to a post-merge metadata follow-up; no duplicate suggestion created."
     }
   ],
-  "updated_at": "2026-10-30T16:49:03.570Z"
+  "updated_at": "2026-10-30T16:49:30.344Z"
 }
