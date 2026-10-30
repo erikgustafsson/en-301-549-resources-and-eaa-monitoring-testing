@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "routing-pr95-2026-10-30T181838655Z",
-    "expires_at": "2026-10-30T18:48:38.655Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1558,6 +1555,19 @@
       "outcome": "duplicate_existing_post_pr93_routing_followup",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The explicit merge delivery confirms the already-assessed merged main state. Belgium, Cyprus and Poland canonical deliveries still use the retired adoption filename; Poland still lacks top-level delivery metadata; Belgium/Cyprus still retain pre-merge proposed statuses and review-draft next actions. The existing post-PR #93 metadata follow-up remains actionable and already notified; no new suggestion or blocker."
+    },
+    {
+      "delivery_id": "201c82e0-d48e-11f1-959d-3989ee5ea26a",
+      "event": "pull_request.opened",
+      "pull_request": 95,
+      "head_sha": "8da9e071c65d6d8215edd85be6a233c3faafb30e",
+      "checked_on": "2026-10-30T18:20:46.208Z",
+      "outcome": "existing_sweden_correction_covered_portugal_handoff_preserved_public_proposal_and_metadata_followup",
+      "suggestion_ids": [
+        "source-1acf7d4b13244b1b1b4f272e|Portugal|EAA enforcement tracking.md|annual-2025-respondent-statistics",
+        "pr95|sweden-consumer-delivery|covering-pr-and-current-adoption-path"
+      ],
+      "note": "Current open draft95 is the only open PR. Canonical Sweden/Portugal records, main/draft events, changed files, main public monitoring/enforcement/sanctions/adoption/standards pages and immediate prior official source observations reviewed. Sweden availability correction is covered by95, not yet merged. Portugal annual-report and payment-account-guide evidence are stored with research-only/needs_evidence destinations; separate enforcement public PR suggested with strict limitations. Add covering95/current adoption path in the existing draft's metadata. No research/public edits, new PRs, source-app messages or new-country research in this safety pass. Prior watcher outcome saved and watcher lease released."
     }
   ],
   "suggestions": [
@@ -2713,14 +2723,14 @@
       "id": "sweden-mediemyndigheten-consumer-route-2026-10-30|sweden|EAA authorities and reporting by country.md|downgrade-inactive-form",
       "country": "Sweden",
       "target": "PR #91 Mediemyndigheten consumer complaint route and Sweden monitoring row",
-      "status": "post_pr91_followup_required",
-      "covering_pr": null,
+      "status": "covered_by_open_pr",
+      "covering_pr": 95,
       "proposed_change": "Prepare a focused follow-up on current main that splits the merged Mediemyndigheten routing result. Keep the live company accessibility-deficiency/exemption e-service verified. Change the consumer-complaint claim to unknown/needs_evidence, replace the public-row active-form link with an Unknown entry (or explicitly state that the official destination was inactive/unavailable when checked on 30 October 2026), and record a separate stable consumer-route delivery with monitoring `needs_evidence` plus enforcement, sanctions and adoption `not_applicable`. Regenerate `events.json`. In the same metadata follow-up, normalize the MTM delivery from `draft_pr` to `proposed`.",
       "evidence": "On 30 October 2026 the official consumer destination https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b displayed 'E-tjänst ej tillgänglig' and 'Denna e-tjänst är för närvarande inte aktiv eller otillgänglig.' The separate company destination remained live and identified companies, section 24 accessibility-deficiency reports, section 8 exemption claims, audiovisual-access services and a six-step submission flow.",
       "limitations": "The consumer-route page does not distinguish temporary outage from withdrawal, so do not claim the route has been permanently removed. No form was submitted. The Swedish interface does not establish accepted submission languages or successful end-to-end delivery. This evidence concerns reporting availability, not enforcement action, sanctions or standards adoption.",
       "source_pr": 91,
       "created_on": "2026-10-30T07:38:51.199Z",
-      "updated_on": "2026-10-30T15:56:58.627Z",
+      "updated_on": "2026-10-30T18:20:46.208Z",
       "source_urls": [
         "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
         "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd"
@@ -2729,27 +2739,28 @@
         "sweden|mediemyndigheten|consumer-complaint-route|inactive-or-unavailable|2026-10-30",
         "sweden|mediemyndigheten|company-deficiency-exemption-route|live|2026-10-30"
       ],
-      "progress": "PR #91 merged at head d0b6139efa831d51471745a43bc932ce5bdf2377. Current main publishes the consumer destination as an active complaint form and marks its claim verified even though the official destination displayed that the e-service was not active or was unavailable on 30 October 2026. The separate company route remains supported. No open PR covers this correction."
+      "progress": "Draft #95 head8da9e071c65d6d8215edd85be6a233c3faafb30e covers the current-unavailability correction, preserves separate company reporting, retains historical evidence and adds a distinct availability delivery. Not yet resolved on main; recheck on merge. Canonical covering-PR field still needs95, tracked separately."
     },
     {
       "id": "sweden-mtm-reporting-routes-2026-10-16|monitoring|normalize-draft-pr-disposition",
       "country": "Sweden",
       "target": "Canonical Sweden delivery and generated evidence-routing event for MTM reporting routes",
-      "status": "post_pr91_followup_required",
-      "covering_pr": null,
+      "status": "resolved",
+      "covering_pr": 94,
       "proposed_change": "Prepare a focused metadata follow-up on current main that changes the canonical `sweden-mtm-reporting-routes-2026-10-16` event status and its monitoring-page disposition from the unsupported value `draft_pr` to the allowed value `proposed`, updates the stale PR #91 next action/PR reference, and regenerates `.github/agents/evidence-routing/events.json`. Preserve the existing verified MTM public complaint, company defect-reporting and section 7 exemption routes; enforcement, sanctions and standards-adoption remain `not_applicable`.",
       "evidence": "PR #91 merged the complete MTM route evidence and public wording, but current main still uses `draft_pr` for both the canonical delivery status and monitoring disposition. `.github/agents/evidence.md` allows only proposed, already_present, research_only, needs_evidence, blocked_by_open_pr or not_applicable.",
       "limitations": "This is routing-metadata normalization, not a new factual claim. Do not infer accepted submission languages or successful end-to-end submission, and do not turn the reporting routes into enforcement, sanctions or standards-adoption claims.",
       "source_pr": 91,
       "created_on": "2026-10-23T07:25:05.037Z",
-      "updated_on": "2026-10-30T15:56:58.627Z",
-      "progress": "PR #91 merged at head d0b6139efa831d51471745a43bc932ce5bdf2377 without this correction. Current main retains the unsupported `draft_pr` values and stale PR #91 references. No open PR covers the follow-up.",
+      "updated_on": "2026-10-30T18:20:46.208Z",
+      "progress": "Current main71b1c37 contains merged #94 normalization to already_present after merged #91; no repeat MTM metadata/public suggestion.",
       "source_urls": [
         "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/rapportering-till-mtm/"
       ],
       "evidence_fingerprints": [
         "sweden|mtm-reporting-routes-2026-10-16|monitoring|unsupported-draft-pr-disposition"
-      ]
+      ],
+      "resolved_on": "2026-10-30T18:20:46.208Z"
     },
     {
       "id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
@@ -2775,6 +2786,57 @@
         "cy-official-reply-20261016|cyprus|canonical-delivery-metadata|33e61c72b62a2dd49a0d19342d62a6fd15cf34e6d5dab124cca7bc9a1ddb46a3",
         "poland-pfron-official-reply-2026-10-26|poland|canonical-delivery-metadata|24783007f4921a8d0b83298f490453fff4427277153e4a0f99a27e795873bd91"
       ]
+    },
+    {
+      "id": "source-1acf7d4b13244b1b1b4f272e|Portugal|EAA enforcement tracking.md|annual-2025-respondent-statistics",
+      "country": "Portugal",
+      "target": "EAA enforcement tracking.md",
+      "status": "queued_separate_public_pr",
+      "covering_pr": null,
+      "research_handoff_pr": 95,
+      "source_pr": 95,
+      "created_on": "2026-10-30T18:20:46.208Z",
+      "updated_on": "2026-10-30T18:20:46.208Z",
+      "proposed_change": "Prepare a separate Portugal enforcement entry attributed to IDiPD's annual2025 report: specify 28 June–31 December2025,46 responding authorities including38/308 municipalities,190 inspected operators,15 municipal non-compliance cases and13 complaints; state no proceedings/fines/accessory sanctions were reported by respondents in that period. Do not infer exhaustive national coverage, exclusively digital EAA activity, approved exemptions or completed remediation. Complete precise claim modelling, Portuguese fidelity, B2 readability and independent PR review before publication.",
+      "evidence": "Official report prepared31 March2026; linked from IDiPD EAA hub updated16 October2026. Relevant source pages read and summary/statistics visually inspected during the immediately preceding authorised watcher pass. No matching Portugal public enforcement entry or other open covering PR found.",
+      "source_urls": [
+        "https://idipd.mtsss.gov.pt/documents/11309/1169064/Relat%C3%B3rio+Anual+relativo+%C3%A0+aplica%C3%A7%C3%A3o+do+Decreto-Lei+n.%C2%BA+82+2022+%282025%29/6f4fc88e-a0c4-4e07-bdfa-b1b3ad065d94",
+        "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos"
+      ],
+      "evidence_fingerprints": [
+        "source-1acf7d4b13244b1b1b4f272e",
+        "576bd5772d7628bfaf9f18fa76128b6b75ce3aa48f92fb02e88822ef50e126a6"
+      ],
+      "missing_record_handoff": "Previously missing on main; supplied in PR95 canonical Portugal enforcement/sanctions research and generated ledger. Preserve it through merge. No additional research-record draft needed.",
+      "limitations": "Report public publication date unknown. Incomplete municipal responses and mixed physical/public-platform examples. Complaint status totals inconsistent; do not harmonize or infer missing outcomes. Two burden invocations are under analysis, not granted. Required public-language/readability/PR reviews pending. Existing sanctions maxima unchanged; no standards/adoption/e-book infrastructure change supported.",
+      "notification_id": "watcher-2026-10-30-portugal-annual-report",
+      "notification_status": "same originating-chat outcome; no duplicate external message",
+      "per_page_dispositions": {
+        "monitoring": "research_only; no new route or mandate",
+        "enforcement": "research handoff in95; public PR suggested",
+        "sanctions": "research_only; no legal maxima change",
+        "adoption": "not_applicable",
+        "standards": "not_applicable",
+        "ebook": "not_applicable"
+      }
+    },
+    {
+      "id": "pr95|sweden-consumer-delivery|covering-pr-and-current-adoption-path",
+      "country": "Sweden",
+      "target": "PR #95 canonical Sweden deliveries and generated events.json",
+      "status": "update_existing_pr",
+      "covering_pr": 95,
+      "source_pr": 95,
+      "created_on": "2026-10-30T18:20:46.208Z",
+      "updated_on": "2026-10-30T18:20:46.208Z",
+      "proposed_change": "Update existing PR95 rather than opening another PR: set the monitoring destination pr field to95 for sweden-mediemyndigheten-consumer-unavailable-2026-10-30; in the older sweden-mediemyndigheten-reporting-routes-2026-10-30 delivery already being reconciled, replace retired `EN 301 549 adoptation.md` with current `EN 301 549 adoption.md`. Regenerate events.json from canonical deliveries. Keep historical PR91 references and all evidence/public wording unchanged. Portugal public enforcement covering-pr must remain unassigned until a separate publication PR exists; any95 reference should explicitly denote research-handoff coverage.",
+      "evidence": "Current PR95 adds the new monitoring proposal with pr:null and updates the historical combined delivery status while retaining its retired adoption filename. Shared evidence instructions require PR reference when one exists and current registered destinations.",
+      "evidence_fingerprints": [
+        "sweden-mediemyndigheten-consumer-unavailable-2026-10-30|proposed|pr:null",
+        "sweden-mediemyndigheten-reporting-routes-2026-10-30|EN 301 549 adoptation.md"
+      ],
+      "limitations": "Metadata-only correction; no new legal or reporting claim. Existing draft covers substantive evidence; not a request for another country PR.",
+      "notification_id": "routing-pr95-canonical-metadata-2026-10-30"
     }
   ],
   "processed_deliveries": [
@@ -4379,7 +4441,20 @@
       "outcome": "duplicate_existing_post_pr93_routing_followup",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The explicit merge delivery confirms the already-assessed merged main state. Belgium, Cyprus and Poland canonical deliveries still use the retired adoption filename; Poland still lacks top-level delivery metadata; Belgium/Cyprus still retain pre-merge proposed statuses and review-draft next actions. The existing post-PR #93 metadata follow-up remains actionable and already notified; no new suggestion or blocker."
+    },
+    {
+      "delivery_id": "201c82e0-d48e-11f1-959d-3989ee5ea26a",
+      "event": "pull_request.opened",
+      "pull_request": 95,
+      "head_sha": "8da9e071c65d6d8215edd85be6a233c3faafb30e",
+      "checked_on": "2026-10-30T18:20:46.208Z",
+      "outcome": "existing_sweden_correction_covered_portugal_handoff_preserved_public_proposal_and_metadata_followup",
+      "suggestion_ids": [
+        "source-1acf7d4b13244b1b1b4f272e|Portugal|EAA enforcement tracking.md|annual-2025-respondent-statistics",
+        "pr95|sweden-consumer-delivery|covering-pr-and-current-adoption-path"
+      ],
+      "note": "Current open draft95 is the only open PR. Canonical Sweden/Portugal records, main/draft events, changed files, main public monitoring/enforcement/sanctions/adoption/standards pages and immediate prior official source observations reviewed. Sweden availability correction is covered by95, not yet merged. Portugal annual-report and payment-account-guide evidence are stored with research-only/needs_evidence destinations; separate enforcement public PR suggested with strict limitations. Add covering95/current adoption path in the existing draft's metadata. No research/public edits, new PRs, source-app messages or new-country research in this safety pass. Prior watcher outcome saved and watcher lease released."
     }
   ],
-  "updated_at": "2026-10-30T16:51:45.083Z"
+  "updated_at": "2026-10-30T18:20:46.208Z"
 }
