@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-pr92-ready-20261030164249771",
-    "acquired_at": "2026-10-30T16:42:49.771Z",
-    "expires_at": "2026-10-30T17:12:49.771Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1477,6 +1473,16 @@
       "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The new head changes only the review report/PR description to record the final privacy, snapshot and inherited-scope recheck. The public facts, research claims, destination dispositions and canonical delivery metadata are unchanged. All three deliveries still use retired `EN 301 549 adoptation.md`; Poland still lacks top-level recorded_on/status/reason/next_action. The already-notified PR #93 suggestion remains open; no duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "e39a5200-d480-11f1-97ad-47e4dfa0b659",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 92,
+      "head_sha": "a98af0e8c588e2d75462f0ad0c968e4a374fa946",
+      "merge_commit_sha": "e9363b23c5837bdf5ef29fdf4614dfa9f78131ec",
+      "checked_on": "2026-10-30T16:43:10.422Z",
+      "outcome": "actual_state_merged_research_only_secondary_resource_no_new_actionable_handoff",
+      "note": "Although the webhook action is ready_for_review, actual GitHub state is merged. Main now contains the single EAA A11y Hub intake unchanged from the opened-event review. It remains explicitly unverified_source, retains research_only dispositions for monitoring, enforcement, sanctions, adoption and the standards page, and not_applicable for the e-book page. It publishes no country or legal claim and does not overlap open PR #93. No new actionable handoff or suggestion."
     }
   ],
   "suggestions": [
@@ -4216,7 +4222,17 @@
       "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The new head changes only the review report/PR description to record the final privacy, snapshot and inherited-scope recheck. The public facts, research claims, destination dispositions and canonical delivery metadata are unchanged. All three deliveries still use retired `EN 301 549 adoptation.md`; Poland still lacks top-level recorded_on/status/reason/next_action. The already-notified PR #93 suggestion remains open; no duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "e39a5200-d480-11f1-97ad-47e4dfa0b659",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 92,
+      "head_sha": "a98af0e8c588e2d75462f0ad0c968e4a374fa946",
+      "merge_commit_sha": "e9363b23c5837bdf5ef29fdf4614dfa9f78131ec",
+      "checked_on": "2026-10-30T16:43:10.422Z",
+      "outcome": "actual_state_merged_research_only_secondary_resource_no_new_actionable_handoff",
+      "note": "Although the webhook action is ready_for_review, actual GitHub state is merged. Main now contains the single EAA A11y Hub intake unchanged from the opened-event review. It remains explicitly unverified_source, retains research_only dispositions for monitoring, enforcement, sanctions, adoption and the standards page, and not_applicable for the e-book page. It publishes no country or legal claim and does not overlap open PR #93. No new actionable handoff or suggestion."
     }
   ],
-  "updated_at": "2026-10-30T16:42:49.771Z"
+  "updated_at": "2026-10-30T16:43:10.422Z"
 }
