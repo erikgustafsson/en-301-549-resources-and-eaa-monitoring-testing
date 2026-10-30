@@ -6393,6 +6393,24 @@
       "language": "en",
       "checked_on": "2026-10-20",
       "reason": "English resource content inspected during the e-book research round; language verification only. See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for content scope and access limits."
+    },
+    {
+      "url": ".github/agents/research/countries/belgium.json",
+      "language": "en",
+      "reason": "Local English research record inspected; no raw private correspondence published.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": ".github/agents/research/countries/cyprus.json",
+      "language": "en",
+      "reason": "Local English research record inspected; no raw private correspondence published.",
+      "checked_on": "2026-10-30"
+    },
+    {
+      "url": ".github/agents/research/countries/poland.json",
+      "language": "en",
+      "reason": "Local English research record inspected; no raw private correspondence published.",
+      "checked_on": "2026-10-30"
     }
   ]
 }
