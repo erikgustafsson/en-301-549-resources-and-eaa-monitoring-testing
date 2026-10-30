@@ -3942,6 +3942,106 @@
       "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
     },
     {
+      "id": "portugal-idipd-annual-report-2025-discovered-20261030",
+      "country": "Portugal",
+      "recorded_on": "2026-10-30",
+      "status": "research_only",
+      "source_refs": [
+        "source-ef3e0dfdb058a27ae4f30771",
+        "source-1acf7d4b13244b1b1b4f272e"
+      ],
+      "reason": "Official annual activity statistics newly located and compared with the current country record; no matching enforcement entry or open PR found. Evidence and limitations retained for separate publication review.",
+      "next_action": "Suggest a separate Portugal enforcement statistics PR; no enforcement/sanctions public edit in this monitoring draft.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "monitoring",
+          "disposition": "research_only",
+          "reason": "Report does not establish a new usable reporting route or statement/language rule.",
+          "next_action": "Keep monitoring public row; retain related guide lead separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "First annual report supports a possible bounded activity entry; prior narrow no-findings record is outdated as a research conclusion.",
+          "next_action": "Create a separately authorised Portugal enforcement PR after claim modelling, Portuguese fidelity, B2 readability and PR review.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "sanctions",
+          "disposition": "research_only",
+          "reason": "Respondent non-imposition is period-specific activity, not a legal-maximum amendment or national absence proof.",
+          "next_action": "Preserve public sanctions entry; cross-reference enforcement research.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": null,
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption finding verified in this pass.",
+          "next_action": "No adoption record or public edit.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "portugal-idipd-guide-payment-accounts-lead-20261030",
+      "country": "Portugal",
+      "recorded_on": "2026-10-30",
+      "status": "needs_evidence",
+      "source_refs": [
+        "source-ef3e0dfdb058a27ae4f30771",
+        "source-02d42e73dce7370f49e236b9"
+      ],
+      "reason": "Undated official practical guide is a lead for the existing payment-account supervisor question, not proof the statutory discrepancy is resolved.",
+      "next_action": "Compare consolidated law and competent-bank guidance; keep public mapping unchanged.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "monitoring",
+          "disposition": "needs_evidence",
+          "reason": "Guidance names Banco de Portugal for account-associated payment services; statutory omission remains unresolved.",
+          "next_action": "Verify precise remit before changing public mapping.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "enforcement",
+          "disposition": "research_only",
+          "reason": "Guide itself is not evidence of an enforcement action.",
+          "next_action": "Use annual-report handoff separately.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/portugal.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No verified legal penalty amendment from this bounded guide reading.",
+          "next_action": "No public sanctions change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": null,
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption finding verified.",
+          "next_action": "No public adoption change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-6-2026-09-27-634",
       "country": "Qatar",
       "destinations": [
@@ -4755,16 +4855,16 @@
       "id": "sweden-mediemyndigheten-reporting-routes-2026-10-30",
       "country": "Sweden",
       "recorded_on": "2026-10-30",
-      "status": "proposed",
-      "reason": "Mediemyndigheten's official e-service introductions verify separate consumer and company routes for audiovisual-access services.",
-      "next_action": "Review the extension to draft PR #91; preserve the distinction between interface language and accepted submission language.",
+      "status": "already_present",
+      "reason": "The previously proposed consumer/company introductions reached main in PR #91. A later consumer availability conflict is tracked separately; merge does not resolve it.",
+      "next_action": "No duplicate of PR #91. Preserve the company route; follow the separate consumer-unavailability delivery.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
-          "disposition": "proposed",
-          "reason": "Replace Mediemyndigheten's Unknown entry with the verified consumer and company e-service introductions.",
-          "next_action": "Review draft PR #91; do not imply a successful submission or accepted language.",
+          "disposition": "already_present",
+          "reason": "The earlier route text was merged in PR #91; later consumer unavailability is a separate follow-up.",
+          "next_action": "No duplicate of PR #91. Preserve the company route; follow the separate consumer-unavailability delivery.",
           "pr": 91,
           "domain": "monitoring"
         },
@@ -4794,6 +4894,55 @@
           "next_action": "No public adoption change.",
           "pr": null,
           "domain": "adoption"
+        }
+      ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-consumer-unavailable-2026-10-30",
+      "country": "Sweden",
+      "recorded_on": "2026-10-30",
+      "status": "proposed",
+      "source_refs": [
+        "source-8d45f9633f034716d98fd63f"
+      ],
+      "reason": "Live direct retrieval and a single ordinary-browser check contradict current usability of the previously published consumer destination; company reporting is unaffected.",
+      "next_action": "Review the narrow monitoring correction. Do not infer permanent removal or a replacement route.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Replace the active-consumer-form wording with the observed current unavailability.",
+          "next_action": "Review narrow wording; resolve live consumer intake before republishing it.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "An availability notice is not an enforcement action.",
+          "next_action": "No public enforcement edit.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "No sanction is established.",
+          "next_action": "No public sanctions edit.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "No standards adoption change.",
+          "next_action": "No public adoption edit.",
+          "pr": null
         }
       ]
     },
