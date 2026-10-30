@@ -114,7 +114,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
         <li><a href="https://consumerconnect.be/nl/themas/aankoop-product-of-dienst/wettelijk/wettelijk/toegankelijkheid" hreflang="nl">Accessibility information (Dutch 🇳🇱 and French 🇫🇷)</a></li>
         <li><a href="https://www.craftzing.com/what-we-think/insights/european-accessibility-act-in-belgium-compliance-complaints-penalties">Craftzing overview</a> — unverified source.</li>
       </ul>
-      <p>For consumer banking and e-commerce, Economic Inspection confirms that information assessing how the service meets the accessibility requirements must be published in the terms and conditions or an equivalent document, and made publicly available in written and oral formats accessible to persons with disabilities.</p><p>Official authority correspondence, 6 October 2026 (<a href=".github/agents/research/countries/belgium.json" hreflang="en">research record</a>).</p>
+      <p>For consumer banking and e-commerce, Economic Inspection (6 October 2026) confirms that information assessing how the service meets the accessibility requirements must be published in the terms and conditions or an equivalent document, and made publicly available in written and oral formats accessible to persons with disabilities.</p>
       <p>⚖️ EAA implementing law: <a href="https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX%3A32019L0882" hreflang="en">Belgian national transposition measures (multiple acts, EUR-Lex)</a>.</p>
     </td>
   </tr>  
@@ -216,7 +216,6 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
         <li>Company non-compliance (purpose-specific statutory notification): ❓ Unknown.</li>
         <li>Company exemptions: ❓ Unknown.</li>
       </ul>
-      <p>Official authority correspondence (<a href=".github/agents/research/countries/cyprus.json" hreflang="en">research record</a>).</p>
     </td>
     <td align="left" valign="top">
       <p>Accessibility information: covered service providers include the information in their general terms and conditions or an equivalent document and make it publicly available in accessible written and oral forms (Article 14; Annex III). This does not establish a dedicated public page.</p>
@@ -591,7 +590,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
   </tr>
   <tr>
     <th scope="row" align="left" valign="top">Poland</th>
-    <td align="left" valign="top"><p>According to PFRON (26 October 2026), the Polish Accessibility Act does not impose a general requirement for a separate website accessibility statement. Covered service providers must publish accessible information about their service, its use and how it meets accessibility requirements in terms and conditions or an equivalent document.</p><p>Official authority correspondence (<a href=".github/agents/research/countries/poland.json" hreflang="en">research record</a>).</p></td>
+    <td align="left" valign="top"><p>According to PFRON (26 October 2026), the Polish Accessibility Act does not impose a general requirement for a separate website accessibility statement. Covered service providers must publish accessible information about their service, its use and how it meets accessibility requirements in terms and conditions or an equivalent document.</p></td>
     <td align="left" valign="top">
       <p><strong>Market surveillance system:</strong></p>
       <ul><li><a href="https://dostepnosc.pfron.org.pl/" hreflang="pl">PFRON Management Board President</a> — monitors its operation; receives public notifications.</li></ul>
