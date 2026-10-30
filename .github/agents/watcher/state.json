@@ -1857,6 +1857,9 @@
     "pending": 27,
     "attempted_this_run": 23
   },
-  "lease": null,
+  "lease": {
+    "owner": "watcher-october-resume-2026-10-30T174930312Z",
+    "expires_at": "2026-10-30T18:34:30.312Z"
+  },
   "updated_at": "2026-10-30T07:37:27.060Z"
 }
