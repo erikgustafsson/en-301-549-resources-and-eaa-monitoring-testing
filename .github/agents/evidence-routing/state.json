@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-pr93-opened-20261030163607115",
+    "acquired_at": "2026-10-30T16:36:07.115Z",
+    "expires_at": "2026-10-30T17:06:07.115Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -4129,5 +4133,5 @@
       "note": "PR #92 is open and draft and changes only `.github/agents/research/intakes/eaa-a11y-hub-2026-10-20.json`. The intake correctly classifies EAA A11y Hub as an unverified secondary discovery source, records the publisher notice and 20 October access outcomes, requires primary-source verification, and gives explicit research_only dispositions for monitoring, enforcement, sanctions, adoption and the standards page plus not_applicable for the e-book page. It introduces no country claim, public-page assertion, authority, reporting route, enforcement action, sanction or adopted-standard status; no country record should be created from the generic resource. The source could not be independently refreshed by the current reader, so no newer reachability or factual status is claimed. PR #92 is the only open PR and does not cover or alter the previously notified standards/e-book registry and Sweden follow-ups."
     }
   ],
-  "updated_at": "2026-10-30T16:32:51.391Z"
+  "updated_at": "2026-10-30T16:36:07.115Z"
 }
