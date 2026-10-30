@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-merge-batch-pr90-pr91-20261030",
-    "acquired_at": "2026-10-30T15:55:03.116Z",
-    "expires_at": "2026-10-30T16:25:03.116Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1402,6 +1398,42 @@
       "outcome": "duplicate_same_head_existing_pr91_consumer_route_and_metadata_corrections",
       "suggestion_id": "sweden-mediemyndigheten-consumer-route-2026-10-30|sweden|EAA authorities and reporting by country.md|downgrade-inactive-form",
       "note": "This synchronization belongs to the same PR #91 head already assessed. It adds no evidence beyond the Mediemyndigheten consumer/company route batch. The consumer destination's current inactive/unavailable state and the MTM draft_pr-to-proposed normalization are already recorded; no new suggestion is created."
+    },
+    {
+      "delivery_id": "ea48d8d0-d479-11f1-8471-bafd7d5ba9bc",
+      "event": "pull_request.merged",
+      "pull_request": 91,
+      "head_sha": "d0b6139efa831d51471745a43bc932ce5bdf2377",
+      "merge_commit_sha": "0a5dc62474c2ea9eb311f8ece4b3770bec135632",
+      "checked_on": "2026-10-30T15:56:58.627Z",
+      "outcome": "post_merge_existing_pr91_consumer_route_and_metadata_followups_unresolved",
+      "suggestion_ids": [
+        "sweden-mediemyndigheten-consumer-route-2026-10-30|sweden|EAA authorities and reporting by country.md|downgrade-inactive-form",
+        "sweden-mtm-reporting-routes-2026-10-16|monitoring|normalize-draft-pr-disposition"
+      ],
+      "note": "PR #91 merged the verified MTM routes and Mediemyndigheten company route, but main still publishes the consumer destination as an active verified complaint form despite its official inactive/unavailable notice, and the MTM delivery still uses the unsupported `draft_pr` status/disposition. These are the same two already-notified follow-ups; no duplicate suggestion was created. Enforcement, sanctions and adoption dispositions remain not_applicable."
+    },
+    {
+      "delivery_id": "ebfbe000-d479-11f1-93b0-c8e719032f2a",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 90,
+      "head_sha": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+      "merge_commit_sha": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+      "checked_on": "2026-10-30T15:56:58.627Z",
+      "outcome": "actual_state_merged_existing_pr90_registry_handoff_unresolved",
+      "suggestion_id": "pr90-ebook-page|future-page|registry-record-routing",
+      "note": "Actual GitHub state is merged. Main contains the scoped e-book public revision and Finland research-only country delivery, but the e-book page and `EAA and WAD standards.md` are still absent from the page registry and reusable e-book evidence remains intake-only. This is the previously notified registry/canonical-record follow-up; no duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "f03f5610-d479-11f1-9325-2aa8a40f909a",
+      "event": "pull_request.merged",
+      "pull_request": 90,
+      "head_sha": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+      "merge_commit_sha": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+      "checked_on": "2026-10-30T15:56:58.627Z",
+      "outcome": "duplicate_post_merge_existing_pr90_registry_handoff",
+      "suggestion_id": "pr90-ebook-page|future-page|registry-record-routing",
+      "note": "Explicit merge delivery confirms the same PR #90 head already reconciled under the ready_for_review event. The previously notified e-book registry/canonical-record handoff remains unresolved on main, with no open covering PR and no new suggestion."
     }
   ],
   "suggestions": [
@@ -2530,15 +2562,15 @@
       "id": "pr90-ebook-page|future-page|registry-record-routing",
       "country": "Global",
       "target": "E-book accessibility metadata.md page registry and canonical reusable evidence/routing record",
-      "status": "open_pr90_followup_required",
-      "covering_pr": 90,
-      "proposed_change": "Extend PR #90 before merge, or use an immediate metadata-only follow-up, to register `E-book accessibility metadata.md` in `.github/agents/evidence.md` with its canonical global research record format and validation command. Move or map the reusable source-to-claim material now held only in `.github/agents/research/intakes/ebook-metadata-2026-10-20.json` into that canonical record and add one stable delivery: e-book page `proposed` in PR #90; Finland monitoring `research_only` in `.github/agents/research/countries/finland.json`; `EAA and WAD standards.md` `research_only` under the existing unregistered-standards-page handoff; adoption, enforcement and sanctions `not_applicable`. Regenerate `events.json` from the canonical delivery.",
+      "status": "post_pr90_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Prepare a focused metadata follow-up on current main to register `E-book accessibility metadata.md` in `.github/agents/evidence.md` with a canonical global research-record format and validation command. Move or map reusable source-to-claim material currently held only in `.github/agents/research/intakes/ebook-metadata-2026-10-20.json` into that record and add one stable delivery: e-book page `already_present` after PR #90; Finland monitoring `research_only` in `.github/agents/research/countries/finland.json`; `EAA and WAD standards.md` `research_only` under the existing unregistered-standards-page handoff; adoption, enforcement and sanctions `not_applicable`. Regenerate `events.json` from the canonical delivery.",
       "evidence": "PR #90 adds verified, reusable EAA/Finland/EPUB/ONIX/display-guidance claims to the public e-book page and preserves the Finland-specific statement duty in its country record, but the registered-page ledger still has only monitoring, enforcement, sanctions and adoption. The generated event records only the four registered country destinations, while the public e-book destination and the standards-page research-only handoff exist only in the intake. W3C identifies EPUB Accessibility 1.1 as a Recommendation dated 17 October 2024 and EPUB Accessibility 1.2 as a Candidate Recommendation Draft dated 12 September 2026; Traficom's page, updated 14 August 2025, expressly covers e-books and the additional accessibility-statement content.",
       "limitations": "Do not turn the Finland example into a cross-country rule, treat EPUB 1.2 as adopted, label Community Group reports as W3C standards, infer OJ citation/harmonisation/presumption of conformity, or endorse any retailer/book as verified accessible. No form was submitted and no exact e-book edition was audited. Public wording is already in PR #90; this suggestion is primarily the missing persistent routing/record handoff.",
       "source_pr": 90,
       "created_on": "2026-10-20T08:14:06.161Z",
-      "updated_on": "2026-10-20T08:14:06.161Z",
-      "progress": "PR #90 is open at d0f2a400675a79324ec3447b4fb687e00b85ece9 and is the only open PR. It can cover the e-book registry/delivery gap before merge; it does not currently edit `.github/agents/evidence.md` or create a stable global e-book delivery.",
+      "updated_on": "2026-10-30T15:56:58.627Z",
+      "progress": "PR #90 merged at head d0f2a400675a79324ec3447b4fb687e00b85ece9. Current main contains the e-book public wording, Finland research-only delivery and intake dispositions, but `.github/agents/evidence.md` still registers neither the e-book page nor `EAA and WAD standards.md`; no canonical global e-book record/delivery was added. No open PR covers the follow-up.",
       "source_urls": [
         "https://www.w3.org/TR/epub-a11y-11/",
         "https://www.w3.org/TR/epub-a11y-12/",
@@ -2557,14 +2589,14 @@
       "id": "sweden-mediemyndigheten-consumer-route-2026-10-30|sweden|EAA authorities and reporting by country.md|downgrade-inactive-form",
       "country": "Sweden",
       "target": "PR #91 Mediemyndigheten consumer complaint route and Sweden monitoring row",
-      "status": "open_pr91_followup_required",
-      "covering_pr": 91,
-      "proposed_change": "Before merging PR #91, split the combined Mediemyndigheten routing result. Keep the live company accessibility-deficiency/exemption e-service as verified and proposed. Change the consumer-complaint claim back to unknown/needs_evidence, replace the public-row active-form link with an Unknown entry (or explicitly state that the official destination was inactive/unavailable when checked on 30 October 2026), and record a separate stable consumer-route delivery with monitoring needs_evidence plus enforcement, sanctions and adoption not_applicable. Regenerate events.json. Also apply the already-notified MTM routing-metadata correction: change its event status and monitoring disposition from draft_pr to proposed.",
+      "status": "post_pr91_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Prepare a focused follow-up on current main that splits the merged Mediemyndigheten routing result. Keep the live company accessibility-deficiency/exemption e-service verified. Change the consumer-complaint claim to unknown/needs_evidence, replace the public-row active-form link with an Unknown entry (or explicitly state that the official destination was inactive/unavailable when checked on 30 October 2026), and record a separate stable consumer-route delivery with monitoring `needs_evidence` plus enforcement, sanctions and adoption `not_applicable`. Regenerate `events.json`. In the same metadata follow-up, normalize the MTM delivery from `draft_pr` to `proposed`.",
       "evidence": "On 30 October 2026 the official consumer destination https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b displayed 'E-tjänst ej tillgänglig' and 'Denna e-tjänst är för närvarande inte aktiv eller otillgänglig.' The separate company destination remained live and identified companies, section 24 accessibility-deficiency reports, section 8 exemption claims, audiovisual-access services and a six-step submission flow.",
       "limitations": "The consumer-route page does not distinguish temporary outage from withdrawal, so do not claim the route has been permanently removed. No form was submitted. The Swedish interface does not establish accepted submission languages or successful end-to-end delivery. This evidence concerns reporting availability, not enforcement action, sanctions or standards adoption.",
       "source_pr": 91,
       "created_on": "2026-10-30T07:38:51.199Z",
-      "updated_on": "2026-10-30T07:38:51.199Z",
+      "updated_on": "2026-10-30T15:56:58.627Z",
       "source_urls": [
         "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
         "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd"
@@ -2572,6 +2604,27 @@
       "evidence_fingerprints": [
         "sweden|mediemyndigheten|consumer-complaint-route|inactive-or-unavailable|2026-10-30",
         "sweden|mediemyndigheten|company-deficiency-exemption-route|live|2026-10-30"
+      ],
+      "progress": "PR #91 merged at head d0b6139efa831d51471745a43bc932ce5bdf2377. Current main publishes the consumer destination as an active complaint form and marks its claim verified even though the official destination displayed that the e-service was not active or was unavailable on 30 October 2026. The separate company route remains supported. No open PR covers this correction."
+    },
+    {
+      "id": "sweden-mtm-reporting-routes-2026-10-16|monitoring|normalize-draft-pr-disposition",
+      "country": "Sweden",
+      "target": "Canonical Sweden delivery and generated evidence-routing event for MTM reporting routes",
+      "status": "post_pr91_followup_required",
+      "covering_pr": null,
+      "proposed_change": "Prepare a focused metadata follow-up on current main that changes the canonical `sweden-mtm-reporting-routes-2026-10-16` event status and its monitoring-page disposition from the unsupported value `draft_pr` to the allowed value `proposed`, updates the stale PR #91 next action/PR reference, and regenerates `.github/agents/evidence-routing/events.json`. Preserve the existing verified MTM public complaint, company defect-reporting and section 7 exemption routes; enforcement, sanctions and standards-adoption remain `not_applicable`.",
+      "evidence": "PR #91 merged the complete MTM route evidence and public wording, but current main still uses `draft_pr` for both the canonical delivery status and monitoring disposition. `.github/agents/evidence.md` allows only proposed, already_present, research_only, needs_evidence, blocked_by_open_pr or not_applicable.",
+      "limitations": "This is routing-metadata normalization, not a new factual claim. Do not infer accepted submission languages or successful end-to-end submission, and do not turn the reporting routes into enforcement, sanctions or standards-adoption claims.",
+      "source_pr": 91,
+      "created_on": "2026-10-23T07:25:05.037Z",
+      "updated_on": "2026-10-30T15:56:58.627Z",
+      "progress": "PR #91 merged at head d0b6139efa831d51471745a43bc932ce5bdf2377 without this correction. Current main retains the unsupported `draft_pr` values and stale PR #91 references. No open PR covers the follow-up.",
+      "source_urls": [
+        "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/rapportering-till-mtm/"
+      ],
+      "evidence_fingerprints": [
+        "sweden|mtm-reporting-routes-2026-10-16|monitoring|unsupported-draft-pr-disposition"
       ]
     }
   ],
@@ -4020,7 +4073,43 @@
       "outcome": "duplicate_same_head_existing_pr91_consumer_route_and_metadata_corrections",
       "suggestion_id": "sweden-mediemyndigheten-consumer-route-2026-10-30|sweden|EAA authorities and reporting by country.md|downgrade-inactive-form",
       "note": "This synchronization belongs to the same PR #91 head already assessed. It adds no evidence beyond the Mediemyndigheten consumer/company route batch. The consumer destination's current inactive/unavailable state and the MTM draft_pr-to-proposed normalization are already recorded; no new suggestion is created."
+    },
+    {
+      "delivery_id": "ea48d8d0-d479-11f1-8471-bafd7d5ba9bc",
+      "event": "pull_request.merged",
+      "pull_request": 91,
+      "head_sha": "d0b6139efa831d51471745a43bc932ce5bdf2377",
+      "merge_commit_sha": "0a5dc62474c2ea9eb311f8ece4b3770bec135632",
+      "checked_on": "2026-10-30T15:56:58.627Z",
+      "outcome": "post_merge_existing_pr91_consumer_route_and_metadata_followups_unresolved",
+      "suggestion_ids": [
+        "sweden-mediemyndigheten-consumer-route-2026-10-30|sweden|EAA authorities and reporting by country.md|downgrade-inactive-form",
+        "sweden-mtm-reporting-routes-2026-10-16|monitoring|normalize-draft-pr-disposition"
+      ],
+      "note": "PR #91 merged the verified MTM routes and Mediemyndigheten company route, but main still publishes the consumer destination as an active verified complaint form despite its official inactive/unavailable notice, and the MTM delivery still uses the unsupported `draft_pr` status/disposition. These are the same two already-notified follow-ups; no duplicate suggestion was created. Enforcement, sanctions and adoption dispositions remain not_applicable."
+    },
+    {
+      "delivery_id": "ebfbe000-d479-11f1-93b0-c8e719032f2a",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 90,
+      "head_sha": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+      "merge_commit_sha": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+      "checked_on": "2026-10-30T15:56:58.627Z",
+      "outcome": "actual_state_merged_existing_pr90_registry_handoff_unresolved",
+      "suggestion_id": "pr90-ebook-page|future-page|registry-record-routing",
+      "note": "Actual GitHub state is merged. Main contains the scoped e-book public revision and Finland research-only country delivery, but the e-book page and `EAA and WAD standards.md` are still absent from the page registry and reusable e-book evidence remains intake-only. This is the previously notified registry/canonical-record follow-up; no duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "f03f5610-d479-11f1-9325-2aa8a40f909a",
+      "event": "pull_request.merged",
+      "pull_request": 90,
+      "head_sha": "d0f2a400675a79324ec3447b4fb687e00b85ece9",
+      "merge_commit_sha": "b7f9124333d73be37e8120cc367aa5a68deb29ad",
+      "checked_on": "2026-10-30T15:56:58.627Z",
+      "outcome": "duplicate_post_merge_existing_pr90_registry_handoff",
+      "suggestion_id": "pr90-ebook-page|future-page|registry-record-routing",
+      "note": "Explicit merge delivery confirms the same PR #90 head already reconciled under the ready_for_review event. The previously notified e-book registry/canonical-record handoff remains unresolved on main, with no open covering PR and no new suggestion."
     }
   ],
-  "updated_at": "2026-10-30T15:55:03.116Z"
+  "updated_at": "2026-10-30T15:56:58.627Z"
 }
