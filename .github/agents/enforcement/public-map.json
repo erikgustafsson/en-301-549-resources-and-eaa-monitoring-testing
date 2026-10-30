@@ -232,7 +232,7 @@
         "ee-ttja-monitoring-20260925",
         "ee-ttja-corrective-plans-20260925"
       ],
-      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/estonia-enforcement-handoff/EAA%20enforcement%20tracking.md"
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/062378f70c03fc5d8ff7934a34b9b519684e65ba/EAA%20enforcement%20tracking.md"
     },
     {
       "id": "belgium-official-reply-20261030",
@@ -245,7 +245,7 @@
       "claim_ids": [
         "be-economic-inspection-investigations-20251219"
       ],
-      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/6d748987dac2a59a76f71c304c024cfb09513718/EAA%20enforcement%20tracking.md"
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/062378f70c03fc5d8ff7934a34b9b519684e65ba/EAA%20enforcement%20tracking.md"
     },
     {
       "id": "poland-official-reply-20261030",
@@ -258,7 +258,7 @@
       "claim_ids": [
         "pl-pfron-monitoring-20261026"
       ],
-      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/6d748987dac2a59a76f71c304c024cfb09513718/EAA%20enforcement%20tracking.md"
+      "snapshot_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/062378f70c03fc5d8ff7934a34b9b519684e65ba/EAA%20enforcement%20tracking.md"
     }
   ]
 }
