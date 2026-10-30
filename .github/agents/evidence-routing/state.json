@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "publish-metadata-cleanup-2026-10-30T17:27:24.431Z",
-    "acquired_at": "2026-10-30T17:27:24.431Z",
-    "expires_at": "2026-10-30T17:57:24.431Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
