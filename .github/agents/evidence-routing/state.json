@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-pr93-sync-20261030163819324",
+    "acquired_at": "2026-10-30T16:38:19.324Z",
+    "expires_at": "2026-10-30T17:08:19.324Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -4174,5 +4178,5 @@
       "note": "PR #93 correctly preserves the three official replies, source dates, authority/sector/audience limits and distinctions between investigations versus outcomes, outreach versus enforcement, and possible versus issued measures. Monitoring/enforcement public changes are supported by the private-safe records; sanctions and adoption dispositions appropriately avoid public changes. The missed handoff is metadata: all three new deliveries use the retired adoption filename; proposed destinations omit covering PR #93; and Poland's delivery omits top-level recorded_on/status/reason/next_action. PR #93 is the covering open draft; PR #92 is non-overlapping research-only intake. No new-country research was performed."
     }
   ],
-  "updated_at": "2026-10-30T16:38:00.013Z"
+  "updated_at": "2026-10-30T16:38:19.324Z"
 }
