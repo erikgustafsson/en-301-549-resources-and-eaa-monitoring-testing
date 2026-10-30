@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-pr93-sync2-20261030164002759",
-    "acquired_at": "2026-10-30T16:40:02.759Z",
-    "expires_at": "2026-10-30T17:10:02.759Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1467,6 +1463,16 @@
       "outcome": "existing_pr93_suggestion_partially_resolved",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The synchronized head resolves the newly reviewed privacy/snapshot issues and adds numeric PR #93 references to every new destination. It does not change the scoped public facts or cross-page dispositions. The same existing suggestion remains actionable because all three deliveries still name retired `EN 301 549 adoptation.md`, and Poland's delivery still lacks top-level recorded_on/status/reason/next_action. No duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "56af2fa0-d480-11f1-9db9-870631d24469",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "2699a4b380e73889ab0c21527c2e5bf88f39cfae",
+      "checked_on": "2026-10-30T16:40:28.366Z",
+      "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "The new head changes only the review report/PR description to record the final privacy, snapshot and inherited-scope recheck. The public facts, research claims, destination dispositions and canonical delivery metadata are unchanged. All three deliveries still use retired `EN 301 549 adoptation.md`; Poland still lacks top-level recorded_on/status/reason/next_action. The already-notified PR #93 suggestion remains open; no duplicate suggestion was created."
     }
   ],
   "suggestions": [
@@ -2671,8 +2677,8 @@
       "limitations": "This is a routing-metadata correction, not a request to broaden the factual claims. Belgium establishes complaints/investigations but no counts, warnings, penalties or outcomes. Cyprus establishes a general institutional mailbox and dated English-document acceptance, not a purpose-specific statutory filing procedure. Poland establishes ongoing monitoring and conditional possible next steps, not completed inspections, issued decisions, mandatory dark mode, guaranteed disclosure or WCAG 2.2 testing. The supplied emails are documentary evidence with private-safe fingerprints, not independent sender authentication or public publications. Sanctions and adoption public pages remain unchanged.",
       "source_pr": 93,
       "created_on": "2026-10-30T16:38:00.013Z",
-      "updated_on": "2026-10-30T16:38:53.569Z",
-      "progress": "PR #93 remains open and draft at d130b408df2ef0da2212b9af6d0d82645b7b4005. The synchronization resolved the missing PR references and privacy/snapshot review findings. The current adoption-page path and Poland top-level delivery metadata remain unresolved in the same covering PR. PR #92 remains non-overlapping.",
+      "updated_on": "2026-10-30T16:40:28.366Z",
+      "progress": "PR #93 remains open and draft at 2699a4b380e73889ab0c21527c2e5bf88f39cfae. This synchronization only records the independent privacy/snapshot/inherited-scope recheck as resolved; public wording and canonical deliveries are unchanged. The three retired adoption-page paths and Poland's missing top-level delivery metadata remain unresolved in the same covering PR. PR #92 remains non-overlapping.",
       "source_urls": [
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/6d748987dac2a59a76f71c304c024cfb09513718/.github/agents/research/countries/belgium.json",
@@ -4196,7 +4202,17 @@
       "outcome": "existing_pr93_suggestion_partially_resolved",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The synchronized head resolves the newly reviewed privacy/snapshot issues and adds numeric PR #93 references to every new destination. It does not change the scoped public facts or cross-page dispositions. The same existing suggestion remains actionable because all three deliveries still name retired `EN 301 549 adoptation.md`, and Poland's delivery still lacks top-level recorded_on/status/reason/next_action. No duplicate suggestion was created."
+    },
+    {
+      "delivery_id": "56af2fa0-d480-11f1-9db9-870631d24469",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "2699a4b380e73889ab0c21527c2e5bf88f39cfae",
+      "checked_on": "2026-10-30T16:40:28.366Z",
+      "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "The new head changes only the review report/PR description to record the final privacy, snapshot and inherited-scope recheck. The public facts, research claims, destination dispositions and canonical delivery metadata are unchanged. All three deliveries still use retired `EN 301 549 adoptation.md`; Poland still lacks top-level recorded_on/status/reason/next_action. The already-notified PR #93 suggestion remains open; no duplicate suggestion was created."
     }
   ],
-  "updated_at": "2026-10-30T16:40:02.759Z"
+  "updated_at": "2026-10-30T16:40:28.366Z"
 }
