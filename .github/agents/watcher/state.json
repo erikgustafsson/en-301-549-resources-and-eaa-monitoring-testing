@@ -1857,10 +1857,6 @@
     "pending": 27,
     "attempted_this_run": 23
   },
-  "lease": {
-    "run_id": "watcher-20261030T073125Z",
-    "acquired_at": "2026-10-30T07:32:02.392Z",
-    "expires_at": "2026-10-30T08:17:02.392Z"
-  },
-  "updated_at": "2026-10-30T07:32:02.392Z"
+  "lease": null,
+  "updated_at": "2026-10-30T07:37:27.060Z"
 }
