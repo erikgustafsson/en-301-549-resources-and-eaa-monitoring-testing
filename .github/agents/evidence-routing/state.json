@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-pr92-opened-20261030163157155",
+    "acquired_at": "2026-10-30T16:31:57.155Z",
+    "expires_at": "2026-10-30T17:01:57.155Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -4111,5 +4115,5 @@
       "note": "Explicit merge delivery confirms the same PR #90 head already reconciled under the ready_for_review event. The previously notified e-book registry/canonical-record handoff remains unresolved on main, with no open covering PR and no new suggestion."
     }
   ],
-  "updated_at": "2026-10-30T15:56:58.627Z"
+  "updated_at": "2026-10-30T16:31:57.155Z"
 }
