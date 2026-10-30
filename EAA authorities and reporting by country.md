@@ -590,7 +590,7 @@ For possible penalties and other enforcement measures, see <a href="EAA%20sancti
   </tr>
   <tr>
     <th scope="row" align="left" valign="top">Poland</th>
-    <td align="left" valign="top"><p>According to PFRON (26 October 2026), the Polish Accessibility Act does not impose a general requirement for a separate website accessibility statement. Covered service providers must publish accessible information about their service, its use and how it meets accessibility requirements in terms and conditions or an equivalent document.</p></td>
+    <td align="left" valign="top">✖️ No</td>
     <td align="left" valign="top">
       <p><strong>Market surveillance system:</strong></p>
       <ul><li><a href="https://dostepnosc.pfron.org.pl/" hreflang="pl">PFRON Management Board President</a> — monitors its operation; receives public notifications.</li></ul>
