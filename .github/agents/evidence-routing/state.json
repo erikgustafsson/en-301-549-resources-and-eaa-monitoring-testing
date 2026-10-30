@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-pr93-sync4-20261030164810097",
-    "acquired_at": "2026-10-30T16:48:10.097Z",
-    "expires_at": "2026-10-30T17:18:10.097Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1527,6 +1523,16 @@
       "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The synchronized head leaves all three canonical deliveries unchanged. Retired adoption paths and Poland's missing top-level delivery metadata remain exactly as already notified. No new evidence, destination, public factual wording or blocker was introduced; no duplicate suggestion created."
+    },
+    {
+      "delivery_id": "83fd47c0-d481-11f1-8f88-13c092c64ab2",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "8c8c44d7ea85573ed541d162fa577762814138a4",
+      "checked_on": "2026-10-30T16:48:43.795Z",
+      "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "The latest synchronized head does not change the canonical delivery fields or cross-page dispositions. The previously notified adoption-path and Poland top-level metadata corrections remain unresolved. No new evidence or blocker; no duplicate suggestion."
     }
   ],
   "suggestions": [
@@ -2731,8 +2737,8 @@
       "limitations": "This is a routing-metadata correction, not a request to broaden the factual claims. Belgium establishes complaints/investigations but no counts, warnings, penalties or outcomes. Cyprus establishes a general institutional mailbox and dated English-document acceptance, not a purpose-specific statutory filing procedure. Poland establishes ongoing monitoring and conditional possible next steps, not completed inspections, issued decisions, mandatory dark mode, guaranteed disclosure or WCAG 2.2 testing. The supplied emails are documentary evidence with private-safe fingerprints, not independent sender authentication or public publications. Sanctions and adoption public pages remain unchanged.",
       "source_pr": 93,
       "created_on": "2026-10-30T16:38:00.013Z",
-      "updated_on": "2026-10-30T16:46:32.621Z",
-      "progress": "PR #93 remains open and draft at 2571b57837b144d27a1ea5ee18ebbaa9be175b0a. The latest synchronization does not alter the three canonical deliveries: all still name retired `EN 301 549 adoptation.md`, and Poland still lacks top-level recorded_on/status/reason/next_action. The existing covering suggestion remains unchanged.",
+      "updated_on": "2026-10-30T16:48:43.795Z",
+      "progress": "PR #93 remains open and draft at 8c8c44d7ea85573ed541d162fa577762814138a4. The latest synchronization again leaves the three canonical deliveries unchanged: all still name retired `EN 301 549 adoptation.md`, and Poland still lacks top-level recorded_on/status/reason/next_action. The existing covering suggestion remains unchanged.",
       "source_urls": [
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/6d748987dac2a59a76f71c304c024cfb09513718/.github/agents/research/countries/belgium.json",
@@ -4316,7 +4322,17 @@
       "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
       "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
       "note": "The synchronized head leaves all three canonical deliveries unchanged. Retired adoption paths and Poland's missing top-level delivery metadata remain exactly as already notified. No new evidence, destination, public factual wording or blocker was introduced; no duplicate suggestion created."
+    },
+    {
+      "delivery_id": "83fd47c0-d481-11f1-8f88-13c092c64ab2",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "8c8c44d7ea85573ed541d162fa577762814138a4",
+      "checked_on": "2026-10-30T16:48:43.795Z",
+      "outcome": "duplicate_existing_pr93_routing_suggestion_still_open",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "The latest synchronized head does not change the canonical delivery fields or cross-page dispositions. The previously notified adoption-path and Poland top-level metadata corrections remain unresolved. No new evidence or blocker; no duplicate suggestion."
     }
   ],
-  "updated_at": "2026-10-30T16:48:10.097Z"
+  "updated_at": "2026-10-30T16:48:43.795Z"
 }
