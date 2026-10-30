@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-batch-pr92-pr93-20261030164457633",
+    "acquired_at": "2026-10-30T16:44:57.633Z",
+    "expires_at": "2026-10-30T17:14:57.633Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -4234,5 +4238,5 @@
       "note": "Although the webhook action is ready_for_review, actual GitHub state is merged. Main now contains the single EAA A11y Hub intake unchanged from the opened-event review. It remains explicitly unverified_source, retains research_only dispositions for monitoring, enforcement, sanctions, adoption and the standards page, and not_applicable for the e-book page. It publishes no country or legal claim and does not overlap open PR #93. No new actionable handoff or suggestion."
     }
   ],
-  "updated_at": "2026-10-30T16:43:10.422Z"
+  "updated_at": "2026-10-30T16:44:57.633Z"
 }
