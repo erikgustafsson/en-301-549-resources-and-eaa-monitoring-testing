@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-merge-batch-pr90-pr91-20261030",
+    "acquired_at": "2026-10-30T15:55:03.116Z",
+    "expires_at": "2026-10-30T16:25:03.116Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -4018,5 +4022,5 @@
       "note": "This synchronization belongs to the same PR #91 head already assessed. It adds no evidence beyond the Mediemyndigheten consumer/company route batch. The consumer destination's current inactive/unavailable state and the MTM draft_pr-to-proposed normalization are already recorded; no new suggestion is created."
     }
   ],
-  "updated_at": "2026-10-30T07:39:50.102Z"
+  "updated_at": "2026-10-30T15:55:03.116Z"
 }
