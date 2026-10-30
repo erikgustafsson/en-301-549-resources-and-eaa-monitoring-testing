@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-pr93-sync4-20261030164810097",
+    "acquired_at": "2026-10-30T16:48:10.097Z",
+    "expires_at": "2026-10-30T17:18:10.097Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -4314,5 +4318,5 @@
       "note": "The synchronized head leaves all three canonical deliveries unchanged. Retired adoption paths and Poland's missing top-level delivery metadata remain exactly as already notified. No new evidence, destination, public factual wording or blocker was introduced; no duplicate suggestion created."
     }
   ],
-  "updated_at": "2026-10-30T16:46:32.621Z"
+  "updated_at": "2026-10-30T16:48:10.097Z"
 }
