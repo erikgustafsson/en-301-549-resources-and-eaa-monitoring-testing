@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "evidence-routing-91ed9350-d434-11f1-84f4-f70f74a57d6f",
+    "acquired_at": "2026-10-30T07:37:50.824Z",
+    "expires_at": "2026-10-30T08:07:50.824Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -3937,5 +3941,5 @@
       "note": "PR #90's factual claims are appropriately scoped and supported by the cited primary sources; Finland monitoring, enforcement, sanctions and adoption dispositions are explicit. The missed handoff is persistent routing: the public e-book page is not registered, its reusable global evidence exists only in an intake, and the generated event cannot name the e-book or standards destinations. Added a PR #90 registry/delivery suggestion and extended the existing standards-page metadata suggestion rather than duplicating it."
     }
   ],
-  "updated_at": "2026-10-23T07:25:05.037Z"
+  "updated_at": "2026-10-30T07:37:50.824Z"
 }
