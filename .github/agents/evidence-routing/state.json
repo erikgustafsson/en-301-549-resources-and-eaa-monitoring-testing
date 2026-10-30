@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "evidence-routing-batch-pr92-pr93-20261030164457633",
-    "acquired_at": "2026-10-30T16:44:57.633Z",
-    "expires_at": "2026-10-30T17:14:57.633Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1487,6 +1483,36 @@
       "checked_on": "2026-10-30T16:43:10.422Z",
       "outcome": "actual_state_merged_research_only_secondary_resource_no_new_actionable_handoff",
       "note": "Although the webhook action is ready_for_review, actual GitHub state is merged. Main now contains the single EAA A11y Hub intake unchanged from the opened-event review. It remains explicitly unverified_source, retains research_only dispositions for monitoring, enforcement, sanctions, adoption and the standards page, and not_applicable for the e-book page. It publishes no country or legal claim and does not overlap open PR #93. No new actionable handoff or suggestion."
+    },
+    {
+      "delivery_id": "e967c370-d480-11f1-915d-c0da5c7a5e61",
+      "event": "pull_request.merged",
+      "pull_request": 92,
+      "head_sha": "a98af0e8c588e2d75462f0ad0c968e4a374fa946",
+      "merge_commit_sha": "e9363b23c5837bdf5ef29fdf4614dfa9f78131ec",
+      "checked_on": "2026-10-30T16:45:28.577Z",
+      "outcome": "duplicate_merged_research_only_secondary_resource_no_new_handoff",
+      "note": "Explicit merge delivery confirms the PR #92 state already assessed under ready_for_review. Main retains the EAA A11y Hub only as an unverified secondary discovery intake with research_only/not_applicable page dispositions and no public or country claim. It does not overlap PR #93 or resolve any existing suggestion."
+    },
+    {
+      "delivery_id": "05c0d7f0-d481-11f1-89ac-60e2da1d9649",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "f6ca4500f32b695cbcfbf0ff00b57368850a51d0",
+      "checked_on": "2026-10-30T16:45:28.577Z",
+      "outcome": "existing_pr93_suggestion_unchanged_after_editorial_provenance_cleanup",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "Current PR #93 head removes six public links to internal research records, shortens duplicate source-only paragraphs and records shared presentation preferences. Supporting evidence remains in canonical research. No factual wording, status, disposition or scope changed. The already-notified routing correction remains: retired adoption paths in all three new deliveries and missing top-level Poland metadata."
+    },
+    {
+      "delivery_id": "14f9f030-d481-11f1-9aa2-70b0e565de1a",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "f6ca4500f32b695cbcfbf0ff00b57368850a51d0",
+      "checked_on": "2026-10-30T16:45:28.577Z",
+      "outcome": "duplicate_same_current_head_existing_pr93_suggestion",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "Second batched synchronization resolves to the same current PR #93 head and adds no further evidence or routing change. The existing PR #93 suggestion remains open; no duplicate suggestion created."
     }
   ],
   "suggestions": [
@@ -2691,8 +2717,8 @@
       "limitations": "This is a routing-metadata correction, not a request to broaden the factual claims. Belgium establishes complaints/investigations but no counts, warnings, penalties or outcomes. Cyprus establishes a general institutional mailbox and dated English-document acceptance, not a purpose-specific statutory filing procedure. Poland establishes ongoing monitoring and conditional possible next steps, not completed inspections, issued decisions, mandatory dark mode, guaranteed disclosure or WCAG 2.2 testing. The supplied emails are documentary evidence with private-safe fingerprints, not independent sender authentication or public publications. Sanctions and adoption public pages remain unchanged.",
       "source_pr": 93,
       "created_on": "2026-10-30T16:38:00.013Z",
-      "updated_on": "2026-10-30T16:40:28.366Z",
-      "progress": "PR #93 remains open and draft at 2699a4b380e73889ab0c21527c2e5bf88f39cfae. This synchronization only records the independent privacy/snapshot/inherited-scope recheck as resolved; public wording and canonical deliveries are unchanged. The three retired adoption-page paths and Poland's missing top-level delivery metadata remain unresolved in the same covering PR. PR #92 remains non-overlapping.",
+      "updated_on": "2026-10-30T16:45:28.577Z",
+      "progress": "PR #93 remains open and draft at f6ca4500f32b695cbcfbf0ff00b57368850a51d0. The latest synchronized heads only shorten public provenance labels, remove internal research links while retaining the research data, and refresh presentation rules/hashes. No factual claim or disposition changed. The three retired adoption-page paths and Poland's missing top-level delivery metadata remain unresolved in the same covering PR. PR #92 is now merged and remains non-overlapping research-only material.",
       "source_urls": [
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/93",
         "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/6d748987dac2a59a76f71c304c024cfb09513718/.github/agents/research/countries/belgium.json",
@@ -4236,7 +4262,37 @@
       "checked_on": "2026-10-30T16:43:10.422Z",
       "outcome": "actual_state_merged_research_only_secondary_resource_no_new_actionable_handoff",
       "note": "Although the webhook action is ready_for_review, actual GitHub state is merged. Main now contains the single EAA A11y Hub intake unchanged from the opened-event review. It remains explicitly unverified_source, retains research_only dispositions for monitoring, enforcement, sanctions, adoption and the standards page, and not_applicable for the e-book page. It publishes no country or legal claim and does not overlap open PR #93. No new actionable handoff or suggestion."
+    },
+    {
+      "delivery_id": "e967c370-d480-11f1-915d-c0da5c7a5e61",
+      "event": "pull_request.merged",
+      "pull_request": 92,
+      "head_sha": "a98af0e8c588e2d75462f0ad0c968e4a374fa946",
+      "merge_commit_sha": "e9363b23c5837bdf5ef29fdf4614dfa9f78131ec",
+      "checked_on": "2026-10-30T16:45:28.577Z",
+      "outcome": "duplicate_merged_research_only_secondary_resource_no_new_handoff",
+      "note": "Explicit merge delivery confirms the PR #92 state already assessed under ready_for_review. Main retains the EAA A11y Hub only as an unverified secondary discovery intake with research_only/not_applicable page dispositions and no public or country claim. It does not overlap PR #93 or resolve any existing suggestion."
+    },
+    {
+      "delivery_id": "05c0d7f0-d481-11f1-89ac-60e2da1d9649",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "f6ca4500f32b695cbcfbf0ff00b57368850a51d0",
+      "checked_on": "2026-10-30T16:45:28.577Z",
+      "outcome": "existing_pr93_suggestion_unchanged_after_editorial_provenance_cleanup",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "Current PR #93 head removes six public links to internal research records, shortens duplicate source-only paragraphs and records shared presentation preferences. Supporting evidence remains in canonical research. No factual wording, status, disposition or scope changed. The already-notified routing correction remains: retired adoption paths in all three new deliveries and missing top-level Poland metadata."
+    },
+    {
+      "delivery_id": "14f9f030-d481-11f1-9aa2-70b0e565de1a",
+      "event": "pull_request.synchronize",
+      "pull_request": 93,
+      "head_sha": "f6ca4500f32b695cbcfbf0ff00b57368850a51d0",
+      "checked_on": "2026-10-30T16:45:28.577Z",
+      "outcome": "duplicate_same_current_head_existing_pr93_suggestion",
+      "suggestion_id": "pr93-authority-replies|belgium-cyprus-poland|canonical-delivery-metadata",
+      "note": "Second batched synchronization resolves to the same current PR #93 head and adds no further evidence or routing change. The existing PR #93 suggestion remains open; no duplicate suggestion created."
     }
   ],
-  "updated_at": "2026-10-30T16:44:57.633Z"
+  "updated_at": "2026-10-30T16:45:28.577Z"
 }
