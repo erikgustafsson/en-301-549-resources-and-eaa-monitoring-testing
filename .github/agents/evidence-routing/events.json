@@ -5447,6 +5447,52 @@
           "domain": "adoption"
         }
       ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-reporting-routes-2026-10-30",
+      "country": "Sweden",
+      "recorded_on": "2026-10-30",
+      "status": "proposed",
+      "reason": "Mediemyndigheten's official e-service introductions verify separate consumer and company routes for audiovisual-access services.",
+      "next_action": "Review the extension to draft PR #91; preserve the distinction between interface language and accepted submission language.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "proposed",
+          "reason": "Replace Mediemyndigheten's Unknown entry with the verified consumer and company e-service introductions.",
+          "next_action": "Review draft PR #91; do not imply a successful submission or accepted language.",
+          "pr": 91,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence establishes reporting routes, not an enforcement action or outcome.",
+          "next_action": "No public enforcement change.",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a sanction or imposed fine.",
+          "next_action": "No public sanctions change.",
+          "pr": null,
+          "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a standards-adoption change.",
+          "next_action": "No public adoption change.",
+          "pr": null,
+          "domain": "adoption"
+        }
+      ]
     }
   ]
 }
