@@ -145,17 +145,17 @@
     },
     "source-664b65cc6f3ae74045d632cc": {
       "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
-      "evidence": "The official destination identifies the EAA audience and six-step reporting process.",
+      "evidence": "Official e-service introduction identifies consumers as the audience, audiovisual-access services as the scope, and a six-step complaint process. The observed interface is Swedish; accepted submission languages and end-to-end delivery were not tested.",
       "section": "E-service introduction",
       "source_type": "monitoring_body",
-      "accessed_on": "2026-09-24"
+      "accessed_on": "2026-10-30"
     },
     "source-e5a1086df248e577f40c725d": {
       "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
-      "evidence": "The official destination identifies the EAA audience and six-step reporting process.",
+      "evidence": "Official e-service introduction identifies companies as the audience and supports reports of accessibility deficiencies under section 24 and exemption claims under section 8 for audiovisual-access services. The observed interface is Swedish; accepted submission languages and end-to-end delivery were not tested.",
       "section": "E-service introduction",
       "source_type": "monitoring_body",
-      "accessed_on": "2026-09-24"
+      "accessed_on": "2026-10-30"
     },
     "source-974033ff4f0cb583add607f5": {
       "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/tillganglighetskrav-for-vissa-medier_hd01ku32/",
@@ -2192,9 +2192,9 @@
         },
         {
           "field": "public_reporting",
-          "assertion": "Mediemyndigheten publishes a dedicated e-service destination for consumer complaints concerning audiovisual-access services; end-to-end usability is unknown.",
-          "status": "unknown",
-          "review_note": "URL reachable 2026-09-24. Start link returned the same introduction, so actual fields, authentication and accepted languages remain unknown. Destination is established, but not published as a verified usable table route. Company defects and exemptions are separate choices within the same service.",
+          "assertion": "Mediemyndigheten publishes a dedicated consumer complaint e-service for audiovisual-access services.",
+          "status": "verified",
+          "review_note": "Official e-service introduction rechecked 2026-10-30. It identifies consumers, audiovisual-access services and a six-step complaint process. The Swedish interface does not establish accepted submission languages; no data was entered and no end-to-end delivery was tested.",
           "directive_context": "EAA",
           "reporting_route": {
             "authority": "Mediemyndigheten",
@@ -2210,9 +2210,9 @@
         },
         {
           "field": "company_reporting",
-          "assertion": "Mediemyndigheten publishes a dedicated e-service destination for company non-compliance reports and exemption notifications concerning audiovisual-access services; end-to-end usability is unknown.",
-          "status": "unknown",
-          "review_note": "URL reachable 2026-09-24. Start link returned the same introduction, so actual fields, authentication and accepted languages remain unknown. Destination is established, but not published as a verified usable table route. Company defects and exemptions are separate choices within the same service.",
+          "assertion": "Mediemyndigheten publishes a dedicated company e-service for accessibility-deficiency reports and exemption claims concerning audiovisual-access services.",
+          "status": "verified",
+          "review_note": "Official e-service introduction rechecked 2026-10-30. It identifies companies, section 24 accessibility-deficiency reports and section 8 exemption claims. The Swedish interface does not establish accepted submission languages; no data was entered and no end-to-end delivery was tested.",
           "directive_context": "EAA",
           "reporting_route": {
             "authority": "Mediemyndigheten",
@@ -2388,8 +2388,8 @@
       ],
       "questions": [
         "Before PR: Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment.",
-        "Before PR: Resolved: rechecked Konsumentverket's company-notification email/postal route and passenger-transport scope. MTM's public complaint, company defect and section 7 exemption forms were verified in an ordinary browser on 2026-10-23. Mediemyndigheten form claims and a final 2027 media-law claim remain omitted pending verification.",
-        "Follow-up after ordinary-browser checks: PTS portals rendered through initial actionable steps without sign-in; accepted submission languages and end-to-end operation remain unknown. MTM's three Swedish-language forms were verified on 2026-10-23 without submission. Mediemyndigheten destinations remain a separate unresolved check.",
+        "Before PR: Resolved: rechecked Konsumentverket's company-notification route and MTM's three forms. Mediemyndigheten's consumer and company e-service introductions were verified on 2026-10-30. A final 2027 media-law claim remains omitted pending verification.",
+        "Follow-up after ordinary-browser checks: PTS portals rendered through initial actionable steps without sign-in; accepted submission languages and end-to-end operation remain unknown. MTM's three Swedish-language forms were verified on 2026-10-23 without submission. Mediemyndigheten's two official Swedish-interface e-service introductions were verified on 2026-10-30 without submission; accepted submission languages and end-to-end delivery remain unknown.",
         "Follow-up: Find Transportstyrelsen routes and Konsumentverket public/exemption routes before publishing them.",
         "Follow-up: Track current English/API policy and the requested updated PTS process file; historical correspondence is retained as dated evidence.",
         "Follow-up: Establish any all-sector dedicated-page mandate and final enactment of proposed 2027 media changes before making new claims.",
@@ -3363,6 +3363,52 @@
           "disposition": "not_applicable",
           "reason": "Reporting routes do not establish a standards-adoption change.",
           "next_action": "No public adoption change from this evidence.",
+          "pr": null,
+          "domain": "adoption"
+        }
+      ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-reporting-routes-2026-10-30",
+      "country": "Sweden",
+      "recorded_on": "2026-10-30",
+      "status": "proposed",
+      "reason": "Mediemyndigheten's official e-service introductions verify separate consumer and company routes for audiovisual-access services.",
+      "next_action": "Review the extension to draft PR #91; preserve the distinction between interface language and accepted submission language.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "proposed",
+          "reason": "Replace Mediemyndigheten's Unknown entry with the verified consumer and company e-service introductions.",
+          "next_action": "Review draft PR #91; do not imply a successful submission or accepted language.",
+          "pr": 91,
+          "domain": "monitoring"
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence establishes reporting routes, not an enforcement action or outcome.",
+          "next_action": "No public enforcement change.",
+          "pr": null,
+          "domain": "enforcement"
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a sanction or imposed fine.",
+          "next_action": "No public sanctions change.",
+          "pr": null,
+          "domain": "sanctions"
+        },
+        {
+          "page": "EN 301 549 adoptation.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "The evidence does not establish a standards-adoption change.",
+          "next_action": "No public adoption change.",
           "pr": null,
           "domain": "adoption"
         }
