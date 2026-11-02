@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "routing-pr95-2026-11-02T10:05:01.092Z",
-    "expires_at": "2026-11-02T10:35:01.092Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1595,6 +1592,22 @@
         "source-98124269cb7277bfce98d1f5|Sweden|EAA authorities and reporting by country.md|replace-obsolete-public-form"
       ],
       "note": "Read current policy, main/draft ledgers and canonical Sweden/Portugal records, eight changed files, current open PR head, intake review and registered public pages. Portugal record blob unchanged since prior check; both previously notified publication suggestions remain pending and are not repeated. Metadata follow-up remains partially corrected with historical retired adoption path already notified. New Swedish form directly read; supplied evidence preserved, public replacement and research handoffs fully covered by95. Prior unavailable-wording suggestion explicitly superseded, not falsely marked merged. No research/public edits, PR creation, comments, submissions, upstream writes or new-country research."
+    },
+    {
+      "delivery_id": "c56e8050-d6a4-11f1-83e4-140430189ac5",
+      "event": "pull_request.synchronize",
+      "pull_request": 95,
+      "head_sha": "6ac87e354bd9b1950d1892d7b23927f18b3aa857",
+      "checked_on": "2026-11-02T10:05:59.414Z",
+      "outcome": "status_only_correspondence_followup_preserved_no_new_actionable_handoff",
+      "suggestion_ids": [],
+      "note": "Only new canonical change since checked8e4ee3c is Denmark monitoring question6: contributor says they emailed the mailbox-link defect; original message not inspected, no authority response, intended mailbox unresolved. Compared actual current PR/body/files, main Denmark record and monitoring/enforcement/sanctions/adoption pages, unchanged Sweden/Portugal record blobs, unchanged public draft and generated ledger, and sole open PR95 head. Status note is correctly retained as pending, not promoted to verified route, completed remediation, enforcement action or sanction. Existing Denmark mailbox delivery remains relevant; no material new evidence requiring another page handoff. Sweden replacement covered by95; Portugal and metadata follow-ups unchanged, not re-notified. No new source verification claimed or source-app messages sent. No research/public edits or new PRs. Persistent trigger unchanged.",
+      "per_page_dispositions": {
+        "monitoring": "Pending contributor status recorded in existing Denmark monitoring question; no public change justified",
+        "enforcement": "not_applicable: outgoing website-defect notification is not authority action",
+        "sanctions": "not_applicable: no legal change or imposed penalty",
+        "adoption": "not_applicable: no standards finding"
+      }
     }
   ],
   "suggestions": [
@@ -4569,7 +4582,23 @@
         "source-98124269cb7277bfce98d1f5|Sweden|EAA authorities and reporting by country.md|replace-obsolete-public-form"
       ],
       "note": "Read current policy, main/draft ledgers and canonical Sweden/Portugal records, eight changed files, current open PR head, intake review and registered public pages. Portugal record blob unchanged since prior check; both previously notified publication suggestions remain pending and are not repeated. Metadata follow-up remains partially corrected with historical retired adoption path already notified. New Swedish form directly read; supplied evidence preserved, public replacement and research handoffs fully covered by95. Prior unavailable-wording suggestion explicitly superseded, not falsely marked merged. No research/public edits, PR creation, comments, submissions, upstream writes or new-country research."
+    },
+    {
+      "delivery_id": "c56e8050-d6a4-11f1-83e4-140430189ac5",
+      "event": "pull_request.synchronize",
+      "pull_request": 95,
+      "head_sha": "6ac87e354bd9b1950d1892d7b23927f18b3aa857",
+      "checked_on": "2026-11-02T10:05:59.414Z",
+      "outcome": "status_only_correspondence_followup_preserved_no_new_actionable_handoff",
+      "suggestion_ids": [],
+      "note": "Only new canonical change since checked8e4ee3c is Denmark monitoring question6: contributor says they emailed the mailbox-link defect; original message not inspected, no authority response, intended mailbox unresolved. Compared actual current PR/body/files, main Denmark record and monitoring/enforcement/sanctions/adoption pages, unchanged Sweden/Portugal record blobs, unchanged public draft and generated ledger, and sole open PR95 head. Status note is correctly retained as pending, not promoted to verified route, completed remediation, enforcement action or sanction. Existing Denmark mailbox delivery remains relevant; no material new evidence requiring another page handoff. Sweden replacement covered by95; Portugal and metadata follow-ups unchanged, not re-notified. No new source verification claimed or source-app messages sent. No research/public edits or new PRs. Persistent trigger unchanged.",
+      "per_page_dispositions": {
+        "monitoring": "Pending contributor status recorded in existing Denmark monitoring question; no public change justified",
+        "enforcement": "not_applicable: outgoing website-defect notification is not authority action",
+        "sanctions": "not_applicable: no legal change or imposed penalty",
+        "adoption": "not_applicable: no standards finding"
+      }
     }
   ],
-  "updated_at": "2026-11-02T08:41:22.893Z"
+  "updated_at": "2026-11-02T10:05:59.414Z"
 }
