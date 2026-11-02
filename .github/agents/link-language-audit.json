@@ -6411,6 +6411,18 @@
       "language": "en",
       "reason": "Local English research record inspected; no raw private correspondence published.",
       "checked_on": "2026-10-30"
+    },
+    {
+      "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+      "language": "sv",
+      "reason": "Official public form observed in Swedish in reader and ordinary browser; this records interface language only.",
+      "checked_on": "2026-11-02"
+    },
+    {
+      "url": "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd",
+      "language": "sv",
+      "reason": "Company introduction and first reporting step observed in Swedish in an ordinary browser; this records interface language only, not accepted submission languages.",
+      "checked_on": "2026-11-02"
     }
   ]
 }

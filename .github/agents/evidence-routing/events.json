@@ -4958,21 +4958,21 @@
       "id": "sweden-mediemyndigheten-consumer-unavailable-2026-10-30",
       "country": "Sweden",
       "recorded_on": "2026-10-30",
-      "status": "proposed",
+      "status": "research_only",
       "source_refs": [
         "source-8d45f9633f034716d98fd63f",
         "source-04a04ada14f7ce711ef53334"
       ],
-      "reason": "Live direct retrieval and a single ordinary-browser check contradict current usability of the previously published consumer destination; company reporting is unaffected.",
-      "next_action": "Ordinary maintainer review of PR #95. One-time post-draft check completed 2026-11-02; current unavailability confirmed, no permanent withdrawal or replacement inferred.",
+      "reason": "Historical old-URL unavailability observations preserved. Later on 2026-11-02 the user supplied a verified different public reporting form; it supersedes the proposed unavailable public wording without disproving the earlier observations.",
+      "next_action": "Retain historical evidence; review replacement delivery sweden-mediemyndigheten-new-public-form-20261102 in PR #95.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "domain": "monitoring",
-          "disposition": "proposed",
-          "reason": "Replace the active-consumer-form wording with the observed current unavailability.",
-          "next_action": "Ordinary maintainer review of PR #95. One-time post-draft check completed 2026-11-02; current unavailability confirmed, no permanent withdrawal or replacement inferred.",
+          "disposition": "research_only",
+          "reason": "Historical old-URL unavailability observations preserved. Later on 2026-11-02 the user supplied a verified different public reporting form; it supersedes the proposed unavailable public wording without disproving the earlier observations.",
+          "next_action": "Retain historical evidence; review replacement delivery sweden-mediemyndigheten-new-public-form-20261102 in PR #95.",
           "pr": 95
         },
         {
@@ -5000,6 +5000,56 @@
           "disposition": "not_applicable",
           "reason": "No standards adoption change.",
           "next_action": "No public adoption edit.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "sweden-mediemyndigheten-new-public-form-20261102",
+      "country": "Sweden",
+      "recorded_on": "2026-11-02",
+      "status": "proposed",
+      "source_refs": [
+        "source-98124269cb7277bfce98d1f5",
+        "source-8ecd6d13688288c079e80101"
+      ],
+      "reason": "User supplied a current public reporting destination and the already-present company route. Both checked on 2 November 2026; old public unavailability wording is superseded.",
+      "next_action": "Review the replacement public link in PR #95. Company link already present; no duplicate.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Replace the old unavailable public URL with the verified public reporting form; the existing company route is already present and rechecked.",
+          "next_action": "Review the new Public reports link in existing PR #95; preserve company link and scope.",
+          "pr": 95
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
+          "next_action": "No public change for this destination.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
+          "next_action": "No public change for this destination.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/sweden.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
+          "next_action": "No public change for this destination.",
           "pr": null
         }
       ]

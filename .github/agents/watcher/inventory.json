@@ -1276,6 +1276,17 @@
       "claim_indices": [],
       "claim_ids": [],
       "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-se-mediemyndigheten-public-form-20261102",
+      "country": "Sweden",
+      "url": "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/",
+      "tier": "rotation",
+      "claim_indices": [],
+      "claim_ids": [
+        "monitoring-7950e549ce8bdc9a4e22bc45"
+      ],
+      "baseline_origin": "discovery"
     }
   ]
 }
