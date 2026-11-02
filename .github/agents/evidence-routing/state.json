@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "routing-pr95-2026-11-02T08:40:02.876Z",
-    "expires_at": "2026-11-02T09:10:02.876Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1583,6 +1580,18 @@
         "portugal-rectification-5-2023|Portugal|EAA authorities and reporting by country.md|correct-banking-supervisors"
       ],
       "note": "Compared current main/PR95 canonical records, generated ledgers, changed-file scope, open heads and registered public pages. Direct official law reading confirms historical banking remit correction. New guide evidence is correctly research-only; simulated app example is not enforcement and EN references are not legal adoption. Swedish correction still covered by open95; prior metadata and enforcement suggestions unchanged/partially corrected and not re-notified. No research/public edits, new PRs, source-app messages, upstream writes or new-country research. Persistent webhook unchanged."
+    },
+    {
+      "delivery_id": "237964c0-d697-11f1-8f76-e06bae5360ac",
+      "event": "pull_request.synchronize",
+      "pull_request": 95,
+      "head_sha": "8e4ee3c739ac2e3c7b2c825eb23f0fcd79492ef9",
+      "checked_on": "2026-11-02T08:41:22.893Z",
+      "outcome": "new_public_route_already_covered_no_new_actionable_handoff",
+      "suggestion_ids": [
+        "source-98124269cb7277bfce98d1f5|Sweden|EAA authorities and reporting by country.md|replace-obsolete-public-form"
+      ],
+      "note": "Read current policy, main/draft ledgers and canonical Sweden/Portugal records, eight changed files, current open PR head, intake review and registered public pages. Portugal record blob unchanged since prior check; both previously notified publication suggestions remain pending and are not repeated. Metadata follow-up remains partially corrected with historical retired adoption path already notified. New Swedish form directly read; supplied evidence preserved, public replacement and research handoffs fully covered by95. Prior unavailable-wording suggestion explicitly superseded, not falsely marked merged. No research/public edits, PR creation, comments, submissions, upstream writes or new-country research."
     }
   ],
   "suggestions": [
@@ -2738,14 +2747,14 @@
       "id": "sweden-mediemyndigheten-consumer-route-2026-10-30|sweden|EAA authorities and reporting by country.md|downgrade-inactive-form",
       "country": "Sweden",
       "target": "PR #91 Mediemyndigheten consumer complaint route and Sweden monitoring row",
-      "status": "covered_by_open_pr",
+      "status": "superseded_by_verified_alternative",
       "covering_pr": 95,
       "proposed_change": "Prepare a focused follow-up on current main that splits the merged Mediemyndigheten routing result. Keep the live company accessibility-deficiency/exemption e-service verified. Change the consumer-complaint claim to unknown/needs_evidence, replace the public-row active-form link with an Unknown entry (or explicitly state that the official destination was inactive/unavailable when checked on 30 October 2026), and record a separate stable consumer-route delivery with monitoring `needs_evidence` plus enforcement, sanctions and adoption `not_applicable`. Regenerate `events.json`. In the same metadata follow-up, normalize the MTM delivery from `draft_pr` to `proposed`.",
       "evidence": "On 30 October 2026 the official consumer destination https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b displayed 'E-tjänst ej tillgänglig' and 'Denna e-tjänst är för närvarande inte aktiv eller otillgänglig.' The separate company destination remained live and identified companies, section 24 accessibility-deficiency reports, section 8 exemption claims, audiovisual-access services and a six-step submission flow.",
       "limitations": "The consumer-route page does not distinguish temporary outage from withdrawal, so do not claim the route has been permanently removed. No form was submitted. The Swedish interface does not establish accepted submission languages or successful end-to-end delivery. This evidence concerns reporting availability, not enforcement action, sanctions or standards adoption.",
       "source_pr": 91,
       "created_on": "2026-10-30T07:38:51.199Z",
-      "updated_on": "2026-11-02T08:27:02.528Z",
+      "updated_on": "2026-11-02T08:41:22.893Z",
       "source_urls": [
         "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=6cc22a2d-a3b8-4be9-8038-72f931869b6b",
         "https://e-tjanst.mediemyndigheten.se/EServiceStart.aspx?id=c50a92c8-eb64-4c43-9d84-6a843282dbbd"
@@ -2754,7 +2763,8 @@
         "sweden|mediemyndigheten|consumer-complaint-route|inactive-or-unavailable|2026-10-30",
         "sweden|mediemyndigheten|company-deficiency-exemption-route|live|2026-10-30"
       ],
-      "progress": "PR95 remains open draft at97fbdc2, public sentence unchanged. One-time November2 browser recheck and covering PR reference recorded; pending merge, not complete on main."
+      "progress": "Historical old-URL unavailability remains valid. Explicit research_only disposition in current95 supersedes unavailable public wording with independently reviewed replacement form. Not a claim old route recovered or PR merged.",
+      "superseded_by": "source-98124269cb7277bfce98d1f5|Sweden|EAA authorities and reporting by country.md|replace-obsolete-public-form"
     },
     {
       "id": "sweden-mtm-reporting-routes-2026-10-16|monitoring|normalize-draft-pr-disposition",
@@ -2886,6 +2896,34 @@
         "adoption": "guide references retained as research_only in95; no national adoption claim",
         "standards": "no verified legal incorporation",
         "ebook": "no infrastructure change; user exception preserved"
+      }
+    },
+    {
+      "id": "source-98124269cb7277bfce98d1f5|Sweden|EAA authorities and reporting by country.md|replace-obsolete-public-form",
+      "country": "Sweden",
+      "target": "EAA authorities and reporting by country.md",
+      "status": "covered_by_open_pr",
+      "covering_pr": 95,
+      "source_pr": 95,
+      "created_on": "2026-11-02T08:41:22.893Z",
+      "updated_on": "2026-11-02T08:41:22.893Z",
+      "proposed_change": "Replace obsolete public consumer URL with Mediemyndigheten public accessibility reporting form under Audiovisual access. Retain separate company route.",
+      "source_urls": [
+        "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/"
+      ],
+      "evidence_fingerprints": [
+        "source-98124269cb7277bfce98d1f5",
+        "source-8ecd6d13688288c079e80101"
+      ],
+      "evidence": "Official page directly read November2: audiovisual-access accessibility reports inform supervision planning, optional name/email, service and shortcoming fields and submit control. PR95 includes matching canonical monitoring claim, isolated wording review and generated delivery. Public main remains old URL; draft95 covers replacement.",
+      "missing_record_handoff": "None: canonical Sweden evidence and monitoring claim plus all four registered page dispositions and matching generated events present in95.",
+      "limitations": "No submission or end-to-end delivery verification; interface language does not establish accepted submission languages. Publication date unknown. No actual enforcement action, statutory/imposed penalty or standards adoption established. Keep old evidence; not complete on main until merge.",
+      "notification_status": "suppressed: already covered by existing PR95; no new missing handoff",
+      "per_page_dispositions": {
+        "monitoring": "covered_by_open_pr95",
+        "enforcement": "not_applicable",
+        "sanctions": "not_applicable",
+        "adoption": "not_applicable"
       }
     }
   ],
@@ -4516,7 +4554,19 @@
         "portugal-rectification-5-2023|Portugal|EAA authorities and reporting by country.md|correct-banking-supervisors"
       ],
       "note": "Compared current main/PR95 canonical records, generated ledgers, changed-file scope, open heads and registered public pages. Direct official law reading confirms historical banking remit correction. New guide evidence is correctly research-only; simulated app example is not enforcement and EN references are not legal adoption. Swedish correction still covered by open95; prior metadata and enforcement suggestions unchanged/partially corrected and not re-notified. No research/public edits, new PRs, source-app messages, upstream writes or new-country research. Persistent webhook unchanged."
+    },
+    {
+      "delivery_id": "237964c0-d697-11f1-8f76-e06bae5360ac",
+      "event": "pull_request.synchronize",
+      "pull_request": 95,
+      "head_sha": "8e4ee3c739ac2e3c7b2c825eb23f0fcd79492ef9",
+      "checked_on": "2026-11-02T08:41:22.893Z",
+      "outcome": "new_public_route_already_covered_no_new_actionable_handoff",
+      "suggestion_ids": [
+        "source-98124269cb7277bfce98d1f5|Sweden|EAA authorities and reporting by country.md|replace-obsolete-public-form"
+      ],
+      "note": "Read current policy, main/draft ledgers and canonical Sweden/Portugal records, eight changed files, current open PR head, intake review and registered public pages. Portugal record blob unchanged since prior check; both previously notified publication suggestions remain pending and are not repeated. Metadata follow-up remains partially corrected with historical retired adoption path already notified. New Swedish form directly read; supplied evidence preserved, public replacement and research handoffs fully covered by95. Prior unavailable-wording suggestion explicitly superseded, not falsely marked merged. No research/public edits, PR creation, comments, submissions, upstream writes or new-country research."
     }
   ],
-  "updated_at": "2026-11-02T08:27:02.528Z"
+  "updated_at": "2026-11-02T08:41:22.893Z"
 }
