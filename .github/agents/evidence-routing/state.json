@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "routing-pr95-2026-11-02T12:31:15.039Z",
-    "expires_at": "2026-11-02T13:01:15.039Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1611,6 +1608,18 @@
         "sanctions": "not_applicable: no legal change or imposed penalty",
         "adoption": "not_applicable: no standards finding"
       }
+    },
+    {
+      "delivery_id": "2300e0f0-d6b9-11f1-9738-f90256488451",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 95,
+      "head_sha": "6ac87e354bd9b1950d1892d7b23927f18b3aa857",
+      "checked_on": "2026-11-02T12:32:17.295Z",
+      "actual_state": "merged",
+      "merge_commit_sha": "902755c432540ded5e74147766fd36fc202f9da4",
+      "outcome": "merge_reconciled_sweden_resolved_portugal_handoffs_persisted_no_new_suggestion",
+      "suggestion_ids": [],
+      "note": "Current GitHub state already merged despite readiness payload. Read routing/shared policies, main ledger, current changed files, canonical Denmark/Sweden/Portugal records and all registered public pages plus standards; open PR search empty. Main record/page blobs match previously reviewed95 head. Swedish replacement completed on main; historical unavailable wording remains superseded. Denmark outgoing-email note is pending, not a response or remediation. Portugal research handoffs landed intact; banking and annual-report public proposals remain uncovered and already notified, with reviews still required. Metadata reference partially fixed, retired path unchanged. Reassessed pending work after merge; no new legal/source verification, research/public writes, PR creation, comments or upstream writes."
     }
   ],
   "suggestions": [
@@ -2840,7 +2849,7 @@
       "research_handoff_pr": 95,
       "source_pr": 95,
       "created_on": "2026-10-30T18:20:46.208Z",
-      "updated_on": "2026-11-02T08:27:02.528Z",
+      "updated_on": "2026-11-02T12:32:17.295Z",
       "proposed_change": "Prepare a separate Portugal enforcement entry attributed to IDiPD's annual2025 report: specify 28 June–31 December2025,46 responding authorities including38/308 municipalities,190 inspected operators,15 municipal non-compliance cases and13 complaints; state no proceedings/fines/accessory sanctions were reported by respondents in that period. Do not infer exhaustive national coverage, exclusively digital EAA activity, approved exemptions or completed remediation. Complete precise claim modelling, Portuguese fidelity, B2 readability and independent PR review before publication.",
       "evidence": "Official report prepared31 March2026; linked from IDiPD EAA hub updated16 October2026. Relevant source pages read and summary/statistics visually inspected during the immediately preceding authorised watcher pass. No matching Portugal public enforcement entry or other open covering PR found.",
       "source_urls": [
@@ -2863,17 +2872,19 @@
         "standards": "not_applicable",
         "ebook": "not_applicable"
       },
-      "progress": "PR95 November2 evidence retains byte-identical report and unresolved complaint subtotals. Research handoff remains in95; no new public covering PR. Existing suggestion retained without repeat notification."
+      "progress": "PR95 merge preserves Portugal canonical research and ledger on main. No open PRs currently cover either pending public correction. Existing separate Portugal monitoring/enforcement suggestions remain queued with all source/review limitations; one-monitoring-PR queue no longer occupied by95. No repeat notification.",
+      "research_handoff_status": "merged_on_main",
+      "reassessed_after_merge": 95
     },
     {
       "id": "pr95|sweden-consumer-delivery|covering-pr-and-current-adoption-path",
       "country": "Sweden",
       "target": "PR #95 canonical Sweden deliveries and generated events.json",
-      "status": "update_existing_pr",
+      "status": "partially_resolved_metadata_followup",
       "covering_pr": 95,
       "source_pr": 95,
       "created_on": "2026-10-30T18:20:46.208Z",
-      "updated_on": "2026-11-02T08:27:02.528Z",
+      "updated_on": "2026-11-02T12:32:17.295Z",
       "proposed_change": "Update existing PR95 rather than opening another PR: set the monitoring destination pr field to95 for sweden-mediemyndigheten-consumer-unavailable-2026-10-30; in the older sweden-mediemyndigheten-reporting-routes-2026-10-30 delivery already being reconciled, replace retired `EN 301 549 adoptation.md` with current `EN 301 549 adoption.md`. Regenerate events.json from canonical deliveries. Keep historical PR91 references and all evidence/public wording unchanged. Portugal public enforcement covering-pr must remain unassigned until a separate publication PR exists; any95 reference should explicitly denote research-handoff coverage.",
       "evidence": "Current PR95 adds the new monitoring proposal with pr:null and updates the historical combined delivery status while retaining its retired adoption filename. Shared evidence instructions require PR reference when one exists and current registered destinations.",
       "evidence_fingerprints": [
@@ -2882,7 +2893,7 @@
       ],
       "limitations": "Metadata-only correction; no new legal or reporting claim. Existing draft covers substantive evidence; not a request for another country PR.",
       "notification_id": "routing-pr95-canonical-metadata-2026-10-30",
-      "progress": "PR95 head97fbdc2 now sets covering pr95 on the unavailable-consumer delivery. Older reporting-routes delivery still uses retired EN 301 549 adoptation.md. Partially corrected; remaining metadata request already notified, no repeat."
+      "progress": "Covering95 reference present on main after merge. Retired adoption path in historical delivery still remains; previously notified metadata follow-up not resolved. PR95 is merged and cannot be updated; preserve historical references in a future authorised metadata change. No repeat notification."
     },
     {
       "id": "portugal-rectification-5-2023|Portugal|EAA authorities and reporting by country.md|correct-banking-supervisors",
@@ -2893,7 +2904,7 @@
       "research_handoff_pr": 95,
       "source_pr": 95,
       "created_on": "2026-11-02T08:27:02.528Z",
-      "updated_on": "2026-11-02T08:27:02.528Z",
+      "updated_on": "2026-11-02T12:32:17.295Z",
       "proposed_change": "Separate Portugal monitoring PR: remove investment/ancillary services from Banco de Portugal's enumerated remit; add services associated with payment accounts; retain specified consumer credit, payment services and electronic money, and CMVM's specified investment/ancillary remit. Cite Article28(1)(e)-(f), Article2(3)(e) and Rectification5/2023 item3. Preserve reservation of other entities' statutory powers.",
       "evidence": "On November2 directly read official rectification published2023-02-02 item3 and consolidated Articles2 and28: BdP list is i),iii),iv),v), CMVM ii). Current main and PR95 public BdP bullet still includes investment/ancillary services and omits payment-account-associated services. Only open PR95 corrects research, not Portugal public text.",
       "source_urls": [
@@ -2915,17 +2926,20 @@
         "adoption": "guide references retained as research_only in95; no national adoption claim",
         "standards": "no verified legal incorporation",
         "ebook": "no infrastructure change; user exception preserved"
-      }
+      },
+      "research_handoff_status": "merged_on_main",
+      "reassessed_after_merge": 95,
+      "progress": "PR95 merge preserves Portugal canonical research and ledger on main. No open PRs currently cover either pending public correction. Existing separate Portugal monitoring/enforcement suggestions remain queued with all source/review limitations; one-monitoring-PR queue no longer occupied by95. No repeat notification."
     },
     {
       "id": "source-98124269cb7277bfce98d1f5|Sweden|EAA authorities and reporting by country.md|replace-obsolete-public-form",
       "country": "Sweden",
       "target": "EAA authorities and reporting by country.md",
-      "status": "covered_by_open_pr",
+      "status": "resolved",
       "covering_pr": 95,
       "source_pr": 95,
       "created_on": "2026-11-02T08:41:22.893Z",
-      "updated_on": "2026-11-02T08:41:22.893Z",
+      "updated_on": "2026-11-02T12:32:17.295Z",
       "proposed_change": "Replace obsolete public consumer URL with Mediemyndigheten public accessibility reporting form under Audiovisual access. Retain separate company route.",
       "source_urls": [
         "https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/"
@@ -2943,7 +2957,9 @@
         "enforcement": "not_applicable",
         "sanctions": "not_applicable",
         "adoption": "not_applicable"
-      }
+      },
+      "resolved_on": "2026-11-02T12:32:17.295Z",
+      "resolution": "PR95 merged2026-11-02T12:30:13Z; replacement public form and matching research/ledger are now on main. Confirmed public blob57ae8e2 and Sweden record53ec58b. No claim of successful form submission."
     }
   ],
   "processed_deliveries": [
@@ -4601,7 +4617,19 @@
         "sanctions": "not_applicable: no legal change or imposed penalty",
         "adoption": "not_applicable: no standards finding"
       }
+    },
+    {
+      "delivery_id": "2300e0f0-d6b9-11f1-9738-f90256488451",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 95,
+      "head_sha": "6ac87e354bd9b1950d1892d7b23927f18b3aa857",
+      "checked_on": "2026-11-02T12:32:17.295Z",
+      "actual_state": "merged",
+      "merge_commit_sha": "902755c432540ded5e74147766fd36fc202f9da4",
+      "outcome": "merge_reconciled_sweden_resolved_portugal_handoffs_persisted_no_new_suggestion",
+      "suggestion_ids": [],
+      "note": "Current GitHub state already merged despite readiness payload. Read routing/shared policies, main ledger, current changed files, canonical Denmark/Sweden/Portugal records and all registered public pages plus standards; open PR search empty. Main record/page blobs match previously reviewed95 head. Swedish replacement completed on main; historical unavailable wording remains superseded. Denmark outgoing-email note is pending, not a response or remediation. Portugal research handoffs landed intact; banking and annual-report public proposals remain uncovered and already notified, with reviews still required. Metadata reference partially fixed, retired path unchanged. Reassessed pending work after merge; no new legal/source verification, research/public writes, PR creation, comments or upstream writes."
     }
   ],
-  "updated_at": "2026-11-02T10:05:59.414Z"
+  "updated_at": "2026-11-02T12:32:17.295Z"
 }
