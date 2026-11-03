@@ -2427,6 +2427,30 @@
         "next_step": "Context for prior annual-report candidate only. No new enforcement totals, event outcome or report release date. No duplicate public suggestion.",
         "source_url": "https://idipd.mtsss.gov.pt/noticias/-/journal_content/56/11309/1172493"
       }
+    },
+    {
+      "id": "ireland-si636-2023-official-readable-pdf",
+      "source_id": "discovery-ie-si636-2023-as-made-pdf",
+      "kind": "discovery_candidate",
+      "detected_on": "2026-11-03",
+      "run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
+      "review_status": "queued",
+      "notification_id": "ireland-si636-2023-official-readable-pdf|research-handoff",
+      "notified_on": "2026-11-03",
+      "details": {
+        "source_url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
+        "final_url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf#page=1",
+        "country_record": ".github/agents/research/countries/ireland.json",
+        "summary": "SI 636/2023 as made; official PDF now readable although print page remains 403. Regulation 4 allocates authorities, Regulation 14(2) covers accessible public written and oral information for covered services, and 14(4) requires immediate notification of competent authorities, detailing non-compliance and corrective measures.",
+        "limits": "Historical instrument as made, not a certified consolidation or an October enactment. No dedicated page, operational filing destination, accepted language, actual enforcement or fine inferred.",
+        "per_page_dispositions": {
+          "monitoring": "research handoff; resolve access question only, no public change proposed",
+          "enforcement": "no action/outcome evidenced",
+          "sanctions": "no new penalty claim from this check",
+          "adoption": "existing 2023 instrument, not new transposition"
+        },
+        "next_step": "Attach verified official PDF and pinpoint sections to Ireland canonical monitoring research; preserve print access failure and require generated routing projection/targeted validation in an available runner."
+      }
     }
   ],
   "discovery": {
@@ -2436,7 +2460,7 @@
       "Denmark": {
         "status": "partial",
         "last_attempt_on": "2026-11-03",
-        "note": "Official regulator, transport and digital guidance and October enterprise archive checked; merger corroborates existing record. Finanstilsynet news listing was not item-readable; SIK listing did not cover the period.",
+        "note": "Finanstilsynet archive exposed filters, not the period's full article list. Its 2 October DKFIN consultation concerns financial reporting taxonomy, not EAA reporting. The previously failing SIK general guidance was readable on this retry; this does not resolve the mailbox.",
         "prior_attempts": [
           {
             "last_attempt_on": "2026-10-23",
@@ -2451,9 +2475,18 @@
               "Resume native-language recent and undated search across SIK, DIGST, transport, maritime, financial, competition, police, energy and Virk domains from 2026-09-18; do not treat generic homepage news as coverage.",
               "Resolve company mailbox only with official corrected guidance/clarification; inspect Produkter.dk once under normal browser rules in a later authorised pass."
             ]
+          },
+          {
+            "last_attempt_on": "2026-11-03",
+            "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+            "status": "partial",
+            "note": "Official regulator, transport and digital guidance and October enterprise archive checked; merger corroborates existing record. Finanstilsynet news listing was not item-readable; SIK listing did not cover the period.",
+            "next_steps": [
+              "Read a date-filtered Finanstilsynet/markedsovervågning archive from 18 Sep through 31 Oct when item results are accessible. Check Produkter.dk only in an authorised ordinary browser; await official mailbox clarification, not a repeat email."
+            ]
           }
         ],
-        "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+        "last_run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
         "lookback": {
           "from": "2026-09-18",
           "through": "2026-10-31",
@@ -2667,17 +2700,49 @@
             "access_status": "read",
             "freshness": "last month",
             "limitation": "Reader retrieval; origin freshness not certified."
+          },
+          {
+            "url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+            "final_url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser/2026/okt/finanstilsynet-sender-dkfin-taksonomien-i-hoering",
+            "final_url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser/2026/okt/finanstilsynet-sender-dkfin-taksonomien-i-hoering",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "last week"
+          },
+          {
+            "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+            "final_url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/generelt-om-kravene-tilgaengelighedsloven",
+            "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/generelt-om-kravene-tilgaengelighedsloven",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
           }
         ],
         "next_steps": [
-          "Read a date-filtered Finanstilsynet/markedsovervågning archive from 18 Sep through 31 Oct when item results are accessible. Check Produkter.dk only in an authorised ordinary browser; await official mailbox clarification, not a repeat email."
+          "Use the dated Finanstilsynet news listing with a connected browser; preserve mailbox as ambiguous pending authoritative clarification."
         ],
-        "uncompleted_reason": "Read a date-filtered Finanstilsynet/markedsovervågning archive from 18 Sep through 31 Oct when item results are accessible. Check Produkter.dk only in an authorised ordinary browser; await official mailbox clarification, not a repeat email."
+        "uncompleted_reason": "Use the dated Finanstilsynet news listing with a connected browser; preserve mailbox as ambiguous pending authoritative clarification."
       },
       "Sweden": {
         "status": "partial",
         "last_attempt_on": "2026-11-03",
-        "note": "PTS October news, service guidance, sector authorities and parliamentary follow-up read; late-September domain searches attempted. PTS earlier archive page did not render.",
+        "note": "Followed PTS's own RSS link: the reader cannot render text/xml. The Via TT HTML archive snapshot showed 2025, not autumn 2026. The 28 September PTS decision concerns cybersecurity fees, not accessibility; no duplicate of #85.",
         "prior_attempts": [
           {
             "last_attempt_on": "2026-10-23",
@@ -2693,9 +2758,18 @@
               "Post-draft once-only consumer-route check: observe usable intake or retain unavailable wording; temporary versus withdrawn and replacement route unknown.",
               "Transport public/exemption routes and final 2027 changes remain unresolved; preserve historical PTS correspondence."
             ]
+          },
+          {
+            "last_attempt_on": "2026-11-03",
+            "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+            "status": "partial",
+            "note": "PTS October news, service guidance, sector authorities and parliamentary follow-up read; late-September domain searches attempted. PTS earlier archive page did not render.",
+            "next_steps": [
+              "Check PTS archive entries 18–30 Sep through its working pagination or date filter. Keep KU7 as pending; never treat the scheduled second vote or transport routes as settled."
+            ]
           }
         ],
-        "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+        "last_run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
         "lookback": {
           "from": "2026-09-18",
           "through": "2026-10-31",
@@ -2936,17 +3010,58 @@
             "access_status": "read",
             "freshness": "6 days ago",
             "limitation": "Reader retrieval; origin freshness not certified."
+          },
+          {
+            "url": "https://www.pts.se/om-oss/nyhetsbrev/",
+            "final_url": "https://www.pts.se/om-oss/nyhetsbrev/",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "last month"
+          },
+          {
+            "url": "https://mediemyndigheten.se/nyhetsrum/nyhetslista/2026/ny-fyraarsperiod-med-tillganglighetskrav-for-tv-sandningar-och-playtjanster/",
+            "final_url": "https://mediemyndigheten.se/nyhetsrum/nyhetslista/2026/ny-fyraarsperiod-med-tillganglighetskrav-for-tv-sandningar-och-playtjanster/",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "last week"
+          },
+          {
+            "url": "https://via.tt.se/rss/releases/latest?publisherId=3236104",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "400) Unsupported content-type: text/xml"
+          },
+          {
+            "url": "https://via.tt.se/pressrum/3236104/pts---post--och-telestyrelsen/r",
+            "final_url": "https://via.tt.se/pressrum/3236104/pts---post--och-telestyrelsen/r",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "1.1 years ago"
+          },
+          {
+            "url": "https://pts.se/nyheter-och-pressmeddelanden/beslut-om-avgifter-enligt-cybersakerhetslagen-for-2026/",
+            "final_url": "https://pts.se/nyheter-och-pressmeddelanden/beslut-om-avgifter-enligt-cybersakerhetslagen-for-2026/",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "5 days ago"
           }
         ],
         "next_steps": [
-          "Check PTS archive entries 18–30 Sep through its working pagination or date filter. Keep KU7 as pending; never treat the scheduled second vote or transport routes as settled."
+          "Use a reader that supports the PTS press feed or the official filtered news list to inspect 18–30 September. A stale press-room snapshot cannot close that interval."
         ],
-        "uncompleted_reason": "Check PTS archive entries 18–30 Sep through its working pagination or date filter. Keep KU7 as pending; never treat the scheduled second vote or transport routes as settled."
+        "uncompleted_reason": "Use a reader that supports the PTS press feed or the official filtered news list to inspect 18–30 September. A stale press-room snapshot cannot close that interval."
       },
       "Ireland": {
         "status": "partial",
         "last_attempt_on": "2026-11-03",
-        "note": "CCPC, ComReg, NTA, Central Bank, IAA and CnaM guidance checked; ComReg provided dated October entries. CCPC news listing did not expose October items; unrelated hits do not complete it.",
+        "note": "Actual CCPC news pages for 13, 29 and 30 October were inspected: merger thresholds, competition authorities meeting, and a Commission appointment, not EAA developments. Current consumer guidance and microenterprise guidance were readable. The official as-made PDF of SI 636/2023 resolves the historical unreadable-statute question only; the print URL still returned 403.",
         "prior_attempts": [
           {
             "last_attempt_on": "2026-10-23",
@@ -2961,9 +3076,18 @@
               "Search CCPC, Central Bank, ComReg, CnaM, NTA and IAA recent news plus undated guidance from 2026-09-18.",
               "Resolve CnaM exact exemption contact and company non-compliance intake; Central Bank company/exemption route, ComReg 112 and NTA routes remain separate unknowns; do not reuse consumer routes."
             ]
+          },
+          {
+            "last_attempt_on": "2026-11-03",
+            "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+            "status": "partial",
+            "note": "CCPC, ComReg, NTA, Central Bank, IAA and CnaM guidance checked; ComReg provided dated October entries. CCPC news listing did not expose October items; unrelated hits do not complete it.",
+            "next_steps": [
+              "Read the CCPC date-filtered Oct news list through 18 Sep using a paired ordinary browser or official feed. CnaM exemption address masked; do not substitute a consumer route for company compliance."
+            ]
           }
         ],
-        "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+        "last_run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
         "lookback": {
           "from": "2026-09-18",
           "through": "2026-10-31",
@@ -3168,17 +3292,91 @@
             "access_status": "read",
             "freshness": "3 days ago",
             "limitation": "Reader retrieval; origin freshness not certified."
+          },
+          {
+            "url": "https://www.ccpc.ie/?page=1",
+            "final_url": "https://www.ccpc.ie/?page=1",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "4 days ago"
+          },
+          {
+            "url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/13/update-to-merger-notification-thresholds",
+            "final_url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/13/update-to-merger-notification-thresholds",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/29/ccpc-welcomed-european-competition-authorities-and-leaders-to-dublin",
+            "final_url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/29/ccpc-welcomed-european-competition-authorities-and-leaders-to-dublin",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/30/ccpc-welcomes-the-appointment-of-clara-thornton-as-member-of-the-commission",
+            "final_url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/30/ccpc-welcomes-the-appointment-of-clara-thornton-as-member-of-the-commission",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+            "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+            "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "5 days ago"
+          },
+          {
+            "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
+            "final_url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf#page=1",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "2.9 years ago"
+          },
+          {
+            "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "403) Forbidden"
+          },
+          {
+            "url": "https://www.ccpc.ie/news-and-media/news/article",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "400) Timeout fetching"
           }
         ],
         "next_steps": [
-          "Read the CCPC date-filtered Oct news list through 18 Sep using a paired ordinary browser or official feed. CnaM exemption address masked; do not substitute a consumer route for company compliance."
+          "Capture the complete dated CCPC list from 18 September through 31 October, not just three articles. Add the official as-made statute source and close the source-access question in canonical Ireland research; preserve practical routes/languages and distinguish any later amendments."
         ],
-        "uncompleted_reason": "Read the CCPC date-filtered Oct news list through 18 Sep using a paired ordinary browser or official feed. CnaM exemption address masked; do not substitute a consumer route for company compliance."
+        "uncompleted_reason": "Capture the complete dated CCPC list from 18 September through 31 October, not just three articles. Add the authenticated as-made statute source and close the source-access question in canonical Ireland research; preserve practical routes/languages and distinguish any later amendments."
       },
       "Italy": {
         "status": "partial",
         "last_attempt_on": "2026-11-03",
-        "note": "AgID register, determination, annex, Gazette, FAQ and enquiry page read. MIMIT technical-support agreement not a live filing route. AgID news archive and MIMIT notice remained unreadable.",
+        "note": "AgID's Italian and English archive listings returned 403. MIMIT's PIAO planning page names and links the September RUNTS consultation for representative associations, open to 30 September; the linked notice itself remained unreadable. Do not treat that consultation as a product or company filing route.",
         "prior_attempts": [
           {
             "last_attempt_on": "2026-10-23",
@@ -3194,9 +3392,18 @@
               "Verify June 2026 vigilance regulation, MIMIT product and transport-terminal/112 routes; company platform evolution remains unverified and enquiry mailbox not filing.",
               "Reattempt MIMIT only in a later authorised run; do not treat search-service or 429 failures as authority-content absence."
             ]
+          },
+          {
+            "last_attempt_on": "2026-11-03",
+            "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+            "status": "partial",
+            "note": "AgID register, determination, annex, Gazette, FAQ and enquiry page read. MIMIT technical-support agreement not a live filing route. AgID news archive and MIMIT notice remained unreadable.",
+            "next_steps": [
+              "Use official news archive or paired browser to cover 18 Sep–31 Oct and recheck the specific MIMIT notice. Reconcile Art. 3(4) and procedure in canonical Italy monitoring/enforcement/sanctions; keep company access unknown."
+            ]
           }
         ],
-        "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+        "last_run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
         "lookback": {
           "from": "2026-09-18",
           "through": "2026-10-31",
@@ -3491,17 +3698,61 @@
             "access_status": "read",
             "freshness": "today",
             "limitation": "Reader retrieval; origin freshness not certified."
+          },
+          {
+            "url": "https://www.mimit.gov.it/it/normativa/notifiche-e-avvisi/avviso-8-settembre-2026-persone-con-disabilita-consultazione-pubblica-rivolta-alle-associazioni-rappresentative-iscritte-al-runts-registro-unico-nazionale-del-terzo-settore",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "400) Timeout fetching"
+          },
+          {
+            "url": "https://www.agid.gov.it/it/stampa-e-comunicazione?page=0&tipo_notizia=430",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "403) Forbidden"
+          },
+          {
+            "url": "https://www.agid.gov.it/en/press-and-communication-office?%3B=&%3Btipo_notizia=All&page=1",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "403) Forbidden"
+          },
+          {
+            "url": "https://www.mimit.gov.it/it/normativa/notifiche-e-avvisi",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "400) Timeout fetching"
+          },
+          {
+            "url": "https://www.mimit.gov.it/it/amministrazione-trasparente/disposizioni-generali/piao",
+            "final_url": "https://www.mimit.gov.it/it/amministrazione-trasparente/disposizioni-generali/piao",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
           }
         ],
         "next_steps": [
-          "Use official news archive or paired browser to cover 18 Sep–31 Oct and recheck the specific MIMIT notice. Reconcile Art. 3(4) and procedure in canonical Italy monitoring/enforcement/sanctions; keep company access unknown."
+          "Read the AgID archive across the outstanding interval in a connected browser. No need to keep rechecking the RUNTS notice for EAA intake evidence solely on account of its title. The Italy determination 84/2026 handoff in the preceding sample still requires canonical record/index review."
         ],
-        "uncompleted_reason": "Use official news archive or paired browser to cover 18 Sep–31 Oct and recheck the specific MIMIT notice. Reconcile Art. 3(4) and procedure in canonical Italy monitoring/enforcement/sanctions; keep company access unknown."
+        "uncompleted_reason": "Read the AgID archive across the outstanding interval in a connected browser. No need to keep rechecking the RUNTS notice for EAA intake evidence solely on account of its title. The Italy determination 84/2026 handoff in the preceding sample still requires canonical record/index review."
       },
       "Portugal": {
         "status": "partial",
         "last_attempt_on": "2026-11-03",
-        "note": "IDiPD October news/hub and AMT guidance read. Canonical #95 handoffs already cover report, corrected banking allocation and guides. Regional results insufficient; IGAC/ERC/Azores/ANACOM reader failures.",
+        "note": "Madeira's ARAE site/search was readable but the evaluated results did not establish an EAA-specific change for the window; Azores IRAE competence page returned 403. National explanatory pages on the Decree-Law are not a substitute for regional coverage.",
         "prior_attempts": [
           {
             "last_attempt_on": "2026-10-23",
@@ -3517,9 +3768,18 @@
               "Compare payment-account guide with consolidated law and competent-bank guidance; do not resolve statutory omission from guidance alone.",
               "Read the other three practical guides and resume ANACOM, ASAE, financial, transport, ERC, IGAC, Madeira/Azores recent/undated discovery; revisit empty/403 sources later within attempt limits."
             ]
+          },
+          {
+            "last_attempt_on": "2026-11-03",
+            "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+            "status": "partial",
+            "note": "IDiPD October news/hub and AMT guidance read. Canonical #95 handoffs already cover report, corrected banking allocation and guides. Regional results insufficient; IGAC/ERC/Azores/ANACOM reader failures.",
+            "next_steps": [
+              "Check regional Madeira/Azores and regulator news from 18 Sep through 31 Oct via official readable pages; never infer absence. Do not redo the three guides; Portugal banking-row and limited enforcement-report PRs remain separate."
+            ]
           }
         ],
-        "last_run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+        "last_run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
         "lookback": {
           "from": "2026-09-18",
           "through": "2026-10-31",
@@ -3706,12 +3966,53 @@
             "access_status": "reader_error",
             "freshness": "not reported",
             "limitation": "Failed to fetch https://www.erc.pt/en/: (502) Bad Gateway"
+          },
+          {
+            "url": "https://areadocomerciante.dgae.gov.pt/noticias/comercio-transposta-diretiva-relativa-a-acessibilidade-de-produtos-e-servicos.aspx",
+            "final_url": "https://areadocomerciante.dgae.gov.pt/noticias/comercio-transposta-diretiva-relativa-a-acessibilidade-de-produtos-e-servicos.aspx",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "last week"
+          },
+          {
+            "url": "https://mosaico.gov.pt/legislacao-e-regulamentos/decreto-lei-82-2022",
+            "final_url": "https://mosaico.gov.pt/legislacao-e-regulamentos/decreto-lei-82-2022",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "last week"
+          },
+          {
+            "url": "https://www.madeira.gov.pt/sra/Pesquisar?LiveSearch=ARAE",
+            "final_url": "https://www.madeira.gov.pt/sra/Pesquisar?LiveSearch=ARAE",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://www.madeira.gov.pt/arae/pesquisar/ctl/ReadInformcao/mid/2618/InformacaoId/255499/UnidadeOrganicaId/62/LiveSearch/atividades%20de%20encerramento_STFP",
+            "final_url": "https://www.madeira.gov.pt/arae/pesquisar/ctl/ReadInformcao/mid/2618/InformacaoId/255499/UnidadeOrganicaId/62/LiveSearch/atividades%20de%20encerramento_STFP",
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "bounded_read",
+            "origin_freshness": "today"
+          },
+          {
+            "url": "https://portal.azores.gov.pt/web/irae/competencias-irae",
+            "final_url": null,
+            "method": "indexed official-page reader",
+            "attempted_on": "2026-11-03",
+            "access_status": "reader_error",
+            "origin_freshness": "not reported",
+            "error": "403) Forbidden"
           }
         ],
         "next_steps": [
-          "Check regional Madeira/Azores and regulator news from 18 Sep through 31 Oct via official readable pages; never infer absence. Do not redo the three guides; Portugal banking-row and limited enforcement-report PRs remain separate."
+          "Inspect date-filtered Madeira/Azores and sector-regulator archives for the overlap. Retain prior IGAC/ERC/ANACOM limitations and the existing #95 research/publication dispositions."
         ],
-        "uncompleted_reason": "Check regional Madeira/Azores and regulator news from 18 Sep through 31 Oct via official readable pages; never infer absence. Do not redo the three guides; Portugal banking-row and limited enforcement-report PRs remain separate.",
+        "uncompleted_reason": "Inspect date-filtered Madeira/Azores and sector-regulator archives for the overlap. Retain prior IGAC/ERC/ANACOM limitations and the existing #95 research/publication dispositions.",
         "unvisited_leads": [
           {
             "url": "https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Acessibilidade+no+Atendimento+Presencial.docx/8fe3e929-a89d-4984-96f2-7a01fefc58d0",
@@ -4054,6 +4355,57 @@
           }
         ],
         "outcome": "Both recent and undated searches executed for all five countries; official source reads and remaining gaps in per-country coverage. No advance of completed-discovery anchor."
+      },
+      {
+        "run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
+        "on": "2026-11-03",
+        "queries": [
+          {
+            "country": "Denmark",
+            "queries": [
+              "site:finanstilsynet.dk/nyheder-og-presse/ \"oktober 2026\" nyheder oktober 2026 tilgængelighed finansielle tjenester after:2026-09-17 before:2026-11-01",
+              "Finanstilsynet pressemeddelelser nyhedsarkiv RSS Danmark september 2026 nyheder finansiel tilgængelighedsloven",
+              "site:finanstilsynet.dk OR site:erhvervsstyrelsen.dk 2026 tilgængelighedsloven tilgængelighed forbrugere banktjenester finansielle tjenesteydelser tilsyn september oktober krav after:2026-09-17 before:2026-11-01",
+              "site:finanstilsynet.dk RSS \"RSS\" nyhedsarkiv Finanstilsynet Danmark presse feed XML finansrss"
+            ]
+          },
+          {
+            "country": "Sweden",
+            "queries": [
+              "site:pts.se/nyheter-och-pressmeddelanden/ september 2026 PTS nyheter 18 september till 30 september 2026 after:2026-09-17 before:2026-10-01",
+              "PTS nyheter arkiv tillgänglighet digital inkludering nyhetsflöde RSS september 2026 PTS tillgänglighetslagen",
+              "Post- och telestyrelsen pressrum via TT september 2026 PTS 18 21 22 23 24 25 28 29 30 september 2026 pressmeddelanden nyheter after:2026-09-17 before:2026-10-01",
+              "site:pts.se september 2026 nyheter tillgänglighet lagen 2023:254 marknadskontroll september after:2026-09-17 before:2026-10-01 september pressmeddelande tillgänglighetslagen"
+            ]
+          },
+          {
+            "country": "Ireland",
+            "queries": [
+              "site:ccpc.ie/news-and-media/news/article/2026/10/ CCPC consumer October 2026 news accessibility",
+              "site:ccpc.ie/news-and-media/news/article/2026/09/ September 2026 accessibility \"CCPC\" after:2026-09-17 before:2026-10-01",
+              "\"October 2026\" site:ccpc.ie \"accessibility\" October CCPC new rules e-commerce enforcement European Accessibility Act press guidance business September October Ireland after:2026-09-17 before:2026-11-01"
+            ]
+          },
+          {
+            "country": "Italy",
+            "queries": [
+              "site:agid.gov.it/it/notizie \"Ottobre 2026\" accessibilità ottobre notizie settembre 2026 archivi Agid feed notizie",
+              "site:mimit.gov.it \"8 settembre 2026\" \"persone\" accessibilità prodotti servizi avviso segnalazioni",
+              "MIMIT pubblica consultazione settembre 2026 disabilità RUNTS articolo 5 decreto 222 accessibilità pubbliche amministrazioni performance consultazione ufficiale dipartimento governo 8 settembre 2026"
+            ]
+          },
+          {
+            "country": "Portugal",
+            "queries": [
+              "acessibilidade produtos e serviços Decreto-Lei 82/2022 notícias outubro 2026 fiscalização Madeira Açores IRAE ARAE Madeira balcão reclamações acessibilidade",
+              "site:erc.pt OR site:igac.gov.pt OR site:anacom.pt acessibilidade outubro 2026 fiscalização produtos e serviços after:2026-09-17 before:2026-11-01",
+              "\"acessibilidade\" \"produtos e serviços\" Madeira Açores fiscalização Decreto-Lei 82/2022 reclamação competência ARAE IRAE Inspeção regional acessibilidade e-commerce",
+              "\"Decreto-Lei n.º 82/2022\" Madeira ARAE Açores IRAE Produtos Serviços acessibilidade consumidor autoridades regionais contacto notícias fiscalização outubro Ponto de contacto EAA"
+            ]
+          }
+        ],
+        "other_queries": "Targeted Irish statutory instrument and amendments; CCPC dated articles; official regional and agency archives.",
+        "outcome": "Additional targeted official evidence obtained; incomplete lists / inaccessible archives keep all five partial."
       }
     ]
   },
@@ -4064,11 +4416,8 @@
     "pending": 17,
     "attempted_this_run": 29
   },
-  "lease": {
-    "owner": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
-    "expires_at": "2026-11-03T10:45:07.439Z"
-  },
-  "updated_at": "2026-11-03T09:37:45.018Z",
+  "lease": null,
+  "updated_at": "2026-11-03T10:04:57.393Z",
   "source_mapping": {
     "Denmark": {
       "record_path": ".github/agents/research/countries/denmark.json",
@@ -4580,6 +4929,15 @@
       "id": "pt-idipd-2026-10-26-reminder",
       "country": "Portugal",
       "url": "https://idipd.mtsss.gov.pt/noticias/-/journal_content/56/11309/1175424",
+      "tier": "rotation",
+      "claim_indices": [],
+      "claim_ids": [],
+      "baseline_origin": "discovery"
+    },
+    {
+      "id": "discovery-ie-si636-2023-as-made-pdf",
+      "country": "Ireland",
+      "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
       "tier": "rotation",
       "claim_indices": [],
       "claim_ids": [],
@@ -5199,6 +5557,439 @@
       "pilot_promoted": false,
       "finished_at": "2026-11-03T09:37:45.018Z",
       "helper_inventory_blob_sha": "9b8f912480bda8210f316ec83b97b6c3830f97f8"
+    },
+    {
+      "run_id": "watcher-october-archive-retry-2026-11-03T10:00:07.439Z",
+      "mode": "single manual retry; outstanding archive and source-access checks only",
+      "started_at": "2026-11-03T10:00:07.439Z",
+      "research_finished_at": "2026-11-03T10:03:35.939Z",
+      "elapsed_to_end_of_source_checks_seconds": 209,
+      "status": "partial, no promotion",
+      "continues_run": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+      "verified_prior_checkpoint": "7c08ac895c0cfb35b17bdd5e9b29d3951adcd255",
+      "prior_23_observations_repeated": false,
+      "pending_helper_batch_location": {
+        "run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+        "field": "pending_helper_batch",
+        "count": 23
+      },
+      "helper_status": "No usable execution environment. Original batch retained under original ID; replay state.py and tests under fresh owned lease before processing later dated observations; no baseline or failure-counter updates here.",
+      "by_country": {
+        "Denmark": {
+          "status": "partial",
+          "finding": "Finanstilsynet archive exposed filters, not the period's full article list. Its 2 October DKFIN consultation concerns financial reporting taxonomy, not EAA reporting. The previously failing SIK general guidance was readable on this retry; this does not resolve the mailbox.",
+          "remaining": [
+            "Use the dated Finanstilsynet news listing with a connected browser; preserve mailbox as ambiguous pending authoritative clarification."
+          ],
+          "visits": [
+            "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+            "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser/2026/okt/finanstilsynet-sender-dkfin-taksonomien-i-hoering",
+            "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+            "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/generelt-om-kravene-tilgaengelighedsloven"
+          ]
+        },
+        "Sweden": {
+          "status": "partial",
+          "finding": "Followed PTS's own RSS link: the reader cannot render text/xml. The Via TT HTML archive snapshot showed 2025, not autumn 2026. The 28 September PTS decision concerns cybersecurity fees, not accessibility; no duplicate of #85.",
+          "remaining": [
+            "Use a reader that supports the PTS press feed or the official filtered news list to inspect 18–30 September. A stale press-room snapshot cannot close that interval."
+          ],
+          "visits": [
+            "https://www.pts.se/om-oss/nyhetsbrev/",
+            "https://mediemyndigheten.se/nyhetsrum/nyhetslista/2026/ny-fyraarsperiod-med-tillganglighetskrav-for-tv-sandningar-och-playtjanster/",
+            "https://via.tt.se/rss/releases/latest?publisherId=3236104",
+            "https://via.tt.se/pressrum/3236104/pts---post--och-telestyrelsen/r",
+            "https://pts.se/nyheter-och-pressmeddelanden/beslut-om-avgifter-enligt-cybersakerhetslagen-for-2026/"
+          ]
+        },
+        "Ireland": {
+          "status": "partial",
+          "finding": "Actual CCPC news pages for 13, 29 and 30 October were inspected: merger thresholds, competition authorities meeting, and a Commission appointment, not EAA developments. Current consumer guidance and microenterprise guidance were readable. The official as-made PDF of SI 636/2023 resolves the historical unreadable-statute question only; the print URL still returned 403.",
+          "remaining": [
+            "Capture the complete dated CCPC list from 18 September through 31 October, not just three articles. Add the official as-made statute source and close the source-access question in canonical Ireland research; preserve practical routes/languages and distinguish any later amendments."
+          ],
+          "visits": [
+            "https://www.ccpc.ie/?page=1",
+            "https://www.ccpc.ie/news-and-media/news/article/2026/10/13/update-to-merger-notification-thresholds",
+            "https://www.ccpc.ie/news-and-media/news/article/2026/10/29/ccpc-welcomed-european-competition-authorities-and-leaders-to-dublin",
+            "https://www.ccpc.ie/news-and-media/news/article/2026/10/30/ccpc-welcomes-the-appointment-of-clara-thornton-as-member-of-the-commission",
+            "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+            "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+            "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
+            "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print",
+            "https://www.ccpc.ie/news-and-media/news/article"
+          ]
+        },
+        "Italy": {
+          "status": "partial",
+          "finding": "AgID's Italian and English archive listings returned 403. MIMIT's PIAO planning page names and links the September RUNTS consultation for representative associations, open to 30 September; the linked notice itself remained unreadable. Do not treat that consultation as a product or company filing route.",
+          "remaining": [
+            "Read the AgID archive across the outstanding interval in a connected browser. No need to keep rechecking the RUNTS notice for EAA intake evidence solely on account of its title. The Italy determination 84/2026 handoff in the preceding sample still requires canonical record/index review."
+          ],
+          "visits": [
+            "https://www.mimit.gov.it/it/normativa/notifiche-e-avvisi/avviso-8-settembre-2026-persone-con-disabilita-consultazione-pubblica-rivolta-alle-associazioni-rappresentative-iscritte-al-runts-registro-unico-nazionale-del-terzo-settore",
+            "https://www.agid.gov.it/it/stampa-e-comunicazione?page=0&tipo_notizia=430",
+            "https://www.agid.gov.it/en/press-and-communication-office?%3B=&%3Btipo_notizia=All&page=1",
+            "https://www.mimit.gov.it/it/normativa/notifiche-e-avvisi",
+            "https://www.mimit.gov.it/it/amministrazione-trasparente/disposizioni-generali/piao"
+          ]
+        },
+        "Portugal": {
+          "status": "partial",
+          "finding": "Madeira's ARAE site/search was readable but the evaluated results did not establish an EAA-specific change for the window; Azores IRAE competence page returned 403. National explanatory pages on the Decree-Law are not a substitute for regional coverage.",
+          "remaining": [
+            "Inspect date-filtered Madeira/Azores and sector-regulator archives for the overlap. Retain prior IGAC/ERC/ANACOM limitations and the existing #95 research/publication dispositions."
+          ],
+          "visits": [
+            "https://areadocomerciante.dgae.gov.pt/noticias/comercio-transposta-diretiva-relativa-a-acessibilidade-de-produtos-e-servicos.aspx",
+            "https://mosaico.gov.pt/legislacao-e-regulamentos/decreto-lei-82-2022",
+            "https://www.madeira.gov.pt/sra/Pesquisar?LiveSearch=ARAE",
+            "https://www.madeira.gov.pt/arae/pesquisar/ctl/ReadInformcao/mid/2618/InformacaoId/255499/UnidadeOrganicaId/62/LiveSearch/atividades%20de%20encerramento_STFP",
+            "https://portal.azores.gov.pt/web/irae/competencias-irae"
+          ]
+        }
+      },
+      "reader_results": [
+        {
+          "url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+          "final_url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+          "section": "Nyheder og pressemeddelelser | Finanstilsynet",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser/2026/okt/finanstilsynet-sender-dkfin-taksonomien-i-hoering",
+          "final_url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser/2026/okt/finanstilsynet-sender-dkfin-taksonomien-i-hoering",
+          "section": "Finanstilsynet sender DKFIN-taksonomien i høring | Finanstilsynet",
+          "status": "bounded_read",
+          "reader_crawl": "last week"
+        },
+        {
+          "url": "https://www.pts.se/om-oss/nyhetsbrev/",
+          "final_url": "https://www.pts.se/om-oss/nyhetsbrev/",
+          "section": "Prenumerera på nyheter | PTS",
+          "status": "bounded_read",
+          "reader_crawl": "last month"
+        },
+        {
+          "url": "https://mediemyndigheten.se/nyhetsrum/nyhetslista/2026/ny-fyraarsperiod-med-tillganglighetskrav-for-tv-sandningar-och-playtjanster/",
+          "final_url": "https://mediemyndigheten.se/nyhetsrum/nyhetslista/2026/ny-fyraarsperiod-med-tillganglighetskrav-for-tv-sandningar-och-playtjanster/",
+          "section": "Ny fyraårsperiod med tillgänglighetskrav för tv-sändningar och playtjänster - Mediemyndigheten",
+          "status": "bounded_read",
+          "reader_crawl": "last week"
+        },
+        {
+          "url": "https://www.mimit.gov.it/it/normativa/notifiche-e-avvisi/avviso-8-settembre-2026-persone-con-disabilita-consultazione-pubblica-rivolta-alle-associazioni-rappresentative-iscritte-al-runts-registro-unico-nazionale-del-terzo-settore",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "400) Timeout fetching"
+        },
+        {
+          "url": "https://www.agid.gov.it/it/stampa-e-comunicazione?page=0&tipo_notizia=430",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "403) Forbidden"
+        },
+        {
+          "url": "https://www.agid.gov.it/en/press-and-communication-office?%3B=&%3Btipo_notizia=All&page=1",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "403) Forbidden"
+        },
+        {
+          "url": "https://areadocomerciante.dgae.gov.pt/noticias/comercio-transposta-diretiva-relativa-a-acessibilidade-de-produtos-e-servicos.aspx",
+          "final_url": "https://areadocomerciante.dgae.gov.pt/noticias/comercio-transposta-diretiva-relativa-a-acessibilidade-de-produtos-e-servicos.aspx",
+          "section": "Comércio: transposta diretiva relativa à acessibilidade de produtos e serviços",
+          "status": "bounded_read",
+          "reader_crawl": "last week"
+        },
+        {
+          "url": "https://mosaico.gov.pt/legislacao-e-regulamentos/decreto-lei-82-2022",
+          "final_url": "https://mosaico.gov.pt/legislacao-e-regulamentos/decreto-lei-82-2022",
+          "section": "Mosaico | Decreto-Lei n.º 82/2022",
+          "status": "bounded_read",
+          "reader_crawl": "last week"
+        },
+        {
+          "url": "https://via.tt.se/rss/releases/latest?publisherId=3236104",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "400) Unsupported content-type: text/xml"
+        },
+        {
+          "url": "https://www.ccpc.ie/?page=1",
+          "final_url": "https://www.ccpc.ie/?page=1",
+          "section": "Competition and Consumer Protection Commission",
+          "status": "bounded_read",
+          "reader_crawl": "4 days ago"
+        },
+        {
+          "url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/13/update-to-merger-notification-thresholds",
+          "final_url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/13/update-to-merger-notification-thresholds",
+          "section": "Update to merger notification thresholds | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/29/ccpc-welcomed-european-competition-authorities-and-leaders-to-dublin",
+          "final_url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/29/ccpc-welcomed-european-competition-authorities-and-leaders-to-dublin",
+          "section": "CCPC welcomed European competition authorities and leaders to Dublin | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/30/ccpc-welcomes-the-appointment-of-clara-thornton-as-member-of-the-commission",
+          "final_url": "https://www.ccpc.ie/news-and-media/news/article/2026/10/30/ccpc-welcomes-the-appointment-of-clara-thornton-as-member-of-the-commission",
+          "section": "CCPC welcomes the appointment of Clara Thornton as Member of the Commission | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.madeira.gov.pt/sra/Pesquisar?LiveSearch=ARAE",
+          "final_url": "https://www.madeira.gov.pt/sra/Pesquisar?LiveSearch=ARAE",
+          "section": "Pesquisar",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.madeira.gov.pt/arae/pesquisar/ctl/ReadInformcao/mid/2618/InformacaoId/255499/UnidadeOrganicaId/62/LiveSearch/atividades%20de%20encerramento_STFP",
+          "final_url": "https://www.madeira.gov.pt/arae/pesquisar/ctl/ReadInformcao/mid/2618/InformacaoId/255499/UnidadeOrganicaId/62/LiveSearch/atividades%20de%20encerramento_STFP",
+          "section": "Autoridade Regional das Atividades Económicas > pesquisar",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://portal.azores.gov.pt/web/irae/competencias-irae",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "403) Forbidden"
+        },
+        {
+          "url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+          "final_url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+          "section": "Nyheder og pressemeddelelser | Finanstilsynet",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://via.tt.se/pressrum/3236104/pts---post--och-telestyrelsen/r",
+          "final_url": "https://via.tt.se/pressrum/3236104/pts---post--och-telestyrelsen/r",
+          "section": "Pressmeddelanden | PTS - Post- och telestyrelsen",
+          "status": "bounded_read",
+          "reader_crawl": "1.1 years ago"
+        },
+        {
+          "url": "https://pts.se/nyheter-och-pressmeddelanden/beslut-om-avgifter-enligt-cybersakerhetslagen-for-2026/",
+          "final_url": "https://pts.se/nyheter-och-pressmeddelanden/beslut-om-avgifter-enligt-cybersakerhetslagen-for-2026/",
+          "section": "Beslut om avgifter enligt cybersäkerhetslagen för 2026 | PTS",
+          "status": "bounded_read",
+          "reader_crawl": "5 days ago"
+        },
+        {
+          "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+          "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+          "section": "European Accessibility Act guidelines for microenterprises | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+          "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+          "section": "CCPC role and responsibilities | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "5 days ago"
+        },
+        {
+          "url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+          "final_url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+          "section": "Krav om tilgængelighed for produkter og tjenester",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/generelt-om-kravene-tilgaengelighedsloven",
+          "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/generelt-om-kravene-tilgaengelighedsloven",
+          "section": "Generelt om kravene i tilgængelighedsloven",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+          "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+          "section": "CCPC role and responsibilities | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "5 days ago"
+        },
+        {
+          "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+          "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+          "section": "European Accessibility Act guidelines for microenterprises | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/generelt-om-kravene-tilgaengelighedsloven",
+          "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/generelt-om-kravene-tilgaengelighedsloven",
+          "section": "Generelt om kravene i tilgængelighedsloven",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.ccpc.ie/?page=1",
+          "final_url": "https://www.ccpc.ie/?page=1",
+          "section": "Competition and Consumer Protection Commission",
+          "status": "bounded_read",
+          "reader_crawl": "4 days ago"
+        },
+        {
+          "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+          "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/european-accessibility-act-guidelines-for-microenterprises",
+          "section": "European Accessibility Act guidelines for microenterprises | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+          "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-consumers/ccpc-role-and-responsibilities",
+          "section": "CCPC role and responsibilities | CCPC",
+          "status": "bounded_read",
+          "reader_crawl": "5 days ago"
+        },
+        {
+          "url": "https://www.ccpc.ie/?page=1",
+          "final_url": "https://www.ccpc.ie/?page=1",
+          "section": "Competition and Consumer Protection Commission",
+          "status": "bounded_read",
+          "reader_crawl": "4 days ago"
+        },
+        {
+          "url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+          "final_url": "https://www.finanstilsynet.dk/nyheder-og-presse/nyheder-og-pressemeddelelser",
+          "section": "Nyheder og pressemeddelelser | Finanstilsynet",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
+          "final_url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf#page=1",
+          "section": "",
+          "status": "bounded_read",
+          "reader_crawl": "2.9 years ago"
+        },
+        {
+          "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/print",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "403) Forbidden"
+        },
+        {
+          "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
+          "final_url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf#page=1",
+          "section": "",
+          "status": "bounded_read",
+          "reader_crawl": "2.9 years ago"
+        },
+        {
+          "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
+          "final_url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf#page=1",
+          "section": "",
+          "status": "bounded_read",
+          "reader_crawl": "2.9 years ago"
+        },
+        {
+          "url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf",
+          "final_url": "https://www.irishstatutebook.ie/eli/2023/si/636/made/en/pdf#page=1",
+          "section": "",
+          "status": "bounded_read",
+          "reader_crawl": "2.9 years ago"
+        },
+        {
+          "url": "https://www.mimit.gov.it/it/normativa/notifiche-e-avvisi",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "400) Timeout fetching"
+        },
+        {
+          "url": "https://www.mimit.gov.it/it/amministrazione-trasparente/disposizioni-generali/piao",
+          "final_url": "https://www.mimit.gov.it/it/amministrazione-trasparente/disposizioni-generali/piao",
+          "section": "PIAO - Piano Integrato di Attività e Organizzazione della Pubblica Amministrazione",
+          "status": "bounded_read",
+          "reader_crawl": "today"
+        },
+        {
+          "url": "https://www.ccpc.ie/news-and-media/news/article",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "400) Timeout fetching"
+        },
+        {
+          "url": "https://www.mimit.gov.it/it/normativa/notifiche-e-avvisi/avviso-8-settembre-2026-persone-con-disabilita-consultazione-pubblica-rivolta-alle-associazioni-rappresentative-iscritte-al-runts-registro-unico-nazionale-del-terzo-settore",
+          "final_url": null,
+          "status": "reader_error",
+          "reader_crawl": "not reported",
+          "error": "400) Timeout fetching"
+        }
+      ],
+      "coverage": {
+        "uncached_live_origin_verified": 0,
+        "reader_freshness": "Crawl timestamps vary from today to several years old. Historic signed/as-made document is not proof of current consolidation; XML not supported, and extension lacks originating browser context.",
+        "five_country_month_complete": false,
+        "completed_discovery_anchor_advanced": false
+      },
+      "pilot_review": {
+        "maintainer_sample_location": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
+        "agent_sample_rows_preserved": 5,
+        "maintainer_signoff": false,
+        "outcome": "not ready for promotion",
+        "candidate_accuracy": "Taxonomy, cybersecurity fees, competition-news articles, regional generic inspection and RUNTS consultation excluded; Irish PDF is a source-access recovery, not a change in law. Historical PTS duplicate, MTM supersession and #95 source corrections preserved.",
+        "open_pr_search": "no open PRs at time of check; no PR created",
+        "confirmed_merged": [
+          {
+            "number": 81,
+            "state": "closed",
+            "merged": true,
+            "merged_at": "2026-10-02T13:33:08Z",
+            "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/81"
+          },
+          {
+            "number": 85,
+            "state": "closed",
+            "merged": true,
+            "merged_at": "2026-10-16T09:59:39Z",
+            "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/85"
+          },
+          {
+            "number": 91,
+            "state": "closed",
+            "merged": true,
+            "merged_at": "2026-10-30T15:52:30Z",
+            "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/91"
+          },
+          {
+            "number": 95,
+            "state": "closed",
+            "merged": true,
+            "merged_at": "2026-11-02T12:30:13Z",
+            "url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/95"
+          }
+        ],
+        "record_blobs": "All five canonical main country blobs match the completed earlier review, including subsequent corrections in merged #95.",
+        "time_cost": "Elapsed wall time to end of official-source checks; no billing/token or separate per-country measurements. Do not add as independent weekly run."
+      },
+      "new_handoff_event": "ireland-si636-2023-official-readable-pdf",
+      "publication_blocker": "No local Python runtime to replay, generate routing index or perform mandatory validation; awaiting canonical research handoffs for Italy and Ireland. Operational state is not evidence of delivery.",
+      "draft_pr": null,
+      "notifications": "Start and outcome in originating chat only; no PR or cross-chat notice.",
+      "pilot_promoted": false,
+      "finished_at": "2026-11-03T10:04:57.393Z"
     }
   ]
 }
