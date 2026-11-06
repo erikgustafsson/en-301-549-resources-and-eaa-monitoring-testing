@@ -5012,7 +5012,10 @@
     "pending": 4,
     "attempted_this_run": 25
   },
-  "lease": null,
+  "lease": {
+    "owner": "weekly-2026-11-06T07:40:13.636Z",
+    "expires_at": "2026-11-06T08:25:13.636Z"
+  },
   "updated_at": "2026-11-05T08:44:51.609Z",
   "source_mapping": {
     "Denmark": {
