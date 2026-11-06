@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "routing-pr96-1793951531230-642h2zrc0ck",
-    "expires_at": "2026-11-06T08:22:11.230Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1623,6 +1620,44 @@
       "outcome": "merge_reconciled_sweden_resolved_portugal_handoffs_persisted_no_new_suggestion",
       "suggestion_ids": [],
       "note": "Current GitHub state already merged despite readiness payload. Read routing/shared policies, main ledger, current changed files, canonical Denmark/Sweden/Portugal records and all registered public pages plus standards; open PR search empty. Main record/page blobs match previously reviewed95 head. Swedish replacement completed on main; historical unavailable wording remains superseded. Denmark outgoing-email note is pending, not a response or remediation. Portugal research handoffs landed intact; banking and annual-report public proposals remain uncovered and already notified, with reviews still required. Metadata reference partially fixed, retired path unchanged. Reassessed pending work after merge; no new legal/source verification, research/public writes, PR creation, comments or upstream writes."
+    },
+    {
+      "delivery_id": "d74ae100-d9b6-11f1-900d-153aefca76fa",
+      "event": "pull_request.opened",
+      "pull_request": 96,
+      "head_sha": "6111a2f383c5746f820b6bb245cedc3ffc71f860",
+      "checked_on": "2026-11-06T07:52:49.830Z",
+      "actual_state": "open_draft",
+      "outcome": "covered_in_open_pr_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_key": "denmark|denmark-company-mailto-2026-11-06|published-label-equals-mailto:mo@erst.dk",
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EAA authorities and reporting by country.md|research_only",
+          "disposition": "research_only",
+          "covered_by": 96
+        },
+        {
+          "domain": "enforcement",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EAA enforcement tracking.md|not_applicable",
+          "disposition": "not_applicable",
+          "covered_by": 96
+        },
+        {
+          "domain": "sanctions",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EAA sanctions.md|not_applicable",
+          "disposition": "not_applicable",
+          "covered_by": 96
+        },
+        {
+          "domain": "adoption",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EN 301 549 adoption.md|not_applicable",
+          "disposition": "not_applicable",
+          "covered_by": 96
+        }
+      ],
+      "note": "Research change supplied by #96, not yet on main. Monitoring already lists both addresses. No evidence of mailbox delivery, forwarding, enforcement, sanctions or standards adoption. Historical unrelated metadata follow-up not re-notified."
     }
   ],
   "suggestions": [
@@ -4632,7 +4667,45 @@
       "outcome": "merge_reconciled_sweden_resolved_portugal_handoffs_persisted_no_new_suggestion",
       "suggestion_ids": [],
       "note": "Current GitHub state already merged despite readiness payload. Read routing/shared policies, main ledger, current changed files, canonical Denmark/Sweden/Portugal records and all registered public pages plus standards; open PR search empty. Main record/page blobs match previously reviewed95 head. Swedish replacement completed on main; historical unavailable wording remains superseded. Denmark outgoing-email note is pending, not a response or remediation. Portugal research handoffs landed intact; banking and annual-report public proposals remain uncovered and already notified, with reviews still required. Metadata reference partially fixed, retired path unchanged. Reassessed pending work after merge; no new legal/source verification, research/public writes, PR creation, comments or upstream writes."
+    },
+    {
+      "delivery_id": "d74ae100-d9b6-11f1-900d-153aefca76fa",
+      "event": "pull_request.opened",
+      "pull_request": 96,
+      "head_sha": "6111a2f383c5746f820b6bb245cedc3ffc71f860",
+      "checked_on": "2026-11-06T07:52:49.830Z",
+      "actual_state": "open_draft",
+      "outcome": "covered_in_open_pr_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_key": "denmark|denmark-company-mailto-2026-11-06|published-label-equals-mailto:mo@erst.dk",
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EAA authorities and reporting by country.md|research_only",
+          "disposition": "research_only",
+          "covered_by": 96
+        },
+        {
+          "domain": "enforcement",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EAA enforcement tracking.md|not_applicable",
+          "disposition": "not_applicable",
+          "covered_by": 96
+        },
+        {
+          "domain": "sanctions",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EAA sanctions.md|not_applicable",
+          "disposition": "not_applicable",
+          "covered_by": 96
+        },
+        {
+          "domain": "adoption",
+          "key": "denmark-company-mailto-2026-11-06|Denmark|EN 301 549 adoption.md|not_applicable",
+          "disposition": "not_applicable",
+          "covered_by": 96
+        }
+      ],
+      "note": "Research change supplied by #96, not yet on main. Monitoring already lists both addresses. No evidence of mailbox delivery, forwarding, enforcement, sanctions or standards adoption. Historical unrelated metadata follow-up not re-notified."
     }
   ],
-  "updated_at": "2026-11-02T12:32:17.295Z"
+  "updated_at": "2026-11-06T07:52:49.830Z"
 }
