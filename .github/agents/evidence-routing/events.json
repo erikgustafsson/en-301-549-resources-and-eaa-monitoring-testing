@@ -5055,6 +5055,45 @@
       ]
     },
     {
+      "id": "sweden-ku7-final-adoption-20261111",
+      "country": "Sweden",
+      "recorded_on": "2026-11-13",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "blocked_by_open_pr",
+          "reason": "Update pending constitutional milestone in research; public operational duties require separate review. Draft #96 occupies the one-country queue.",
+          "next_action": "After #96 is resolved, prepare Sweden research-only draft from this branch; assess implementing law before any public change."
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Constitutional legislative milestone, not an action against an operator.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No new fine or statutory maximum established.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No national EN standard adoption or edition change established.",
+          "next_action": "None for this evidence."
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-switzerland-2026-09-27",
       "destinations": [
         {
