@@ -275,6 +275,18 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-bf9a615b8f45268224081caa": {
+      "url": "https://kzp.bg/bg/potrebiteli/good-to-know/advices",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -648,7 +660,8 @@
         "Follow-up: Check KZP's logged-in general form for EAA intake and accepted languages without submitting; the existing entry remains qualified as a general route.",
         "Follow-up: Identify usable public, company-defect and exemption routes for other authorities before publishing them.",
         "Follow-up: Seek a government/monitoring-body instruction on a dedicated EAA public page; authority WAD statements are not evidence for that claim.",
-        "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains."
+        "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
+        "EU27 bounded discovery 2026-11-15: Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review. Evidence: source-bf9a615b8f45268224081caa. Next: Continue KZP sector-specific news and intake checks; do not infer company or exemption channels. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -841,6 +854,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-bulgaria",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-bf9a615b8f45268224081caa"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "needs_evidence",
+          "reason": "Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review.",
+          "next_action": "Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

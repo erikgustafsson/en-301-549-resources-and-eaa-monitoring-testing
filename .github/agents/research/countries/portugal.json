@@ -338,6 +338,18 @@
       "accessed_on": "2026-11-02",
       "access": "reachable",
       "method": "Official DOCX downloaded; paragraph/table text extracted and read. Visual review incomplete. 69b325c4617b695b5a75804c7f554ccbd25248e0c7bd7ecab6c64513fec26367"
+    },
+    "source-155841b42a489487992af6e8": {
+      "url": "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "IDiPD guidance updated 16 October 2026 is readable; existing responsibility corrections and earlier follow-ups must not be duplicated. IGAC reader HTTP 503 was followed by browser net::ERR_HTTP2_PROTOCOL_ERROR, not proof of a website outage.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Request a local-browser check for IGAC and retain agency-specific unresolved intake questions; no new national enforcement outcome established.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -656,7 +668,8 @@
         "Historical discovery lead: Unread discovery lead, 2026-10-30: https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Acessibilidade+no+Atendimento+Presencial.docx/8fe3e929-a89d-4984-96f2-7a01fefc58d0 — linked from the official IDiPD EAA hub, but destination not visited and contents/publication date not verified. Owner: future authorised researcher; read within the next bounded pass before drawing any claim. Recheck 2026-11-02: downloaded and paragraph/table text read. Document layout/images were not comprehensively reviewed; source fingerprint and narrow findings are recorded in .github/agents/research/intakes/pr95-recheck-2026-11-02.json.",
         "Historical discovery lead: Unread discovery lead, 2026-10-30: https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Garantir+a+Acessibilidade+em+Materiais+Impressos.docx/e6933797-94df-4038-b228-57cf2383c761 — linked from the official IDiPD EAA hub, but destination not visited and contents/publication date not verified. Owner: future authorised researcher; read within the next bounded pass before drawing any claim. Recheck 2026-11-02: downloaded and paragraph/table text read. Document layout/images were not comprehensively reviewed; source fingerprint and narrow findings are recorded in .github/agents/research/intakes/pr95-recheck-2026-11-02.json.",
         "Historical discovery lead: Unread discovery lead, 2026-10-30: https://idipd.mtsss.gov.pt/documents/11309/1139454/VF_Guia+Pr%C3%A1tico+-+Como+Realizar+Testes+de+Acessibilidade+em+Aplica%C3%A7%C3%B5es+M%C3%B3veis.docx/237cfc68-bad6-45a3-886b-a3ba84f08e04 — linked from the official IDiPD EAA hub, but destination not visited and contents/publication date not verified. Owner: future authorised researcher; read within the next bounded pass before drawing any claim. Recheck 2026-11-02: downloaded and paragraph/table text read. Document layout/images were not comprehensively reviewed; source fingerprint and narrow findings are recorded in .github/agents/research/intakes/pr95-recheck-2026-11-02.json.",
-        "Follow-up 2026-11-02: Correct the existing public Portugal banking remit in a separate country draft: remove investment/ancillary services from Banco de Portugal, add payment-account-associated services, retain CMVM investment/ancillary remit, and cite the consolidated law/2023 rectification. This is a pre-existing public error, not a new 2026 law. Owner: next authorised Portugal researcher; resolution requires exact-wording isolated Portuguese source-fidelity review and targeted checks. No Portugal public edit is included in PR #95."
+        "Follow-up 2026-11-02: Correct the existing public Portugal banking remit in a separate country draft: remove investment/ancillary services from Banco de Portugal, add payment-account-associated services, retain CMVM investment/ancillary remit, and cite the consolidated law/2023 rectification. This is a pre-existing public error, not a new 2026 law. Owner: next authorised Portugal researcher; resolution requires exact-wording isolated Portuguese source-fidelity review and targeted checks. No Portugal public edit is included in PR #95.",
+        "EU27 bounded discovery 2026-11-15: IDiPD guidance updated 16 October 2026 is readable; existing responsibility corrections and earlier follow-ups must not be duplicated. IGAC reader HTTP 503 was followed by browser net::ERR_HTTP2_PROTOCOL_ERROR, not proof of a website outage. Evidence: source-155841b42a489487992af6e8. Next: Request a local-browser check for IGAC and retain agency-specific unresolved intake questions; no new national enforcement outcome established. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -975,6 +988,55 @@
           "reason": "Explicit guidance references recorded; national adoption and legal effect remain unknown.",
           "next_action": "Verify exact applicability and edition before any public adoption proposal.",
           "pr": 95
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-portugal",
+      "country": "Portugal",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-155841b42a489487992af6e8"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Request a local-browser check for IGAC and retain agency-specific unresolved intake questions; no new national enforcement outcome established.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "already_present",
+          "reason": "IDiPD guidance updated 16 October 2026 is readable; existing responsibility corrections and earlier follow-ups must not be duplicated. IGAC reader HTTP 503 was followed by browser net::ERR_HTTP2_PROTOCOL_ERROR, not proof of a website outage.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

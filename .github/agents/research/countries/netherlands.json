@@ -270,6 +270,18 @@
       "accessed_on": "2026-09-30",
       "access": "reachable",
       "method": "web reader; relevant passage inspected"
+    },
+    "source-f044534c198dbf295859d0e5": {
+      "url": "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "ACM's 24 March 2026 report gives 61% unable-to-order and 33% serious-problem results for its checked sample and describes contacting poor performers. This source is already recorded; possible future enforcement is not an imposed fine.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. No duplicate alert; seek later dated outcomes before changing status.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -657,7 +669,8 @@
         "Follow-up: Netherlands / RDI, ILT, CvdM and 112 company non-compliance/exemptions — find current authority instructions and purpose-specific form/email/postal route; owner: researcher; resolved when official source identifies destination and audience.",
         "Follow-up: Netherlands / statement and service information modes — confirm national sector-specific terms/equivalent publication and authority-on-request provisions where not established by ACM/AFM guidance; owner: researcher; resolved with explicit law or regulator text.",
         "Follow-up: Netherlands / language and authentication — confirm whether non-Dutch reports are accepted at routes other than ACM (ACM confirmed English company reports on 3 December 2025); AFM requires an organisation portal account and ACM forms require JavaScript; owner: contributor or agency; resolved by official guidance or correspondence.",
-        "Follow-up: Netherlands / ACM official correspondence — statement-publication, full monitoring scope, monitoring status, warnings, information access, WCAG 2.2 and dark-mode questions sent on 11 December 2025 and reminded on 24 September 2026 remain unanswered. Owner: contributor; resolved on explicit ACM reply. Public ACM website currently independently supports a statement-page claim for its own supervised services."
+        "Follow-up: Netherlands / ACM official correspondence — statement-publication, full monitoring scope, monitoring status, warnings, information access, WCAG 2.2 and dark-mode questions sent on 11 December 2025 and reminded on 24 September 2026 remain unanswered. Owner: contributor; resolved on explicit ACM reply. Public ACM website currently independently supports a statement-page claim for its own supervised services.",
+        "EU27 bounded discovery 2026-11-15: ACM's 24 March 2026 report gives 61% unable-to-order and 33% serious-problem results for its checked sample and describes contacting poor performers. This source is already recorded; possible future enforcement is not an imposed fine. Evidence: source-f044534c198dbf295859d0e5. Next: No duplicate alert; seek later dated outcomes before changing status. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -964,6 +977,55 @@
           "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
           "next_action": "Seek dated follow-up outcomes in authority publications.",
           "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-netherlands",
+      "country": "Netherlands",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-f044534c198dbf295859d0e5"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "No duplicate alert; seek later dated outcomes before changing status.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "already_present",
+          "reason": "ACM's 24 March 2026 report gives 61% unable-to-order and 33% serious-problem results for its checked sample and describes contacting poor performers. This source is already recorded; possible future enforcement is not an imposed fine.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

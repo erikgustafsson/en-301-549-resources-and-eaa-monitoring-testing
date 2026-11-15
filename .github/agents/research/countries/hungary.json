@@ -204,6 +204,18 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-aa4f693d027b48e5ff5e8977": {
+      "url": "https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "MNB guidance describes provider-first financial consumer complaints, submission options and conditional supervisory powers. These are not evidence of fines actually imposed. NMHH's 20 March 2026 conference is outreach, not a case.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Preserve known financial route and distinguish powers from actions.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -505,7 +517,8 @@
         "Follow-up: Establish public reporting outside MNB and company-defect/exemption destinations before adding routes.",
         "Follow-up: Obtain an explicit MNB accepted-language statement before publishing a language claim.",
         "Follow-up: Seek explicit regulator guidance on a dedicated public page; preserve Unknown while public-documentation evidence remains separately recorded.",
-        "Before PR: Resolved through separate context-isolated Hungarian-to-English language verification on 2026-09-24. Corrected terms-and-conditions meaning, Office of NMHH label, dedicated e-book software, payment-terminal scope and MNB attachments. Final wording rechecked as Supported. Prior blanket Hungarian-reading-reviewer requirements are superseded, not marked as human-completed; ordinary maintainer review remains."
+        "Before PR: Resolved through separate context-isolated Hungarian-to-English language verification on 2026-09-24. Corrected terms-and-conditions meaning, Office of NMHH label, dedicated e-book software, payment-terminal scope and MNB attachments. Final wording rechecked as Supported. Prior blanket Hungarian-reading-reviewer requirements are superseded, not marked as human-completed; ordinary maintainer review remains.",
+        "EU27 bounded discovery 2026-11-15: MNB guidance describes provider-first financial consumer complaints, submission options and conditional supervisory powers. These are not evidence of fines actually imposed. NMHH's 20 March 2026 conference is outreach, not a case. Evidence: source-aa4f693d027b48e5ff5e8977. Next: Preserve known financial route and distinguish powers from actions. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -684,6 +697,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-hungary",
+      "country": "Hungary",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-aa4f693d027b48e5ff5e8977"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve known financial route and distinguish powers from actions.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "already_present",
+          "reason": "MNB guidance describes provider-first financial consumer complaints, submission options and conditional supervisory powers. These are not evidence of fines actually imposed. NMHH's 20 March 2026 conference is outreach, not a case.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

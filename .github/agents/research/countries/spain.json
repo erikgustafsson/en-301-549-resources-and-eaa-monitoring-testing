@@ -197,6 +197,30 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-a4b30f08d167a11b54b135ef": {
+      "url": "https://www.dsca.gob.es/en/derechos-sociales/discapacidad/unidad-tecnica-apoyo-coordinacion-autoridades-vigilancia-materia",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-436392888abeda6aa09d4c56": {
+      "url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -486,7 +510,8 @@
         "Follow-up: Confirm which regional authority and route receives formal Art. 13(7) company non-compliance and Art. 16(7) exemption notifications, distinguishing UTAC's general email contact and microenterprise exception.",
         "Follow-up: Verify designated 112 answering-centre oversight and reporting; the Annex I response requirement does not name a route.",
         "Follow-up: UTAC's 25 September 2026 response defers substantive answers until potentially 2027. Revisit the dedicated statement, monitoring start, warnings, access to information about monitored companies, WCAG 2.2, dark mode and reporting-deadline questions; no conclusions about Spanish practices follow from the deferral.",
-        "Reminder: 12 January 2027 (Europe/Stockholm) — review this record for a later substantive UTAC answer and remind the contributor to follow up with utac@dsca.gob.es if questions remain unanswered. Date selected for follow-up planning, not promised by UTAC. Owner: contributor/researcher. Do not send correspondence automatically; resolved when a dated answer is supplied and recorded, or the contributor reschedules/closes the follow-up."
+        "Reminder: 12 January 2027 (Europe/Stockholm) — review this record for a later substantive UTAC answer and remind the contributor to follow up with utac@dsca.gob.es if questions remain unanswered. Date selected for follow-up planning, not promised by UTAC. Owner: contributor/researcher. Do not send correspondence automatically; resolved when a dated answer is supplied and recorded, or the contributor reschedules/closes the follow-up.",
+        "EU27 bounded discovery 2026-11-15: UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested. Evidence: source-a4b30f08d167a11b54b135ef, source-436392888abeda6aa09d4c56. Next: Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -521,6 +546,17 @@
       "source_refs": [
         "source-ebeeaea8cd53409a23345e84",
         "source-55bdb961677a2c12f09b8b43"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-11-15",
+          "source_refs": [
+            "source-a4b30f08d167a11b54b135ef",
+            "source-436392888abeda6aa09d4c56"
+          ],
+          "note": "EU27 bounded discovery 2026-11-15: UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested. Evidence: source-a4b30f08d167a11b54b135ef, source-436392888abeda6aa09d4c56. Next: Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up. Coverage remains partial; no existing claim/verification date changed.",
+          "status": "research_only"
+        }
       ]
     },
     "enforcement": {
@@ -533,7 +569,8 @@
       "verified_on": null,
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
-        "All Monitoring agencies research, 25 September 2026: Read UTAC role page. Coordination/fallback powers do not establish an actual inspection or sanction. Autonomous-community sources were not exhaustively reviewed; no national absence conclusion."
+        "All Monitoring agencies research, 25 September 2026: Read UTAC role page. Coordination/fallback powers do not establish an actual inspection or sanction. Autonomous-community sources were not exhaustively reviewed; no national absence conclusion.",
+        "EU27 bounded discovery 2026-11-15: UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested. Evidence: source-a4b30f08d167a11b54b135ef, source-436392888abeda6aa09d4c56. Next: Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up. Coverage remains partial; no existing claim/verification date changed."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -554,6 +591,12 @@
           "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
           "owner": "Future authorised enforcement researcher",
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+          "owner": "Authorised country researcher",
+          "resolved_when": "Exact official evidence and source-fidelity review resolve the recorded limitations; no inference of imposed sanctions, completed remediation or national absence."
         }
       ]
     },
@@ -673,6 +716,56 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-spain",
+      "country": "Spain",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-a4b30f08d167a11b54b135ef",
+        "source-436392888abeda6aa09d4c56"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "research_only",
+          "reason": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
+          "next_action": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "research_only",
+          "reason": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
+          "next_action": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

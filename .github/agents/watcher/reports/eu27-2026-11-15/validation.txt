@@ -1,0 +1,19 @@
+INHERITED schema errors preserved: .github/agents/research/countries/sweden.json [("['domains', 'monitoring', 'claims', 41, 'id']", "'monitoring-ptsfs-2026-6-product-languages' does not match '^monitoring-[a-f0-9]{24}$'"), ("['domains', 'monitoring', 'claims', 41, 'source_refs', 0]", "'source-ptsfs-2026-6' does not match '^source-[a-f0-9]{24}$'"), ("['domains', 'monitoring', 'claims', 42, 'id']", "'monitoring-pts-forms-browser-check-20261009' does not match '^monitoring-[a-f0-9]{24}$'"), ("['domains', 'monitoring', 'claims', 42, 'source_refs', 0]", "'source-pts-public-form-20261009' does not match '^source-[a-f0-9]{24}$'"), ("['domains', 'monitoring', 'claims', 42, 'source_refs', 1]", "'source-pts-company-form-20261009' does not match '^source-[a-f0-9]{24}$'"), ("['evidence']", "'source-pts-company-form-20261009' does not match '^source-[a-f0-9]{24}$'"), ("['evidence']", "'source-pts-public-form-20261009' does not match '^source-[a-f0-9]{24}$'"), ("['evidence']", "'source-ptsfs-2026-6' does not match '^source-[a-f0-9]{24}$'")]
+PASS: 26 modified country envelopes introduce no new schema errors; 27 new evidence fingerprints; 26 four-page deliveries; generated routing projection.
+PASS: existing evidence objects, all domain claims, public row fingerprints and verification dates preserved. No public page, Actions, helper or protected script changed.
+Existing mismatched source fingerprints in touched records (unchanged): 10
+.github/agents/research/countries/italy.json source-3e7e8e58c3f9cf1b5ba72311
+.github/agents/research/countries/italy.json source-8b42d4f53f785e5644085bde
+.github/agents/research/countries/sweden.json source-d2adb1f030370254f2a91893
+.github/agents/research/countries/sweden.json source-0b81089d5bfdefba0b9e7a62
+.github/agents/research/countries/sweden.json source-7a0aee08071d4adb14125b7c
+.github/agents/research/countries/sweden.json source-664b65cc6f3ae74045d632cc
+.github/agents/research/countries/sweden.json source-e5a1086df248e577f40c725d
+.github/agents/research/countries/sweden.json source-ptsfs-2026-6
+.github/agents/research/countries/sweden.json source-pts-public-form-20261009
+.github/agents/research/countries/sweden.json source-pts-company-form-20261009
+PASS: 27 structured observations, helper output reproducible, same-run replay idempotent; first observations produce no change alerts.
+Full check-country-records.py: FAIL, inherited Evidence fingerprint mismatch (also observed before edits).
+test-country-records.py: 12 tests, 10 pass, 2 fail at inherited Evidence fingerprint mismatch; not waived.
+watcher/test_state.py: 9 tests PASS.
+No language/publication/source-fidelity review approval claimed; this is a research-only branch.

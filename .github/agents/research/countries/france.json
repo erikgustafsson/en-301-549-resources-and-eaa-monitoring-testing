@@ -333,6 +333,18 @@
       "accessed_on": "2026-09-30",
       "access": "reachable",
       "method": "web reader; relevant passage inspected"
+    },
+    "source-a112834ddf46423027ecaad7": {
+      "url": "https://www.arcom.fr/nous-connaitre/nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Arcom's mission page supports its e-book accessibility remit, not a specific company filing channel. Existing DGCCRF correspondence remains scoped to what it actually answered.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -679,7 +691,8 @@
         "Follow-up: PARTLY RESOLVED 2026-09-25 — DGCCRF answered the company-platform and language questions: French platform; companies outside France may use it and attach English reports. The contributor's later questions on dedicated website statements, monitoring start, warnings, information about companies under monitoring, WCAG 2.2, dark-mode testing and reporting deadlines are unanswered. Do not treat the outgoing questions or Swedish comparisons as evidence of French practice.",
         "Correspondence update 2026-09-25: the formerly unanswered DGCCRF enquiry received an official reply, recorded above. The earlier 2026-01-21 AccessibleEU-related message remains secondary provenance; it is not reclassified.",
         "Follow-up: Post-login form fields, successful submission, precise foreign-user authentication and languages for fields/attachments other than reports remain untested. Public landing page reached 2026-09-25 but reader displayed an unsupported-browser warning. Official correspondence supports foreign-company use and English report attachments; do not require form submission as verification.",
-        "RGAA 5 handoff: announcement source-fcb452c7d5c3bee2d4dbe6d4 lists Arcom and a declaration service. Historical source source-90ac64cea063ac23c4664690 already describes Arcom powers in 2023. Verify consolidated remit and whether the submission service has launched; do not describe powers as first arising with RGAA 5."
+        "RGAA 5 handoff: announcement source-fcb452c7d5c3bee2d4dbe6d4 lists Arcom and a declaration service. Historical source source-90ac64cea063ac23c4664690 already describes Arcom powers in 2023. Verify consolidated remit and whether the submission service has launched; do not describe powers as first arising with RGAA 5.",
+        "EU27 bounded discovery 2026-11-15: Arcom's mission page supports its e-book accessibility remit, not a specific company filing channel. Existing DGCCRF correspondence remains scoped to what it actually answered. Evidence: source-a112834ddf46423027ecaad7. Next: Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -1326,6 +1339,55 @@
           "reason": "RGAA 5 planning and authority context retained in canonical domains.",
           "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
           "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-france",
+      "country": "France",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-a112834ddf46423027ecaad7"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "needs_evidence",
+          "reason": "Arcom's mission page supports its e-book accessibility remit, not a specific company filing channel. Existing DGCCRF correspondence remains scoped to what it actually answered.",
+          "next_action": "Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

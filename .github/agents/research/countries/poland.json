@@ -320,6 +320,18 @@
         "reviewed_on": "2026-10-30",
         "scope_limit": "Attributed to the 26 October reply. No national case counts, issued sanctions, mandatory dark mode, WCAG 2.2 methodology, universal company filing destination or present-day status beyond the reply inferred."
       }
+    },
+    "source-60b76c8926d0e093f6782e7c": {
+      "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/dochodzenie-roszczen/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "UKE explains the PFRON public-report route and onward handling. It corroborates the existing record and October correspondence. UTK's browser attempt was explicitly security-blocked, so no bypass was attempted.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Preserve PFRON scope; company routes and UTK evidence require separate verification.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -664,7 +676,8 @@
         "Follow-up: Poland / customs offices — confirm whether individual border-inspection authorities should be listed separately or the statutory customs-authority class suffices; owner: researcher; resolved by an official EAA roster.",
         "Follow-up: Poland / unanswered PFRON questions — user asked PFRON on 2026-09-24 whether a public company-site accessibility statement is required, monitoring has begun, warnings have been issued, company-monitoring information can be requested, WCAG 2.2/dark mode are tested and time constraints apply; no response appears in the supplied thread. Owner: researcher or PFRON; resolved by dated official reply on each point.",
         "Resolution 2026-10-30: the dedicated-page and unanswered-question follow-ups above describe the historical September position. The 26 October reply answers the general separate-statement question, monitoring commencement, conditional dark-mode assessment, information-access limitations and reporting timing. Issued measures and WCAG 2.2 methodology remain unconfirmed. Canonical intake: intakes/poland-official-reply-2026-10-26.json. Sector-specific filing routes and exemption channels remain unresolved.",
-        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits."
+        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits.",
+        "EU27 bounded discovery 2026-11-15: UKE explains the PFRON public-report route and onward handling. It corroborates the existing record and October correspondence. UTK's browser attempt was explicitly security-blocked, so no bypass was attempted. Evidence: source-60b76c8926d0e093f6782e7c. Next: Preserve PFRON scope; company routes and UTK evidence require separate verification. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -931,6 +944,55 @@
       "recorded_on": "2026-10-30",
       "reason": "The PFRON reply of 26 October 2026 supports the qualified monitoring and enforcement content delivered by merged PR #93; no new sanctions or standards-adoption claim is established.",
       "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
+    },
+    {
+      "id": "eu27-discovery-20261115-poland",
+      "country": "Poland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-60b76c8926d0e093f6782e7c"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve PFRON scope; company routes and UTK evidence require separate verification.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "already_present",
+          "reason": "UKE explains the PFRON public-report route and onward handling. It corroborates the existing record and October correspondence. UTK's browser attempt was explicitly security-blocked, so no bypass was attempted.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
     }
   ]
 }

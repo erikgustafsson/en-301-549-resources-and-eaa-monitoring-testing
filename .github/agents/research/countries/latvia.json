@@ -217,6 +217,18 @@
       "evidence": "Financial-services accessibility supervision transfers from PTAC to Latvijas Banka on 1 January 2027. PTAC completes cases begun and unfinished by 31 December 2026 under the rules applicable when each case began.",
       "section": "Amending act adopted 17 September 2026, promulgated 1 October 2026; section 22 amendment and transitional provision 6.",
       "source_type": "legislation"
+    },
+    "source-bab6222cb04c5e9e6b120937": {
+      "url": "https://www.ptac.gov.lv/lv/pieklustamibas-prasibas",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "PTAC guidance updated 27 September 2026 describes its remit, assessment tools and written exemption notification. The banking transition is already recorded. No dedicated mailbox or new enforcement case is established by these general duties.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Retain scoped duties and existing transition evidence; independently verify any specific channel.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -536,7 +548,8 @@
         "Follow-up: Verify whether official English translations now exist; May correspondence is historical.",
         "Follow-up: Monitoring methods and JACOP2027 are dated correspondence, not independently updated September findings.",
         "Follow-up: Shared ten-minute research/verification budget reached; remaining channel, translation and complete112 checks not completed. Preparation proceeds with narrowed claims.",
-        "2026-10-06 source comparison: Add a dated banking-authority transition note; retain PTAC as current authority and do not invent future reporting channels."
+        "2026-10-06 source comparison: Add a dated banking-authority transition note; retain PTAC as current authority and do not invent future reporting channels.",
+        "EU27 bounded discovery 2026-11-15: PTAC guidance updated 27 September 2026 describes its remit, assessment tools and written exemption notification. The banking transition is already recorded. No dedicated mailbox or new enforcement case is established by these general duties. Evidence: source-bab6222cb04c5e9e6b120937. Next: Retain scoped duties and existing transition evidence; independently verify any specific channel. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -771,6 +784,55 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-latvia",
+      "country": "Latvia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-bab6222cb04c5e9e6b120937"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Retain scoped duties and existing transition evidence; independently verify any specific channel.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "already_present",
+          "reason": "PTAC guidance updated 27 September 2026 describes its remit, assessment tools and written exemption notification. The banking transition is already recorded. No dedicated mailbox or new enforcement case is established by these general duties.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

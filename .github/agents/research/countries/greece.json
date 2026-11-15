@@ -86,6 +86,18 @@
       "evidence": "Nina Gerling identifies Law 5218/2025 as an amendment of Law 4994/2022; this amendment is not explicitly recorded in the reviewed country research.",
       "section": "Greece law row; linked Kodiko consolidation is secondary.",
       "source_type": "other_unverified"
+    },
+    "source-14c468af5471648e5b1df77e": {
+      "url": "https://www.eett.gr/en/submit-a-complaint/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "The EETT complaints hub was readable, but its generic consumer and operator categories do not establish an EAA company nonconformity or exemption channel. WAD and DSA hits were excluded.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Continue exact EAA purpose/audience verification; news coverage remains partial.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -239,7 +251,8 @@
         "Baseline: Germany PR #24 verified merged directly into main at 2599885348db509337ae775ab438be3fead6817d. No open PR, Greece record or pending Greece branch existed at start.",
         "Budget: bounded research and verification run on 2026-09-24; no forms submitted, accounts created or messages sent.",
         "Follow-up: Await or request an EETT response on company reporting tools, email submission and English-language acceptance; do not infer an accepted route from the unanswered correspondence.",
-        "2026-10-06 source comparison: Read the official amendment and reconcile service-authority allocations before changing public wording."
+        "2026-10-06 source comparison: Read the official amendment and reconcile service-authority allocations before changing public wording.",
+        "EU27 bounded discovery 2026-11-15: The EETT complaints hub was readable, but its generic consumer and operator categories do not establish an EAA company nonconformity or exemption channel. WAD and DSA hits were excluded. Evidence: source-14c468af5471648e5b1df77e. Next: Continue exact EAA purpose/audience verification; news coverage remains partial. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -472,6 +485,55 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-greece",
+      "country": "Greece",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-14c468af5471648e5b1df77e"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Continue exact EAA purpose/audience verification; news coverage remains partial.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "needs_evidence",
+          "reason": "The EETT complaints hub was readable, but its generic consumer and operator categories do not establish an EAA company nonconformity or exemption channel. WAD and DSA hits were excluded.",
+          "next_action": "Continue exact EAA purpose/audience verification; news coverage remains partial.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

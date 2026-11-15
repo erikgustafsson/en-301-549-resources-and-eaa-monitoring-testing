@@ -278,6 +278,18 @@
       "source_type": "monitoring_body",
       "section": "Embedded Airline Accessibility Query & Complaint Form",
       "evidence": "Fresh browser check for requested publication: enabling Performance Cookies displayed the embedded form with Full Name, Email Address, Phone Number, nature of request and Next controls. No login required to view. No personal data entered or form submitted; later steps not tested. Outer official page expressly invites EAA airline concerns. Form body English; Microsoft interface controls localized to Swedish in this browser."
+    },
+    "source-ac3a3523da5cd15c6bdb1043": {
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "The CCPC business notification page exposes fields for nonconformity/exemption notifications and distinguishes ordinary queries. The route is already recorded. No form was submitted and no acceptance languages were inferred.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. No duplicate route PR; keep consumer complaints and business notifications separate.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -715,7 +727,8 @@
         "Follow-up: official statute remained inaccessible after two rerun attempts. Obtain a readable official copy on a later run; regulator evidence remains separately recorded.",
         "Follow-up: sector statement practice narrowed: ComReg explicitly requires website statements under existing measures, IAA recommends statement documents. No country-wide dedicated-page requirement established; preserve Unknown.",
         "Rerun24 September2026: banking consumer and phone/broadband public routes resolved. Remaining items above were retried and remain unresolved; do not describe all checks as complete.",
-        "IAA route visible on 6 October 2026 after performance-cookie consent; submission and later steps untested. Company reporting remains unknown."
+        "IAA route visible on 6 October 2026 after performance-cookie consent; submission and later steps untested. Company reporting remains unknown.",
+        "EU27 bounded discovery 2026-11-15: The CCPC business notification page exposes fields for nonconformity/exemption notifications and distinguishes ordinary queries. The route is already recorded. No form was submitted and no acceptance languages were inferred. Evidence: source-ac3a3523da5cd15c6bdb1043. Next: No duplicate route PR; keep consumer complaints and business notifications separate. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -1209,6 +1222,55 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-ireland",
+      "country": "Ireland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-ac3a3523da5cd15c6bdb1043"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "No duplicate route PR; keep consumer complaints and business notifications separate.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "already_present",
+          "reason": "The CCPC business notification page exposes fields for nonconformity/exemption notifications and distinguishes ordinary queries. The route is already recorded. No form was submitted and no acceptance languages were inferred.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

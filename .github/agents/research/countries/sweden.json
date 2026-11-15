@@ -1869,6 +1869,18 @@
       "accessed_on": "2026-11-02",
       "section": "Company introduction and first Område step",
       "evidence": "User supplied the already-published company URL on 2 November 2026. Reader and ordinary Chrome show the company service for section 24 accessibility-deficiency notifications and section 8 exemption claims concerning audiovisual-access services. Starta e-tjänst opens the first reporting step with both purpose choices and no sign-in gate. No fields changed, no personal data entered and no report submitted; later-step login conditions and accepted submission languages were not established. Existing company public link and wording retained."
+    },
+    "source-9ce643a27d8cc874d4693651": {
+      "url": "https://www.pts.se/om-oss/fran-pts-till-digitaliseringsmyndigheten--praktisk-information/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -2461,7 +2473,8 @@
         "digg-public-sector-intake-2026-09-30: preserve WAD/DOS and EAA/LPTT as separate legal regimes before and after the announced merger. Confirm final instructions, authority remits and contact routes before any 2027 public-page update. Announcement is not proof the transition has occurred.",
         "2026-10-06 source comparison: Check current consolidated ordinance before proposing supplementary legal citation; no authority gap identified.",
         "Follow-up 2026-10-30: Earlier same-day notes about the Mediemyndigheten consumer introduction are historical, not current availability. Before republishing a usable consumer route, inspect the exact existing URL once in the separate authorised post-draft pass or obtain an official replacement; verify audiovisual-access scope, audience and purpose. Temporary outage versus withdrawal remains unknown. Company form evidence is separate and unchanged; owner: researcher. Resolved by observing the relevant consumer intake, not a generic contact page. Resolution of the scheduled check, 2026-11-02: completed once; notice persists, so retain the narrow unavailable wording in PR #95. The separate question of restoration or replacement remains open for a future authorised pass; no additional before-merge route check is queued. Later resolution 2026-11-02: the user supplied a different official form; its scope, public-reporting purpose and live fields were verified and exact replacement wording independently reviewed. Use https://mediemyndigheten.se/digital-inkludering---tillganglighet/Har-anmaler-du-brister-i-tillganglighet-for-audiovisuella-medietjanster/; old-URL recovery and replacement launch date remain unknown. The one-time check is not repeated.",
-        "2026-11-02 user-supplied reporting links: the new public form is verified and proposed in PR #95; the separate company route was already present and was rechecked through its first step. Accepted submission languages and end-to-end delivery remain unknown for both. No additional one-time post-draft check is queued."
+        "2026-11-02 user-supplied reporting links: the new public form is verified and proposed in PR #95; the separate company route was already present and was rechecked through its first step. Accepted submission languages and end-to-end delivery remain unknown for both. No additional one-time post-draft check is queued.",
+        "EU27 bounded discovery 2026-11-15: PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals. Evidence: source-9ce643a27d8cc874d4693651. Next: Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -2538,7 +2551,8 @@
         "Evidence event se-pts-supervision-2025-report: source read on 2026-09-25. Section 6.1 supports a dated enforcement baseline. Monitoring remit and reporting-service existence already present; no statutory sanctions update established. Section 6.2.9 concerns LEK and is not used as EAA evidence.",
         "deque-webinar-2026-09-17, slide 6: re-read PTS banking announcement on 2026-09-30; existing claim se-pts-banking-launch remains supported. Later checks of websites/apps are possible, not a completed finding. The unnamed other EU country is an unverified webinar lead; identity and primary evidence required. No public change.",
         "digg-public-sector-intake-2026-09-30 — WAD/DOS PUBLIC-SECTOR RESEARCH ONLY: attachment datasets source-393a7feb5049810afd54b7dc, source-d287e1119c7335f820d13e08, source-a1bc1798ea036d2fec7868ed retain 66 website score rows for 2020–2025, nine separately described 2025 apps, and 85 workbook listings (57 website, 28 app) for 2022–2026. These source sets overlap; do not add them together or infer unique organisations, compliance, closed cases or fines. No EAA enforcement claim or public-entry mapping added.",
-        "digg-public-sector-intake-2026-09-30 — LEGAL SEPARATION: source source-d9a1bad9407080f71ffe8c92; classify by WAD/DOS versus EAA/LPTT and covered service, separately from public/private ownership. Historical authority remains Digg for supplied data; planned successor does not retroactively relabel it. Source source-b9b6d5a4053cd44db14fb005 defines score limitations. Workbook publication URL/cutoff and source-to-source identity joins remain unverified."
+        "digg-public-sector-intake-2026-09-30 — LEGAL SEPARATION: source source-d9a1bad9407080f71ffe8c92; classify by WAD/DOS versus EAA/LPTT and covered service, separately from public/private ownership. Historical authority remains Digg for supplied data; planned successor does not retroactively relabel it. Source source-b9b6d5a4053cd44db14fb005 defines score limitations. Workbook publication URL/cutoff and source-to-source identity joins remain unverified.",
+        "EU27 bounded discovery 2026-11-15: PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals. Evidence: source-9ce643a27d8cc874d4693651. Next: Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes. Coverage remains partial; no existing claim/verification date changed."
       ],
       "public_entry_ids": [
         "sweden-1"
@@ -2996,6 +3010,12 @@
           "question": "digg-public-sector-intake-2026-09-30: before later presentation, verify workbook provenance/cutoff, reconcile subject aliases between sources and obtain case-level outcomes where needed; keep WAD results separate from EAA totals.",
           "owner": "Research maintainer",
           "resolved_when": "Source-specific provenance, dated outcomes and deliberate joins documented without double-counting."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+          "owner": "Authorised country researcher",
+          "resolved_when": "Exact official evidence and source-fidelity review resolve the recorded limitations; no inference of imposed sanctions, completed remediation or national absence."
         }
       ]
     },
@@ -3532,21 +3552,21 @@
       "id": "sweden-mediemyndigheten-new-public-form-20261102",
       "country": "Sweden",
       "recorded_on": "2026-11-02",
-      "status": "proposed",
+      "status": "already_present",
       "source_refs": [
         "source-98124269cb7277bfce98d1f5",
         "source-8ecd6d13688288c079e80101"
       ],
       "reason": "User supplied a current public reporting destination and the already-present company route. Both checked on 2 November 2026; old public unavailability wording is superseded.",
-      "next_action": "Review the replacement public link in PR #95. Company link already present; no duplicate.",
+      "next_action": "PR95 is merged and the replacement public link is on current main; no duplicate public-form PR. Preserve language and end-to-end delivery limitations.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "domain": "monitoring",
-          "disposition": "proposed",
+          "disposition": "already_present",
           "reason": "Replace the old unavailable public URL with the verified public reporting form; the existing company route is already present and rechecked.",
-          "next_action": "Review the new Public reports link in existing PR #95; preserve company link and scope.",
+          "next_action": "PR95 is merged and the replacement public link is on current main; no duplicate public-form PR. Preserve language and end-to-end delivery limitations.",
           "pr": 95
         },
         {
@@ -3574,6 +3594,55 @@
           "disposition": "not_applicable",
           "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
           "next_action": "No public change for this destination.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-sweden",
+      "country": "Sweden",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-9ce643a27d8cc874d4693651"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals.",
+          "next_action": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals.",
+          "next_action": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
           "pr": null
         }
       ]

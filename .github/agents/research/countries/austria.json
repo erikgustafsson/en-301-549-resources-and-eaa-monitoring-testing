@@ -183,6 +183,18 @@
       "evidence": "Nina Gerling additionally lists TKG 2021 as partial EAA implementation; it is absent from the reviewed country record.",
       "section": "Austria law row; https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011678",
       "source_type": "other_unverified"
+    },
+    "source-1ca2947be62cc8345041a17e": {
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Official company nonconformity guidance corroborates notification and corrective-measure information. It does not establish an exemption-filing route.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Preserve existing correspondence and reporting distinctions; exemption route remains a separate check.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -484,7 +496,8 @@
         "Follow-up: Establish current 112 emergency-answering accessibility supervisory authority and reporting route; do not infer them from operational emergency-service information.",
         "Follow-up: Revisit unavailable RIS pages for current consolidated law, full exceptions/transitions and any regulator-specific page-versus-terms/on-request practice.",
         "Follow-up: Inspect public form login and full input requirements without submission; extraction confirms purpose, not end-to-end operation.",
-        "2026-10-06 source comparison: Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link."
+        "2026-10-06 source comparison: Verify relevant TKG provisions and 112 scope; avoid adding an unqualified law link.",
+        "EU27 bounded discovery 2026-11-15: Official company nonconformity guidance corroborates notification and corrective-measure information. It does not establish an exemption-filing route. Evidence: source-1ca2947be62cc8345041a17e. Next: Preserve existing correspondence and reporting distinctions; exemption route remains a separate check. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -839,6 +852,55 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-austria",
+      "country": "Austria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-1ca2947be62cc8345041a17e"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve existing correspondence and reporting distinctions; exemption route remains a separate check.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "already_present",
+          "reason": "Official company nonconformity guidance corroborates notification and corrective-measure information. It does not establish an exemption-filing route.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

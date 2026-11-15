@@ -161,6 +161,18 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-d1092db3a931ab86c9a6229b": {
+      "url": "https://ctu.gov.cz/pristupnost-sluzeb",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Verify precise filing destinations independently; no reporting-language inference.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -404,7 +416,8 @@
         "Follow-up: Establish the competent authority and usable reporting route for accessibility of the response to 112 emergency calls.",
         "Run scope: baseline main includes merged Cyprus PR #20. Only Czechia research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
         "Research cutoff: official-source research and verification stopped within the ten-minute country budget; unsupported routes remain Unknown.",
-        "Follow-up: Email contact awaiting reply. Erik reported on 2026-09-24 that no response has been received to email contact for Czechia. The email date, recipient and original message were not supplied."
+        "Follow-up: Email contact awaiting reply. Erik reported on 2026-09-24 that no response has been received to email contact for Czechia. The email date, recipient and original message were not supplied.",
+        "EU27 bounded discovery 2026-11-15: CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published. Evidence: source-d1092db3a931ab86c9a6229b. Next: Verify precise filing destinations independently; no reporting-language inference. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -691,6 +704,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-czechia",
+      "country": "Czechia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-d1092db3a931ab86c9a6229b"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Verify precise filing destinations independently; no reporting-language inference.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "already_present",
+          "reason": "CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

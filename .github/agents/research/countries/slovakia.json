@@ -211,6 +211,18 @@
       "source_type": "monitoring_body",
       "section": "Formulár na podávanie podnetov týkajúcich sa multimodálneho prístupu",
       "evidence": "Official replacement page gives multimodal-access complaint instructions for subtitles, Slovak sign language and audio description; refers to Media Services Act section150. Page reachable. End-to-end form operation not tested."
+    },
+    "source-f308ad8622adcfda4869c1d5": {
+      "url": "https://rpms.sk/formular-na-podavanie-podnetov-tykajucich-sa-multimodalneho-pristupu",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "The current multimodal-access complaints page is readable and concerns media accessibility, including captions, signing and audio description. It is not a generic EAA company-reporting route. An older differently spelled URL failed; the current destination is already recorded.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Avoid duplicate link correction and preserve exact media-law scope; SOI news coverage remains partial.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -503,7 +515,8 @@
         "Follow-up: Official telecom pages indexed e-podatelna@teleoff.gov.sk for general inspection requests and correspondence, but direct page access still yielded certificate-chain 502; maintainer may verify page/link availability and ask whether the inbox accepts EAA-specific company non-compliance and exemption filings.",
         "Follow-up: SOI general public-inspection-tip form has visible goods/service fields and is included as such; EAA-specific purpose and successful submission remain unverified.",
         "Follow-up: Identify the competent authority and usable route for 112 answering/handling accessibility; do not extend telecom remit automatically.",
-        "Follow-up: Confirm the Council's multimodal-access form covers accessibility of access-to-AVMS services beyond broadcast subtitles/signing/audio-description; current publication stays within the displayed form purpose."
+        "Follow-up: Confirm the Council's multimodal-access form covers accessibility of access-to-AVMS services beyond broadcast subtitles/signing/audio-description; current publication stays within the displayed form purpose.",
+        "EU27 bounded discovery 2026-11-15: The current multimodal-access complaints page is readable and concerns media accessibility, including captions, signing and audio description. It is not a generic EAA company-reporting route. An older differently spelled URL failed; the current destination is already recorded. Evidence: source-f308ad8622adcfda4869c1d5. Next: Avoid duplicate link correction and preserve exact media-law scope; SOI news coverage remains partial. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -732,6 +745,55 @@
           "disposition": "not_applicable",
           "reason": "Link repair does not establish new sanctions or enforcement facts.",
           "next_action": "None.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-slovakia",
+      "country": "Slovakia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-f308ad8622adcfda4869c1d5"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Avoid duplicate link correction and preserve exact media-law scope; SOI news coverage remains partial.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "already_present",
+          "reason": "The current multimodal-access complaints page is readable and concerns media accessibility, including captions, signing and audio description. It is not a generic EAA company-reporting route. An older differently spelled URL failed; the current destination is already recorded.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
           "pr": null
         }
       ]

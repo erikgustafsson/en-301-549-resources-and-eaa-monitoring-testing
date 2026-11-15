@@ -185,6 +185,18 @@
         "reviewed_on": "2026-10-06",
         "scope_limit": "Consumer banking and e-commerce remit. Historical activity only where stated; no dedicated webpage, recording format, sanctions, outcomes or present-day activity inferred."
       }
+    },
+    "source-48ca3cb0c561b7185ad1c47d": {
+      "url": "https://economie.fgov.be/sites/default/files/Files/Entreprises/Guidelines-accessibilite-services-bancaires.pdf",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -590,7 +602,8 @@
         "Follow-up: Check live form operation/login and reporting deadline; correspondence settles purpose and English email, not technical availability or an unstated deadline. Public-statement question remains unanswered.",
         "2026-10-06 source comparison: Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
         "2026-10-06 update: September 28 and October 6 replies resolve mandatory public availability in terms/equivalent; earlier unanswered-question notes are historical. Dedicated webpage and exact oral delivery method remain unestablished. Product-authority conflict remains unrelated and unresolved.",
-        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits."
+        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits.",
+        "EU27 bounded discovery 2026-11-15: Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation. Evidence: source-48ca3cb0c561b7185ad1c47d. Next: Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -646,7 +659,8 @@
         "All Monitoring agencies research, 25 September 2026: Read 2 July 2025 FOD announcement. Its general statement that Economic Inspection checks e-commerce and banking does not identify a completed or specifically announced inspection campaign. No public entry added from powers/guidance alone.",
         "Cross-page intake 2026-09-25: The monitoring record contains Inter's contextual observations on early enforcement and unavailable statistics. This is not competent monitoring-body verification; retain as a secondary lead, not a finding that enforcement exists or does not exist. Canonical source/provenance: ../../research/belgium.json. This repository-only handoff is not a new country source-verification pass.",
         "2026-10-06 intake: direct Economic Inspection correspondence replaces reliance on the Inter lead for the narrow historical finding below. Previously recorded unknowns remain historical; no counts, issued warnings, fines or outcomes established. Source date differs from observation date.",
-        "On 5 January 2026 Economic Inspection said it could not provide further details about the number of ongoing investigations or complaints received. This is not evidence of zero cases. Source source-371984850c405a313e6925c6."
+        "On 5 January 2026 Economic Inspection said it could not provide further details about the number of ongoing investigations or complaints received. This is not evidence of zero cases. Source source-371984850c405a313e6925c6.",
+        "EU27 bounded discovery 2026-11-15: Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation. Evidence: source-48ca3cb0c561b7185ad1c47d. Next: Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page. Coverage remains partial; no existing claim/verification date changed."
       ],
       "public_entry_ids": [
         "belgium-official-reply-20261030"
@@ -710,6 +724,12 @@
           "question": "The monitoring record contains Inter's contextual observations on early enforcement and unavailable statistics. This is not competent monitoring-body verification; retain as a secondary lead, not a finding that enforcement exists or does not exist.",
           "owner": "Enforcement researcher",
           "resolved_when": "Canonical evidence is inspected and a supported, dated public-entry proposal or reasoned research-only disposition is recorded."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+          "owner": "Authorised country researcher",
+          "resolved_when": "Exact official evidence and source-fidelity review resolve the recorded limitations; no inference of imposed sanctions, completed remediation or national absence."
         }
       ]
     },
@@ -959,6 +979,55 @@
           "reason": "Testing overlap does not establish a national EN edition adoption or requirement.",
           "next_action": "Retain current public entry; preserve January reply as research context.",
           "pr": 93
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-belgium",
+      "country": "Belgium",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-48ca3cb0c561b7185ad1c47d"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "research_only",
+          "reason": "Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation.",
+          "next_action": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "research_only",
+          "reason": "Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation.",
+          "next_action": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

@@ -91,6 +91,18 @@
       "label": "Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)",
       "source_type": "⚖️ Official law",
       "review_note": "⚖️ Official law: Accessibility Measures (European Accessibility Act) Regulations (S.L. 627.03)."
+    },
+    "source-91f2ea389159149f916b0572": {
+      "url": "https://www.crpd.org.mt/investigations/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": null,
+      "access_result": "unreachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -232,7 +244,8 @@
         "Follow-up: Malta / Public complaints — ask CRPD or find explicit current CRPD guidance identifying the EAA complaint/report form, email or postal route, including whether the general investigations page accepts EAA product and service matters; owner: research agent or contributor; resolved when official instructions name a usable route and audience.",
         "Follow-up: Malta / Company non-compliance and exemptions — identify separate or shared CRPD destinations, accepted languages, authentication/signature requirements and any deadlines; owner: research agent or contributor; resolved when official guidance or correspondence confirms each purpose.",
         "Follow-up: Malta / Demands statement — seek CRPD or government guidance stating whether the Annex V information must be a dedicated public page comparable to a WAD statement, or whether general terms and conditions/equivalent documents suffice; owner: research agent or contributor; resolved by an explicit official statement.",
-        "Follow-up: Malta / 112 reporting — recheck CRPD guidance before regulation 4(8) takes effect on 28 June 2027 and identify a complaint/company route for answering emergency communications to 112; owner: research agent; resolved by official instructions."
+        "Follow-up: Malta / 112 reporting — recheck CRPD guidance before regulation 4(8) takes effect on 28 June 2027 and identify a complaint/company route for answering emergency communications to 112; owner: research agent; resolved by official instructions.",
+        "EU27 bounded discovery 2026-11-15: Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt. Evidence: source-91f2ea389159149f916b0572. Next: Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -311,5 +324,55 @@
       ]
     }
   },
-  "deliveries": []
+  "deliveries": [
+    {
+      "id": "eu27-discovery-20261115-malta",
+      "country": "Malta",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-91f2ea389159149f916b0572"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "needs_evidence",
+          "reason": "Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt.",
+          "next_action": "Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    }
+  ]
 }

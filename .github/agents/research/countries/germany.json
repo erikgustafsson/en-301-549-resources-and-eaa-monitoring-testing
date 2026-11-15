@@ -207,6 +207,18 @@
       "evidence": "The competent Landesmedienanstalt supervises audiovisual-access services under MStV; section 99d permits affected consumers to request measures and section 109(6) requires compliance and complaint procedures.",
       "section": "Sections 99a–99e and 109(6), PDF pages 89–91 and 101; authority-hosted consolidated text.",
       "source_type": "legislation"
+    },
+    "source-e1bdcda3d3e03ce19eb43395": {
+      "url": "https://www.mlbf-barrierefrei.de/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "MLBF publishes reporting/application information and its strategy. The strategy dated 29 January 2026 is already recorded; no new case outcome was established.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Avoid duplicate strategy alert; check dated decisions separately.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -473,7 +485,8 @@
         "Baseline: France PR #23 verified merged directly into main at 85a430fea9698ceadc8f47dd1359b2af2d65d4ce. No open PR, Germany record or pending Germany branch existed at start.",
         "Budget: bounded research and verification run on 2026-09-24; no forms submitted, accounts created or messages sent.",
         "27 September 2026 strategy intake: official MLBF product/service strategies added to shared evidence pool; see enforcement knowledge_notes. Existing authority and reporting routes remain supported; no new route or authority designation established. Retain strategy as research context, with public activity detail routed to enforcement tracking.",
-        "2026-10-06 source comparison: Replace audiovisual-access authority Unknown with competent state media authority and add MStV legal basis. Specific reporting forms and the separate TKG/112 allocation still need verification."
+        "2026-10-06 source comparison: Replace audiovisual-access authority Unknown with competent state media authority and add MStV legal basis. Specific reporting forms and the separate TKG/112 allocation still need verification.",
+        "EU27 bounded discovery 2026-11-15: MLBF publishes reporting/application information and its strategy. The strategy dated 29 January 2026 is already recorded; no new case outcome was established. Evidence: source-e1bdcda3d3e03ce19eb43395. Next: Avoid duplicate strategy alert; check dated decisions separately. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -1063,6 +1076,55 @@
           "reason": "No new fine, imposed sanction, enforcement action or EN 301 549 adoption established by this comparison.",
           "next_action": "Retain existing public entry; follow up only within separately scoped research.",
           "pr": 83
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-germany",
+      "country": "Germany",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-e1bdcda3d3e03ce19eb43395"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Avoid duplicate strategy alert; check dated decisions separately.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "already_present",
+          "reason": "MLBF publishes reporting/application information and its strategy. The strategy dated 29 January 2026 is already recorded; no new case outcome was established.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

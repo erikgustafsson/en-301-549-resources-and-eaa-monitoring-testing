@@ -93,6 +93,18 @@
         "reviewed_on": "2026-10-30",
         "scope_limit": "Documentary review of the supplied English email, not independent sender authentication. General EAA issue reporting is confirmed; purpose-specific statutory non-compliance and exemption filing procedures, sector routing, deadlines and required contents are not established by this correspondence. Training is outreach, not evidence of inspections, proceedings or sanctions."
       }
+    },
+    "source-4fe6bbea139fa89767d1d2e6": {
+      "url": "https://e-consultation.gov.cy/diavouleuseis/νομοσχεδιο-με-τιτλο-νομοσ-που-τροπο-4",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -289,7 +301,8 @@
         "Update 2026-10-30: the historical awaiting-reply and no-route notes above are superseded in part by the supplied May and October replies. The general email route and English acceptance are now documented; purpose-specific formal complaint, non-compliance and exemption procedures remain unconfirmed.",
         "Follow-up: confirm whether the general mailbox accepts statutory non-compliance and exemption notifications, and any required contents, sector routing or exceptions to email acceptance.",
         "Publication review: isolated source-fidelity review was not performed in this session; local public wording is prepared for review, not published. See the intake for exact wording and review limitations.",
-        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits."
+        "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits.",
+        "EU27 bounded discovery 2026-11-15: Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked. Evidence: source-4fe6bbea139fa89767d1d2e6. Next: Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -317,6 +330,16 @@
       "language_check": "language-check.json",
       "source_refs": [
         "source-db876118b212dcf671cb0295"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-11-15",
+          "source_refs": [
+            "source-4fe6bbea139fa89767d1d2e6"
+          ],
+          "note": "EU27 bounded discovery 2026-11-15: Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked. Evidence: source-4fe6bbea139fa89767d1d2e6. Next: Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence. Coverage remains partial; no existing claim/verification date changed.",
+          "status": "research_only"
+        }
       ]
     },
     "enforcement": {
@@ -330,7 +353,8 @@
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
         "All Monitoring agencies research, 25 September 2026: Read Law 57(I)/2024 context through CyLaw. Powers and cost recovery do not establish actual inspections. No reportable activity identified in this limited search; no comprehensive regulator-register check.",
-        "Correspondence intake 2026-10-30: source-facf110034d8db72c44214ae (.github/agents/research/intakes/cyprus-official-reply-2026-10-16.json) records completed training and information briefings reported on 16 October 2026 for the EAA products field. Preserve as implementation/outreach research only. It does not establish inspections, investigations, warnings, sanctions, event dates/counts or absence of enforcement. Earlier bounded public-source search dates and conclusions remain historical."
+        "Correspondence intake 2026-10-30: source-facf110034d8db72c44214ae (.github/agents/research/intakes/cyprus-official-reply-2026-10-16.json) records completed training and information briefings reported on 16 October 2026 for the EAA products field. Preserve as implementation/outreach research only. It does not establish inspections, investigations, warnings, sanctions, event dates/counts or absence of enforcement. Earlier bounded public-source search dates and conclusions remain historical.",
+        "EU27 bounded discovery 2026-11-15: Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked. Evidence: source-4fe6bbea139fa89767d1d2e6. Next: Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence. Coverage remains partial; no existing claim/verification date changed."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -351,6 +375,12 @@
           "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
           "owner": "Future authorised enforcement researcher",
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+          "owner": "Authorised country researcher",
+          "resolved_when": "Exact official evidence and source-fidelity review resolve the recorded limitations; no inference of imposed sanctions, completed remediation or national absence."
         }
       ]
     }
@@ -399,6 +429,55 @@
           "reason": "No national standard adoption, edition or reference supplied.",
           "next_action": "No adoption domain or public change; historical routing key retained.",
           "pr": 93
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-cyprus",
+      "country": "Cyprus",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-4fe6bbea139fa89767d1d2e6"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "disposition": "research_only",
+          "reason": "Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked.",
+          "next_action": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "disposition": "research_only",
+          "reason": "Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked.",
+          "next_action": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

@@ -107,6 +107,18 @@
       "accessed_on": "2026-09-27",
       "access": "reachable",
       "method": "web reader"
+    },
+    "source-80b3857a65df6df9beef4a3e": {
+      "url": "https://www.ttja.ee/ariklient/ettevotlus/ligipaasetavus/teenuste-digiligipaasetavus",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Guidance updated 13 May 2026 addresses accessible service information and the entire digital customer journey, including rented platforms. Shared information can refer to individual services; no universal dedicated-page rule is inferred.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Keep service-information distinctions; no new enforcement case established.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -329,7 +341,8 @@
         "Follow-up: Ask TTJA whether the requirement to provide the accessibility information document in an oral accessible format requires a published audio or video recording, or whether oral provision on request is sufficient. Record TTJA’s answer and the accepted delivery formats.",
         "Follow-up: PARTLY RESOLVED by TTJA's second reply on 25 September 2026 — active monitoring sectors, provider contacts and corrective-action plans, general nondisclosure of ongoing procedures, reported testing standards, dark-mode position and user reporting deadline answered. A mandatory separate website statement page, formal warning/fine status, process for requesting supervisory information, and company statutory reporting deadlines are not established by this reply. See the dated correspondence claims; do not transfer the users' deadline answer to companies.",
         "Enforcement-project follow-up: The second 25 September 2026 TTJA reply supports a dated Estonia monitoring entry: e-commerce, audiovisual-access and financial services; provider contacts and corrective-action plans. Coordinate with the open enforcement-tracking audit before editing that separate page. Do not label these contacts formal warnings, fines or completed remediation without further evidence.",
-        "Follow-up: Confirm company non-compliance notification deadlines separately. TTJA's answer is explicitly about users reporting after discovering an issue and cannot resolve economic-operator duties."
+        "Follow-up: Confirm company non-compliance notification deadlines separately. TTJA's answer is explicitly about users reporting after discovering an issue and cannot resolve economic-operator duties.",
+        "EU27 bounded discovery 2026-11-15: Guidance updated 13 May 2026 addresses accessible service information and the entire digital customer journey, including rented platforms. Shared information can refer to individual services; no universal dedicated-page rule is inferred. Evidence: source-80b3857a65df6df9beef4a3e. Next: Keep service-information distinctions; no new enforcement case established. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -608,6 +621,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-estonia",
+      "country": "Estonia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-80b3857a65df6df9beef4a3e"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Keep service-information distinctions; no new enforcement case established.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "already_present",
+          "reason": "Guidance updated 13 May 2026 addresses accessible service information and the entire digital customer journey, including rented platforms. Shared information can refer to individual services; no universal dedicated-page rule is inferred.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     }

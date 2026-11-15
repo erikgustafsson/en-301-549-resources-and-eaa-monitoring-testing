@@ -202,6 +202,18 @@
       "evidence": "For listed consumer digital services including e-books, Traficom describes additional statement content: service description, information about products required to use the service, and how service-specific requirements are addressed.",
       "section": "Additional obligations related to the accessibility statement",
       "source_type": "monitoring_body"
+    },
+    "source-ee0806e790a3f253fe437551": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/tee-saavutettavuuskantelu-tai-pyyda-selvitysta",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Preserve existing routes; separately verify new EAA-period case outcomes.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -429,7 +441,8 @@
         "Follow-up: Finland / law and information modes — retrieve full consolidated texts; check sector implementing instruments, authority-on-request provisions and any permitted terms/public-on-request alternatives. Current extraction incomplete.",
         "Before PR: Resolved by wording correction and isolated recheck: 112 (answering and accessibility); Exemptions (invoking derogation grounds). No unresolved new assertion retained. Subsequent user instruction standardizes the final label as Exemptions:; explanation retained only in research.",
         "Before merge: None identified beyond ordinary maintainer evidence/diff review.",
-        "2026-10-06 source comparison: Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing."
+        "2026-10-06 source comparison: Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
+        "EU27 bounded discovery 2026-11-15: Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement. Evidence: source-ee0806e790a3f253fe437551. Next: Preserve existing routes; separately verify new EAA-period case outcomes. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -904,6 +917,55 @@
           "disposition": "not_applicable",
           "reason": "No new evidence in this domain from the e-book metadata research.",
           "next_action": "See .github/agents/research/intakes/ebook-metadata-2026-10-20.json for e-book page delivery and future-page handoff.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-finland",
+      "country": "Finland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-ee0806e790a3f253fe437551"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve existing routes; separately verify new EAA-period case outcomes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "already_present",
+          "reason": "Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
           "pr": null
         }
       ]

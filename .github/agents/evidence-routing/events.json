@@ -342,6 +342,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-austria",
+      "country": "Austria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-1ca2947be62cc8345041a17e"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve existing correspondence and reporting distinctions; exemption route remains a separate check.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "already_present",
+          "reason": "Official company nonconformity guidance corroborates notification and corrective-measure information. It does not establish an exemption-filing route.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-6-2026-09-27-031",
       "country": "Azerbaijan",
       "destinations": [
@@ -597,6 +646,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-belgium",
+      "country": "Belgium",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-48ca3cb0c561b7185ad1c47d"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "research_only",
+          "reason": "Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation.",
+          "next_action": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "research_only",
+          "reason": "Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation.",
+          "next_action": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-9-2026-09-27-535",
       "country": "Bonaire, Sint Eustatius and Saba",
       "destinations": [
@@ -845,6 +943,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-bulgaria",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-bf9a615b8f45268224081caa"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "needs_evidence",
+          "reason": "Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review.",
+          "next_action": "Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -1225,6 +1372,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-croatia",
+      "country": "Croatia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-a3866f9399dd42ac3d7b9656"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Retain as guidance context; any case claim needs a separate decision or monitoring source.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "research_only",
+          "reason": "HAKOM's 10 March 2026 leaflet announcement concerns user rights, complaints and accessibility. It is outreach, not evidence of a new EAA enforcement case or imposed fine.",
+          "next_action": "Retain as guidance context; any case claim needs a separate decision or monitoring source.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-9-2026-09-27-531",
       "country": "Curaçao",
       "destinations": [
@@ -1313,6 +1509,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-cyprus",
+      "country": "Cyprus",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-4fe6bbea139fa89767d1d2e6"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "disposition": "research_only",
+          "reason": "Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked.",
+          "next_action": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "disposition": "research_only",
+          "reason": "Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked.",
+          "next_action": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/cyprus.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-8-2026-09-27-203",
       "country": "Czechia",
       "destinations": [
@@ -1351,6 +1596,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-czechia",
+      "country": "Czechia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-d1092db3a931ab86c9a6229b"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Verify precise filing destinations independently; no reporting-language inference.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "already_present",
+          "reason": "CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -1552,6 +1846,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-estonia",
+      "country": "Estonia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-80b3857a65df6df9beef4a3e"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Keep service-information distinctions; no new enforcement case established.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "already_present",
+          "reason": "Guidance updated 13 May 2026 addresses accessible service information and the entire digital customer journey, including rented platforms. Shared information can refer to individual services; no universal dedicated-page rule is inferred.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/estonia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "fi-consumer-service-complaints-june-2026",
       "country": "Finland",
       "recorded_on": "2026-09-25",
@@ -1723,6 +2066,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-finland",
+      "country": "Finland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-ee0806e790a3f253fe437551"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve existing routes; separately verify new EAA-period case outcomes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "already_present",
+          "reason": "Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "france-dgccrf-20260925",
       "country": "France",
       "recorded_on": "2026-09-25",
@@ -1877,6 +2269,55 @@
           "reason": "RGAA 5 planning and authority context retained in canonical domains.",
           "next_action": "Recheck final RGAA 5, transitional text and declaration-service launch; preserve law/standard distinctions.",
           "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-france",
+      "country": "France",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-a112834ddf46423027ecaad7"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "needs_evidence",
+          "reason": "Arcom's mission page supports its e-book accessibility remit, not a specific company filing channel. Existing DGCCRF correspondence remains scoped to what it actually answered.",
+          "next_action": "Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -2080,6 +2521,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-germany",
+      "country": "Germany",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-e1bdcda3d3e03ce19eb43395"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Avoid duplicate strategy alert; check dated decisions separately.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "already_present",
+          "reason": "MLBF publishes reporting/application information and its strategy. The strategy dated 29 January 2026 is already recorded; no new case outcome was established.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/germany.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-5-2026-09-27-ghana",
       "country": "Ghana",
       "destinations": [
@@ -2210,6 +2700,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-greece",
+      "country": "Greece",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-14c468af5471648e5b1df77e"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Continue exact EAA purpose/audience verification; news coverage remains partial.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "needs_evidence",
+          "reason": "The EETT complaints hub was readable, but its generic consumer and operator categories do not establish an EAA company nonconformity or exemption channel. WAD and DSA hits were excluded.",
+          "next_action": "Continue exact EAA purpose/audience verification; news coverage remains partial.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/greece.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-9-2026-09-27-312",
       "country": "Guadeloupe",
       "destinations": [
@@ -2332,6 +2871,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-hungary",
+      "country": "Hungary",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-aa4f693d027b48e5ff5e8977"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve known financial route and distinguish powers from actions.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "already_present",
+          "reason": "MNB guidance describes provider-first financial consumer complaints, submission options and conditional supervisory powers. These are not evidence of fines actually imposed. NMHH's 20 March 2026 conference is outreach, not a case.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/hungary.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -2713,6 +3301,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-ireland",
+      "country": "Ireland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-ac3a3523da5cd15c6bdb1043"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "No duplicate route PR; keep consumer complaints and business notifications separate.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "already_present",
+          "reason": "The CCPC business notification page exposes fields for nonconformity/exemption notifications and distinguishes ordinary queries. The route is already recorded. No form was submitted and no acceptance languages were inferred.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/ireland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "seed-discovery-3-2026-09-25",
       "country": "Italy",
       "recorded_on": "2026-09-25",
@@ -2797,6 +3434,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-italy",
+      "country": "Italy",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-48130d4eee37c84df1420882"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "already_present",
+          "reason": "A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding.",
+          "next_action": "Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -3225,6 +3911,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-latvia",
+      "country": "Latvia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-bab6222cb04c5e9e6b120937"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Retain scoped duties and existing transition evidence; independently verify any specific channel.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "already_present",
+          "reason": "PTAC guidance updated 27 September 2026 describes its remit, assessment tools and written exemption notification. The banking transition is already recorded. No dedicated mailbox or new enforcement case is established by these general duties.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/latvia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-8-2026-09-27-438",
       "country": "Liechtenstein",
       "destinations": [
@@ -3263,6 +3998,55 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-lithuania",
+      "country": "Lithuania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-32ea9a105f20a8f67f905472"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "needs_evidence",
+          "reason": "VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain.",
+          "next_action": "Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -3392,6 +4176,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-luxembourg",
+      "country": "Luxembourg",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-2b746db7ad4182bb3efc52dc"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction.",
+          "next_action": "Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction.",
+          "next_action": "Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-2-2026-09-27-malaysia",
       "country": "Malaysia",
       "destinations": [
@@ -3430,6 +4263,55 @@
           "reason": "No supported change to this EAA destination established by scoped foreign-country discovery.",
           "next_action": "Retain evidence and questions for further national and legal research.",
           "pr": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/71"
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-malta",
+      "country": "Malta",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-91f2ea389159149f916b0572"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "needs_evidence",
+          "reason": "Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt.",
+          "next_action": "Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -3640,6 +4522,55 @@
           "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
           "next_action": "Seek dated follow-up outcomes in authority publications.",
           "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-netherlands",
+      "country": "Netherlands",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-f044534c198dbf295859d0e5"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "No duplicate alert; seek later dated outcomes before changing status.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "already_present",
+          "reason": "ACM's 24 March 2026 report gives 61% unable-to-order and 33% serious-problem results for its checked sample and describes contacting poor performers. This source is already recorded; possible future enforcement is not an imposed fine.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -3942,6 +4873,55 @@
       "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
     },
     {
+      "id": "eu27-discovery-20261115-poland",
+      "country": "Poland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-60b76c8926d0e093f6782e7c"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Preserve PFRON scope; company routes and UTK evidence require separate verification.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "already_present",
+          "reason": "UKE explains the PFRON public-report route and onward handling. It corroborates the existing record and October correspondence. UTK's browser attempt was explicitly security-blocked, so no bypass was attempted.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "portugal-idipd-annual-report-2025-discovered-20261030",
       "country": "Portugal",
       "recorded_on": "2026-10-30",
@@ -4095,6 +5075,55 @@
           "reason": "Explicit guidance references recorded; national adoption and legal effect remain unknown.",
           "next_action": "Verify exact applicability and edition before any public adoption proposal.",
           "pr": 95
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-portugal",
+      "country": "Portugal",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-155841b42a489487992af6e8"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Request a local-browser check for IGAC and retain agency-specific unresolved intake questions; no new national enforcement outcome established.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "already_present",
+          "reason": "IDiPD guidance updated 16 October 2026 is readable; existing responsibility corrections and earlier follow-ups must not be duplicated. IGAC reader HTTP 503 was followed by browser net::ERR_HTTP2_PROTOCOL_ERROR, not proof of a website outage.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/portugal.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -4257,6 +5286,55 @@
           "disposition": "not_applicable",
           "reason": "No public change follows from this focused correction.",
           "next_action": "None for this correction.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-romania",
+      "country": "Romania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-d2fa3a39fc6a361c6b8bcf8c"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "needs_evidence",
+          "reason": "A targeted ANCOM search surfaced a potentially relevant prevention-law page, but the actual reader returned HTTP 502. The statute and several authority pages also failed. Snippets were not promoted to verified claims.",
+          "next_action": "Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
           "pr": null
         }
       ]
@@ -4425,6 +5503,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-slovakia",
+      "country": "Slovakia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-f308ad8622adcfda4869c1d5"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Avoid duplicate link correction and preserve exact media-law scope; SOI news coverage remains partial.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "already_present",
+          "reason": "The current multimodal-access complaints page is readable and concerns media accessibility, including captions, signing and audio description. It is not a generic EAA company-reporting route. An older differently spelled URL failed; the current destination is already recorded.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/slovakia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "si-akos-rtv-accessibility-inspection-2026",
       "country": "Slovenia",
       "recorded_on": "2026-09-25",
@@ -4504,6 +5631,55 @@
       ]
     },
     {
+      "id": "eu27-discovery-20261115-slovenia",
+      "country": "Slovenia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-5d674bd0ef099b6cc063465e"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "No duplicate legal-change alert; exact channels and later actions remain separate checks.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "already_present",
+          "reason": "The 3 March 2026 government announcement describes the amendment adopted on 11 February 2026. The current record already cites the corresponding gazette evidence; this is corroboration, not a newly discovered adoption.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/slovenia.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-8-2026-09-27-724",
       "country": "Spain",
       "destinations": [
@@ -4542,6 +5718,56 @@
           "reason": "Existing domain preserved; this discovery establishes no new public change.",
           "next_action": "Continue scoped evidence and legal research.",
           "pr": 71
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-spain",
+      "country": "Spain",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-a4b30f08d167a11b54b135ef",
+        "source-436392888abeda6aa09d4c56"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "research_only",
+          "reason": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
+          "next_action": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "research_only",
+          "reason": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
+          "next_action": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
         }
       ]
     },
@@ -5008,21 +6234,21 @@
       "id": "sweden-mediemyndigheten-new-public-form-20261102",
       "country": "Sweden",
       "recorded_on": "2026-11-02",
-      "status": "proposed",
+      "status": "already_present",
       "source_refs": [
         "source-98124269cb7277bfce98d1f5",
         "source-8ecd6d13688288c079e80101"
       ],
       "reason": "User supplied a current public reporting destination and the already-present company route. Both checked on 2 November 2026; old public unavailability wording is superseded.",
-      "next_action": "Review the replacement public link in PR #95. Company link already present; no duplicate.",
+      "next_action": "PR95 is merged and the replacement public link is on current main; no duplicate public-form PR. Preserve language and end-to-end delivery limitations.",
       "destinations": [
         {
           "page": "EAA authorities and reporting by country.md",
           "record": ".github/agents/research/countries/sweden.json",
           "domain": "monitoring",
-          "disposition": "proposed",
+          "disposition": "already_present",
           "reason": "Replace the old unavailable public URL with the verified public reporting form; the existing company route is already present and rechecked.",
-          "next_action": "Review the new Public reports link in existing PR #95; preserve company link and scope.",
+          "next_action": "PR95 is merged and the replacement public link is on current main; no duplicate public-form PR. Preserve language and end-to-end delivery limitations.",
           "pr": 95
         },
         {
@@ -5050,6 +6276,55 @@
           "disposition": "not_applicable",
           "reason": "Reporting-route evidence does not establish an enforcement action, penalty or standards-adoption change.",
           "next_action": "No public change for this destination.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-discovery-20261115-sweden",
+      "country": "Sweden",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-9ce643a27d8cc874d4693651"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals.",
+          "next_action": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals.",
+          "next_action": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
           "pr": null
         }
       ]

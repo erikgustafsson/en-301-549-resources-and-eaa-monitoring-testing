@@ -161,6 +161,18 @@
       "label": "VVTAT: accessibility guidance",
       "source_type": "🏛️ Official government / regulator",
       "review_note": "🏛️ Official government / regulator: VVTAT: accessibility guidance — source for follow-up; penalty schedule not established."
+    },
+    "source-32ea9a105f20a8f67f905472": {
+      "url": "https://vvtat.lrv.lt/lt/naujienos-ir-pranesimai-ziniasklaidai-377/vvtat-primena-apie-prieinamumo-reikalavimu-isigaliojima/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Bounded EU27 discovery, 2026-11-15",
+      "passage": "VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain.",
+      "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
+      "method": "web reader",
+      "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
     }
   },
   "domains": {
@@ -447,7 +459,8 @@
         "Research task: Identify current 112 oversight and reporting from enacted law/designation, not the emergency operator or amendment proposals.",
         "Follow-up: Retrieve the current consolidated Act XIV-1633 (official index lists 2026-06-30–2027-06-27); check amendments, transitions, exemption conditions and authority-on-request duties outside RRT. Direct text access failed on retry.",
         "Follow-up: Run full rendered HTML validation when tidy is available; package download attempt could not locate tidy/libtidy5deb1. Full JSON Schema validation passed on this rerun.",
-        "Rerun 24 September 2026: targeted checks completed within the new ten-minute research budget; remaining unknowns are scoped above. No authority contacted and no form submitted."
+        "Rerun 24 September 2026: targeted checks completed within the new ten-minute research budget; remaining unknowns are scoped above. No authority contacted and no form submitted.",
+        "EU27 bounded discovery 2026-11-15: VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain. Evidence: source-32ea9a105f20a8f67f905472. Next: Continue authority-specific intake and news checks; irrelevant search results do not complete coverage. Coverage remains partial; no existing claim/verification date changed."
       ]
     },
     "sanctions": {
@@ -519,5 +532,55 @@
       ]
     }
   },
-  "deliveries": []
+  "deliveries": [
+    {
+      "id": "eu27-discovery-20261115-lithuania",
+      "country": "Lithuania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-32ea9a105f20a8f67f905472"
+      ],
+      "reason": "Bounded official-source discovery and comparison with current main; first observation is not proof of a newly changed claim.",
+      "next_action": "Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "needs_evidence",
+          "reason": "VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain.",
+          "next_action": "Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
+          "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    }
+  ]
 }
