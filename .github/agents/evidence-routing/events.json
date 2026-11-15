@@ -744,6 +744,56 @@
       ]
     },
     {
+      "id": "be-oral-format-reply-20261103",
+      "country": "Belgium",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-5f82df8f4ebd8e318663fe44",
+        "source-b41498134120b47eac33e16c"
+      ],
+      "reason": "Svar från Belgien angående oral format — research intake 15 November 2026. Quoted authority reply: the service provider must make both written and oral formats available. In the authority's interpretation of Article 13(2), mere compatibility with assistive technology is insufficient. Top-level authority reply: an option to read the information aloud is sufficient. The provider may supply it through an app or video/audio recording; the method matters less than provision by the provider. The customer cannot be required to buy the app. The reply does not require a recording specifically or approve a named product/API implementation. Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority. Evidence: source-5f82df8f4ebd8e318663fe44, source-b41498134120b47eac33e16c. This supplements the September/6 October replies already delivered through PR #93; their public mappings and verification dates are unchanged.",
+      "next_action": "Candidate for the Belgium service-information cell in EAA authorities and reporting by country.md: attribute to Economic Inspection (consumer banking/e-commerce) that assistive-technology compatibility alone is insufficient, while a provider-supplied read-aloud option can satisfy its oral-format interpretation without requiring the customer to purchase an app. Exact wording requires isolated source-fidelity/readability review and coordination with the one-country monitoring queue before a public PR.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "research_only",
+          "reason": "Svar från Belgien angående oral format — research intake 15 November 2026. Quoted authority reply: the service provider must make both written and oral formats available. In the authority's interpretation of Article 13(2), mere compatibility with assistive technology is insufficient. Top-level authority reply: an option to read the information aloud is sufficient. The provider may supply it through an app or video/audio recording; the method matters less than provision by the provider. The customer cannot be required to buy the app. The reply does not require a recording specifically or approve a named product/API implementation. Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority. Evidence: source-5f82df8f4ebd8e318663fe44, source-b41498134120b47eac33e16c. This supplements the September/6 October replies already delivered through PR #93; their public mappings and verification dates are unchanged.",
+          "next_action": "Candidate for the Belgium service-information cell in EAA authorities and reporting by country.md: attribute to Economic Inspection (consumer banking/e-commerce) that assistive-technology compatibility alone is insufficient, while a provider-supplied read-aloud option can satisfy its oral-format interpretation without requiring the customer to purchase an app. Exact wording requires isolated source-fidelity/readability review and coordination with the one-country monitoring queue before a public PR.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-9-2026-09-27-535",
       "country": "Bonaire, Sint Eustatius and Saba",
       "destinations": [
@@ -1138,6 +1188,57 @@
           "disposition": "not_applicable",
           "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
           "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-local-browser-20261115-bulgaria",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-aaa3bbc1417d1320e4a39096",
+        "source-bcfb9cc80e86be4d95c3662a",
+        "source-c2b39b0e5dfb5278fabc999e"
+      ],
+      "reason": "Local browser continuation; earlier observations and all public claim mappings retained.",
+      "next_action": "Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "Local Chrome follow-up 2026-11-15: The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment. The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified. After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement. Evidence: source-aaa3bbc1417d1320e4a39096, source-bcfb9cc80e86be4d95c3662a, source-c2b39b0e5dfb5278fabc999e. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain.",
+          "next_action": "Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "EU Member-State lump sum, not a national business penalty; corroborates the existing C-646/24 candidate.",
+          "next_action": "Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
           "pr": null
         }
       ]
@@ -4914,6 +5015,55 @@
       ]
     },
     {
+      "id": "eu27-local-browser-20261115-malta",
+      "country": "Malta",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-f84438af1cf709c2aaee7f7f"
+      ],
+      "reason": "Local browser continuation; earlier observations and all public claim mappings retained.",
+      "next_action": "Access blocker resolved. Retain the other-law scope; establish an explicit EAA remit and reporting purpose before adding this as an EAA route.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "research_only",
+          "reason": "Local Chrome follow-up 2026-11-15: The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case. Evidence: source-f84438af1cf709c2aaee7f7f. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain.",
+          "next_action": "Access blocker resolved. Retain the other-law scope; establish an explicit EAA remit and reporting purpose before adding this as an EAA route.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-mexico-2026-09-27",
       "destinations": [
         {
@@ -5982,6 +6132,55 @@
           "disposition": "not_applicable",
           "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
           "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-local-browser-20261115-romania",
+      "country": "Romania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-b804f6e2dd4b170637c72a1a"
+      ],
+      "reason": "Local browser continuation; earlier observations and all public claim mappings retained.",
+      "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "ANCOM Law 232/2022 section read; no reporting route or complete remit established.",
+          "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "Statutory powers/amounts only; no actual fine or case established.",
+          "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "Local Chrome follow-up 2026-11-15: Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties. Evidence: source-b804f6e2dd4b170637c72a1a. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain.",
+          "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
           "pr": null
         }
       ]

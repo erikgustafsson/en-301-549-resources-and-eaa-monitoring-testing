@@ -1,3 +1,5 @@
+> Follow-up: all five outstanding exact URLs rendered in local Chrome on 15 November 2026. See [the local-browser report](../eu27-local-browser-2026-11-15/README.md). The attempts below describe the earlier pass and remain historical.
+
 # EU27 targeted gap follow-up — 15 November 2026
 
 ## Scope and outcome

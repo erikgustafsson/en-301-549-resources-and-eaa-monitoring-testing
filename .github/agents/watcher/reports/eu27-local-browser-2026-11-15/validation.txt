@@ -1,0 +1,10 @@
+Validation on 15 November 2026 against research base d4fd56fec640d58cd002a139717594790449ef24.
+PASS: four changed country envelopes validate; seven new evidence fingerprints are correct; no new expanded monitoring-schema errors.
+PASS: prior source objects, claims/IDs, public mappings, verification dates and deliveries preserved; four new deliveries cover all registered pages; generated routing index agrees.
+PASS: five local observations retain exact requested/final URLs and prior failed attempts; all five now readable.
+PASS: manual comparison helper replay is idempotent, creates only two access_recovered events and no content-change alert; scheduled pilot data and prior manual findings preserved.
+PASS: nine watcher regression tests.
+PASS: all public page bytes and EUD intake unchanged; only ten research files plus this validation note changed/added; no raw email, signatures or private contact details committed.
+PASS: changed-file whitespace scan.
+BLOCKER (inherited): python3 .github/scripts/check-country-records.py fails with Evidence fingerprint mismatch, reproduced on the unmodified base before these edits and after. Not repaired or waived.
+No isolated publication wording/readability review, current CI result or full-country/monthly verification claimed.

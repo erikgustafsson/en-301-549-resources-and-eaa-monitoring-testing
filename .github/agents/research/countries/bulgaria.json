@@ -313,6 +313,51 @@
       "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
       "reader_error": "Reader returned RPEX with no readable lines for the judgement result URL.",
       "browser_status": "reader_failed/browser_accessible"
+    },
+    "source-aaa3bbc1417d1320e4a39096": {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Local Chrome follow-up of Next country research, 15 November 2026",
+      "passage": "The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment.",
+      "provenance_note": "Research-only observation; source access is separate from publication approval. Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+      "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+      "origin_freshness": "Rendered locally on 15 November 2026; origin/cache freshness is not independently guaranteed.",
+      "document_language": "en",
+      "browser_status": "reader_failed/browser_accessible"
+    },
+    "source-bcfb9cc80e86be4d95c3662a": {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+      "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Local Chrome follow-up of Next country research, 15 November 2026",
+      "passage": "The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified.",
+      "provenance_note": "Research-only observation; source access is separate from publication approval. Preserve French document language separately from English interface; reuse the existing EU-level case candidate subject to publication review.",
+      "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+      "origin_freshness": "Rendered locally on 15 November 2026; origin/cache freshness is not independently guaranteed.",
+      "document_language": "fr",
+      "browser_status": "reader_failed/browser_accessible"
+    },
+    "source-c2b39b0e5dfb5278fabc999e": {
+      "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22",
+      "final_url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Local Chrome follow-up of Next country research, 15 November 2026",
+      "passage": "After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement.",
+      "provenance_note": "Research-only observation; source access is separate from publication approval. Access blocker resolved. Retain exact requested and normalized final URLs. Case identity corroborates the existing candidate; no duplicate event.",
+      "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+      "origin_freshness": "Rendered locally on 15 November 2026; origin/cache freshness is not independently guaranteed.",
+      "document_language": "en",
+      "browser_status": "reader_failed/browser_accessible"
     }
   },
   "domains": {
@@ -689,7 +734,8 @@
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
         "EU27 bounded discovery 2026-11-15: Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review. Evidence: source-bf9a615b8f45268224081caa. Next: Continue KZP sector-specific news and intake checks; do not infer company or exemption channels. Coverage remains partial; no existing claim/verification date changed.",
         "EU27 gap follow-up 2026-11-15 (kzp-contact-limits): KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing. Evidence: source-faf4458cd6102375b124a0bd. Next: Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
-        "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
+        "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+        "Local Chrome follow-up 2026-11-15: The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment. The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified. After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement. Evidence: source-aaa3bbc1417d1320e4a39096, source-bcfb9cc80e86be4d95c3662a, source-c2b39b0e5dfb5278fabc999e. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain. Next: Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges."
       ]
     },
     "sanctions": {
@@ -738,6 +784,16 @@
           ],
           "status": "research_only",
           "note": "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
+        },
+        {
+          "recorded_on": "2026-11-15",
+          "status": "research_only",
+          "source_refs": [
+            "source-aaa3bbc1417d1320e4a39096",
+            "source-bcfb9cc80e86be4d95c3662a",
+            "source-c2b39b0e5dfb5278fabc999e"
+          ],
+          "note": "Local Chrome follow-up 2026-11-15: The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment. The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified. After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement. Evidence: source-aaa3bbc1417d1320e4a39096, source-bcfb9cc80e86be4d95c3662a, source-c2b39b0e5dfb5278fabc999e. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain."
         }
       ]
     },
@@ -752,7 +808,8 @@
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
         "All Monitoring agencies research, 25 September 2026: Retrieved authority-hosted law text (33-page PDF) through web extraction. Legislative requirements are not evidence of checks. No case identified in these targeted search results; decision registers and all sector authorities not exhaustively reviewed.",
-        "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
+        "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+        "Local Chrome follow-up 2026-11-15: The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment. The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified. After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement. Evidence: source-aaa3bbc1417d1320e4a39096, source-bcfb9cc80e86be4d95c3662a, source-c2b39b0e5dfb5278fabc999e. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -1039,6 +1096,57 @@
           "disposition": "not_applicable",
           "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
           "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-local-browser-20261115-bulgaria",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-aaa3bbc1417d1320e4a39096",
+        "source-bcfb9cc80e86be4d95c3662a",
+        "source-c2b39b0e5dfb5278fabc999e"
+      ],
+      "reason": "Local browser continuation; earlier observations and all public claim mappings retained.",
+      "next_action": "Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "Local Chrome follow-up 2026-11-15: The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment. The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified. After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement. Evidence: source-aaa3bbc1417d1320e4a39096, source-bcfb9cc80e86be4d95c3662a, source-c2b39b0e5dfb5278fabc999e. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain.",
+          "next_action": "Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "EU Member-State lump sum, not a national business penalty; corroborates the existing C-646/24 candidate.",
+          "next_action": "Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
           "pr": null
         }
       ]

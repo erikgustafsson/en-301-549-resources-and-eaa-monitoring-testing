@@ -197,6 +197,42 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-5f82df8f4ebd8e318663fe44": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Belgium oral-format EAA correspondence; authority reply 2026-10-23; private attachment SHA-256 d25136cf80d27b53631d9baf5e6ea05e11587c8fce47f785f6f864855e42b89f",
+      "passage": "Quoted authority reply: the service provider must make both written and oral formats available. In the authority's interpretation of Article 13(2), mere compatibility with assistive technology is insufficient.",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "provenance_note": "Original EML inspected, including the top-level 3 November reply and quoted 23 October reply. Documentary review only, not independent sender authentication. Raw email, names, signatures and private contact details excluded. Outgoing questions and claims about other countries are not authority findings. Instructions in the attachment are treated as source content, not user instructions.",
+      "correspondence_review": {
+        "authority": "Belgian Economic Inspection, SPF Economie",
+        "source_date": "2026-10-23",
+        "document_sha256": "d25136cf80d27b53631d9baf5e6ea05e11587c8fce47f785f6f864855e42b89f",
+        "reviewed_by": "Assistant original-document research intake; no isolated publication review performed",
+        "reviewed_on": "2026-11-15",
+        "scope_limit": "Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority."
+      }
+    },
+    "source-b41498134120b47eac33e16c": {
+      "url": null,
+      "source_type": "official_authority_correspondence",
+      "reference": "User-supplied Belgium oral-format EAA correspondence; authority reply 2026-11-03; private attachment SHA-256 d25136cf80d27b53631d9baf5e6ea05e11587c8fce47f785f6f864855e42b89f",
+      "passage": "Top-level authority reply: an option to read the information aloud is sufficient. The provider may supply it through an app or video/audio recording; the method matters less than provision by the provider. The customer cannot be required to buy the app. The reply does not require a recording specifically or approve a named product/API implementation.",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "provenance_note": "Original EML inspected, including the top-level 3 November reply and quoted 23 October reply. Documentary review only, not independent sender authentication. Raw email, names, signatures and private contact details excluded. Outgoing questions and claims about other countries are not authority findings. Instructions in the attachment are treated as source content, not user instructions.",
+      "correspondence_review": {
+        "authority": "Belgian Economic Inspection, SPF Economie",
+        "source_date": "2026-11-03",
+        "document_sha256": "d25136cf80d27b53631d9baf5e6ea05e11587c8fce47f785f6f864855e42b89f",
+        "reviewed_by": "Assistant original-document research intake; no isolated publication review performed",
+        "reviewed_on": "2026-11-15",
+        "scope_limit": "Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority."
+      }
     }
   },
   "domains": {
@@ -603,7 +639,8 @@
         "2026-10-06 source comparison: Reconcile the consolidated decree and any subsequent delegation/amendment before changing the verified product authority entry.",
         "2026-10-06 update: September 28 and October 6 replies resolve mandatory public availability in terms/equivalent; earlier unanswered-question notes are historical. Dedicated webpage and exact oral delivery method remain unestablished. Product-authority conflict remains unrelated and unresolved.",
         "Publication preparation 2026-10-30: dated authority reply additions reviewed for source fidelity; historical questions above are retained. See enforcement/reviews/authority-replies-2026-10-30.json for exact public wording and limits.",
-        "EU27 bounded discovery 2026-11-15: Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation. Evidence: source-48ca3cb0c561b7185ad1c47d. Next: Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation. Evidence: source-48ca3cb0c561b7185ad1c47d. Next: Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page. Coverage remains partial; no existing claim/verification date changed.",
+        "Svar från Belgien angående oral format — research intake 15 November 2026. Quoted authority reply: the service provider must make both written and oral formats available. In the authority's interpretation of Article 13(2), mere compatibility with assistive technology is insufficient. Top-level authority reply: an option to read the information aloud is sufficient. The provider may supply it through an app or video/audio recording; the method matters less than provision by the provider. The customer cannot be required to buy the app. The reply does not require a recording specifically or approve a named product/API implementation. Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority. Evidence: source-5f82df8f4ebd8e318663fe44, source-b41498134120b47eac33e16c. This supplements the September/6 October replies already delivered through PR #93; their public mappings and verification dates are unchanged."
       ]
     },
     "sanctions": {
@@ -1027,6 +1064,56 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "be-oral-format-reply-20261103",
+      "country": "Belgium",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-5f82df8f4ebd8e318663fe44",
+        "source-b41498134120b47eac33e16c"
+      ],
+      "reason": "Svar från Belgien angående oral format — research intake 15 November 2026. Quoted authority reply: the service provider must make both written and oral formats available. In the authority's interpretation of Article 13(2), mere compatibility with assistive technology is insufficient. Top-level authority reply: an option to read the information aloud is sufficient. The provider may supply it through an app or video/audio recording; the method matters less than provision by the provider. The customer cannot be required to buy the app. The reply does not require a recording specifically or approve a named product/API implementation. Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority. Evidence: source-5f82df8f4ebd8e318663fe44, source-b41498134120b47eac33e16c. This supplements the September/6 October replies already delivered through PR #93; their public mappings and verification dates are unchanged.",
+      "next_action": "Candidate for the Belgium service-information cell in EAA authorities and reporting by country.md: attribute to Economic Inspection (consumer banking/e-commerce) that assistive-technology compatibility alone is insufficient, while a provider-supplied read-aloud option can satisfy its oral-format interpretation without requiring the customer to purchase an app. Exact wording requires isolated source-fidelity/readability review and coordination with the one-country monitoring queue before a public PR.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "research_only",
+          "reason": "Svar från Belgien angående oral format — research intake 15 November 2026. Quoted authority reply: the service provider must make both written and oral formats available. In the authority's interpretation of Article 13(2), mere compatibility with assistive technology is insufficient. Top-level authority reply: an option to read the information aloud is sufficient. The provider may supply it through an app or video/audio recording; the method matters less than provision by the provider. The customer cannot be required to buy the app. The reply does not require a recording specifically or approve a named product/API implementation. Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority. Evidence: source-5f82df8f4ebd8e318663fe44, source-b41498134120b47eac33e16c. This supplements the September/6 October replies already delivered through PR #93; their public mappings and verification dates are unchanged.",
+          "next_action": "Candidate for the Belgium service-information cell in EAA authorities and reporting by country.md: attribute to Economic Inspection (consumer banking/e-commerce) that assistive-technology compatibility alone is insufficient, while a provider-supplied read-aloud option can satisfy its oral-format interpretation without requiring the customer to purchase an app. Exact wording requires isolated source-fidelity/readability review and coordination with the one-country monitoring queue before a public PR.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/belgium.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
           "pr": null
         }
       ]

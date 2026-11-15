@@ -1,0 +1,29 @@
+{
+  "title": "Svar från Belgien angående oral format",
+  "recorded_on": "2026-11-15",
+  "status": "research_only",
+  "country": "Belgium",
+  "authority": "Belgian Economic Inspection, SPF Economie",
+  "source_dates": [
+    "2026-10-23",
+    "2026-11-03"
+  ],
+  "document_sha256": "d25136cf80d27b53631d9baf5e6ea05e11587c8fce47f785f6f864855e42b89f",
+  "source_refs": [
+    "source-5f82df8f4ebd8e318663fe44",
+    "source-b41498134120b47eac33e16c"
+  ],
+  "canonical_record": ".github/agents/research/countries/belgium.json",
+  "summary": [
+    "Quoted authority reply: the service provider must make both written and oral formats available. In the authority's interpretation of Article 13(2), mere compatibility with assistive technology is insufficient.",
+    "Top-level authority reply: an option to read the information aloud is sufficient. The provider may supply it through an app or video/audio recording; the method matters less than provision by the provider. The customer cannot be required to buy the app. The reply does not require a recording specifically or approve a named product/API implementation."
+  ],
+  "scope": "Belgian Economic Inspection expertise: consumer banking and e-commerce. Attributed correspondence interpretation of Article 13(2)/Annex V, not a court ruling or a position of every Belgian authority.",
+  "limitations": [
+    "Documentary source review, not independent sender authentication or publication approval.",
+    "No general endorsement of ReadSpeaker, Web Speech API or an implementation was established.",
+    "No separate webpage, mandatory recording, sanctions or EN edition adoption inferred.",
+    "User-authored questions about Sweden/Denmark are not Belgian authority findings."
+  ],
+  "public_candidate": "Candidate for the Belgium service-information cell in EAA authorities and reporting by country.md: attribute to Economic Inspection (consumer banking/e-commerce) that assistive-technology compatibility alone is insufficient, while a provider-supplied read-aloud option can satisfy its oral-format interpretation without requiring the customer to purchase an app. Exact wording requires isolated source-fidelity/readability review and coordination with the one-country monitoring queue before a public PR."
+}

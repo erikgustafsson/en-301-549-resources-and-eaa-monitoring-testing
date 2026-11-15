@@ -117,6 +117,21 @@
       "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
       "reader_error": "HTTP 403 Forbidden",
       "browser_status": "Browser displayed: Your request was blocked."
+    },
+    "source-f84438af1cf709c2aaee7f7f": {
+      "url": "https://www.crpd.org.mt/investigations/",
+      "final_url": "https://www.crpd.org.mt/investigations/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Local Chrome follow-up of Next country research, 15 November 2026",
+      "passage": "The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case.",
+      "provenance_note": "Research-only observation; source access is separate from publication approval. Access blocker resolved. Retain the other-law scope; establish an explicit EAA remit and reporting purpose before adding this as an EAA route.",
+      "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+      "origin_freshness": "Rendered locally on 15 November 2026; origin/cache freshness is not independently guaranteed.",
+      "document_language": "en",
+      "browser_status": "reader_failed/browser_accessible"
     }
   },
   "domains": {
@@ -260,7 +275,8 @@
         "Follow-up: Malta / Demands statement — seek CRPD or government guidance stating whether the Annex V information must be a dedicated public page comparable to a WAD statement, or whether general terms and conditions/equivalent documents suffice; owner: research agent or contributor; resolved by an explicit official statement.",
         "Follow-up: Malta / 112 reporting — recheck CRPD guidance before regulation 4(8) takes effect on 28 June 2027 and identify a complaint/company route for answering emergency communications to 112; owner: research agent; resolved by official instructions.",
         "EU27 bounded discovery 2026-11-15: Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt. Evidence: source-91f2ea389159149f916b0572. Next: Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts. Coverage remains partial; no existing claim/verification date changed.",
-        "EU27 gap follow-up 2026-11-15 (crpd-access-block): Reader and browser did not provide the investigations content. No change to last-good authority facts or intake claims. Evidence: source-15a78c995d81c54ab666a655. Next: Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence."
+        "EU27 gap follow-up 2026-11-15 (crpd-access-block): Reader and browser did not provide the investigations content. No change to last-good authority facts or intake claims. Evidence: source-15a78c995d81c54ab666a655. Next: Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence.",
+        "Local Chrome follow-up 2026-11-15: The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case. Evidence: source-f84438af1cf709c2aaee7f7f. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain. Next: Access blocker resolved. Retain the other-law scope; establish an explicit EAA remit and reporting purpose before adding this as an EAA route."
       ]
     },
     "sanctions": {
@@ -434,6 +450,55 @@
           "disposition": "not_applicable",
           "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
           "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-local-browser-20261115-malta",
+      "country": "Malta",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-f84438af1cf709c2aaee7f7f"
+      ],
+      "reason": "Local browser continuation; earlier observations and all public claim mappings retained.",
+      "next_action": "Access blocker resolved. Retain the other-law scope; establish an explicit EAA remit and reporting purpose before adding this as an EAA route.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "research_only",
+          "reason": "Local Chrome follow-up 2026-11-15: The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case. Evidence: source-f84438af1cf709c2aaee7f7f. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain.",
+          "next_action": "Access blocker resolved. Retain the other-law scope; establish an explicit EAA remit and reporting purpose before adding this as an EAA route.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
           "pr": null
         }
       ]

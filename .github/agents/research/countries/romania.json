@@ -208,6 +208,21 @@
       "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
       "reader_error": "HTTP 502 Bad Gateway",
       "browser_status": "net::ERR_HTTP2_PROTOCOL_ERROR"
+    },
+    "source-b804f6e2dd4b170637c72a1a": {
+      "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+      "final_url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "Local Chrome follow-up of Next country research, 15 November 2026",
+      "passage": "Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties.",
+      "provenance_note": "Research-only observation; source access is separate from publication approval. Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+      "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+      "origin_freshness": "Rendered locally on 15 November 2026; origin/cache freshness is not independently guaranteed.",
+      "document_language": "ro",
+      "browser_status": "reader_failed/browser_accessible"
     }
   },
   "domains": {
@@ -444,7 +459,8 @@
         "Follow-up: Romania / 112 — identify the competent authority and future public/company route for the Article 2(5) duty before it applies on 28 June 2027. Owner: researcher.",
         "Follow-up: Romania / official correspondence — the 9 February 2026 ADR email refers to attached official letter ADR 3190/16.01.2026, but that letter is absent from the supplied .eml; add it if recovered and reassess affected claims. Owner: contributor.",
         "EU27 bounded discovery 2026-11-15: A targeted ANCOM search surfaced a potentially relevant prevention-law page, but the actual reader returned HTTP 502. The statute and several authority pages also failed. Snippets were not promoted to verified claims. Evidence: source-d2fa3a39fc6a361c6b8bcf8c. Next: Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved. Coverage remains partial; no existing claim/verification date changed.",
-        "EU27 gap follow-up 2026-11-15 (ancom-access-block): Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage. Evidence: source-44f37a2bb6cc236706354702. Next: Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it."
+        "EU27 gap follow-up 2026-11-15 (ancom-access-block): Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage. Evidence: source-44f37a2bb6cc236706354702. Next: Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+        "Local Chrome follow-up 2026-11-15: Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties. Evidence: source-b804f6e2dd4b170637c72a1a. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain. Next: Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved."
       ]
     },
     "sanctions": {
@@ -491,6 +507,16 @@
       "language_check": "language-check.json",
       "source_refs": [
         "source-7f8c5b7cf698748c88ea6c96"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-11-15",
+          "status": "research_only",
+          "source_refs": [
+            "source-b804f6e2dd4b170637c72a1a"
+          ],
+          "note": "Local Chrome follow-up 2026-11-15: Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties. Evidence: source-b804f6e2dd4b170637c72a1a. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain."
+        }
       ]
     },
     "enforcement": {
@@ -503,7 +529,8 @@
       "verified_on": null,
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
-        "All Monitoring agencies research, 25 September 2026: Annual report 2025 was a search lead but web fetch failed and directdownload returned 403. No report content verified; 2024 preventive guidance snippet excluded as actual post-application enforcement. ADR/ANCOM/CNA and other sector evidence remain unchecked."
+        "All Monitoring agencies research, 25 September 2026: Annual report 2025 was a search lead but web fetch failed and directdownload returned 403. No report content verified; 2024 preventive guidance snippet excluded as actual post-application enforcement. ADR/ANCOM/CNA and other sector evidence remain unchecked.",
+        "Local Chrome follow-up 2026-11-15: Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties. Evidence: source-b804f6e2dd4b170637c72a1a. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -660,6 +687,55 @@
           "disposition": "not_applicable",
           "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
           "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-local-browser-20261115-romania",
+      "country": "Romania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-b804f6e2dd4b170637c72a1a"
+      ],
+      "reason": "Local browser continuation; earlier observations and all public claim mappings retained.",
+      "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "ANCOM Law 232/2022 section read; no reporting route or complete remit established.",
+          "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "Statutory powers/amounts only; no actual fine or case established.",
+          "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "Local Chrome follow-up 2026-11-15: Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties. Evidence: source-b804f6e2dd4b170637c72a1a. The earlier failed-access entries remain historical; the five requested URL access checks are now resolved. Other evidence/publication gaps remain.",
+          "next_action": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new claim for this page follows from the scoped evidence.",
+          "next_action": "Preserve current public content and existing research.",
           "pr": null
         }
       ]
