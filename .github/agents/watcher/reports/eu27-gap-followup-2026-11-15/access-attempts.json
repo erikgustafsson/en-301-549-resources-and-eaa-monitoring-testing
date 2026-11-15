@@ -1,0 +1,86 @@
+{
+  "run_id": "eu27-gap-followup-1794748899451",
+  "failures": [
+    {
+      "url": "https://www.crpd.org.mt/investigations/",
+      "reader_error": "HTTP 403 Forbidden",
+      "browser_result": "Your request was blocked.",
+      "status": "browser_verification_needed",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+      "reader_error": "HTTP 502 Bad Gateway",
+      "browser_result": "net::ERR_HTTP2_PROTOCOL_ERROR",
+      "status": "browser_verification_needed",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://eportal.ctu.gov.cz/form/5",
+      "reader_error": "Formulář se připravuje; Došlo k chybě Načíst znovu",
+      "browser_result": "Intake fields rendered; no submission",
+      "status": "reader_failed/browser_accessible",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
+      "reader_error": "URL is not accessible via this tool",
+      "browser_result": "Article text read",
+      "status": "reader_failed/browser_accessible",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+      "reader_error": "HTTP 403 Forbidden",
+      "browser_result": "Article text read",
+      "status": "reader_failed/browser_accessible",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+      "reader_error": "HTTP 403 Forbidden",
+      "browser_result": "13-page PDF rendered; cover only inspected",
+      "status": "reader_failed/browser_accessible",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+      "reader_error": "JavaScript disabled / robot check",
+      "browser_result": "Redirected to https://eur-lex.europa.eu/TodayOJ/index.html?uri=CELEX:62024CA0646; temporary availability warning; requested notice not obtained",
+      "status": "browser_verification_needed",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+      "reader_error": "JavaScript disabled / robot check",
+      "browser_result": "Exact URL not attempted in browser",
+      "status": "browser_verification_needed",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22",
+      "reader_error": "Reader returned zero content lines",
+      "browser_result": "Exact case-overview URL not attempted in browser",
+      "status": "browser_verification_needed",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    },
+    {
+      "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+      "reader_error": "Reader returned zero content lines",
+      "browser_result": "English document unavailable; French judgment read in browser, including operative paragraphs",
+      "status": "reader_failed/browser_accessible",
+      "checked_on": "2026-11-15",
+      "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+    }
+  ],
+  "request": "Independently check unresolved exact URLs in the browser-enabled local chat; do not bypass access controls. These errors do not establish website outages."
+}

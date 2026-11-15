@@ -173,6 +173,54 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-07b8fb705560f729ef9695c4": {
+      "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "RRT distinguishes provider-first dispute resolution from reports of possible electronic-communications accessibility violations. For the latter it links to Konsultacijos. This supports the reporting purpose, not company/exemption filing.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
+    },
+    "source-90f21cdd5366aafedd8c6c8c": {
+      "url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "The linked page (updated 26 August 2025) displays an enquiry form and expressly says it is unsigned, not a written application, and the response is an employee opinion rather than RRT's official position. An unsigned email receives the same caveat. Do not label this as a formal signed complaint route.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
+    },
+    "source-e4e0a6c272733238341491a9": {
+      "url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "LRTK guidance associated with decision KS-37 of 23 April 2025 states that users may complain to LRTK after attempting resolution with the audiovisual-access service provider (paragraph 35); paragraph 30 requires exemption notification but gives no specific filing destination. These are guidance/powers, not evidence of an actual investigation. Recommendations are explicitly non-binding explanatory material.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
+    },
+    "source-aefae78ac7d2294aec69f91e": {
+      "url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "General LRTK submission instructions list in-person/post/fax, lrtk@rtk.lt and an online form. The form asks programme/broadcast details and a security code. Its suitability for all EAA access-service cases and company exemptions is not demonstrated; no CAPTCHA, form or email was submitted.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
     }
   },
   "domains": {
@@ -460,7 +508,8 @@
         "Follow-up: Retrieve the current consolidated Act XIV-1633 (official index lists 2026-06-30–2027-06-27); check amendments, transitions, exemption conditions and authority-on-request duties outside RRT. Direct text access failed on retry.",
         "Follow-up: Run full rendered HTML validation when tidy is available; package download attempt could not locate tidy/libtidy5deb1. Full JSON Schema validation passed on this rerun.",
         "Rerun 24 September 2026: targeted checks completed within the new ten-minute research budget; remaining unknowns are scoped above. No authority contacted and no form submitted.",
-        "EU27 bounded discovery 2026-11-15: VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain. Evidence: source-32ea9a105f20a8f67f905472. Next: Continue authority-specific intake and news checks; irrelevant search results do not complete coverage. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain. Evidence: source-32ea9a105f20a8f67f905472. Next: Continue authority-specific intake and news checks; irrelevant search results do not complete coverage. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (rrt-lrtk-intake): RRT distinguishes provider-first dispute resolution from reports of possible electronic-communications accessibility violations. For the latter it links to Konsultacijos. This supports the reporting purpose, not company/exemption filing. The linked page (updated 26 August 2025) displays an enquiry form and expressly says it is unsigned, not a written application, and the response is an employee opinion rather than RRT's official position. An unsigned email receives the same caveat. Do not label this as a formal signed complaint route. LRTK guidance associated with decision KS-37 of 23 April 2025 states that users may complain to LRTK after attempting resolution with the audiovisual-access service provider (paragraph 35); paragraph 30 requires exemption notification but gives no specific filing destination. These are guidance/powers, not evidence of an actual investigation. Recommendations are explicitly non-binding explanatory material. General LRTK submission instructions list in-person/post/fax, lrtk@rtk.lt and an online form. The form asks programme/broadcast details and a security code. Its suitability for all EAA access-service cases and company exemptions is not demonstrated; no CAPTCHA, form or email was submitted. Evidence: source-07b8fb705560f729ef9695c4, source-90f21cdd5366aafedd8c6c8c, source-e4e0a6c272733238341491a9, source-aefae78ac7d2294aec69f91e. Next: Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved."
       ]
     },
     "sanctions": {
@@ -507,7 +556,8 @@
       "verified_on": null,
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
-        "All Monitoring agencies research, 25 September 2026: Read accessibility FAQ. Search initially returned healthcare-accessibility inspections, excluded as unrelated. FAQ explains product/service duties and authorities, not actual measures. All sector registers not searched."
+        "All Monitoring agencies research, 25 September 2026: Read accessibility FAQ. Search initially returned healthcare-accessibility inspections, excluded as unrelated. FAQ explains product/service duties and authorities, not actual measures. All sector registers not searched.",
+        "EU27 gap follow-up 2026-11-15 (rrt-lrtk-intake): RRT distinguishes provider-first dispute resolution from reports of possible electronic-communications accessibility violations. For the latter it links to Konsultacijos. This supports the reporting purpose, not company/exemption filing. The linked page (updated 26 August 2025) displays an enquiry form and expressly says it is unsigned, not a written application, and the response is an employee opinion rather than RRT's official position. An unsigned email receives the same caveat. Do not label this as a formal signed complaint route. LRTK guidance associated with decision KS-37 of 23 April 2025 states that users may complain to LRTK after attempting resolution with the audiovisual-access service provider (paragraph 35); paragraph 30 requires exemption notification but gives no specific filing destination. These are guidance/powers, not evidence of an actual investigation. Recommendations are explicitly non-binding explanatory material. General LRTK submission instructions list in-person/post/fax, lrtk@rtk.lt and an online form. The form asks programme/broadcast details and a security code. Its suitability for all EAA access-service cases and company exemptions is not demonstrated; no CAPTCHA, form or email was submitted. Evidence: source-07b8fb705560f729ef9695c4, source-90f21cdd5366aafedd8c6c8c, source-e4e0a6c272733238341491a9, source-aefae78ac7d2294aec69f91e. Next: Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -578,6 +628,58 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-lithuania-rrt-lrtk-intake",
+      "country": "Lithuania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-07b8fb705560f729ef9695c4",
+        "source-90f21cdd5366aafedd8c6c8c",
+        "source-e4e0a6c272733238341491a9",
+        "source-aefae78ac7d2294aec69f91e"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "research_only",
+          "reason": "RRT public electronic-communications accessibility reports: link official accessibility guidance and Konsultacijos with the explicit unsigned/non-official-response limitation; keep formal complaints and company notifications separate.",
+          "next_action": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "research_only",
+          "reason": "RRT public electronic-communications accessibility reports: link official accessibility guidance and Konsultacijos with the explicit unsigned/non-official-response limitation; keep formal complaints and company notifications separate.",
+          "next_action": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

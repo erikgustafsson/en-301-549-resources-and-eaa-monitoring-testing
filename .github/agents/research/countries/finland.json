@@ -214,6 +214,18 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Preserve existing routes; separately verify new EAA-period case outcomes.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-e234312486ed7d447abf3e5f": {
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Traficom's 2025 review, updated 6 March 2026, explicitly attributes over 200 deficiency notifications and 24 exemption notifications by end-2025 to the new EAA-related notification procedure. Its separate 24 complaints and website/app monitoring totals concern broader digital-services supervision and must not be labelled EAA-only. Counts are historical notifications, not fines or findings of violations.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
     }
   },
   "domains": {
@@ -442,7 +454,8 @@
         "Before PR: Resolved by wording correction and isolated recheck: 112 (answering and accessibility); Exemptions (invoking derogation grounds). No unresolved new assertion retained. Subsequent user instruction standardizes the final label as Exemptions:; explanation retained only in research.",
         "Before merge: None identified beyond ordinary maintainer evidence/diff review.",
         "2026-10-06 source comparison: Check whether supplementary instruments add useful requirements beyond the consolidated-law link; not evidence that the core EAA law is missing.",
-        "EU27 bounded discovery 2026-11-15: Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement. Evidence: source-ee0806e790a3f253fe437551. Next: Preserve existing routes; separately verify new EAA-period case outcomes. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement. Evidence: source-ee0806e790a3f253fe437551. Next: Preserve existing routes; separately verify new EAA-period case outcomes. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (2025-notification-statistics): Traficom's 2025 review, updated 6 March 2026, explicitly attributes over 200 deficiency notifications and 24 exemption notifications by end-2025 to the new EAA-related notification procedure. Its separate 24 complaints and website/app monitoring totals concern broader digital-services supervision and must not be labelled EAA-only. Counts are historical notifications, not fines or findings of violations. Evidence: source-e234312486ed7d447abf3e5f. Next: Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset."
       ]
     },
     "sanctions": {
@@ -488,7 +501,8 @@
       "verified_on": "2026-09-25",
       "knowledge_notes": [
         "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
-        "All Monitoring agencies research, 25 September 2026: 30 June newsletter confirms complaints/enquiries concerning newly covered consumer services, without counts/outcomes. Does not corroborate inherited September statistics."
+        "All Monitoring agencies research, 25 September 2026: 30 June newsletter confirms complaints/enquiries concerning newly covered consumer services, without counts/outcomes. Does not corroborate inherited September statistics.",
+        "EU27 gap follow-up 2026-11-15 (2025-notification-statistics): Traficom's 2025 review, updated 6 March 2026, explicitly attributes over 200 deficiency notifications and 24 exemption notifications by end-2025 to the new EAA-related notification procedure. Its separate 24 complaints and website/app monitoring totals concern broader digital-services supervision and must not be labelled EAA-only. Counts are historical notifications, not fines or findings of violations. Evidence: source-e234312486ed7d447abf3e5f. Next: Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset."
       ],
       "public_entry_ids": [
         "finland-1"
@@ -966,6 +980,55 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-finland-2025-notification-statistics",
+      "country": "Finland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-e234312486ed7d447abf3e5f"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "research_only",
+          "reason": "Finland enforcement tracking: add Traficom's end-2025 snapshot of over 200 deficiency notifications and 24 exemption notifications, explicitly company notifications rather than confirmed infringements or imposed sanctions.",
+          "next_action": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "research_only",
+          "reason": "Finland enforcement tracking: add Traficom's end-2025 snapshot of over 200 deficiency notifications and 24 exemption notifications, explicitly company notifications rather than confirmed infringements or imposed sanctions.",
+          "next_action": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

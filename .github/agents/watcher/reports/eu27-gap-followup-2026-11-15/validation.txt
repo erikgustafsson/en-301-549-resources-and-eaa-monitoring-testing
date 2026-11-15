@@ -1,0 +1,9 @@
+Validation executed 2026-11-15 against prior branch HEAD 12aab4b95c50e311882e6a1cab4e09a09705e0bb.
+PASS targeted validator: 12 country envelopes; 25 new fingerprints; 14 four-page deliveries; no new schema errors.
+PASS prior evidence, claims, public mappings/wording, verification dates and deliveries preserved.
+PASS generated routing projection and 25-observation helper replay/idempotence; six queued discovery candidates.
+PASS python3 -m unittest discover -s .github/agents/watcher -p 'test_*.py': 9 tests.
+PASS git diff --check.
+BLOCKER python3 .github/scripts/check-country-records.py: inherited Evidence fingerprint mismatch, also present before this follow-up; not waived or repaired.
+EUD general intake JSON and per-page dispositions checked separately; no national claim added.
+No public wording changed. Publication source-fidelity/language/readability review not performed or claimed. Human maintainer approval remains outstanding.

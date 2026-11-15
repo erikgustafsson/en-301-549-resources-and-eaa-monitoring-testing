@@ -1,0 +1,250 @@
+{
+  "checked_on": "2026-11-15",
+  "limits": "One targeted follow-up is not a completed monthly discovery. No snippets promoted to verified facts.",
+  "countries": [
+    {
+      "country": "Austria",
+      "method": "Targeted page check",
+      "result": "Ministry implementation scope read; exact receiver-side112 supervision and exemption channel unresolved.",
+      "status": "partial"
+    },
+    {
+      "country": "Belgium",
+      "method": "Targeted search only",
+      "result": "SPF guidance/form results overlap existing research; no new verified development or adopted-rule inference.",
+      "status": "partial"
+    },
+    {
+      "country": "Bulgaria",
+      "method": "Targeted page and browser checks",
+      "result": "KZP contact limits read; CJEU French judgment read in InfoCuria. Member-State sanction kept separate from business enforcement.",
+      "status": "partial"
+    },
+    {
+      "country": "Croatia",
+      "method": "Targeted official-gazette check",
+      "result": "NN114/2026 amendment read; new authority-name and sanctions-context candidates.",
+      "status": "partial"
+    },
+    {
+      "country": "Cyprus",
+      "method": "Targeted search only",
+      "result": "No primary enactment/commencement text established for the amendment lead; consultation is not adoption.",
+      "status": "partial"
+    },
+    {
+      "country": "Czechia",
+      "method": "Targeted page and browser checks",
+      "result": "CTU company non-compliance/exemption destinations and visible form verified within stated limits.",
+      "status": "partial"
+    },
+    {
+      "country": "Denmark",
+      "method": "Targeted search and PR reconciliation",
+      "result": "Control-guidance result not a case outcome. PR96 retains sole-country queue; no duplicate mailbox work.",
+      "status": "partial"
+    },
+    {
+      "country": "Estonia",
+      "method": "Targeted search only",
+      "result": "Returned public-sector2025 monitoring news, excluded as EAA-only evidence. No new country-complete claim.",
+      "status": "partial"
+    },
+    {
+      "country": "Finland",
+      "method": "Targeted official-page check",
+      "result": "End-2025 notification totals read; broader complaint/monitoring figures not treated as EAA-only.",
+      "status": "partial"
+    },
+    {
+      "country": "France",
+      "method": "Targeted page and browser checks",
+      "result": "Arcom ebook routes/first form step checked; PLATON decision is other-law context.",
+      "status": "partial"
+    },
+    {
+      "country": "Germany",
+      "method": "Targeted search only",
+      "result": "MLBF launch and strategy results overlap earlier recorded guidance; no new actual case verified.",
+      "status": "partial"
+    },
+    {
+      "country": "Greece",
+      "method": "Targeted search only",
+      "result": "Official amending-text gap remains; no inference from secondary legal references.",
+      "status": "partial"
+    },
+    {
+      "country": "Hungary",
+      "method": "Targeted search only",
+      "result": "MNB financial complaint/powers result overlaps existing guidance; no actual new sanction verified.",
+      "status": "partial"
+    },
+    {
+      "country": "Ireland",
+      "method": "Targeted search only",
+      "result": "CCPC remit/obligation results overlap existing facts; no new enforcement outcome established.",
+      "status": "partial"
+    },
+    {
+      "country": "Italy",
+      "method": "Targeted page and browser checks",
+      "result": "AgID article now readable in browser; PDF cover visible. Full operative regulation and authenticated intake still unverified.",
+      "status": "partial"
+    },
+    {
+      "country": "Latvia",
+      "method": "Targeted search only",
+      "result": "PTAC current guidance result retained as existing-source lead; specific company filing destination remains separate.",
+      "status": "partial"
+    },
+    {
+      "country": "Lithuania",
+      "method": "Targeted page checks",
+      "result": "RRT enquiry caveat and LRTK guidance/general-form limits documented; LTSA/112 gaps remain.",
+      "status": "partial"
+    },
+    {
+      "country": "Luxembourg",
+      "method": "Targeted page and browser checks",
+      "result": "ATM article readable in browser; existing candidate retained, no completed-remediation claim.",
+      "status": "partial"
+    },
+    {
+      "country": "Malta",
+      "method": "Targeted failed reader/browser checks",
+      "result": "CRPD investigations content still blocked for this client; independent browser check requested.",
+      "status": "partial"
+    },
+    {
+      "country": "Netherlands",
+      "method": "Targeted search only",
+      "result": "ACM24March2026 statistics already recorded; no later retest/sanction verified.",
+      "status": "partial"
+    },
+    {
+      "country": "Poland",
+      "method": "Targeted search only",
+      "result": "Results about regulator own-site accessibility/procurement are not EAA rail enforcement. No prohibited retry of previously security-blocked UTK source.",
+      "status": "partial"
+    },
+    {
+      "country": "Portugal",
+      "method": "Targeted search only",
+      "result": "IGAC own-site WAD statement is not EAA activity. Existing agency-intake gaps and prior failures preserved.",
+      "status": "partial"
+    },
+    {
+      "country": "Romania",
+      "method": "Targeted failed reader/browser checks",
+      "result": "ANCOM502/HTTP2 error; no source-content verification or website-outage conclusion.",
+      "status": "partial"
+    },
+    {
+      "country": "Slovakia",
+      "method": "Targeted search only",
+      "result": "SOI own-site WAD statement rejected as EAA evidence; relevant news coverage remains partial.",
+      "status": "partial"
+    },
+    {
+      "country": "Slovenia",
+      "method": "Targeted search only",
+      "result": "March2026 legal-amendment result already in preceding research; not a new alert.",
+      "status": "partial"
+    },
+    {
+      "country": "Spain",
+      "method": "Targeted page/PDF text checks",
+      "result": "General interim complaint form/signature and jurisdiction limits clarified; not dedicated EAA company filing.",
+      "status": "partial"
+    },
+    {
+      "country": "Sweden",
+      "method": "Targeted search only",
+      "result": "PTS complaint/tillsyn results already recorded; existing KU7 branch and merged95 preserved.",
+      "status": "partial"
+    }
+  ],
+  "queries": [
+    {
+      "query": "site:bundesfachstelle-barrierefreiheit.de BFSG Marktüberwachung 2026",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "MLBF launch and strategy results overlap earlier recorded guidance; no new actual case verified."
+    },
+    {
+      "query": "site:acm.nl toegankelijkheid toezicht 2026 webwinkels",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "ACM24March2026 statistics already recorded; no later retest/sanction verified."
+    },
+    {
+      "query": "site:saavutettavuusvaatimukset.fi valvonta 2026 päätökset",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "End-2025 notification totals read; broader complaint/monitoring figures not treated as EAA-only."
+    },
+    {
+      "query": "site:sik.dk tilgængelighed kontrol 2026",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "Control-guidance result not a case outcome. PR96 retains sole-country queue; no duplicate mailbox work."
+    },
+    {
+      "query": "site:utk.gov.pl dostępność 2026 kontrola",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "Results about regulator own-site accessibility/procurement are not EAA rail enforcement. No prohibited retry of previously security-blocked UTK source."
+    },
+    {
+      "query": "site:igac.gov.pt acessibilidade 2026 fiscalização",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "IGAC own-site WAD statement is not EAA activity. Existing agency-intake gaps and prior failures preserved."
+    },
+    {
+      "query": "site:agid.gov.it accessibilità servizi 2026 vigilanza",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "AgID article now readable in browser; PDF cover visible. Full operative regulation and authenticated intake still unverified."
+    },
+    {
+      "query": "site:pts.se tillgänglighetslagen 2026 tillsyn beslut",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "PTS complaint/tillsyn results already recorded; existing KU7 branch and merged95 preserved."
+    },
+    {
+      "query": "site:ccpc.ie accessibility 2026 enforcement",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "CCPC remit/obligation results overlap existing facts; no new enforcement outcome established."
+    },
+    {
+      "query": "site:ptac.gov.lv piekļūstamība 2026 pārbaudes",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "PTAC current guidance result retained as existing-source lead; specific company filing destination remains separate."
+    },
+    {
+      "query": "site:ttja.ee ligipääsetavus 2026 järelevalve",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "Returned public-sector2025 monitoring news, excluded as EAA-only evidence. No new country-complete claim."
+    },
+    {
+      "query": "site:mnb.hu akadálymentesség 2026 vizsgálat",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "MNB financial complaint/powers result overlaps existing guidance; no actual new sanction verified."
+    },
+    {
+      "query": "site:economie.fgov.be accessibilité contrôle 2026",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "SPF guidance/form results overlap existing research; no new verified development or adopted-rule inference."
+    },
+    {
+      "query": "site:hakom.hr pristupačnost 2026 nadzor",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "NN114/2026 amendment read; new authority-name and sanctions-context candidates."
+    },
+    {
+      "query": "site:soi.sk prístupnosť 2026 kontrola",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "SOI own-site WAD statement rejected as EAA evidence; relevant news coverage remains partial."
+    },
+    {
+      "query": "site:gov.si dostopnost proizvodov storitev 2026 nadzor",
+      "method": "official-domain search engine1; recency60 requested; results may include older material",
+      "outcome": "March2026 legal-amendment result already in preceding research; not a new alert."
+    }
+  ]
+}

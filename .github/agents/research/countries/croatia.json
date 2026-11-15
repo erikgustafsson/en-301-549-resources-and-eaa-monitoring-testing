@@ -192,6 +192,18 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Retain as guidance context; any case claim needs a separate decision or monitoring source.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-ffd35c7f9261a6638dbcf345": {
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
     }
   },
   "domains": {
@@ -611,7 +623,8 @@
         "Follow-up: Resolve HNB/HANFA detailed product/provider allocation under their separate statutory competences; present shared limitation meanwhile.",
         "Run scope: baseline main ef277200cf90a84bb9dccd42036c7e9bac539245 includes merged Belgium PR18 and record. Five pilots and Austria skipped. Only Croatia research/table changed; workflows deferred and events date script untouched. Maximum ten-minute shared research/verification/language budget and two attempts per failing URL.",
         "Research cutoff: evidence checks and isolated language recheck completed within six minutes of shared ten-minute limit; follow-up searches for unconfirmed routes/statement practice produced no explicit usable confirmation. No full-verification claim. Draft preparation and local checks continue without new research.",
-        "EU27 bounded discovery 2026-11-15: HAKOM's 10 March 2026 leaflet announcement concerns user rights, complaints and accessibility. It is outreach, not evidence of a new EAA enforcement case or imposed fine. Evidence: source-a3866f9399dd42ac3d7b9656. Next: Retain as guidance context; any case claim needs a separate decision or monitoring source. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: HAKOM's 10 March 2026 leaflet announcement concerns user rights, complaints and accessibility. It is outreach, not evidence of a new EAA enforcement case or imposed fine. Evidence: source-a3866f9399dd42ac3d7b9656. Next: Retain as guidance context; any case claim needs a separate decision or monitoring source. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (adopted-amendment-114-2026): Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines. Evidence: source-ffd35c7f9261a6638dbcf345. Next: Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language."
       ]
     },
     "sanctions": {
@@ -645,6 +658,16 @@
       "language_check": "language-check.json",
       "source_refs": [
         "source-3257efdf3933571cc5eda85c"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-11-15",
+          "source_refs": [
+            "source-ffd35c7f9261a6638dbcf345"
+          ],
+          "status": "research_only",
+          "note": "EU27 gap follow-up 2026-11-15 (adopted-amendment-114-2026): Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines. Evidence: source-ffd35c7f9261a6638dbcf345. Next: Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language."
+        }
       ]
     },
     "enforcement": {
@@ -657,7 +680,8 @@
       "verified_on": "2026-09-25",
       "knowledge_notes": [
         "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
-        "All Monitoring agencies research, 25 September 2026: Read extracted 2026 work programme, especially pp.33–35 on users/accessibility. General accessibility projects, passenger rights and operator checks were not sufficiently tied to EAA duties to add a national EAA row. Existing Commission proceeding remains separate. Full sector/case inventory deferred."
+        "All Monitoring agencies research, 25 September 2026: Read extracted 2026 work programme, especially pp.33–35 on users/accessibility. General accessibility projects, passenger rights and operator checks were not sufficiently tied to EAA duties to add a national EAA row. Existing Commission proceeding remains separate. Full sector/case inventory deferred.",
+        "EU27 gap follow-up 2026-11-15 (adopted-amendment-114-2026): Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines. Evidence: source-ffd35c7f9261a6638dbcf345. Next: Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language."
       ],
       "public_entry_ids": [
         "commission-croatia-germany-1"
@@ -873,6 +897,55 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-croatia-adopted-amendment-114-2026",
+      "country": "Croatia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-ffd35c7f9261a6638dbcf345"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "research_only",
+          "reason": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages.",
+          "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "research_only",
+          "reason": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages.",
+          "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "research_only",
+          "reason": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages.",
+          "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

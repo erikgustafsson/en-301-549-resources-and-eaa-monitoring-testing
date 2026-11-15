@@ -391,6 +391,55 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-austria-tkg-scope",
+      "country": "Austria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-fb8a9481da1dc332a83f8a97"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Inspect the exact TKG emergency-call supervision provision and authority-specific procedure before changing 112 Unknown. General BaFG exemption duties do not by themselves establish a filing channel.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (tkg-scope): The ministry explicitly identifies BaFG and TKG 2021 (for emergency calls) as implementation instruments. This supports a legal-scope lead but does not identify receiver-side 112 oversight or a usable exemption filing destination. Evidence: source-fb8a9481da1dc332a83f8a97. Next: Inspect the exact TKG emergency-call supervision provision and authority-specific procedure before changing 112 Unknown. General BaFG exemption duties do not by themselves establish a filing channel.",
+          "next_action": "Inspect the exact TKG emergency-call supervision provision and authority-specific procedure before changing 112 Unknown. General BaFG exemption duties do not by themselves establish a filing channel.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/austria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-6-2026-09-27-031",
       "country": "Azerbaijan",
       "destinations": [
@@ -996,6 +1045,104 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-bulgaria-kzp-contact-limits",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-faf4458cd6102375b124a0bd"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (kzp-contact-limits): KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing. Evidence: source-faf4458cd6102375b124a0bd. Next: Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+          "next_action": "Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-bulgaria-cjeu-state-transposition-judgment",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-210800482a8cfd29377b3524"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "Bulgaria enforcement context: distinguish the CJEU's 19March2026 EUR1.5million Member-State lump sum in C-646/24 from national EAA business enforcement; source is the actual French judgment text, not the discovery snippet.",
+          "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "Bulgaria enforcement context: distinguish the CJEU's 19March2026 EUR1.5million Member-State lump sum in C-646/24 from national EAA business enforcement; source is the actual French judgment text, not the discovery snippet.",
+          "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-5-2026-09-27-cameroon",
       "country": "Cameroon",
       "destinations": [
@@ -1421,6 +1568,55 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-croatia-adopted-amendment-114-2026",
+      "country": "Croatia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-ffd35c7f9261a6638dbcf345"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "research_only",
+          "reason": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages.",
+          "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "research_only",
+          "reason": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages.",
+          "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "research_only",
+          "reason": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages.",
+          "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/croatia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-9-2026-09-27-531",
       "country": "Curaçao",
       "destinations": [
@@ -1644,6 +1840,57 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-czechia-ctu-company-routes",
+      "country": "Czechia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-76b3ef1a98463a21b5774321",
+        "source-aa84ec0d5dbcaec2b377814c",
+        "source-9e166133bb7017f5ea34531a"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "research_only",
+          "reason": "CTU: company non-compliance notification and advance exemption notification through ePortal form 5, data box a9qaats or recognised-electronic-signature email to podatelna@ctu.gov.cz; no claim of tested delivery.",
+          "next_action": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]
@@ -2115,6 +2362,55 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-finland-2025-notification-statistics",
+      "country": "Finland",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-e234312486ed7d447abf3e5f"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "research_only",
+          "reason": "Finland enforcement tracking: add Traficom's end-2025 snapshot of over 200 deficiency notifications and 24 exemption notifications, explicitly company notifications rather than confirmed infringements or imposed sanctions.",
+          "next_action": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "research_only",
+          "reason": "Finland enforcement tracking: add Traficom's end-2025 snapshot of over 200 deficiency notifications and 24 exemption notifications, explicitly company notifications rather than confirmed infringements or imposed sanctions.",
+          "next_action": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/finland.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "france-dgccrf-20260925",
       "country": "France",
       "recorded_on": "2026-09-25",
@@ -2317,6 +2613,107 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-france-arcom-ebook-routes",
+      "country": "France",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-4e263403977d61b9c0b35fdc",
+        "source-3da885e2ec806bd770832e06",
+        "source-fd15c623da831e22b07365af"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a France monitoring amendment for exact sector-specific public/company routes, preserving correspondence and language Unknowns. Restricted publisher-exemption portal remains unverified. No new e-book reference page.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "Arcom e-books: add observed public alert form and explicit non-compliance email; distinguish reading-software exemption email from restricted e-book-publisher campaign portal. Do not infer the latter is publicly usable.",
+          "next_action": "Queue a France monitoring amendment for exact sector-specific public/company routes, preserving correspondence and language Unknowns. Restricted publisher-exemption portal remains unverified. No new e-book reference page.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-france-arcom-other-law-news",
+      "country": "France",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-2f1a3ecd25ea0badf23edade",
+        "source-d062fc9609cbb088e8c475d3"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Retain as other_law research/context, excluded from EAA case totals. Any public enforcement inclusion needs explicit scope review and a dated outcome source; no fine or completed remediation claim.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (arcom-other-law-news): Arcom's 14 October 2026 announcement concerns formal notices to Editions Menges, 3L and Oskar Editeur about PLATON file deposits under the intellectual-property code. This is other-law accessibility enforcement, not evidence of an EAA infringement or an imposed fine. The Menges decision is dated 22 July 2026 and published 14 October 2026. It cites intellectual-property code L122-5-1 and orders compliance within two months of notification. Notification date and subsequent compliance outcome were not established. Evidence: source-2f1a3ecd25ea0badf23edade, source-d062fc9609cbb088e8c475d3. Next: Retain as other_law research/context, excluded from EAA case totals. Any public enforcement inclusion needs explicit scope review and a dated outcome source; no fine or completed remediation claim.",
+          "next_action": "Retain as other_law research/context, excluded from EAA case totals. Any public enforcement inclusion needs explicit scope review and a dated outcome source; no fine or completed remediation claim.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/france.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]
@@ -3487,6 +3884,56 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-italy-agid-regulation-access-recovered",
+      "country": "Italy",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-b132e683737360db9ecc9925",
+        "source-8dba805180f756f9b9e12dfd"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "adoption-baseline-japan-2026-09-27",
       "destinations": [
         {
@@ -4051,6 +4498,58 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-lithuania-rrt-lrtk-intake",
+      "country": "Lithuania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-07b8fb705560f729ef9695c4",
+        "source-90f21cdd5366aafedd8c6c8c",
+        "source-e4e0a6c272733238341491a9",
+        "source-aefae78ac7d2294aec69f91e"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "research_only",
+          "reason": "RRT public electronic-communications accessibility reports: link official accessibility guidance and Konsultacijos with the explicit unsigned/non-official-response limitation; keep formal complaints and company notifications separate.",
+          "next_action": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "research_only",
+          "reason": "RRT public electronic-communications accessibility reports: link official accessibility guidance and Konsultacijos with the explicit unsigned/non-official-response limitation; keep formal complaints and company notifications separate.",
+          "next_action": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/lithuania.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "luxembourg-osaps-20251117",
       "country": "Luxembourg",
       "recorded_on": "2026-09-25",
@@ -4225,6 +4724,56 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-luxembourg-access-recovery",
+      "country": "Luxembourg",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-0c4c6e821fd644cfa1087864",
+        "source-ae1789593ba8f952102bb9a9"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (access-recovery): The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence. Browser reads the ATM testing article, last modified 22 October 2026. OSAPS-initiated user testing is described; remaining improvements and future installation are explicit. This confirms access to the already-recorded monitoring-activity candidate, not completed nationwide remediation or a sanction. Evidence: source-0c4c6e821fd644cfa1087864, source-ae1789593ba8f952102bb9a9. Next: Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+          "next_action": "Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-2-2026-09-27-malaysia",
       "country": "Malaysia",
       "destinations": [
@@ -4311,6 +4860,55 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-malta-crpd-access-block",
+      "country": "Malta",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-15a78c995d81c54ab666a655"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (crpd-access-block): Reader and browser did not provide the investigations content. No change to last-good authority facts or intake claims. Evidence: source-15a78c995d81c54ab666a655. Next: Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence.",
+          "next_action": "Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/malta.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]
@@ -5340,6 +5938,55 @@
       ]
     },
     {
+      "id": "eu27-gap-20261115-romania-ancom-access-block",
+      "country": "Romania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-44f37a2bb6cc236706354702"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (ancom-access-block): Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage. Evidence: source-44f37a2bb6cc236706354702. Next: Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+          "next_action": "Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
       "id": "world-discovery-6-2026-09-27-682",
       "country": "Saudi Arabia",
       "destinations": [
@@ -5767,6 +6414,56 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-spain-interim-complaint-pdf",
+      "country": "Spain",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-95e15580bea4903c134f7d83",
+        "source-38a13ed82bd4b146b5892d75"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (interim-complaint-pdf): The general disability-infringement procedure distinguishes state competence where conduct affects more than one autonomous community from regional competence. It is the interim general procedure previously linked by UTAC, not a dedicated EAA company/exemption channel. The linked one-page complaint model requires identification, alleged facts/evidence and signature; submission follows Law 39/2015 article 16.4 channels. Its data-protection email is not a complaint filing address. The filename indicates a 2020 model; current linkage does not prove all historic office details are current. Evidence: source-95e15580bea4903c134f7d83, source-38a13ed82bd4b146b5892d75. Next: Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims.",
+          "next_action": "Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (interim-complaint-pdf): The general disability-infringement procedure distinguishes state competence where conduct affects more than one autonomous community from regional competence. It is the interim general procedure previously linked by UTAC, not a dedicated EAA company/exemption channel. The linked one-page complaint model requires identification, alleged facts/evidence and signature; submission follows Law 39/2015 article 16.4 channels. Its data-protection email is not a complaint filing address. The filename indicates a 2020 model; current linkage does not prove all historic office details are current. Evidence: source-95e15580bea4903c134f7d83, source-38a13ed82bd4b146b5892d75. Next: Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims.",
+          "next_action": "Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/spain.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

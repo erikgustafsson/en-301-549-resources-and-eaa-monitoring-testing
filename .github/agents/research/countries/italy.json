@@ -235,6 +235,34 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved.",
       "method": "ordinary browser",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-b132e683737360db9ecc9925": {
+      "url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+      "method": "web reader followed by ordinary browser",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+      "reader_error": "HTTP 403 Forbidden",
+      "browser_status": "reader_failed/browser_accessible"
+    },
+    "source-8dba805180f756f9b9e12dfd": {
+      "url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+      "method": "web reader followed by ordinary-browser visual access check",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+      "reader_error": "HTTP 403 Forbidden",
+      "browser_status": "reader_failed/browser_accessible"
     }
   },
   "domains": {
@@ -625,7 +653,8 @@
         "Follow-up: establish whether a regulator requires an EAA public page comparable to a statement beyond terms/equivalent document; current sources establish public information and removal of old declaration for specified private EAA providers.",
         "Follow-up: review consolidated legislation and June2026 vigilance regulation when institutional access succeeds. No full completeness claim; ten-minute shared research/verification limit observed.",
         "Cross-page handoff 2026-09-25 / seed-discovery-3-2026-09-25: resolved for public reports on 2 October 2026. A live browser check verified AgID's EAA reporting-platform notice and the canonical login page. Public reports for AgID-supervised private digital services are supported; SPID, CIE or eIDAS authentication is required. No authenticated submission was attempted, accepted reporting languages were not established, and the official source describes direct company reporting only as a future evolution. Products, transport terminals, company routes and 112 remain unresolved where separately recorded.",
-        "EU27 bounded discovery 2026-11-15: A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding. Evidence: source-48130d4eee37c84df1420882. Next: Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding. Evidence: source-48130d4eee37c84df1420882. Next: Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established."
       ]
     },
     "sanctions": {
@@ -659,6 +688,17 @@
       "language_check": "language-check.json",
       "source_refs": [
         "source-558a9f9152c934b539edc937"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-11-15",
+          "source_refs": [
+            "source-b132e683737360db9ecc9925",
+            "source-8dba805180f756f9b9e12dfd"
+          ],
+          "status": "research_only",
+          "note": "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established."
+        }
       ]
     },
     "enforcement": {
@@ -672,7 +712,8 @@
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
         "All Monitoring agencies research, 25 September 2026: Search snippets identified procedure/remit, including Law 4/2004 alongside EAA transposition. Both page retrievals failed; no actual EAA measure verified. Do not conflate WAD or large-company older-law oversight with EAA.",
-        "EU27 bounded discovery 2026-11-15: A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding. Evidence: source-48130d4eee37c84df1420882. Next: Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding. Evidence: source-48130d4eee37c84df1420882. Next: Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -905,6 +946,56 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-italy-agid-regulation-access-recovered",
+      "country": "Italy",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-b132e683737360db9ecc9925",
+        "source-8dba805180f756f9b9e12dfd"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (agid-regulation-access-recovered): AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold. Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read. Evidence: source-b132e683737360db9ecc9925, source-8dba805180f756f9b9e12dfd. Next: Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "next_action": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/italy.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

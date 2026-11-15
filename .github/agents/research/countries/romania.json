@@ -194,6 +194,20 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-44f37a2bb6cc236706354702": {
+      "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": null,
+      "access_result": "unreachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+      "method": "web reader and one ordinary-browser attempt",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+      "reader_error": "HTTP 502 Bad Gateway",
+      "browser_status": "net::ERR_HTTP2_PROTOCOL_ERROR"
     }
   },
   "domains": {
@@ -429,7 +443,8 @@
         "Follow-up: Romania / company non-compliance and exemptions — obtain the form, email or postal destination each Article 19 authority expects for Articles 13(2)(e) and 14(7), including accepted language. Owner: researcher.",
         "Follow-up: Romania / 112 — identify the competent authority and future public/company route for the Article 2(5) duty before it applies on 28 June 2027. Owner: researcher.",
         "Follow-up: Romania / official correspondence — the 9 February 2026 ADR email refers to attached official letter ADR 3190/16.01.2026, but that letter is absent from the supplied .eml; add it if recovered and reassess affected claims. Owner: contributor.",
-        "EU27 bounded discovery 2026-11-15: A targeted ANCOM search surfaced a potentially relevant prevention-law page, but the actual reader returned HTTP 502. The statute and several authority pages also failed. Snippets were not promoted to verified claims. Evidence: source-d2fa3a39fc6a361c6b8bcf8c. Next: Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: A targeted ANCOM search surfaced a potentially relevant prevention-law page, but the actual reader returned HTTP 502. The statute and several authority pages also failed. Snippets were not promoted to verified claims. Evidence: source-d2fa3a39fc6a361c6b8bcf8c. Next: Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (ancom-access-block): Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage. Evidence: source-44f37a2bb6cc236706354702. Next: Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it."
       ]
     },
     "sanctions": {
@@ -596,6 +611,55 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-romania-ancom-access-block",
+      "country": "Romania",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-44f37a2bb6cc236706354702"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (ancom-access-block): Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage. Evidence: source-44f37a2bb6cc236706354702. Next: Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+          "next_action": "Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/romania.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": null,
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

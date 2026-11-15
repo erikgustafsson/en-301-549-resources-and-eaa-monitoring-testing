@@ -171,6 +171,32 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-0c4c6e821fd644cfa1087864": {
+      "url": "https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
+    },
+    "source-ae1789593ba8f952102bb9a9": {
+      "url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Browser reads the ATM testing article, last modified 22 October 2026. OSAPS-initiated user testing is described; remaining improvements and future installation are explicit. This confirms access to the already-recorded monitoring-activity candidate, not completed nationwide remediation or a sanction.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+      "method": "web reader followed by ordinary browser",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+      "reader_error": "URL is not accessible via this tool.",
+      "browser_status": "reader_failed/browser_accessible"
     }
   },
   "domains": {
@@ -358,7 +384,8 @@
         "Follow-up: Identify the authority responsible for monitoring accessibility of reception of 112 and other national emergency communications; MyGuichet reporting to OSAPS is verified, but the legal authority clauses checked refer to Article 1(1)–(2), not the separate Article 1(3) scope.",
         "Research completed 24 September 2026 within the ten-minute budget. No form submitted and no email sent.",
         "Research intake 30 September 2026: In its reply of 25 September 2026, OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet. Canonical official-correspondence evidence: source-3cc093ad7e6114680d1233c1. Claim stored under enforcement because the monitoring source schema supports only public URLs. No authority, route or statement change established.",
-        "EU27 bounded discovery 2026-11-15: OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction. Evidence: source-2b746db7ad4182bb3efc52dc. Next: Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction. Evidence: source-2b746db7ad4182bb3efc52dc. Next: Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (access-recovery): The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence. Browser reads the ATM testing article, last modified 22 October 2026. OSAPS-initiated user testing is described; remaining improvements and future installation are explicit. This confirms access to the already-recorded monitoring-activity candidate, not completed nationwide remediation or a sanction. Evidence: source-0c4c6e821fd644cfa1087864, source-ae1789593ba8f952102bb9a9. Next: Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate."
       ]
     },
     "sanctions": {
@@ -408,7 +435,8 @@
         "All Monitoring agencies research, 25 September 2026: Read OSAPS homepage and declaration/exemption descriptions; no counts or dated enforcement activity identified. Public-sector website-monitoring data belongs to a different regime and was not used as EAA evidence.",
         "Cross-page intake 2026-09-25: OSAPS correspondence dated 17 November 2025 reports monitoring from 28 June 2025, no warnings as of that reply, nondisclosure of ongoing checks and intended publication of decisions. The original message is not available in this audit; preserve historical date and retrieve it before new public wording. The 24 September 2026 request for later warnings/decisions is unanswered in the canonical record. Canonical source/provenance: ../../research/luxembourg.json. This repository-only handoff is not a new country source-verification pass.",
         "Intake 30 September 2026 supersedes the earlier unanswered/missing-original notes for this thread: original supplied EML inspected, including the 25 September 2026 reply and quoted November 2025 exchanges. In its reply of 25 September 2026, OSAPS said it was still in the testing phase, had been able to resolve all issues, and had not needed to issue warnings or raise issues as yet. Attributed position as of the reply only. No named cases, counts, nationwide compliance, absence of penalties, specific legal procedure or published-decision outcome inferred. The reply does not explicitly answer the question about publication of decisions.",
-        "EU27 bounded discovery 2026-11-15: OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction. Evidence: source-2b746db7ad4182bb3efc52dc. Next: Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction. Evidence: source-2b746db7ad4182bb3efc52dc. Next: Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (access-recovery): The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence. Browser reads the ATM testing article, last modified 22 October 2026. OSAPS-initiated user testing is described; remaining improvements and future installation are explicit. This confirms access to the already-recorded monitoring-activity candidate, not completed nationwide remediation or a sanction. Evidence: source-0c4c6e821fd644cfa1087864, source-ae1789593ba8f952102bb9a9. Next: Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -714,6 +742,56 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-luxembourg-access-recovery",
+      "country": "Luxembourg",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-0c4c6e821fd644cfa1087864",
+        "source-ae1789593ba8f952102bb9a9"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (access-recovery): The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence. Browser reads the ATM testing article, last modified 22 October 2026. OSAPS-initiated user testing is described; remaining improvements and future installation are explicit. This confirms access to the already-recorded monitoring-activity candidate, not completed nationwide remediation or a sanction. Evidence: source-0c4c6e821fd644cfa1087864, source-ae1789593ba8f952102bb9a9. Next: Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+          "next_action": "Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/luxembourg.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

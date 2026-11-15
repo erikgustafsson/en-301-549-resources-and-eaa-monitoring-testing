@@ -287,6 +287,32 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-faf4458cd6102375b124a0bd": {
+      "url": "https://kzp.bg/bg/kontakti",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
+    },
+    "source-210800482a8cfd29377b3524": {
+      "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+      "method": "web reader followed by ordinary browser; French document text selected",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+      "reader_error": "Reader returned RPEX with no readable lines for the judgement result URL.",
+      "browser_status": "reader_failed/browser_accessible"
     }
   },
   "domains": {
@@ -661,7 +687,9 @@
         "Follow-up: Identify usable public, company-defect and exemption routes for other authorities before publishing them.",
         "Follow-up: Seek a government/monitoring-body instruction on a dedicated EAA public page; authority WAD statements are not evidence for that claim.",
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
-        "EU27 bounded discovery 2026-11-15: Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review. Evidence: source-bf9a615b8f45268224081caa. Next: Continue KZP sector-specific news and intake checks; do not infer company or exemption channels. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review. Evidence: source-bf9a615b8f45268224081caa. Next: Continue KZP sector-specific news and intake checks; do not infer company or exemption channels. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (kzp-contact-limits): KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing. Evidence: source-faf4458cd6102375b124a0bd. Next: Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+        "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
       ]
     },
     "sanctions": {
@@ -701,6 +729,16 @@
       "language_check": "language-check.json",
       "source_refs": [
         "source-ab31f6a5382d61d0aabd4751"
+      ],
+      "additional_research": [
+        {
+          "recorded_on": "2026-11-15",
+          "source_refs": [
+            "source-210800482a8cfd29377b3524"
+          ],
+          "status": "research_only",
+          "note": "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
+        }
       ]
     },
     "enforcement": {
@@ -713,7 +751,8 @@
       "verified_on": null,
       "knowledge_notes": [
         "No public country row is required for research coverage. The bounded search below does not establish absence of enforcement.",
-        "All Monitoring agencies research, 25 September 2026: Retrieved authority-hosted law text (33-page PDF) through web extraction. Legislative requirements are not evidence of checks. No case identified in these targeted search results; decision registers and all sector authorities not exhaustively reviewed."
+        "All Monitoring agencies research, 25 September 2026: Retrieved authority-hosted law text (33-page PDF) through web extraction. Legislative requirements are not evidence of checks. No case identified in these targeted search results; decision registers and all sector authorities not exhaustively reviewed.",
+        "EU27 gap follow-up 2026-11-15 (cjeu-state-transposition-judgment): InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified. Evidence: source-210800482a8cfd29377b3524. Next: Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
       ],
       "public_entry_ids": [],
       "attempts": [
@@ -902,6 +941,104 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-bulgaria-kzp-contact-limits",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-faf4458cd6102375b124a0bd"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "EU27 gap follow-up 2026-11-15 (kzp-contact-limits): KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing. Evidence: source-faf4458cd6102375b124a0bd. Next: Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+          "next_action": "Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-bulgaria-cjeu-state-transposition-judgment",
+      "country": "Bulgaria",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-210800482a8cfd29377b3524"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "Bulgaria enforcement context: distinguish the CJEU's 19March2026 EUR1.5million Member-State lump sum in C-646/24 from national EAA business enforcement; source is the actual French judgment text, not the discovery snippet.",
+          "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "research_only",
+          "reason": "Bulgaria enforcement context: distinguish the CJEU's 19March2026 EUR1.5million Member-State lump sum in C-646/24 from national EAA business enforcement; source is the actual French judgment text, not the discovery snippet.",
+          "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/bulgaria.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]

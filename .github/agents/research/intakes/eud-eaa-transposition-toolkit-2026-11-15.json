@@ -1,0 +1,64 @@
+{
+  "id": "eud-eaa-transposition-toolkit-2026-11-15",
+  "checked_on": "2026-11-15",
+  "source_url": "https://eud.eu/eud/toolkits/european-accessibility-act-toolkit-for-transposition/",
+  "supplied_url": "https://eud.eu/eud/toolkits/european-accessibility-act-toolkit-for-transposition/#elementor-toc__heading-anchor-0",
+  "title": "European Accessibility Act – Toolkit for transposition",
+  "publisher": "European Union of the Deaf (EUD)",
+  "source_language": "en",
+  "source_type": "secondary_advocacy_guidance",
+  "source_date": null,
+  "event_date": null,
+  "access": {
+    "status": "reader_accessible",
+    "method": "web reader",
+    "scope": "Inspected HTML toolkit sections; embedded sign-language videos and linked documents were not independently reviewed."
+  },
+  "source_summary": "Transposition toolkit for disability advocates, developed with EDF input. Useful research prompts cover service compliance and accessible complaints (sections 11, 14–15), exemption assessment (13), legal remedies and penalties (17–18), and monitoring/review (19). Section 12 highlights receiver-side 112, real-time text and total conversation. Advocacy recommendations are distinguished from its legal summaries. Sections 20–21 retain older standards references, including EN 301 549 V3.1.1.",
+  "verification_status": "unverified_source",
+  "verification_scope": "Resource identity, relevant sections and potential research use inspected; not verification of legal interpretation, current standards status, national implementation or any operational intake.",
+  "research_use": [
+    "Use as a gap-checking checklist during authorised country passes, not as a country completion criterion.",
+    "Check primary legislation and authority procedures before adding a claim. Do not infer reporting languages, a dedicated statement, usable filing channels, enforcement actions or adopted national rules.",
+    "Treat timeline and standards references as historical leads requiring current primary confirmation; source publication/update date was not established.",
+    "Keep accessible complaint procedures, company notifications and exemption routes separate. Review receiver-side emergency communication separately from telecom-provider duties."
+  ],
+  "dispositions": {
+    "EAA authorities and reporting by country.md": {
+      "status": "research_only",
+      "reason": "Checklist for sector/purpose-specific authority and intake questions; no national factual change established.",
+      "next_action": "Use as a research prompt when relevant; persist any corroborating country evidence in its canonical domain."
+    },
+    "EAA enforcement tracking.md": {
+      "status": "research_only",
+      "reason": "Prompts for monitoring/review and remedies; not evidence of an actual case, completed remediation or statistics.",
+      "next_action": "Use as a research prompt when relevant; persist any corroborating country evidence in its canonical domain."
+    },
+    "EAA sanctions.md": {
+      "status": "research_only",
+      "reason": "Locate current primary provisions before considering national penalties; advocacy is not enacted law.",
+      "next_action": "Use as a research prompt when relevant; persist any corroborating country evidence in its canonical domain."
+    },
+    "EN 301 549 adoption.md": {
+      "status": "research_only",
+      "reason": "Historical standards pointers do not establish national adoption, current edition or EU citation.",
+      "next_action": "Use as a research prompt when relevant; persist any corroborating country evidence in its canonical domain."
+    },
+    "EAA and WAD standards.md": {
+      "status": "research_only",
+      "reason": "Confirm current issuing-body and Official Journal evidence separately.",
+      "next_action": "Use as a research prompt when relevant; persist any corroborating country evidence in its canonical domain."
+    },
+    "E-book accessibility metadata.md": {
+      "status": "not_applicable",
+      "reason": "No e-book-specific new evidence or separate reference-page infrastructure proposed.",
+      "next_action": null
+    }
+  },
+  "delivery": {
+    "record_path": ".github/agents/research/intakes/eud-eaa-transposition-toolkit-2026-11-15.json",
+    "public_changes": false,
+    "country_record_changes": "None attributable to this general resource; no country-specific fact established.",
+    "scope_limit": "Research-only intake in testing repository; no new schedule, authority claim, public page or country rollout."
+  }
+}

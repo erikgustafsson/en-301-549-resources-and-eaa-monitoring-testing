@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
+  "sources": [
+    {
+      "id": "eu27-austria-21c51d3583eb",
+      "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html",
+      "country": "Austria"
+    },
+    {
+      "id": "eu27-belgium-e5ed855a44bb",
+      "url": "https://economie.fgov.be/sites/default/files/Files/Entreprises/Guidelines-accessibilite-services-bancaires.pdf",
+      "country": "Belgium"
+    },
+    {
+      "id": "eu27-bulgaria-9a6d94b088fc",
+      "url": "https://kzp.bg/bg/potrebiteli/good-to-know/advices",
+      "country": "Bulgaria"
+    },
+    {
+      "id": "eu27-croatia-5bac5470cab3",
+      "url": "https://www.hakom.hr/hr/upoznajte-svoja-prava-novi-digitalni-letak-i-tiskana-brosura-hakom-a/12488",
+      "country": "Croatia"
+    },
+    {
+      "id": "eu27-cyprus-cbe1551ec67e",
+      "url": "https://e-consultation.gov.cy/diavouleuseis/νομοσχεδιο-με-τιτλο-νομοσ-που-τροπο-4",
+      "country": "Cyprus"
+    },
+    {
+      "id": "eu27-czechia-af11de07eab8",
+      "url": "https://ctu.gov.cz/pristupnost-sluzeb",
+      "country": "Czechia"
+    },
+    {
+      "id": "eu27-denmark-a975082589a7",
+      "url": "https://www.finanstilsynet.dk/tilsyn/inspektionsredegoerelser-og-afgoerelser/2026",
+      "country": "Denmark"
+    },
+    {
+      "id": "eu27-estonia-edf99e868de1",
+      "url": "https://www.ttja.ee/ariklient/ettevotlus/ligipaasetavus/teenuste-digiligipaasetavus",
+      "country": "Estonia"
+    },
+    {
+      "id": "eu27-finland-9ad3232e3cc9",
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/tee-saavutettavuuskantelu-tai-pyyda-selvitysta",
+      "country": "Finland"
+    },
+    {
+      "id": "eu27-france-66e56a4d639a",
+      "url": "https://www.arcom.fr/nous-connaitre/nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale",
+      "country": "France"
+    },
+    {
+      "id": "eu27-germany-e4bedc35d22c",
+      "url": "https://www.mlbf-barrierefrei.de/",
+      "country": "Germany"
+    },
+    {
+      "id": "eu27-greece-fce6d507972a",
+      "url": "https://www.eett.gr/en/submit-a-complaint/",
+      "country": "Greece"
+    },
+    {
+      "id": "eu27-hungary-9320e01b60a0",
+      "url": "https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg",
+      "country": "Hungary"
+    },
+    {
+      "id": "eu27-ireland-c92aa5326381",
+      "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+      "country": "Ireland"
+    },
+    {
+      "id": "eu27-italy-c87aade7511e",
+      "url": "https://www.agid.gov.it/it/agenzia/difensore-civico-il-digitale",
+      "country": "Italy"
+    },
+    {
+      "id": "eu27-latvia-33f21a76740f",
+      "url": "https://www.ptac.gov.lv/lv/pieklustamibas-prasibas",
+      "country": "Latvia"
+    },
+    {
+      "id": "eu27-lithuania-ae7d02bd06e9",
+      "url": "https://vvtat.lrv.lt/lt/naujienos-ir-pranesimai-ziniasklaidai-377/vvtat-primena-apie-prieinamumo-reikalavimu-isigaliojima/",
+      "country": "Lithuania"
+    },
+    {
+      "id": "eu27-luxembourg-7c9d387460e5",
+      "url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
+      "country": "Luxembourg"
+    },
+    {
+      "id": "eu27-malta-30494a1f5002",
+      "url": "https://www.crpd.org.mt/investigations/",
+      "country": "Malta"
+    },
+    {
+      "id": "eu27-netherlands-e4a4e0fbbf8d",
+      "url": "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
+      "country": "Netherlands"
+    },
+    {
+      "id": "eu27-poland-2e2c3be6edfb",
+      "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/dochodzenie-roszczen/",
+      "country": "Poland"
+    },
+    {
+      "id": "eu27-portugal-afd7ee6066c9",
+      "url": "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos",
+      "country": "Portugal"
+    },
+    {
+      "id": "eu27-romania-f967f30dd34d",
+      "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+      "country": "Romania"
+    },
+    {
+      "id": "eu27-slovakia-e9f61704ef7a",
+      "url": "https://rpms.sk/formular-na-podavanie-podnetov-tykajucich-sa-multimodalneho-pristupu",
+      "country": "Slovakia"
+    },
+    {
+      "id": "eu27-slovenia-edfbd19c6ef7",
+      "url": "https://www.gov.si/novice/2026-03-03-dostopnost-do-proizvodov-in-storitev-za-invalide/",
+      "country": "Slovenia"
+    },
+    {
+      "id": "eu27-spain-18cecd115ab4",
+      "url": "https://www.dsca.gob.es/en/derechos-sociales/discapacidad/unidad-tecnica-apoyo-coordinacion-autoridades-vigilancia-materia",
+      "country": "Spain"
+    },
+    {
+      "id": "eu27-sweden-ce4bafd22057",
+      "url": "https://www.pts.se/om-oss/fran-pts-till-digitaliseringsmyndigheten--praktisk-information/",
+      "country": "Sweden"
+    },
+    {
+      "id": "eu27-url-d4b5f0abe17b55124c8b",
+      "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+      "country": "Czechia"
+    },
+    {
+      "id": "eu27-url-4f76c405525b52c5674d",
+      "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+      "country": "Czechia"
+    },
+    {
+      "id": "eu27-url-582950e9869e6cc860fd",
+      "url": "https://eportal.ctu.gov.cz/form/5",
+      "country": "Czechia"
+    },
+    {
+      "id": "eu27-url-fa70df2d80f9151734fb",
+      "url": "https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre",
+      "country": "France"
+    },
+    {
+      "id": "eu27-url-b85c037486f4751c4015",
+      "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite",
+      "country": "France"
+    },
+    {
+      "id": "eu27-url-ebe0efce2b771047f9d1",
+      "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite/etape-1",
+      "country": "France"
+    },
+    {
+      "id": "eu27-url-fb020381933bd4aa832e",
+      "url": "https://www.arcom.fr/presse/accessibilite-des-livres-larcom-met-en-demeure-les-societes-editions-menges-3l-et-oskar-editeur-de-se-conformer-leurs-obligations-en-faveur-des-personnes-en-situation-de-handicap",
+      "country": "France"
+    },
+    {
+      "id": "eu27-url-30d4fc73e93a7f1bc426",
+      "url": "https://www.arcom.fr/se-documenter/espace-juridique/decisions/decision-du-22-juillet-2026-mettant-en-demeure-la-societe-des-editions-menges",
+      "country": "France"
+    },
+    {
+      "id": "eu27-url-26385eabebaf83d86464",
+      "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+      "country": "Lithuania"
+    },
+    {
+      "id": "eu27-url-f7e23982172aa8530688",
+      "url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+      "country": "Lithuania"
+    },
+    {
+      "id": "eu27-url-023faa7fa3768e334b3f",
+      "url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+      "country": "Lithuania"
+    },
+    {
+      "id": "eu27-url-07bc81b9fa2e64f67e32",
+      "url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+      "country": "Lithuania"
+    },
+    {
+      "id": "eu27-url-69f2c00e8634418b33ac",
+      "url": "https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html",
+      "country": "Luxembourg"
+    },
+    {
+      "id": "eu27-url-404fe98b12f877409657",
+      "url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+      "country": "Spain"
+    },
+    {
+      "id": "eu27-url-85240264816af2e9ee6a",
+      "url": "https://www.dsca.gob.es/sites/default/files/derechos-sociales/discapacidad/docs/Modelo_denuncia_13112020.pdf",
+      "country": "Spain"
+    },
+    {
+      "id": "eu27-url-9c619a3e321a7e1ec44b",
+      "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+      "country": "Austria"
+    },
+    {
+      "id": "eu27-url-2b1b33791461c90b558f",
+      "url": "https://kzp.bg/bg/kontakti",
+      "country": "Bulgaria"
+    },
+    {
+      "id": "eu27-url-9458faf82f302330ff8f",
+      "url": "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta",
+      "country": "Finland"
+    },
+    {
+      "id": "eu27-url-89459518e5828e5d2196",
+      "url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+      "country": "Italy"
+    },
+    {
+      "id": "eu27-url-2f5fbd28f203066a9cff",
+      "url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+      "country": "Italy"
+    },
+    {
+      "id": "eu27-url-df78655b7f964af68825",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html",
+      "country": "Croatia"
+    },
+    {
+      "id": "eu27-url-6e6de51b67350f782664",
+      "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+      "country": "Bulgaria"
+    }
+  ]
+}

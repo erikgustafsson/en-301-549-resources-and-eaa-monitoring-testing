@@ -173,6 +173,44 @@
       "provenance_note": "Research-only paraphrase, not a publication-reviewed claim. Verify precise filing destinations independently; no reporting-language inference.",
       "method": "web reader",
       "origin_freshness": "Web-reader origin/cache freshness not guaranteed; HTTP probe alone is not claim verification."
+    },
+    "source-76b3ef1a98463a21b5774321": {
+      "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Government service S70787 tells covered electronic-communications service providers to inform CTU immediately about non-compliance, its nature/causes and corrective measures. It specifies ePortal form 5, data box a9qaats, or podatelna@ctu.gov.cz with a recognised electronic signature. This is company notification, not a generic enquiry or a consumer complaint.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
+    },
+    "source-aa84ec0d5dbcaec2b377814c": {
+      "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Government service S70662 separately describes advance notification before providing a service relying on fundamental alteration/disproportionate burden. It requests description, reasons, unmet requirements and assessment date, with the same ePortal/data-box/signed-email options. It does not establish accepted reporting languages.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+      "method": "web reader",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately."
+    },
+    "source-9e166133bb7017f5ea34531a": {
+      "url": "https://eportal.ctu.gov.cz/form/5",
+      "source_type": "official_government",
+      "attempted_on": "2026-11-15",
+      "retrieved_on": "2026-11-15",
+      "access_result": "reachable",
+      "reference": "EU27 gap follow-up 2026-11-15",
+      "passage": "Browser rendered form 5 without signing in: natural-person/sole-trader/legal-person choices, situation and attachment sections, consent choices, and data-box/email sending buttons. No fields entered, credentials used, validation or submission attempted. The government pages establish purpose; this observation only establishes visible intake, not successful delivery.",
+      "provenance_note": "Research-only; not a publication-reviewed claim. Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+      "method": "web reader followed by ordinary browser",
+      "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+      "reader_error": "Reader returned Formulář se připravuje and Došlo k chybě Načíst znovu; no usable intake in reader.",
+      "browser_status": "reader_failed/browser_accessible"
     }
   },
   "domains": {
@@ -417,7 +455,8 @@
         "Run scope: baseline main includes merged Cyprus PR #20. Only Czechia research/table files are proposed; workflows deferred and .github/scripts/check-verification-dates.py untouched.",
         "Research cutoff: official-source research and verification stopped within the ten-minute country budget; unsupported routes remain Unknown.",
         "Follow-up: Email contact awaiting reply. Erik reported on 2026-09-24 that no response has been received to email contact for Czechia. The email date, recipient and original message were not supplied.",
-        "EU27 bounded discovery 2026-11-15: CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published. Evidence: source-d1092db3a931ab86c9a6229b. Next: Verify precise filing destinations independently; no reporting-language inference. Coverage remains partial; no existing claim/verification date changed."
+        "EU27 bounded discovery 2026-11-15: CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published. Evidence: source-d1092db3a931ab86c9a6229b. Next: Verify precise filing destinations independently; no reporting-language inference. Coverage remains partial; no existing claim/verification date changed.",
+        "EU27 gap follow-up 2026-11-15 (ctu-company-routes): Government service S70787 tells covered electronic-communications service providers to inform CTU immediately about non-compliance, its nature/causes and corrective measures. It specifies ePortal form 5, data box a9qaats, or podatelna@ctu.gov.cz with a recognised electronic signature. This is company notification, not a generic enquiry or a consumer complaint. Government service S70662 separately describes advance notification before providing a service relying on fundamental alteration/disproportionate burden. It requests description, reasons, unmet requirements and assessment date, with the same ePortal/data-box/signed-email options. It does not establish accepted reporting languages. Browser rendered form 5 without signing in: natural-person/sole-trader/legal-person choices, situation and attachment sections, consent choices, and data-box/email sending buttons. No fields entered, credentials used, validation or submission attempted. The government pages establish purpose; this observation only establishes visible intake, not successful delivery. Evidence: source-76b3ef1a98463a21b5774321, source-aa84ec0d5dbcaec2b377814c, source-9e166133bb7017f5ea34531a. Next: Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved."
       ]
     },
     "sanctions": {
@@ -752,6 +791,57 @@
           "disposition": "not_applicable",
           "reason": "This bounded observation establishes no new claim for this page. Existing content and unknowns are preserved.",
           "next_action": "No duplicate public change; preserve scoped evidence and existing review gates.",
+          "pr": null
+        }
+      ]
+    },
+    {
+      "id": "eu27-gap-20261115-czechia-ctu-company-routes",
+      "country": "Czechia",
+      "recorded_on": "2026-11-15",
+      "status": "research_only",
+      "source_refs": [
+        "source-76b3ef1a98463a21b5774321",
+        "source-aa84ec0d5dbcaec2b377814c",
+        "source-9e166133bb7017f5ea34531a"
+      ],
+      "reason": "Targeted follow-up of existing evidence gaps. Source observations do not assert publication approval or a newly changed rule.",
+      "next_action": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "research_only",
+          "reason": "CTU: company non-compliance notification and advance exemption notification through ePortal form 5, data box a9qaats or recognised-electronic-signature email to podatelna@ctu.gov.cz; no claim of tested delivery.",
+          "next_action": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+          "pr": null
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
+          "pr": null
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/czechia.json",
+          "disposition": "not_applicable",
+          "reason": "No new supported public claim for this domain; preserve existing evidence and unknowns.",
+          "next_action": "No duplicate public change.",
           "pr": null
         }
       ]
