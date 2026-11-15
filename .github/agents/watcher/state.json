@@ -6026,11 +6026,8 @@
     "pending": 1,
     "attempted_this_run": 23
   },
-  "lease": {
-    "owner": "eu27-local-browser-20261115-1794759531000",
-    "expires_at": "2026-11-15T17:03:51.000Z"
-  },
-  "updated_at": "2026-11-15T16:18:51.000Z",
+  "lease": null,
+  "updated_at": "2026-11-15T16:24:32Z",
   "source_mapping": {
     "Denmark": {
       "record_path": ".github/agents/research/countries/denmark.json",
@@ -8510,7 +8507,8 @@
       "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
       "processed_runs": [
         "eu27-2026-11-15-1794732692743",
-        "eu27-gap-followup-1794748899451"
+        "eu27-gap-followup-1794748899451",
+        "eu27-local-browser-20261115"
       ],
       "sources": {
         "eu27-austria-21c51d3583eb": {
@@ -9022,23 +9020,31 @@
         "eu27-malta-30494a1f5002": {
           "url": "https://www.crpd.org.mt/investigations/",
           "country": "Malta",
-          "status": "unreachable",
-          "failure_runs": 2,
-          "last_good": null,
-          "failure_alerted": true,
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case."
+            },
+            "final_url": "https://www.crpd.org.mt/investigations/",
+            "checked_on": "2026-11-15",
+            "fingerprint": "717e2494a06bda93503060659246aec62cff4861449b6e7cd9dfd958078d406a"
+          },
+          "failure_alerted": false,
           "failure_started_run": "eu27-2026-11-15-1794732692743",
           "last_checked_on": "2026-11-15",
           "last_observation": {
             "source_id": "eu27-malta-30494a1f5002",
-            "status": "unreachable",
-            "method": "web reader and one ordinary-browser attempt",
-            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
-            "evidence_summary": "Reader and browser did not provide the investigations content. No change to last-good authority facts or intake claims.",
-            "facts": null,
-            "final_url": null,
-            "next_check": "Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence.",
-            "reader_error": "HTTP 403 Forbidden",
-            "browser_status": "Browser displayed: Your request was blocked."
+            "status": "reachable",
+            "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+            "origin_freshness": "Local Chrome rendering observed 2026-11-15; origin/cache freshness not independently guaranteed.",
+            "evidence_summary": "The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case.",
+            "facts": {
+              "scoped_observation": "The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case."
+            },
+            "final_url": "https://www.crpd.org.mt/investigations/",
+            "next_check": "Access blocker resolved. Retain the other-law scope; establish an explicit EAA remit and reporting purpose before adding this as an EAA route.",
+            "browser_status": "reader_failed/browser_accessible"
           }
         },
         "eu27-netherlands-e4a4e0fbbf8d": {
@@ -9128,23 +9134,31 @@
         "eu27-romania-f967f30dd34d": {
           "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
           "country": "Romania",
-          "status": "unreachable",
-          "failure_runs": 2,
-          "last_good": null,
-          "failure_alerted": true,
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties."
+            },
+            "final_url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+            "checked_on": "2026-11-15",
+            "fingerprint": "5ee1ecd36c91272d58a327d8d6cfbe5eae6b0d4d5e3ff1e788d8e16723433b49"
+          },
+          "failure_alerted": false,
           "failure_started_run": "eu27-2026-11-15-1794732692743",
           "last_checked_on": "2026-11-15",
           "last_observation": {
             "source_id": "eu27-romania-f967f30dd34d",
-            "status": "unreachable",
-            "method": "web reader and one ordinary-browser attempt",
-            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
-            "evidence_summary": "Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage.",
-            "facts": null,
-            "final_url": null,
-            "next_check": "Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
-            "reader_error": "HTTP 502 Bad Gateway",
-            "browser_status": "net::ERR_HTTP2_PROTOCOL_ERROR"
+            "status": "reachable",
+            "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+            "origin_freshness": "Local Chrome rendering observed 2026-11-15; origin/cache freshness not independently guaranteed.",
+            "evidence_summary": "Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties.",
+            "facts": {
+              "scoped_observation": "Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties."
+            },
+            "final_url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+            "next_check": "Access blocker resolved. Compare the offence mapping and measures with current consolidated Law 232/2022 before a sanctions-table amendment. Confirm sector scope separately; public/company/exemption routes and the missing ADR attachment remain unresolved.",
+            "browser_status": "reader_failed/browser_accessible"
           }
         },
         "eu27-slovakia-e9f61704ef7a": {
@@ -9882,6 +9896,93 @@
             "reader_error": "Reader returned RPEX with no readable lines for the judgement result URL.",
             "browser_status": "reader_failed/browser_accessible"
           }
+        },
+        "eu27-url-f2fc7d07e7d30a2ae444": {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+          "country": "Bulgaria",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment."
+            },
+            "final_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+            "checked_on": "2026-11-15",
+            "fingerprint": "3915be226e832fe7f28fca71f9b9b70767ac4e56c92c90adde7276b5fb13c6af"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-f2fc7d07e7d30a2ae444",
+            "status": "reachable",
+            "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+            "origin_freshness": "Local Chrome rendering observed 2026-11-15; origin/cache freshness not independently guaranteed.",
+            "evidence_summary": "The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment.",
+            "facts": {
+              "scoped_observation": "The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment."
+            },
+            "final_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+            "next_check": "Use the English notice to support the existing separately scoped EU-level transposition-enforcement candidate. Do not create a duplicate case or add the sum to national business-penalty ranges.",
+            "browser_status": "reader_failed/browser_accessible"
+          }
+        },
+        "eu27-url-da9308c5e745efdc6dd9": {
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+          "country": "Bulgaria",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified."
+            },
+            "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+            "checked_on": "2026-11-15",
+            "fingerprint": "3a7b2c34cf61ea4035dec5fee9bda6796a5f355d490e1daa3997ef6a370853ca"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-da9308c5e745efdc6dd9",
+            "status": "reachable",
+            "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+            "origin_freshness": "Local Chrome rendering observed 2026-11-15; origin/cache freshness not independently guaranteed.",
+            "evidence_summary": "The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified.",
+            "facts": {
+              "scoped_observation": "The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified."
+            },
+            "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+            "next_check": "Preserve French document language separately from English interface; reuse the existing EU-level case candidate subject to publication review.",
+            "browser_status": "reader_failed/browser_accessible"
+          }
+        },
+        "eu27-url-4e174b9cfb314923ce54": {
+          "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22",
+          "country": "Bulgaria",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement."
+            },
+            "final_url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+            "checked_on": "2026-11-15",
+            "fingerprint": "7d759e5a6d41366c0c8151b1e0ed476d915c51cbca5e6dfa9fe09f1d422d7534"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-4e174b9cfb314923ce54",
+            "status": "reachable",
+            "method": "Local Chrome; direct requested URL and rendered accessibility-tree inspection",
+            "origin_freshness": "Local Chrome rendering observed 2026-11-15; origin/cache freshness not independently guaranteed.",
+            "evidence_summary": "After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement.",
+            "facts": {
+              "scoped_observation": "After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement."
+            },
+            "final_url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+            "next_check": "Access blocker resolved. Retain exact requested and normalized final URLs. Case identity corroborates the existing candidate; no duplicate event.",
+            "browser_status": "reader_failed/browser_accessible"
+          }
         }
       },
       "events": [
@@ -10023,15 +10124,37 @@
             "publication_status": "Not publication-reviewed; Denmark draft96 occupies one-country queue",
             "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
           }
+        },
+        {
+          "id": "a46214b060da404143cb27b41e2d1d167f97ebd8dd84cd68f3725ecf67cbc144",
+          "source_id": "eu27-malta-30494a1f5002",
+          "kind": "access_recovered",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-local-browser-20261115",
+          "review_status": "pending",
+          "details": {
+            "message": "Source readable again; no automatic factual change."
+          }
+        },
+        {
+          "id": "965a529022ef30ea653f42e2c65f7e5201003f47c3df18e3abcdfe23cdbfc573",
+          "source_id": "eu27-romania-f967f30dd34d",
+          "kind": "access_recovered",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-local-browser-20261115",
+          "review_status": "pending",
+          "details": {
+            "message": "Source readable again; no automatic factual change."
+          }
         }
       ],
       "discovery": {},
       "last_run_on": "2026-11-15",
       "coverage": {
-        "registered": 49,
-        "readable_baselines": 47,
+        "registered": 52,
+        "readable_baselines": 52,
         "pending": 0,
-        "attempted_this_run": 25
+        "attempted_this_run": 5
       }
     },
     "inventory": {
@@ -10281,6 +10404,21 @@
         {
           "id": "eu27-url-6e6de51b67350f782664",
           "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+          "country": "Bulgaria"
+        },
+        {
+          "id": "eu27-url-f2fc7d07e7d30a2ae444",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+          "country": "Bulgaria"
+        },
+        {
+          "id": "eu27-url-da9308c5e745efdc6dd9",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+          "country": "Bulgaria"
+        },
+        {
+          "id": "eu27-url-4e174b9cfb314923ce54",
+          "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22",
           "country": "Bulgaria"
         }
       ]
@@ -10587,8 +10725,8 @@
       "queue_blocker": 96
     },
     "coverage": "Follow-up: 12 countries with targeted actual-page/failed-access checks; 15 search-only. No full monthly or all-country completion claimed. Prior pilot root state untouched.",
-    "report": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-gap-followup-2026-11-15/README.md",
-    "browser_requests": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-gap-followup-2026-11-15/access-attempts.json",
+    "report": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-local-browser-2026-11-15/README.md",
+    "browser_requests": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-local-browser-2026-11-15/access-attempts.json",
     "previous_passes": [
       {
         "research_run_id": "eu27-2026-11-15-1794732692743",
@@ -11065,18 +11203,44 @@
       {
         "url": "https://www.crpd.org.mt/investigations/",
         "reader_error": "HTTP 403 Forbidden",
-        "browser_result": "Your request was blocked.",
-        "status": "browser_verification_needed",
+        "browser_result": "The Investigations Unit page is readable in local Chrome. It describes complaints by persons with disabilities and family members under the Equal Opportunities (Persons with Disability) Act, investigations, amicable resolution and possible court action; it gives investigations@crpd.org.mt for that team. This is broad disability-discrimination information under that Act. It does not itself establish an EAA-specific public, company or exemption route, or an actual EAA enforcement case.",
+        "status": "reader_failed/browser_accessible",
         "checked_on": "2026-11-15",
-        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+        "history": [
+          {
+            "url": "https://www.crpd.org.mt/investigations/",
+            "reader_error": "HTTP 403 Forbidden",
+            "browser_result": "Your request was blocked.",
+            "status": "browser_verification_needed",
+            "checked_on": "2026-11-15",
+            "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+            "history": []
+          }
+        ],
+        "browser_method": "local Chrome",
+        "final_url": "https://www.crpd.org.mt/investigations/"
       },
       {
         "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
         "reader_error": "HTTP 502 Bad Gateway",
-        "browser_result": "net::ERR_HTTP2_PROTOCOL_ERROR",
-        "status": "browser_verification_needed",
+        "browser_result": "Local Chrome rendered the page and the expanded Law 232/2022 offences table. Article 27(1)(f) maps breach of Article 13(1) to RON 6,000–12,000; (g) maps Article 13(2)(a)–(d) to RON 7,000–15,000; (h) maps Article 13(3) to RON 6,000–12,000; (i) maps Article 13(2)(e) to RON 7,000–15,000; (j) maps Article 13(2)(f)–(g) to RON 5,000–10,000. These rows concern service providers and cite Article 27(2) for measures. This establishes EAA-related statutory-sanctions guidance on the page, not an imposed fine, full sector-by-sector jurisdiction or a reporting destination. The table label Notificare: nu is not interpreted as removing service-provider notification duties.",
+        "status": "reader_failed/browser_accessible",
         "checked_on": "2026-11-15",
-        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+        "history": [
+          {
+            "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+            "reader_error": "HTTP 502 Bad Gateway",
+            "browser_result": "net::ERR_HTTP2_PROTOCOL_ERROR",
+            "status": "browser_verification_needed",
+            "checked_on": "2026-11-15",
+            "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+            "history": []
+          }
+        ],
+        "browser_method": "local Chrome",
+        "final_url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/"
       },
       {
         "url": "https://eportal.ctu.gov.cz/form/5",
@@ -11113,26 +11277,65 @@
       {
         "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
         "reader_error": "JavaScript disabled / robot check",
-        "browser_result": "Redirected to https://eur-lex.europa.eu/TodayOJ/index.html?uri=CELEX:62024CA0646; temporary availability warning; requested notice not obtained",
-        "status": "browser_verification_needed",
+        "browser_result": "The requested notice rendered in English without the previous TodayOJ redirect. OJ C/2026/2861, published 8 June 2026, reproduces the operative part of the 19 March 2026 judgment in C-646/24. It orders the Republic of Bulgaria to pay the Commission a EUR 1,500,000 lump sum for failure to transpose/notify Directive 2019/882, plus costs. This corroborates the recorded Member-State case; it is not a national business fine or proof of payment.",
+        "status": "reader_failed/browser_accessible",
         "checked_on": "2026-11-15",
-        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+        "history": [
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+            "reader_error": "JavaScript disabled / robot check",
+            "browser_result": "Redirected to https://eur-lex.europa.eu/TodayOJ/index.html?uri=CELEX:62024CA0646; temporary availability warning; requested notice not obtained",
+            "status": "browser_verification_needed",
+            "checked_on": "2026-11-15",
+            "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+            "history": []
+          }
+        ],
+        "browser_method": "local Chrome",
+        "final_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646"
       },
       {
         "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
         "reader_error": "JavaScript disabled / robot check",
-        "browser_result": "Exact URL not attempted in browser",
-        "status": "browser_verification_needed",
+        "browser_result": "The exact EN-interface URL is readable. EUR-Lex explicitly says the document is unavailable in the interface language and displays the French judgment; its available HTML languages are Bulgarian and French. C-646/24, 19 March 2026, ECLI:EU:C:2026:221: paragraph 31 records withdrawal of the periodic-penalty request; paragraph 123 records complete transposition on 11 April 2025 and 1,017 days of failure; paragraph 127 and operative point 2 impose EUR 1,500,000 on the Republic of Bulgaria. This corroborates the earlier French InfoCuria reading, not a new business sanction. Payment remains unverified.",
+        "status": "reader_failed/browser_accessible",
         "checked_on": "2026-11-15",
-        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+        "history": [
+          {
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+            "reader_error": "JavaScript disabled / robot check",
+            "browser_result": "Exact URL not attempted in browser",
+            "status": "browser_verification_needed",
+            "checked_on": "2026-11-15",
+            "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+            "history": []
+          }
+        ],
+        "browser_method": "local Chrome",
+        "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646"
       },
       {
         "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22",
         "reader_error": "Reader returned zero content lines",
-        "browser_result": "Exact case-overview URL not attempted in browser",
-        "status": "browser_verification_needed",
+        "browser_result": "After the client-side page finished loading, the case overview displayed C-646/24 as Closed, Court of Justice, Ninth Chamber, lodged 4 October 2024 and delivered 19 March 2026. It identifies Directive 2019/882 Article 31(1), the judgment ECLI:EU:C:2026:221 and the OJ notice of 8 June 2026, with links to the corresponding EUR-Lex documents. The overview corroborates case identity and status; it does not establish payment or business enforcement.",
+        "status": "reader_failed/browser_accessible",
         "checked_on": "2026-11-15",
-        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+        "history": [
+          {
+            "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22",
+            "reader_error": "Reader returned zero content lines",
+            "browser_result": "Exact case-overview URL not attempted in browser",
+            "status": "browser_verification_needed",
+            "checked_on": "2026-11-15",
+            "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim.",
+            "history": []
+          }
+        ],
+        "browser_method": "local Chrome",
+        "final_url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522"
       },
       {
         "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
@@ -11149,6 +11352,24 @@
         "record": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/research/intakes/eud-eaa-transposition-toolkit-2026-11-15.json",
         "status": "research_only"
       }
-    ]
+    ],
+    "local_browser_followups": [
+      {
+        "run_id": "eu27-local-browser-20261115",
+        "checked_on": "2026-11-15",
+        "report": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-local-browser-2026-11-15/README.md",
+        "resolved_access_urls": [
+          "https://www.crpd.org.mt/investigations/",
+          "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+          "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+          "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+          "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22"
+        ],
+        "unresolved_access_urls": [],
+        "coverage": "Only five exact outstanding URLs; no new full-monthly or all-country completion. Other gaps retained.",
+        "research_commit": "858eb9de3b5c9d401abd7c3c86b3ac15cb7f9e81"
+      }
+    ],
+    "local_browser_completion": "All five requested access checks resolved; substantive/publication gaps remain. Belgium correspondence captured separately as user-requested intake."
   }
 }
