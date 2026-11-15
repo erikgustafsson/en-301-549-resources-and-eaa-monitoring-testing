@@ -6026,8 +6026,11 @@
     "pending": 1,
     "attempted_this_run": 23
   },
-  "lease": null,
-  "updated_at": "2026-11-15T10:01:24.875Z",
+  "lease": {
+    "owner": "eu27-testing-access-retry-1794739168790",
+    "expires_at": "2026-11-15T11:25:05.316Z"
+  },
+  "updated_at": "2026-11-15T10:40:05.316Z",
   "source_mapping": {
     "Denmark": {
       "record_path": ".github/agents/research/countries/denmark.json",
