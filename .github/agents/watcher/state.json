@@ -6026,11 +6026,8 @@
     "pending": 1,
     "attempted_this_run": 23
   },
-  "lease": {
-    "owner": "eu27-gap-followup-1794748899451",
-    "expires_at": "2026-11-15T14:06:39.451Z"
-  },
-  "updated_at": "2026-11-15T13:21:39.451Z",
+  "lease": null,
+  "updated_at": "2026-11-15T13:47:09.688Z",
   "source_mapping": {
     "Denmark": {
       "record_path": ".github/agents/research/countries/denmark.json",
@@ -8482,6 +8479,26 @@
         "eu27-testing-access-retry-1794739168790|publication-success"
       ],
       "pilot_promoted": false
+    },
+    {
+      "run_id": "eu27-gap-followup-1794748899451",
+      "mode": "EU27 targeted gap follow-up and user-supplied EUD resource intake; testing-only research branch",
+      "started_at": "2026-11-15T13:21:39.451Z",
+      "finished_at": "2026-11-15T13:47:09.688Z",
+      "status": "partial_research_published",
+      "research_commit": "d4fd56fec640d58cd002a139717594790449ef24",
+      "research_branch": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/research/eu27-link-discovery-2026-11-15",
+      "new_pr": null,
+      "existing_draft_pr": 96,
+      "validation": "12 country envelopes, 25 new evidence sources, 14 four-page deliveries; nine watcher tests and targeted helper replay pass. Full validator inherited fingerprint mismatch remains. Remote tree equals local tree. No public wording or main changes.",
+      "coverage": "Follow-up: 12 countries with targeted actual-page/failed-access checks; 15 search-only. No full monthly or all-country completion claimed. Prior pilot root state untouched.",
+      "notification_ids": [
+        "eu27-gap-followup-1794748899451|start-origin-chat",
+        "eu27-gap-followup-1794748899451|outcome-origin-chat",
+        "eu27-gap-followup-1794748899451|reader-failures-origin-chat"
+      ],
+      "pilot_promoted": false,
+      "metrics": "No cost/token metrics available; timestamps record overall run, not per-country active research time."
     }
   ],
   "manual_eu27": {
@@ -8489,7 +8506,8 @@
       "version": 1,
       "repository": "erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing",
       "processed_runs": [
-        "eu27-2026-11-15-1794732692743"
+        "eu27-2026-11-15-1794732692743",
+        "eu27-gap-followup-1794748899451"
       ],
       "sources": {
         "eu27-austria-21c51d3583eb": {
@@ -8986,34 +9004,38 @@
           "last_observation": {
             "source_id": "eu27-luxembourg-7c9d387460e5",
             "status": "reachable",
-            "method": "official web-reader inspection; browser where recorded in summary",
-            "origin_freshness": "Observed 2026-11-15; web reader may use cached origin content. No guarantee of origin freshness. Browser observations identified separately.",
-            "evidence_summary": "OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction.",
+            "method": "web reader followed by ordinary browser",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Browser reads the ATM testing article, last modified 22 October 2026. OSAPS-initiated user testing is described; remaining improvements and future installation are explicit. This confirms access to the already-recorded monitoring-activity candidate, not completed nationwide remediation or a sanction.",
             "facts": {
               "scoped_observation": "OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction."
             },
             "final_url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
-            "next_check": "Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes."
+            "next_check": "Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+            "reader_error": "URL is not accessible via this tool.",
+            "browser_status": "reader_failed/browser_accessible"
           }
         },
         "eu27-malta-30494a1f5002": {
           "url": "https://www.crpd.org.mt/investigations/",
           "country": "Malta",
           "status": "unreachable",
-          "failure_runs": 1,
+          "failure_runs": 2,
           "last_good": null,
-          "failure_alerted": false,
+          "failure_alerted": true,
           "failure_started_run": "eu27-2026-11-15-1794732692743",
           "last_checked_on": "2026-11-15",
           "last_observation": {
             "source_id": "eu27-malta-30494a1f5002",
             "status": "unreachable",
-            "method": "official web-reader inspection; browser where recorded in summary",
-            "origin_freshness": "Observed 2026-11-15; web reader may use cached origin content. No guarantee of origin freshness. Browser observations identified separately.",
-            "evidence_summary": "Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt.",
+            "method": "web reader and one ordinary-browser attempt",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Reader and browser did not provide the investigations content. No change to last-good authority facts or intake claims.",
             "facts": null,
             "final_url": null,
-            "next_check": "Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts."
+            "next_check": "Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence.",
+            "reader_error": "HTTP 403 Forbidden",
+            "browser_status": "Browser displayed: Your request was blocked."
           }
         },
         "eu27-netherlands-e4a4e0fbbf8d": {
@@ -9104,20 +9126,22 @@
           "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
           "country": "Romania",
           "status": "unreachable",
-          "failure_runs": 1,
+          "failure_runs": 2,
           "last_good": null,
-          "failure_alerted": false,
+          "failure_alerted": true,
           "failure_started_run": "eu27-2026-11-15-1794732692743",
           "last_checked_on": "2026-11-15",
           "last_observation": {
             "source_id": "eu27-romania-f967f30dd34d",
             "status": "unreachable",
-            "method": "official web-reader inspection; browser where recorded in summary",
-            "origin_freshness": "Observed 2026-11-15; web reader may use cached origin content. No guarantee of origin freshness. Browser observations identified separately.",
-            "evidence_summary": "A targeted ANCOM search surfaced a potentially relevant prevention-law page, but the actual reader returned HTTP 502. The statute and several authority pages also failed. Snippets were not promoted to verified claims.",
+            "method": "web reader and one ordinary-browser attempt",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage.",
             "facts": null,
             "final_url": null,
-            "next_check": "Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved."
+            "next_check": "Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+            "reader_error": "HTTP 502 Bad Gateway",
+            "browser_status": "net::ERR_HTTP2_PROTOCOL_ERROR"
           }
         },
         "eu27-slovakia-e9f61704ef7a": {
@@ -9231,16 +9255,780 @@
             "final_url": "https://www.pts.se/om-oss/fran-pts-till-digitaliseringsmyndigheten--praktisk-information/",
             "next_check": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes."
           }
+        },
+        "eu27-url-d4b5f0abe17b55124c8b": {
+          "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+          "country": "Czechia",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Government service S70787 tells covered electronic-communications service providers to inform CTU immediately about non-compliance, its nature/causes and corrective measures. It specifies ePortal form 5, data box a9qaats, or podatelna@ctu.gov.cz with a recognised electronic signature. This is company notification, not a generic enquiry or a consumer complaint."
+            },
+            "final_url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+            "checked_on": "2026-11-15",
+            "fingerprint": "3c71cdbdf01e2e04e9d6363afc0b7bf00bb3fa8cfef61c535141cd9fee5b2281"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-d4b5f0abe17b55124c8b",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Government service S70787 tells covered electronic-communications service providers to inform CTU immediately about non-compliance, its nature/causes and corrective measures. It specifies ePortal form 5, data box a9qaats, or podatelna@ctu.gov.cz with a recognised electronic signature. This is company notification, not a generic enquiry or a consumer complaint.",
+            "facts": {
+              "scoped_observation": "Government service S70787 tells covered electronic-communications service providers to inform CTU immediately about non-compliance, its nature/causes and corrective measures. It specifies ePortal form 5, data box a9qaats, or podatelna@ctu.gov.cz with a recognised electronic signature. This is company notification, not a generic enquiry or a consumer complaint."
+            },
+            "final_url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+            "next_check": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved."
+          }
+        },
+        "eu27-url-4f76c405525b52c5674d": {
+          "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+          "country": "Czechia",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Government service S70662 separately describes advance notification before providing a service relying on fundamental alteration/disproportionate burden. It requests description, reasons, unmet requirements and assessment date, with the same ePortal/data-box/signed-email options. It does not establish accepted reporting languages."
+            },
+            "final_url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+            "checked_on": "2026-11-15",
+            "fingerprint": "d5b5ae68a1405542873e841bd8ec963545340d6797b50491d7d9cbd0f7df7401"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-4f76c405525b52c5674d",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Government service S70662 separately describes advance notification before providing a service relying on fundamental alteration/disproportionate burden. It requests description, reasons, unmet requirements and assessment date, with the same ePortal/data-box/signed-email options. It does not establish accepted reporting languages.",
+            "facts": {
+              "scoped_observation": "Government service S70662 separately describes advance notification before providing a service relying on fundamental alteration/disproportionate burden. It requests description, reasons, unmet requirements and assessment date, with the same ePortal/data-box/signed-email options. It does not establish accepted reporting languages."
+            },
+            "final_url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+            "next_check": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved."
+          }
+        },
+        "eu27-url-582950e9869e6cc860fd": {
+          "url": "https://eportal.ctu.gov.cz/form/5",
+          "country": "Czechia",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Browser rendered form 5 without signing in: natural-person/sole-trader/legal-person choices, situation and attachment sections, consent choices, and data-box/email sending buttons. No fields entered, credentials used, validation or submission attempted. The government pages establish purpose; this observation only establishes visible intake, not successful delivery."
+            },
+            "final_url": "https://eportal.ctu.gov.cz/form/5",
+            "checked_on": "2026-11-15",
+            "fingerprint": "95f39602a5f3094ebd4d79f8ed0646392b3e574e6cd686360ba994d1e382681e"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-582950e9869e6cc860fd",
+            "status": "reachable",
+            "method": "web reader followed by ordinary browser",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Browser rendered form 5 without signing in: natural-person/sole-trader/legal-person choices, situation and attachment sections, consent choices, and data-box/email sending buttons. No fields entered, credentials used, validation or submission attempted. The government pages establish purpose; this observation only establishes visible intake, not successful delivery.",
+            "facts": {
+              "scoped_observation": "Browser rendered form 5 without signing in: natural-person/sole-trader/legal-person choices, situation and attachment sections, consent choices, and data-box/email sending buttons. No fields entered, credentials used, validation or submission attempted. The government pages establish purpose; this observation only establishes visible intake, not successful delivery."
+            },
+            "final_url": "https://eportal.ctu.gov.cz/form/5",
+            "next_check": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+            "reader_error": "Reader returned Formulář se připravuje and Došlo k chybě Načíst znovu; no usable intake in reader.",
+            "browser_status": "reader_failed/browser_accessible"
+          }
+        },
+        "eu27-url-fa70df2d80f9151734fb": {
+          "url": "https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre",
+          "country": "France",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Arcom specifies accessibilite.livresnumeriques@arcom.fr for operator non-compliance notifications and public e-book accessibility reports. Reading-software publishers may notify exemptions by this email at any time. E-book publishers instead use a restricted collection portal in campaigns (January/July after the initial campaigns); no working portal address or authenticated intake was observed. These are distinct purposes."
+            },
+            "final_url": "https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre",
+            "checked_on": "2026-11-15",
+            "fingerprint": "62e3f52766f4d356272f5707fcd8f986f5225755f137241583c6368ad9d73d16"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-fa70df2d80f9151734fb",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Arcom specifies accessibilite.livresnumeriques@arcom.fr for operator non-compliance notifications and public e-book accessibility reports. Reading-software publishers may notify exemptions by this email at any time. E-book publishers instead use a restricted collection portal in campaigns (January/July after the initial campaigns); no working portal address or authenticated intake was observed. These are distinct purposes.",
+            "facts": {
+              "scoped_observation": "Arcom specifies accessibilite.livresnumeriques@arcom.fr for operator non-compliance notifications and public e-book accessibility reports. Reading-software publishers may notify exemptions by this email at any time. E-book publishers instead use a restricted collection portal in campaigns (January/July after the initial campaigns); no working portal address or authenticated intake was observed. These are distinct purposes."
+            },
+            "final_url": "https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre",
+            "next_check": "Queue a France monitoring amendment for exact sector-specific public/company routes, preserving correspondence and language Unknowns. Restricted publisher-exemption portal remains unverified. No new e-book reference page."
+          }
+        },
+        "eu27-url-b85c037486f4751c4015": {
+          "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite",
+          "country": "France",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Official instructions include e-books/reading software in the public alert form. Access-to-audiovisual-service complaints are directed instead to the contact form with subject Accessibilité des programmes. Hardware complaints belong to DGCCRF. Article 47 website requirements on the same page must not be generalized to EAA e-book statements."
+            },
+            "final_url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite",
+            "checked_on": "2026-11-15",
+            "fingerprint": "64935f5a39b6cd52453d8be07b6841d6faeecdb8e07617444fae0000e8eaa152"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-b85c037486f4751c4015",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Official instructions include e-books/reading software in the public alert form. Access-to-audiovisual-service complaints are directed instead to the contact form with subject Accessibilité des programmes. Hardware complaints belong to DGCCRF. Article 47 website requirements on the same page must not be generalized to EAA e-book statements.",
+            "facts": {
+              "scoped_observation": "Official instructions include e-books/reading software in the public alert form. Access-to-audiovisual-service complaints are directed instead to the contact form with subject Accessibilité des programmes. Hardware complaints belong to DGCCRF. Article 47 website requirements on the same page must not be generalized to EAA e-book statements."
+            },
+            "final_url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite",
+            "next_check": "Queue a France monitoring amendment for exact sector-specific public/company routes, preserving correspondence and language Unknowns. Restricted publisher-exemption portal remains unverified. No new e-book reference page."
+          }
+        },
+        "eu27-url-ebe0efce2b771047f9d1": {
+          "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite/etape-1",
+          "country": "France",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Following Commencer rendered step 1 of 5 with a Livre numérique et logiciel de lecture service option and e-book title/publisher/acquisition fields. No login wall at this step. Nothing entered or submitted; later steps and delivery not tested."
+            },
+            "final_url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite/etape-1",
+            "checked_on": "2026-11-15",
+            "fingerprint": "84ac35bf7b893418d63680cb244a92a5649fca9c9227cf2db98ba9322cca4e4f"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-ebe0efce2b771047f9d1",
+            "status": "reachable",
+            "method": "ordinary browser",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Following Commencer rendered step 1 of 5 with a Livre numérique et logiciel de lecture service option and e-book title/publisher/acquisition fields. No login wall at this step. Nothing entered or submitted; later steps and delivery not tested.",
+            "facts": {
+              "scoped_observation": "Following Commencer rendered step 1 of 5 with a Livre numérique et logiciel de lecture service option and e-book title/publisher/acquisition fields. No login wall at this step. Nothing entered or submitted; later steps and delivery not tested."
+            },
+            "final_url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite/etape-1",
+            "next_check": "Queue a France monitoring amendment for exact sector-specific public/company routes, preserving correspondence and language Unknowns. Restricted publisher-exemption portal remains unverified. No new e-book reference page."
+          }
+        },
+        "eu27-url-fb020381933bd4aa832e": {
+          "url": "https://www.arcom.fr/presse/accessibilite-des-livres-larcom-met-en-demeure-les-societes-editions-menges-3l-et-oskar-editeur-de-se-conformer-leurs-obligations-en-faveur-des-personnes-en-situation-de-handicap",
+          "country": "France",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Arcom's 14 October 2026 announcement concerns formal notices to Editions Menges, 3L and Oskar Editeur about PLATON file deposits under the intellectual-property code. This is other-law accessibility enforcement, not evidence of an EAA infringement or an imposed fine."
+            },
+            "final_url": "https://www.arcom.fr/presse/accessibilite-des-livres-larcom-met-en-demeure-les-societes-editions-menges-3l-et-oskar-editeur-de-se-conformer-leurs-obligations-en-faveur-des-personnes-en-situation-de-handicap",
+            "checked_on": "2026-11-15",
+            "fingerprint": "d7e28358e6f74aed88ee3e7f361bce652fe2b3334d0f9751cecb3edd2c7d5b86"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-fb020381933bd4aa832e",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Arcom's 14 October 2026 announcement concerns formal notices to Editions Menges, 3L and Oskar Editeur about PLATON file deposits under the intellectual-property code. This is other-law accessibility enforcement, not evidence of an EAA infringement or an imposed fine.",
+            "facts": {
+              "scoped_observation": "Arcom's 14 October 2026 announcement concerns formal notices to Editions Menges, 3L and Oskar Editeur about PLATON file deposits under the intellectual-property code. This is other-law accessibility enforcement, not evidence of an EAA infringement or an imposed fine."
+            },
+            "final_url": "https://www.arcom.fr/presse/accessibilite-des-livres-larcom-met-en-demeure-les-societes-editions-menges-3l-et-oskar-editeur-de-se-conformer-leurs-obligations-en-faveur-des-personnes-en-situation-de-handicap",
+            "next_check": "Retain as other_law research/context, excluded from EAA case totals. Any public enforcement inclusion needs explicit scope review and a dated outcome source; no fine or completed remediation claim."
+          }
+        },
+        "eu27-url-30d4fc73e93a7f1bc426": {
+          "url": "https://www.arcom.fr/se-documenter/espace-juridique/decisions/decision-du-22-juillet-2026-mettant-en-demeure-la-societe-des-editions-menges",
+          "country": "France",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The Menges decision is dated 22 July 2026 and published 14 October 2026. It cites intellectual-property code L122-5-1 and orders compliance within two months of notification. Notification date and subsequent compliance outcome were not established."
+            },
+            "final_url": "https://www.arcom.fr/se-documenter/espace-juridique/decisions/decision-du-22-juillet-2026-mettant-en-demeure-la-societe-des-editions-menges",
+            "checked_on": "2026-11-15",
+            "fingerprint": "4fc398e4a8691b328b9d034d64f4ef84727d7a63ae5d44a31d9c48ba0db6b9e9"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-30d4fc73e93a7f1bc426",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "The Menges decision is dated 22 July 2026 and published 14 October 2026. It cites intellectual-property code L122-5-1 and orders compliance within two months of notification. Notification date and subsequent compliance outcome were not established.",
+            "facts": {
+              "scoped_observation": "The Menges decision is dated 22 July 2026 and published 14 October 2026. It cites intellectual-property code L122-5-1 and orders compliance within two months of notification. Notification date and subsequent compliance outcome were not established."
+            },
+            "final_url": "https://www.arcom.fr/se-documenter/espace-juridique/decisions/decision-du-22-juillet-2026-mettant-en-demeure-la-societe-des-editions-menges",
+            "next_check": "Retain as other_law research/context, excluded from EAA case totals. Any public enforcement inclusion needs explicit scope review and a dated outcome source; no fine or completed remediation claim."
+          }
+        },
+        "eu27-url-26385eabebaf83d86464": {
+          "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+          "country": "Lithuania",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "RRT distinguishes provider-first dispute resolution from reports of possible electronic-communications accessibility violations. For the latter it links to Konsultacijos. This supports the reporting purpose, not company/exemption filing."
+            },
+            "final_url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+            "checked_on": "2026-11-15",
+            "fingerprint": "3f2bada372515b75d16230d626ef830a8a00854f63595d2cf2da508790180ab4"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-26385eabebaf83d86464",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "RRT distinguishes provider-first dispute resolution from reports of possible electronic-communications accessibility violations. For the latter it links to Konsultacijos. This supports the reporting purpose, not company/exemption filing.",
+            "facts": {
+              "scoped_observation": "RRT distinguishes provider-first dispute resolution from reports of possible electronic-communications accessibility violations. For the latter it links to Konsultacijos. This supports the reporting purpose, not company/exemption filing."
+            },
+            "final_url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+            "next_check": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved."
+          }
+        },
+        "eu27-url-f7e23982172aa8530688": {
+          "url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+          "country": "Lithuania",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The linked page (updated 26 August 2025) displays an enquiry form and expressly says it is unsigned, not a written application, and the response is an employee opinion rather than RRT's official position. An unsigned email receives the same caveat. Do not label this as a formal signed complaint route."
+            },
+            "final_url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+            "checked_on": "2026-11-15",
+            "fingerprint": "824e5790314d9456fa6cb96285d07fa861b6e06b570d090d68ecf213c73185e4"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-f7e23982172aa8530688",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "The linked page (updated 26 August 2025) displays an enquiry form and expressly says it is unsigned, not a written application, and the response is an employee opinion rather than RRT's official position. An unsigned email receives the same caveat. Do not label this as a formal signed complaint route.",
+            "facts": {
+              "scoped_observation": "The linked page (updated 26 August 2025) displays an enquiry form and expressly says it is unsigned, not a written application, and the response is an employee opinion rather than RRT's official position. An unsigned email receives the same caveat. Do not label this as a formal signed complaint route."
+            },
+            "final_url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+            "next_check": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved."
+          }
+        },
+        "eu27-url-023faa7fa3768e334b3f": {
+          "url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+          "country": "Lithuania",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "LRTK guidance associated with decision KS-37 of 23 April 2025 states that users may complain to LRTK after attempting resolution with the audiovisual-access service provider (paragraph 35); paragraph 30 requires exemption notification but gives no specific filing destination. These are guidance/powers, not evidence of an actual investigation. Recommendations are explicitly non-binding explanatory material."
+            },
+            "final_url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+            "checked_on": "2026-11-15",
+            "fingerprint": "ee6c734d2f2c99ff3a7b793f9feeb740470aacd72ff0f3bfac64a8a7f6fefb9c"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-023faa7fa3768e334b3f",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "LRTK guidance associated with decision KS-37 of 23 April 2025 states that users may complain to LRTK after attempting resolution with the audiovisual-access service provider (paragraph 35); paragraph 30 requires exemption notification but gives no specific filing destination. These are guidance/powers, not evidence of an actual investigation. Recommendations are explicitly non-binding explanatory material.",
+            "facts": {
+              "scoped_observation": "LRTK guidance associated with decision KS-37 of 23 April 2025 states that users may complain to LRTK after attempting resolution with the audiovisual-access service provider (paragraph 35); paragraph 30 requires exemption notification but gives no specific filing destination. These are guidance/powers, not evidence of an actual investigation. Recommendations are explicitly non-binding explanatory material."
+            },
+            "final_url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+            "next_check": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved."
+          }
+        },
+        "eu27-url-07bc81b9fa2e64f67e32": {
+          "url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+          "country": "Lithuania",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "General LRTK submission instructions list in-person/post/fax, lrtk@rtk.lt and an online form. The form asks programme/broadcast details and a security code. Its suitability for all EAA access-service cases and company exemptions is not demonstrated; no CAPTCHA, form or email was submitted."
+            },
+            "final_url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+            "checked_on": "2026-11-15",
+            "fingerprint": "0ed3561fffe8ab9f776701bb53864c6079db234ecddfc662fb837424bc3877a8"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-07bc81b9fa2e64f67e32",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "General LRTK submission instructions list in-person/post/fax, lrtk@rtk.lt and an online form. The form asks programme/broadcast details and a security code. Its suitability for all EAA access-service cases and company exemptions is not demonstrated; no CAPTCHA, form or email was submitted.",
+            "facts": {
+              "scoped_observation": "General LRTK submission instructions list in-person/post/fax, lrtk@rtk.lt and an online form. The form asks programme/broadcast details and a security code. Its suitability for all EAA access-service cases and company exemptions is not demonstrated; no CAPTCHA, form or email was submitted."
+            },
+            "final_url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+            "next_check": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved."
+          }
+        },
+        "eu27-url-69f2c00e8634418b33ac": {
+          "url": "https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html",
+          "country": "Luxembourg",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence."
+            },
+            "final_url": "https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html",
+            "checked_on": "2026-11-15",
+            "fingerprint": "4bee3449040a5e42a3a19a4f9ac083b30a40c0e8df11fd0f476cb6aa4ed730ed"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-69f2c00e8634418b33ac",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence.",
+            "facts": {
+              "scoped_observation": "The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence."
+            },
+            "final_url": "https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html",
+            "next_check": "Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate."
+          }
+        },
+        "eu27-url-404fe98b12f877409657": {
+          "url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+          "country": "Spain",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The general disability-infringement procedure distinguishes state competence where conduct affects more than one autonomous community from regional competence. It is the interim general procedure previously linked by UTAC, not a dedicated EAA company/exemption channel."
+            },
+            "final_url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+            "checked_on": "2026-11-15",
+            "fingerprint": "53b9b1f07f5ca04553bc78007df05073d4295e30b935f732ae3e185ec599761b"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-404fe98b12f877409657",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "The general disability-infringement procedure distinguishes state competence where conduct affects more than one autonomous community from regional competence. It is the interim general procedure previously linked by UTAC, not a dedicated EAA company/exemption channel.",
+            "facts": {
+              "scoped_observation": "The general disability-infringement procedure distinguishes state competence where conduct affects more than one autonomous community from regional competence. It is the interim general procedure previously linked by UTAC, not a dedicated EAA company/exemption channel."
+            },
+            "final_url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+            "next_check": "Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims."
+          }
+        },
+        "eu27-url-85240264816af2e9ee6a": {
+          "url": "https://www.dsca.gob.es/sites/default/files/derechos-sociales/discapacidad/docs/Modelo_denuncia_13112020.pdf",
+          "country": "Spain",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The linked one-page complaint model requires identification, alleged facts/evidence and signature; submission follows Law 39/2015 article 16.4 channels. Its data-protection email is not a complaint filing address. The filename indicates a 2020 model; current linkage does not prove all historic office details are current."
+            },
+            "final_url": "https://www.dsca.gob.es/sites/default/files/derechos-sociales/discapacidad/docs/Modelo_denuncia_13112020.pdf",
+            "checked_on": "2026-11-15",
+            "fingerprint": "24f5dc2f9b4f426bc286ab0646b79790c6d61c729744e4df6f9af7a87589f5ba"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-85240264816af2e9ee6a",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "The linked one-page complaint model requires identification, alleged facts/evidence and signature; submission follows Law 39/2015 article 16.4 channels. Its data-protection email is not a complaint filing address. The filename indicates a 2020 model; current linkage does not prove all historic office details are current.",
+            "facts": {
+              "scoped_observation": "The linked one-page complaint model requires identification, alleged facts/evidence and signature; submission follows Law 39/2015 article 16.4 channels. Its data-protection email is not a complaint filing address. The filename indicates a 2020 model; current linkage does not prove all historic office details are current."
+            },
+            "final_url": "https://www.dsca.gob.es/sites/default/files/derechos-sociales/discapacidad/docs/Modelo_denuncia_13112020.pdf",
+            "next_check": "Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims."
+          }
+        },
+        "eu27-url-9c619a3e321a7e1ec44b": {
+          "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+          "country": "Austria",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "The ministry explicitly identifies BaFG and TKG 2021 (for emergency calls) as implementation instruments. This supports a legal-scope lead but does not identify receiver-side 112 oversight or a usable exemption filing destination."
+            },
+            "final_url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+            "checked_on": "2026-11-15",
+            "fingerprint": "7f2b2d4e81c98160210022805732c039a2cf39c7206a2ead093b607f4667b004"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-9c619a3e321a7e1ec44b",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "The ministry explicitly identifies BaFG and TKG 2021 (for emergency calls) as implementation instruments. This supports a legal-scope lead but does not identify receiver-side 112 oversight or a usable exemption filing destination.",
+            "facts": {
+              "scoped_observation": "The ministry explicitly identifies BaFG and TKG 2021 (for emergency calls) as implementation instruments. This supports a legal-scope lead but does not identify receiver-side 112 oversight or a usable exemption filing destination."
+            },
+            "final_url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+            "next_check": "Inspect the exact TKG emergency-call supervision provision and authority-specific procedure before changing 112 Unknown. General BaFG exemption duties do not by themselves establish a filing channel."
+          }
+        },
+        "eu27-url-2b1b33791461c90b558f": {
+          "url": "https://kzp.bg/bg/kontakti",
+          "country": "Bulgaria",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing."
+            },
+            "final_url": "https://kzp.bg/bg/kontakti",
+            "checked_on": "2026-11-15",
+            "fingerprint": "1621004a1384ace416197e77c8806f774f3c6086b364769c18547205f19d56a5"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-2b1b33791461c90b558f",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing.",
+            "facts": {
+              "scoped_observation": "KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing."
+            },
+            "final_url": "https://kzp.bg/bg/kontakti",
+            "next_check": "Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut."
+          }
+        },
+        "eu27-url-9458faf82f302330ff8f": {
+          "url": "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta",
+          "country": "Finland",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Traficom's 2025 review, updated 6 March 2026, explicitly attributes over 200 deficiency notifications and 24 exemption notifications by end-2025 to the new EAA-related notification procedure. Its separate 24 complaints and website/app monitoring totals concern broader digital-services supervision and must not be labelled EAA-only. Counts are historical notifications, not fines or findings of violations."
+            },
+            "final_url": "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta",
+            "checked_on": "2026-11-15",
+            "fingerprint": "5c6f2610087b511964d52992d64c86acf1ef37aa5be09dfaf7627cf68eef0a37"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-9458faf82f302330ff8f",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Traficom's 2025 review, updated 6 March 2026, explicitly attributes over 200 deficiency notifications and 24 exemption notifications by end-2025 to the new EAA-related notification procedure. Its separate 24 complaints and website/app monitoring totals concern broader digital-services supervision and must not be labelled EAA-only. Counts are historical notifications, not fines or findings of violations.",
+            "facts": {
+              "scoped_observation": "Traficom's 2025 review, updated 6 March 2026, explicitly attributes over 200 deficiency notifications and 24 exemption notifications by end-2025 to the new EAA-related notification procedure. Its separate 24 complaints and website/app monitoring totals concern broader digital-services supervision and must not be labelled EAA-only. Counts are historical notifications, not fines or findings of violations."
+            },
+            "final_url": "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta",
+            "next_check": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset."
+          }
+        },
+        "eu27-url-89459518e5828e5d2196": {
+          "url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+          "country": "Italy",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold."
+            },
+            "final_url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+            "checked_on": "2026-11-15",
+            "fingerprint": "b43c207dc6031206d5fce1359bc5949574294fadf60ebb9532541ac567da003d"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-89459518e5828e5d2196",
+            "status": "reachable",
+            "method": "web reader followed by ordinary browser",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold.",
+            "facts": {
+              "scoped_observation": "AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold."
+            },
+            "final_url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+            "next_check": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+            "reader_error": "HTTP 403 Forbidden",
+            "browser_status": "reader_failed/browser_accessible"
+          }
+        },
+        "eu27-url-2f5fbd28f203066a9cff": {
+          "url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+          "country": "Italy",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read."
+            },
+            "final_url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+            "checked_on": "2026-11-15",
+            "fingerprint": "1ba963a3c48e28fb11c3ff915dc841c01803bea2df0f09c3c373dac204e10ad1"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-2f5fbd28f203066a9cff",
+            "status": "reachable",
+            "method": "web reader followed by ordinary-browser visual access check",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read.",
+            "facts": {
+              "scoped_observation": "Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read."
+            },
+            "final_url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+            "next_check": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+            "reader_error": "HTTP 403 Forbidden",
+            "browser_status": "reader_failed/browser_accessible"
+          }
+        },
+        "eu27-url-df78655b7f964af68825": {
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html",
+          "country": "Croatia",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines."
+            },
+            "final_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html",
+            "checked_on": "2026-11-15",
+            "fingerprint": "6020bbc0ae3e3b507445efbf205797bbab41110c5075d10f49c24dec249c9dde"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-df78655b7f964af68825",
+            "status": "reachable",
+            "method": "web reader",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines.",
+            "facts": {
+              "scoped_observation": "Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines."
+            },
+            "final_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html",
+            "next_check": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language."
+          }
+        },
+        "eu27-url-6e6de51b67350f782664": {
+          "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+          "country": "Bulgaria",
+          "status": "reachable",
+          "failure_runs": 0,
+          "last_good": {
+            "facts": {
+              "scoped_observation": "InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified."
+            },
+            "final_url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+            "checked_on": "2026-11-15",
+            "fingerprint": "a8fe739398d57340e2d9ac0c4f0228301a4c7b3a8f51b755fc0d8bceb6ea3de1"
+          },
+          "failure_alerted": false,
+          "last_checked_on": "2026-11-15",
+          "last_observation": {
+            "source_id": "eu27-url-6e6de51b67350f782664",
+            "status": "reachable",
+            "method": "web reader followed by ordinary browser; French document text selected",
+            "origin_freshness": "Observed 2026-11-15; reader content may be cached. Browser observations identified separately.",
+            "evidence_summary": "InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified.",
+            "facts": {
+              "scoped_observation": "InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified."
+            },
+            "final_url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+            "next_check": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+            "reader_error": "Reader returned RPEX with no readable lines for the judgement result URL.",
+            "browser_status": "reader_failed/browser_accessible"
+          }
         }
       },
-      "events": [],
+      "events": [
+        {
+          "id": "4a8c84a099f3b33892659e82c48dbd4d92fcdfae7c6d1d20e9ffa43cc4f1f100",
+          "source_id": "eu27-malta-30494a1f5002",
+          "kind": "persistent_access_failure",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "pending",
+          "details": {
+            "message": "Reader and browser did not provide the investigations content. No change to last-good authority facts or intake claims.",
+            "last_good_preserved": false
+          }
+        },
+        {
+          "id": "0fc9b9fea5e3d7674cd6f63a152ea091030b566c99ea9bd8c284bafc1181a00f",
+          "source_id": "eu27-romania-f967f30dd34d",
+          "kind": "persistent_access_failure",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "pending",
+          "details": {
+            "message": "Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage.",
+            "last_good_preserved": false
+          }
+        },
+        {
+          "id": "dc93e8884aec049308f633d31555b6e537bb31413665ad4a136e491024cfa98d",
+          "source_id": "eu27-url-d4b5f0abe17b55124c8b",
+          "kind": "discovery_candidate",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "queued",
+          "details": {
+            "country": "Czechia",
+            "target_page": "EAA authorities and reporting by country.md",
+            "proposed_change": "CTU: company non-compliance notification and advance exemption notification through ePortal form 5, data box a9qaats or recognised-electronic-signature email to podatelna@ctu.gov.cz; no claim of tested delivery.",
+            "source_urls": [
+              "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+              "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+              "https://eportal.ctu.gov.cz/form/5"
+            ],
+            "publication_status": "Not publication-reviewed; Denmark draft96 occupies one-country queue",
+            "next_action": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved."
+          }
+        },
+        {
+          "id": "a7fd54227040f05876bdab409af97d08544e374025b02e9d436562e54468c7aa",
+          "source_id": "eu27-url-fa70df2d80f9151734fb",
+          "kind": "discovery_candidate",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "queued",
+          "details": {
+            "country": "France",
+            "target_page": "EAA authorities and reporting by country.md",
+            "proposed_change": "Arcom e-books: add observed public alert form and explicit non-compliance email; distinguish reading-software exemption email from restricted e-book-publisher campaign portal. Do not infer the latter is publicly usable.",
+            "source_urls": [
+              "https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre",
+              "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite",
+              "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite/etape-1"
+            ],
+            "publication_status": "Not publication-reviewed; Denmark draft96 occupies one-country queue",
+            "next_action": "Queue a France monitoring amendment for exact sector-specific public/company routes, preserving correspondence and language Unknowns. Restricted publisher-exemption portal remains unverified. No new e-book reference page."
+          }
+        },
+        {
+          "id": "2db99776c7e059a415aa002cb017510426e57db70c9db5c692cc6756f923f39a",
+          "source_id": "eu27-url-26385eabebaf83d86464",
+          "kind": "discovery_candidate",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "queued",
+          "details": {
+            "country": "Lithuania",
+            "target_page": "EAA authorities and reporting by country.md",
+            "proposed_change": "RRT public electronic-communications accessibility reports: link official accessibility guidance and Konsultacijos with the explicit unsigned/non-official-response limitation; keep formal complaints and company notifications separate.",
+            "source_urls": [
+              "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+              "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+              "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+              "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas"
+            ],
+            "publication_status": "Not publication-reviewed; Denmark draft96 occupies one-country queue",
+            "next_action": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved."
+          }
+        },
+        {
+          "id": "b357c462267f2ddc68799f6001e1def76edff8d01dca61965f7c31b466c86250",
+          "source_id": "eu27-url-9458faf82f302330ff8f",
+          "kind": "discovery_candidate",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "queued",
+          "details": {
+            "country": "Finland",
+            "target_page": "EAA enforcement tracking.md",
+            "proposed_change": "Finland enforcement tracking: add Traficom's end-2025 snapshot of over 200 deficiency notifications and 24 exemption notifications, explicitly company notifications rather than confirmed infringements or imposed sanctions.",
+            "source_urls": [
+              "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta"
+            ],
+            "publication_status": "Not publication-reviewed; Denmark draft96 occupies one-country queue",
+            "next_action": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset."
+          }
+        },
+        {
+          "id": "8a8a8a25aedfe1c03c80eacc8ac6c95c47099275435e6de8fdfb58fd7f40e134",
+          "source_id": "eu27-url-df78655b7f964af68825",
+          "kind": "discovery_candidate",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "queued",
+          "details": {
+            "country": "Croatia",
+            "target_page": "EAA authorities and reporting by country.md",
+            "proposed_change": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages.",
+            "source_urls": [
+              "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html"
+            ],
+            "publication_status": "Not publication-reviewed; Denmark draft96 occupies one-country queue",
+            "next_action": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language."
+          }
+        },
+        {
+          "id": "c6ae2c3ea4ed5d42683e83429f64647671cf8e6ef5593e085c1119a71ce98181",
+          "source_id": "eu27-url-6e6de51b67350f782664",
+          "kind": "discovery_candidate",
+          "detected_on": "2026-11-15",
+          "run_id": "eu27-gap-followup-1794748899451",
+          "review_status": "queued",
+          "details": {
+            "country": "Bulgaria",
+            "target_page": "EAA enforcement tracking.md",
+            "proposed_change": "Bulgaria enforcement context: distinguish the CJEU's 19March2026 EUR1.5million Member-State lump sum in C-646/24 from national EAA business enforcement; source is the actual French judgment text, not the discovery snippet.",
+            "source_urls": [
+              "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522"
+            ],
+            "publication_status": "Not publication-reviewed; Denmark draft96 occupies one-country queue",
+            "next_action": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review."
+          }
+        }
+      ],
       "discovery": {},
       "last_run_on": "2026-11-15",
       "coverage": {
-        "registered": 27,
-        "readable_baselines": 25,
+        "registered": 49,
+        "readable_baselines": 47,
         "pending": 0,
-        "attempted_this_run": 27
+        "attempted_this_run": 25
       }
     },
     "inventory": {
@@ -9381,222 +10169,983 @@
           "id": "eu27-sweden-ce4bafd22057",
           "url": "https://www.pts.se/om-oss/fran-pts-till-digitaliseringsmyndigheten--praktisk-information/",
           "country": "Sweden"
+        },
+        {
+          "id": "eu27-url-d4b5f0abe17b55124c8b",
+          "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+          "country": "Czechia"
+        },
+        {
+          "id": "eu27-url-4f76c405525b52c5674d",
+          "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+          "country": "Czechia"
+        },
+        {
+          "id": "eu27-url-582950e9869e6cc860fd",
+          "url": "https://eportal.ctu.gov.cz/form/5",
+          "country": "Czechia"
+        },
+        {
+          "id": "eu27-url-fa70df2d80f9151734fb",
+          "url": "https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre",
+          "country": "France"
+        },
+        {
+          "id": "eu27-url-b85c037486f4751c4015",
+          "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite",
+          "country": "France"
+        },
+        {
+          "id": "eu27-url-ebe0efce2b771047f9d1",
+          "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite/etape-1",
+          "country": "France"
+        },
+        {
+          "id": "eu27-url-fb020381933bd4aa832e",
+          "url": "https://www.arcom.fr/presse/accessibilite-des-livres-larcom-met-en-demeure-les-societes-editions-menges-3l-et-oskar-editeur-de-se-conformer-leurs-obligations-en-faveur-des-personnes-en-situation-de-handicap",
+          "country": "France"
+        },
+        {
+          "id": "eu27-url-30d4fc73e93a7f1bc426",
+          "url": "https://www.arcom.fr/se-documenter/espace-juridique/decisions/decision-du-22-juillet-2026-mettant-en-demeure-la-societe-des-editions-menges",
+          "country": "France"
+        },
+        {
+          "id": "eu27-url-26385eabebaf83d86464",
+          "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+          "country": "Lithuania"
+        },
+        {
+          "id": "eu27-url-f7e23982172aa8530688",
+          "url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+          "country": "Lithuania"
+        },
+        {
+          "id": "eu27-url-023faa7fa3768e334b3f",
+          "url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+          "country": "Lithuania"
+        },
+        {
+          "id": "eu27-url-07bc81b9fa2e64f67e32",
+          "url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+          "country": "Lithuania"
+        },
+        {
+          "id": "eu27-url-69f2c00e8634418b33ac",
+          "url": "https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html",
+          "country": "Luxembourg"
+        },
+        {
+          "id": "eu27-url-404fe98b12f877409657",
+          "url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+          "country": "Spain"
+        },
+        {
+          "id": "eu27-url-85240264816af2e9ee6a",
+          "url": "https://www.dsca.gob.es/sites/default/files/derechos-sociales/discapacidad/docs/Modelo_denuncia_13112020.pdf",
+          "country": "Spain"
+        },
+        {
+          "id": "eu27-url-9c619a3e321a7e1ec44b",
+          "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+          "country": "Austria"
+        },
+        {
+          "id": "eu27-url-2b1b33791461c90b558f",
+          "url": "https://kzp.bg/bg/kontakti",
+          "country": "Bulgaria"
+        },
+        {
+          "id": "eu27-url-9458faf82f302330ff8f",
+          "url": "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta",
+          "country": "Finland"
+        },
+        {
+          "id": "eu27-url-89459518e5828e5d2196",
+          "url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+          "country": "Italy"
+        },
+        {
+          "id": "eu27-url-2f5fbd28f203066a9cff",
+          "url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+          "country": "Italy"
+        },
+        {
+          "id": "eu27-url-df78655b7f964af68825",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html",
+          "country": "Croatia"
+        },
+        {
+          "id": "eu27-url-6e6de51b67350f782664",
+          "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+          "country": "Bulgaria"
         }
       ]
     },
     "findings": [
       {
-        "country": "Austria",
-        "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html",
-        "finding": "Official company nonconformity guidance corroborates notification and corrective-measure information. It does not establish an exemption-filing route.",
-        "next": "Preserve existing correspondence and reporting distinctions; exemption route remains a separate check.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Belgium",
-        "url": "https://economie.fgov.be/sites/default/files/Files/Entreprises/Guidelines-accessibilite-services-bancaires.pdf",
-        "finding": "Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation.",
-        "next": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
-        "disposition": "research_only",
-        "persist": true
-      },
-      {
-        "country": "Bulgaria",
-        "url": "https://kzp.bg/bg/potrebiteli/good-to-know/advices",
-        "finding": "Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review.",
-        "next": "Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
-        "disposition": "needs_evidence"
-      },
-      {
-        "country": "Croatia",
-        "url": "https://www.hakom.hr/hr/upoznajte-svoja-prava-novi-digitalni-letak-i-tiskana-brosura-hakom-a/12488",
-        "finding": "HAKOM's 10 March 2026 leaflet announcement concerns user rights, complaints and accessibility. It is outreach, not evidence of a new EAA enforcement case or imposed fine.",
-        "next": "Retain as guidance context; any case claim needs a separate decision or monitoring source.",
-        "disposition": "research_only"
-      },
-      {
-        "country": "Cyprus",
-        "url": "https://e-consultation.gov.cy/diavouleuseis/νομοσχεδιο-με-τιτλο-νομοσ-που-τροπο-4",
-        "finding": "Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked.",
-        "next": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
-        "disposition": "research_only",
-        "persist": true
-      },
-      {
         "country": "Czechia",
-        "url": "https://ctu.gov.cz/pristupnost-sluzeb",
-        "finding": "CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published.",
-        "next": "Verify precise filing destinations independently; no reporting-language inference.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Denmark",
-        "url": "https://www.finanstilsynet.dk/tilsyn/inspektionsredegoerelser-og-afgoerelser/2026",
-        "finding": "The 2026 inspection/decision archive was accessible; its roughly 160 entries were not individually reviewed. Draft PR96 already covers the mailbox correction, so no competing country PR is prepared.",
-        "next": "Review remaining relevant archive entries and let PR96 handle its existing scope; preserve sik@sik.dk correspondence history.",
-        "disposition": "blocked_by_open_pr"
-      },
-      {
-        "country": "Estonia",
-        "url": "https://www.ttja.ee/ariklient/ettevotlus/ligipaasetavus/teenuste-digiligipaasetavus",
-        "finding": "Guidance updated 13 May 2026 addresses accessible service information and the entire digital customer journey, including rented platforms. Shared information can refer to individual services; no universal dedicated-page rule is inferred.",
-        "next": "Keep service-information distinctions; no new enforcement case established.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Finland",
-        "url": "https://www.saavutettavuusvaatimukset.fi/fi/tee-saavutettavuuskantelu-tai-pyyda-selvitysta",
-        "finding": "Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement.",
-        "next": "Preserve existing routes; separately verify new EAA-period case outcomes.",
-        "disposition": "already_present"
+        "key": "ctu-company-routes",
+        "domains": [
+          "monitoring"
+        ],
+        "sources": [
+          {
+            "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nesplnuje-pozadavky-na-pristupnost-S70787",
+            "finding": "Government service S70787 tells covered electronic-communications service providers to inform CTU immediately about non-compliance, its nature/causes and corrective measures. It specifies ePortal form 5, data box a9qaats, or podatelna@ctu.gov.cz with a recognised electronic signature. This is company notification, not a generic enquiry or a consumer complaint."
+          },
+          {
+            "url": "https://portal.gov.cz/sluzby-vs/informovani-ceskeho-telekomunikacniho-uradu-ze-strany-poskytovatele-sluzeb-ze-poskytovana-sluzba-nebude-splnovat-pozadavky-na-pristupnost-S70662",
+            "finding": "Government service S70662 separately describes advance notification before providing a service relying on fundamental alteration/disproportionate burden. It requests description, reasons, unmet requirements and assessment date, with the same ePortal/data-box/signed-email options. It does not establish accepted reporting languages."
+          },
+          {
+            "url": "https://eportal.ctu.gov.cz/form/5",
+            "method": "web reader followed by ordinary browser",
+            "reader_error": "Reader returned Formulář se připravuje and Došlo k chybě Načíst znovu; no usable intake in reader.",
+            "browser_status": "reader_failed/browser_accessible",
+            "finding": "Browser rendered form 5 without signing in: natural-person/sole-trader/legal-person choices, situation and attachment sections, consent choices, and data-box/email sending buttons. No fields entered, credentials used, validation or submission attempted. The government pages establish purpose; this observation only establishes visible intake, not successful delivery."
+          }
+        ],
+        "next": "Queue a Czechia monitoring-row amendment limited to CTU electronic-communications company non-compliance and exemption routes; retain signature and audience distinctions. Source-fidelity and language review required before publication. Other transport and receiver-side 112 routes/languages remain unresolved.",
+        "proposal": "CTU: company non-compliance notification and advance exemption notification through ePortal form 5, data box a9qaats or recognised-electronic-signature email to podatelna@ctu.gov.cz; no claim of tested delivery."
       },
       {
         "country": "France",
-        "url": "https://www.arcom.fr/nous-connaitre/nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale",
-        "finding": "Arcom's mission page supports its e-book accessibility remit, not a specific company filing channel. Existing DGCCRF correspondence remains scoped to what it actually answered.",
-        "next": "Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction.",
-        "disposition": "needs_evidence"
+        "key": "arcom-ebook-routes",
+        "domains": [
+          "monitoring"
+        ],
+        "sources": [
+          {
+            "url": "https://www.arcom.fr/nous-connaitre-nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/accessibilite-du-livre",
+            "finding": "Arcom specifies accessibilite.livresnumeriques@arcom.fr for operator non-compliance notifications and public e-book accessibility reports. Reading-software publishers may notify exemptions by this email at any time. E-book publishers instead use a restricted collection portal in campaigns (January/July after the initial campaigns); no working portal address or authenticated intake was observed. These are distinct purposes."
+          },
+          {
+            "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite",
+            "finding": "Official instructions include e-books/reading software in the public alert form. Access-to-audiovisual-service complaints are directed instead to the contact form with subject Accessibilité des programmes. Hardware complaints belong to DGCCRF. Article 47 website requirements on the same page must not be generalized to EAA e-book statements."
+          },
+          {
+            "url": "https://www.arcom.fr/signaler-ou-alerter/probleme-accessibilite/etape-1",
+            "method": "ordinary browser",
+            "finding": "Following Commencer rendered step 1 of 5 with a Livre numérique et logiciel de lecture service option and e-book title/publisher/acquisition fields. No login wall at this step. Nothing entered or submitted; later steps and delivery not tested."
+          }
+        ],
+        "next": "Queue a France monitoring amendment for exact sector-specific public/company routes, preserving correspondence and language Unknowns. Restricted publisher-exemption portal remains unverified. No new e-book reference page.",
+        "proposal": "Arcom e-books: add observed public alert form and explicit non-compliance email; distinguish reading-software exemption email from restricted e-book-publisher campaign portal. Do not infer the latter is publicly usable."
       },
       {
-        "country": "Germany",
-        "url": "https://www.mlbf-barrierefrei.de/",
-        "finding": "MLBF publishes reporting/application information and its strategy. The strategy dated 29 January 2026 is already recorded; no new case outcome was established.",
-        "next": "Avoid duplicate strategy alert; check dated decisions separately.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Greece",
-        "url": "https://www.eett.gr/en/submit-a-complaint/",
-        "finding": "The EETT complaints hub was readable, but its generic consumer and operator categories do not establish an EAA company nonconformity or exemption channel. WAD and DSA hits were excluded.",
-        "next": "Continue exact EAA purpose/audience verification; news coverage remains partial.",
-        "disposition": "needs_evidence"
-      },
-      {
-        "country": "Hungary",
-        "url": "https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg",
-        "finding": "MNB guidance describes provider-first financial consumer complaints, submission options and conditional supervisory powers. These are not evidence of fines actually imposed. NMHH's 20 March 2026 conference is outreach, not a case.",
-        "next": "Preserve known financial route and distinguish powers from actions.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Ireland",
-        "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
-        "finding": "The CCPC business notification page exposes fields for nonconformity/exemption notifications and distinguishes ordinary queries. The route is already recorded. No form was submitted and no acceptance languages were inferred.",
-        "next": "No duplicate route PR; keep consumer complaints and business notifications separate.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Italy",
-        "url": "https://www.agid.gov.it/it/agenzia/difensore-civico-il-digitale",
-        "finding": "A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding.",
-        "next": "Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved.",
-        "disposition": "already_present",
-        "persist": true
-      },
-      {
-        "country": "Latvia",
-        "url": "https://www.ptac.gov.lv/lv/pieklustamibas-prasibas",
-        "finding": "PTAC guidance updated 27 September 2026 describes its remit, assessment tools and written exemption notification. The banking transition is already recorded. No dedicated mailbox or new enforcement case is established by these general duties.",
-        "next": "Retain scoped duties and existing transition evidence; independently verify any specific channel.",
-        "disposition": "already_present"
+        "country": "France",
+        "key": "arcom-other-law-news",
+        "domains": [
+          "enforcement"
+        ],
+        "sources": [
+          {
+            "url": "https://www.arcom.fr/presse/accessibilite-des-livres-larcom-met-en-demeure-les-societes-editions-menges-3l-et-oskar-editeur-de-se-conformer-leurs-obligations-en-faveur-des-personnes-en-situation-de-handicap",
+            "finding": "Arcom's 14 October 2026 announcement concerns formal notices to Editions Menges, 3L and Oskar Editeur about PLATON file deposits under the intellectual-property code. This is other-law accessibility enforcement, not evidence of an EAA infringement or an imposed fine."
+          },
+          {
+            "url": "https://www.arcom.fr/se-documenter/espace-juridique/decisions/decision-du-22-juillet-2026-mettant-en-demeure-la-societe-des-editions-menges",
+            "finding": "The Menges decision is dated 22 July 2026 and published 14 October 2026. It cites intellectual-property code L122-5-1 and orders compliance within two months of notification. Notification date and subsequent compliance outcome were not established."
+          }
+        ],
+        "next": "Retain as other_law research/context, excluded from EAA case totals. Any public enforcement inclusion needs explicit scope review and a dated outcome source; no fine or completed remediation claim.",
+        "proposal": null
       },
       {
         "country": "Lithuania",
-        "url": "https://vvtat.lrv.lt/lt/naujienos-ir-pranesimai-ziniasklaidai-377/vvtat-primena-apie-prieinamumo-reikalavimu-isigaliojima/",
-        "finding": "VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain.",
-        "next": "Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
-        "disposition": "needs_evidence"
+        "key": "rrt-lrtk-intake",
+        "domains": [
+          "monitoring",
+          "enforcement"
+        ],
+        "sources": [
+          {
+            "url": "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/paslaugu-prieinamumas",
+            "finding": "RRT distinguishes provider-first dispute resolution from reports of possible electronic-communications accessibility violations. For the latter it links to Konsultacijos. This supports the reporting purpose, not company/exemption filing."
+          },
+          {
+            "url": "https://rrt.lt/veiklos-sritys/vartotoju-teisiu-apsauga/informacija-del-ginco-nagrinejimo/konsultacijos",
+            "finding": "The linked page (updated 26 August 2025) displays an enquiry form and expressly says it is unsigned, not a written application, and the response is an employee opinion rather than RRT's official position. An unsigned email receives the same caveat. Do not label this as a formal signed complaint route."
+          },
+          {
+            "url": "https://www.rtk.lt/uploads/documents/files/teisine-informacija/20250926%20Gaires%20del%20prieinamumo.pdf",
+            "finding": "LRTK guidance associated with decision KS-37 of 23 April 2025 states that users may complain to LRTK after attempting resolution with the audiovisual-access service provider (paragraph 35); paragraph 30 requires exemption notification but gives no specific filing destination. These are guidance/powers, not evidence of an actual investigation. Recommendations are explicitly non-binding explanatory material."
+          },
+          {
+            "url": "https://www.rtk.lt/lt/paslaugos/informacijos-teikimas-asmenu-prasymu-skundu-ir-pranesimu-priemimas",
+            "finding": "General LRTK submission instructions list in-person/post/fax, lrtk@rtk.lt and an online form. The form asks programme/broadcast details and a security code. Its suitability for all EAA access-service cases and company exemptions is not demonstrated; no CAPTCHA, form or email was submitted."
+          }
+        ],
+        "next": "Queue a scoped clarification of RRT's accessibility-report referral with its unsigned-enquiry caveat. Review LRTK general email/post against EAA complaint scope; do not promote its programme-oriented form or generic mailbox to verified company/exemption intake. LTSA routes and 112 oversight remain unresolved.",
+        "proposal": "RRT public electronic-communications accessibility reports: link official accessibility guidance and Konsultacijos with the explicit unsigned/non-official-response limitation; keep formal complaints and company notifications separate."
       },
       {
         "country": "Luxembourg",
-        "url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
-        "finding": "OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction.",
-        "next": "Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes.",
-        "disposition": "research_only",
-        "persist": true
-      },
-      {
-        "country": "Malta",
-        "url": "https://www.crpd.org.mt/investigations/",
-        "finding": "Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt.",
-        "next": "Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts.",
-        "disposition": "needs_evidence",
-        "readable": false
-      },
-      {
-        "country": "Netherlands",
-        "url": "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
-        "finding": "ACM's 24 March 2026 report gives 61% unable-to-order and 33% serious-problem results for its checked sample and describes contacting poor performers. This source is already recorded; possible future enforcement is not an imposed fine.",
-        "next": "No duplicate alert; seek later dated outcomes before changing status.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Poland",
-        "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/dochodzenie-roszczen/",
-        "finding": "UKE explains the PFRON public-report route and onward handling. It corroborates the existing record and October correspondence. UTK's browser attempt was explicitly security-blocked, so no bypass was attempted.",
-        "next": "Preserve PFRON scope; company routes and UTK evidence require separate verification.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Portugal",
-        "url": "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos",
-        "finding": "IDiPD guidance updated 16 October 2026 is readable; existing responsibility corrections and earlier follow-ups must not be duplicated. IGAC reader HTTP 503 was followed by browser net::ERR_HTTP2_PROTOCOL_ERROR, not proof of a website outage.",
-        "next": "Request a local-browser check for IGAC and retain agency-specific unresolved intake questions; no new national enforcement outcome established.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Romania",
-        "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
-        "finding": "A targeted ANCOM search surfaced a potentially relevant prevention-law page, but the actual reader returned HTTP 502. The statute and several authority pages also failed. Snippets were not promoted to verified claims.",
-        "next": "Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved.",
-        "disposition": "needs_evidence",
-        "readable": false
-      },
-      {
-        "country": "Slovakia",
-        "url": "https://rpms.sk/formular-na-podavanie-podnetov-tykajucich-sa-multimodalneho-pristupu",
-        "finding": "The current multimodal-access complaints page is readable and concerns media accessibility, including captions, signing and audio description. It is not a generic EAA company-reporting route. An older differently spelled URL failed; the current destination is already recorded.",
-        "next": "Avoid duplicate link correction and preserve exact media-law scope; SOI news coverage remains partial.",
-        "disposition": "already_present"
-      },
-      {
-        "country": "Slovenia",
-        "url": "https://www.gov.si/novice/2026-03-03-dostopnost-do-proizvodov-in-storitev-za-invalide/",
-        "finding": "The 3 March 2026 government announcement describes the amendment adopted on 11 February 2026. The current record already cites the corresponding gazette evidence; this is corroboration, not a newly discovered adoption.",
-        "next": "No duplicate legal-change alert; exact channels and later actions remain separate checks.",
-        "disposition": "already_present"
+        "key": "access-recovery",
+        "domains": [
+          "enforcement"
+        ],
+        "sources": [
+          {
+            "url": "https://accessibilite-produits-services.public.lu/en/actualites/obligationsdeclaratives.html",
+            "finding": "The declarations page is readable in this run. It distinguishes required service accessibility information from an optional dedicated webpage; the prior No statement distinction is preserved. Its old forecast about future EN standards is not current standard-status evidence."
+          },
+          {
+            "url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
+            "method": "web reader followed by ordinary browser",
+            "reader_error": "URL is not accessible via this tool.",
+            "browser_status": "reader_failed/browser_accessible",
+            "finding": "Browser reads the ATM testing article, last modified 22 October 2026. OSAPS-initiated user testing is described; remaining improvements and future installation are explicit. This confirms access to the already-recorded monitoring-activity candidate, not completed nationwide remediation or a sanction."
+          }
+        ],
+        "next": "Keep the existing OSAPS monitoring-activity candidate, without duplicate alert. Publication/source-fidelity review remains needed; browser access resolves this attempt's reader failure only. Receiver-side 112 mapping remains separate.",
+        "proposal": null
       },
       {
         "country": "Spain",
-        "url": "https://www.dsca.gob.es/en/derechos-sociales/discapacidad/unidad-tecnica-apoyo-coordinacion-autoridades-vigilancia-materia",
-        "secondary_url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
-        "finding": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
-        "next": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
-        "disposition": "research_only",
-        "persist": true
+        "key": "interim-complaint-pdf",
+        "domains": [
+          "monitoring",
+          "sanctions"
+        ],
+        "sources": [
+          {
+            "url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+            "finding": "The general disability-infringement procedure distinguishes state competence where conduct affects more than one autonomous community from regional competence. It is the interim general procedure previously linked by UTAC, not a dedicated EAA company/exemption channel."
+          },
+          {
+            "url": "https://www.dsca.gob.es/sites/default/files/derechos-sociales/discapacidad/docs/Modelo_denuncia_13112020.pdf",
+            "finding": "The linked one-page complaint model requires identification, alleged facts/evidence and signature; submission follows Law 39/2015 article 16.4 channels. Its data-protection email is not a complaint filing address. The filename indicates a 2020 model; current linkage does not prove all historic office details are current."
+          }
+        ],
+        "next": "Refine the already-queued UTAC interim-referral note with signed-form and territorial limits. Do not infer dedicated EAA intake, company/exemption filing or transfer general-law fine amounts to EAA claims.",
+        "proposal": null
       },
       {
-        "country": "Sweden",
-        "url": "https://www.pts.se/om-oss/fran-pts-till-digitaliseringsmyndigheten--praktisk-information/",
-        "finding": "PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals.",
-        "next": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
-        "disposition": "research_only",
-        "persist": true
+        "country": "Austria",
+        "key": "tkg-scope",
+        "domains": [
+          "monitoring"
+        ],
+        "sources": [
+          {
+            "url": "https://www.sozialministerium.gv.at/Themen/Soziales/Menschen-mit-Behinderungen/Barrierefreiheitsgesetz.html",
+            "finding": "The ministry explicitly identifies BaFG and TKG 2021 (for emergency calls) as implementation instruments. This supports a legal-scope lead but does not identify receiver-side 112 oversight or a usable exemption filing destination."
+          }
+        ],
+        "next": "Inspect the exact TKG emergency-call supervision provision and authority-specific procedure before changing 112 Unknown. General BaFG exemption duties do not by themselves establish a filing channel.",
+        "proposal": null
+      },
+      {
+        "country": "Bulgaria",
+        "key": "kzp-contact-limits",
+        "domains": [
+          "monitoring"
+        ],
+        "sources": [
+          {
+            "url": "https://kzp.bg/bg/kontakti",
+            "finding": "KZP directs complaints/signals/questions to its electronic complaint form or in-person counter. It explicitly limits its listed institutional email to official correspondence with Bulgarian institutions. General contact details are not evidence of company non-compliance or exemption filing."
+          }
+        ],
+        "next": "Keep company/exemption channels Unknown until specific EAA-purpose evidence. Verify login-gated intake only within permissions; do not use the institutional mailbox as a public filing shortcut.",
+        "proposal": null
+      },
+      {
+        "country": "Malta",
+        "key": "crpd-access-block",
+        "domains": [
+          "monitoring"
+        ],
+        "sources": [
+          {
+            "url": "https://www.crpd.org.mt/investigations/",
+            "reachable": false,
+            "method": "web reader and one ordinary-browser attempt",
+            "reader_error": "HTTP 403 Forbidden",
+            "browser_status": "Browser displayed: Your request was blocked.",
+            "finding": "Reader and browser did not provide the investigations content. No change to last-good authority facts or intake claims."
+          }
+        ],
+        "next": "Reader failures — browser verification needed: have this destination independently checked in the browser-enabled local chat, without bypassing access controls. Preserve last-good evidence.",
+        "proposal": null
+      },
+      {
+        "country": "Romania",
+        "key": "ancom-access-block",
+        "domains": [
+          "monitoring"
+        ],
+        "sources": [
+          {
+            "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+            "reachable": false,
+            "method": "web reader and one ordinary-browser attempt",
+            "reader_error": "HTTP 502 Bad Gateway",
+            "browser_status": "net::ERR_HTTP2_PROTOCOL_ERROR",
+            "finding": "Reader and browser failed for ANCOM's prevention-law page. Search snippets do not establish its EAA applicability, complaint or company-reporting routes. This is not a confirmed website outage."
+          }
+        ],
+        "next": "Reader failures — browser verification needed: independently inspect the exact ANCOM page in the browser-enabled local chat and establish scope. The previously missing ADR attachment remains unavailable; do not reconstruct it.",
+        "proposal": null
+      },
+      {
+        "country": "Finland",
+        "key": "2025-notification-statistics",
+        "domains": [
+          "monitoring",
+          "enforcement"
+        ],
+        "target_domain": "enforcement",
+        "sources": [
+          {
+            "url": "https://www.saavutettavuusvaatimukset.fi/fi/uutisia-saavutettavuudesta/traficomin-saavutettavuusvalvonnan-vuosi-2025-uusi-koti-uudet-vastuut-ja-ennakoivaa-ohjausta",
+            "finding": "Traficom's 2025 review, updated 6 March 2026, explicitly attributes over 200 deficiency notifications and 24 exemption notifications by end-2025 to the new EAA-related notification procedure. Its separate 24 complaints and website/app monitoring totals concern broader digital-services supervision and must not be labelled EAA-only. Counts are historical notifications, not fines or findings of violations."
+          }
+        ],
+        "next": "Queue a dated enforcement-tracking entry for the EAA-related end-2025 company notification totals, after source-fidelity review; preserve existing September snapshot claims as separate periods. Do not combine mixed-regime complaint/monitoring totals into an EAA dataset.",
+        "proposal": "Finland enforcement tracking: add Traficom's end-2025 snapshot of over 200 deficiency notifications and 24 exemption notifications, explicitly company notifications rather than confirmed infringements or imposed sanctions."
+      },
+      {
+        "country": "Italy",
+        "key": "agid-regulation-access-recovered",
+        "domains": [
+          "monitoring",
+          "enforcement",
+          "sanctions"
+        ],
+        "sources": [
+          {
+            "url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+            "method": "web reader followed by ordinary browser",
+            "reader_error": "HTTP 403 Forbidden",
+            "browser_status": "reader_failed/browser_accessible",
+            "finding": "AgID's 29 May 2026 article rendered in the browser. It describes a published accessibility-supervision regulation covering both Law 4/2004 and Decree 82/2022 service providers, with preliminary verification, requests for adjustments and possible later sanctions proceedings. This resolves article access, not a claim of a particular enforcement action, imposed sanction or EAA applicability of the older large-company threshold."
+          },
+          {
+            "url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+            "method": "web reader followed by ordinary-browser visual access check",
+            "reader_error": "HTTP 403 Forbidden",
+            "browser_status": "reader_failed/browser_accessible",
+            "finding": "Browser displayed a 13-page PDF and its cover referencing Law 4/2004 article9 and Decree82/2022 articles21/24. Only cover/access was visually checked; operative provisions and deadlines remain unverified. Do not infer the whole document was read."
+          }
+        ],
+        "next": "Existing watcher/italy-2026-10-02-agid-reporting branch retains the older failed-access note; supplement it from this research queue rather than duplicate its reporting-platform work. Read the operative regulation before publishing procedural deadlines; no actual enforcement case established.",
+        "proposal": null
+      },
+      {
+        "country": "Croatia",
+        "key": "adopted-amendment-114-2026",
+        "domains": [
+          "monitoring",
+          "sanctions",
+          "enforcement"
+        ],
+        "sources": [
+          {
+            "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_114_1371.html",
+            "finding": "Official Gazette NN114/2026-1371 was published 7 October 2026; the amendment was adopted 25 September. Article13 provides entry on the eighth day after publication (calculated 15 October2026). Article4 replaces Agencija za elektronicke medije with Agencija za medije in article25(2). Article2 requires Croatian for the product EU declaration of conformity, not general reporting languages or a dedicated service statement. Articles6–11 expand offence provisions and exclude public procurement from specified offences; these are powers, not imposed fines."
+          }
+        ],
+        "next": "Queue a Croatia monitoring authority-name/legal-source correction and a separate sanctions-source update. Confirm the current agency identity/contact before changing links; review the amended offence coverage against the consolidated base law. Do not infer an actual case or Croatian-only complaint language.",
+        "proposal": "Croatia monitoring: cite adopted NN114/2026 (not merely the July proposal), update the article25(2) media-authority name after identity/contact verification, and retain product declaration language separately from reporting languages."
+      },
+      {
+        "country": "Bulgaria",
+        "key": "cjeu-state-transposition-judgment",
+        "domains": [
+          "enforcement",
+          "sanctions"
+        ],
+        "target_domain": "enforcement",
+        "sources": [
+          {
+            "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+            "method": "web reader followed by ordinary browser; French document text selected",
+            "reader_error": "Reader returned RPEX with no readable lines for the judgement result URL.",
+            "browser_status": "reader_failed/browser_accessible",
+            "finding": "InfoCuria's French judgment text was read, including operative paragraphs and paragraphs123/127–131: C-646/24, 19 March2026, ECLI:EU:C:2026:221 orders the Republic of Bulgaria to pay the Commission EUR1.5million for late transposition/notification. The periodic-penalty request was withdrawn. This is an imposed Member-State lump sum, not a national authority fine on a business; payment itself was not verified."
+          }
+        ],
+        "next": "Queue separately scoped EU-level transposition-enforcement context for Bulgaria. Do not enter EUR1.5million in the national business-penalty range or business sanction count. Any public inclusion requires enforcement/sanctions scope and source-fidelity review.",
+        "proposal": "Bulgaria enforcement context: distinguish the CJEU's 19March2026 EUR1.5million Member-State lump sum in C-646/24 from national EAA business enforcement; source is the actual French judgment text, not the discovery snippet."
       }
     ],
-    "research_run_id": "eu27-2026-11-15-1794732692743",
+    "research_run_id": "eu27-gap-followup-1794748899451",
     "research_date": "2026-11-15",
     "scope": "One user-authorized EU27 bounded pass. No recurring pilot-scope expansion.",
     "publication": {
       "branch": "research/eu27-link-discovery-2026-11-15",
-      "commit": "12aab4b95c50e311882e6a1cab4e09a09705e0bb",
+      "commit": "d4fd56fec640d58cd002a139717594790449ef24",
       "branch_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/research/eu27-link-discovery-2026-11-15",
-      "published_at": "2026-11-15T10:44:10.490Z",
+      "published_at": "2026-11-15T13:47:09.688Z",
       "new_pr": null,
       "queue_blocker": 96
     },
-    "coverage": "Partial/bounded all 27; no country or monthly cycle marked exhaustively complete. Pilot observations/discovery left untouched.",
-    "report": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-2026-11-15/README.md",
-    "browser_requests": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-2026-11-15/reader-failures.md"
+    "coverage": "Follow-up: 12 countries with targeted actual-page/failed-access checks; 15 search-only. No full monthly or all-country completion claimed. Prior pilot root state untouched.",
+    "report": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-gap-followup-2026-11-15/README.md",
+    "browser_requests": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-gap-followup-2026-11-15/access-attempts.json",
+    "previous_passes": [
+      {
+        "research_run_id": "eu27-2026-11-15-1794732692743",
+        "research_date": "2026-11-15",
+        "publication": {
+          "branch": "research/eu27-link-discovery-2026-11-15",
+          "commit": "12aab4b95c50e311882e6a1cab4e09a09705e0bb",
+          "branch_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/research/eu27-link-discovery-2026-11-15",
+          "published_at": "2026-11-15T10:44:10.490Z",
+          "new_pr": null,
+          "queue_blocker": 96
+        },
+        "coverage": "Partial/bounded all 27; no country or monthly cycle marked exhaustively complete. Pilot observations/discovery left untouched.",
+        "report": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-2026-11-15/README.md",
+        "browser_requests": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/research/eu27-link-discovery-2026-11-15/.github/agents/watcher/reports/eu27-2026-11-15/reader-failures.md"
+      }
+    ],
+    "previous_findings": [
+      {
+        "run_id": "eu27-2026-11-15-1794732692743",
+        "findings": [
+          {
+            "country": "Austria",
+            "url": "https://www.sozialministeriumservice.gv.at/Marktueberwachung_digitale_Barrierefreiheit/Informationen_fuer_Unternehmen/Informations_und_Dokumentationspflichten/Meldung_der_Nichtkonformitaet/Meldung-der-Nichtkonformitaet.de.html",
+            "finding": "Official company nonconformity guidance corroborates notification and corrective-measure information. It does not establish an exemption-filing route.",
+            "next": "Preserve existing correspondence and reporting distinctions; exemption route remains a separate check.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Belgium",
+            "url": "https://economie.fgov.be/sites/default/files/Files/Entreprises/Guidelines-accessibilite-services-bancaires.pdf",
+            "finding": "Banking guidance dated 7 October 2026, sections 4.1–4.2, corroborates public written/oral information in terms or equivalent and exception/nonconformity notification. Registration is not approval. This corroborates the October authority reply already published, rather than establishing a new obligation.",
+            "next": "Retain PDF-version provenance and compare any future revisions; do not duplicate merged PR93 or infer a dedicated statement page.",
+            "disposition": "research_only",
+            "persist": true
+          },
+          {
+            "country": "Bulgaria",
+            "url": "https://kzp.bg/bg/potrebiteli/good-to-know/advices",
+            "finding": "Generic consumer advice was readable. Targeted official searches did not establish a new EAA-specific intake or case; law-index hits and general EU material are not a completed national news review.",
+            "next": "Continue KZP sector-specific news and intake checks; do not infer company or exemption channels.",
+            "disposition": "needs_evidence"
+          },
+          {
+            "country": "Croatia",
+            "url": "https://www.hakom.hr/hr/upoznajte-svoja-prava-novi-digitalni-letak-i-tiskana-brosura-hakom-a/12488",
+            "finding": "HAKOM's 10 March 2026 leaflet announcement concerns user rights, complaints and accessibility. It is outreach, not evidence of a new EAA enforcement case or imposed fine.",
+            "next": "Retain as guidance context; any case claim needs a separate decision or monitoring source.",
+            "disposition": "research_only"
+          },
+          {
+            "country": "Cyprus",
+            "url": "https://e-consultation.gov.cy/diavouleuseis/νομοσχεδιο-με-τιτλο-νομοσ-που-τροπο-4",
+            "finding": "Official consultation posted 18 September 2026 ran 21 September–12 October 2026 and proposed amendment of the 2024 law concerning Article 29(b) representation/enforcement rights. This is a proposal, not evidence of adoption. Ministry homepage was browser-accessible after reader failure; CyLaw browser access remained blocked.",
+            "next": "Check official gazette for adoption and exact commencement before any legal or public-row change; preserve October correspondence.",
+            "disposition": "research_only",
+            "persist": true
+          },
+          {
+            "country": "Czechia",
+            "url": "https://ctu.gov.cz/pristupnost-sluzeb",
+            "finding": "CTU guidance describes service information, nonconformity and exemption duties. A future list of nonconforming services is not evidence that such a list or cases are currently published.",
+            "next": "Verify precise filing destinations independently; no reporting-language inference.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Denmark",
+            "url": "https://www.finanstilsynet.dk/tilsyn/inspektionsredegoerelser-og-afgoerelser/2026",
+            "finding": "The 2026 inspection/decision archive was accessible; its roughly 160 entries were not individually reviewed. Draft PR96 already covers the mailbox correction, so no competing country PR is prepared.",
+            "next": "Review remaining relevant archive entries and let PR96 handle its existing scope; preserve sik@sik.dk correspondence history.",
+            "disposition": "blocked_by_open_pr"
+          },
+          {
+            "country": "Estonia",
+            "url": "https://www.ttja.ee/ariklient/ettevotlus/ligipaasetavus/teenuste-digiligipaasetavus",
+            "finding": "Guidance updated 13 May 2026 addresses accessible service information and the entire digital customer journey, including rented platforms. Shared information can refer to individual services; no universal dedicated-page rule is inferred.",
+            "next": "Keep service-information distinctions; no new enforcement case established.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Finland",
+            "url": "https://www.saavutettavuusvaatimukset.fi/fi/tee-saavutettavuuskantelu-tai-pyyda-selvitysta",
+            "finding": "Traficom guidance covers complaints for relevant digital services and ordinarily asks for provider feedback first. It describes form/email/post routes; no submission or end-to-end intake test was performed. Older 2020–2024 monitoring statistics must not be relabelled as new EAA enforcement.",
+            "next": "Preserve existing routes; separately verify new EAA-period case outcomes.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "France",
+            "url": "https://www.arcom.fr/nous-connaitre/nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale",
+            "finding": "Arcom's mission page supports its e-book accessibility remit, not a specific company filing channel. Existing DGCCRF correspondence remains scoped to what it actually answered.",
+            "next": "Keep unverified Arcom intake purpose unknown; no new e-book canonical/reference page is needed under the user's correction.",
+            "disposition": "needs_evidence"
+          },
+          {
+            "country": "Germany",
+            "url": "https://www.mlbf-barrierefrei.de/",
+            "finding": "MLBF publishes reporting/application information and its strategy. The strategy dated 29 January 2026 is already recorded; no new case outcome was established.",
+            "next": "Avoid duplicate strategy alert; check dated decisions separately.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Greece",
+            "url": "https://www.eett.gr/en/submit-a-complaint/",
+            "finding": "The EETT complaints hub was readable, but its generic consumer and operator categories do not establish an EAA company nonconformity or exemption channel. WAD and DSA hits were excluded.",
+            "next": "Continue exact EAA purpose/audience verification; news coverage remains partial.",
+            "disposition": "needs_evidence"
+          },
+          {
+            "country": "Hungary",
+            "url": "https://www.mnb.hu/fogyasztovedelem/penzugyi-panasz/tajekoztatas-akadalymentesseg",
+            "finding": "MNB guidance describes provider-first financial consumer complaints, submission options and conditional supervisory powers. These are not evidence of fines actually imposed. NMHH's 20 March 2026 conference is outreach, not a case.",
+            "next": "Preserve known financial route and distinguish powers from actions.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Ireland",
+            "url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+            "finding": "The CCPC business notification page exposes fields for nonconformity/exemption notifications and distinguishes ordinary queries. The route is already recorded. No form was submitted and no acceptance languages were inferred.",
+            "next": "No duplicate route PR; keep consumer complaints and business notifications separate.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Italy",
+            "url": "https://www.agid.gov.it/it/agenzia/difensore-civico-il-digitale",
+            "finding": "A current ordinary-browser read succeeded after automated reader HTTP 403. AgID distinguishes WAD and EAA functions and links the EAA reporting platform at https://segnalazioni.agid.gov.it/. Browser access does not verify authenticated intake or reporting languages. The October research record and existing Italy branch already contain the platform finding.",
+            "next": "Record reader_failed/browser_accessible; reconcile the existing Italy branch rather than duplicate the route. Company/exemption and authenticated intake questions remain separately unresolved.",
+            "disposition": "already_present",
+            "persist": true
+          },
+          {
+            "country": "Latvia",
+            "url": "https://www.ptac.gov.lv/lv/pieklustamibas-prasibas",
+            "finding": "PTAC guidance updated 27 September 2026 describes its remit, assessment tools and written exemption notification. The banking transition is already recorded. No dedicated mailbox or new enforcement case is established by these general duties.",
+            "next": "Retain scoped duties and existing transition evidence; independently verify any specific channel.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Lithuania",
+            "url": "https://vvtat.lrv.lt/lt/naujienos-ir-pranesimai-ziniasklaidai-377/vvtat-primena-apie-prieinamumo-reikalavimu-isigaliojima/",
+            "finding": "VVTAT commencement guidance was readable, but it is 2025 guidance rather than a new 2026 enforcement development. RRT/LRTK/LTSA company-route gaps remain.",
+            "next": "Continue authority-specific intake and news checks; irrelevant search results do not complete coverage.",
+            "disposition": "needs_evidence"
+          },
+          {
+            "country": "Luxembourg",
+            "url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
+            "finding": "OSAPS reports user testing of new ATMs with LuxConstellation. The homepage dates the announcement 5 October 2026; the article was updated 22 October 2026. Improvements remain and deployment is described for coming months/years. This is monitoring/testing activity, not completed nationwide remediation or an imposed sanction.",
+            "next": "Prepare a separately reviewed enforcement-tracking monitoring-activity entry. Preserve the earlier dated OSAPS reply and distinguish new testing evidence from case outcomes.",
+            "disposition": "research_only",
+            "persist": true
+          },
+          {
+            "country": "Malta",
+            "url": "https://www.crpd.org.mt/investigations/",
+            "finding": "Automated reader HTTP 403; the ordinary-browser attempt displayed 'Your request was blocked.' No EAA-specific intake claim was verified from this attempt.",
+            "next": "Reader failures — browser verification needed: have the investigations URL checked in the browser-enabled local chat; preserve last-good facts.",
+            "disposition": "needs_evidence",
+            "readable": false
+          },
+          {
+            "country": "Netherlands",
+            "url": "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
+            "finding": "ACM's 24 March 2026 report gives 61% unable-to-order and 33% serious-problem results for its checked sample and describes contacting poor performers. This source is already recorded; possible future enforcement is not an imposed fine.",
+            "next": "No duplicate alert; seek later dated outcomes before changing status.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Poland",
+            "url": "https://uke.gov.pl/dostepnosc-produktow-i-uslug/dochodzenie-roszczen/",
+            "finding": "UKE explains the PFRON public-report route and onward handling. It corroborates the existing record and October correspondence. UTK's browser attempt was explicitly security-blocked, so no bypass was attempted.",
+            "next": "Preserve PFRON scope; company routes and UTK evidence require separate verification.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Portugal",
+            "url": "https://idipd.mtsss.gov.pt/pt/acessibilidade-a-produtos-e-servicos",
+            "finding": "IDiPD guidance updated 16 October 2026 is readable; existing responsibility corrections and earlier follow-ups must not be duplicated. IGAC reader HTTP 503 was followed by browser net::ERR_HTTP2_PROTOCOL_ERROR, not proof of a website outage.",
+            "next": "Request a local-browser check for IGAC and retain agency-specific unresolved intake questions; no new national enforcement outcome established.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Romania",
+            "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+            "finding": "A targeted ANCOM search surfaced a potentially relevant prevention-law page, but the actual reader returned HTTP 502. The statute and several authority pages also failed. Snippets were not promoted to verified claims.",
+            "next": "Browser verification needed for failed destinations; then inspect exact applicability and current intake. Existing gaps remain unresolved.",
+            "disposition": "needs_evidence",
+            "readable": false
+          },
+          {
+            "country": "Slovakia",
+            "url": "https://rpms.sk/formular-na-podavanie-podnetov-tykajucich-sa-multimodalneho-pristupu",
+            "finding": "The current multimodal-access complaints page is readable and concerns media accessibility, including captions, signing and audio description. It is not a generic EAA company-reporting route. An older differently spelled URL failed; the current destination is already recorded.",
+            "next": "Avoid duplicate link correction and preserve exact media-law scope; SOI news coverage remains partial.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Slovenia",
+            "url": "https://www.gov.si/novice/2026-03-03-dostopnost-do-proizvodov-in-storitev-za-invalide/",
+            "finding": "The 3 March 2026 government announcement describes the amendment adopted on 11 February 2026. The current record already cites the corresponding gazette evidence; this is corroboration, not a newly discovered adoption.",
+            "next": "No duplicate legal-change alert; exact channels and later actions remain separate checks.",
+            "disposition": "already_present"
+          },
+          {
+            "country": "Spain",
+            "url": "https://www.dsca.gob.es/en/derechos-sociales/discapacidad/unidad-tecnica-apoyo-coordinacion-autoridades-vigilancia-materia",
+            "secondary_url": "https://www.dsca.gob.es/es/derechos-sociales/discapacidad/derechos-personas-discapacidad/infracciones-y-sanciones",
+            "finding": "UTAC says a dedicated electronic procedure is forthcoming and meanwhile explicitly refers complaints to the general Infracciones y sanciones procedure. That destination was read and provides general disability-law complaint-document links. The UTAC email is for general queries, not established filing. No form was submitted or authenticated intake tested.",
+            "next": "Review a monitoring-page note about UTAC's official interim referral, with territorial/jurisdiction limits. Do not label it a dedicated EAA online form, a company/exemption channel, or transfer general-law sanction amounts into EAA claims. Preserve the scheduled correspondence follow-up.",
+            "disposition": "research_only",
+            "persist": true
+          },
+          {
+            "country": "Sweden",
+            "url": "https://www.pts.se/om-oss/fran-pts-till-digitaliseringsmyndigheten--praktisk-information/",
+            "finding": "PTS practical transition information updated 30 October 2026 says current contacts remain through 31 December 2026 and the new Digitaliseringsmyndigheten begins 1 January 2027. This does not make future contacts current. Banking supervision and February complaint statistics are already recorded; dated totals are not present-day totals.",
+            "next": "Queue future-contact recheck without creating a schedule; reconcile existing Sweden KU7 branch and merged PR95 before any public edit. Do not duplicate already merged public-form changes.",
+            "disposition": "research_only",
+            "persist": true
+          }
+        ]
+      }
+    ],
+    "country_coverage": {
+      "checked_on": "2026-11-15",
+      "limits": "One targeted follow-up is not a completed monthly discovery. No snippets promoted to verified facts.",
+      "countries": [
+        {
+          "country": "Austria",
+          "method": "Targeted page check",
+          "result": "Ministry implementation scope read; exact receiver-side112 supervision and exemption channel unresolved.",
+          "status": "partial"
+        },
+        {
+          "country": "Belgium",
+          "method": "Targeted search only",
+          "result": "SPF guidance/form results overlap existing research; no new verified development or adopted-rule inference.",
+          "status": "partial"
+        },
+        {
+          "country": "Bulgaria",
+          "method": "Targeted page and browser checks",
+          "result": "KZP contact limits read; CJEU French judgment read in InfoCuria. Member-State sanction kept separate from business enforcement.",
+          "status": "partial"
+        },
+        {
+          "country": "Croatia",
+          "method": "Targeted official-gazette check",
+          "result": "NN114/2026 amendment read; new authority-name and sanctions-context candidates.",
+          "status": "partial"
+        },
+        {
+          "country": "Cyprus",
+          "method": "Targeted search only",
+          "result": "No primary enactment/commencement text established for the amendment lead; consultation is not adoption.",
+          "status": "partial"
+        },
+        {
+          "country": "Czechia",
+          "method": "Targeted page and browser checks",
+          "result": "CTU company non-compliance/exemption destinations and visible form verified within stated limits.",
+          "status": "partial"
+        },
+        {
+          "country": "Denmark",
+          "method": "Targeted search and PR reconciliation",
+          "result": "Control-guidance result not a case outcome. PR96 retains sole-country queue; no duplicate mailbox work.",
+          "status": "partial"
+        },
+        {
+          "country": "Estonia",
+          "method": "Targeted search only",
+          "result": "Returned public-sector2025 monitoring news, excluded as EAA-only evidence. No new country-complete claim.",
+          "status": "partial"
+        },
+        {
+          "country": "Finland",
+          "method": "Targeted official-page check",
+          "result": "End-2025 notification totals read; broader complaint/monitoring figures not treated as EAA-only.",
+          "status": "partial"
+        },
+        {
+          "country": "France",
+          "method": "Targeted page and browser checks",
+          "result": "Arcom ebook routes/first form step checked; PLATON decision is other-law context.",
+          "status": "partial"
+        },
+        {
+          "country": "Germany",
+          "method": "Targeted search only",
+          "result": "MLBF launch and strategy results overlap earlier recorded guidance; no new actual case verified.",
+          "status": "partial"
+        },
+        {
+          "country": "Greece",
+          "method": "Targeted search only",
+          "result": "Official amending-text gap remains; no inference from secondary legal references.",
+          "status": "partial"
+        },
+        {
+          "country": "Hungary",
+          "method": "Targeted search only",
+          "result": "MNB financial complaint/powers result overlaps existing guidance; no actual new sanction verified.",
+          "status": "partial"
+        },
+        {
+          "country": "Ireland",
+          "method": "Targeted search only",
+          "result": "CCPC remit/obligation results overlap existing facts; no new enforcement outcome established.",
+          "status": "partial"
+        },
+        {
+          "country": "Italy",
+          "method": "Targeted page and browser checks",
+          "result": "AgID article now readable in browser; PDF cover visible. Full operative regulation and authenticated intake still unverified.",
+          "status": "partial"
+        },
+        {
+          "country": "Latvia",
+          "method": "Targeted search only",
+          "result": "PTAC current guidance result retained as existing-source lead; specific company filing destination remains separate.",
+          "status": "partial"
+        },
+        {
+          "country": "Lithuania",
+          "method": "Targeted page checks",
+          "result": "RRT enquiry caveat and LRTK guidance/general-form limits documented; LTSA/112 gaps remain.",
+          "status": "partial"
+        },
+        {
+          "country": "Luxembourg",
+          "method": "Targeted page and browser checks",
+          "result": "ATM article readable in browser; existing candidate retained, no completed-remediation claim.",
+          "status": "partial"
+        },
+        {
+          "country": "Malta",
+          "method": "Targeted failed reader/browser checks",
+          "result": "CRPD investigations content still blocked for this client; independent browser check requested.",
+          "status": "partial"
+        },
+        {
+          "country": "Netherlands",
+          "method": "Targeted search only",
+          "result": "ACM24March2026 statistics already recorded; no later retest/sanction verified.",
+          "status": "partial"
+        },
+        {
+          "country": "Poland",
+          "method": "Targeted search only",
+          "result": "Results about regulator own-site accessibility/procurement are not EAA rail enforcement. No prohibited retry of previously security-blocked UTK source.",
+          "status": "partial"
+        },
+        {
+          "country": "Portugal",
+          "method": "Targeted search only",
+          "result": "IGAC own-site WAD statement is not EAA activity. Existing agency-intake gaps and prior failures preserved.",
+          "status": "partial"
+        },
+        {
+          "country": "Romania",
+          "method": "Targeted failed reader/browser checks",
+          "result": "ANCOM502/HTTP2 error; no source-content verification or website-outage conclusion.",
+          "status": "partial"
+        },
+        {
+          "country": "Slovakia",
+          "method": "Targeted search only",
+          "result": "SOI own-site WAD statement rejected as EAA evidence; relevant news coverage remains partial.",
+          "status": "partial"
+        },
+        {
+          "country": "Slovenia",
+          "method": "Targeted search only",
+          "result": "March2026 legal-amendment result already in preceding research; not a new alert.",
+          "status": "partial"
+        },
+        {
+          "country": "Spain",
+          "method": "Targeted page/PDF text checks",
+          "result": "General interim complaint form/signature and jurisdiction limits clarified; not dedicated EAA company filing.",
+          "status": "partial"
+        },
+        {
+          "country": "Sweden",
+          "method": "Targeted search only",
+          "result": "PTS complaint/tillsyn results already recorded; existing KU7 branch and merged95 preserved.",
+          "status": "partial"
+        }
+      ],
+      "queries": [
+        {
+          "query": "site:bundesfachstelle-barrierefreiheit.de BFSG Marktüberwachung 2026",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "MLBF launch and strategy results overlap earlier recorded guidance; no new actual case verified."
+        },
+        {
+          "query": "site:acm.nl toegankelijkheid toezicht 2026 webwinkels",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "ACM24March2026 statistics already recorded; no later retest/sanction verified."
+        },
+        {
+          "query": "site:saavutettavuusvaatimukset.fi valvonta 2026 päätökset",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "End-2025 notification totals read; broader complaint/monitoring figures not treated as EAA-only."
+        },
+        {
+          "query": "site:sik.dk tilgængelighed kontrol 2026",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "Control-guidance result not a case outcome. PR96 retains sole-country queue; no duplicate mailbox work."
+        },
+        {
+          "query": "site:utk.gov.pl dostępność 2026 kontrola",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "Results about regulator own-site accessibility/procurement are not EAA rail enforcement. No prohibited retry of previously security-blocked UTK source."
+        },
+        {
+          "query": "site:igac.gov.pt acessibilidade 2026 fiscalização",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "IGAC own-site WAD statement is not EAA activity. Existing agency-intake gaps and prior failures preserved."
+        },
+        {
+          "query": "site:agid.gov.it accessibilità servizi 2026 vigilanza",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "AgID article now readable in browser; PDF cover visible. Full operative regulation and authenticated intake still unverified."
+        },
+        {
+          "query": "site:pts.se tillgänglighetslagen 2026 tillsyn beslut",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "PTS complaint/tillsyn results already recorded; existing KU7 branch and merged95 preserved."
+        },
+        {
+          "query": "site:ccpc.ie accessibility 2026 enforcement",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "CCPC remit/obligation results overlap existing facts; no new enforcement outcome established."
+        },
+        {
+          "query": "site:ptac.gov.lv piekļūstamība 2026 pārbaudes",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "PTAC current guidance result retained as existing-source lead; specific company filing destination remains separate."
+        },
+        {
+          "query": "site:ttja.ee ligipääsetavus 2026 järelevalve",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "Returned public-sector2025 monitoring news, excluded as EAA-only evidence. No new country-complete claim."
+        },
+        {
+          "query": "site:mnb.hu akadálymentesség 2026 vizsgálat",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "MNB financial complaint/powers result overlaps existing guidance; no actual new sanction verified."
+        },
+        {
+          "query": "site:economie.fgov.be accessibilité contrôle 2026",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "SPF guidance/form results overlap existing research; no new verified development or adopted-rule inference."
+        },
+        {
+          "query": "site:hakom.hr pristupačnost 2026 nadzor",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "NN114/2026 amendment read; new authority-name and sanctions-context candidates."
+        },
+        {
+          "query": "site:soi.sk prístupnosť 2026 kontrola",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "SOI own-site WAD statement rejected as EAA evidence; relevant news coverage remains partial."
+        },
+        {
+          "query": "site:gov.si dostopnost proizvodov storitev 2026 nadzor",
+          "method": "official-domain search engine1; recency60 requested; results may include older material",
+          "outcome": "March2026 legal-amendment result already in preceding research; not a new alert."
+        }
+      ]
+    },
+    "access_attempts": [
+      {
+        "url": "https://www.crpd.org.mt/investigations/",
+        "reader_error": "HTTP 403 Forbidden",
+        "browser_result": "Your request was blocked.",
+        "status": "browser_verification_needed",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://www.ancom.ro/monitorizare-si-control/legea-prevenirii/",
+        "reader_error": "HTTP 502 Bad Gateway",
+        "browser_result": "net::ERR_HTTP2_PROTOCOL_ERROR",
+        "status": "browser_verification_needed",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://eportal.ctu.gov.cz/form/5",
+        "reader_error": "Formulář se připravuje; Došlo k chybě Načíst znovu",
+        "browser_result": "Intake fields rendered; no submission",
+        "status": "reader_failed/browser_accessible",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://accessibilite-produits-services.public.lu/fr/actualites/articles/distributeurs.html",
+        "reader_error": "URL is not accessible via this tool",
+        "browser_result": "Article text read",
+        "status": "reader_failed/browser_accessible",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://www.agid.gov.it/it/notizie/accessibilita-pubblicato-il-nuovo-regolamento-agid-sulle-attivita-di-vigilanza",
+        "reader_error": "HTTP 403 Forbidden",
+        "browser_result": "Article text read",
+        "status": "reader_failed/browser_accessible",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://www.agid.gov.it/sites/agid/files/2026-05/Regolamento_vigilanza_accessibilita.pdf",
+        "reader_error": "HTTP 403 Forbidden",
+        "browser_result": "13-page PDF rendered; cover only inspected",
+        "status": "reader_failed/browser_accessible",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62024CA0646",
+        "reader_error": "JavaScript disabled / robot check",
+        "browser_result": "Redirected to https://eur-lex.europa.eu/TodayOJ/index.html?uri=CELEX:62024CA0646; temporary availability warning; requested notice not obtained",
+        "status": "browser_verification_needed",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62024CJ0646",
+        "reader_error": "JavaScript disabled / robot check",
+        "browser_result": "Exact URL not attempted in browser",
+        "status": "browser_verification_needed",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://infocuria.curia.europa.eu/tabs/affair?lang=EN&logicDocId=&publishedId=C-646%2F24&searchTerm=%22C-646%2F24%22",
+        "reader_error": "Reader returned zero content lines",
+        "browser_result": "Exact case-overview URL not attempted in browser",
+        "status": "browser_verification_needed",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      },
+      {
+        "url": "https://infocuria.curia.europa.eu/tabs/jurisprudence?lang=EN&logicDocId=id_317920&publishedId=C-646%2F24&searchTerm=%2522C%252D646%252F24%2522",
+        "reader_error": "Reader returned zero content lines",
+        "browser_result": "English document unavailable; French judgment read in browser, including operative paragraphs",
+        "status": "reader_failed/browser_accessible",
+        "checked_on": "2026-11-15",
+        "last_good_policy": "Preserve all last-good factual evidence; this access observation alone does not verify an intake or legal claim."
+      }
+    ],
+    "general_resources": [
+      {
+        "id": "eud-eaa-transposition-toolkit-2026-11-15",
+        "record": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/blob/research/eu27-link-discovery-2026-11-15/.github/agents/research/intakes/eud-eaa-transposition-toolkit-2026-11-15.json",
+        "status": "research_only"
+      }
+    ]
   }
 }
