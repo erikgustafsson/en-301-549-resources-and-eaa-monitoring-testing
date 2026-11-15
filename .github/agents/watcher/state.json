@@ -6026,11 +6026,8 @@
     "pending": 1,
     "attempted_this_run": 23
   },
-  "lease": {
-    "owner": "eu27-2026-11-15-1794732692743",
-    "expires_at": "2026-11-15T09:36:32.743Z"
-  },
-  "updated_at": "2026-11-13T08:05:29Z",
+  "lease": null,
+  "updated_at": "2026-11-15T10:01:24.875Z",
   "source_mapping": {
     "Denmark": {
       "record_path": ".github/agents/research/countries/denmark.json",
@@ -8429,6 +8426,37 @@
       "pilot_promoted": false,
       "cost": "Not measured.",
       "per_country_timing": "Not individually instrumented; no invented metrics."
+    },
+    {
+      "run_id": "eu27-2026-11-15-1794732692743",
+      "started_at": "2026-11-15T08:51:32.743Z",
+      "finished_at": "2026-11-15T10:01:24.875Z",
+      "status": "research_completed_bounded_publication_blocked",
+      "mode": "User-authorized EU27 research and repository link audit; no recurring scope change",
+      "scope": "27 EU countries; no country declared exhaustively complete",
+      "publication": "Local commit 251939bae2a4d14970b9fa6ede4fafe89067b42b only. Git CLI lacked authentication; authorized connector create_tree returned user rejected MCP tool call. Stopped publication; no remote research branch or PR created.",
+      "local_report": "/workspace/scratch/14689c075a99/eu-audit-2026-11-15/.github/agents/watcher/reports/eu27-2026-11-15/README.md",
+      "link_audit": {
+        "external_candidates": 1369,
+        "http_success": 1182,
+        "reader_errors": 187,
+        "relative_candidates": 140,
+        "mailto_tel_not_contacted": 38,
+        "limit": "HTTP access only; not all links/claims verified. Includes historical/fixture/extraction candidates."
+      },
+      "verification": "Targeted new fingerprints/routing/no-new-schema-errors checks passed; 9 watcher tests passed. Full validator remains blocked by inherited evidence fingerprint/schema defects; 2 of 12 country tests failed at inherited fingerprint check.",
+      "browser_notice": "Grouped URL/error list saved locally; PTS, Cyprus ministry and AgID browser-accessible. Unresolved reader failures require ordinary-browser checks, not classified as website outages.",
+      "pending_next_step": "Obtain permission to publish local research-only commit through GitHub, then reconcile main/open heads and retain one-country PR queue (#96). Do not repeat research merely because publication failed.",
+      "pilot_progress": "Existing sources, baselines, candidates and monthly coverage preserved; not upgraded to complete.",
+      "notification_ids": [
+        "eu27-2026-11-15-1794732692743|start",
+        "eu27-2026-11-15-1794732692743|batch1",
+        "eu27-2026-11-15-1794732692743|batch2",
+        "eu27-2026-11-15-1794732692743|batch3",
+        "eu27-2026-11-15-1794732692743|publication-blocked"
+      ],
+      "cost": "Not measured",
+      "pilot_promoted": false
     }
   ]
 }
