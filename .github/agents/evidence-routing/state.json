@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "routing-pr97-775328d0-1794825374957",
-    "acquired_at": "2026-11-16T10:36:14.957Z",
-    "expires_at": "2026-11-16T11:06:14.957Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1662,6 +1658,98 @@
         }
       ],
       "note": "Research change supplied by #96, not yet on main. Monitoring already lists both addresses. No evidence of mailbox delivery, forwarding, enforcement, sanctions or standards adoption. Historical unrelated metadata follow-up not re-notified."
+    },
+    {
+      "delivery_id": "775328d0-e1a8-11f1-8601-156c8f54602e",
+      "event": "pull_request.synchronize",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T10:37:28.294Z",
+      "actual_state": "open_draft",
+      "outcome": "covered_in_open_pr_research_only_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Read current PR97 state/diff/four changed paths, current main routing/shared policy and ledger, main/head Poland record, intake, registered public-page Poland entries and standards page relevance; compared open PR96 head (Denmark, non-overlapping evidence). PR97 already preserves supplied local Chrome report, all 11 attributed claims, distinct dates/counts, overlap limits, informal remedies versus commitments, planned controls and fund-balance exclusion. Monitoring and sanctions handoffs and adoption disposition match generated ledger. New claims correctly remain unverified_source; no fresh original-PDF verification claimed. Main lacks this research intake because PR97 remains open, not a missed handoff. Public enforcement update remains an explicit future source/publication-review step, not a verified missing claim to promote now. No new actionable suggestion or blocker; no research/public edits, PR creation, comments or upstream writes. Existing unrelated suggestions unchanged. Reassess on evidence changes or merge."
+    },
+    {
+      "delivery_id": "ece6c210-e1a7-11f1-86d7-35ebfd2887b2",
+      "event": "pull_request.opened",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T10:37:28.294Z",
+      "actual_state": "open_draft",
+      "outcome": "covered_in_open_pr_research_only_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Read current PR97 state/diff/four changed paths, current main routing/shared policy and ledger, main/head Poland record, intake, registered public-page Poland entries and standards page relevance; compared open PR96 head (Denmark, non-overlapping evidence). PR97 already preserves supplied local Chrome report, all 11 attributed claims, distinct dates/counts, overlap limits, informal remedies versus commitments, planned controls and fund-balance exclusion. Monitoring and sanctions handoffs and adoption disposition match generated ledger. New claims correctly remain unverified_source; no fresh original-PDF verification claimed. Main lacks this research intake because PR97 remains open, not a missed handoff. Public enforcement update remains an explicit future source/publication-review step, not a verified missing claim to promote now. No new actionable suggestion or blocker; no research/public edits, PR creation, comments or upstream writes. Existing unrelated suggestions unchanged. Reassess on evidence changes or merge."
     }
   ],
   "suggestions": [
@@ -4709,7 +4797,99 @@
         }
       ],
       "note": "Research change supplied by #96, not yet on main. Monitoring already lists both addresses. No evidence of mailbox delivery, forwarding, enforcement, sanctions or standards adoption. Historical unrelated metadata follow-up not re-notified."
+    },
+    {
+      "delivery_id": "775328d0-e1a8-11f1-8601-156c8f54602e",
+      "event": "pull_request.synchronize",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T10:37:28.294Z",
+      "actual_state": "open_draft",
+      "outcome": "covered_in_open_pr_research_only_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Read current PR97 state/diff/four changed paths, current main routing/shared policy and ledger, main/head Poland record, intake, registered public-page Poland entries and standards page relevance; compared open PR96 head (Denmark, non-overlapping evidence). PR97 already preserves supplied local Chrome report, all 11 attributed claims, distinct dates/counts, overlap limits, informal remedies versus commitments, planned controls and fund-balance exclusion. Monitoring and sanctions handoffs and adoption disposition match generated ledger. New claims correctly remain unverified_source; no fresh original-PDF verification claimed. Main lacks this research intake because PR97 remains open, not a missed handoff. Public enforcement update remains an explicit future source/publication-review step, not a verified missing claim to promote now. No new actionable suggestion or blocker; no research/public edits, PR creation, comments or upstream writes. Existing unrelated suggestions unchanged. Reassess on evidence changes or merge."
+    },
+    {
+      "delivery_id": "ece6c210-e1a7-11f1-86d7-35ebfd2887b2",
+      "event": "pull_request.opened",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T10:37:28.294Z",
+      "actual_state": "open_draft",
+      "outcome": "covered_in_open_pr_research_only_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Read current PR97 state/diff/four changed paths, current main routing/shared policy and ledger, main/head Poland record, intake, registered public-page Poland entries and standards page relevance; compared open PR96 head (Denmark, non-overlapping evidence). PR97 already preserves supplied local Chrome report, all 11 attributed claims, distinct dates/counts, overlap limits, informal remedies versus commitments, planned controls and fund-balance exclusion. Monitoring and sanctions handoffs and adoption disposition match generated ledger. New claims correctly remain unverified_source; no fresh original-PDF verification claimed. Main lacks this research intake because PR97 remains open, not a missed handoff. Public enforcement update remains an explicit future source/publication-review step, not a verified missing claim to promote now. No new actionable suggestion or blocker; no research/public edits, PR creation, comments or upstream writes. Existing unrelated suggestions unchanged. Reassess on evidence changes or merge."
     }
   ],
-  "updated_at": "2026-11-06T07:52:49.830Z"
+  "updated_at": "2026-11-16T10:37:28.294Z"
 }
