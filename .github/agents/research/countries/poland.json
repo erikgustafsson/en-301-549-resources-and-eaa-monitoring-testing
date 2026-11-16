@@ -1279,7 +1279,7 @@
           "disposition": "research_only",
           "reason": "Historical statistics and activity newly captured in 11 attributed claims; existing PR #93 lacks these quantitative details.",
           "next_action": "After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
-          "pr": null
+          "pr": 97
         },
         {
           "page": "EAA authorities and reporting by country.md",
@@ -1288,7 +1288,7 @@
           "disposition": "research_only",
           "reason": "Audience/purpose handoff recorded; no new concrete route, language or statement claim.",
           "next_action": "Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
-          "pr": null
+          "pr": 97
         },
         {
           "page": "EAA sanctions.md",
@@ -1297,7 +1297,7 @@
           "disposition": "research_only",
           "reason": "Historical no-penalty replies/process and fund-balance exclusion stored; no new statutory cap.",
           "next_action": "No statutory/public change; distinguish powers from actions and fund balance from penalties.",
-          "pr": null
+          "pr": 97
         },
         {
           "page": "EN 301 549 adoption.md",
@@ -1306,9 +1306,10 @@
           "disposition": "not_applicable",
           "reason": "No standards-adoption/edition evidence in supplied report.",
           "next_action": "Preserve existing adoption record and dates.",
-          "pr": null
+          "pr": 97
         }
-      ]
+      ],
+      "pr": 97
     }
   ]
 }
