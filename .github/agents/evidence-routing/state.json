@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "routing97-batch024eccb0-1794826964743",
-    "acquired_at": "2026-11-16T11:02:44.743Z",
-    "expires_at": "2026-11-16T11:32:44.743Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1800,6 +1796,98 @@
         "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
       },
       "note": "Delayed synchronization delivery resolves to the same reviewed open draft97 head09c9a8d7b36992c0622704bfbd6b7af3f21ac143. Re-read current routing policy/main ledger, actual PR/diff/files, canonical Poland head and current registered public pages; blobs match prior review. Open PRs remain97 and96;96 head6111a2f383c5746f820b6bb245cedc3ffc71f860 unchanged. Same source fingerprints/country/target/proposed-change keys and research_only/not_applicable dispositions; no duplicate suggestion or new verified claim. Research handoffs covered by97, not yet merged. No new source research, public/research writes, PRs or comments."
+    },
+    {
+      "delivery_id": "024eccb0-e1a8-11f1-8739-efa4c419e718",
+      "event": "pull_request.synchronize",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T11:03:10.279Z",
+      "actual_state": "open_draft",
+      "outcome": "duplicate_same_evidence_and_current_head_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Batched delayed synchronization; actual open draft97 remains at previously reviewed09c9a8d7b36992c0622704bfbd6b7af3f21ac143. Fresh current PR/diff/path list, routing README/main ledger, main/head Poland research and registered public-page blobs agree with prior check; open96 head unchanged, no other open PR. Same evidence fingerprints/country/target/proposed-change keys and complete research_only/not_applicable destinations. Existing97 covers research intake, not yet merged; public verification gates remain pending. No new actionable suggestion, blocker, source research, PR/comment, research/public or upstream write. Runtime state only."
+    },
+    {
+      "delivery_id": "07fb48a0-e1a8-11f1-9777-21cc075edab4",
+      "event": "pull_request.synchronize",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T11:03:10.279Z",
+      "actual_state": "open_draft",
+      "outcome": "duplicate_same_evidence_and_current_head_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Batched delayed synchronization; actual open draft97 remains at previously reviewed09c9a8d7b36992c0622704bfbd6b7af3f21ac143. Fresh current PR/diff/path list, routing README/main ledger, main/head Poland research and registered public-page blobs agree with prior check; open96 head unchanged, no other open PR. Same evidence fingerprints/country/target/proposed-change keys and complete research_only/not_applicable destinations. Existing97 covers research intake, not yet merged; public verification gates remain pending. No new actionable suggestion, blocker, source research, PR/comment, research/public or upstream write. Runtime state only."
     }
   ],
   "suggestions": [
@@ -4985,7 +5073,99 @@
         "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
       },
       "note": "Delayed synchronization delivery resolves to the same reviewed open draft97 head09c9a8d7b36992c0622704bfbd6b7af3f21ac143. Re-read current routing policy/main ledger, actual PR/diff/files, canonical Poland head and current registered public pages; blobs match prior review. Open PRs remain97 and96;96 head6111a2f383c5746f820b6bb245cedc3ffc71f860 unchanged. Same source fingerprints/country/target/proposed-change keys and research_only/not_applicable dispositions; no duplicate suggestion or new verified claim. Research handoffs covered by97, not yet merged. No new source research, public/research writes, PRs or comments."
+    },
+    {
+      "delivery_id": "024eccb0-e1a8-11f1-8739-efa4c419e718",
+      "event": "pull_request.synchronize",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T11:03:10.279Z",
+      "actual_state": "open_draft",
+      "outcome": "duplicate_same_evidence_and_current_head_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Batched delayed synchronization; actual open draft97 remains at previously reviewed09c9a8d7b36992c0622704bfbd6b7af3f21ac143. Fresh current PR/diff/path list, routing README/main ledger, main/head Poland research and registered public-page blobs agree with prior check; open96 head unchanged, no other open PR. Same evidence fingerprints/country/target/proposed-change keys and complete research_only/not_applicable destinations. Existing97 covers research intake, not yet merged; public verification gates remain pending. No new actionable suggestion, blocker, source research, PR/comment, research/public or upstream write. Runtime state only."
+    },
+    {
+      "delivery_id": "07fb48a0-e1a8-11f1-9777-21cc075edab4",
+      "event": "pull_request.synchronize",
+      "pull_request": 97,
+      "head_sha": "09c9a8d7b36992c0622704bfbd6b7af3f21ac143",
+      "checked_on": "2026-11-16T11:03:10.279Z",
+      "actual_state": "open_draft",
+      "outcome": "duplicate_same_evidence_and_current_head_no_new_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "dispositions": [
+        {
+          "domain": "enforcement",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA enforcement tracking.md|After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "monitoring",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA authorities and reporting by country.md|Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "sanctions",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EAA sanctions.md|No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "disposition": "research_only",
+          "covered_by": 97
+        },
+        {
+          "domain": "adoption",
+          "key": "source-93772c30bdf07d2b1f5a038f+source-9ce8e9e7b54356c47cb7b2ad+source-47449935cf98e3b72dec6baa|Poland|EN 301 549 adoption.md|Preserve existing adoption record and dates.",
+          "disposition": "not_applicable",
+          "covered_by": 97
+        }
+      ],
+      "additional_page_assessment": {
+        "EAA and WAD standards.md": "not_applicable: no standards/edition/legal-incorporation evidence",
+        "E-book accessibility metadata.md": "not_applicable: no metadata evidence; user exception preserved"
+      },
+      "note": "Batched delayed synchronization; actual open draft97 remains at previously reviewed09c9a8d7b36992c0622704bfbd6b7af3f21ac143. Fresh current PR/diff/path list, routing README/main ledger, main/head Poland research and registered public-page blobs agree with prior check; open96 head unchanged, no other open PR. Same evidence fingerprints/country/target/proposed-change keys and complete research_only/not_applicable destinations. Existing97 covers research intake, not yet merged; public verification gates remain pending. No new actionable suggestion, blocker, source research, PR/comment, research/public or upstream write. Runtime state only."
     }
   ],
-  "updated_at": "2026-11-16T10:50:46.689Z"
+  "updated_at": "2026-11-16T11:03:10.279Z"
 }
