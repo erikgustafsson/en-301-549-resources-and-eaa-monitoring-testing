@@ -178,8 +178,9 @@
     "public_pages_changed": false,
     "new_source_checks": false,
     "isolated_source_language_review": "Not performed: original Polish passages unavailable in supplied report; no public wording proposed.",
-    "independent_pr_review": "Pending actual draft/head review.",
-    "maintainer_approval": "Not claimed."
+    "independent_pr_review": "Completed without inherited history at a66b62f6e7299947194097cca475e9b5affcdec3; no blocking research-intake findings. See .github/agents/enforcement/reviews/poland-sejm-intake-2026-11-16.json",
+    "maintainer_approval": "Not claimed.",
+    "canonical_statistics_limit": "RF45/RF853 have no exact as_of in the report; kept as monitoring_activity claims plus structured intake statistics, not date-inventing statistics claims. Statistics-only canonical consumers will miss those counts."
   },
   "next_steps": [
     "Retain all new evidence in canonical Poland domains and generated delivery ledger.",
