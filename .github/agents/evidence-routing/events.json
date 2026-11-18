@@ -1431,6 +1431,45 @@
       ]
     },
     {
+      "id": "denmark-company-mailto-2026-11-06",
+      "country": "Denmark",
+      "recorded_on": "2026-11-06",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "research_only",
+          "reason": "Published label and target now agree. The row already preserves the published address and established contributor address.",
+          "next_action": "Retain the historical correspondence; no public edit."
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "Correction to a company notification link; no enforcement action.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No penalty, fine or sanctions evidence.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption evidence.",
+          "next_action": "None for this evidence."
+        }
+      ]
+    },
+    {
       "id": "world-discovery-5-2026-09-27-egypt",
       "country": "Egypt",
       "destinations": [
