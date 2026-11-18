@@ -1,0 +1,37 @@
+{
+  "review_type": "independent_pr_review",
+  "reviewed_on": "2026-11-19",
+  "reviewer": "Codex independent PR reviewer /root/netherlands_pr100_review",
+  "reviewer_isolation": "Separate reviewer started with fork_turns=none; no author conversation history. Received the PR/version, scope brief, repository instructions, evidence records and validation-log locations. No source-fidelity or readability review performed by this reviewer.",
+  "pr_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/100",
+  "reviewed_head": "61052ec6ef29b8c4f05a8831039fa34f1c9a8940",
+  "reviewed_base": "2bf35c634e990a5d1245e4c2879eab8356c7581a",
+  "scope": "Research-only Netherlands Emerce intake: canonical country evidence and claims, intake record, generated routing index. Actual GitHub metadata, full diff and file list inspected; no public page, map, instruction or runtime change.",
+  "reviewed_blobs": {
+    ".github/agents/evidence-routing/events.json": "6d44b0749046a96bbd222a801565cb338fd3c043",
+    ".github/agents/research/countries/netherlands.json": "6505479d18307ce5478be84c07f91198124f9fad",
+    ".github/agents/research/intakes/netherlands-emerce-2026-11-19.json": "a81f3919ae0a2ffcfa9efdeb197d5184b20df7c1"
+  },
+  "result": "No concrete findings in the reviewed research-only diff.",
+  "findings": [],
+  "checks": [
+    "Both new enforcement claims remain unverified_source, attributed to Emerce, with null verification and event dates. Publication date is separate; visits, analysis, pending feedback and unestablished final outcomes are distinguished.",
+    "No promotion of secondary evidence to official correspondence or verified outcomes; no assertion of fines, full remediation, general statutory deadline or immunity from sanctions.",
+    "All 36 prior evidence objects, both prior enforcement claims, previous attempts/questions/notes/deliveries, historical verification dates, monitoring claims, sanctions and adoption data are preserved. The latest research-attempt date advances with a new attempt record.",
+    "Monitoring handoff retains self-reporting treatment as a question. All four domains have explicit routing dispositions and actions; generated routing matches canonical deliveries.",
+    "Independently checked Netherlands schema and evidence fingerprints, new claim qualification, baseline preservation and generated routing. Local reviewed content matched GitHub blob hashes after removing only the author's planned unpublished PR-number bookkeeping in memory; no local evidence was rewritten.",
+    "Compared all six supplied head/baseline validation logs. Exit codes and diagnostics match after normalizing only export paths and test timing: enforcement 28/28 and watcher 9/9 passed; country fingerprint, shared-storage 2/12 failures, public-map and eight link-language diagnostics are inherited.",
+    "Actual GitHub main and draft PR head/base rechecked unchanged. Only PR100 appeared in the open-PR collection. Relevant pending branch head confirmed as 858eb9de3b5c9d401abd7c3c86b3ac15cb7f9e81; its Netherlands record adds a separate March ACM observation. Intake accurately records preservation and routing-regeneration coordination.",
+    "PR description accurately characterizes research-only scope, source-access attribution and validation limits. Its pending-review wording is correct for the reviewed head and should be replaced during the already planned delivery follow-up."
+  ],
+  "delivery_followup": "Author plans to record PR100 in the relevant destinations, regenerate routing, store this report, update the intake review pointer and refresh the description. These are delivery/report metadata, not evidence-wording corrections. Re-read the final actual head and confirm that limitation.",
+  "manual_checks_before_merge": "None identified beyond ordinary maintainer review for this research-only addition.",
+  "non_blocking_followup": "Primary corroboration and exact outcomes remain research follow-up in the country questions and intake; required source-fidelity/readability reviews precede any future public wording.",
+  "limits": [
+    "This reviewer did not inspect the original Dutch Emerce article, ACM webpages, webinar recording or transcript. Source-access statements are attributed to the author's recorded pass; no firsthand original-source inspection or authentication is claimed.",
+    "Source-fidelity and readability were not performed because no public wording is proposed. This review does not verify the two new source claims or authorize publication.",
+    "Unchanged historical public content and evidence were checked for preservation, not independently re-researched.",
+    "Regression results were inspected in supplied logs, not rerun by this reviewer. Independent targeted checks do not establish a full-suite pass, live-link reachability, CI success or legal accuracy.",
+    "No GitHub mutation, approval, merge, correspondence, repository edit or new source research was performed. The report is bound to the exact reviewed head and does not claim review of later evidence changes."
+  ]
+}
