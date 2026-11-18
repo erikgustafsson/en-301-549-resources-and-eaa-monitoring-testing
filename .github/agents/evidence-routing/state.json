@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "routing99-ready-1795018447366",
-    "acquired_at": "2026-11-18T16:14:07.366Z",
-    "expires_at": "2026-11-18T16:44:07.366Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2042,6 +2038,45 @@
         }
       ],
       "note": "Read actual open draft99 diff/body/five changed paths, main routing README/ledger, current overlay evidence records and open PR list (only99). Both evidence blobs unchanged. New delta labels Tmeeting EaseAccess24 and catalogue WCAG-Ready (EaseAccess24); retained observation identifies widget.easeaccess24.com/sdk.js and preserves historical label. Provider integration/naming is not EAA authority/channel, enforcement, sanction or standards-adoption evidence. Earlier registered-page assessment remains applicable at unchanged main base9da538c. Existing99 covers overlay work; no duplicate PR suggestion. No new-country research or public/research edits; runtime state only."
+    },
+    {
+      "delivery_id": "00001fd0-e36b-11f1-8cbb-ffa26450b025",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 99,
+      "head_sha": "fd4c5bbf4a8dbb8ceaa3f5fecd6f8ca5e425260e",
+      "checked_on": "2026-11-18T16:14:27.943Z",
+      "actual_state": "merged",
+      "outcome": "merged_same_evidence_no_pending_cross_page_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident",
+        "dd801f4b1c1891c4dc5e5cf59f49aa68927f4872"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Actual current PR99 already merged at reviewed headfd4c5bb. Read fresh PR/diff/changed paths, routing README/main ledger, main overlay research blobs and published overlay page. Exact two evidence blobs match prior assessments and main includes LSB Bremen/Tmeeting/index changes. No open PRs; runtime suggestions contain no handoff blocked by or covering99. No country/registered EAA domain evidence introduced; previous not_applicable dispositions stand. No new actionable suggestion. Recorded actual merge without treating source runtime claims or inherited unknowns as verified. Runtime state only.",
+      "merge_commit_sha": "2bf35c634e990a5d1245e4c2879eab8356c7581a"
     }
   ],
   "suggestions": [
@@ -5469,7 +5504,46 @@
         }
       ],
       "note": "Read actual open draft99 diff/body/five changed paths, main routing README/ledger, current overlay evidence records and open PR list (only99). Both evidence blobs unchanged. New delta labels Tmeeting EaseAccess24 and catalogue WCAG-Ready (EaseAccess24); retained observation identifies widget.easeaccess24.com/sdk.js and preserves historical label. Provider integration/naming is not EAA authority/channel, enforcement, sanction or standards-adoption evidence. Earlier registered-page assessment remains applicable at unchanged main base9da538c. Existing99 covers overlay work; no duplicate PR suggestion. No new-country research or public/research edits; runtime state only."
+    },
+    {
+      "delivery_id": "00001fd0-e36b-11f1-8cbb-ffa26450b025",
+      "event": "pull_request.ready_for_review",
+      "pull_request": 99,
+      "head_sha": "fd4c5bbf4a8dbb8ceaa3f5fecd6f8ca5e425260e",
+      "checked_on": "2026-11-18T16:14:27.943Z",
+      "actual_state": "merged",
+      "outcome": "merged_same_evidence_no_pending_cross_page_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident",
+        "dd801f4b1c1891c4dc5e5cf59f49aa68927f4872"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Actual current PR99 already merged at reviewed headfd4c5bb. Read fresh PR/diff/changed paths, routing README/main ledger, main overlay research blobs and published overlay page. Exact two evidence blobs match prior assessments and main includes LSB Bremen/Tmeeting/index changes. No open PRs; runtime suggestions contain no handoff blocked by or covering99. No country/registered EAA domain evidence introduced; previous not_applicable dispositions stand. No new actionable suggestion. Recorded actual merge without treating source runtime claims or inherited unknowns as verified. Runtime state only.",
+      "merge_commit_sha": "2bf35c634e990a5d1245e4c2879eab8356c7581a"
     }
   ],
-  "updated_at": "2026-11-18T16:11:33.379Z"
+  "updated_at": "2026-11-18T16:14:27.943Z"
 }
