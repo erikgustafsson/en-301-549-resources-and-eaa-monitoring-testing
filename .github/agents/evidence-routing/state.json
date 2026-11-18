@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "routing99-sync-1795017744659",
-    "acquired_at": "2026-11-18T16:02:24.659Z",
-    "expires_at": "2026-11-18T16:32:24.659Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1929,6 +1925,43 @@
         }
       ],
       "note": "Read current PR/diff/three changed paths, overlay check record, main routing instructions/ledger, Germany canonical record and registered pages. Only open PR99 covers overlay material. Directly read LSB Bremen source: provider reports security incident and data-protection authority notification, not EAA enforcement. Existing BIK testing-methodology claim is not contradicted by integration observations. Overlay research already retained separately in99; 69 inconclusive entries remain explicitly unverified. No new-country research or public/research changes. No new actionable cross-page suggestion."
+    },
+    {
+      "delivery_id": "5e2dd810-e369-11f1-8606-73f50b041481",
+      "event": "pull_request.synchronize",
+      "pull_request": 99,
+      "head_sha": "b8019e750211d8343942f34ea88b1f9dfac412ab",
+      "checked_on": "2026-11-18T16:02:45.659Z",
+      "actual_state": "open",
+      "outcome": "duplicate_evidence_documentation_only_delta",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Current head moves provider-index maintenance instruction from public page to overlays/AGENTS.md. Evidence blob unchanged (0e61eb92f4570023cc7e67db923687670046e44b); main routing README/ledger and base unchanged. Actual changed paths/diff and only-open-PR99 checked. Prior source and registered-page assessment remains applicable; no new cross-page fact, claim or handoff. Existing limitations and not_applicable dispositions retained. No source reread needed for instruction-only delta. Runtime state only."
     }
   ],
   "suggestions": [
@@ -5243,7 +5276,44 @@
         }
       ],
       "note": "Read current PR/diff/three changed paths, overlay check record, main routing instructions/ledger, Germany canonical record and registered pages. Only open PR99 covers overlay material. Directly read LSB Bremen source: provider reports security incident and data-protection authority notification, not EAA enforcement. Existing BIK testing-methodology claim is not contradicted by integration observations. Overlay research already retained separately in99; 69 inconclusive entries remain explicitly unverified. No new-country research or public/research changes. No new actionable cross-page suggestion."
+    },
+    {
+      "delivery_id": "5e2dd810-e369-11f1-8606-73f50b041481",
+      "event": "pull_request.synchronize",
+      "pull_request": 99,
+      "head_sha": "b8019e750211d8343942f34ea88b1f9dfac412ab",
+      "checked_on": "2026-11-18T16:02:45.659Z",
+      "actual_state": "open",
+      "outcome": "duplicate_evidence_documentation_only_delta",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Current head moves provider-index maintenance instruction from public page to overlays/AGENTS.md. Evidence blob unchanged (0e61eb92f4570023cc7e67db923687670046e44b); main routing README/ledger and base unchanged. Actual changed paths/diff and only-open-PR99 checked. Prior source and registered-page assessment remains applicable; no new cross-page fact, claim or handoff. Existing limitations and not_applicable dispositions retained. No source reread needed for instruction-only delta. Runtime state only."
     }
   ],
-  "updated_at": "2026-11-18T15:58:57.439Z"
+  "updated_at": "2026-11-18T16:02:45.659Z"
 }
