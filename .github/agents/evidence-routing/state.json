@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "routing99-sync-1795017744659",
+    "acquired_at": "2026-11-18T16:02:24.659Z",
+    "expires_at": "2026-11-18T16:32:24.659Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
