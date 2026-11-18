@@ -1,6 +1,10 @@
 {
   "version": 1,
-  "lease": null,
+  "lease": {
+    "run_id": "routing100-1795043449546",
+    "acquired_at": "2026-11-18T23:10:49.546Z",
+    "expires_at": "2026-11-18T23:40:49.546Z"
+  },
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
