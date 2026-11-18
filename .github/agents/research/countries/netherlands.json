@@ -270,6 +270,33 @@
       "accessed_on": "2026-09-30",
       "access": "reachable",
       "method": "web reader; relevant passage inspected"
+    },
+    "source-c9a977e143e8265142b4a9a1": {
+      "url": "https://www.emerce.nl/achtergrond/eaanaleving-dit-verwacht-acm-organisatie",
+      "source_type": "external_news_report",
+      "reference": "Marcel Otte (Swink), Emerce, 17 November 2026; Toezicht op de EAA: de aanpak van de ACM",
+      "passage": "Webinar recap attributes follow-up visits and analysis to ACM project leader Hanneke van Rooijen. Specific research assertions are recorded separately below.",
+      "attempted_on": "2026-11-19",
+      "retrieved_on": "2026-11-19",
+      "access_result": "reachable",
+      "provenance_note": "Full article read in local Chrome after web-reader access failed. Secondary account of a Swink/Deque webinar; neither original recording nor ACM transcript inspected. Publication date is not the webinar date. No official-correspondence classification or independent authentication."
+    },
+    "source-7935dd5c1a20fb13403b4252": {
+      "url": "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
+      "source_type": "official_authority_publication",
+      "reference": "24 March 2026; introduction and Toezicht ACM met inzet ervaringsdeskundigen",
+      "passage": "Reports 61% unable to order and 33% with serious problems in its checked sample; describes contact with poorly performing companies and possible enforcement if improvement is insufficient. Does not establish the later visits or their results.",
+      "attempted_on": "2026-11-19",
+      "retrieved_on": "2026-11-19",
+      "access_result": "reachable",
+      "provenance_note": "Dutch primary page retrieved and read for comparison. Reconfirms the scope of existing March evidence; historical source objects and claim verification dates are retained."
+    },
+    "source-e6c9278038cfc68dafca7751": {
+      "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten",
+      "accessed_on": "2026-11-19",
+      "source_type": "monitoring_body",
+      "section": "Toegankelijkheidsverklaring; Meldplicht voor niet-toegankelijke diensten; Toezicht op toegankelijkheid",
+      "evidence": "ACM retains website/app and oral statement guidance. Company reports describe inaccessible elements, impact and a remediation plan. Supervision considers problem severity and remedial steps. Existing public/company destinations were not form-tested in this pass."
     }
   },
   "domains": {
@@ -657,7 +684,8 @@
         "Follow-up: Netherlands / RDI, ILT, CvdM and 112 company non-compliance/exemptions — find current authority instructions and purpose-specific form/email/postal route; owner: researcher; resolved when official source identifies destination and audience.",
         "Follow-up: Netherlands / statement and service information modes — confirm national sector-specific terms/equivalent publication and authority-on-request provisions where not established by ACM/AFM guidance; owner: researcher; resolved with explicit law or regulator text.",
         "Follow-up: Netherlands / language and authentication — confirm whether non-Dutch reports are accepted at routes other than ACM (ACM confirmed English company reports on 3 December 2025); AFM requires an organisation portal account and ACM forms require JavaScript; owner: contributor or agency; resolved by official guidance or correspondence.",
-        "Follow-up: Netherlands / ACM official correspondence — statement-publication, full monitoring scope, monitoring status, warnings, information access, WCAG 2.2 and dark-mode questions sent on 11 December 2025 and reminded on 24 September 2026 remain unanswered. Owner: contributor; resolved on explicit ACM reply. Public ACM website currently independently supports a statement-page claim for its own supervised services."
+        "Follow-up: Netherlands / ACM official correspondence — statement-publication, full monitoring scope, monitoring status, warnings, information access, WCAG 2.2 and dark-mode questions sent on 11 December 2025 and reminded on 24 September 2026 remain unanswered. Owner: contributor; resolved on explicit ACM reply. Public ACM website currently independently supports a statement-page claim for its own supervised services.",
+        "Follow-up: Emerce 17 November 2026 attributes favourable treatment of self-reporting to ACM. Official guidance corroborates reporting and remediation-plan requirements, but does not establish immunity from sanctions. Confirm the original webinar passage before adding the reported supervisory preference; preserve existing reporting routes. See netherlands-emerce-2026-11-19 intake."
       ]
     },
     "sanctions": {
@@ -707,12 +735,13 @@
       "created_on": "2026-09-25",
       "research_state": "partially_researched",
       "search_result": "reportable_activity_found",
-      "attempted_on": "2026-09-25",
+      "attempted_on": "2026-11-19",
       "verified_on": "2026-09-25",
       "knowledge_notes": [
         "Remaining-entry audit on 25 September 2026: bounded public-source pass, not exhaustive country research. Missing confirmation does not disprove inherited contributor assertions. No correspondence sent.",
         "All Monitoring agencies research, 25 September 2026: Re-read primary 24 March 2026 publication already mapped. No new dated outcome established by this search. Existing tests/contact plans retained; do not turn risk of enforcement into imposed sanctions.",
-        "deque-webinar-2026-09-17, slide 7: re-read ACM source-3c5a146d8f2181c11f560c18; existing nl-acm-tests-20260324 and nl-acm-followup-20260324 already cover supported findings. Secondary NOS lead source-496a670f422a49c44fb5027d gives a June retest plan. Retest completion, individual outcomes and imposed fines remain unverified. Seek a later dated ACM publication; do not infer results from elapsed time."
+        "deque-webinar-2026-09-17, slide 7: re-read ACM source-3c5a146d8f2181c11f560c18; existing nl-acm-tests-20260324 and nl-acm-followup-20260324 already cover supported findings. Secondary NOS lead source-496a670f422a49c44fb5027d gives a June retest plan. Retest completion, individual outcomes and imposed fines remain unverified. Seek a later dated ACM publication; do not infer results from elapsed time.",
+        "Emerce intake 19 November 2026: later follow-up details are retained as secondary-source leads, not verified outcomes. See .github/agents/research/intakes/netherlands-emerce-2026-11-19.json. The new account does not supersede the dated March claims or establish imposed penalties, full remediation, or a national absence of enforcement."
       ],
       "public_entry_ids": [
         "netherlands-1"
@@ -735,6 +764,17 @@
           ],
           "limitations": "Re-read primary 24 March 2026 publication already mapped. No new dated outcome established by this search. Existing tests/contact plans retained; do not turn risk of enforcement into imposed sanctions. Sources_checked includes attempted URLs; failed retrievals above are not verification. Limited public-source pass; no correspondence sent.",
           "next_check": "Follow the country-specific source gaps above in a new authorised pass; preserve existing contributor claims pending provenance."
+        },
+        {
+          "attempted_on": "2026-11-19",
+          "scope": "Read user-supplied Emerce article; compare current country research, pending EU27 branch and two ACM primary pages.",
+          "sources_checked": [
+            "https://www.emerce.nl/achtergrond/eaanaleving-dit-verwacht-acm-organisatie",
+            "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
+            "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten"
+          ],
+          "limitations": "Emerce reader failed; local Chrome succeeded. Two targeted ACM searches did not locate primary confirmation of the later follow-up. Original webinar and individual company outcomes not inspected. Netherlands/ACM only; not exhaustive.",
+          "next_check": "Seek a dated ACM follow-up or original webinar passage for the new claims before proposing a public enforcement update."
         }
       ],
       "claims": [
@@ -795,6 +835,56 @@
           "source_refs": [
             "source-054208e7757051211e3c4f9c"
           ]
+        },
+        {
+          "id": "nl-acm-visits-emerce-20261117",
+          "kind": "monitoring_activity",
+          "text": "Emerce attributes to ACM ten company visits in May–June 2026, involving blind users and company management, followed by a twelve-week improvement period.",
+          "authority_or_court": "ACM (as quoted by Emerce)",
+          "case_identifier": null,
+          "sectors": [
+            "E-commerce"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "EAA supervision as described in the secondary webinar recap; no specific legal instrument newly verified.",
+          "action_type": "Secondary report of supervisory follow-up",
+          "procedural_stage": "ongoing_monitoring",
+          "stage_detail": "Reported completed visits; individual event dates and company identities are not established.",
+          "event_on": null,
+          "published_on": "2026-11-17",
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Visit count is a secondary report, not a finding of ten infringements or a general statutory deadline.",
+          "next_check": "Corroborate with dated ACM material or the original webinar, then apply publication reviews.",
+          "source_refs": [
+            "source-c9a977e143e8265142b4a9a1"
+          ]
+        },
+        {
+          "id": "nl-acm-analysis-emerce-20261117",
+          "kind": "monitoring_activity",
+          "text": "Emerce quotes ACM as having analysed follow-up results after that period, with feedback to companies still pending and substantial progress reported without detailed results.",
+          "authority_or_court": "ACM (as quoted by Emerce)",
+          "case_identifier": null,
+          "sectors": [
+            "E-commerce"
+          ],
+          "applicability": "EAA",
+          "legal_basis": "EAA supervision as described in the secondary webinar recap; no specific legal instrument newly verified.",
+          "action_type": "Secondary report of supervisory follow-up",
+          "procedural_stage": "ongoing_monitoring",
+          "stage_detail": "Reported analysis completed; company feedback remained planned at the undated webinar.",
+          "event_on": null,
+          "published_on": "2026-11-17",
+          "verified_on": null,
+          "status": "unverified_source",
+          "statistics": null,
+          "uncertainty": "Does not establish full compliance, closure, named outcomes or imposed fines. Article publication is not the analysis date.",
+          "next_check": "Corroborate with dated ACM material or the original webinar, then apply publication reviews.",
+          "source_refs": [
+            "source-c9a977e143e8265142b4a9a1"
+          ]
         }
       ],
       "questions": [
@@ -803,6 +893,12 @@
           "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
           "owner": "Future authorised enforcement researcher",
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Can original ACM evidence corroborate the Emerce follow-up claims and establish any later company outcomes?",
+          "owner": "Future authorised Netherlands enforcement researcher",
+          "resolved_when": "Original dated passages establish the activity and exact outcome; source-fidelity and readability reviews precede any public wording."
         }
       ]
     },
@@ -964,6 +1060,51 @@
           "reason": "Existing enforcement evidence cross-checked; secondary follow-ups retained.",
           "next_action": "Seek dated follow-up outcomes in authority publications.",
           "pr": 75
+        }
+      ]
+    },
+    {
+      "id": "netherlands-emerce-acm-20261119",
+      "country": "Netherlands",
+      "recorded_on": "2026-11-19",
+      "source_refs": [
+        "source-c9a977e143e8265142b4a9a1",
+        "source-7935dd5c1a20fb13403b4252",
+        "source-e6c9278038cfc68dafca7751"
+      ],
+      "reason": "User-supplied secondary follow-up retained; no newly verified public outcome.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "needs_evidence",
+          "reason": "New secondary follow-up leads; existing March evidence remains unchanged.",
+          "next_action": "Obtain primary confirmation, then propose a scoped Netherlands follow-up update with required reviews."
+        },
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "research_only",
+          "reason": "Current routes and statement guidance already recorded; reported supervisory preference retained as a question.",
+          "next_action": "Keep public routes; verify the original passage before adding any self-reporting treatment claim."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "No new statutory maximum or sanction instrument established.",
+          "next_action": "No public edit from this intake."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/netherlands.json",
+          "disposition": "not_applicable",
+          "reason": "Generic standards discussion establishes no new edition, adoption or OJ citation.",
+          "next_action": "Retain existing standards evidence and unresolved questions."
         }
       ]
     }

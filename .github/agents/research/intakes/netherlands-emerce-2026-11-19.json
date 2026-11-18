@@ -1,0 +1,82 @@
+{
+  "id": "netherlands-emerce-2026-11-19",
+  "country": "Netherlands",
+  "recorded_on": "2026-11-19",
+  "article": {
+    "url": "https://www.emerce.nl/achtergrond/eaanaleving-dit-verwacht-acm-organisatie",
+    "title": "EAA-naleving: dit verwacht de ACM van je organisatie",
+    "author": "Marcel Otte (Swink)",
+    "published_on": "2026-11-17",
+    "language": "nl",
+    "webinar_date": null,
+    "classification": "Secondary webinar recap, including quotations attributed to ACM; not an ACM publication."
+  },
+  "source_refs": [
+    "source-c9a977e143e8265142b4a9a1",
+    "source-7935dd5c1a20fb13403b4252",
+    "source-e6c9278038cfc68dafca7751"
+  ],
+  "new_claim_ids": [
+    "nl-acm-visits-emerce-20261117",
+    "nl-acm-analysis-emerce-20261117"
+  ],
+  "comparison": {
+    "main": "2bf35c634e990a5d1245e4c2879eab8356c7581a",
+    "open_testing_prs": "None found at initial check.",
+    "already_recorded": "March test results and announced follow-up; September NOS lead about visits and a planned retest. Public Netherlands enforcement row remains dated to March.",
+    "sample_limit": "Article specifies 106 companies and late-2025 testing. Existing primary claim uses an approximate sample. Do not silently substitute denominators, dates or infer absolute counts.",
+    "pending_branch": "research/eu27-link-discovery-2026-11-15",
+    "pending_head": "858eb9de3b5c9d401abd7c3c86b3ac15cb7f9e81",
+    "overlap": "Pending branch adds another March ACM observation, not these follow-up claims. Leave branch untouched; preserve both additions and regenerate routing if it merges first."
+  },
+  "access": [
+    {
+      "url": "https://www.emerce.nl/achtergrond/eaanaleving-dit-verwacht-acm-organisatie",
+      "attempts": 2,
+      "results": [
+        "Web reader: inaccessible via tool.",
+        "Local Chrome: full article read after rejecting optional cookies."
+      ]
+    },
+    {
+      "url": "https://www.acm.nl/nl/publicaties/acm-klant-met-beperking-kan-bij-merendeel-grote-webwinkels-niet-terecht",
+      "result": "Primary page read, dated 24 March 2026; later outcomes not established."
+    },
+    {
+      "url": "https://www.acm.nl/nl/toegankelijkheid/toegankelijkheid-van-e-handelsdiensten-en-elektronische-communicatiediensten",
+      "result": "Primary guidance read; no reporting-form submission or end-to-end route test."
+    }
+  ],
+  "searches": [
+    "site.acm.nl toegankelijkheid \"10\" \"2026\" bedrijven",
+    "site.acm.nl toegankelijkheid \"12 weken\""
+  ],
+  "research_budget": {
+    "limit_minutes": 10,
+    "start": "Approximately 2026-11-19 00:00 Europe/Stockholm; exact start timestamp not captured.",
+    "source_research_stopped_at": "2026-11-19T00:06:18+01:00",
+    "remaining_minutes_approximate": 3,
+    "note": "No further source research planned in this pass; preparation and validation are separate."
+  },
+  "limits": [
+    "No original webinar recording or transcript inspected.",
+    "No new verified enforcement claims or changed historical verification dates.",
+    "No inferred national absence of fines or guaranteed immunity for self-reporting.",
+    "France/Carrefour reference is outside this Netherlands request; no new country audit or assertion.",
+    "No legal adoption status inferred from generic EN 301 549 wording or undated WCAG guidance."
+  ],
+  "publication": {
+    "public_pages_changed": false,
+    "decision": "Research-only; primary confirmation is required before promoting the later outcomes.",
+    "source_fidelity_and_readability": "Not performed; no public wording proposed.",
+    "independent_pr_review": "Pending actual draft PR review."
+  },
+  "validation": {
+    "checked_on": "2026-11-19",
+    "baseline": "2bf35c634e990a5d1245e4c2879eab8356c7581a",
+    "targeted": "PASS: Netherlands schema/fingerprints, historical evidence/claims/verification dates, unchanged monitoring schema errors, new claim/source fields and unverified status, generated routing, three-file research-only scope and whitespace. Verification-date script: 14 markers passed.",
+    "regressions": "Enforcement 28/28 and watcher 9/9 tests passed.",
+    "inherited_failures": "Full country checker: evidence fingerprint mismatch. Shared storage tests: 10/12, two failures at the same mismatch. Enforcement checker: public-map mismatch. Link languages: eight diagnostics. All reproduced on unchanged main at baseline.",
+    "limits": "No full-suite pass, public wording review, new primary outcome verification, maintainer approval or CI result claimed."
+  }
+}
