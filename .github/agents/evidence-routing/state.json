@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "routing98-0db59ff0-1795010330943",
-    "acquired_at": "2026-11-18T13:58:50.943Z",
-    "expires_at": "2026-11-18T14:28:50.943Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -5171,5 +5167,5 @@
       "note": "Batched delayed synchronization; actual open draft97 remains at previously reviewed09c9a8d7b36992c0622704bfbd6b7af3f21ac143. Fresh current PR/diff/path list, routing README/main ledger, main/head Poland research and registered public-page blobs agree with prior check; open96 head unchanged, no other open PR. Same evidence fingerprints/country/target/proposed-change keys and complete research_only/not_applicable destinations. Existing97 covers research intake, not yet merged; public verification gates remain pending. No new actionable suggestion, blocker, source research, PR/comment, research/public or upstream write. Runtime state only."
     }
   ],
-  "updated_at": "2026-11-16T11:03:10.279Z"
+  "updated_at": "2026-11-18T14:00:38.207Z"
 }
