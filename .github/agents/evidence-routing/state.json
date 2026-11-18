@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "routing99-merge-1795018569731",
-    "acquired_at": "2026-11-18T16:16:09.731Z",
-    "expires_at": "2026-11-18T16:46:09.731Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2080,6 +2076,45 @@
         }
       ],
       "note": "Actual current PR99 already merged at reviewed headfd4c5bb. Read fresh PR/diff/changed paths, routing README/main ledger, main overlay research blobs and published overlay page. Exact two evidence blobs match prior assessments and main includes LSB Bremen/Tmeeting/index changes. No open PRs; runtime suggestions contain no handoff blocked by or covering99. No country/registered EAA domain evidence introduced; previous not_applicable dispositions stand. No new actionable suggestion. Recorded actual merge without treating source runtime claims or inherited unknowns as verified. Runtime state only.",
+      "merge_commit_sha": "2bf35c634e990a5d1245e4c2879eab8356c7581a"
+    },
+    {
+      "delivery_id": "033ad870-e36b-11f1-8ed6-9faaea7868e4",
+      "event": "pull_request.closed.merged",
+      "pull_request": 99,
+      "head_sha": "fd4c5bbf4a8dbb8ceaa3f5fecd6f8ca5e425260e",
+      "checked_on": "2026-11-18T16:16:34.328Z",
+      "actual_state": "merged",
+      "outcome": "duplicate_merge_already_assessed_same_evidence",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident",
+        "dd801f4b1c1891c4dc5e5cf59f49aa68927f4872"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Explicit merge event matches actual merged99 head and merge commit already assessed on preceding ready_for_review delivery. Fresh PR, changed paths, main README/ledger, both overlay evidence blobs and public overlay page agree exactly. No open PRs and no pending suggestion blocked by99. Prior registered-page not_applicable dispositions unchanged. No new action or notification; no research/public/comment/PR/upstream write. Runtime state only.",
       "merge_commit_sha": "2bf35c634e990a5d1245e4c2879eab8356c7581a"
     }
   ],
@@ -5547,7 +5582,46 @@
       ],
       "note": "Actual current PR99 already merged at reviewed headfd4c5bb. Read fresh PR/diff/changed paths, routing README/main ledger, main overlay research blobs and published overlay page. Exact two evidence blobs match prior assessments and main includes LSB Bremen/Tmeeting/index changes. No open PRs; runtime suggestions contain no handoff blocked by or covering99. No country/registered EAA domain evidence introduced; previous not_applicable dispositions stand. No new actionable suggestion. Recorded actual merge without treating source runtime claims or inherited unknowns as verified. Runtime state only.",
       "merge_commit_sha": "2bf35c634e990a5d1245e4c2879eab8356c7581a"
+    },
+    {
+      "delivery_id": "033ad870-e36b-11f1-8ed6-9faaea7868e4",
+      "event": "pull_request.closed.merged",
+      "pull_request": 99,
+      "head_sha": "fd4c5bbf4a8dbb8ceaa3f5fecd6f8ca5e425260e",
+      "checked_on": "2026-11-18T16:16:34.328Z",
+      "actual_state": "merged",
+      "outcome": "duplicate_merge_already_assessed_same_evidence",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident",
+        "dd801f4b1c1891c4dc5e5cf59f49aa68927f4872"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Explicit merge event matches actual merged99 head and merge commit already assessed on preceding ready_for_review delivery. Fresh PR, changed paths, main README/ledger, both overlay evidence blobs and public overlay page agree exactly. No open PRs and no pending suggestion blocked by99. Prior registered-page not_applicable dispositions unchanged. No new action or notification; no research/public/comment/PR/upstream write. Runtime state only.",
+      "merge_commit_sha": "2bf35c634e990a5d1245e4c2879eab8356c7581a"
     }
   ],
-  "updated_at": "2026-11-18T16:14:27.943Z"
+  "updated_at": "2026-11-18T16:16:34.328Z"
 }
