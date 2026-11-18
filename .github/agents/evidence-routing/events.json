@@ -4024,6 +4024,58 @@
       "next_action": "Public changes delivered by merged PR #93; no further public edit for this delivery. Retain the recorded evidence limitations and separately scoped unresolved questions."
     },
     {
+      "id": "poland-sejm-browser-report-2026-11-16",
+      "country": "Poland",
+      "recorded_on": "2026-11-16",
+      "status": "research_only",
+      "source_refs": [
+        "source-93772c30bdf07d2b1f5a038f",
+        "source-9ce8e9e7b54356c47cb7b2ad",
+        "source-47449935cf98e3b72dec6baa"
+      ],
+      "reason": "Persist user-supplied local Chrome findings with exact distinctions and provenance; not a new independent original-document verification or public edit.",
+      "next_action": "Research-only draft; later public enforcement wording needs original-passage and isolated review gates. Preserve unrelated pending EU27 additions on integration.",
+      "destinations": [
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Historical statistics and activity newly captured in 11 attributed claims; existing PR #93 lacks these quantitative details.",
+          "next_action": "After source/publication review, propose a dated Poland enforcement update distinguishing notification categories, UKE ongoing work, informal remedies/commitments and plans.",
+          "pr": 97
+        },
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Audience/purpose handoff recorded; no new concrete route, language or statement claim.",
+          "next_action": "Retain existing route facts; use separate official purpose-specific guidance for any future channel change.",
+          "pr": 97
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "research_only",
+          "reason": "Historical no-penalty replies/process and fund-balance exclusion stored; no new statutory cap.",
+          "next_action": "No statutory/public change; distinguish powers from actions and fund balance from penalties.",
+          "pr": 97
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/poland.json",
+          "disposition": "not_applicable",
+          "reason": "No standards-adoption/edition evidence in supplied report.",
+          "next_action": "Preserve existing adoption record and dates.",
+          "pr": 97
+        }
+      ],
+      "pr": 97
+    },
+    {
       "id": "portugal-idipd-annual-report-2025-discovered-20261030",
       "country": "Portugal",
       "recorded_on": "2026-10-30",
