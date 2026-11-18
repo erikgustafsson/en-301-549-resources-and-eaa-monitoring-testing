@@ -14,23 +14,64 @@
 
 ## Known overlays
 
+For white-label versions of known plugins, the underlying plugin is noted in parentheses.
+
 - Access Ease
+- AccessAngel
 - accessiBe
+- Accessibility Adapter
 - Accessibility Enabler
+- Accessiblelink
 - Accessibly
+- Accessiplus
 - AccessiWay (accessiBe)
 - AccessiYes
-- Acrowd (Equal Web whitelabel)
+- Accesstive Assistant
+- Acrowd (Equal Web)
+- Adally
+- Adapte Mon Web / Adapt my Web
+- AdaptifY
+- Alchemy — no longer developed or marketed
+- All in One Accessibility — Skynet
+- Ally — Web Accessibility & Usability; formerly Pojo
+- Allyable
+- Amaze
+- ARTY / Artymus Intelligentis III
+- AudioEye
+- Bakh Fix
+- Consentmo
+- Corpowid
+- DIGIaccess
 - EaseAccess24
 - Elementor
+- EnableAll
+- Equally.ai
 - EqualWeb
 - Eye-Able
+- FACIL'iti
+- HandTalk
+- MaxAccess
 - Onetap accessibility
+- Poloda AI
+- Purple Lens — rebranded as Pluro
 - Readabler
+- ReciteME
 - Regiogate (Eye-able)
+- RentCafe
 - Selma (accessiBe)
+- Sentinel — no longer developed or marketed
+- Sienna Accessibility
+- SkyNet Technologies
+- Streamline
+- TruAbilities
+- True Accessibility
+- UsableNet Assistive
 - UserWay
+- Wawsome
 - WCAGready / EaseAccess24
+- WebAbility
+- WelcomingWeb
+- WideAccess
 
 ## Countries
 
