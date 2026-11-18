@@ -12,6 +12,28 @@
 - <a href="https://overlays.dnikub.dev/" hreflang="en">The Impact of Web Accessibility Overlays on the Usability and User Experience for People with Permanent Visual Impairments</a>, master's thesis by Daniela Kubesch, MSc MSc.
 - [We intercepted every request from five accessibility tools. Here’s what they actually do to your site.](https://aiopsgroup.com/we-intercepted-every-request-from-five-accessibility-tools-heres-what-they-actually-do-to-your-site/)
 
+## Known overlays
+
+- Access Ease
+- accessiBe
+- Accessibility Enabler
+- Accessibly
+- AccessiWay (accessiBe)
+- AccessiYes
+- Acrowd (Equal Web whitelabel)
+- EaseAccess24
+- Elementor
+- EqualWeb
+- Eye-Able
+- Onetap accessibility
+- Readabler
+- Regiogate (Eye-able)
+- Selma (accessiBe)
+- UserWay
+- WCAGready / EaseAccess24
+
+Whenever a new overlay is added to this page, it must automatically be added to this list as part of the same update.
+
 ## Countries
 
 ### Denmark
@@ -41,6 +63,7 @@
 
 | Sitename / company name | Reported overlay | Date added |
 | --- | --- | --- |
+| <a href="https://www.lsb-bremen.de/information-zu-einem-sicherheitsvorfall-im-eye-able-dashboard/" hreflang="de">Landessportbund Bremen</a> | Eye-Able | 2026-11-18 |
 | <a href="https://www.wuerzburg.de" hreflang="de">wuerzburg.de</a> | Regiogate (Eye-able) | 2026-05-08 |
 | <a href="https://www.wvv.de" hreflang="de">wvv.de</a> | Eye-Able | 2026-05-09 |
 

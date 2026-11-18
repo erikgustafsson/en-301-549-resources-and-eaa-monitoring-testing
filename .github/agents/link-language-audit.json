@@ -6423,6 +6423,12 @@
       "language": "sv",
       "reason": "Company introduction and first reporting step observed in Swedish in an ordinary browser; this records interface language only, not accepted submission languages.",
       "checked_on": "2026-11-02"
+    },
+    {
+      "url": "https://www.lsb-bremen.de/information-zu-einem-sicherheitsvorfall-im-eye-able-dashboard/",
+      "language": "de",
+      "checked_on": "2026-11-18",
+      "reason": "German-language LSB Bremen article explicitly states use of Eye-Able; inspected on this date."
     }
   ]
 }
