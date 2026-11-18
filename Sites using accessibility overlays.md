@@ -68,7 +68,7 @@ For white-label versions of known plugins, the underlying plugin is noted in par
 - UsableNet Assistive
 - UserWay
 - Wawsome
-- WCAGready / EaseAccess24
+- WCAG-Ready (EaseAccess24)
 - WebAbility
 - WelcomingWeb
 - WideAccess
@@ -288,7 +288,7 @@ For white-label versions of known plugins, the underlying plugin is noted in par
 | <a href="https://tillganglighetskartan.se/" hreflang="sv">Tillgänglighetskartan</a> | UserWay | 2026-10-07 |
 | <a href="https://www.timrabo.se/" hreflang="sv">Timråbo</a> | Selma (accessiBe) | 2026-10-07 |
 | <a href="https://www.tingsrydtravet.com/">Tingsrydtravet</a> | Selma (accessiBe) | 2026-10-07 |
-| <a href="https://www.tmeeting.se/" hreflang="sv">Tmeeting</a> | WCAGready / EaseAccess24 | 2025-08-27 |
+| <a href="https://www.tmeeting.se/" hreflang="sv">Tmeeting</a> | EaseAccess24 | 2025-08-27 |
 | <a href="https://www.topbostader.se/" hreflang="sv-SE">Topbostäder</a> | Accessibility Enabler | 2026-10-07 |
 | <a href="https://transitio.se/" hreflang="sv-SE">Transitio</a> | UserWay | 2026-10-07 |
 | <a href="https://www.travskola.se/">Travskola</a> | Selma (accessiBe) | 2026-10-07 |
