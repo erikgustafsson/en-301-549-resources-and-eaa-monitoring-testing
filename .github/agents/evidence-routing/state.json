@@ -1,10 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "run_id": "routing99-f7c5-1795018002668",
-    "acquired_at": "2026-11-18T16:06:42.669Z",
-    "expires_at": "2026-11-18T16:36:42.669Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -1966,6 +1962,44 @@
         }
       ],
       "note": "Current head moves provider-index maintenance instruction from public page to overlays/AGENTS.md. Evidence blob unchanged (0e61eb92f4570023cc7e67db923687670046e44b); main routing README/ledger and base unchanged. Actual changed paths/diff and only-open-PR99 checked. Prior source and registered-page assessment remains applicable; no new cross-page fact, claim or handoff. Existing limitations and not_applicable dispositions retained. No source reread needed for instruction-only delta. Runtime state only."
+    },
+    {
+      "delivery_id": "f7c5e990-e369-11f1-9945-7f0618381198",
+      "event": "pull_request.synchronize",
+      "pull_request": 99,
+      "head_sha": "88c84d0b2b2aa58f46e9cccbbf315b0b25ba86cd",
+      "checked_on": "2026-11-18T16:07:07.402Z",
+      "actual_state": "open",
+      "outcome": "unrelated_overlay_catalogue_expansion_no_cross_page_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident",
+        "dd801f4b1c1891c4dc5e5cf59f49aa68927f4872"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Actual open draft99 at88c84d0 inspected with diff/five changed files and current main routing README/ledger. New factsheet-comparison record stores names/rebrands/discontinued notes from Overlay Fact Sheet; catalogue only, no installation assertion. Earlier231-site observation blob unchanged. Only open PR99 already covers added overlay research/index; registered EAA public pages/country research unchanged from prior pass, same base9da538c. No new authority, reporting channel, enforcement action, sanction or standards-adoption evidence. Prior not_applicable dispositions stand. No new-country research, source reread, claims of catalogue verification, comments, content writes or PR creation."
     }
   ],
   "suggestions": [
@@ -5317,7 +5351,45 @@
         }
       ],
       "note": "Current head moves provider-index maintenance instruction from public page to overlays/AGENTS.md. Evidence blob unchanged (0e61eb92f4570023cc7e67db923687670046e44b); main routing README/ledger and base unchanged. Actual changed paths/diff and only-open-PR99 checked. Prior source and registered-page assessment remains applicable; no new cross-page fact, claim or handoff. Existing limitations and not_applicable dispositions retained. No source reread needed for instruction-only delta. Runtime state only."
+    },
+    {
+      "delivery_id": "f7c5e990-e369-11f1-9945-7f0618381198",
+      "event": "pull_request.synchronize",
+      "pull_request": 99,
+      "head_sha": "88c84d0b2b2aa58f46e9cccbbf315b0b25ba86cd",
+      "checked_on": "2026-11-18T16:07:07.402Z",
+      "actual_state": "open",
+      "outcome": "unrelated_overlay_catalogue_expansion_no_cross_page_handoff",
+      "suggestion_ids": [],
+      "evidence_fingerprints": [
+        "0e61eb92f4570023cc7e67db923687670046e44b",
+        "lsb-bremen|2026-11-04|eye-able-use-and-provider-security-incident",
+        "dd801f4b1c1891c4dc5e5cf59f49aa68927f4872"
+      ],
+      "dispositions": [
+        {
+          "domain": "monitoring",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        },
+        {
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Overlay integration observations and provider security notice do not establish EAA authority routes, regulatory action, sanctions or standards adoption."
+        }
+      ],
+      "note": "Actual open draft99 at88c84d0 inspected with diff/five changed files and current main routing README/ledger. New factsheet-comparison record stores names/rebrands/discontinued notes from Overlay Fact Sheet; catalogue only, no installation assertion. Earlier231-site observation blob unchanged. Only open PR99 already covers added overlay research/index; registered EAA public pages/country research unchanged from prior pass, same base9da538c. No new authority, reporting channel, enforcement action, sanction or standards-adoption evidence. Prior not_applicable dispositions stand. No new-country research, source reread, claims of catalogue verification, comments, content writes or PR creation."
     }
   ],
-  "updated_at": "2026-11-18T16:02:45.659Z"
+  "updated_at": "2026-11-18T16:07:07.402Z"
 }
