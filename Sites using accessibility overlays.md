@@ -32,8 +32,6 @@
 - UserWay
 - WCAGready / EaseAccess24
 
-Whenever a new overlay is added to this page, it must automatically be added to this list as part of the same update.
-
 ## Countries
 
 ### Denmark
