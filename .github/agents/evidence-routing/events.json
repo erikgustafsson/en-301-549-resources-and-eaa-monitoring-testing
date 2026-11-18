@@ -2713,6 +2713,48 @@
       ]
     },
     {
+      "id": "ccpc-inactive-access-mailbox-20261118",
+      "country": "Ireland",
+      "recorded_on": "2026-11-18",
+      "status": "proposed",
+      "reason": "Original official automated reply supersedes the historical company email reporting entry.",
+      "next_action": "Maintainer review of the focused deletion; preserve historical evidence and unchanged form routes.",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "monitoring",
+          "disposition": "proposed",
+          "reason": "Remove the inactive company reporting email; preserve existing forms.",
+          "next_action": "Review the focused draft."
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "enforcement",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "sanctions",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "record": ".github/agents/research/countries/ireland.json",
+          "domain": "adoption",
+          "disposition": "not_applicable",
+          "reason": "Mailbox availability establishes no enforcement action, sanction or standards-adoption change.",
+          "next_action": "No public edit required."
+        }
+      ]
+    },
+    {
       "id": "seed-discovery-3-2026-09-25",
       "country": "Italy",
       "recorded_on": "2026-09-25",
