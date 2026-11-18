@@ -3742,7 +3742,8 @@
           "record": ".github/agents/research/countries/netherlands.json",
           "disposition": "needs_evidence",
           "reason": "New secondary follow-up leads; existing March evidence remains unchanged.",
-          "next_action": "Obtain primary confirmation, then propose a scoped Netherlands follow-up update with required reviews."
+          "next_action": "Obtain primary confirmation, then propose a scoped Netherlands follow-up update with required reviews.",
+          "pr": 100
         },
         {
           "page": "EAA authorities and reporting by country.md",
@@ -3750,7 +3751,8 @@
           "record": ".github/agents/research/countries/netherlands.json",
           "disposition": "research_only",
           "reason": "Current routes and statement guidance already recorded; reported supervisory preference retained as a question.",
-          "next_action": "Keep public routes; verify the original passage before adding any self-reporting treatment claim."
+          "next_action": "Keep public routes; verify the original passage before adding any self-reporting treatment claim.",
+          "pr": 100
         },
         {
           "page": "EAA sanctions.md",
