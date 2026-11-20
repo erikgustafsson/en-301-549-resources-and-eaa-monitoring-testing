@@ -1,9 +1,6 @@
 {
   "version": 1,
-  "lease": {
-    "owner": "routing-pr101-2026-11-20-1795163077401",
-    "expires_at": "2026-11-20T08:54:37.401Z"
-  },
+  "lease": null,
   "processed_events": [
     {
       "delivery_id": "444fa3c0-b8d9-11f1-90b0-f181c60ade89",
@@ -2223,6 +2220,108 @@
         }
       ],
       "note": "Fresh current PR/diff/four paths, main routing README/ledger, head canonical record/generated event and open PR list read. Delta adds independent review/report pointer and pr100 links; evidence IDs and qualified claims unchanged. Main/base/public pages unchanged from preceding source/page assessment. No new verification or source reread; prior Emerce access limitation remains. Existing100 covers research handoffs and correction, pending merge. No new actionable suggestion or public/research mutation. Runtime state only."
+    },
+    {
+      "delivery_id": "81a35ba0-e4bb-11f1-881c-9e68f5adf5f4",
+      "event": "pull_request.opened",
+      "pull_request": 101,
+      "head_sha": "c81ae93a0d7357ff7db5889671328c67c7d25168",
+      "checked_on": "2026-11-20T08:29:14.514Z",
+      "actual_state": "open_draft",
+      "outcome": "research_handoffs_covered_generated_index_sync_blocked",
+      "suggestion_ids": [
+        "source-61d9662098399982c8c31410|Sweden|events.json|pr101-reference"
+      ],
+      "evidence_fingerprints": [
+        "source-61d9662098399982c8c31410"
+      ],
+      "dispositions": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "Final constitutional vote recorded in canonical monitoring research; #96 verified merged on 18 November. No public operational-duty change.",
+          "next_action": "Maintainer review of this research-only draft. Verify promulgated text and ordinary-law implementation before any public-duty edit.",
+          "pr": 101
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Constitutional legislative milestone, not an action against an operator.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No new fine or statutory maximum established.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No national EN standard adoption or edition change established.",
+          "next_action": "None for this evidence."
+        }
+      ],
+      "note": "Read current PR/diff, canonical main/head research, main/head routing ledger, four registered public pages, official Riksdag/agency pages and open PR100/101. Existing101 covers research-only constitutional milestone; no material public change supported. Separate explicitly authorized one-time post-draft check added unresolved verification note and pr101 to canonical record; index write denied. No research/public edits made for routing safety pass. Preserve proposed-versus-adopted and enabling-versus-operational distinction. No next-country work; no merge or upstream write."
+    },
+    {
+      "delivery_id": "5020fdc0-e4bc-11f1-9523-1eab4e3024d5",
+      "event": "pull_request.synchronize",
+      "pull_request": 101,
+      "head_sha": "c81ae93a0d7357ff7db5889671328c67c7d25168",
+      "checked_on": "2026-11-20T08:29:14.514Z",
+      "actual_state": "open_draft",
+      "outcome": "research_handoffs_covered_generated_index_sync_blocked",
+      "suggestion_ids": [
+        "source-61d9662098399982c8c31410|Sweden|events.json|pr101-reference"
+      ],
+      "evidence_fingerprints": [
+        "source-61d9662098399982c8c31410"
+      ],
+      "dispositions": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "Final constitutional vote recorded in canonical monitoring research; #96 verified merged on 18 November. No public operational-duty change.",
+          "next_action": "Maintainer review of this research-only draft. Verify promulgated text and ordinary-law implementation before any public-duty edit.",
+          "pr": 101
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Constitutional legislative milestone, not an action against an operator.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No new fine or statutory maximum established.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No national EN standard adoption or edition change established.",
+          "next_action": "None for this evidence."
+        }
+      ],
+      "note": "Read current PR/diff, canonical main/head research, main/head routing ledger, four registered public pages, official Riksdag/agency pages and open PR100/101. Existing101 covers research-only constitutional milestone; no material public change supported. Separate explicitly authorized one-time post-draft check added unresolved verification note and pr101 to canonical record; index write denied. No research/public edits made for routing safety pass. Preserve proposed-versus-adopted and enabling-versus-operational distinction. No next-country work; no merge or upstream write."
     }
   ],
   "suggestions": [
@@ -3583,6 +3682,23 @@
       "limitations": "Routing traceability only. Emerce remains a secondary account; reader returned not accessible via this tool. Relied on repository-recorded local Chrome review, not own source verification. No original webinar or new ACM outcomes verified; no enforcement, immunity, sanctions, route-language or standard-adoption promotion.",
       "notification_status": "new actionable metadata suggestion in originating ChatGPT response",
       "progress": "PR100 head42a6e9c adds numeric pr100 to enforcement/monitoring destinations and matching generated index. Correction present in open draft, not yet main; no repeat suggestion."
+    },
+    {
+      "id": "source-61d9662098399982c8c31410|Sweden|events.json|pr101-reference",
+      "country": "Sweden",
+      "target": ".github/agents/evidence-routing/events.json",
+      "status": "blocked_index_sync",
+      "covering_pr": 101,
+      "source_pr": 101,
+      "created_on": "2026-11-20T08:29:14.514Z",
+      "updated_on": "2026-11-20T08:29:14.514Z",
+      "proposed_change": "Update existing draft PR101 by regenerating events.json from canonical records so the monitoring destination of sweden-ku7-final-adoption-20261111 includes pr:101. Preserve all other deliveries and research_only/not_applicable dispositions. No new public-page PR.",
+      "evidence_fingerprints": [
+        "source-61d9662098399982c8c31410"
+      ],
+      "evidence": "PR101 canonical Sweden record now has pr101; generated branch index at blob88c1993c38d09af07c6ec83c96204461e0cd54c6 does not. Attempted synchronization was denied by permission review; no retry or workaround.",
+      "limitations": "Traceability-only mismatch; milestone and unresolved implementing-law question already retained in canonical monitoring research. No completed enforcement action, new fine, reporting channel, language, statement or EN adoption established.",
+      "notification_status": "new actionable blocker in originating ChatGPT response"
     }
   ],
   "processed_deliveries": [
@@ -5852,7 +5968,109 @@
         }
       ],
       "note": "Fresh current PR/diff/four paths, main routing README/ledger, head canonical record/generated event and open PR list read. Delta adds independent review/report pointer and pr100 links; evidence IDs and qualified claims unchanged. Main/base/public pages unchanged from preceding source/page assessment. No new verification or source reread; prior Emerce access limitation remains. Existing100 covers research handoffs and correction, pending merge. No new actionable suggestion or public/research mutation. Runtime state only."
+    },
+    {
+      "delivery_id": "81a35ba0-e4bb-11f1-881c-9e68f5adf5f4",
+      "event": "pull_request.opened",
+      "pull_request": 101,
+      "head_sha": "c81ae93a0d7357ff7db5889671328c67c7d25168",
+      "checked_on": "2026-11-20T08:29:14.514Z",
+      "actual_state": "open_draft",
+      "outcome": "research_handoffs_covered_generated_index_sync_blocked",
+      "suggestion_ids": [
+        "source-61d9662098399982c8c31410|Sweden|events.json|pr101-reference"
+      ],
+      "evidence_fingerprints": [
+        "source-61d9662098399982c8c31410"
+      ],
+      "dispositions": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "Final constitutional vote recorded in canonical monitoring research; #96 verified merged on 18 November. No public operational-duty change.",
+          "next_action": "Maintainer review of this research-only draft. Verify promulgated text and ordinary-law implementation before any public-duty edit.",
+          "pr": 101
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Constitutional legislative milestone, not an action against an operator.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No new fine or statutory maximum established.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No national EN standard adoption or edition change established.",
+          "next_action": "None for this evidence."
+        }
+      ],
+      "note": "Read current PR/diff, canonical main/head research, main/head routing ledger, four registered public pages, official Riksdag/agency pages and open PR100/101. Existing101 covers research-only constitutional milestone; no material public change supported. Separate explicitly authorized one-time post-draft check added unresolved verification note and pr101 to canonical record; index write denied. No research/public edits made for routing safety pass. Preserve proposed-versus-adopted and enabling-versus-operational distinction. No next-country work; no merge or upstream write."
+    },
+    {
+      "delivery_id": "5020fdc0-e4bc-11f1-9523-1eab4e3024d5",
+      "event": "pull_request.synchronize",
+      "pull_request": 101,
+      "head_sha": "c81ae93a0d7357ff7db5889671328c67c7d25168",
+      "checked_on": "2026-11-20T08:29:14.514Z",
+      "actual_state": "open_draft",
+      "outcome": "research_handoffs_covered_generated_index_sync_blocked",
+      "suggestion_ids": [
+        "source-61d9662098399982c8c31410|Sweden|events.json|pr101-reference"
+      ],
+      "evidence_fingerprints": [
+        "source-61d9662098399982c8c31410"
+      ],
+      "dispositions": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "research_only",
+          "reason": "Final constitutional vote recorded in canonical monitoring research; #96 verified merged on 18 November. No public operational-duty change.",
+          "next_action": "Maintainer review of this research-only draft. Verify promulgated text and ordinary-law implementation before any public-duty edit.",
+          "pr": 101
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "Constitutional legislative milestone, not an action against an operator.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No new fine or statutory maximum established.",
+          "next_action": "None for this evidence."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/sweden.json",
+          "disposition": "not_applicable",
+          "reason": "No national EN standard adoption or edition change established.",
+          "next_action": "None for this evidence."
+        }
+      ],
+      "note": "Read current PR/diff, canonical main/head research, main/head routing ledger, four registered public pages, official Riksdag/agency pages and open PR100/101. Existing101 covers research-only constitutional milestone; no material public change supported. Separate explicitly authorized one-time post-draft check added unresolved verification note and pr101 to canonical record; index write denied. No research/public edits made for routing safety pass. Preserve proposed-versus-adopted and enabling-versus-operational distinction. No next-country work; no merge or upstream write."
     }
   ],
-  "updated_at": "2026-11-18T23:15:41.415Z"
+  "updated_at": "2026-11-20T08:29:14.514Z"
 }
