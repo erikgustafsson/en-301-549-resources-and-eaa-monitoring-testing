@@ -10,7 +10,8 @@
     "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
     "watcher-browser-acceptance-2026-11-05T08:39:51.363Z",
     "weekly-2026-11-06T07:40:13.636Z",
-    "weekly-2026-11-13-1794556436819"
+    "weekly-2026-11-13-1794556436819",
+    "weekly-2026-11-20-1795162251333"
   ],
   "sources": {
     "denmark-01": {
@@ -27,16 +28,17 @@
           "scope": "consumer EAA products and services"
         },
         "final_url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
-        "checked_on": "2026-10-02",
+        "checked_on": "2026-11-20",
         "fingerprint": "1ace3fd64d15f8450908e3bd0d8d2fb0769be852454eb5dcf4ab8468e06ce034"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-02",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "denmark-01",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "web reader crawl date shown as 2026-10-02 or disclosed cache age",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
         "facts": {
           "authority": "Sikkerhedsstyrelsen / sector authorities",
@@ -44,8 +46,7 @@
           "purpose": "consumer guidance and complaint direction",
           "route": "online complaint access for Sikkerhedsstyrelsen areas",
           "scope": "consumer EAA products and services"
-        },
-        "evidence_summary": "Checked the named official source; structured facts are observations, not automatic claim approval."
+        }
       }
     },
     "denmark-02": {
@@ -61,24 +62,24 @@
           "scope": "covered consumer products and services"
         },
         "final_url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
-        "checked_on": "2026-10-02",
+        "checked_on": "2026-11-20",
         "fingerprint": "7c85ef0a3051852b6e20f9ed09309fabe716ab9468fd7b053481b083e1de2589"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-02",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "denmark-02",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "web reader crawl date shown as 2026-10-02 or disclosed cache age",
+        "method": "web reader",
+        "evidence_summary": "Official law801 PDF identity, first-page date and scope read. Not a new law or full 26-page re-audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://www.retsinformation.dk/eli/lta/2022/801/pdf",
         "facts": {
           "authority": "Denmark official legislation",
           "document_status": "enacted law no. 801 of 7 June 2022",
           "purpose": "EAA implementation",
           "scope": "covered consumer products and services"
-        },
-        "evidence_summary": "Checked the named official source; structured facts are observations, not automatic claim approval."
+        }
       }
     },
     "denmark-03": {
@@ -127,24 +128,24 @@
           "purpose": "authority roster"
         },
         "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "b482e0da18333aa2727dc64cb89ef0ae4dfcd11f3d0abda56ead97b3f31cb9c2"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "denmark-04",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
         "facts": {
           "authority": "Sikkerhedsstyrelsen; delegated and sector authorities",
           "caveat": "body uses Sikkerhedsstyrelsen; footer uses Erhvervsstyrelsen",
           "delegation": "e-commerce/KFST; banking/Finanstilsynet; smart TV/Digitaliseringsstyrelsen",
           "purpose": "authority roster"
-        },
-        "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
-        "method": "official reader",
-        "origin_freshness": "Crawled: 2 days ago; origin freshness not guaranteed",
-        "evidence_summary": "Myndigheder med ansvar for tilsyn med tilgængelighed (https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven); scoped comparison only, no submissions or end-to-end channel test."
+        }
       }
     },
     "denmark-05": {
@@ -539,14 +540,18 @@
           "purpose": "company non-compliance"
         },
         "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "cfc6aea578232c1fc8fd36375b95e9ce45d34ec0e931125529a63983f5dfc94a"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "denmark-17",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Company notification text continues to publish mo@erst.dk and 14-day limit. Underlying mailto correction independently recorded by merged #96; link activation, acceptance and forwarding not tested in this pass.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
         "facts": {
           "audience": "service providers, manufacturers, importers, distributors",
           "authority": "Sikkerhedsstyrelsen / Erhvervsstyrelsen",
@@ -554,11 +559,7 @@
           "deadline": "as soon as practically possible; at latest 14 days",
           "destination": "Published address and single link both identify mo@erst.dk.",
           "purpose": "company non-compliance"
-        },
-        "final_url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
-        "method": "official reader",
-        "origin_freshness": "Crawled: 2 days ago; origin freshness not guaranteed",
-        "evidence_summary": "Orienteringspligt - giv besked hvis din tjeneste eller dit produkt ikke er tilgængelig (https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig); scoped comparison only, no submissions or end-to-end channel test."
+        }
       }
     },
     "denmark-18": {
@@ -640,14 +641,18 @@
           "website_link": "recommended"
         },
         "final_url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "b968f999402de288e803bfe2245e3b25040a29c478838455f5e2b2e9b4b525ee"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "sweden-02",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
         "facts": {
           "audience": "service providers",
           "authority": "PTS",
@@ -655,11 +660,7 @@
           "published_on": "2025-04-16",
           "purpose": "service accessibility information",
           "website_link": "recommended"
-        },
-        "final_url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
-        "method": "official reader",
-        "origin_freshness": "Crawled: 6 days ago; origin freshness not guaranteed",
-        "evidence_summary": "Information om tjänstens tillgänglighet | PTS (https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/); scoped comparison only, no submissions or end-to-end channel test."
+        }
       }
     },
     "sweden-03": {
@@ -773,29 +774,29 @@
       "last_good": {
         "facts": {
           "authority": "MTM",
-          "link": "separate reporting page with business defect, exemption and consumer complaint forms inspected",
+          "link": "separate reporting page linked",
           "purpose": "supervision overview",
           "sector": "e-books and dedicated software"
         },
         "final_url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/",
-        "checked_on": "2026-11-13",
-        "fingerprint": "936afbbb5b640cf95f0e0257bae7d8c46019f04ba4541ab7a1d25337e13b69e1"
+        "checked_on": "2026-11-20",
+        "fingerprint": "5318a0d50a0cb16be6bb796966248cf559e47fd8194412cfdfec0ab5d6706e92"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "sweden-06",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "MTM supervision overview read; linked reporting page not reopened this pass. Prior inspected form details retained in historical observations, not reverified here.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/",
         "facts": {
           "authority": "MTM",
-          "link": "separate reporting page with business defect, exemption and consumer complaint forms inspected",
+          "link": "separate reporting page linked",
           "purpose": "supervision overview",
           "sector": "e-books and dedicated software"
-        },
-        "final_url": "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/",
-        "method": "official reader",
-        "origin_freshness": "Crawled: last week; origin freshness not guaranteed",
-        "evidence_summary": "Tillsyn - mtm (https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/); scoped comparison only, no submissions or end-to-end channel test."
+        }
       },
       "failure_started_run": "monitoring-watcher-20261002T070533Z-14689c075a99"
     },
@@ -814,16 +815,17 @@
           "timing": "immediate; reporting within 14 days considered sufficient"
         },
         "final_url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-20",
         "fingerprint": "fbff93e536a3d19c08b558e33d058daa2cff733090d584873558b67205c1db09"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-23",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "sweden-07",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "live official page retrieved 2026-10-23",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
         "facts": {
           "audience": "service providers",
@@ -832,8 +834,7 @@
           "purpose": "service defect reporting",
           "representative": "authorized organisation representative",
           "timing": "immediate; reporting within 14 days considered sufficient"
-        },
-        "evidence_summary": "First readable baseline; supports existing PTS route and timing facts."
+        }
       }
     },
     "sweden-08": {
@@ -897,23 +898,23 @@
           "purpose": "general agency service and contact rules; not EAA-specific"
         },
         "final_url": "https://data.riksdagen.se/dokument/sfs-2017-900.html",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-20",
         "fingerprint": "cf982904b2d678766dee6e520477cb39d0c6e8c0c4d505818bfdf37bb2036f20"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-23",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "sweden-09",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "official page crawl dated 2026-10-23",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://data.riksdagen.se/dokument/sfs-2017-900.html",
         "facts": {
           "authority": "Swedish Parliament",
           "document_status": "Administrative Procedure Act current through SFS 2025:582",
           "purpose": "general agency service and contact rules; not EAA-specific"
-        },
-        "evidence_summary": "First readable baseline; no EAA-specific reporting claim derived."
+        }
       }
     },
     "sweden-10": {
@@ -1123,24 +1124,24 @@
           "sector": "all EAA products; e-books and dedicated software; e-commerce"
         },
         "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "485934b7dddf0479ee0c34f931051c7a6b6b5db022bcdcaa78c2d2cccefe8795"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "ireland-03",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
         "facts": {
           "authority": "CCPC",
           "other_services": "listed with separate regulators",
           "purpose": "authority roster",
           "sector": "all EAA products; e-books and dedicated software; e-commerce"
-        },
-        "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
-        "method": "official reader",
-        "origin_freshness": "Crawled: today; origin freshness not guaranteed",
-        "evidence_summary": "CCPC role and responsibilities | CCPC (https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities); scoped comparison only, no submissions or end-to-end channel test."
+        }
       }
     },
     "ireland-04": {
@@ -1194,17 +1195,21 @@
           "destination": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
           "login": "not displayed in retrieved intake; no session/submission tested",
           "purpose": "non-compliance notifications and exemption claims",
-          "query_email": "access@ccpc.ie"
+          "query_route": "Separate linked webform for queries; not a replacement statutory notification email"
         },
         "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
-        "checked_on": "2026-11-13",
-        "fingerprint": "ab6b8b6e5511763b844e3a02863ebc16b30ee169e5d79385f3849b59769f9b1d"
+        "checked_on": "2026-11-20",
+        "fingerprint": "d000e23f7b8fa812ee3b4a9facd53834702c87851fb4091c2dc3dc4546bef065"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "ireland-05",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Visible company non-compliance/exemption form and explicit separate query-webform link. Former access@ccpc.ie absent. Main PR98 closure correction preserved; no replacement email inferred. No submission.",
+        "origin_freshness": "Reader says crawled today; underlying live form workflow not exercised.",
+        "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
         "facts": {
           "audience": "businesses in CCPC sectors",
           "authority": "CCPC",
@@ -1212,12 +1217,8 @@
           "destination": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
           "login": "not displayed in retrieved intake; no session/submission tested",
           "purpose": "non-compliance notifications and exemption claims",
-          "query_email": "access@ccpc.ie"
-        },
-        "final_url": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
-        "method": "official reader",
-        "origin_freshness": "Crawled: last week; origin freshness not guaranteed",
-        "evidence_summary": "Notify the CCPC of a non-compliant product/service or claim an exemption | CCPC (https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue); scoped comparison only, no submissions or end-to-end channel test."
+          "query_route": "Separate linked webform for queries; not a replacement statutory notification email"
+        }
       }
     },
     "ireland-06": {
@@ -1267,16 +1268,17 @@
           "purpose": "reports about difficulty accessing audiovisual media services"
         },
         "final_url": "https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-20",
         "fingerprint": "c0b1d4f136ec98f407aa6518fbec4a621cecaa5c0d8341b3eb89469f0a441724"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-23",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "ireland-07",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "official page crawl dated 2026-10-09; cache limitation disclosed",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/",
         "facts": {
           "audience": "members of the public",
@@ -1284,8 +1286,7 @@
           "channel": "visible query form",
           "login": "not displayed; no submission tested",
           "purpose": "reports about difficulty accessing audiovisual media services"
-        },
-        "evidence_summary": "First readable baseline; form purpose and fields observed without submission."
+        }
       }
     },
     "ireland-08": {
@@ -1302,16 +1303,17 @@
           "scope": "bus, rail, tram and marine services"
         },
         "final_url": "https://www.nationaltransport.ie/about-us/european-accessibility-act-for-public-transport-in-ireland/",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-20",
         "fingerprint": "f5abf25ce68c5bc54f811c74bf29521804a055d913f0187eb02d1bf9793cb8a2"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-23",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "ireland-08",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "official page crawl dated 2026-10-19; cache limitation disclosed",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://www.nationaltransport.ie/about-us/european-accessibility-act-for-public-transport-in-ireland/",
         "facts": {
           "audience": "transport service providers",
@@ -1319,8 +1321,7 @@
           "company_route": "euaccessibility@nationaltransport.ie",
           "purpose": "EAA transport guidance and immediate provider notification",
           "scope": "bus, rail, tram and marine services"
-        },
-        "evidence_summary": "First readable baseline; evidence matches the route already recorded in country research."
+        }
       }
     },
     "ireland-09": {
@@ -1497,24 +1498,24 @@
           "scope": "service/product distinction and exceptions described"
         },
         "final_url": "https://accessibilita.agid.gov.it/domande-frequenti/",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "aa579e644d535632d7c8d6bba2b71b0d80b9c7ffaaebaf5c1d917f6fa75fce84"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "italy-01",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://accessibilita.agid.gov.it/domande-frequenti/",
         "facts": {
           "authority": "AgID / MIMIT",
           "channel": "FAQ does not itself establish usable reporting intake",
           "purpose": "EAA FAQ",
           "scope": "service/product distinction and exceptions described"
-        },
-        "final_url": "https://accessibilita.agid.gov.it/domande-frequenti/",
-        "method": "official reader",
-        "origin_freshness": "Crawled: today; origin freshness not guaranteed",
-        "evidence_summary": "Domande frequenti - Accessibilità Digitale (https://accessibilita.agid.gov.it/domande-frequenti/); scoped comparison only, no submissions or end-to-end channel test."
+        }
       },
       "failure_started_run": "monitoring-watcher-20261023T070800Z-14689c075a99"
     },
@@ -1665,24 +1666,24 @@
           "scope": "EAA products"
         },
         "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=17&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-20",
         "fingerprint": "935a7e8386b07d4ea0a16eef0efb6ea733ddc08b32e8e229bb3eb5d03744ccaa"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-23",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "italy-06",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "official gazette page crawl dated 2026-10-17; cache limitation disclosed",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=17&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
         "facts": {
           "authority": "MIMIT",
           "document_status": "enacted Article 17",
           "purpose": "product market surveillance",
           "scope": "EAA products"
-        },
-        "evidence_summary": "First readable baseline; confirms product-surveillance powers already represented in research."
+        }
       }
     },
     "italy-07": {
@@ -1863,14 +1864,18 @@
           "statutory_reporting": "not established by this page"
         },
         "final_url": "https://accessibilita.agid.gov.it/contatti/",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "099ce0ef94a28f4f8de0ca7875056be456b13dbdfdf944797e761d554c7654cb"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "italy-12",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://accessibilita.agid.gov.it/contatti/",
         "facts": {
           "audience": "people seeking information",
           "authority": "AgID",
@@ -1878,11 +1883,7 @@
           "destination": "accessibilita@agid.gov.it",
           "purpose": "enquiries",
           "statutory_reporting": "not established by this page"
-        },
-        "final_url": "https://accessibilita.agid.gov.it/contatti/",
-        "method": "official reader",
-        "origin_freshness": "Crawled: last week; origin freshness not guaranteed",
-        "evidence_summary": "Contatti - Accessibilità Digitale (https://accessibilita.agid.gov.it/contatti/); scoped comparison only, no submissions or end-to-end channel test."
+        }
       },
       "failure_started_run": "monitoring-watcher-20261023T070800Z-14689c075a99"
     },
@@ -1899,24 +1900,24 @@
           "scope": "sector authority allocation and complaint provisions"
         },
         "final_url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "76ef3fd1de841910c23dc17edba82dfe4fc76a1d95b955bdf048b349c274e1f4"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "portugal-01",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Original 2022 statute identity and later-rectification link observed; current corrected banking remit in canonical record retained. This read does not reverse Rectification 5/2023 or certify a consolidation.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872",
         "facts": {
           "authority": "Portugal official gazette",
           "document_status": "original publication; later amendments require separate reading",
           "purpose": "published Decree-Law 82/2022",
           "scope": "sector authority allocation and complaint provisions"
-        },
-        "final_url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872",
-        "method": "official reader",
-        "origin_freshness": "Crawled: today; origin freshness not guaranteed",
-        "evidence_summary": "Decreto-Lei n.º 82/2022, de 6 de dezembro | DR (https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872); scoped comparison only, no submissions or end-to-end channel test."
+        }
       },
       "failure_started_run": "watcher-october-resume-2026-10-30T174930312Z"
     },
@@ -2043,31 +2044,31 @@
           "scope": "land, river, rail, ports and maritime transport regulation"
         },
         "final_url": "https://www.amt-autoridade.pt/",
-        "checked_on": "2026-10-23",
+        "checked_on": "2026-11-20",
         "fingerprint": "a8988efa7f2d81d818eca37612edf7827924b9b1741e1528ca5de57412dcd1cc"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-23",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "portugal-06",
         "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "live official page retrieved 2026-10-23",
+        "method": "web reader",
+        "evidence_summary": "Homepage/mission and transport news list read. General email explicitly not for complaints; generic portal does not establish EAA company intake. October22 terminal inspection article separately read: Regulation3/2025 access/use supervision, not verified EAA enforcement.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
         "final_url": "https://www.amt-autoridade.pt/",
         "facts": {
           "authority": "AMT",
           "eaa_specific_route": "not established by homepage",
           "purpose": "generic agency homepage and consumer portal",
           "scope": "land, river, rail, ports and maritime transport regulation"
-        },
-        "evidence_summary": "First readable baseline; 22 October terminal-supervision news concerns Regulation 3/2025 access/capacity, not established as EAA evidence."
+        }
       }
     },
     "portugal-07": {
       "url": "https://www.imt-ip.pt/",
       "country": "Portugal",
-      "status": "reachable",
-      "failure_runs": 0,
+      "status": "unreachable",
+      "failure_runs": 1,
       "last_good": {
         "facts": {
           "authority": "IMT",
@@ -2079,20 +2080,17 @@
         "fingerprint": "6de4e7078565c001969545c2ef2b6f7f77dd3c2e27c222b24555280cd3f12119"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-10-23",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "portugal-07",
-        "status": "reachable",
-        "method": "web_reader",
-        "origin_freshness": "live official page retrieved 2026-10-23",
-        "final_url": "https://www.imt-ip.pt/",
-        "facts": {
-          "authority": "IMT",
-          "eaa_specific_route": "not established by homepage",
-          "purpose": "generic agency homepage"
-        },
-        "evidence_summary": "First readable baseline; no EAA-specific intake observed."
-      }
+        "status": "unreachable",
+        "method": "web reader and cloud browser",
+        "evidence_summary": "Reader: Failed to fetch https://www.imt-ip.pt/: (403) Forbidden. One ordinary cloud-browser attempt: Access denied — Error 16; request blocked by security service. Last-good baseline preserved. Ordinary-browser verification needed outside this blocked session.",
+        "origin_freshness": "Live cloud-browser denial at 2026-11-20 08:14:04 UTC; no source content retrieved.",
+        "final_url": null,
+        "facts": null
+      },
+      "failure_started_run": "weekly-2026-11-20-1795162251333"
     },
     "portugal-08": {
       "url": "https://www.bportugal.pt/",
@@ -2172,14 +2170,18 @@
           "purpose": "public accessibility complaints"
         },
         "final_url": "https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "e1a16fa46b8a662d063b6b7ea8e3ff9b244a376cde57914c5c0e750b69e8ad56"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "portugal-11",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos",
         "facts": {
           "audience": "consumers and representative associations",
           "authority": "IDiPD",
@@ -2189,11 +2191,7 @@
           "login": "not displayed in retrieved intake; no session/submission tested",
           "prerequisite": "prior unresolved complaint to provider or supplier",
           "purpose": "public accessibility complaints"
-        },
-        "final_url": "https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos",
-        "method": "official reader",
-        "origin_freshness": "Crawled: last week; origin freshness not guaranteed",
-        "evidence_summary": "Formulário de Queixa e Reclamação sobre Acessibilidade a Produtos e Serviços - IDiPD, I.P. (https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos); scoped comparison only, no submissions or end-to-end channel test."
+        }
       }
     },
     "portugal-12": {
@@ -2245,25 +2243,25 @@
           "sector": "consumer banking services"
         },
         "final_url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "0e6a2e6c393ab49976b8b8e50a149846c7529e4fed2d59124bd22489037326de"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "discovery-1",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Selected source read; bounded structured comparison against prior observation. No form submission or claim of comprehensive audit.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
         "facts": {
           "authority": "PTS",
           "document_status": "supervision announcement",
           "published_on": "2026-09-08",
           "review_period": "2026–2027",
           "sector": "consumer banking services"
-        },
-        "final_url": "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
-        "method": "official reader",
-        "origin_freshness": "Crawled: last week; origin freshness not guaranteed",
-        "evidence_summary": "PTS inleder tillsyn av banktjänster | PTS (https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/); scoped comparison only, no submissions or end-to-end channel test."
+        }
       }
     },
     "discovery-2": {
@@ -2284,14 +2282,18 @@
           "sector": "product market surveillance"
         },
         "final_url": "https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/",
-        "checked_on": "2026-11-13",
+        "checked_on": "2026-11-20",
         "fingerprint": "b688046b01f39c252f5f767e3037b1bbc390a6e7c2ee5436f47bf1497c471ed4"
       },
       "failure_alerted": false,
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "discovery-2",
         "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "Original June proposal read as proposal. Adopted PTSFS2026:6 separately captured by merged PR85; no regression to proposal status for adopted rules.",
+        "origin_freshness": "Reader snapshot; origin freshness not independently guaranteed. Crawl timestamp is not publication date.",
+        "final_url": "https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/",
         "facts": {
           "authority": "PTS",
           "document_status": "proposal",
@@ -2302,11 +2304,7 @@
           ],
           "published_on": "2026-06-23",
           "sector": "product market surveillance"
-        },
-        "final_url": "https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/",
-        "method": "official reader",
-        "origin_freshness": "Crawled: last week; origin freshness not guaranteed",
-        "evidence_summary": "PTS föreslår ändrade språkkrav i föreskrifter om vissa produkters tillgänglighet | PTS (https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/); scoped comparison only, no submissions or end-to-end channel test."
+        }
       }
     },
     "discovery-3": {
@@ -2318,7 +2316,7 @@
         "facts": {
           "audience": "users of covered private digital services",
           "authority": "AgID",
-          "channel": "reporting platform with SPID, CIE or eIDAS authentication",
+          "channel": "reporting platform",
           "company_route_status": "planned evolution; not yet claimed as available",
           "destination": "https://segnalazioni.agid.gov.it/auth/login",
           "document_status": "adopted guidance announcement",
@@ -2326,31 +2324,29 @@
           "purpose": "report possible service-accessibility non-conformities"
         },
         "final_url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
-        "checked_on": "2026-11-13",
-        "fingerprint": "dcbbaadd7b1128937f0f899d82694781512dbf9255e96918e12968654821cd2f"
+        "checked_on": "2026-11-20",
+        "fingerprint": "9c391640673ffd3ca00115b73214711f0cf69de60bbf51ea888d200248529551"
       },
       "failure_alerted": false,
       "failure_started_run": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
-      "last_checked_on": "2026-11-13",
+      "last_checked_on": "2026-11-20",
       "last_observation": {
         "source_id": "discovery-3",
         "status": "reachable",
+        "method": "reader_failed/browser_accessible",
+        "evidence_summary": "Reader (403) Forbidden; same-attempt cloud browser read full 11 March 2026 announcement. Adopted guidance and user platform link present; business capacity remains a planned evolution. Authentication methods from prior observations not rechecked and omitted from this page-specific snapshot; no login or intake tested.",
+        "origin_freshness": "Live browser text read 20 November 2026; no downstream authenticated intake inspection.",
+        "final_url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
         "facts": {
           "audience": "users of covered private digital services",
           "authority": "AgID",
-          "channel": "reporting platform with SPID, CIE or eIDAS authentication",
+          "channel": "reporting platform",
           "company_route_status": "planned evolution; not yet claimed as available",
           "destination": "https://segnalazioni.agid.gov.it/auth/login",
           "document_status": "adopted guidance announcement",
           "published_on": "2026-03-11",
           "purpose": "report possible service-accessibility non-conformities"
-        },
-        "final_url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
-        "method": "reader and ordinary cloud browser",
-        "origin_freshness": "browser observed 13 November; no origin timestamp guarantee",
-        "evidence_summary": "Reader failed; browser rendered official document. No authentication or submission performed.",
-        "reader_error": "(403) Forbidden",
-        "browser_disposition": "reader_failed/browser_accessible"
+        }
       }
     },
     "discovery-pt-idipd-hub-20261030": {
@@ -2629,10 +2625,37 @@
     "it-gu-26a02536": {
       "url": "https://www.gazzettaufficiale.it/eli/id/2026/05/23/26A02536/sg",
       "country": "Italy",
-      "status": "pending",
+      "status": "reachable",
       "failure_runs": 0,
-      "last_good": null,
-      "failure_alerted": false
+      "last_good": {
+        "facts": {
+          "authority": "AgID",
+          "document_status": "official notice of adopted surveillance and sanctioning procedure",
+          "limits": "notice heading only; no individual enforcement action or imposed fine established",
+          "published_on": "2026-05-23",
+          "purpose": "approval notice referencing Law 4/2004 Article 9 and Decree 82/2022 Articles 21 and 24"
+        },
+        "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/05/23/26A02536/sg",
+        "checked_on": "2026-11-20",
+        "fingerprint": "85c7184272e3810f6d43f89ef3af151ff14763182fcba42b6e23765baa3aacf7"
+      },
+      "failure_alerted": false,
+      "last_checked_on": "2026-11-20",
+      "last_observation": {
+        "source_id": "it-gu-26a02536",
+        "status": "reachable",
+        "method": "web reader",
+        "evidence_summary": "First watcher baseline of official GU notice 26A02536 (23 May 2026), matching existing queued regulation event italy-agid-84-2026-adopted-procedure. Full regulation not reread; not a new 2026-11 law.",
+        "origin_freshness": "Reader says crawled two months ago; immutable publication notice, not current-law consolidation.",
+        "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/05/23/26A02536/sg",
+        "facts": {
+          "authority": "AgID",
+          "document_status": "official notice of adopted surveillance and sanctioning procedure",
+          "published_on": "2026-05-23",
+          "purpose": "approval notice referencing Law 4/2004 Article 9 and Decree 82/2022 Articles 21 and 24",
+          "limits": "notice heading only; no individual enforcement action or imposed fine established"
+        }
+      }
     },
     "se-riksdag-ku7-2026-27": {
       "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/tillganglighetskrav-for-vissa-medier-vilande_he01ku7/",
@@ -2823,17 +2846,18 @@
       "kind": "discovery_candidate",
       "detected_on": "2026-09-25",
       "run_id": "baseline-2026-09-25",
-      "review_status": "draft_pr",
+      "review_status": "merged",
       "details": {
         "summary": "Rendered notification mailbox is ambiguous.",
-        "next_step": "Verify #96 actually merged before marking canonical handoff complete.",
+        "next_step": "Merged #96 verified against actual PR state and current Denmark record; preserve correspondence and no-delivery-test limitations.",
         "last_reviewed_on": "2026-10-30",
         "browser_result": "The page visibly composes mo@erst.dk, while split anchors expose inconsistent sik@sik.dk and mo@erst.dk targets; no message was sent.",
         "latest_check": {
           "date": "2026-11-06",
           "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
           "finding": "Browser: one link mo@erst.dk → mailto:mo@erst.dk. Resolves markup discrepancy only; past correspondence preserved; no reply or test."
-        }
+        },
+        "reconciled_on": "2026-11-20"
       },
       "notified_on": "2026-09-25",
       "pr": 96
@@ -3070,22 +3094,22 @@
       "kind": "discovery_candidate",
       "detected_on": "2026-11-03",
       "run_id": "watcher-october-pilot-review-2026-11-03T09:25:08.830Z",
-      "review_status": "queued",
+      "review_status": "draft_pr",
       "details": {
         "summary": "Final constitutional adoption verified on KU7 decision page: 11 November 2026, commencement 1 January 2027. Enables ordinary-law accessibility requirements; no new filing channels, statements, languages or enforcement inferred.",
         "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/tillganglighetskrav-for-vissa-medier-vilande_he01ku7/",
         "source_section": "Decision summary, final adoption and parliamentary decision dates",
         "evidence_fingerprint": "add9f5b3d070f3ebde2f9a63897a5715e5f2d5004302476286b7b18a0dff821f",
-        "research_branch": "watcher/sweden-ku7-research-2026-11-13",
+        "research_branch": "watcher/sweden-ku7-research-2026-11-20",
         "research_branch_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/tree/watcher/sweden-ku7-research-2026-11-13",
-        "research_commit": "58b1cde3a7a0ca7781a85e87a68fe4a9ef185f02",
+        "research_commit": "e941154866d9649b2615f7b305228a8d5dc2a311",
         "research_record": ".github/agents/research/countries/sweden.json",
         "delivery_id": "sweden-ku7-final-adoption-20261111",
         "claim_id": "monitoring-ae11d1d339488dd169bfeb15",
-        "blocking_pr": 96,
-        "next_step": "After #96 resolves, prepare Sweden research-only draft from saved branch. Verify promulgation and ordinary-law implementation before changing public duties.",
+        "blocking_pr": null,
+        "next_step": "Review draft #101. Promulgated constitutional text and ordinary-law implementation remain follow-up before any public operational-duty change.",
         "per_page_dispositions": {
-          "monitoring": "blocked_by_open_pr; research recorded",
+          "monitoring": "research_only; draft #101",
           "enforcement": "not_applicable: no action against operator",
           "sanctions": "not_applicable: no fine or statutory maximum",
           "adoption": "not_applicable: no EN adoption/edition evidence"
@@ -3105,7 +3129,9 @@
       ],
       "reviewed_on": "2026-11-13",
       "notification_date": "2026-11-13",
-      "notification_id": "weekly-2026-11-13-1794556436819|sweden-ku7"
+      "notification_id": "weekly-2026-11-13-1794556436819|sweden-ku7",
+      "pr": 101,
+      "notified_on": "2026-11-20"
     },
     {
       "id": "portugal-idipd-oct-programme-20261021",
@@ -3154,7 +3180,7 @@
       "kind": "content_candidate",
       "detected_on": "2026-11-05",
       "run_id": "watcher-browser-acceptance-2026-11-05T08:39:51.363Z",
-      "review_status": "draft_pr",
+      "review_status": "merged",
       "details": {
         "before": {
           "audience": "service providers, manufacturers, importers, distributors",
@@ -3180,7 +3206,8 @@
           "url": "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
           "finding": "Browser: one link mo@erst.dk → mailto:mo@erst.dk. Resolves markup discrepancy only; past correspondence preserved; no reply or test."
         },
-        "next_step": "Verify #96 actually merged before marking canonical handoff complete."
+        "next_step": "Merged #96 verified against actual PR state and current Denmark record; preserve correspondence and no-delivery-test limitations.",
+        "reconciled_on": "2026-11-20"
       },
       "notification_id": "watcher-browser-acceptance-2026-11-05T08:39:51.363Z|denmark-17",
       "notified_on": "2026-11-05",
@@ -3247,7 +3274,7 @@
       "kind": "content_candidate",
       "detected_on": "2026-11-06",
       "run_id": "weekly-2026-11-06T07:40:13.636Z",
-      "review_status": "draft_pr",
+      "review_status": "merged",
       "details": {
         "before": {
           "audience": "service providers, manufacturers, importers, distributors",
@@ -3266,7 +3293,9 @@
           "purpose": "company non-compliance"
         },
         "note": "Agent verification required; not an automatic table update.",
-        "disposition": "Verified current link only. Routed to Denmark canonical record and index in #96. Do not infer delivery, forwarding or authority reply."
+        "disposition": "Verified current link only. Routed to Denmark canonical record and index in #96. Do not infer delivery, forwarding or authority reply.",
+        "reconciled_on": "2026-11-20",
+        "next_step": "Merged #96 verified against actual PR state and current Denmark record; preserve correspondence and no-delivery-test limitations."
       },
       "pr": 96
     },
@@ -3307,6 +3336,94 @@
         "next_step": "Check exact ASAE homepage in ordinary browser; no official content rendered. Not an outage claim."
       },
       "notified_on": "2026-11-06"
+    },
+    {
+      "id": "64a8c247440651e1d1255b685348c2d686d8fdad654147d3833dbfb2f095ebb9",
+      "source_id": "sweden-06",
+      "kind": "content_candidate",
+      "detected_on": "2026-11-20",
+      "run_id": "weekly-2026-11-20-1795162251333",
+      "review_status": "no_material_change",
+      "details": {
+        "before": {
+          "authority": "MTM",
+          "link": "separate reporting page with business defect, exemption and consumer complaint forms inspected",
+          "purpose": "supervision overview",
+          "sector": "e-books and dedicated software"
+        },
+        "after": {
+          "authority": "MTM",
+          "link": "separate reporting page linked",
+          "purpose": "supervision overview",
+          "sector": "e-books and dedicated software"
+        },
+        "note": "Agent verification required; not an automatic table update.",
+        "disposition": "Observation narrowed to content inspected on the selected page; prior downstream authentication/form verification is retained as history, not reversed. No new route or access-policy change."
+      }
+    },
+    {
+      "id": "e59ca0b014964d1ae4436b25c87568f228abe2db36248fbf2b69138f524730f0",
+      "source_id": "ireland-05",
+      "kind": "content_candidate",
+      "detected_on": "2026-11-20",
+      "run_id": "weekly-2026-11-20-1795162251333",
+      "review_status": "merged",
+      "details": {
+        "before": {
+          "audience": "businesses in CCPC sectors",
+          "authority": "CCPC",
+          "channel": "visible web form",
+          "destination": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+          "login": "not displayed in retrieved intake; no session/submission tested",
+          "purpose": "non-compliance notifications and exemption claims",
+          "query_email": "access@ccpc.ie"
+        },
+        "after": {
+          "audience": "businesses in CCPC sectors",
+          "authority": "CCPC",
+          "channel": "visible web form",
+          "destination": "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+          "login": "not displayed in retrieved intake; no session/submission tested",
+          "purpose": "non-compliance notifications and exemption claims",
+          "query_route": "Separate linked webform for queries; not a replacement statutory notification email"
+        },
+        "note": "Agent verification required; not an automatic table update.",
+        "disposition": "Website query-link observation agrees with main's closed-mailbox correction in merged #98. No replacement filing email or new public claim.",
+        "reconciled_on": "2026-11-20"
+      },
+      "pr": 98
+    },
+    {
+      "id": "cd03f76bc06fd8a10390322ec6c17254c59c6815766295d167ad148b8533fb16",
+      "source_id": "discovery-3",
+      "kind": "content_candidate",
+      "detected_on": "2026-11-20",
+      "run_id": "weekly-2026-11-20-1795162251333",
+      "review_status": "no_material_change",
+      "details": {
+        "before": {
+          "audience": "users of covered private digital services",
+          "authority": "AgID",
+          "channel": "reporting platform with SPID, CIE or eIDAS authentication",
+          "company_route_status": "planned evolution; not yet claimed as available",
+          "destination": "https://segnalazioni.agid.gov.it/auth/login",
+          "document_status": "adopted guidance announcement",
+          "published_on": "2026-03-11",
+          "purpose": "report possible service-accessibility non-conformities"
+        },
+        "after": {
+          "audience": "users of covered private digital services",
+          "authority": "AgID",
+          "channel": "reporting platform",
+          "company_route_status": "planned evolution; not yet claimed as available",
+          "destination": "https://segnalazioni.agid.gov.it/auth/login",
+          "document_status": "adopted guidance announcement",
+          "published_on": "2026-03-11",
+          "purpose": "report possible service-accessibility non-conformities"
+        },
+        "note": "Agent verification required; not an automatic table update.",
+        "disposition": "Observation narrowed to content inspected on the selected page; prior downstream authentication/form verification is retained as history, not reversed. No new route or access-policy change."
+      }
     }
   ],
   "discovery": {
@@ -5400,10 +5517,10 @@
       "2026-11": {
         "month": "2026-11",
         "status": "partial",
-        "run_id": "weekly-2026-11-13-1794556436819",
+        "run_id": "weekly-2026-11-20-1795162251333",
         "lookback": {
           "from": "2026-09-18",
-          "through": "2026-11-13",
+          "through": "2026-11-20",
           "basis": "Retained overlap with initial baseline because October not complete. Date-limited and undated queries."
         },
         "countries": {
@@ -5436,7 +5553,7 @@
             "additional_source": "https://digst.dk/media/xiyh5iea/vejledning-om-tilgaengelighedskrav-til-elektroniske-kommunikationstjenester.pdf",
             "disposition": "Guidance corroborates existing telecom evidence; financial archive still incomplete. Mailbox text alone does not verify link.",
             "next_step": [
-              "Read dated Finanstilsynet archive across overlap; monitor actual #96 merge; no forwarding/delivery test."
+              "Complete dated Finanstilsynet/sector archives across overlap. #96 merged; no email delivery/forwarding test."
             ],
             "passes": [
               {
@@ -5527,6 +5644,45 @@
                 ],
                 "status": "partial",
                 "coverage_limit": "Scoped recent/undated official-domain queries, not exhaustive dated archives. Actual sources read; crawl dates not publication dates."
+              },
+              {
+                "run_id": "weekly-2026-11-20-1795162251333",
+                "checked_on": "2026-11-20",
+                "status": "partial",
+                "queries": [
+                  {
+                    "q": "site:finanstilsynet.dk tilgængelighed bank nyheder after:2026-09-17 before:2026-11-21",
+                    "recency": 65
+                  },
+                  {
+                    "q": "tilgængelighed banktjenester orienteringspligt undtagelser",
+                    "domains": [
+                      "sik.dk",
+                      "finanstilsynet.dk",
+                      "digst.dk"
+                    ]
+                  }
+                ],
+                "source_ids": [
+                  "denmark-04",
+                  "denmark-17",
+                  "denmark-01",
+                  "denmark-02"
+                ],
+                "direct_read_urls": [
+                  "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/myndigheder-ansvar-tilsyn-tilgaengelighedsloven",
+                  "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/orienteringspligt-giv-besked-hvis-din-tjeneste-eller-dit-produkt-ikke-tilgaengelig",
+                  "https://www.sik.dk/privat/tilgaengelighed/krav-om-tilgaengelighed-produkter-og-tjenester",
+                  "https://www.retsinformation.dk/eli/lta/2022/801/pdf"
+                ],
+                "additional_attempted_urls": [
+                  "https://www.sik.dk/erhverv/tilgaengelighed-produkter-og-tjenester/vejledninger/forbrugerorienterede-banktjenester"
+                ],
+                "disposition": "Core and old rotation sources corroborate existing facts; #96 merge resolves saved mailbox candidate. Bank guidance unchanged; dated Finanstilsynet archive coverage remains incomplete.",
+                "next_step": [
+                  "Complete dated Finanstilsynet/sector archives across overlap. #96 merged; no email delivery/forwarding test."
+                ],
+                "coverage_limit": "Recent and undated searches plus selected direct reads. Search result dates not publication evidence; no claim of complete dated-archive coverage or completed monthly cycle."
               }
             ]
           },
@@ -5561,7 +5717,7 @@
             "additional_source": null,
             "disposition": "Banking announcement and June proposal not new; no completed banking action; no second vote inferred. September archive outstanding.",
             "next_step": [
-              "Inspect PTS dated archive 18–30 September. KU7 vote resolved; check promulgation/ordinary-law implementation before public edits. Research PR queued behind #96."
+              "Review #101; before public duties verify promulgated constitutional text and ordinary-law implementation. Complete PTS dated archive overlap."
             ],
             "passes": [
               {
@@ -5656,6 +5812,49 @@
                 ],
                 "status": "partial",
                 "coverage_limit": "Scoped recent/undated official-domain queries, not exhaustive dated archives. Actual sources read; crawl dates not publication dates."
+              },
+              {
+                "run_id": "weekly-2026-11-20-1795162251333",
+                "checked_on": "2026-11-20",
+                "status": "partial",
+                "queries": [
+                  {
+                    "q": "site:pts.se tillgänglighetslagen tillsyn bank nyheter after:2026-09-17 before:2026-11-21",
+                    "recency": 65
+                  },
+                  {
+                    "q": "tillgänglighetslagen bank tillsyn undantag anmälan",
+                    "domains": [
+                      "pts.se",
+                      "mtm.se"
+                    ]
+                  }
+                ],
+                "source_ids": [
+                  "sweden-02",
+                  "sweden-06",
+                  "discovery-1",
+                  "discovery-2",
+                  "sweden-07",
+                  "sweden-09"
+                ],
+                "direct_read_urls": [
+                  "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/information-om-tjanstens-tillganglighet/",
+                  "https://www.mtm.se/tillganglighetslagen-och-tillsyn/tillsyn/",
+                  "https://pts.se/nyheter-och-pressmeddelanden/pts-inleder-tillsyn-av-banktjanster/",
+                  "https://www.pts.se/nyheter-och-pressmeddelanden/pts-foreslar-andrade-sprakkrav-i-foreskrifter-om-vissa-produkters-tillganglighet/",
+                  "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/rapportering-av-brister-i-tjanst/",
+                  "https://data.riksdagen.se/dokument/sfs-2017-900.html"
+                ],
+                "additional_attempted_urls": [
+                  "https://pts.se/digital-inkludering/lagen-om-vissa-produkters-och-tjansters-tillganglighet/vanliga-fragor-och-svar-om-tillganglighetslagen/",
+                  "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/tillganglighetskrav-for-vissa-medier-vilande_he01ku7/"
+                ],
+                "disposition": "Banking supervision announcement and June language proposal remain historical, not new completed actions. KU7 final vote rechecked; saved research now draft #101. No new operational duties inferred. PTS FAQ still contains stale projected standard dates, not treated as current harmonisation evidence.",
+                "next_step": [
+                  "Review #101; before public duties verify promulgated constitutional text and ordinary-law implementation. Complete PTS dated archive overlap."
+                ],
+                "coverage_limit": "Recent and undated searches plus selected direct reads. Search result dates not publication evidence; no claim of complete dated-archive coverage or completed monthly cycle."
               }
             ]
           },
@@ -5688,7 +5887,7 @@
             "additional_source": null,
             "disposition": "CCPC business guidance and form are not consumer or universal routes. IAA intake not independently verified; full dated CCPC archive outstanding.",
             "next_step": [
-              "Read dated CCPC archive across overlap; verify IAA EAA intake rather than passenger-assistance route. Read S.I.636/2023 substantive provisions if needed."
+              "Complete dated CCPC/sector archives; preserve merged #98 closure and current canonical IAA evidence; do not repeat superseded unknowns."
             ],
             "passes": [
               {
@@ -5773,6 +5972,45 @@
                 ],
                 "status": "partial",
                 "coverage_limit": "Scoped recent/undated official-domain queries, not exhaustive dated archives. Actual sources read; crawl dates not publication dates."
+              },
+              {
+                "run_id": "weekly-2026-11-20-1795162251333",
+                "checked_on": "2026-11-20",
+                "status": "partial",
+                "queries": [
+                  {
+                    "q": "site:ccpc.ie accessibility news after:2026-09-17 before:2026-11-21",
+                    "recency": 65
+                  },
+                  {
+                    "q": "European Accessibility Act notify exemption aviation",
+                    "domains": [
+                      "ccpc.ie",
+                      "iaa.ie",
+                      "centralbank.ie"
+                    ]
+                  }
+                ],
+                "source_ids": [
+                  "ireland-03",
+                  "ireland-05",
+                  "ireland-07",
+                  "ireland-08"
+                ],
+                "direct_read_urls": [
+                  "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/ccpc-role-and-responsibilities",
+                  "https://www.ccpc.ie/enforcement-and-regulation/market-surveillance/accessibility/accessibility-for-businesses/notify-the-ccpc-of-an-accessibility-issue",
+                  "https://www.cnam.ie/general-public/report-complain/difficulty-accessing-an-audiovisual-media-service/how-can-i-make-a-report/",
+                  "https://www.nationaltransport.ie/about-us/european-accessibility-act-for-public-transport-in-ireland/"
+                ],
+                "additional_attempted_urls": [
+                  "https://www.ccpc.ie/news-and-media/news/article/-page-2-"
+                ],
+                "disposition": "CCPC responsibilities and company form remain distinct; query email replaced on page by separate webform link. Preserve actual #98 inactive-mailbox correction. CCPC archive page inspected but complete dated overlap coverage not established.",
+                "next_step": [
+                  "Complete dated CCPC/sector archives; preserve merged #98 closure and current canonical IAA evidence; do not repeat superseded unknowns."
+                ],
+                "coverage_limit": "Recent and undated searches plus selected direct reads. Search result dates not publication evidence; no claim of complete dated-archive coverage or completed monthly cycle."
               }
             ]
           },
@@ -5884,6 +6122,46 @@
                 ],
                 "status": "partial",
                 "coverage_limit": "Scoped recent/undated official-domain queries, not exhaustive dated archives. Actual sources read; crawl dates not publication dates."
+              },
+              {
+                "run_id": "weekly-2026-11-20-1795162251333",
+                "checked_on": "2026-11-20",
+                "status": "partial",
+                "queries": [
+                  {
+                    "q": "site:agid.gov.it accessibilità vigilanza notizie after:2026-09-17 before:2026-11-21",
+                    "recency": 65
+                  },
+                  {
+                    "q": "accessibilità servizi segnalazioni imprese esenzioni",
+                    "domains": [
+                      "agid.gov.it",
+                      "mimit.gov.it"
+                    ]
+                  }
+                ],
+                "source_ids": [
+                  "italy-01",
+                  "italy-12",
+                  "discovery-3",
+                  "it-gu-26a02536",
+                  "italy-06"
+                ],
+                "direct_read_urls": [
+                  "https://accessibilita.agid.gov.it/domande-frequenti/",
+                  "https://accessibilita.agid.gov.it/contatti/",
+                  "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
+                  "https://www.gazzettaufficiale.it/eli/id/2026/05/23/26A02536/sg",
+                  "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=22G00089&art.dataPubblicazioneGazzetta=2022-07-01&art.flagTipoArticolo=0&art.idArticolo=17&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1"
+                ],
+                "additional_attempted_urls": [
+                  "https://www.agid.gov.it/it/taxonomy/term/63"
+                ],
+                "disposition": "AgID announcement reader403 but same-attempt browser accessible; company capacity still planned. GU26A02536 first baseline matches existing regulation queue, not new law. AgID topic archive reader403; full dated AgID/MIMIT archives unfinished.",
+                "next_step": [
+                  "Read dated AgID/MIMIT archives across overlap; retain regulation handoff and company-intake uncertainty."
+                ],
+                "coverage_limit": "Recent and undated searches plus selected direct reads. Search result dates not publication evidence; no claim of complete dated-archive coverage or completed monthly cycle."
               }
             ]
           },
@@ -6012,6 +6290,52 @@
                 ],
                 "status": "partial",
                 "coverage_limit": "Scoped recent/undated official-domain queries, not exhaustive dated archives. Actual sources read; crawl dates not publication dates."
+              },
+              {
+                "run_id": "weekly-2026-11-20-1795162251333",
+                "checked_on": "2026-11-20",
+                "status": "partial",
+                "queries": [
+                  {
+                    "q": "acessibilidade produtos serviços fiscalização notícias after:2026-09-17 before:2026-11-21",
+                    "domains": [
+                      "idipd.mtsss.gov.pt",
+                      "anacom.pt",
+                      "bportugal.pt",
+                      "azores.gov.pt",
+                      "madeira.gov.pt"
+                    ],
+                    "recency": 65
+                  },
+                  {
+                    "q": "acessibilidade produtos serviços comunicação incumprimento empresas",
+                    "domains": [
+                      "idipd.mtsss.gov.pt",
+                      "anacom.pt",
+                      "bportugal.pt",
+                      "cmvm.pt"
+                    ]
+                  }
+                ],
+                "source_ids": [
+                  "portugal-01",
+                  "portugal-11",
+                  "portugal-06",
+                  "portugal-07"
+                ],
+                "direct_read_urls": [
+                  "https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2022-204379872",
+                  "https://idipd.mtsss.gov.pt/pt/formulario-de-queixa-e-reclamacao-sobre-acessibilidade-a-produtos-e-servicos",
+                  "https://www.amt-autoridade.pt/"
+                ],
+                "additional_attempted_urls": [
+                  "https://www.amt-autoridade.pt/comunica%C3%A7%C3%A3o/not%C3%ADcias/amt-realiza-a%C3%A7%C3%B5es-de-supervis%C3%A3o-no-terreno-a-terminais-rodovi%C3%A1rios/"
+                ],
+                "disposition": "Complaint form/old statute unchanged; keep corrected banking allocation from canonical research. AMT22October article is terminal access/use supervision under Regulation3/2025, not established EAA enforcement. IMT reader403 and browserError16; regional and other sector archives incomplete.",
+                "next_step": [
+                  "Read Azores/Madeira and sector-regulator dated archives. Prior ASAE browser follow-up remains unresolved, not reattempted this run."
+                ],
+                "coverage_limit": "Recent and undated searches plus selected direct reads. Search result dates not publication evidence; no claim of complete dated-archive coverage or completed monthly cycle."
               }
             ]
           }
@@ -6019,24 +6343,21 @@
       }
     }
   },
-  "last_run_on": "2026-11-13",
+  "last_run_on": "2026-11-20",
   "coverage": {
     "registered": 83,
-    "readable_baselines": 74,
-    "pending": 1,
+    "readable_baselines": 75,
+    "pending": 0,
     "attempted_this_run": 23
   },
-  "lease": {
-    "owner": "weekly-2026-11-20-1795162251333",
-    "expires_at": "2026-11-20T08:55:51.333Z"
-  },
-  "updated_at": "2026-11-15T16:24:32Z",
+  "lease": null,
+  "updated_at": "2026-11-20T08:23:52.705Z",
   "source_mapping": {
     "Denmark": {
       "record_path": ".github/agents/research/countries/denmark.json",
-      "record_blob_sha": "f69482a636abf548f3fc52d1cda72bbd1f8269eb",
+      "record_blob_sha": "4368cc7a6aed6eb180665d99d90531f7e4791190",
       "record_ref": "main",
-      "refreshed_on": "2026-11-13",
+      "refreshed_on": "2026-11-20",
       "open_questions": [
         "Before PR: Resolved: rechecked the official roster and restored the missing delegated Smart-TV role. Current site branding and the roster's older Sikkerhedsstyrelsen name remain distinguished in the evidence.",
         "Before PR: Resolved: kept reporting prerequisites and usable destinations in Reporting; removed correspondence dates and transfer history from Additional information. Existing contributor address and Yes are preserved.",
@@ -6044,7 +6365,7 @@
         "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
         "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check.",
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
-        "Contributor update received 2026-11-02: the user reports having notified sik@sik.dk about the conflicting email links on the official Orienteringspligt page (visible mo@erst.dk; first letter links to sik@sik.dk, remaining text to mo@erst.dk). The outgoing message itself was not inspected and no authority reply has been supplied. Keep the issue open pending an authority response or a corrected official page; the act of reporting does not verify the intended mailbox or resolve the defect. No public reporting-route change follows from this status update."
+        "Contributor update received 2026-11-02: the user reports having notified sik@sik.dk about the conflicting email links on the official Orienteringspligt page (visible mo@erst.dk; first letter links to sik@sik.dk, remaining text to mo@erst.dk). The outgoing message itself was not inspected and no authority reply has been supplied. Keep the issue open pending an authority response or a corrected official page; the act of reporting does not verify the intended mailbox or resolve the defect. No public reporting-route change follows from this status update. Resolved for the published link only on 6 November 2026: the ordinary browser showed a single matching label and target (mo@erst.dk). Keep the earlier outreach and reported replies as historical evidence; no public-row change is needed."
       ],
       "source_to_claim_ids": {
         "denmark-01": [
@@ -6122,15 +6443,13 @@
         "denmark-18": [
           "monitoring-73028161fc706dbf3b87aaa0"
         ]
-      },
-      "previous_record_blob_sha": "edc96f704aec1028243d6a16c376970c651842af",
-      "refresh_note": "Current main blob unchanged; queued Sweden branch not treated as main."
+      }
     },
     "Sweden": {
       "record_path": ".github/agents/research/countries/sweden.json",
       "record_blob_sha": "53ec58bd4336aafb5d6d878fb816fedae26a85ce",
       "record_ref": "main",
-      "refreshed_on": "2026-11-13",
+      "refreshed_on": "2026-11-20",
       "open_questions": [
         "Before PR: Narrowed: restored “So far” to English reporting. The 24 October 2025 reply supports past acceptance but expressly avoids a future commitment.",
         "Before PR: Resolved: rechecked Konsumentverket's company-notification route and MTM's three forms. Mediemyndigheten's consumer and company e-service introductions were verified on 2026-10-30. A final 2027 media-law claim remains omitted pending verification.",
@@ -6187,11 +6506,7 @@
           "monitoring-87489b1a29315f26190df298",
           "monitoring-00754e4a10c87d1b2b18af42"
         ],
-        "sweden-08": [
-          "monitoring-582d6545cced1bb9b819d151",
-          "monitoring-fbfaa0df9ee1583241360869",
-          "monitoring-d8a17e24a547388d8aff15d8"
-        ],
+        "sweden-08": [],
         "sweden-09": [
           "monitoring-3ca5567f5da753cbc25be6ff"
         ],
@@ -6215,18 +6530,16 @@
           "monitoring-7950e549ce8bdc9a4e22bc45"
         ],
         "se-riksdag-ku7-2026-27": []
-      },
-      "previous_record_blob_sha": "47d22d7f5891b8dfa9f1f8a5ddce426ccaa59484",
-      "refresh_note": "Current main blob unchanged; queued Sweden branch not treated as main."
+      }
     },
     "Ireland": {
       "record_path": ".github/agents/research/countries/ireland.json",
-      "record_blob_sha": "da5a100d5b2c53190e9d7362a5ae5d93391ac6c3",
+      "record_blob_sha": "7735ccc32d9b53c63b1e5b03a31d6c462d1ccb7e",
       "record_ref": "main",
-      "refreshed_on": "2026-11-13",
+      "refreshed_on": "2026-11-20",
       "open_questions": [
         "Research task: establish an official email contact for Ireland research correspondence. Contributor confirms no official correspondence contact yet. Identify responsible authority/team and appropriate query mailbox; record official source, sector, purpose and any response. Existing reporting mailboxes do not prove a correspondence relationship. Owner: researcher; resolved when a suitable official contact is documented. Sending email requires contributor authorization.",
-        "Follow-up: obtain original contributor evidence that access@ccpc.ie accepts company noncompliance reports in English; published CCPC page establishes queries only. Existing entry retained.",
+        "Resolved 18 November 2026: the former Access mailbox is inactive according to the original official automated reply. The prior company-email follow-up is superseded; do not restore the public email entry from historical records. Separate public-complaint and company-notification forms remain unchanged. No replacement statutory-reporting email is established.",
         "Follow-up: banking public route resolved in rerun; company/exemption intake remains unknown. Identify explicit official instructions; do not reuse consumer email without support.",
         "Follow-up: IAA query page still lacks retrievable form controls. Reviewer can inspect in a browser and record destination, intended public/company audience and login requirements; air reporting remains Unknown until verified.",
         "Follow-up: establish a ComReg route specifically for112 answering complaints/company reports; ECAS operator form is not a regulator route.",
@@ -6288,16 +6601,15 @@
         ],
         "ireland-13": [
           "monitoring-406fab448c9b6810f0c9274d"
-        ]
-      },
-      "previous_record_blob_sha": "da5a100d5b2c53190e9d7362a5ae5d93391ac6c3",
-      "refresh_note": "Current main blob unchanged; queued Sweden branch not treated as main."
+        ],
+        "discovery-ie-si636-2023-as-made-pdf": []
+      }
     },
     "Italy": {
       "record_path": ".github/agents/research/countries/italy.json",
       "record_blob_sha": "ef43154cf9473ddb759d263de53977717aa042ee",
       "record_ref": "main",
-      "refreshed_on": "2026-11-13",
+      "refreshed_on": "2026-11-20",
       "open_questions": [
         "Before PR: resolved by narrowing — retain existing Yes with Stanca/EAA distinction; do not present it as a new verified universal EAA-page duty.",
         "Before PR: resolved by preserving only existing portal and marking EAA routes Unknown; no generic email promoted to reporting.",
@@ -6368,15 +6680,13 @@
         "it-agid-determination-84-2026": [],
         "it-agid-accessibility-regulation-84-2026": [],
         "it-gu-26a02536": []
-      },
-      "previous_record_blob_sha": "ef43154cf9473ddb759d263de53977717aa042ee",
-      "refresh_note": "Current main blob unchanged; queued Sweden branch not treated as main."
+      }
     },
     "Portugal": {
       "record_path": ".github/agents/research/countries/portugal.json",
       "record_blob_sha": "200ee915dbd083484c3b62115cf914b12a16c0bc",
       "record_ref": "main",
-      "refreshed_on": "2026-11-13",
+      "refreshed_on": "2026-11-20",
       "open_questions": [
         "Follow-up: Portugal / accessibility-statement Yes — awaiting an official email answer. Preserve contributor's existing Yes (Source needed); once the Portuguese competent monitoring body or government responds, verify whether it explicitly requires a dedicated public page comparable to a WAD accessibility declaration, rather than only public terms or an equivalent document under Art. 13/Annex II. Owner: researcher; nonblocking for this PR; resolved by dated official reply or direct government guidance recorded with provenance.",
         "Follow-up: Portugal / company non-compliance and exemptions — obtain purpose-specific form, email or postal routes from ANACOM, ASAE, Banco de Portugal, CMVM, ERC, AMT, ANAC, IMT and IGAC; IDiPD email confirms forwarding but supplies no designated intake; owner: researcher; resolved with direct destination and audience/purpose.",
@@ -6456,9 +6766,7 @@
         ],
         "pt-idipd-2026-10-21-programme": [],
         "pt-idipd-2026-10-26-reminder": []
-      },
-      "previous_record_blob_sha": "34b378fe8a118bcf782a1cda58063b6367a46b25",
-      "refresh_note": "Current main blob unchanged; queued Sweden branch not treated as main."
+      }
     }
   },
   "catalog_additions": [
@@ -8502,6 +8810,61 @@
       ],
       "pilot_promoted": false,
       "metrics": "No cost/token metrics available; timestamps record overall run, not per-country active research time."
+    },
+    {
+      "run_id": "weekly-2026-11-20-1795162251333",
+      "started_at": "2026-11-20T08:10:51.333Z",
+      "research_finished_at": "2026-11-20T08:19:00Z",
+      "finished_at": "2026-11-20T08:23:52.705Z",
+      "status": "completed_bounded_weekly_pass_monthly_discovery_partial",
+      "selection": {
+        "weekly": 13,
+        "rotation": 10,
+        "attempted": 23,
+        "readable": 22,
+        "unresolved": 1
+      },
+      "reader_failures": [
+        {
+          "url": "https://www.agid.gov.it/it/notizie/european-accessibility-act-eaa-pubblicate-le-linee-guida-agid-sullaccessibilita-dei-servizi",
+          "error": "(403) Forbidden",
+          "outcome": "reader_failed/browser_accessible",
+          "browser": "Cloud Chrome, article body read; authentication/intake not rechecked"
+        },
+        {
+          "url": "https://www.imt-ip.pt/",
+          "error": "(403) Forbidden",
+          "outcome": "reader_failed/browser_access_denied",
+          "browser_error": "Access denied — Error 16; This request was blocked by our security service",
+          "next_step": "Ordinary-browser check outside this denied session; no source outage conclusion"
+        },
+        {
+          "url": "https://www.agid.gov.it/it/taxonomy/term/63",
+          "error": "(403) Forbidden",
+          "outcome": "reader_failed/browser_verification_needed",
+          "next_step": "Ordinary-browser check of topic archive; no browser attempt made for this destination"
+        }
+      ],
+      "pr": 101,
+      "pr_url": "https://github.com/erikgustafsson/en-301-549-resources-and-eaa-monitoring-testing/pull/101",
+      "pr_status": "draft",
+      "reconciled_merged_prs": [
+        96,
+        98
+      ],
+      "source_status": "Reader snapshots include cached results; AgID article browser live. No forms submitted.",
+      "discovery_status": "partial in all five; October and November not complete",
+      "accuracy": "Three helper candidates reviewed: two observation-scope refinements, one already-covered CCPC mailbox change. No new nationwide no-enforcement claim.",
+      "time_cost": "Elapsed time from timestamps only; precise per-country active time and monetary/token cost not instrumented.",
+      "notifications": {
+        "destination": "originating_chat",
+        "cross_thread_delivery": "unavailable; not sent",
+        "start": "weekly-2026-11-20-1795162251333:start",
+        "pr_created": "weekly-2026-11-20-1795162251333:pr101",
+        "outcome": "weekly-2026-11-20-1795162251333:outcome",
+        "browser_failures": "weekly-2026-11-20-1795162251333:reader-failures"
+      },
+      "remaining_handoffs": "Existing Italy regulation and Ireland statutory-PDF research handoffs remain queued; Portugal public banking correction and bounded enforcement report remain queued. No second country PR."
     }
   ],
   "manual_eu27": {
