@@ -324,6 +324,13 @@
       "source_type": "monitoring_body",
       "section": "Hvor sender du orienteringen hen?",
       "evidence": "In the company non-compliance instructions, the browser rendered one link labelled mo@erst.dk pointing to mailto:mo@erst.dk. No message was sent; this does not test delivery or forwarding."
+    },
+    "source-22949453b0797a74a2693f55": {
+      "url": "https://erhvervsstyrelsen.dk/vejledning-tilgaengelighedskrav-til-produkter-og-tjenester",
+      "accessed_on": "2026-11-27",
+      "source_type": "monitoring_body",
+      "section": "4.5, 5.1–5.3, 6.1; guidance updated 2026-11-23",
+      "evidence": "Section 4.5 distinguishes the normal Virk exemption declaration from an optional bulk spreadsheet with documentation for more than 20 products or services. Section 5 separately addresses non-compliance notification. No submission or acceptance tested."
     }
   },
   "domains": {
@@ -692,7 +699,8 @@
         "Follow-up: Seek explicit authority guidance on a dedicated public-page mandate; preserve the existing Yes meanwhile.",
         "Follow-up: Inspect the existing Produkter.dk form in a normal browser without submitting; record audience, login and language requirements. Its current preservation does not depend on this check.",
         "Before PR: Separate isolated language check completed 2026-09-24; supported corrections applied and rechecked. See final language-review entry for original excerpts, final wording and limits. Ordinary maintainer review remains.",
-        "Contributor update received 2026-11-02: the user reports having notified sik@sik.dk about the conflicting email links on the official Orienteringspligt page (visible mo@erst.dk; first letter links to sik@sik.dk, remaining text to mo@erst.dk). The outgoing message itself was not inspected and no authority reply has been supplied. Keep the issue open pending an authority response or a corrected official page; the act of reporting does not verify the intended mailbox or resolve the defect. No public reporting-route change follows from this status update. Resolved for the published link only on 6 November 2026: the ordinary browser showed a single matching label and target (mo@erst.dk). Keep the earlier outreach and reported replies as historical evidence; no public-row change is needed."
+        "Contributor update received 2026-11-02: the user reports having notified sik@sik.dk about the conflicting email links on the official Orienteringspligt page (visible mo@erst.dk; first letter links to sik@sik.dk, remaining text to mo@erst.dk). The outgoing message itself was not inspected and no authority reply has been supplied. Keep the issue open pending an authority response or a corrected official page; the act of reporting does not verify the intended mailbox or resolve the defect. No public reporting-route change follows from this status update. Resolved for the published link only on 6 November 2026: the ordinary browser showed a single matching label and target (mo@erst.dk). Keep the earlier outreach and reported replies as historical evidence; no public-row change is needed.",
+        "2026-11-27, queued before publication: compare existing Virk-only exemption wording with Erhvervsstyrelsen guidance updated 23 November (§4.5, source-22949453b0797a74a2693f55; https://erhvervsstyrelsen.dk/vejledning-tilgaengelighedskrav-til-produkter-og-tjenester). One declaration per product/service on Virk; for more than 20, the authority describes an optional Excel template with supporting documentation to mo@erst.dk. Distinguish this from ordinary non-compliance reporting under §5.3 and from approval of an exemption. Confirm sector applicability and review exact Danish-to-English public wording before a row edit. No email, delivery, forwarding, form usability or reporting language verified; preserve correspondence."
       ]
     },
     "sanctions": {
@@ -898,6 +906,12 @@
           "question": "Extend coverage beyond these sources and resolve the specific gaps recorded in the latest attempt.",
           "owner": "Future authorised enforcement researcher",
           "resolved_when": "Dated primary material resolves the listed source/access/scope gaps; record outcomes without inferring national absence."
+        },
+        {
+          "priority": "Follow-up",
+          "question": "Erhvervsstyrelsen guidance §4.5 describes spot checks of submitted exemptions; §6 distinguishes direct/delegated oversight (source-22949453b0797a74a2693f55, https://erhvervsstyrelsen.dk/vejledning-tilgaengelighedskrav-til-produkter-og-tjenester, accessed 2026-11-27). Retain as procedural context, not a dated case or outcome.",
+          "owner": "Future authorised enforcement researcher",
+          "resolved_when": "A dated official action or outcome, not the general guidance alone, supports a public case."
         }
       ]
     },
@@ -1082,6 +1096,45 @@
           "disposition": "not_applicable",
           "reason": "No standards-adoption evidence.",
           "next_action": "None for this evidence."
+        }
+      ]
+    },
+    {
+      "id": "dk-erst-bulk-exemptions-20261123",
+      "country": "Denmark",
+      "recorded_on": "2026-11-27",
+      "destinations": [
+        {
+          "page": "EAA authorities and reporting by country.md",
+          "domain": "monitoring",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "research_only",
+          "reason": "Qualified bulk exemption channel for economic operators; not general reporting email proof.",
+          "next_action": "Queue until the single-country PR slot is free; review Danish scope and final wording."
+        },
+        {
+          "page": "EAA enforcement tracking.md",
+          "domain": "enforcement",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "research_only",
+          "reason": "Describes sampling/control procedure, not an individual inspection or outcome.",
+          "next_action": "No public change from this guidance."
+        },
+        {
+          "page": "EAA sanctions.md",
+          "domain": "sanctions",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No new penalty decision or established change of statutory maximum.",
+          "next_action": "No public change from this guidance."
+        },
+        {
+          "page": "EN 301 549 adoption.md",
+          "domain": "adoption",
+          "record": ".github/agents/research/countries/denmark.json",
+          "disposition": "not_applicable",
+          "reason": "No EN edition or adoption change.",
+          "next_action": "No public change from this guidance."
         }
       ]
     }
